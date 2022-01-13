@@ -1,8 +1,12 @@
 import { list } from "@keystone-6/core";
 import { relationship, select, text, timestamp } from "@keystone-6/core/fields";
-import { document } from "@keystone-6/fields-document";
 
 export const reference = list({
+  ui: {
+    description: "Referenzen",
+    labelField: "title",
+    searchFields: ["url", "title", "description", "owner"],
+  },
   fields: {
     url: text({
         isIndexed: "unique"

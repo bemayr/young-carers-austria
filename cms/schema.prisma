@@ -11,33 +11,6 @@ generator client {
   output   = "node_modules/.prisma/client"
 }
 
-model User {
-  id       String @id @default(cuid())
-  name     String @default("")
-  email    String @unique @default("")
-  password String
-  posts    Post[] @relation("Post_author")
-}
-
-model Post {
-  id          String    @id @default(cuid())
-  title       String    @default("")
-  status      String?   @default("draft")
-  content     String    @default("[{\"type\":\"paragraph\",\"children\":[{\"text\":\"\"}]}]")
-  publishDate DateTime?
-  author      User?     @relation("Post_author", fields: [authorId], references: [id])
-  authorId    String?   @map("author")
-  tags        Tag[]     @relation("Post_tags")
-
-  @@index([authorId])
-}
-
-model Tag {
-  id    String @id @default(cuid())
-  name  String @default("")
-  posts Post[] @relation("Post_tags")
-}
-
 model Category {
   id                  String      @id @default(cuid())
   name                String      @unique @default("")
@@ -68,4 +41,11 @@ model Keyword {
   name                    String      @unique @default("")
   from_Category_keywords  Category[]  @relation("Category_keywords")
   from_Reference_keywords Reference[] @relation("Reference_keywords")
+}
+
+model User {
+  id       String @id @default(cuid())
+  name     String @default("")
+  email    String @unique @default("")
+  password String
 }
