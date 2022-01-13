@@ -229,8 +229,6 @@ input ReferenceWhereInput {
   target: ReferenceTargetTypeNullableFilter
   title: StringFilter
   description: StringFilter
-  ogPreview: StringFilter
-  lastUpdated: DateTimeNullableFilter
   categories: CategoryManyRelationFilter
   keywords: KeywordManyRelationFilter
 }

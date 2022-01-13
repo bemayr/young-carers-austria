@@ -9,7 +9,7 @@ export const reference = list({
   },
   fields: {
     url: text({
-        isIndexed: "unique"
+      isIndexed: "unique",
     }),
     // Having the status here will make it easy for us to choose whether to display
     // posts on a live site.
@@ -32,27 +32,33 @@ export const reference = list({
     }),
     owner: text(),
     target: select({
-        label: "Zielgruppe",
-        type: "enum",
-        options: [
-          { label: "Alle", value: "all" },
-          { label: "Young Carers", value: "youngcarers" },
-          { label: "Eltern und Interessierte", value: "parents" },
-        ],
-        validation: {
-          isRequired: true,
-        },
-        ui: {
-          displayMode: "segmented-control",
-        },
+      label: "Zielgruppe",
+      type: "enum",
+      options: [
+        { label: "Alle", value: "all" },
+        { label: "Young Carers", value: "youngcarers" },
+        { label: "Eltern und Interessierte", value: "parents" },
+      ],
+      validation: {
+        isRequired: true,
+      },
+      ui: {
+        displayMode: "segmented-control",
+      },
     }),
     title: text(),
     description: text(),
-    ogPreview: text(),
+    ogPreview: text({
+      isFilterable: false,
+    }),
     lastUpdated: timestamp({
-        db: {
-            updatedAt: true
-        }
+      isFilterable: false,
+      db: {
+        updatedAt: true,
+      },
+      ui: {
+        itemView: { fieldMode: 'hidden' }
+      }
     }),
     categories: relationship({
       ref: "Category.references",
@@ -66,17 +72,11 @@ export const reference = list({
       },
     }),
     keywords: relationship({
-        ref: "Keyword",
-        many: true,
-        ui: {
-          displayMode: "cards",
-          cardFields: ["name"],
-          linkToItem: false,
-          inlineCreate: {
-              fields: [ "name" ]
-          },
-          inlineConnect: true,
-        },
-      }),
+      ref: "Keyword",
+      many: true,
+      ui: {
+        displayMode: "select",
+      },
+    }),
   },
 });

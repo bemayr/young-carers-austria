@@ -17,13 +17,9 @@ export const category = list({
       formatting: {
         inlineMarks: {
           bold: true,
-          superscript: true,
-          subscript: true,
-          keyboard: true,
         },
         listTypes: true,
         headingLevels: [2, 3],
-        softBreaks: true,
       },
       links: true,
     }),
@@ -56,11 +52,6 @@ export const category = list({
         many: true,
         ui: {
           displayMode: "select",
-        //   linkToItem: false,
-        //   inlineCreate: {
-        //       fields: [ "name" ]
-        //   },
-        //   inlineConnect: true,
         },
       }),
   },
