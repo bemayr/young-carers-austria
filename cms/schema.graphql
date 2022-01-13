@@ -303,6 +303,293 @@ input TagCreateInput {
   posts: PostRelateToManyForCreateInput
 }
 
+type Category {
+  id: ID!
+  name: String
+  title: String
+  information: Category_information_Document
+  renderedInformation: String
+  lastUpdated: DateTime
+  references(
+    where: ReferenceWhereInput! = {}
+    orderBy: [ReferenceOrderByInput!]! = []
+    take: Int
+    skip: Int! = 0
+  ): [Reference!]
+  referencesCount(where: ReferenceWhereInput! = {}): Int
+  keywords(
+    where: KeywordWhereInput! = {}
+    orderBy: [KeywordOrderByInput!]! = []
+    take: Int
+    skip: Int! = 0
+  ): [Keyword!]
+  keywordsCount(where: KeywordWhereInput! = {}): Int
+}
+
+type Category_information_Document {
+  document(hydrateRelationships: Boolean! = false): JSON!
+}
+
+input CategoryWhereUniqueInput {
+  id: ID
+  name: String
+}
+
+input CategoryWhereInput {
+  AND: [CategoryWhereInput!]
+  OR: [CategoryWhereInput!]
+  NOT: [CategoryWhereInput!]
+  id: IDFilter
+  name: StringFilter
+  title: StringFilter
+  renderedInformation: StringFilter
+  lastUpdated: DateTimeNullableFilter
+  references: ReferenceManyRelationFilter
+  keywords: KeywordManyRelationFilter
+}
+
+input ReferenceManyRelationFilter {
+  every: ReferenceWhereInput
+  some: ReferenceWhereInput
+  none: ReferenceWhereInput
+}
+
+input KeywordManyRelationFilter {
+  every: KeywordWhereInput
+  some: KeywordWhereInput
+  none: KeywordWhereInput
+}
+
+input CategoryOrderByInput {
+  id: OrderDirection
+  name: OrderDirection
+  title: OrderDirection
+  renderedInformation: OrderDirection
+  lastUpdated: OrderDirection
+}
+
+input CategoryUpdateInput {
+  name: String
+  title: String
+  information: JSON
+  renderedInformation: String
+  lastUpdated: DateTime
+  references: ReferenceRelateToManyForUpdateInput
+  keywords: KeywordRelateToManyForUpdateInput
+}
+
+input ReferenceRelateToManyForUpdateInput {
+  disconnect: [ReferenceWhereUniqueInput!]
+  set: [ReferenceWhereUniqueInput!]
+  create: [ReferenceCreateInput!]
+  connect: [ReferenceWhereUniqueInput!]
+}
+
+input KeywordRelateToManyForUpdateInput {
+  disconnect: [KeywordWhereUniqueInput!]
+  set: [KeywordWhereUniqueInput!]
+  create: [KeywordCreateInput!]
+  connect: [KeywordWhereUniqueInput!]
+}
+
+input CategoryUpdateArgs {
+  where: CategoryWhereUniqueInput!
+  data: CategoryUpdateInput!
+}
+
+input CategoryCreateInput {
+  name: String
+  title: String
+  information: JSON
+  renderedInformation: String
+  lastUpdated: DateTime
+  references: ReferenceRelateToManyForCreateInput
+  keywords: KeywordRelateToManyForCreateInput
+}
+
+input ReferenceRelateToManyForCreateInput {
+  create: [ReferenceCreateInput!]
+  connect: [ReferenceWhereUniqueInput!]
+}
+
+input KeywordRelateToManyForCreateInput {
+  create: [KeywordCreateInput!]
+  connect: [KeywordWhereUniqueInput!]
+}
+
+type Reference {
+  id: ID!
+  url: String
+  type: ReferenceTypeType
+  owner: String
+  target: ReferenceTargetType
+  title: String
+  description: String
+  ogPreview: String
+  lastUpdated: DateTime
+  categories(
+    where: CategoryWhereInput! = {}
+    orderBy: [CategoryOrderByInput!]! = []
+    take: Int
+    skip: Int! = 0
+  ): [Category!]
+  categoriesCount(where: CategoryWhereInput! = {}): Int
+  keywords(
+    where: KeywordWhereInput! = {}
+    orderBy: [KeywordOrderByInput!]! = []
+    take: Int
+    skip: Int! = 0
+  ): [Keyword!]
+  keywordsCount(where: KeywordWhereInput! = {}): Int
+}
+
+enum ReferenceTypeType {
+  booklet
+  podcast
+  song
+  video
+  website
+}
+
+enum ReferenceTargetType {
+  all
+  youngcarers
+  parents
+}
+
+input ReferenceWhereUniqueInput {
+  id: ID
+  url: String
+}
+
+input ReferenceWhereInput {
+  AND: [ReferenceWhereInput!]
+  OR: [ReferenceWhereInput!]
+  NOT: [ReferenceWhereInput!]
+  id: IDFilter
+  url: StringFilter
+  type: ReferenceTypeTypeNullableFilter
+  owner: StringFilter
+  target: ReferenceTargetTypeNullableFilter
+  title: StringFilter
+  description: StringFilter
+  ogPreview: StringFilter
+  lastUpdated: DateTimeNullableFilter
+  categories: CategoryManyRelationFilter
+  keywords: KeywordManyRelationFilter
+}
+
+input ReferenceTypeTypeNullableFilter {
+  equals: ReferenceTypeType
+  in: [ReferenceTypeType!]
+  notIn: [ReferenceTypeType!]
+  not: ReferenceTypeTypeNullableFilter
+}
+
+input ReferenceTargetTypeNullableFilter {
+  equals: ReferenceTargetType
+  in: [ReferenceTargetType!]
+  notIn: [ReferenceTargetType!]
+  not: ReferenceTargetTypeNullableFilter
+}
+
+input CategoryManyRelationFilter {
+  every: CategoryWhereInput
+  some: CategoryWhereInput
+  none: CategoryWhereInput
+}
+
+input ReferenceOrderByInput {
+  id: OrderDirection
+  url: OrderDirection
+  type: OrderDirection
+  owner: OrderDirection
+  target: OrderDirection
+  title: OrderDirection
+  description: OrderDirection
+  ogPreview: OrderDirection
+  lastUpdated: OrderDirection
+}
+
+input ReferenceUpdateInput {
+  url: String
+  type: ReferenceTypeType
+  owner: String
+  target: ReferenceTargetType
+  title: String
+  description: String
+  ogPreview: String
+  lastUpdated: DateTime
+  categories: CategoryRelateToManyForUpdateInput
+  keywords: KeywordRelateToManyForUpdateInput
+}
+
+input CategoryRelateToManyForUpdateInput {
+  disconnect: [CategoryWhereUniqueInput!]
+  set: [CategoryWhereUniqueInput!]
+  create: [CategoryCreateInput!]
+  connect: [CategoryWhereUniqueInput!]
+}
+
+input ReferenceUpdateArgs {
+  where: ReferenceWhereUniqueInput!
+  data: ReferenceUpdateInput!
+}
+
+input ReferenceCreateInput {
+  url: String
+  type: ReferenceTypeType
+  owner: String
+  target: ReferenceTargetType
+  title: String
+  description: String
+  ogPreview: String
+  lastUpdated: DateTime
+  categories: CategoryRelateToManyForCreateInput
+  keywords: KeywordRelateToManyForCreateInput
+}
+
+input CategoryRelateToManyForCreateInput {
+  create: [CategoryCreateInput!]
+  connect: [CategoryWhereUniqueInput!]
+}
+
+type Keyword {
+  id: ID!
+  name: String
+}
+
+input KeywordWhereUniqueInput {
+  id: ID
+  name: String
+}
+
+input KeywordWhereInput {
+  AND: [KeywordWhereInput!]
+  OR: [KeywordWhereInput!]
+  NOT: [KeywordWhereInput!]
+  id: IDFilter
+  name: StringFilter
+}
+
+input KeywordOrderByInput {
+  id: OrderDirection
+  name: OrderDirection
+}
+
+input KeywordUpdateInput {
+  name: String
+}
+
+input KeywordUpdateArgs {
+  where: KeywordWhereUniqueInput!
+  data: KeywordUpdateInput!
+}
+
+input KeywordCreateInput {
+  name: String
+}
+
 """
 The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf).
 """
@@ -330,6 +617,33 @@ type Mutation {
   updateTags(data: [TagUpdateArgs!]!): [Tag]
   deleteTag(where: TagWhereUniqueInput!): Tag
   deleteTags(where: [TagWhereUniqueInput!]!): [Tag]
+  createCategory(data: CategoryCreateInput!): Category
+  createCategories(data: [CategoryCreateInput!]!): [Category]
+  updateCategory(
+    where: CategoryWhereUniqueInput!
+    data: CategoryUpdateInput!
+  ): Category
+  updateCategories(data: [CategoryUpdateArgs!]!): [Category]
+  deleteCategory(where: CategoryWhereUniqueInput!): Category
+  deleteCategories(where: [CategoryWhereUniqueInput!]!): [Category]
+  createReference(data: ReferenceCreateInput!): Reference
+  createReferences(data: [ReferenceCreateInput!]!): [Reference]
+  updateReference(
+    where: ReferenceWhereUniqueInput!
+    data: ReferenceUpdateInput!
+  ): Reference
+  updateReferences(data: [ReferenceUpdateArgs!]!): [Reference]
+  deleteReference(where: ReferenceWhereUniqueInput!): Reference
+  deleteReferences(where: [ReferenceWhereUniqueInput!]!): [Reference]
+  createKeyword(data: KeywordCreateInput!): Keyword
+  createKeywords(data: [KeywordCreateInput!]!): [Keyword]
+  updateKeyword(
+    where: KeywordWhereUniqueInput!
+    data: KeywordUpdateInput!
+  ): Keyword
+  updateKeywords(data: [KeywordUpdateArgs!]!): [Keyword]
+  deleteKeyword(where: KeywordWhereUniqueInput!): Keyword
+  deleteKeywords(where: [KeywordWhereUniqueInput!]!): [Keyword]
   endSession: Boolean!
   authenticateUserWithPassword(
     email: String!
@@ -384,6 +698,30 @@ type Query {
   ): [Tag!]
   tag(where: TagWhereUniqueInput!): Tag
   tagsCount(where: TagWhereInput! = {}): Int
+  categories(
+    where: CategoryWhereInput! = {}
+    orderBy: [CategoryOrderByInput!]! = []
+    take: Int
+    skip: Int! = 0
+  ): [Category!]
+  category(where: CategoryWhereUniqueInput!): Category
+  categoriesCount(where: CategoryWhereInput! = {}): Int
+  references(
+    where: ReferenceWhereInput! = {}
+    orderBy: [ReferenceOrderByInput!]! = []
+    take: Int
+    skip: Int! = 0
+  ): [Reference!]
+  reference(where: ReferenceWhereUniqueInput!): Reference
+  referencesCount(where: ReferenceWhereInput! = {}): Int
+  keywords(
+    where: KeywordWhereInput! = {}
+    orderBy: [KeywordOrderByInput!]! = []
+    take: Int
+    skip: Int! = 0
+  ): [Keyword!]
+  keyword(where: KeywordWhereUniqueInput!): Keyword
+  keywordsCount(where: KeywordWhereInput! = {}): Int
   keystone: KeystoneMeta!
   authenticatedItem: AuthenticatedItem
 }

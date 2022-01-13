@@ -37,3 +37,35 @@ model Tag {
   name  String @default("")
   posts Post[] @relation("Post_tags")
 }
+
+model Category {
+  id                  String      @id @default(cuid())
+  name                String      @unique @default("")
+  title               String      @default("")
+  information         String      @default("[{\"type\":\"paragraph\",\"children\":[{\"text\":\"\"}]}]")
+  renderedInformation String      @default("")
+  lastUpdated         DateTime?   @updatedAt
+  references          Reference[] @relation("Category_references")
+  keywords            Keyword[]   @relation("Category_keywords")
+}
+
+model Reference {
+  id          String     @id @default(cuid())
+  url         String     @unique @default("")
+  type        String
+  owner       String     @default("")
+  target      String
+  title       String     @default("")
+  description String     @default("")
+  ogPreview   String     @default("")
+  lastUpdated DateTime?  @updatedAt
+  categories  Category[] @relation("Category_references")
+  keywords    Keyword[]  @relation("Reference_keywords")
+}
+
+model Keyword {
+  id                      String      @id @default(cuid())
+  name                    String      @unique @default("")
+  from_Category_keywords  Category[]  @relation("Category_keywords")
+  from_Reference_keywords Reference[] @relation("Reference_keywords")
+}

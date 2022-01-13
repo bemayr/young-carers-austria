@@ -20,6 +20,9 @@ import { Lists } from '.keystone/types';
 import { user } from './user';
 import { post } from './post';
 import { tag } from './tag';
+import { category } from './category';
+import { reference } from './reference';
+import { keyword } from './keyword';
 
 // We have a users list, a blogs list, and tags for blog posts, so they can be filtered.
 // Each property on the exported object will become the name of a list (a.k.a. the `listKey`),
@@ -32,4 +35,8 @@ export const lists: Lists = {
   Post: post,
   // Our final list is the tag list. This field is just a name and a relationship to posts
   Tag: tag,
+  // custom additions ([TODO]: remove keystone demo content)
+  Category: category,
+  Reference: reference,
+  Keyword: keyword,
 };
