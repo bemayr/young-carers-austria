@@ -25,15 +25,24 @@ model Category {
 model Reference {
   id          String     @id @default(cuid())
   url         String     @unique @default("")
-  type        String
-  owner       String     @default("")
-  target      String
   title       String     @default("")
   description String     @default("")
-  ogPreview   String     @default("")
+  type        String
+  target      String
   lastUpdated DateTime?  @updatedAt
+  owner       Owner?     @relation("Reference_owner", fields: [ownerId], references: [id])
+  ownerId     String?    @map("owner")
   categories  Category[] @relation("Category_references")
   keywords    Keyword[]  @relation("Reference_keywords")
+
+  @@index([ownerId])
+}
+
+model Owner {
+  id         String      @id @default(cuid())
+  name       String      @unique @default("")
+  url        String      @default("")
+  references Reference[] @relation("Reference_owner")
 }
 
 model Keyword {
@@ -48,4 +57,12 @@ model User {
   name     String @default("")
   email    String @unique @default("")
   password String
+}
+
+model Singleton {
+  id              String @id @default(cuid())
+  name            String @unique @default("")
+  title           String @default("")
+  content         String @default("[{\"type\":\"paragraph\",\"children\":[{\"text\":\"\"}]}]")
+  renderedContent String @default("")
 }

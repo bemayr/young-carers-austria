@@ -21,6 +21,8 @@ import { user } from './user';
 import { category } from './category';
 import { reference } from './reference';
 import { keyword } from './keyword';
+import { singleton } from './singleton';
+import { owner } from './owner';
 
 // We have a users list, a blogs list, and tags for blog posts, so they can be filtered.
 // Each property on the exported object will become the name of a list (a.k.a. the `listKey`),
@@ -28,6 +30,8 @@ import { keyword } from './keyword';
 export const lists: Lists = {
   Category: category,
   Reference: reference,
+  Owner: owner,
   Keyword: keyword,
   User: user,
+  Singleton: singleton,
 };

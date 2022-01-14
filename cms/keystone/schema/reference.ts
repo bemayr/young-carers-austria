@@ -5,14 +5,15 @@ export const reference = list({
   ui: {
     description: "Referenzen",
     labelField: "title",
-    searchFields: ["url", "title", "description", "owner"],
+    searchFields: ["url", "title", "description"],
   },
   fields: {
+    // [TODO]: create custom field that also includes the Title, Description and OpenGraph Data, then remove the properties beneath
     url: text({
       isIndexed: "unique",
     }),
-    // Having the status here will make it easy for us to choose whether to display
-    // posts on a live site.
+    title: text(),
+    description: text(),
     type: select({
       label: "Typ",
       type: "enum",
@@ -30,7 +31,6 @@ export const reference = list({
         displayMode: "segmented-control",
       },
     }),
-    owner: text(),
     target: select({
       label: "Zielgruppe",
       type: "enum",
@@ -46,11 +46,6 @@ export const reference = list({
         displayMode: "segmented-control",
       },
     }),
-    title: text(),
-    description: text(),
-    ogPreview: text({
-      isFilterable: false,
-    }),
     lastUpdated: timestamp({
       isFilterable: false,
       db: {
@@ -58,6 +53,15 @@ export const reference = list({
       },
       ui: {
         itemView: { fieldMode: 'hidden' }
+      }
+    }),
+    owner: relationship({
+      label: "Quelle",
+      ref: "Owner.references",
+      many: false,
+      ui: {
+        displayMode: "select",
+        hideCreate: false,
       }
     }),
     categories: relationship({
