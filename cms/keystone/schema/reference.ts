@@ -10,6 +10,7 @@ export const reference = list({
   fields: {
     // [TODO]: create custom field that also includes the Title, Description and OpenGraph Data, then remove the properties beneath
     url: text({
+      label: "Adresse",
       isIndexed: "unique",
     }),
     title: text(),
@@ -17,6 +18,7 @@ export const reference = list({
     type: select({
       label: "Typ",
       type: "enum",
+      defaultValue: "website",
       options: [
         { label: "Dokument", value: "booklet" },
         { label: "Podcast", value: "podcast" },
@@ -34,6 +36,7 @@ export const reference = list({
     target: select({
       label: "Zielgruppe",
       type: "enum",
+      defaultValue: "all",
       options: [
         { label: "Alle", value: "all" },
         { label: "Young Carers", value: "youngcarers" },
@@ -48,15 +51,17 @@ export const reference = list({
     }),
     lastUpdated: timestamp({
       isFilterable: false,
+      isOrderable: true,
       db: {
         updatedAt: true,
       },
       ui: {
-        itemView: { fieldMode: 'hidden' }
+        itemView: { fieldMode: 'hidden' },
+        createView: { fieldMode: 'hidden' },
       }
     }),
     owner: relationship({
-      label: "Quelle",
+      label: "Für den Inhalt verantwortlich (erforderlich)",
       ref: "Owner.references",
       many: false,
       ui: {
@@ -65,6 +70,7 @@ export const reference = list({
       }
     }),
     categories: relationship({
+      label: "Kategorien",
       ref: "Category.references",
       many: true,
       ui: {
@@ -76,6 +82,7 @@ export const reference = list({
       },
     }),
     keywords: relationship({
+      label: "Schlagwörter",
       ref: "Keyword",
       many: true,
       ui: {

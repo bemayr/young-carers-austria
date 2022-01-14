@@ -44,7 +44,6 @@ input CategoryWhereInput {
   name: StringFilter
   title: StringFilter
   renderedInformation: StringFilter
-  lastUpdated: DateTimeNullableFilter
   references: ReferenceManyRelationFilter
   keywords: KeywordManyRelationFilter
 }
@@ -88,17 +87,6 @@ input NestedStringFilter {
   not: NestedStringFilter
 }
 
-input DateTimeNullableFilter {
-  equals: DateTime
-  in: [DateTime!]
-  notIn: [DateTime!]
-  lt: DateTime
-  lte: DateTime
-  gt: DateTime
-  gte: DateTime
-  not: DateTimeNullableFilter
-}
-
 input ReferenceManyRelationFilter {
   every: ReferenceWhereInput
   some: ReferenceWhereInput
@@ -114,7 +102,6 @@ input KeywordManyRelationFilter {
 input CategoryOrderByInput {
   id: OrderDirection
   name: OrderDirection
-  title: OrderDirection
   renderedInformation: OrderDirection
   lastUpdated: OrderDirection
 }
