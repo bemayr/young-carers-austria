@@ -24,11 +24,11 @@ model Category {
 
 model Reference {
   id          String     @id @default(cuid())
-  url         String     @unique @default("")
+  url         String     @default("")
   title       String     @default("")
   description String     @default("")
-  type        String
-  target      String
+  type        String     @default("website")
+  target      String     @default("all")
   lastUpdated DateTime?  @updatedAt
   owner       Owner?     @relation("Reference_owner", fields: [ownerId], references: [id])
   ownerId     String?    @map("owner")

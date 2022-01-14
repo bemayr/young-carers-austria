@@ -69,10 +69,9 @@ export const category = list({
         listView: { fieldMode: "hidden" },
       },
       hooks: {
-        resolveInput: ({ resolvedData }) => {
+        resolveInput: ({ resolvedData, context }) => {
           const { information } = resolvedData;
           if (information === undefined) return undefined;
-          console.log({ information });
           return documentToMarkdown(information);
         },
       },

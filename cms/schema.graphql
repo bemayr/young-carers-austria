@@ -201,7 +201,6 @@ enum ReferenceTargetType {
 
 input ReferenceWhereUniqueInput {
   id: ID
-  url: String
 }
 
 input ReferenceWhereInput {
