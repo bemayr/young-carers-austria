@@ -401,54 +401,6 @@ input KeywordCreateInput {
   name: String
 }
 
-type User {
-  id: ID!
-  name: String
-  email: String
-  password: PasswordState
-}
-
-type PasswordState {
-  isSet: Boolean!
-}
-
-input UserWhereUniqueInput {
-  id: ID
-  email: String
-}
-
-input UserWhereInput {
-  AND: [UserWhereInput!]
-  OR: [UserWhereInput!]
-  NOT: [UserWhereInput!]
-  id: IDFilter
-  name: StringFilter
-  email: StringFilter
-}
-
-input UserOrderByInput {
-  id: OrderDirection
-  name: OrderDirection
-  email: OrderDirection
-}
-
-input UserUpdateInput {
-  name: String
-  email: String
-  password: String
-}
-
-input UserUpdateArgs {
-  where: UserWhereUniqueInput!
-  data: UserUpdateInput!
-}
-
-input UserCreateInput {
-  name: String
-  email: String
-  password: String
-}
-
 type Singleton {
   id: ID!
   name: String
@@ -502,6 +454,54 @@ input SingletonCreateInput {
   renderedContent: String
 }
 
+type User {
+  id: ID!
+  name: String
+  email: String
+  password: PasswordState
+}
+
+type PasswordState {
+  isSet: Boolean!
+}
+
+input UserWhereUniqueInput {
+  id: ID
+  email: String
+}
+
+input UserWhereInput {
+  AND: [UserWhereInput!]
+  OR: [UserWhereInput!]
+  NOT: [UserWhereInput!]
+  id: IDFilter
+  name: StringFilter
+  email: StringFilter
+}
+
+input UserOrderByInput {
+  id: OrderDirection
+  name: OrderDirection
+  email: OrderDirection
+}
+
+input UserUpdateInput {
+  name: String
+  email: String
+  password: String
+}
+
+input UserUpdateArgs {
+  where: UserWhereUniqueInput!
+  data: UserUpdateInput!
+}
+
+input UserCreateInput {
+  name: String
+  email: String
+  password: String
+}
+
 """
 The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf).
 """
@@ -544,12 +544,6 @@ type Mutation {
   updateKeywords(data: [KeywordUpdateArgs!]!): [Keyword]
   deleteKeyword(where: KeywordWhereUniqueInput!): Keyword
   deleteKeywords(where: [KeywordWhereUniqueInput!]!): [Keyword]
-  createUser(data: UserCreateInput!): User
-  createUsers(data: [UserCreateInput!]!): [User]
-  updateUser(where: UserWhereUniqueInput!, data: UserUpdateInput!): User
-  updateUsers(data: [UserUpdateArgs!]!): [User]
-  deleteUser(where: UserWhereUniqueInput!): User
-  deleteUsers(where: [UserWhereUniqueInput!]!): [User]
   createSingleton(data: SingletonCreateInput!): Singleton
   createSingletons(data: [SingletonCreateInput!]!): [Singleton]
   updateSingleton(
@@ -559,6 +553,12 @@ type Mutation {
   updateSingletons(data: [SingletonUpdateArgs!]!): [Singleton]
   deleteSingleton(where: SingletonWhereUniqueInput!): Singleton
   deleteSingletons(where: [SingletonWhereUniqueInput!]!): [Singleton]
+  createUser(data: UserCreateInput!): User
+  createUsers(data: [UserCreateInput!]!): [User]
+  updateUser(where: UserWhereUniqueInput!, data: UserUpdateInput!): User
+  updateUsers(data: [UserUpdateArgs!]!): [User]
+  deleteUser(where: UserWhereUniqueInput!): User
+  deleteUsers(where: [UserWhereUniqueInput!]!): [User]
   endSession: Boolean!
   authenticateUserWithPassword(
     email: String!
@@ -621,14 +621,6 @@ type Query {
   ): [Keyword!]
   keyword(where: KeywordWhereUniqueInput!): Keyword
   keywordsCount(where: KeywordWhereInput! = {}): Int
-  users(
-    where: UserWhereInput! = {}
-    orderBy: [UserOrderByInput!]! = []
-    take: Int
-    skip: Int! = 0
-  ): [User!]
-  user(where: UserWhereUniqueInput!): User
-  usersCount(where: UserWhereInput! = {}): Int
   singletons(
     where: SingletonWhereInput! = {}
     orderBy: [SingletonOrderByInput!]! = []
@@ -637,6 +629,14 @@ type Query {
   ): [Singleton!]
   singleton(where: SingletonWhereUniqueInput!): Singleton
   singletonsCount(where: SingletonWhereInput! = {}): Int
+  users(
+    where: UserWhereInput! = {}
+    orderBy: [UserOrderByInput!]! = []
+    take: Int
+    skip: Int! = 0
+  ): [User!]
+  user(where: UserWhereUniqueInput!): User
+  usersCount(where: UserWhereInput! = {}): Int
   keystone: KeystoneMeta!
   authenticatedItem: AuthenticatedItem
 }

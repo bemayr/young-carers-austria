@@ -32,6 +32,6 @@ export const lists: Lists = {
   Reference: reference,
   Owner: owner,
   Keyword: keyword,
-  User: user,
   Singleton: singleton,
+  User: user,
 };

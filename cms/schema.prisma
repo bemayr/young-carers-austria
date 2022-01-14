@@ -52,17 +52,17 @@ model Keyword {
   from_Reference_keywords Reference[] @relation("Reference_keywords")
 }
 
-model User {
-  id       String @id @default(cuid())
-  name     String @default("")
-  email    String @unique @default("")
-  password String
-}
-
 model Singleton {
   id              String @id @default(cuid())
   name            String @unique @default("")
   title           String @default("")
   content         String @default("[{\"type\":\"paragraph\",\"children\":[{\"text\":\"\"}]}]")
   renderedContent String @default("")
+}
+
+model User {
+  id       String @id @default(cuid())
+  name     String @default("")
+  email    String @unique @default("")
+  password String
 }
