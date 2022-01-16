@@ -250,11 +250,11 @@ export function registerMigrateV1Data(
       });
     }
 
-    addSingletonEntry("start", "Willkommensnachricht", entries.about.start1, entries.about.start2)
-    addSingletonEntry("imprint", "Impressum", entries.about.imprint)
-    addSingletonEntry("copyright", "Copyright", entries.about.copyright)
-    addSingletonEntry("accessibility", "Datenschutzerklärung", entries.about.gdpr1, entries.about.gdpr2)
-    addSingletonEntry("gdpr", "Barrierefreiheitserklärung", entries.about.accessibility1, entries.about.accessibility2, entries.about.accessibility3)
+    await addSingletonEntry("start", "Willkommensnachricht", entries.about.start1, entries.about.start2)
+    await addSingletonEntry("imprint", "Impressum", entries.about.imprint)
+    await addSingletonEntry("copyright", "Copyright", entries.about.copyright)
+    await addSingletonEntry("accessibility", "Datenschutzerklärung", entries.about.gdpr1, entries.about.gdpr2)
+    await addSingletonEntry("gdpr", "Barrierefreiheitserklärung", entries.about.accessibility1, entries.about.accessibility2, entries.about.accessibility3)
     const insertedSingletons = await context.query.Singleton.findMany({
       query: "id name",
     });
