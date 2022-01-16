@@ -1,7 +1,7 @@
 import { list } from "@keystone-6/core";
 import { relationship, text, timestamp } from "@keystone-6/core/fields";
 import { document } from "@keystone-6/fields-document";
-import { serialize } from "remark-slate";
+import { Node } from "slate";
 
 export const category = list({
   ui: {
@@ -50,7 +50,7 @@ export const category = list({
 
           if (information === undefined) addError();
           else {
-            const markdown = documentToMarkdown(information);
+            const markdown = documentToPlain(information);
             const trimmed = markdown
               .replace("\n", "")
               .replace("<br>", "")
@@ -72,7 +72,7 @@ export const category = list({
         resolveInput: ({ resolvedData, context }) => {
           const { information } = resolvedData;
           if (information === undefined) return undefined;
-          return documentToMarkdown(information);
+          return documentToPlain(information);
         },
       },
     }),
@@ -117,4 +117,12 @@ function documentToMarkdown(documentValue: any) {
     .map((block: any) => serialize(block))
     .join("");
   return markdown;
+}
+
+function documentToPlain(documentValue: any) {
+  return serialize(JSON.parse(documentValue))
+}
+
+const serialize = (nodes: Node[]) => {
+  return nodes.map(n => Node.string(n)).join('\n')
 }

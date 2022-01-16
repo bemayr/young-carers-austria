@@ -5,6 +5,21 @@ import {
   KeystoneContext,
 } from "@keystone-6/core/types";
 import fileApiContent from "../../data/migration/v1/brz-data.json";
+import { deserializeMarkdown as deserializeMarkdownKeystone } from "../../keystone-fixes/document-field/markdown";
+
+function deserializeMarkdown(markdown: string) {
+  const slateContent = deserializeMarkdownKeystone(markdown);
+  return slateContent[0].type === "paragraph"
+    ? slateContent
+    : // wrap content in paragraph, so that it adheres to the keystone slate spec ✅
+      [{ type: "paragraph", children: slateContent }];
+}
+
+function parseTargetGroups(targetGroups: string[]) {
+  if (targetGroups.length === 2) return "all";
+  if (targetGroups.includes("Young Carers")) return "youngcarers";
+  if (targetGroups.includes("Eltern / Interessierte")) return "parents";
+}
 
 export type Entry = {
   id: string;
@@ -77,7 +92,7 @@ export function registerMigrateV1Data(
       ({ category, title, value, modifiedAt, keywords }) => ({
         name: category,
         title: title,
-        information: [{ type: "paragraph", children: [{ text: value }] }], // [TODO]: deserialize markdown
+        information: deserializeMarkdown(value),
         lastUpdated: new Date(modifiedAt).toISOString(),
         keywords: {
           connect: keywords.map((keyword) => ({
@@ -134,7 +149,7 @@ export function registerMigrateV1Data(
         title: title,
         description: abstractText, // [TODO]: deserialize markdown
         type: type.toLowerCase(),
-        target: "all", // [TODO]: parse and map value
+        target: parseTargetGroups(targetGroups),
         categories: { connect: [{ id: categoryLookup[category] }] },
         owner: { connect: { id: ownerLookup[owner] } },
         lastUpdated: new Date(modifiedAt).toISOString(),
@@ -162,7 +177,10 @@ export function registerMigrateV1Data(
       .map(
         ([url, refs]) =>
           `${url}\n${refs
-            .map(({ title, category, abstractText }) => `- [${category}]: ${title} (${abstractText})`)
+            .map(
+              ({ title, category, abstractText }) =>
+                `- [${category}]: ${title} (${abstractText})`
+            )
             .join("\n")}`
       );
 
@@ -174,6 +192,7 @@ export function registerMigrateV1Data(
       owners: insertedOwners.length,
       references: insertedReferences.length,
       duplicateReferences: duplicateReferences,
+      abstractTexts: existingReferences.map(ref => ref.abstractText)
     });
   });
 }
