@@ -13,8 +13,15 @@ export const reference = list({
       label: "Adresse",
       // isIndexed: "unique", // [TODO]: re-enable this after duplicate references were discussed
     }),
-    title: text(),
-    description: text(),
+    title: text({
+      label: "Titel"
+    }),
+    description: text({
+      label: "Beschreibung",
+      ui: {
+        displayMode: "textarea"
+      }
+    }),
     type: select({
       label: "Typ",
       type: "enum",

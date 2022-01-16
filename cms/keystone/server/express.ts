@@ -21,6 +21,57 @@ function parseTargetGroups(targetGroups: string[]) {
   if (targetGroups.includes("Eltern / Interessierte")) return "parents";
 }
 
+
+const aboutEntriesIds = {
+  "a9a06cd4-f61f-4738-8121-693d613128db": "imprint",
+  "27f77b43-85bc-497a-bf25-07c79adbaaa4": "accessibility1",
+  "df6e5333-3f3a-468e-987f-9be160678d02": "accessibility2",
+  "e7aa3e5e-5443-47c0-9059-da793339e854": "accessibility3",
+  "899d51d3-0fa5-44fe-9a89-a04d105c3d1d": "gdpr1",
+  "d82c36dd-e28d-483b-bd06-0d25e0c69f13": "gdpr2",
+  "5a361d37-ea3d-42eb-b17f-9ce543b3dbe9": "copyright",
+  "35ff36a2-8645-4ebf-b1f8-98c8b21ddb2e": "start1",
+  "0c647c26-5202-4177-8dc7-58e364a248d3": "start2",
+};
+type InformationEntries = Entry[];
+type AboutEntries = {
+  [P in typeof aboutEntriesIds[keyof typeof aboutEntriesIds]]: string;
+};
+type Entries = {
+  information: InformationEntries;
+  about: AboutEntries;
+};
+
+export function isCategoryEntry(entry: Entry) {
+  return entry.type === "TEXT" && entry.abstractText === "";
+}
+
+function partitionEntries(allEntries: Entry[]): Entries {
+  let informationEntries: InformationEntries = [];
+  let aboutEntries: AboutEntries = {
+    imprint: "in Bearbeitung",
+    accessibility1: "in Bearbeitung",
+    accessibility2: "",
+    accessibility3: "",
+    gdpr1: "in Bearbeitung",
+    gdpr2: "",
+    copyright: "in Bearbeitung",
+    start1: "in Bearbeitung",
+    start2: "",
+  };
+  for (const entry of allEntries) {
+    if (Object.keys(aboutEntriesIds).includes(entry.id))
+      aboutEntries[aboutEntriesIds[entry.id as keyof typeof aboutEntriesIds]] =
+        entry.value;
+    else informationEntries.push(entry);
+  }
+  return {
+    information: informationEntries,
+    about: aboutEntries,
+  };
+}
+
+
 export type Entry = {
   id: string;
   type: "TEXT" | "WEBSITE" | "VIDEO" | "SONG" | "PODCAST" | "BOOKLET";
@@ -60,6 +111,7 @@ export function registerMigrateV1Data(
     await prune("Category");
     await prune("Owner");
     await prune("Reference");
+    await prune("Singleton");
 
     // const webApiContent: YCApiContent = await fetch(
     //   "https://portal.lfrz.at/at.gv.lfrz.youngcarers-p/api/content/sync"
@@ -147,7 +199,7 @@ export function registerMigrateV1Data(
       }) => ({
         url: value,
         title: title,
-        description: abstractText, // [TODO]: deserialize markdown
+        description: abstractText,
         type: type.toLowerCase(),
         target: parseTargetGroups(targetGroups),
         categories: { connect: [{ id: categoryLookup[category] }] },
@@ -186,62 +238,35 @@ export function registerMigrateV1Data(
 
     console.log(duplicateReferences.join("\n\n"));
 
+    async function addSingletonEntry(name: string, title: string, ...parts: string[]) {
+      const markdownContent = parts.join("")
+      const slateContent = deserializeMarkdown(markdownContent)
+      await context.query.Singleton.createOne({
+        data: {
+          name: name,
+          title: title,
+          content: slateContent
+        },
+      });
+    }
+
+    addSingletonEntry("start", "Willkommensnachricht", entries.about.start1, entries.about.start2)
+    addSingletonEntry("imprint", "Impressum", entries.about.imprint)
+    addSingletonEntry("copyright", "Copyright", entries.about.copyright)
+    addSingletonEntry("accessibility", "Datenschutzerklärung", entries.about.gdpr1, entries.about.gdpr2)
+    addSingletonEntry("gdpr", "Barrierefreiheitserklärung", entries.about.accessibility1, entries.about.accessibility2, entries.about.accessibility3)
+    const insertedSingletons = await context.query.Singleton.findMany({
+      query: "id name",
+    });
+
     res.json({
       keywords: insertedKeywords.length,
       categories: insertedCategories.length,
       owners: insertedOwners.length,
       references: insertedReferences.length,
+      metadata: insertedSingletons.length,
       duplicateReferences: duplicateReferences,
       abstractTexts: existingReferences.map(ref => ref.abstractText)
     });
   });
-}
-
-const aboutEntriesIds = {
-  "a9a06cd4-f61f-4738-8121-693d613128db": "imprint",
-  "27f77b43-85bc-497a-bf25-07c79adbaaa4": "accessibility1",
-  "df6e5333-3f3a-468e-987f-9be160678d02": "accessibility2",
-  "e7aa3e5e-5443-47c0-9059-da793339e854": "accessibility3",
-  "899d51d3-0fa5-44fe-9a89-a04d105c3d1d": "gdpr1",
-  "d82c36dd-e28d-483b-bd06-0d25e0c69f13": "gdpr2",
-  "5a361d37-ea3d-42eb-b17f-9ce543b3dbe9": "copyright",
-  "35ff36a2-8645-4ebf-b1f8-98c8b21ddb2e": "start1",
-  "0c647c26-5202-4177-8dc7-58e364a248d3": "start2",
-};
-type InformationEntries = Entry[];
-type AboutEntries = {
-  [P in typeof aboutEntriesIds[keyof typeof aboutEntriesIds]]: string;
-};
-type Entries = {
-  information: InformationEntries;
-  about: AboutEntries;
-};
-
-export function isCategoryEntry(entry: Entry) {
-  return entry.type === "TEXT" && entry.abstractText === "";
-}
-
-function partitionEntries(allEntries: Entry[]): Entries {
-  let informationEntries: InformationEntries = [];
-  let aboutEntries: AboutEntries = {
-    imprint: "in Bearbeitung",
-    accessibility1: "in Bearbeitung",
-    accessibility2: "",
-    accessibility3: "",
-    gdpr1: "in Bearbeitung",
-    gdpr2: "",
-    copyright: "in Bearbeitung",
-    start1: "in Bearbeitung",
-    start2: "",
-  };
-  for (const entry of allEntries) {
-    if (Object.keys(aboutEntriesIds).includes(entry.id))
-      aboutEntries[aboutEntriesIds[entry.id as keyof typeof aboutEntriesIds]] =
-        entry.value;
-    else informationEntries.push(entry);
-  }
-  return {
-    information: informationEntries,
-    about: aboutEntries,
-  };
 }

@@ -10,10 +10,15 @@ export const singleton = list({
   },
   fields: {
     name: text({
+      // [todo]: show only for administrators
       isIndexed: "unique",
+      label: "Schlüssel"
     }),
-    title: text(),
+    title: text({
+      label: "Beschreibung"
+    }),
     content: document({
+      label: "Inhalt",
       formatting: {
         inlineMarks: {
           bold: true,
