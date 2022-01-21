@@ -11,7 +11,7 @@ export const reference = list({
     // [TODO]: create custom field that also includes the Title, Description and OpenGraph Data, then remove the properties beneath
     url: text({
       label: "Adresse",
-      // isIndexed: "unique", // [TODO]: re-enable this after duplicate references were discussed
+      isIndexed: "unique", // [TODO]: re-enable this after duplicate references were discussed
     }),
     title: text({
       label: "Titel"

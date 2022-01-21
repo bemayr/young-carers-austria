@@ -24,7 +24,7 @@ model Category {
 
 model Reference {
   id          String     @id @default(cuid())
-  url         String     @default("")
+  url         String     @unique @default("")
   title       String     @default("")
   description String     @default("")
   type        String     @default("website")
