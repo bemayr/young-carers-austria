@@ -23,17 +23,22 @@ model Category {
 }
 
 model Reference {
-  id          String     @id @default(cuid())
-  url         String     @unique @default("")
-  title       String     @default("")
-  description String     @default("")
-  type        String     @default("website")
-  target      String     @default("all")
-  lastUpdated DateTime?  @updatedAt
-  owner       Owner?     @relation("Reference_owner", fields: [ownerId], references: [id])
-  ownerId     String?    @map("owner")
-  categories  Category[] @relation("Category_references")
-  keywords    Keyword[]  @relation("Reference_keywords")
+  id                    String     @id @default(cuid())
+  url                   String     @unique @default("")
+  title                 String     @default("")
+  description           String     @default("")
+  address_url           String?
+  address_onlineStatus  String?
+  address_openGraphData String?
+  address_title         String?
+  address_description   String?
+  type                  String     @default("website")
+  target                String     @default("all")
+  lastUpdated           DateTime?  @updatedAt
+  owner                 Owner?     @relation("Reference_owner", fields: [ownerId], references: [id])
+  ownerId               String?    @map("owner")
+  categories            Category[] @relation("Category_references")
+  keywords              Keyword[]  @relation("Reference_keywords")
 
   @@index([ownerId])
 }

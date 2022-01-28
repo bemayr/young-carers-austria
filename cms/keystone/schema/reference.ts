@@ -1,5 +1,7 @@
+import { stars } from './../fields/stars-field/index';
 import { list } from "@keystone-6/core";
 import { relationship, select, text, timestamp } from "@keystone-6/core/fields";
+import { url } from '../fields/url-field';
 
 export const reference = list({
   ui: {
@@ -22,6 +24,7 @@ export const reference = list({
         displayMode: "textarea"
       }
     }),
+    address: url(),
     type: select({
       label: "Typ",
       type: "enum",

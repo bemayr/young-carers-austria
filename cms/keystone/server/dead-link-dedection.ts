@@ -7,23 +7,30 @@ import { Express } from "express";
 import { get as getHttp } from "http";
 import { get as getHttps } from "https";
 
-type OnlineStatus = { url: string } & (
-  | { status: "online" }
-  | { status: "offline"; statusCode: number | undefined }
-  | {
-      status: "moved";
-      statusCode: number | undefined;
-      location: string | undefined;
-    }
-  | { status: "timeout" }
-  | { status: "error"; error: unknown }
-);
+type Url = { url: string }
 
-const isReachable = ({ status }: OnlineStatus) => status === "online";
-const needsCorrection = (onlineStatus: OnlineStatus) =>
+export type OnlineStatus =
+  | Online
+  | Offline
+  | Moved
+  | Timeout
+  | Error
+
+export type Online = Url & { status: "online" }
+export type Offline = Url & { status: "offline"; statusCode: number | undefined }
+export type Moved = Url & {
+  status: "moved";
+  statusCode: number | undefined;
+  location: string | undefined;
+}
+export type Timeout = Url & { status: "timeout" }
+export type Error = Url & { status: "error"; error: unknown }
+
+export const isReachable = ({ status }: OnlineStatus) => status === "online";
+export const needsCorrection = (onlineStatus: OnlineStatus) =>
   !isReachable(onlineStatus);
 
-const getOnlineStatus = (
+export const getOnlineStatus = (
   url: string,
   timeoutTime: number = 20000
 ): Promise<OnlineStatus> => {

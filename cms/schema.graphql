@@ -165,6 +165,7 @@ type Reference {
   url: String
   title: String
   description: String
+  address: UrlFieldOutput
   type: ReferenceTypeType
   target: ReferenceTargetType
   lastUpdated: DateTime
@@ -183,6 +184,50 @@ type Reference {
     skip: Int! = 0
   ): [Keyword!]
   keywordsCount(where: KeywordWhereInput! = {}): Int
+}
+
+type UrlFieldOutput {
+  url: String
+  onlineStatus: UrlOnlineStatus
+  openGraphData: String
+  title: String
+  description: String
+}
+
+union UrlOnlineStatus =
+    UrlOnline
+  | UrlOffline
+  | UrlMoved
+  | UrlTimeout
+  | UrlError
+
+type UrlOnline {
+  url: String!
+  status: String!
+}
+
+type UrlOffline {
+  url: String!
+  status: String!
+  statusCode: Int
+}
+
+type UrlMoved {
+  url: String!
+  status: String!
+  statusCode: Int
+  location: String
+}
+
+type UrlTimeout {
+  url: String!
+  status: String!
+}
+
+type UrlError {
+  url: String!
+  status: String!
+  error: String!
 }
 
 enum ReferenceTypeType {
@@ -253,12 +298,20 @@ input ReferenceUpdateInput {
   url: String
   title: String
   description: String
+  address: UrlFieldInput
   type: ReferenceTypeType
   target: ReferenceTargetType
   lastUpdated: DateTime
   owner: OwnerRelateToOneForUpdateInput
   categories: CategoryRelateToManyForUpdateInput
   keywords: KeywordRelateToManyForUpdateInput
+}
+
+input UrlFieldInput {
+  url: String
+  onlineStatus: String
+  title: String
+  description: String
 }
 
 input OwnerRelateToOneForUpdateInput {
@@ -283,6 +336,7 @@ input ReferenceCreateInput {
   url: String
   title: String
   description: String
+  address: UrlFieldInput
   type: ReferenceTypeType
   target: ReferenceTargetType
   lastUpdated: DateTime
