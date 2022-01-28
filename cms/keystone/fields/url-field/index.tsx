@@ -16,7 +16,7 @@ import {
   OnlineStatus,
   Timeout,
   Error,
-} from "../../server/dead-link-dedection";
+} from "../../server/links";
 
 // ================== TYPES ==================
 export type UrlFieldConfig<ListTypeInfo extends BaseListTypeInfo> =
@@ -147,10 +147,6 @@ async function inputResolver(
     ...data
   }
 
-  console.info({inputResolver: resolved});
-
-  console.log("test")
-
   return resolved;
 
   // if (data.onlineStatus === undefined && data.url !== undefined && data.url !== null) {
@@ -247,7 +243,6 @@ export const url =
         resolve({
           value: { url, onlineStatus, openGraphData, title, description },
         }) {
-          console.log({output: url})
           return {
             url: url ?? "",
             onlineStatus: onlineStatus && JSON.parse(onlineStatus),

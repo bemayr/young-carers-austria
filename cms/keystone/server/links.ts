@@ -81,39 +81,91 @@ export function registerDeadLinkDetection(
     const context: KeystoneContext = await createContext(req, res);
 
     const references = await context.query.Reference.findMany({
-      query: "id url title",
+      query: "id url title description",
     });
 
     console.log(`Checking URLs... ❓`);
 
-    const result = await Promise.all(
-      references.map(async (ref) => await getOnlineStatus(ref.url))
+    // const result = await Promise.all(
+    //   references.map(async (ref) => await getOnlineStatus(ref.url))
+    // );
+
+    // result
+    //   .filter(needsCorrection)
+    //   .filter(({ url }) => !url.includes("youtube"))
+    //   .forEach((onlineStatus) => {
+    //     switch (onlineStatus.status) {
+    //       case "offline":
+    //         console.log(`⛔ [${onlineStatus.statusCode}] ${onlineStatus.url}`);
+    //         break;
+    //       case "moved":
+    //         const isSame = onlineStatus.url === onlineStatus.location;
+    //         console.log(
+    //           `➡ [${onlineStatus.statusCode}] ${isSame ? "🤣" : ""} ${
+    //             onlineStatus.url
+    //           } MOVED TO ${onlineStatus.location}`
+    //         );
+    //         break;
+    //       case "timeout":
+    //         console.log(`⏰ ${onlineStatus.url}`);
+    //         break;
+    //       case "error":
+    //         console.log(`⁉ ${onlineStatus.url} ${onlineStatus.error}`);
+    //         break;
+    //     }
+    //   });
+
+    const data = await Promise.all(
+      references.map(async (ref) => {
+        const status = await getOnlineStatus(ref.url);
+
+        return {
+          where: { id: ref.id },
+          data: {
+            address: {
+              url: ref.url,
+              onlineStatus: JSON.stringify(status),
+              title: ref.title,
+              description: ref.description
+            },
+          },
+        };
+      })
     );
 
-    result
-      .filter(needsCorrection)
-      .filter(({ url }) => !url.includes("youtube"))
-      .forEach((onlineStatus) => {
-        switch (onlineStatus.status) {
-          case "offline":
-            console.log(`⛔ [${onlineStatus.statusCode}] ${onlineStatus.url}`);
-            break;
-          case "moved":
-            const isSame = onlineStatus.url === onlineStatus.location;
-            console.log(
-              `➡ [${onlineStatus.statusCode}] ${isSame ? "🤣" : ""} ${
-                onlineStatus.url
-              } MOVED TO ${onlineStatus.location}`
-            );
-            break;
-          case "timeout":
-            console.log(`⏰ ${onlineStatus.url}`);
-            break;
-          case "error":
-            console.log(`⁉ ${onlineStatus.url} ${onlineStatus.error}`);
-            break;
-        }
-      });
+    const result = await context.query.Reference.updateMany({
+      data: data,
+      query: `
+        url
+        title
+        description
+        address {
+          url
+          title
+          description
+          onlineStatus {
+            ... on UrlOnline {
+              status
+            }
+            ... on UrlOffline {
+              status
+              statusCode
+            }
+            ... on UrlMoved {
+              status
+              statusCode
+              location
+            }
+            ... on UrlTimeout {
+              status
+            }
+            ... on UrlError {
+              status
+              error
+            }
+          }
+        }`,
+    });
 
     console.log(`All URLs checked... 🏁`);
 

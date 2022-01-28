@@ -28,6 +28,24 @@ export const Field = ({
 }: FieldProps<typeof controller>) => {
   const { typography, fields } = useTheme();
   const [shouldShowErrors, setShouldShowErrors] = useState(false);
+
+  async function urlChanged(url: string) {
+    console.log(url);
+
+    fetch(`/link/validate?url=${url}`)
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+
+    fetch(`/opengraph?url=${url}`)
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+
+    onChange!({
+      ...value,
+      url,
+    });
+  }
+
   return (
     <FieldContainer>
       {onChange ? (
@@ -37,12 +55,7 @@ export const Field = ({
             id={field.path}
             autoFocus={autoFocus}
             type="url"
-            onChange={(event) =>
-              onChange({
-                ...value,
-                url: event.target.value,
-              })
-            }
+            onChange={(event) => urlChanged(event.target.value)}
             value={value.url ?? ""}
             disabled={false}
             onBlur={() => {
@@ -81,7 +94,7 @@ export const Field = ({
             }}
             placeholder="something else"
           />
-          <p>{JSON.stringify(value.onlineStatus)}</p>
+          <pre>{JSON.stringify(value.onlineStatus, null, 2)}</pre>
         </Stack>
       ) : null}
     </FieldContainer>
@@ -113,7 +126,7 @@ type InnerTextValue =
   | { kind: "null"; prev: string }
   | { kind: "value"; value: string };
 
-type UrlValue = Partial<UrlType>
+type UrlValue = Partial<UrlType>;
 
 function deserializeTextValue(value: string | null): InnerTextValue {
   if (value === null) {
@@ -133,28 +146,39 @@ export const controller = (
       onlineStatus {
         ... on UrlOnline {
           status
-          url
         }
         ... on UrlOffline {
           status
-          url
+          statusCode
+        }
+        ... on UrlMoved {
+          status
+          statusCode
+          location
+        }
+        ... on UrlTimeout {
+          status
+        }
+        ... on UrlError {
+          status
+          error
         }
       }
       title
       description
     }`,
     deserialize: (data) => {
-      const urlValue = data[config.path]
-      return urlValue
+      const urlValue = data[config.path];
+      return urlValue;
     },
-    defaultValue: { },
-    serialize: ({url, onlineStatus, openGraphData, title, description}) => ({
+    defaultValue: {},
+    serialize: ({ url, onlineStatus, openGraphData, title, description }) => ({
       [config.path]: {
         url,
         onlineStatus: "",
         // openGraphData: "",
         title,
-        description
+        description,
       },
     }),
   };
