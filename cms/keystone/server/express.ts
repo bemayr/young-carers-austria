@@ -260,7 +260,7 @@ export function registerMigrateV1Data(
           throw new Error(`${url} has ${ref.length} entries and has no lookup entry`) // [todo]: improve this error message
 
         const title = ref.length === 1
-          ? entry.value
+          ? entry.title
           : existingReferencesLookup[url].title;
         
           const description = ref.length === 1
