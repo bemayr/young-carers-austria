@@ -7,24 +7,21 @@ import { Express } from "express";
 import { get as getHttp } from "http";
 import { get as getHttps } from "https";
 
-type Url = { url: string }
+export type OnlineStatus = Online | Offline | Moved | Timeout | Error;
 
-export type OnlineStatus =
-  | Online
-  | Offline
-  | Moved
-  | Timeout
-  | Error
-
-export type Online = Url & { status: "online" }
-export type Offline = Url & { status: "offline"; statusCode: number | undefined }
+type Url = { url: string };
+export type Online = Url & { status: "online" };
+export type Offline = Url & {
+  status: "offline";
+  statusCode: number | undefined;
+};
 export type Moved = Url & {
   status: "moved";
   statusCode: number | undefined;
   location: string | undefined;
-}
-export type Timeout = Url & { status: "timeout" }
-export type Error = Url & { status: "error"; error: unknown }
+};
+export type Timeout = Url & { status: "timeout" };
+export type Error = Url & { status: "error"; error: unknown };
 
 export const isReachable = ({ status }: OnlineStatus) => status === "online";
 export const needsCorrection = (onlineStatus: OnlineStatus) =>
@@ -42,7 +39,6 @@ export const getOnlineStatus = (
         hostname: realUrl.hostname,
         path: realUrl.pathname,
         headers: { "User-Agent": "Mozilla/5.0" },
-        timeout: 3000,
       };
 
       const request = get(options, (response) => {
@@ -50,38 +46,27 @@ export const getOnlineStatus = (
           statusCode,
           headers: { location },
         } = response;
-        response.on("error", (error) => {
-          console.log(`HTTP ERROR ${statusCode} for ${url}: ${error}`);
-          clearTimeout(timeout);
-          resolve({ status: "offline", url, statusCode });
-        });
+
+        clearTimeout(timeout);
+
         if (statusCode && statusCode >= 200 && statusCode <= 299) {
-          clearTimeout(timeout);
           resolve({ status: "online", url });
         } else if (statusCode && statusCode >= 300 && statusCode <= 399) {
-          clearTimeout(timeout);
           resolve({
             status: "moved",
             url,
             statusCode,
             location,
           });
-        }
-        {
-          // console.log(
-          //   `DEBUG ${statusCode} for ${url} (location: ${response.headers.location})`
-          // );
-          clearTimeout(timeout);
+        } else {
           resolve({ status: "offline", url, statusCode });
         }
-      });
+      }).on("error", (error) => resolve({ status: "error", url, error }));
       const timeout = setTimeout(() => {
-        // console.log("TIMEOUT: " + url);
         resolve({ status: "timeout", url });
         request.destroy();
       }, timeoutTime);
     } catch (error) {
-      // console.log(`ERROR for ${url}: ${error}`);
       resolve({ status: "error", url, error });
     }
   });
@@ -135,5 +120,16 @@ export function registerDeadLinkDetection(
     res.json({
       result,
     });
+  });
+
+  app.get("/link/validate", async (req, res) => {
+    const url = req.query.url?.toString();
+    try {
+      const status = await getOnlineStatus(url!, 3000);
+      res.json(status);
+    } catch {
+      res.status(422);
+      res.end();
+    }
   });
 }

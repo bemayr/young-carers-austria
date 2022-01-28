@@ -13,8 +13,9 @@ import { lists } from "./schema";
 
 // Keystone auth is configured separately - check out the basic auth setup we are importing from our auth file.
 import { withAuth, session } from "./auth";
-import { registerMigrateV1Data } from "./server/express";
-import { registerDeadLinkDetection } from "./server/dead-link-dedection";
+import { registerMigrateV1Data } from "./server/migration";
+import { registerDeadLinkDetection } from "./server/links";
+import { registerOpenGraphService } from "./server/opengraph";
 
 export const keystoneConfiguration = withAuth(
   // Using the config function helps typescript guide you to the available options.
@@ -36,6 +37,7 @@ export const keystoneConfiguration = withAuth(
       extendExpressApp: (app, createContext) => {
         registerMigrateV1Data(app, createContext);
         registerDeadLinkDetection(app, createContext);
+        registerOpenGraphService(app);
       },
     },
   })

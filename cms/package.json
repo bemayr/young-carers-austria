@@ -18,5 +18,8 @@
   },
   "engines": {
     "node": "^14.15 || ^16.13"
+  },
+  "devDependencies": {
+    "@types/open-graph-scraper": "^4.8.1"
   }
 }
