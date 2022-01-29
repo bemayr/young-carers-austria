@@ -17,6 +17,7 @@ import {
   Timeout,
   Error,
 } from "../../server/links";
+import { OpenGraphData } from "../../server/opengraph";
 
 // ================== TYPES ==================
 export type UrlFieldConfig<ListTypeInfo extends BaseListTypeInfo> =
@@ -30,14 +31,6 @@ export type UrlType = {
   openGraphData: OpenGraphData;
   title: string | null;
   description: string | null;
-};
-
-type OpenGraphData = {
-  title?: string;
-  type?: string;
-  siteName?: string;
-  description?: string;
-  imageUrl?: string;
 };
 
 const UrlOnline = graphql.object<Online>()({
@@ -110,6 +103,7 @@ const UrlFieldInput = graphql.inputObject({
   fields: {
     url: graphql.arg({ type: graphql.String }),
     onlineStatus: graphql.arg({ type: graphql.String }),
+    openGraphData: graphql.arg({ type: graphql.String }),
     title: graphql.arg({ type: graphql.String }),
     description: graphql.arg({ type: graphql.String }),
   },
@@ -121,6 +115,7 @@ type UrlFieldInputType =
   | {
       url?: string | null;
       onlineStatus?: string | null;
+      openGraphData?: string | null;
       title?: string | null;
       description?: string | null;
     };
@@ -144,8 +139,10 @@ async function inputResolver(
     openGraphData: "",
     title: "",
     description: "",
-    ...data
-  }
+    ...data,
+  };
+
+  console.log({ in: "inputResolver", resolved });
 
   return resolved;
 
@@ -168,7 +165,15 @@ const UrlFieldOutput = graphql.object<UrlType>()({
     }),
     openGraphData: graphql.field({
       type: graphql.String,
-      resolve: ({ openGraphData }) => "",
+      resolve: ({ openGraphData }) => {
+        // console.log({
+        //   in: "UrlFieldOutput.openGraphData.resolve",
+        //   openGraphData,
+        // });
+        return JSON.stringify(openGraphData)
+        // console.log({openGraphData})
+        // return JSON.parse(openGraphData as unknown as string);
+      },
     }),
     title: graphql.field({ type: graphql.String }),
     description: graphql.field({ type: graphql.String }),
@@ -243,6 +248,7 @@ export const url =
         resolve({
           value: { url, onlineStatus, openGraphData, title, description },
         }) {
+          // console.log({ in: "UrlFieldOutput.resolve", openGraphData });
           return {
             url: url ?? "",
             onlineStatus: onlineStatus && JSON.parse(onlineStatus),

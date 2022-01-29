@@ -36,7 +36,7 @@ export const Field = ({
       .then((response) => response.json())
       .then((data) => console.log(data));
 
-    fetch(`/opengraph?url=${url}`)
+    fetch(`/opengraph/processed?url=${url}`)
       .then((response) => response.json())
       .then((data) => console.log(data));
 
@@ -76,7 +76,7 @@ export const Field = ({
             onBlur={() => {
               setShouldShowErrors(true);
             }}
-            placeholder="something else"
+            placeholder={value.openGraphData?.title}
           />
           <FieldLabel>Beschreibung</FieldLabel>
           <TextArea
@@ -92,9 +92,12 @@ export const Field = ({
             onBlur={() => {
               setShouldShowErrors(true);
             }}
-            placeholder="something else"
+            placeholder={value.openGraphData?.description}
           />
           <pre>{JSON.stringify(value.onlineStatus, null, 2)}</pre>
+          <pre>{JSON.stringify(value.openGraphData, null, 2)}</pre>
+          { value.openGraphData?.imageUrl && <img src={value.openGraphData.imageUrl} alt={value.openGraphData.imageAlt} width={300}></img> }
+          { value.openGraphData?.favicon && <img src={value.openGraphData.favicon} alt="favicon"></img> }
         </Stack>
       ) : null}
     </FieldContainer>
@@ -164,19 +167,21 @@ export const controller = (
           error
         }
       }
+      openGraphData
       title
       description
     }`,
     deserialize: (data) => {
       const urlValue = data[config.path];
-      return urlValue;
+      console.log({urlValue})
+      return {...urlValue, openGraphData: JSON.parse(urlValue.openGraphData)};
     },
     defaultValue: {},
     serialize: ({ url, onlineStatus, openGraphData, title, description }) => ({
       [config.path]: {
         url,
         onlineStatus: "",
-        // openGraphData: "",
+        openGraphData: "",
         title,
         description,
       },

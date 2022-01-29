@@ -6,6 +6,8 @@ import {
 } from "@keystone-6/core/types";
 import fileApiContent from "../../data/migration/v1/brz-data.json";
 import { deserializeMarkdown as deserializeMarkdownKeystone } from "../../keystone-fixes/document-field/markdown";
+import { getOnlineStatus } from "./links";
+import { getOpenGraphData } from "./opengraph";
 
 function deserializeMarkdown(markdown: string) {
   const slateContent = deserializeMarkdownKeystone(markdown);
@@ -92,68 +94,85 @@ type YCApiContent = {
   deleted: any[];
 };
 
-const existingReferencesLookup: Record<string, {title: string, description: string}> = {
+const existingReferencesLookup: Record<
+  string,
+  { title: string; description: string }
+> = {
   "https://www.svs.at/cdscontent/?contentid=10007.816614&portal=svsportal": {
     title: "Wie kommts zum Angehörigengespräch?",
-    description: "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart."
+    description:
+      "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
   },
-  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=667": {
-    title: "Infos über das Angehörigengespräch",
-    description: "Folder als Download"
-  },
-  "https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html": {
-    title: "Hilfe für betreuende und pflegende Angehörige",
-    description: "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums"
-  },
+  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=667":
+    {
+      title: "Infos über das Angehörigengespräch",
+      description: "Folder als Download",
+    },
+  "https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html":
+    {
+      title: "Hilfe für betreuende und pflegende Angehörige",
+      description:
+        "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
+    },
   "https://www.superhands.at/fuer-dich/": {
     title: "Nicht gut drauf?",
-    description: "Was du tun kannst, damit es DIR gut geht verraten dir die superhands."
+    description:
+      "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
   },
   "https://www.infoservice.sozialministerium.at/willkommen": {
     title: "Infoservice soziale Dienste",
-    description: "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen."
+    description:
+      "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
   },
-  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307": {
-    title: "Kinder und Jugendliche als pflegende Angehörige",
-    description: "Die beiden Studien (2012, 2014) als Download"
-  },
-  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=331": {
-    title: "Unterstützungen für pflegende Angehörige",
-    description: "Folder als Download"
-  },
-  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=430": {
-    title: "Who cares? YOUNG CARERS!",
-    description: "Folder als Download"
-  },
-  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=86": {
-    title: "EIN:BLICK 5 - Pflege",
-    description: "Broschüre als Download"
-  },
+  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307":
+    {
+      title: "Kinder und Jugendliche als pflegende Angehörige",
+      description: "Die beiden Studien (2012, 2014) als Download",
+    },
+  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=331":
+    {
+      title: "Unterstützungen für pflegende Angehörige",
+      description: "Folder als Download",
+    },
+  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=430":
+    {
+      title: "Who cares? YOUNG CARERS!",
+      description: "Folder als Download",
+    },
+  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=86":
+    {
+      title: "EIN:BLICK 5 - Pflege",
+      description: "Broschüre als Download",
+    },
   "https://www.1450.at/": {
     title: "Hotline 1450",
-    description: "Wenn's weh tut - wähle die Gesundheitsnummer."
+    description: "Wenn's weh tut - wähle die Gesundheitsnummer.",
   },
   "https://www.youtube.com/watch?v=YMcu2a0Z0cQ": {
     title: "A Young Carer Song (Growing Up)",
-    description: "Ein Song anlässlich der CARERS WEEK"
+    description: "Ein Song anlässlich der CARERS WEEK",
   },
   "https://www.gesundheit.steiermark.at/cms/ziel/142146817/DE/": {
     title: "Pflege Steiermark",
-    description: "Das Land Steiermark bietet hier Informationen zu Pflegethemen."
+    description:
+      "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
   },
   "https://www.harmony4kids.at/": {
     title: "harmony4kids",
-    description: "harmony4kids-Trainings geben Kindern Zeit, einfach nur Kind zu sein."
+    description:
+      "harmony4kids-Trainings geben Kindern Zeit, einfach nur Kind zu sein.",
   },
   "https://www.superhands.at/pflege/taegliche-pflege/": {
     title: "Tägliche Pflege",
-    description: "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege."
+    description:
+      "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege.",
   },
   "https://www.ig-pflege.at/service/pflegende_kinder_und_jugendliche.php": {
     title: "Angebote und Hilfe für Young Carers",
-    description: "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema."
-  }
-}
+    description:
+      "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema.",
+  },
+};
 
 export function registerMigrateV1Data(
   app: Express,
@@ -175,6 +194,7 @@ export function registerMigrateV1Data(
     await prune("Reference");
     await prune("Singleton");
 
+    console.log("📔 Acquiring data...");
     const webApiContent: YCApiContent = await fetch(
       "https://portal.lfrz.at/at.gv.lfrz.youngcarers-p/api/content/sync"
     ).then((response) => response.json());
@@ -185,6 +205,7 @@ export function registerMigrateV1Data(
     };
 
     // === KEYWORDS ===
+    console.log("🗝 Migrating keywords...");
     const existingKeywords = [
       ...new Set(entries.all.flatMap((entry) => entry.keywords)),
     ];
@@ -200,6 +221,7 @@ export function registerMigrateV1Data(
     );
 
     // === CATEGORIES ===
+    console.log("🧾 Migrating categories...");
     const existingCategories = entries.information.filter(isCategoryEntry);
     // title = title, category = name, targetGroups, value = information, keywords, (favorite, modifiedAt)
     const transformedCategories = existingCategories.map(
@@ -224,6 +246,7 @@ export function registerMigrateV1Data(
     );
 
     // === OWNERS ===
+    console.log("👤 Migrating Owners...");
     const existingOwners = [
       ...new Set(
         entries.information
@@ -243,6 +266,7 @@ export function registerMigrateV1Data(
     );
 
     // === REFERENCES ===
+    console.log("🔗 Migrating references...");
     const existingReferences = entries.information
       .filter((entry) => !isCategoryEntry(entry))
       .filter(({ type }) => type !== "TEXT") // [TODO]: talk about handling this and rewrite this line
@@ -252,56 +276,85 @@ export function registerMigrateV1Data(
         references[ref.value].push(ref);
         return references;
       }, {} as Record<string, Entry[]>);
-    const transformedReferences = Object.entries(existingReferences).map(
-      ([url, ref]) => {
+    const transformedReferences = await Promise.all(
+      Object.entries(existingReferences).map(async ([passedUrl, ref]) => {
+        const url = passedUrl.trim();
         const entry = ref[0];
 
-        if(ref.length > 1 && existingReferencesLookup[url] === undefined)
-          throw new Error(`${url} has ${ref.length} entries and has no lookup entry`) // [todo]: improve this error message
+        if (ref.length > 1 && existingReferencesLookup[url] === undefined)
+          throw new Error(
+            `${url} has ${ref.length} entries and has no lookup entry`
+          ); // [todo]: improve this error message
 
-        const title = ref.length === 1
-          ? entry.title
-          : existingReferencesLookup[url].title;
-        
-          const description = ref.length === 1
-          ? entry.abstractText
-          : existingReferencesLookup[url].description;
-        
-        const types = new Set(ref.map(e => e.type))
-        if(types.size > 1) throw new Error("multiple types")
+        const title =
+          ref.length === 1
+            ? entry.title.trim()
+            : existingReferencesLookup[url].title;
+
+        console.log(`   processing: ${title} (${url})`);
+
+        const description =
+          ref.length === 1
+            ? entry.abstractText.trim()
+            : existingReferencesLookup[url].description;
+
+        const types = new Set(ref.map((e) => e.type));
+        if (types.size > 1) throw new Error("multiple types");
         const type = [...types][0].toLowerCase();
 
-        const target = parseTargetGroups([...new Set(ref.flatMap(e => e.targetGroups))]);
+        const target = parseTargetGroups([
+          ...new Set(ref.flatMap((e) => e.targetGroups)),
+        ]);
 
-        const categoryIds = ref.map(e => ({id: categoryLookup[e.category]}))
+        const categoryIds = ref.map((e) => ({
+          id: categoryLookup[e.category],
+        }));
 
-        const owners = new Set(ref.map(e => e.owner))
-        if(owners.size > 1) console.error(`multiple owners for "${title}": ${[...owners].map(o => `"${o}"`).join(", ")}`)
+        const owners = new Set(ref.map((e) => e.owner));
+        if (owners.size > 1)
+          console.warn(
+            `⚠ [WARNING] multiple owners for "${title}": ${[...owners]
+              .map((o) => `"${o}"`)
+              .join(", ")}`
+          );
         const ownerId = ownerLookup[[...owners][0]];
 
         const lastUpdated = new Date(entry.modifiedAt).toISOString();
 
         const keywordIds = ref
-          .flatMap(e => e.keywords)
-          .map(keyword => ({id: keywordLookup[keyword]}))
+          .flatMap((e) => e.keywords)
+          .map((keyword) => ({ id: keywordLookup[keyword] }));
 
-        return ({
+        const onlineStatus = await getOnlineStatus(url, 10000);
+        const openGraphData = await getOpenGraphData(url, 10000);
+
+        return {
           url: url,
           title: title,
           description: description,
+          address: {
+            url: url,
+            title: title,
+            description: description,
+            onlineStatus: JSON.stringify(onlineStatus),
+            openGraphData: JSON.stringify(openGraphData),
+          },
           type: type,
           target: target,
           categories: { connect: categoryIds },
           owner: { connect: { id: ownerId } },
           lastUpdated: lastUpdated,
-          keywords: { connect: keywordIds},
-        });
-      }
+          keywords: { connect: keywordIds },
+        };
+      })
     );
     const insertedReferences = await context.query.Reference.createMany({
       data: transformedReferences,
       query: "id url",
     });
+
+    // === REFERENCES ===
+    console.log("ℹ Migrating metadata...");
 
     async function addSingletonEntry(
       name: string,
@@ -353,5 +406,7 @@ export function registerMigrateV1Data(
       references: insertedReferences.length,
       metadata: insertedSingletons.length,
     });
+
+    console.log("🏁 Migration finished...")
   });
 }

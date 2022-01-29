@@ -310,6 +310,7 @@ input ReferenceUpdateInput {
 input UrlFieldInput {
   url: String
   onlineStatus: String
+  openGraphData: String
   title: String
   description: String
 }
