@@ -177,7 +177,7 @@ export function registerDeadLinkDetection(
   app.get("/link/validate", async (req, res) => {
     const url = req.query.url?.toString();
     try {
-      const status = await getOnlineStatus(url!, 3000);
+      const status = await getOnlineStatus(url!);
       res.json(status);
     } catch {
       res.status(422);

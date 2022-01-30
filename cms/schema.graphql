@@ -166,6 +166,7 @@ type Reference {
   title: String
   description: String
   address: UrlFieldOutput
+  onlineStatus: ReferenceOnlineStatusType
   type: ReferenceTypeType
   target: ReferenceTargetType
   lastUpdated: DateTime
@@ -230,6 +231,14 @@ type UrlError {
   error: String!
 }
 
+enum ReferenceOnlineStatusType {
+  online
+  offline
+  moved
+  timeout
+  error
+}
+
 enum ReferenceTypeType {
   booklet
   podcast
@@ -257,11 +266,19 @@ input ReferenceWhereInput {
   url: StringFilter
   title: StringFilter
   description: StringFilter
+  onlineStatus: ReferenceOnlineStatusTypeNullableFilter
   type: ReferenceTypeTypeNullableFilter
   target: ReferenceTargetTypeNullableFilter
   owner: OwnerWhereInput
   categories: CategoryManyRelationFilter
   keywords: KeywordManyRelationFilter
+}
+
+input ReferenceOnlineStatusTypeNullableFilter {
+  equals: ReferenceOnlineStatusType
+  in: [ReferenceOnlineStatusType!]
+  notIn: [ReferenceOnlineStatusType!]
+  not: ReferenceOnlineStatusTypeNullableFilter
 }
 
 input ReferenceTypeTypeNullableFilter {
@@ -289,6 +306,7 @@ input ReferenceOrderByInput {
   url: OrderDirection
   title: OrderDirection
   description: OrderDirection
+  onlineStatus: OrderDirection
   type: OrderDirection
   target: OrderDirection
   lastUpdated: OrderDirection
@@ -299,6 +317,7 @@ input ReferenceUpdateInput {
   title: String
   description: String
   address: UrlFieldInput
+  onlineStatus: ReferenceOnlineStatusType
   type: ReferenceTypeType
   target: ReferenceTargetType
   lastUpdated: DateTime
@@ -338,6 +357,7 @@ input ReferenceCreateInput {
   title: String
   description: String
   address: UrlFieldInput
+  onlineStatus: ReferenceOnlineStatusType
   type: ReferenceTypeType
   target: ReferenceTargetType
   lastUpdated: DateTime

@@ -173,6 +173,27 @@ export const HomePage = () => {
 
   const dataGetter = makeDataGetter(data, error?.graphQLErrors);
 
+  const { data: linksData, error: linksError } = useQuery(
+    gql`
+      query {
+        references(
+          where: { onlineStatus: { in: [offline, timeout, error] } },
+          orderBy: { onlineStatus:asc }
+        ) {
+          id
+          url
+          title
+          description
+          onlineStatus
+          address {
+            title
+          }
+        }
+      }
+    `,
+    { errorPolicy: "all" }
+  );
+
   return (
     <PageContainer
       header={<Heading type="h3">Übersicht</Heading>}
@@ -238,7 +259,15 @@ export const HomePage = () => {
         </Stack>
         <Stack>
           <H4>Kaputte Referenzen</H4>
-          <p>Dieses Feature ist leider noch nicht implementiert... 😢</p>
+          {linksData !== undefined ? (
+            <ul>
+              {linksData?.references?.map((d: any, i: number) => (
+                <li key={i}>
+                  <b>{d.onlineStatus}:</b> <Link href={`/references/${d.id}`}>{d.title} ({d.url})</Link>
+                </li>
+              ))}
+            </ul>
+          ) : null}
         </Stack>
       </Stack>
     </PageContainer>

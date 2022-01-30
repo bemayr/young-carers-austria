@@ -32,18 +32,32 @@ export const Field = ({
   async function urlChanged(url: string) {
     console.log(url);
 
+    // [todo]: handle this using a statechart
     fetch(`/link/validate?url=${url}`)
       .then((response) => response.json())
-      .then((data) => console.log(data));
+      .then((data) => {
+        console.log(data);
+        onChange!({...value, url, onlineStatus: data})
+      });
 
     fetch(`/opengraph/processed?url=${url}`)
       .then((response) => response.json())
-      .then((data) => console.log(data));
+      .then((data) => {
+        console.log(data);
+        onChange!({...value, url, openGraphData: data})
+      });
 
     onChange!({
       ...value,
       url,
     });
+  }
+
+  function getImgSrc(passedUrl: string, passedBaseUrl: string) {
+    const baseUrl = new URL(passedBaseUrl);
+    return passedUrl.startsWith("/")
+      ? `${baseUrl.protocol}//${baseUrl.host}${passedUrl}`
+      : passedUrl;
   }
 
   return (
@@ -96,8 +110,20 @@ export const Field = ({
           />
           <pre>{JSON.stringify(value.onlineStatus, null, 2)}</pre>
           <pre>{JSON.stringify(value.openGraphData, null, 2)}</pre>
-          { value.openGraphData?.imageUrl && <img src={value.openGraphData.imageUrl} alt={value.openGraphData.imageAlt} width={300}></img> }
-          { value.openGraphData?.favicon && <img src={value.openGraphData.favicon} alt="favicon"></img> }
+          {value.openGraphData?.imageUrl && (
+            <img
+              src={getImgSrc(value.openGraphData.imageUrl, value.url!)}
+              alt={value.openGraphData.imageAlt}
+              width={300}
+            ></img>
+          )}
+          {value.openGraphData?.favicon && (
+            <img
+              src={getImgSrc(value.openGraphData.favicon, value.url!)}
+              alt="favicon"
+              width={32}
+            ></img>
+          )}
         </Stack>
       ) : null}
     </FieldContainer>
@@ -173,15 +199,15 @@ export const controller = (
     }`,
     deserialize: (data) => {
       const urlValue = data[config.path];
-      console.log({urlValue})
-      return {...urlValue, openGraphData: JSON.parse(urlValue.openGraphData)};
+      console.log({ urlValue });
+      return { ...urlValue, openGraphData: JSON.parse(urlValue.openGraphData) };
     },
     defaultValue: {},
     serialize: ({ url, onlineStatus, openGraphData, title, description }) => ({
       [config.path]: {
         url,
-        onlineStatus: "",
-        openGraphData: "",
+        onlineStatus: JSON.stringify(onlineStatus),
+        openGraphData: JSON.stringify(openGraphData),
         title,
         description,
       },

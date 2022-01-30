@@ -75,6 +75,7 @@ const UrlError = graphql.object<Error>()({
     }),
   },
 });
+// [todo]: remodel this using GraphQL's interface type
 const UrlOnlineStatus = graphql.union({
   name: "UrlOnlineStatus",
   types: [UrlOnline, UrlOffline, UrlMoved, UrlTimeout, UrlError],
@@ -128,21 +129,22 @@ async function inputResolver(
   //   return {
   //     url: data,
   //     onlineStatus: data,
+  //     openGraphData: data,
   //     title: data,
   //     description: data,
   //   };
   // }
 
   const resolved = {
-    url: "",
-    onlineStatus: "",
-    openGraphData: "",
-    title: "",
-    description: "",
+    url: undefined,
+    onlineStatus: undefined,
+    openGraphData: undefined,
+    title: undefined,
+    description: undefined,
     ...data,
   };
 
-  console.log({ in: "inputResolver", resolved });
+  // console.log({ in: "inputResolver", resolved, data });
 
   return resolved;
 
@@ -178,6 +180,11 @@ const UrlFieldOutput = graphql.object<UrlType>()({
     title: graphql.field({ type: graphql.String }),
     description: graphql.field({ type: graphql.String }),
   }),
+});
+
+const OnlineStatusEnum = graphql.enum({
+  name: "OnlineStatusEnum",
+  values: graphql.enumValues(["online", "needsFix", "needsUpdate"]),
 });
 
 export const url =
@@ -248,7 +255,7 @@ export const url =
         resolve({
           value: { url, onlineStatus, openGraphData, title, description },
         }) {
-          // console.log({ in: "UrlFieldOutput.resolve", openGraphData });
+          console.log({ in: "UrlFieldOutput.resolve", url, onlineStatus, openGraphData });
           return {
             url: url ?? "",
             onlineStatus: onlineStatus && JSON.parse(onlineStatus),

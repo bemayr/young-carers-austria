@@ -1,7 +1,7 @@
-import { stars } from './../fields/stars-field/index';
+import { stars } from "./../fields/stars-field/index";
 import { list } from "@keystone-6/core";
 import { relationship, select, text, timestamp } from "@keystone-6/core/fields";
-import { url } from '../fields/url-field';
+import { url } from "../fields/url-field";
 
 export const reference = list({
   ui: {
@@ -14,17 +14,38 @@ export const reference = list({
     url: text({
       label: "Adresse",
       isIndexed: "unique", // [TODO]: re-enable this after duplicate references were discussed
+      ui: {
+        itemView: { fieldMode: "hidden" },
+        createView: { fieldMode: "hidden" },
+      },
     }),
     title: text({
-      label: "Titel"
+      label: "Titel",
+      ui: {
+        itemView: { fieldMode: "hidden" },
+        createView: { fieldMode: "hidden" },
+      },
     }),
     description: text({
       label: "Beschreibung",
       ui: {
-        displayMode: "textarea"
-      }
+        itemView: { fieldMode: "hidden" },
+        createView: { fieldMode: "hidden" },
+      },
     }),
-    address: url(),
+    address: url({
+      ui: {
+        listView: { fieldMode: "hidden" },
+      },
+    }),
+    onlineStatus: select({
+      type: "enum",
+      options: ["online", "offline", "moved", "timeout", "error"],
+      ui: {
+        itemView: { fieldMode: "hidden" },
+        createView: { fieldMode: "hidden" },
+      },
+    }),
     type: select({
       label: "Typ",
       type: "enum",
@@ -44,6 +65,7 @@ export const reference = list({
       },
     }),
     target: select({
+      // [todo]: extract this into a reference
       label: "Zielgruppe",
       type: "enum",
       defaultValue: "all",
@@ -66,9 +88,9 @@ export const reference = list({
         updatedAt: true,
       },
       ui: {
-        itemView: { fieldMode: 'hidden' },
-        createView: { fieldMode: 'hidden' },
-      }
+        itemView: { fieldMode: "hidden" },
+        createView: { fieldMode: "hidden" },
+      },
     }),
     owner: relationship({
       label: "Für den Inhalt verantwortlich (erforderlich)",
@@ -77,7 +99,7 @@ export const reference = list({
       ui: {
         displayMode: "select",
         hideCreate: false,
-      }
+      },
     }),
     categories: relationship({
       label: "Kategorien",
@@ -99,5 +121,38 @@ export const reference = list({
         displayMode: "select",
       },
     }),
+  },
+  hooks: {
+    resolveInput: ({ resolvedData, item, inputData }) => {
+      console.log({
+        url: resolvedData.address.url,
+        resolvedData,
+        onlineStatus: resolvedData.address.onlineStatus,
+        openGraphData: resolvedData.address.openGraphData,
+      });
+      const onlineStatus =
+        resolvedData.address.onlineStatus !== undefined
+          ? JSON.parse(resolvedData.address.onlineStatus)
+          : undefined;
+      const openGraphData =
+        resolvedData.address.openGraphData !== undefined
+          ? JSON.parse(resolvedData.address.openGraphData)
+          : undefined;
+      resolvedData.url = resolvedData.address.url;
+      resolvedData.title =
+        resolvedData.address.title === undefined ||
+        resolvedData.address.title === null ||
+        resolvedData.address.title === ""
+          ? openGraphData.title
+          : resolvedData.address.title;
+      resolvedData.description =
+        resolvedData.address.description === undefined ||
+        resolvedData.address.description === null ||
+        resolvedData.address.description === ""
+          ? openGraphData.description
+          : resolvedData.address.description;
+      resolvedData.onlineStatus = onlineStatus.status;
+      return resolvedData;
+    },
   },
 });
