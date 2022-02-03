@@ -87,16 +87,21 @@ export function registerDeadLinkDetection(
     console.log(`Checking URLs... ❓`);
 
     const resultTemp = await Promise.all(
-      references.map(async (ref) => ({title: ref.title, onlineStatus: await getOnlineStatus(ref.url)}))
+      references.map(async (ref) => ({
+        title: ref.title,
+        onlineStatus: await getOnlineStatus(ref.url),
+      }))
     );
 
     resultTemp
-      .filter(({onlineStatus}) => needsCorrection(onlineStatus))
-      .filter(({onlineStatus: { url }}) => !url.includes("youtube"))
-      .forEach(({title, onlineStatus}) => {
+      .filter(({ onlineStatus }) => needsCorrection(onlineStatus))
+      .filter(({ onlineStatus: { url } }) => !url.includes("youtube"))
+      .forEach(({ title, onlineStatus }) => {
         switch (onlineStatus.status) {
           case "offline":
-            console.log(`⛔ ${title} [${onlineStatus.statusCode}] (${onlineStatus.url})`);
+            console.log(
+              `⛔ ${title} [${onlineStatus.statusCode}] (${onlineStatus.url})`
+            );
             break;
           case "moved":
             const isSame = onlineStatus.url === onlineStatus.location;
@@ -110,14 +115,19 @@ export function registerDeadLinkDetection(
             console.log(`⏰ ${title} (${onlineStatus.url})`);
             break;
           case "error":
-            console.log(`⁉ ${title} (${onlineStatus.url}) ${onlineStatus.error}`);
+            console.log(
+              `⁉ ${title} (${onlineStatus.url}) ${onlineStatus.error}`
+            );
             break;
         }
       });
 
     const data = await Promise.all(
       references.map(async (ref) => {
-        const status = await getOnlineStatus(ref.url);
+        let status = await getOnlineStatus(ref.url);
+
+        if (ref.url.includes("youtube") && status.status === "moved")
+          status = { url: ref.url, status: "online" };
 
         return {
           where: { id: ref.id },
@@ -126,7 +136,7 @@ export function registerDeadLinkDetection(
               url: ref.url,
               onlineStatus: JSON.stringify(status),
               title: ref.title,
-              description: ref.description
+              description: ref.description,
             },
           },
         };

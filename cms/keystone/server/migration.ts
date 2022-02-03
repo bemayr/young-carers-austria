@@ -169,8 +169,18 @@ const existingReferencesLookup: Record<
   },
   "https://www.get-social.at/time4friends": {
     title: "Get Social - Time4Friends",
-    description: "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden."
+    description:
+      "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
   },
+  "https://www.gesundheit.gv.at/leben/stress/entspannt-bleiben": {
+    title: "Gesundheitsportal Österreich - Entspannt bleiben",
+    description:
+      "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
+  },
+  "https://www.verrueckte-kindheit.at/de/angebote/beratung/": {
+    title: "Onlineberatung veRRückte Kindheit",
+    description: "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung."
+  }
 };
 
 export function registerMigrateV1Data(
@@ -324,8 +334,8 @@ export function registerMigrateV1Data(
           .flatMap((e) => e.keywords)
           .map((keyword) => ({ id: keywordLookup[keyword] }));
 
-        const onlineStatus = await getOnlineStatus(url, 10000);
-        const openGraphData = await getOpenGraphData(url, 10000);
+        const onlineStatus = await getOnlineStatus(url);
+        const openGraphData = await getOpenGraphData(url);
 
         return {
           url: url,
@@ -406,6 +416,6 @@ export function registerMigrateV1Data(
       metadata: insertedSingletons.length,
     });
 
-    console.log("🏁 Migration finished...")
+    console.log("🏁 Migration finished...");
   });
 }

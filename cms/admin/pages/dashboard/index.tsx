@@ -258,12 +258,12 @@ export const HomePage = () => {
           )}
         </Stack>
         <Stack>
-          <H4>Kaputte Referenzen</H4>
+          <H4>Referenzen</H4>
           {linksData !== undefined ? (
             <ul>
               {linksData?.references?.map((d: any, i: number) => (
                 <li key={i}>
-                  <b>{d.onlineStatus}:</b> <Link href={`/references/${d.id}`}>{d.title} ({d.url})</Link>
+                  <b>{d.onlineStatus}:</b> {d.title} ({d.url}) <Link href={`/references/${d.id}`}>beheben</Link>
                 </li>
               ))}
             </ul>
