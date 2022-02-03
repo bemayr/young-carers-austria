@@ -18,6 +18,19 @@ import {
 } from "@keystone-6/core/types";
 import { CellContainer, CellLink } from "@keystone-6/core/admin-ui/components";
 import { UrlType } from ".";
+import { useMachine } from "@xstate/react";
+import { urlEditMachine } from "./edit-machine";
+import { assign } from "xstate";
+
+function getOnlineStatus(url: string) {
+  return fetch(`/link/validate?url=${url}`).then((response) => response.json());
+}
+
+function getOpenGraphData(url: string) {
+  return fetch(`/opengraph/processed?url=${url}`).then((response) =>
+    response.json()
+  );
+}
 
 export const Field = ({
   field,
@@ -29,29 +42,52 @@ export const Field = ({
   const { typography, fields } = useTheme();
   const [shouldShowErrors, setShouldShowErrors] = useState(false);
 
-  async function urlChanged(url: string) {
-    console.log(url);
+  const context = {
+    url: value.url,
+    onlineStatus: value.onlineStatus,
+    openGraphData: value.openGraphData,
+  };
 
-    // [todo]: handle this using a statechart
-    fetch(`/link/validate?url=${url}`)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        onChange!({...value, url, onlineStatus: data})
-      });
+  console.log(context)
 
-    fetch(`/opengraph/processed?url=${url}`)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        onChange!({...value, url, openGraphData: data})
-      });
-
-    onChange!({
-      ...value,
-      url,
-    });
-  }
+  const [state, send] = useMachine(urlEditMachine, {
+    actions: {
+      "Assign Online Status": assign({
+        onlineStatus: (_, result) => result.data,
+      }),
+      "Assign Open Graph Data": assign({
+        openGraphData: (_, result) => result.data,
+      }),
+      "Assign URL": assign({
+        url: (_, event) => event.url,
+      }),
+      "Assign Proposed URL": assign({
+        url: (context) => {
+          if (context.onlineStatus?.status === "moved")
+            return context.onlineStatus.location!;
+          else throw new Error("Da ist etwas schief gelaufen...");
+        },
+      }),
+      "Report New Value": (context) => {
+        console.log("Reporting New Value");
+        onChange!({ ...value, ...context });
+      },
+    },
+    guards: {
+      "Is Online": ({ onlineStatus }) => onlineStatus?.status === "online",
+      "Is Offline": ({ onlineStatus }) => onlineStatus?.status === "offline",
+      "Is Moved": ({ onlineStatus }) => onlineStatus?.status === "moved",
+      "Is Timed Out": ({ onlineStatus }) => onlineStatus?.status === "timeout",
+      "Is Error": ({ onlineStatus }) => onlineStatus?.status === "error",
+      "Does Not Have Open Graph Data": ({ openGraphData }) =>
+        openGraphData === undefined,
+    },
+    services: {
+      "Fetch Online Status": ({ url }) => getOnlineStatus(url),
+      "Fetch Open Graph Data": ({ url }) => getOpenGraphData(url),
+    },
+    context: context
+  });
 
   function getImgSrc(passedUrl: string, passedBaseUrl: string) {
     const baseUrl = new URL(passedBaseUrl);
@@ -69,8 +105,10 @@ export const Field = ({
             id={field.path}
             autoFocus={autoFocus}
             type="url"
-            onChange={(event) => urlChanged(event.target.value)}
-            value={value.url ?? ""}
+            onChange={(event) =>
+              send({ type: "URL Changed", url: event.target.value })
+            }
+            value={state.context.url ?? ""}
             disabled={false}
             onBlur={() => {
               setShouldShowErrors(true);
@@ -108,6 +146,8 @@ export const Field = ({
             }}
             placeholder={value.openGraphData?.description}
           />
+          <pre>{JSON.stringify(state.value, null, 2)}</pre>
+          <pre>{JSON.stringify(state.context, null, 2)}</pre>
           <pre>{JSON.stringify(value.onlineStatus, null, 2)}</pre>
           <pre>{JSON.stringify(value.openGraphData, null, 2)}</pre>
           {value.openGraphData?.imageUrl && (
