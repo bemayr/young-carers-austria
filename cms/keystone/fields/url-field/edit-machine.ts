@@ -28,7 +28,7 @@ type Services = {
 
 /** @xstate-layout */
 export const urlEditMachine =
-  /** @xstate-layout N4IgpgJg5mDOIC5QFUBKAZABAUQgSwBdMBZAQwGMALPAOzADoBJGwvUgGwGJFQAHAe1it+NHiAAeiAIwA2AEz0ZAZiUBOOatUBWGVKUAOKQBoQAT0QB2ACwL9WiwAYrVmVrlXDAX08m0WXIQkFNR09ADyNOy0DIwQ7GDcSCACQgR4ImKSCFIO9vQWdjL6jlIWWvoVJuYIqjn0UjYWcg4OFrIe3r4YOPhEZFTR4ZGDAGJgBAM0UJhhvGA0mADiAE6kvJSYACKkBKScECIMtABu-ADWDGMTG7PzS6vrWzukYinCoklZOXkFOsUOpXKlTMiH0LXqjSkcikUn0zisFk6ID8PUC-RCDGI-GOkE4AEFyOQwLwiAAFZb8FKQTB+V6Cd6ZaRlegOfTqfRyGQyVlyJQWGRVRC8hz1Lnc1mqBzuBFIlEBPrBQYAYUoYHIZ1o0wiUTomAAyrsCABXWD7Q70E7nS7jKgzYa6g07E101LpD6gLKuVT0AxqNwcqRaVQWVSCmq2ewNZohuSxhwyWXdeVBSYJFEq0hTSAuhmfRA2MMGEVirSlwOqJRyLQypE0fgQOBiOW9FMYpgsNIcHNpDJ5hAFkE1Qz0dlqOT6NTWJqJ-wt9GDbWDWLxbtuxk1Zw+tQqLRKLStVTyMMTqT0OyOFr2OExmeohWpoY663XTUzOYLFZrDbbXar3se6QlCsU9fmUPQrC0WRd2PUofXsAFryUWEZERHxkSTOdFVCRc6D-d0JEQdQRRUCs9z3A8j0HJotHoccdHjBoGisVpb2TedsIAMw4p88PXAdqhhBQ3D5AwrHUIN3CUVjMIfLEcQgXi+34oVq1ooskKDKRNB0aS0SwhgABU8AAWzAfgjQIRSAP7OQw33YsxXkNwykcaxdPvNtsGWCllisgibLDWElB9MEKn3GwNGYqx3NbZVVXVV8cLAfVDWdJI3h7fCsgMGQfQcPcr1cSDVAgwtdHoGw7BcUj42hGL2LAPyvn0OyR00YM2laDwnChbxvCAA */
+  /** @xstate-layout N4IgpgJg5mDOIC5QFUBKAZABAUQgSwBdMBZAQwGMALPAOzADoBhSgexdjEwHkaAbWzgGUCpAgFdYAYkSgADu0J4WNGSAAeiAIyaAbACZ6ADk16ArAAZdAdnOntAFgA0IAJ6IAnAcOmrm+-esfQwBmUwBfMOc0LFxCEgpqOnoefiSAMTACKlooblkwGkwAcQAnUllKTAARUVJJCGUGWgA3FgBrBgysyq58wtLyypqRVXlYRWVVDQRrd3p3YKt7YPdzfVNDZzcEYN16K28rPWNg8yXNUIiojBx8IjJspOIWZshJAEFycjBZIgAFEosMaQTDRUYKAhKFRIdRaKymejmQwLczLYL2HQ6dyeLaIPSrRH2Kz6HTBPSaQzk8KREDRW5xB6JBjMMDkNo5bh8ASYYSiCT1Rr0FrtTqZKic1JCETieAwsYTaGgaaYzT0TR2YwWQzIpZ6XEIfGqw5+TwHcyePRXWk3WL3BICSR05ikGgwCDg8aQyYw6b2PWuRD+cz0UxE-RHdUXYkRGk0FgQOCqOm2+KPZmsdicFLc3kyj0KqYePaaM7k07k-Ha-XBXbzY6mHQHdwUo56HRW5N3VNM5JcpKoOAsXivd1yiFQwszdyk+aLHSo5HIts6asNow+dVkslWeHqjs2ruMgS9yX0LqPXK9ArFMoVaq1fNexWwmaLKxGEymULq0wWBbV2tQl8ewNk8TEv3bGlOwZe0kmzOhHwnH0tFCYIPzMb9fz-YJ9T0AI60OUxsSIojNH3GJD1ghguAAMxoyVEO9JVA39bZNCOeh7FReFtWOdxDB3QxyPpO003oZ4R0Y59fVYxBdnsNVNFWZYKVsP1IOuCiYLEgAVPAAFswBYMQCCkyc-X1Btg1DYl8XMSxiWnYSUyPJJsBKQESjM5CEAsgMDWWeg2yUktpzfezLSgg9tJ7Fk2Q5eCpT5WU5HHJiX2CbVEWA+xvD9VYLlMas1k4+sdysTwiWMZzKLTbzmJmTZ-J0RF7La9q2r8GMwiAA */
   createMachine({
   tsTypes: {} as import("./edit-machine.typegen").Typegen0,
   schema: {
@@ -37,9 +37,9 @@ export const urlEditMachine =
     services: {} as Services,
   },
   id: "URL Edit Machine",
-  initial: "Initial",
+  initial: "Choose Online Status",
   states: {
-    Initial: {
+    "Choose Online Status": {
       always: [
         {
           cond: "Is Online",
@@ -64,31 +64,30 @@ export const urlEditMachine =
       ],
     },
     Online: {
-      initial: "Idle",
+      tags: "Online",
+      initial: "Fetching Open Graph Data",
       states: {
-        Idle: {
-          entry: "Report New Value",
-          always: {
-            cond: "Does Not Have Open Graph Data",
-            target: "#URL Edit Machine.Online.Fetching Open Graph Data",
-          },
-        },
+        Resolved: {},
         "Fetching Open Graph Data": {
+          tags: ["Loading", "Open Graph Data"],
           invoke: {
             id: "Fetch Open Graph Data",
             src: "Fetch Open Graph Data",
             onDone: [
               {
-                actions: "Assign Open Graph Data",
-                target: "#URL Edit Machine.Online.Idle",
+                actions: ["Assign Open Graph Data", "Report New Value"],
+                target: "#URL Edit Machine.Online.Resolved",
               },
             ],
           },
         },
       },
     },
-    Offline: {},
+    Offline: {
+      tags: "Offline"
+    },
     Moved: {
+      tags: "Moved",
       on: {
         "Accept Proposed URL": {
           actions: "Assign Proposed URL",
@@ -96,37 +95,21 @@ export const urlEditMachine =
         },
       },
     },
-    Timeout: {},
-    Error: {},
+    Timeout: {
+      tags: "Timeout"
+    },
+    Error: {
+      tags: "Error"
+    },
     "Checking Online Status": {
+      tags: ["Loading", "Online Status"],
       invoke: {
         id: "Fetch Online Status",
         src: "Fetch Online Status",
         onDone: [
           {
-            actions: "Assign Online Status",
-            cond: "Is Online",
-            target: "#URL Edit Machine.Online",
-          },
-          {
-            actions: "Assign Online Status",
-            cond: "Is Offline",
-            target: "#URL Edit Machine.Offline",
-          },
-          {
-            actions: "Assign Online Status",
-            cond: "Is Timed Out",
-            target: "#URL Edit Machine.Timeout",
-          },
-          {
-            actions: "Assign Online Status",
-            cond: "Is Moved",
-            target: "#URL Edit Machine.Moved",
-          },
-          {
-            actions: "Assign Online Status",
-            cond: "Is Error",
-            target: "#URL Edit Machine.Error",
+            actions: ["Assign Online Status", "Report New Value"],
+            target: "#URL Edit Machine.Choose Online Status",
           },
         ],
       },

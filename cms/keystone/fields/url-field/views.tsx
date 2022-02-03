@@ -18,7 +18,7 @@ import {
 } from "@keystone-6/core/types";
 import { CellContainer, CellLink } from "@keystone-6/core/admin-ui/components";
 import { UrlType } from ".";
-import { useMachine } from "@xstate/react";
+import { useMachine, useSelector } from "@xstate/react";
 import { urlEditMachine } from "./edit-machine";
 import { assign } from "xstate";
 
@@ -42,15 +42,7 @@ export const Field = ({
   const { typography, fields } = useTheme();
   const [shouldShowErrors, setShouldShowErrors] = useState(false);
 
-  const context = {
-    url: value.url,
-    onlineStatus: value.onlineStatus,
-    openGraphData: value.openGraphData,
-  };
-
-  console.log(context)
-
-  const [state, send] = useMachine(urlEditMachine, {
+  const [state, send, service] = useMachine(urlEditMachine, {
     actions: {
       "Assign Online Status": assign({
         onlineStatus: (_, result) => result.data,
@@ -79,15 +71,53 @@ export const Field = ({
       "Is Moved": ({ onlineStatus }) => onlineStatus?.status === "moved",
       "Is Timed Out": ({ onlineStatus }) => onlineStatus?.status === "timeout",
       "Is Error": ({ onlineStatus }) => onlineStatus?.status === "error",
-      "Does Not Have Open Graph Data": ({ openGraphData }) =>
-        openGraphData === undefined,
     },
     services: {
       "Fetch Online Status": ({ url }) => getOnlineStatus(url),
       "Fetch Open Graph Data": ({ url }) => getOpenGraphData(url),
     },
-    context: context
+    context: {
+      url: value.url,
+      onlineStatus: value.onlineStatus,
+      openGraphData: value.openGraphData,
+    },
   });
+
+  const url = useSelector(service, (state) => state.context.url);
+  const movedUrl = useSelector(service, (state) =>
+    state.context.onlineStatus?.status === "moved"
+      ? state.context.onlineStatus?.location
+      : undefined
+  );
+  const ogTitle = useSelector(
+    service,
+    (state) => state.context.openGraphData && state.context.openGraphData.title
+  );
+  const ogDescription = useSelector(
+    service,
+    (state) =>
+      state.context.openGraphData && state.context.openGraphData.description
+  );
+  const ogFavicon = useSelector(
+    service,
+    (state) =>
+      state.context.openGraphData && state.context.openGraphData.favicon
+  );
+  const ogImageUrl = useSelector(
+    service,
+    (state) =>
+      state.context.openGraphData && state.context.openGraphData.imageUrl
+  );
+  const ogImageAlt = useSelector(
+    service,
+    (state) =>
+      state.context.openGraphData && state.context.openGraphData.imageAlt
+  );
+
+  const isOnline = state.hasTag("Online");
+  const isOffline = state.hasTag("Offline");
+  const wasMoved = state.hasTag("Moved");
+  const needsAdmin = state.hasTag("Timeout") || state.hasTag("Error");
 
   function getImgSrc(passedUrl: string, passedBaseUrl: string) {
     const baseUrl = new URL(passedBaseUrl);
@@ -108,12 +138,34 @@ export const Field = ({
             onChange={(event) =>
               send({ type: "URL Changed", url: event.target.value })
             }
-            value={state.context.url ?? ""}
+            value={url}
             disabled={false}
             onBlur={() => {
               setShouldShowErrors(true);
             }}
           />
+          {isOnline && <p>✅</p>}
+          {isOffline && <p>⛔</p>}
+          {wasMoved && (
+            <p>
+              ➡&nbsp;Die Seite{" "}
+              <a href={url} target="_blank">
+                {url}
+              </a>{" "}
+              wurde nach{" "}
+              <a href={movedUrl} target="_blank">
+                {movedUrl}
+              </a>{" "}
+              verschoben. Bitte überprüfen Sie, ob sich der Inhalt geändert hat.
+              Sollten der Inhalt der neuen Referenz in Ordnung sein, können Sie
+              den Link einfach{" "}
+              <button onClick={() => send("Accept Proposed URL")} type="button">
+                übernehmen.
+              </button>
+            </p>
+          )}
+          {needsAdmin &&
+            <p>⚠ Bitte kontaktieren Sie den Administrator der Webseite...</p>}
           <FieldLabel>Titel</FieldLabel>
           <TextInput
             id={field.path}
@@ -128,7 +180,7 @@ export const Field = ({
             onBlur={() => {
               setShouldShowErrors(true);
             }}
-            placeholder={value.openGraphData?.title}
+            placeholder={ogTitle}
           />
           <FieldLabel>Beschreibung</FieldLabel>
           <TextArea
@@ -144,25 +196,31 @@ export const Field = ({
             onBlur={() => {
               setShouldShowErrors(true);
             }}
-            placeholder={value.openGraphData?.description}
+            placeholder={ogDescription}
           />
-          <pre>{JSON.stringify(state.value, null, 2)}</pre>
+          {/* <pre>{JSON.stringify(state.value, null, 2)}</pre>
           <pre>{JSON.stringify(state.context, null, 2)}</pre>
           <pre>{JSON.stringify(value.onlineStatus, null, 2)}</pre>
-          <pre>{JSON.stringify(value.openGraphData, null, 2)}</pre>
-          {value.openGraphData?.imageUrl && (
-            <img
-              src={getImgSrc(value.openGraphData.imageUrl, value.url!)}
-              alt={value.openGraphData.imageAlt}
-              width={300}
-            ></img>
+          <pre>{JSON.stringify(value.openGraphData, null, 2)}</pre> */}
+          {ogImageUrl && (
+            <div>
+              <FieldLabel>Titelbild</FieldLabel>
+              <img
+                src={getImgSrc(ogImageUrl, value.url!)}
+                alt={ogImageAlt}
+                width={300}
+              ></img>
+            </div>
           )}
-          {value.openGraphData?.favicon && (
-            <img
-              src={getImgSrc(value.openGraphData.favicon, value.url!)}
-              alt="favicon"
-              width={32}
-            ></img>
+          {ogFavicon && (
+            <div>
+              <FieldLabel>Icon</FieldLabel>
+              <img
+                src={getImgSrc(ogFavicon, url!)}
+                alt="favicon"
+                width={32}
+              ></img>
+            </div>
           )}
         </Stack>
       ) : null}
