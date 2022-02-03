@@ -134,11 +134,6 @@ const existingReferencesLookup: Record<
       title: "Unterstützungen für pflegende Angehörige",
       description: "Folder als Download",
     },
-  "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=430":
-    {
-      title: "Who cares? YOUNG CARERS!",
-      description: "Folder als Download",
-    },
   "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=86":
     {
       title: "EIN:BLICK 5 - Pflege",
@@ -171,6 +166,10 @@ const existingReferencesLookup: Record<
     title: "Angebote und Hilfe für Young Carers",
     description:
       "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema.",
+  },
+  "https://www.get-social.at/time4friends": {
+    title: "Get Social - Time4Friends",
+    description: "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden."
   },
 };
 
@@ -246,7 +245,7 @@ export function registerMigrateV1Data(
     );
 
     // === OWNERS ===
-    console.log("👤 Migrating Owners...");
+    console.log("👤 Migrating owners...");
     const existingOwners = [
       ...new Set(
         entries.information
@@ -353,7 +352,7 @@ export function registerMigrateV1Data(
       query: "id url",
     });
 
-    // === REFERENCES ===
+    // === METADATA ===
     console.log("ℹ Migrating metadata...");
 
     async function addSingletonEntry(

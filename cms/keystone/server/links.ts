@@ -86,34 +86,34 @@ export function registerDeadLinkDetection(
 
     console.log(`Checking URLs... ❓`);
 
-    // const result = await Promise.all(
-    //   references.map(async (ref) => await getOnlineStatus(ref.url))
-    // );
+    const resultTemp = await Promise.all(
+      references.map(async (ref) => ({title: ref.title, onlineStatus: await getOnlineStatus(ref.url)}))
+    );
 
-    // result
-    //   .filter(needsCorrection)
-    //   .filter(({ url }) => !url.includes("youtube"))
-    //   .forEach((onlineStatus) => {
-    //     switch (onlineStatus.status) {
-    //       case "offline":
-    //         console.log(`⛔ [${onlineStatus.statusCode}] ${onlineStatus.url}`);
-    //         break;
-    //       case "moved":
-    //         const isSame = onlineStatus.url === onlineStatus.location;
-    //         console.log(
-    //           `➡ [${onlineStatus.statusCode}] ${isSame ? "🤣" : ""} ${
-    //             onlineStatus.url
-    //           } MOVED TO ${onlineStatus.location}`
-    //         );
-    //         break;
-    //       case "timeout":
-    //         console.log(`⏰ ${onlineStatus.url}`);
-    //         break;
-    //       case "error":
-    //         console.log(`⁉ ${onlineStatus.url} ${onlineStatus.error}`);
-    //         break;
-    //     }
-    //   });
+    resultTemp
+      .filter(({onlineStatus}) => needsCorrection(onlineStatus))
+      .filter(({onlineStatus: { url }}) => !url.includes("youtube"))
+      .forEach(({title, onlineStatus}) => {
+        switch (onlineStatus.status) {
+          case "offline":
+            console.log(`⛔ ${title} [${onlineStatus.statusCode}] (${onlineStatus.url})`);
+            break;
+          case "moved":
+            const isSame = onlineStatus.url === onlineStatus.location;
+            console.log(
+              `➡ ${title} [${onlineStatus.statusCode}] ${isSame ? "🤣" : ""} (${
+                onlineStatus.url
+              }) MOVED TO ${onlineStatus.location}`
+            );
+            break;
+          case "timeout":
+            console.log(`⏰ ${title} (${onlineStatus.url})`);
+            break;
+          case "error":
+            console.log(`⁉ ${title} (${onlineStatus.url}) ${onlineStatus.error}`);
+            break;
+        }
+      });
 
     const data = await Promise.all(
       references.map(async (ref) => {

@@ -177,7 +177,7 @@ export const HomePage = () => {
     gql`
       query {
         references(
-          where: { onlineStatus: { in: [offline, timeout, error] } },
+          where: { onlineStatus: { in: [offline, timeout, error, moved] } },
           orderBy: { onlineStatus:asc }
         ) {
           id

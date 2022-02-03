@@ -124,12 +124,12 @@ export const reference = list({
   },
   hooks: {
     resolveInput: ({ resolvedData, item, inputData }) => {
-      console.log({
-        url: resolvedData.address.url,
-        resolvedData,
-        onlineStatus: resolvedData.address.onlineStatus,
-        openGraphData: resolvedData.address.openGraphData,
-      });
+      // console.log({
+      //   url: resolvedData.address.url,
+      //   resolvedData,
+      //   onlineStatus: resolvedData.address.onlineStatus,
+      //   openGraphData: resolvedData.address.openGraphData,
+      // });
       const onlineStatus =
         resolvedData.address.onlineStatus !== undefined
           ? JSON.parse(resolvedData.address.onlineStatus)
