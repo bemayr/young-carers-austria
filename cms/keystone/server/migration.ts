@@ -4,7 +4,7 @@ import {
   CreateRequestContext,
   KeystoneContext,
 } from "@keystone-6/core/types";
-import fileApiContent from "../../data/migration/v1/brz-data.json";
+import fileApiContent from "../../data/migration/v1/brz-data.29-01-2022.json";
 import { deserializeMarkdown as deserializeMarkdownKeystone } from "../../keystone-fixes/document-field/markdown";
 import { getOnlineStatus } from "./links";
 import { getOpenGraphData } from "./opengraph";
@@ -207,7 +207,8 @@ export function registerMigrateV1Data(
     const webApiContent: YCApiContent = await fetch(
       "https://portal.lfrz.at/at.gv.lfrz.youngcarers-p/api/content/sync"
     ).then((response) => response.json());
-    const apiContent: YCApiContent = webApiContent as YCApiContent;
+    // const apiContent: YCApiContent = webApiContent as YCApiContent;
+    const apiContent: YCApiContent = fileApiContent as YCApiContent;
     const entries = {
       all: apiContent.entries,
       ...partitionEntries(apiContent.entries),
