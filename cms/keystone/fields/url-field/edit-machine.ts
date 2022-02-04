@@ -108,7 +108,7 @@ export const urlEditMachine =
         src: "Fetch Online Status",
         onDone: [
           {
-            actions: ["Assign Online Status", "Report New Value"],
+            actions: ["Assign Online Status", "Clear Open Graph Data", "Report New Value"],
             target: "#URL Edit Machine.Choose Online Status",
           },
         ],

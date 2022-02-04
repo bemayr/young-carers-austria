@@ -22,6 +22,7 @@ import { useMachine, useSelector } from "@xstate/react";
 import { urlEditMachine } from "./edit-machine";
 import { assign } from "xstate";
 import { createValidUrl } from "../../server/links";
+import { Button } from "@keystone-ui/button";
 
 function getOnlineStatus(url: string) {
   return fetch(`/link/validate?url=${url}`).then((response) => response.json());
@@ -50,6 +51,9 @@ export const Field = ({
       }),
       "Assign Open Graph Data": assign({
         openGraphData: (_, result) => result.data,
+      }),
+      "Clear Open Graph Data": assign({
+        openGraphData: (_) => undefined
       }),
       "Assign URL": assign({
         url: (_, event) => event.url,
@@ -116,9 +120,9 @@ export const Field = ({
   );
 
   const isOnline = state.hasTag("Online");
-  const isOffline = state.hasTag("Offline");
+  const isNotAvailable = state.hasTag("Offline") || state.hasTag("Error");
   const wasMoved = state.hasTag("Moved");
-  const needsAdmin = state.hasTag("Timeout") || state.hasTag("Error");
+  const needsAdmin = state.hasTag("Timeout");
 
   return (
     <FieldContainer>
@@ -138,28 +142,34 @@ export const Field = ({
               setShouldShowErrors(true);
             }}
           />
-          {isOnline && <p>✅</p>}
-          {isOffline && <p>⛔</p>}
-          {wasMoved && (
+          {isNotAvailable && (
             <p>
-              ➡&nbsp;Die Seite{" "}
-              <a href={url} target="_blank">
-                {url}
-              </a>{" "}
-              wurde nach{" "}
-              <a href={movedUrl} target="_blank">
-                {movedUrl}
-              </a>{" "}
-              verschoben. Bitte überprüfen Sie, ob sich der Inhalt geändert hat.
-              Sollten der Inhalt der neuen Referenz in Ordnung sein, können Sie
-              den Link einfach{" "}
-              <button onClick={() => send("Accept Proposed URL")} type="button">
-                übernehmen.
-              </button>
+              ⛔ Diese Seite konnte leider nicht gefunden werden, bitte
+              überprüfen Sie die Adresse.
             </p>
           )}
-          {needsAdmin &&
-            <p>⚠ Bitte kontaktieren Sie den Administrator der Webseite...</p>}
+          {wasMoved && (
+            <Stack>
+              <p>
+                ➡&nbsp;Die Seite{" "}
+                <a href={url} target="_blank">
+                  {url}
+                </a>{" "}
+                wurde nach{" "}
+                <a href={movedUrl} target="_blank">
+                  {movedUrl}
+                </a>{" "}
+                verschoben. Bitte überprüfen Sie, ob sich der Inhalt geändert
+                hat.{" "}
+              </p>
+              <Button tone="help" onClick={() => send("Accept Proposed URL")}>
+                <i>{movedUrl}</i> übernehmen
+              </Button>
+            </Stack>
+          )}
+          {needsAdmin && (
+            <p>👨‍💻 Irgendetwas stimmt hier nicht, bitte wenden Sie sich an <a href="mailto:yc-support@youngcarers.at">yc-support@youngcarers.at</a></p>
+          )}
           <FieldLabel>Titel</FieldLabel>
           <TextInput
             id={field.path}

@@ -279,7 +279,7 @@ export const HomePage = () => {
               <TableContainer>
                 <TableHeaderRow>
                   {["Status", "Eintrag", "Adresse"].map((label) => (
-                    <TableHeaderCell key={label}>{label}</TableHeaderCell>
+                    <TableHeaderCell key={label} css={{ padding: 8 }}>{label}</TableHeaderCell>
                   ))}
                 </TableHeaderRow>
                 <tbody>

@@ -207,8 +207,8 @@ export function registerMigrateV1Data(
     const webApiContent: YCApiContent = await fetch(
       "https://portal.lfrz.at/at.gv.lfrz.youngcarers-p/api/content/sync"
     ).then((response) => response.json());
-    // const apiContent: YCApiContent = webApiContent as YCApiContent;
-    const apiContent: YCApiContent = fileApiContent as YCApiContent;
+    const apiContent: YCApiContent = webApiContent as YCApiContent;
+    // const apiContent: YCApiContent = fileApiContent as YCApiContent;
     const entries = {
       all: apiContent.entries,
       ...partitionEntries(apiContent.entries),
@@ -300,8 +300,6 @@ export function registerMigrateV1Data(
           ref.length === 1
             ? entry.title.trim()
             : existingReferencesLookup[url].title;
-
-        console.log(`   processing: ${title} (${url})`);
 
         const description =
           ref.length === 1

@@ -10,6 +10,7 @@ export interface Typegen0 {
       | "done.invoke.Fetch Online Status";
     "Assign Proposed URL": "Accept Proposed URL";
     "Assign Online Status": "done.invoke.Fetch Online Status";
+    "Clear Open Graph Data": "done.invoke.Fetch Online Status";
   };
   internalEvents: {
     "done.invoke.Fetch Open Graph Data": {
@@ -43,7 +44,8 @@ export interface Typegen0 {
       | "Assign Open Graph Data"
       | "Report New Value"
       | "Assign Proposed URL"
-      | "Assign Online Status";
+      | "Assign Online Status"
+      | "Clear Open Graph Data";
     services: "Fetch Online Status" | "Fetch Open Graph Data";
     guards:
       | "Is Online"
