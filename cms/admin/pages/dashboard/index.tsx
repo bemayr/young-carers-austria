@@ -22,6 +22,7 @@ import { LoadingDots } from "@keystone-ui/loading";
 
 import { makeDataGetter } from "@keystone-6/core/admin-ui/utils";
 import {
+  CellLink,
   CreateItemDrawer,
   PageContainer,
 } from "@keystone-6/core/admin-ui/components/";
@@ -29,6 +30,14 @@ import { gql, useQuery } from "@keystone-6/core/admin-ui/apollo";
 import { useKeystone, useList } from "@keystone-6/core/admin-ui/context";
 import { useRouter, Link } from "@keystone-6/core/admin-ui/router";
 import { localizedViaDescription } from "../../../keystone-fixes/lists";
+import {
+  TableBodyCell,
+  TableContainer,
+  TableHeaderCell,
+  TableHeaderRow,
+} from "./list";
+import { UrlType } from "../../../keystone/fields/url-field";
+import { OnlineStatus } from "../../../keystone/server/links";
 
 type ListCardProps = {
   listKey: string;
@@ -177,8 +186,8 @@ export const HomePage = () => {
     gql`
       query {
         references(
-          where: { onlineStatus: { in: [offline, timeout, error, moved] } },
-          orderBy: { onlineStatus:asc }
+          where: { onlineStatus: { in: [offline, timeout, error, moved] } }
+          orderBy: { onlineStatus: asc }
         ) {
           id
           url
@@ -260,18 +269,68 @@ export const HomePage = () => {
         <Stack>
           <H4>Referenzen</H4>
           {linksData !== undefined ? (
-            <ul>
-              {linksData?.references?.map((d: any, i: number) => (
-                <li key={i}>
-                  <b>{d.onlineStatus}:</b> {d.title} ({d.url}) <Link href={`/references/${d.id}`}>beheben</Link>
-                </li>
-              ))}
-            </ul>
+            <Box paddingBottom="xlarge">
+              <TableContainer>
+                <TableHeaderRow>
+                  {["Status", "Eintrag", "Adresse"].map((label) => (
+                    <TableHeaderCell key={label}>{label}</TableHeaderCell>
+                  ))}
+                </TableHeaderRow>
+                <tbody>
+                  {linksData?.references?.map(
+                    (
+                      d: {
+                        title: string;
+                        onlineStatus:
+                          | "online"
+                          | "offline"
+                          | "timeout"
+                          | "error"
+                          | "moved";
+                        url: string;
+                        id: string;
+                      },
+                      i: number
+                    ) => (
+                      <tr key={i}>
+                        {status(d.onlineStatus)}
+                        <TableBodyCell css={{ padding: 8 }}>
+                          <CellLink
+                            href={`/references/[id]`}
+                            as={`/references/${encodeURIComponent(d.id)}`}
+                          >
+                            {d.title}
+                          </CellLink>
+                        </TableBodyCell>
+                        <TableBodyCell css={{ padding: 8 }}>
+                          <CellLink
+                            href={`/references/[id]`}
+                            as={`/references/${encodeURIComponent(d.id)}`}
+                          >
+                            {d.url}
+                          </CellLink>
+                        </TableBodyCell>
+                      </tr>
+                    )
+                  )}
+                </tbody>
+              </TableContainer>
+            </Box>
           ) : null}
         </Stack>
       </Stack>
     </PageContainer>
   );
 };
+
+function status(
+  onlineStatus: "online" | "offline" | "timeout" | "error" | "moved"
+) {
+  if (onlineStatus === "offline")
+    return <TableBodyCell css={{ color: "red", padding: 8, textAlign: "center" }}>⛔ offline</TableBodyCell>;
+  if (onlineStatus === "moved")
+    return <TableBodyCell css={{ color: "orange", padding: 8, textAlign: "center" }}>⚠ verschoben</TableBodyCell>;
+  return <TableBodyCell css={{ color: "purple", padding: 8, textAlign: "center" }}>👨‍💻 {onlineStatus}</TableBodyCell>;
+}
 
 export default HomePage;
