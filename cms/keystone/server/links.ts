@@ -27,6 +27,17 @@ export const isReachable = ({ status }: OnlineStatus) => status === "online";
 export const needsCorrection = (onlineStatus: OnlineStatus) =>
   !isReachable(onlineStatus);
 
+export function createValidUrl(passedUrl: string, passedBaseUrl: string) {
+  try {
+    const baseUrl = new URL(passedBaseUrl);
+    return passedUrl.startsWith("/")
+      ? `${baseUrl.protocol}//${baseUrl.host}${passedUrl}`
+      : passedUrl;
+  } catch (error) {
+    return undefined;
+  }
+}
+
 export const getOnlineStatus = (
   url: string,
   timeoutTime: number = 20000
@@ -56,7 +67,7 @@ export const getOnlineStatus = (
             status: "moved",
             url,
             statusCode,
-            location,
+            location: location ? createValidUrl(location, url) : undefined,
           });
         } else {
           resolve({ status: "offline", url, statusCode });
@@ -127,6 +138,10 @@ export function registerDeadLinkDetection(
         let status = await getOnlineStatus(ref.url);
 
         if (ref.url.includes("youtube") && status.status === "moved")
+          status = { url: ref.url, status: "online" };
+
+        // [TODO]: remove this hotfix (wrong HTTP status code of website)
+        if (ref.url === "https://www.fit-and-strong.at/")
           status = { url: ref.url, status: "online" };
 
         return {

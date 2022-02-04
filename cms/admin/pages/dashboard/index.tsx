@@ -200,8 +200,14 @@ export const HomePage = () => {
         }
       }
     `,
-    { errorPolicy: "all" }
+    {
+      errorPolicy: "all",
+      fetchPolicy: "network-only",
+      nextFetchPolicy: "network-only",
+    }
   );
+
+  console.log(linksData);
 
   return (
     <PageContainer
@@ -327,10 +333,22 @@ function status(
   onlineStatus: "online" | "offline" | "timeout" | "error" | "moved"
 ) {
   if (onlineStatus === "offline")
-    return <TableBodyCell css={{ color: "red", padding: 8, textAlign: "center" }}>⛔ offline</TableBodyCell>;
+    return (
+      <TableBodyCell css={{ color: "red", padding: 8, textAlign: "center" }}>
+        ⛔ offline
+      </TableBodyCell>
+    );
   if (onlineStatus === "moved")
-    return <TableBodyCell css={{ color: "orange", padding: 8, textAlign: "center" }}>⚠ verschoben</TableBodyCell>;
-  return <TableBodyCell css={{ color: "purple", padding: 8, textAlign: "center" }}>👨‍💻 {onlineStatus}</TableBodyCell>;
+    return (
+      <TableBodyCell css={{ color: "orange", padding: 8, textAlign: "center" }}>
+        ⚠ verschoben
+      </TableBodyCell>
+    );
+  return (
+    <TableBodyCell css={{ color: "purple", padding: 8, textAlign: "center" }}>
+      👨‍💻 {onlineStatus}
+    </TableBodyCell>
+  );
 }
 
 export default HomePage;

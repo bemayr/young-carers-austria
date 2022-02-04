@@ -21,6 +21,7 @@ import { UrlType } from ".";
 import { useMachine, useSelector } from "@xstate/react";
 import { urlEditMachine } from "./edit-machine";
 import { assign } from "xstate";
+import { createValidUrl } from "../../server/links";
 
 function getOnlineStatus(url: string) {
   return fetch(`/link/validate?url=${url}`).then((response) => response.json());
@@ -119,13 +120,6 @@ export const Field = ({
   const wasMoved = state.hasTag("Moved");
   const needsAdmin = state.hasTag("Timeout") || state.hasTag("Error");
 
-  function getImgSrc(passedUrl: string, passedBaseUrl: string) {
-    const baseUrl = new URL(passedBaseUrl);
-    return passedUrl.startsWith("/")
-      ? `${baseUrl.protocol}//${baseUrl.host}${passedUrl}`
-      : passedUrl;
-  }
-
   return (
     <FieldContainer>
       {onChange ? (
@@ -169,7 +163,7 @@ export const Field = ({
           <FieldLabel>Titel</FieldLabel>
           <TextInput
             id={field.path}
-            autoFocus={autoFocus}
+            // autoFocus={autoFocus}
             onChange={(event) =>
               onChange({
                 ...value,
@@ -185,7 +179,7 @@ export const Field = ({
           <FieldLabel>Beschreibung</FieldLabel>
           <TextArea
             id={field.path}
-            autoFocus={autoFocus}
+            // autoFocus={autoFocus}
             onChange={(event) =>
               onChange({
                 ...value,
@@ -206,7 +200,7 @@ export const Field = ({
             <div>
               <FieldLabel>Titelbild</FieldLabel>
               <img
-                src={getImgSrc(ogImageUrl, value.url!)}
+                src={createValidUrl(ogImageUrl, url!)}
                 alt={ogImageAlt}
                 width={300}
               ></img>
@@ -216,7 +210,7 @@ export const Field = ({
             <div>
               <FieldLabel>Icon</FieldLabel>
               <img
-                src={getImgSrc(ogFavicon, url!)}
+                src={createValidUrl(ogFavicon, url!)}
                 alt="favicon"
                 width={32}
               ></img>
