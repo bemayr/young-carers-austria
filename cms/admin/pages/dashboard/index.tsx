@@ -276,51 +276,57 @@ export const HomePage = () => {
           <H4>Referenzen</H4>
           {linksData !== undefined ? (
             <Box paddingBottom="xlarge">
-              <TableContainer>
-                <TableHeaderRow>
-                  {["Status", "Eintrag", "Adresse"].map((label) => (
-                    <TableHeaderCell key={label} css={{ padding: 8 }}>{label}</TableHeaderCell>
-                  ))}
-                </TableHeaderRow>
-                <tbody>
-                  {linksData?.references?.map(
-                    (
-                      d: {
-                        title: string;
-                        onlineStatus:
-                          | "online"
-                          | "offline"
-                          | "timeout"
-                          | "error"
-                          | "moved";
-                        url: string;
-                        id: string;
-                      },
-                      i: number
-                    ) => (
-                      <tr key={i}>
-                        {status(d.onlineStatus)}
-                        <TableBodyCell css={{ padding: 8 }}>
-                          <CellLink
-                            href={`/references/[id]`}
-                            as={`/references/${encodeURIComponent(d.id)}`}
-                          >
-                            {d.title}
-                          </CellLink>
-                        </TableBodyCell>
-                        <TableBodyCell css={{ padding: 8 }}>
-                          <CellLink
-                            href={`/references/[id]`}
-                            as={`/references/${encodeURIComponent(d.id)}`}
-                          >
-                            {d.url}
-                          </CellLink>
-                        </TableBodyCell>
-                      </tr>
-                    )
-                  )}
-                </tbody>
-              </TableContainer>
+              {linksData?.references.length === 0 ? (
+                <p>Perfekt 👏, alle Referenzen sind erreichbar! 🥳</p>
+              ) : (
+                <TableContainer>
+                  <TableHeaderRow>
+                    {["Status", "Eintrag", "Adresse"].map((label) => (
+                      <TableHeaderCell key={label} css={{ padding: 8 }}>
+                        {label}
+                      </TableHeaderCell>
+                    ))}
+                  </TableHeaderRow>
+                  <tbody>
+                    {linksData?.references?.map(
+                      (
+                        d: {
+                          title: string;
+                          onlineStatus:
+                            | "online"
+                            | "offline"
+                            | "timeout"
+                            | "error"
+                            | "moved";
+                          url: string;
+                          id: string;
+                        },
+                        i: number
+                      ) => (
+                        <tr key={i}>
+                          {status(d.onlineStatus)}
+                          <TableBodyCell css={{ padding: 8 }}>
+                            <CellLink
+                              href={`/references/[id]`}
+                              as={`/references/${encodeURIComponent(d.id)}`}
+                            >
+                              {d.title}
+                            </CellLink>
+                          </TableBodyCell>
+                          <TableBodyCell css={{ padding: 8 }}>
+                            <CellLink
+                              href={`/references/[id]`}
+                              as={`/references/${encodeURIComponent(d.id)}`}
+                            >
+                              {d.url}
+                            </CellLink>
+                          </TableBodyCell>
+                        </tr>
+                      )
+                    )}
+                  </tbody>
+                </TableContainer>
+              )}
             </Box>
           ) : null}
         </Stack>
