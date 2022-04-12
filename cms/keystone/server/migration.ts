@@ -23,7 +23,7 @@ function parseTargetGroups(targetGroups: string[]) {
   if (targetGroups.includes("Eltern / Interessierte")) return "parents";
 }
 
-const aboutEntriesIds = {
+export const aboutEntriesIds = {
   "a9a06cd4-f61f-4738-8121-693d613128db": "imprint",
   "27f77b43-85bc-497a-bf25-07c79adbaaa4": "accessibility1",
   "df6e5333-3f3a-468e-987f-9be160678d02": "accessibility2",

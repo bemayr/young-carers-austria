@@ -16,6 +16,7 @@ import { withAuth, session } from "./auth";
 import { registerMigrateV1Data } from "./server/migration";
 import { registerDeadLinkDetection } from "./server/links";
 import { registerOpenGraphService } from "./server/opengraph";
+import { registerAPIv1 } from "./server/api";
 
 export const keystoneConfiguration = withAuth(
   // Using the config function helps typescript guide you to the available options.
@@ -38,6 +39,7 @@ export const keystoneConfiguration = withAuth(
         registerMigrateV1Data(app, createContext);
         registerDeadLinkDetection(app, createContext);
         registerOpenGraphService(app);
+        registerAPIv1(app, createContext);
       },
     },
   })
