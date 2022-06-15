@@ -1,0 +1,11 @@
+{
+  "name": "young-carers-austria-website",
+  "version": "1.0.0",
+  "description": "Information Website for Young Carers in Austria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bernhard Mayr <bernhard@mayr.io>",
+  "license": "MIT"
+}
