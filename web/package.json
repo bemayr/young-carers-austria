@@ -1,7 +1,7 @@
 {
-  "name": "windty",
+  "name": "young-carers-austria-website",
   "version": "1.0.0",
-  "description": "Simple 11ty template with tailwind",
+  "description": "Information Website for Young Carers in Austria",
   "scripts": {
     "start": "run-p start:*",
     "start:eleventy": "eleventy --serve",
@@ -13,19 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/distantcam/windty.git"
+    "url": "https://github.com/bemayr/young-carers-austria"
   },
   "keywords": [
     "eleventy",
-    "11ty",
-    "tailwind"
+    "young carers",
+    "young carers austria"
   ],
-  "author": "Cam MacFarland",
-  "license": "Unlicense",
-  "homepage": "https://github.com/distantcam/windty#readme",
-  "bugs": {
-    "url": "https://github.com/distantcam/windty/issues"
-  },
+  "author": "Bernhard Mayr <bernhard.mayr@fh-hagenberg.at>",
+  "license": "MIT",
+  "private": true,
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "autoprefixer": "^10.4.7",
