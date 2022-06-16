@@ -1,5 +1,6 @@
 import { list } from "@keystone-6/core";
 import { relationship, text } from "@keystone-6/core/fields";
+import { runWebsiteBuild } from "../github-actions";
 
 export const owner = list({
   ui: {
@@ -30,4 +31,9 @@ export const owner = list({
       },
     }),
   },
+  hooks: {
+    afterOperation: async () => {
+      await runWebsiteBuild()
+    }
+  }
 });

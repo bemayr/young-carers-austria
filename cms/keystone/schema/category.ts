@@ -2,6 +2,7 @@ import { list } from "@keystone-6/core";
 import { relationship, text, timestamp } from "@keystone-6/core/fields";
 import { document } from "@keystone-6/fields-document";
 import { Node } from "slate";
+import { runWebsiteBuild } from "../github-actions";
 
 export const category = list({
   ui: {
@@ -107,10 +108,15 @@ export const category = list({
       },
     }),
   },
+  hooks: {
+    afterOperation: async () => {
+      await runWebsiteBuild();
+    },
+  },
 });
 
 // [todo]: extract this function
-function documentToMarkdown(documentValue: any) {
+export function documentToMarkdown(documentValue: any) {
   // [TODO]: fix markdown serialization
   const blocks = JSON.parse(documentValue);
   const markdown: string = blocks
@@ -119,7 +125,7 @@ function documentToMarkdown(documentValue: any) {
   return markdown;
 }
 
-function documentToPlain(documentValue: any) {
+export function documentToPlain(documentValue: any) {
   return serialize(JSON.parse(documentValue))
 }
 

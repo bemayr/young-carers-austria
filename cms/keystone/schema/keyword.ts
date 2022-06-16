@@ -1,5 +1,6 @@
 import { list } from "@keystone-6/core";
 import { text } from "@keystone-6/core/fields";
+import { runWebsiteBuild } from "../github-actions";
 
 export const keyword = list({
   ui: {
@@ -11,5 +12,10 @@ export const keyword = list({
       label: "Name",
       isIndexed: "unique",
     }),
+  },
+  hooks: {
+    afterOperation: async () => {
+      await runWebsiteBuild();
+    },
   },
 });
