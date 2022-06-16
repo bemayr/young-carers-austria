@@ -2,6 +2,7 @@ name: (web) Build and Deploy Website
 
 on:
   repository_dispatch:
+    types: [cms_content_changed]
   push:
     branches:
       - main
