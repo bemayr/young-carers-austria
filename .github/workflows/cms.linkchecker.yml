@@ -14,3 +14,4 @@ jobs:
         with:
           url: 'https://cms.youngcarersaustria.at/links/validate'
           method: 'POST'
+          timeout: 60000
