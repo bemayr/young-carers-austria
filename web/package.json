@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Information Website for Young Carers in Austria",
   "scripts": {
-    "start": "run-p start:*",
+    "dev": "run-p start:*",
     "start:eleventy": "eleventy --serve",
     "start:postcss": "postcss src/styles/*.css --dir _site --watch",
     "build": "run-s clean build:eleventy build:postcss",
