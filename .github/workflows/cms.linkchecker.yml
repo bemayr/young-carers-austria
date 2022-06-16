@@ -1,0 +1,16 @@
+name: (cms) Run the Linkchecker
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '* 3 * * *' # Run the Linkchecker at 03:00am UTC so that it is finished at 05:00am CEST
+
+jobs:
+  run-linkchecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Links 🖇️
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://cms.youngcarersaustria.at/links/validate'
+          method: 'POST'
