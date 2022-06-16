@@ -33,8 +33,7 @@ model Reference {
   address_title         String?
   address_description   String?
   onlineStatus          String?
-  type                  String     @default("website")
-  target                String     @default("all")
+  isPaidContent         Boolean    @default(false)
   lastUpdated           DateTime?  @updatedAt
   owner                 Owner?     @relation("Reference_owner", fields: [ownerId], references: [id])
   ownerId               String?    @map("owner")
