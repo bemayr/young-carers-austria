@@ -1,6 +1,8 @@
 import { list } from "@keystone-6/core";
 import { text } from "@keystone-6/core/fields";
 import { document } from "@keystone-6/fields-document";
+import { runWebsiteBuild } from "../github-actions";
+import { documentToMarkdown, documentToPlain } from "./category";
 
 export const singleton = list({
   ui: {
@@ -12,10 +14,10 @@ export const singleton = list({
     name: text({
       // [todo]: show only for administrators
       isIndexed: "unique",
-      label: "Schlüssel"
+      label: "Schlüssel",
     }),
     title: text({
-      label: "Beschreibung"
+      label: "Beschreibung",
     }),
     content: document({
       label: "Inhalt",
@@ -34,6 +36,18 @@ export const singleton = list({
         itemView: { fieldMode: "read" },
         listView: { fieldMode: "hidden" },
       },
-    }),
+      hooks: {
+        resolveInput: ({ resolvedData, context }) => {
+          const { content } = resolvedData;
+          if (content === undefined) return undefined;
+          return documentToPlain(content);
+        },
+      },
+    })
+  },
+  hooks: {
+    afterOperation: async () => {
+      await runWebsiteBuild();
+    },
   },
 });
