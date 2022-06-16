@@ -167,8 +167,7 @@ type Reference {
   description: String
   address: UrlFieldOutput
   onlineStatus: ReferenceOnlineStatusType
-  type: ReferenceTypeType
-  target: ReferenceTargetType
+  isPaidContent: Boolean
   lastUpdated: DateTime
   owner: Owner
   categories(
@@ -239,20 +238,6 @@ enum ReferenceOnlineStatusType {
   error
 }
 
-enum ReferenceTypeType {
-  booklet
-  podcast
-  song
-  video
-  website
-}
-
-enum ReferenceTargetType {
-  all
-  youngcarers
-  parents
-}
-
 input ReferenceWhereUniqueInput {
   id: ID
   url: String
@@ -267,8 +252,7 @@ input ReferenceWhereInput {
   title: StringFilter
   description: StringFilter
   onlineStatus: ReferenceOnlineStatusTypeNullableFilter
-  type: ReferenceTypeTypeNullableFilter
-  target: ReferenceTargetTypeNullableFilter
+  isPaidContent: BooleanFilter
   owner: OwnerWhereInput
   categories: CategoryManyRelationFilter
   keywords: KeywordManyRelationFilter
@@ -281,18 +265,9 @@ input ReferenceOnlineStatusTypeNullableFilter {
   not: ReferenceOnlineStatusTypeNullableFilter
 }
 
-input ReferenceTypeTypeNullableFilter {
-  equals: ReferenceTypeType
-  in: [ReferenceTypeType!]
-  notIn: [ReferenceTypeType!]
-  not: ReferenceTypeTypeNullableFilter
-}
-
-input ReferenceTargetTypeNullableFilter {
-  equals: ReferenceTargetType
-  in: [ReferenceTargetType!]
-  notIn: [ReferenceTargetType!]
-  not: ReferenceTargetTypeNullableFilter
+input BooleanFilter {
+  equals: Boolean
+  not: BooleanFilter
 }
 
 input CategoryManyRelationFilter {
@@ -307,8 +282,7 @@ input ReferenceOrderByInput {
   title: OrderDirection
   description: OrderDirection
   onlineStatus: OrderDirection
-  type: OrderDirection
-  target: OrderDirection
+  isPaidContent: OrderDirection
   lastUpdated: OrderDirection
 }
 
@@ -318,8 +292,7 @@ input ReferenceUpdateInput {
   description: String
   address: UrlFieldInput
   onlineStatus: ReferenceOnlineStatusType
-  type: ReferenceTypeType
-  target: ReferenceTargetType
+  isPaidContent: Boolean
   lastUpdated: DateTime
   owner: OwnerRelateToOneForUpdateInput
   categories: CategoryRelateToManyForUpdateInput
@@ -358,8 +331,7 @@ input ReferenceCreateInput {
   description: String
   address: UrlFieldInput
   onlineStatus: ReferenceOnlineStatusType
-  type: ReferenceTypeType
-  target: ReferenceTargetType
+  isPaidContent: Boolean
   lastUpdated: DateTime
   owner: OwnerRelateToOneForCreateInput
   categories: CategoryRelateToManyForCreateInput

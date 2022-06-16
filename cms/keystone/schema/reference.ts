@@ -1,6 +1,6 @@
 import { stars } from "./../fields/stars-field/index";
 import { list } from "@keystone-6/core";
-import { relationship, select, text, timestamp } from "@keystone-6/core/fields";
+import { checkbox, relationship, select, text, timestamp } from "@keystone-6/core/fields";
 import { url } from "../fields/url-field";
 
 export const reference = list({
@@ -46,40 +46,8 @@ export const reference = list({
         createView: { fieldMode: "hidden" },
       },
     }),
-    type: select({
-      label: "Typ",
-      type: "enum",
-      defaultValue: "website",
-      options: [
-        { label: "Dokument", value: "booklet" },
-        { label: "Podcast", value: "podcast" },
-        { label: "Lied", value: "song" },
-        { label: "Video", value: "video" },
-        { label: "Webseite", value: "website" },
-      ],
-      validation: {
-        isRequired: true,
-      },
-      ui: {
-        displayMode: "segmented-control",
-      },
-    }),
-    target: select({
-      // [todo]: extract this into a reference
-      label: "Zielgruppe",
-      type: "enum",
-      defaultValue: "all",
-      options: [
-        { label: "Alle", value: "all" },
-        { label: "Young Carers", value: "youngcarers" },
-        { label: "Eltern und Interessierte", value: "parents" },
-      ],
-      validation: {
-        isRequired: true,
-      },
-      ui: {
-        displayMode: "segmented-control",
-      },
+    isPaidContent: checkbox({
+      label: "Diese Seite enthält kostenpflichtigen Inhalt ⚠️",
     }),
     lastUpdated: timestamp({
       isFilterable: false,
