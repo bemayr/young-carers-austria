@@ -3,7 +3,7 @@
 const Cache = require("@11ty/eleventy-cache-assets");
 
 module.exports = async function() {
-  let url = "https://portal.lfrz.at/at.gv.lfrz.youngcarers-p/api/content/sync";
+  let url = "http://yc-backend.projekte.fh-hagenberg.at/api/v2";
 
 	/* This returns a promise */
 	const response = await Cache(url, {
