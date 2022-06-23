@@ -14,7 +14,10 @@ permalink: "abc/{{ category.name | slug }}/"
         class="flex sm:flex-col overflow-hidden content-center justify-between"
       >
         {% for category in cms.abc %}
-        <li><a class="text-xl mt-6" href="/abc/{{ category.name | slug }}">{{ category.name }}</a></li>
+        {% assign categorySlug = category.name | slugify %}
+        {% assign categoryLink = "/abc/" | append: categorySlug %}
+        {% assign categoryUrl = categoryLink | url %}
+        <li><a class="text-xl mt-6" href="{{ categoryUrl }}">{{ category.name }}</a></li>
         {% endfor %}
       </ul>
     </div>
