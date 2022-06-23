@@ -1,0 +1,39 @@
+---
+layout: default
+pagination:
+    data: cms.abc
+    size: 1
+    alias: category
+permalink: "abc/{{ category.name | slug }}/"
+---
+
+<div class="w-full flex flex-col sm:flex-row flex-grow overflow-hidden">
+  <div class="sm:w-1/3 md:1/4 w-full flex-shrink flex-grow-0 p-4">
+    <div class="sticky top-0 p-4 w-full">
+      <ul
+        class="flex sm:flex-col overflow-hidden content-center justify-between"
+      >
+        {% for category in cms.abc %}
+        <li><a class="text-xl mt-6" href="/abc/{{ category.name | slug }}">{{ category.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <main role="main" class="w-full h-full flex-grow p-3 overflow-auto">
+  <h1 class="text-3xl">{{ category.title }}</h1>
+  <p>{{ category.information }}</p>
+
+  {% for group in category.entries %}
+    <h2 class="mt-4"><a href="{{ group.ownerUrl }}">{{ group.ownerName }}</a></h2>
+    <p>{{ group.ownerUrl }}</p>
+    <hr />
+    {% for reference in group.references %}
+      <a href="{{reference.url}}">{{ reference.title }}</a><br/>
+    {% endfor %}
+  {% endfor %}
+
+  </main>
+</div>
+<footer class="mt-auto">...</footer>
+
+

@@ -11,24 +11,28 @@ const category = {
     name: category.name,
     title: category.title,
     information: category.renderedInformation,
-    entries: Object.values(category.references.reduce((owners: any, reference: any) => {
-      owners[reference.owner.id] = owners[reference.owner.id] ?? {
-        ownerName: reference.owner.name,
-        ownerUrl: reference.owner.url,
-        references: []
-      }
-      owners[reference.owner.id].references.push({
-        url: reference.url,
-        title: reference.title,
-        description: reference.description,
-        isPaidContent: reference.isPaidContent,
-        lastUpdated: reference.lastUpdated,
-        keywords: reference.keywords.map((keyword: any) => keyword.name)
-      })
-      return owners
-    }, {}))
-  })
-}
+    entries: Object.values(
+      category.references.reduce((owners: any, reference: any) => {
+        owners[reference.owner.id] = owners[reference.owner.id] ?? {
+          ownerName: reference.owner.name,
+          ownerUrl: reference.owner.url,
+          references: [],
+        };
+        owners[reference.owner.id].references.push({
+          url: reference.url,
+          title: reference.title,
+          description: reference.description,
+          isPaidContent: reference.isPaidContent,
+          lastUpdated: reference.lastUpdated,
+          keywords: reference.keywords
+            .map((keyword: any) => keyword.name)
+            .sort(),
+        });
+        return owners;
+      }, {})
+    ).sort((a: any, b: any) => a.ownerName.localeCompare(b.ownerName)),
+  }),
+};
 
 export function registerAPIv2(
   app: Express,
@@ -150,11 +154,13 @@ export function registerAPIv2(
           `,
         })
       ).categories as any[]
-    ).map(category.transform);
+    )
+      .map(category.transform)
+      .sort((a: any, b: any) => a.name.localeCompare(b.name));
 
     const emergency = {
-      state: "wip"
-    }
+      state: "wip",
+    };
 
     const metadata = (
       (
@@ -173,9 +179,11 @@ export function registerAPIv2(
     ).map((metadata) => ({
       key: metadata.name,
       title: metadata.title,
-      content: metadata.renderedContent
+      content: metadata.renderedContent,
     }));
 
-    res.json({insights, abc: categories, emergency, metadata});
+    const timestamp = new Date().toISOString();
+
+    res.json({ insights, abc: categories, emergency, metadata, timestamp });
   });
 }
