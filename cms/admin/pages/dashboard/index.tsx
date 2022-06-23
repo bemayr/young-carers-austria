@@ -29,7 +29,7 @@ import {
 import { gql, useQuery } from "@keystone-6/core/admin-ui/apollo";
 import { useKeystone, useList } from "@keystone-6/core/admin-ui/context";
 import { useRouter, Link } from "@keystone-6/core/admin-ui/router";
-import { localizedViaDescription } from "../../../keystone-fixes/lists";
+import { localizedViaDescription } from "../../../keystone/_fixes/lists";
 import {
   TableBodyCell,
   TableContainer,
