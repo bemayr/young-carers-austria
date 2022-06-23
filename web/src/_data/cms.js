@@ -4,7 +4,7 @@ const Cache = require("@11ty/eleventy-cache-assets");
 
 module.exports = async function () {
   let url =
-    process.env.NODE_ENV === "production"
+    process.env.ELEVENTY_PRODUCTION
       ? "http://yc-backend.projekte.fh-hagenberg.at/api/v2"
       : "http://localhost:3000/api/v2/";
 
