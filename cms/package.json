@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "keystone dev",
-    "start": "keystone start",
-    "build": "keystone build",
-    "postinstall": "keystone postinstall"
+    "postinstall": "keystone postinstall",
+    "prod:build": "keystone build",
+    "prod:migrate": "prisma migrate deploy",
+    "prod:start": "npm run prod:migrate && keystone start"
   },
   "dependencies": {
     "@keystone-6/auth": "^1.0.1",
