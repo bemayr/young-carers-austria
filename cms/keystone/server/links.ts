@@ -87,8 +87,7 @@ export function registerDeadLinkDetection(
   app: Express,
   createContext: CreateRequestContext<BaseKeystoneTypeInfo>
 ) {
-  // [todo]: change to post command
-  app.get("/links/validate", async (req, res) => {
+  app.post("/links/validate", async (req, res) => {
     const context: KeystoneContext = await createContext(req, res);
 
     const references = await context.query.Reference.findMany({
