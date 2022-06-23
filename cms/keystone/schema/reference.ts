@@ -123,8 +123,8 @@ export const reference = list({
       resolvedData.onlineStatus = onlineStatus.status;
       return resolvedData;
     },
-    afterOperation: async () => {
-      await runWebsiteBuild()
+    afterOperation: async ({originalItem, item, context}) => {
+      await runWebsiteBuild(originalItem, item, context.req?.url)
     }
   },
 });

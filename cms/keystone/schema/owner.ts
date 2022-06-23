@@ -32,8 +32,8 @@ export const owner = list({
     }),
   },
   hooks: {
-    afterOperation: async () => {
-      await runWebsiteBuild()
+    afterOperation: async ({originalItem, item, context}) => {
+      await runWebsiteBuild(originalItem, item, context.req?.url)
     }
   }
 });
