@@ -4,7 +4,7 @@ pagination:
     data: cms.abc
     size: 1
     alias: category
-permalink: "abc/{{ category.name | slug }}/"
+permalink: "abc/{{ category.name | slugify }}/"
 ---
 
 <div class="w-full flex flex-col sm:flex-row flex-grow overflow-hidden">
