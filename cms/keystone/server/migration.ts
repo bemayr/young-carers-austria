@@ -5,7 +5,7 @@ import {
   KeystoneContext,
 } from "@keystone-6/core/types";
 import fileApiContent from "../../data/migration/v1/brz-data.29-01-2022.json";
-import { deserializeMarkdown as deserializeMarkdownKeystone } from "../../keystone-fixes/document-field/markdown";
+import { deserializeMarkdown as deserializeMarkdownKeystone } from "../_fixes/document-field/markdown";
 import { getOnlineStatus } from "./links";
 import { getOpenGraphData } from "./opengraph";
 
@@ -15,12 +15,6 @@ function deserializeMarkdown(markdown: string) {
     ? slateContent
     : // wrap content in paragraph, so that it adheres to the keystone slate spec ✅
       [{ type: "paragraph", children: slateContent }];
-}
-
-function parseTargetGroups(targetGroups: string[]) {
-  if (targetGroups.length === 2) return "all";
-  if (targetGroups.includes("Young Carers")) return "youngcarers";
-  if (targetGroups.includes("Eltern / Interessierte")) return "parents";
 }
 
 export const aboutEntriesIds = {
@@ -306,14 +300,6 @@ export function registerMigrateV1Data(
             ? entry.abstractText.trim()
             : existingReferencesLookup[url].description;
 
-        const types = new Set(ref.map((e) => e.type));
-        if (types.size > 1) throw new Error("multiple types");
-        const type = [...types][0].toLowerCase();
-
-        const target = parseTargetGroups([
-          ...new Set(ref.flatMap((e) => e.targetGroups)),
-        ]);
-
         const categoryIds = ref.map((e) => ({
           id: categoryLookup[e.category],
         }));
@@ -347,8 +333,6 @@ export function registerMigrateV1Data(
             onlineStatus: JSON.stringify(onlineStatus),
             openGraphData: JSON.stringify(openGraphData),
           },
-          type: type,
-          target: target,
           categories: { connect: categoryIds },
           owner: { connect: { id: ownerId } },
           lastUpdated: lastUpdated,

@@ -9,7 +9,7 @@ import {
 } from "@keystone-6/core/admin-ui/components";
 import type { NavigationProps } from "@keystone-6/core/admin-ui/components";
 import { useRouter } from "next/router";
-import { localizedViaDescription } from "../../keystone-fixes/lists";
+import { localizedViaDescription } from "../../keystone/_fixes/lists";
 
 // code adapted from: https://github.com/keystonejs/keystone/blob/abeceaf902c231aabe9cf3a383ecf29c09b8f4dd/packages/keystone/src/admin-ui/components/Navigation.tsx#L181-L191
 type NavItemsProps = Pick<NavigationProps, "lists"> & { include?: string[] };
@@ -55,11 +55,12 @@ export function Navigation({ authenticatedItem, lists }: NavigationProps) {
       <div css={{ marginLeft: "1rem" }}>
         <LocalizedListNavItems
           lists={lists}
-          include={["Category", "Reference", "Owner", "User"]}
+          include={["Category", "Reference", "Owner"]}
         />
       </div>
       <LocalizedListNavItems lists={lists} include={["Emergency"]} />
       <LocalizedListNavItems lists={lists} include={["Singleton"]} />
+      <LocalizedListNavItems lists={lists} include={["User"]} />
     </NavigationContainer>
   );
 }
