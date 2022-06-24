@@ -2,7 +2,10 @@ import { list } from "@keystone-6/core";
 import { relationship, text, timestamp } from "@keystone-6/core/fields";
 import { document } from "@keystone-6/fields-document";
 import { Node } from "slate";
-import { runWebsiteBuild } from "../github-actions";
+import {
+  isNonBatchedChange,
+  runWebsiteBuildIfProduction,
+} from "../github-actions";
 
 export const category = list({
   ui: {
@@ -109,9 +112,10 @@ export const category = list({
     }),
   },
   hooks: {
-    afterOperation: async ({originalItem, item, context}) => {
-      await runWebsiteBuild(originalItem, item, context.req?.url)
-    }
+    afterOperation: async ({ context }) => {
+      if (isNonBatchedChange(context.req?.url))
+        await runWebsiteBuildIfProduction();
+    },
   },
 });
 
@@ -126,9 +130,9 @@ export function documentToMarkdown(documentValue: any) {
 }
 
 export function documentToPlain(documentValue: any) {
-  return serialize(JSON.parse(documentValue))
+  return serialize(JSON.parse(documentValue));
 }
 
 const serialize = (nodes: Node[]) => {
-  return nodes.map(n => Node.string(n)).join('\n')
-}
+  return nodes.map((n) => Node.string(n)).join("\n");
+};

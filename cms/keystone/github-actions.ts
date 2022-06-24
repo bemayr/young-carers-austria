@@ -1,20 +1,15 @@
-import deepEqual from "deep-equal";
-
-export async function runWebsiteBuild(
-  originalItem: any,
-  newItem: any,
-  url: string | undefined
-) {
-  const { lastUpdated: lastUpdatedOldOne, ...oldOne } = originalItem;
-  const { lastUpdated: lastUpdatedNewOne, ...newOne } = newItem;
-
+export function isNonBatchedChange(url: string | undefined): boolean {
   const isDataMigration = url?.includes("/data/migrate");
   const isLinkChecker = url?.includes("/links/validate");
-  const isProduction = process.env.NODE_ENV === "production";
-  const isDataChange = !deepEqual(oldOne, newOne);
+  return !(isDataMigration || isLinkChecker);
+}
 
-  if (isDataMigration || isLinkChecker) return;
-  if (isProduction && isDataChange)
+export async function runWebsiteBuildIfProduction() {
+  const isProduction = process.env.NODE_ENV === "production";
+
+  console.info(`🛠️ Initiating Website Rebuild`)
+
+  if (isProduction)
     await fetch(
       "https://api.github.com/repos/bemayr/young-carers-austria/dispatches",
       {

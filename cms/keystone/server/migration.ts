@@ -8,6 +8,7 @@ import fileApiContent from "../../data/migration/v1/brz-data.29-01-2022.json";
 import { deserializeMarkdown as deserializeMarkdownKeystone } from "../_fixes/document-field/markdown";
 import { getOnlineStatus } from "./links";
 import { getOpenGraphData } from "./opengraph";
+import { runWebsiteBuildIfProduction } from "../github-actions";
 
 function deserializeMarkdown(markdown: string) {
   const slateContent = deserializeMarkdownKeystone(markdown);
@@ -390,6 +391,8 @@ export function registerMigrateV1Data(
     });
 
     // [TODO]: add favorites
+
+    runWebsiteBuildIfProduction();
 
     res.json({
       keywords: insertedKeywords.length,

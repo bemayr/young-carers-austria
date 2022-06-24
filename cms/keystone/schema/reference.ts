@@ -2,7 +2,7 @@ import { stars } from "./../fields/stars-field/index";
 import { list } from "@keystone-6/core";
 import { checkbox, relationship, select, text, timestamp } from "@keystone-6/core/fields";
 import { url } from "../fields/url-field";
-import { runWebsiteBuild } from "../github-actions";
+import { isNonBatchedChange, runWebsiteBuildIfProduction } from "../github-actions";
 
 export const reference = list({
   ui: {
@@ -123,8 +123,9 @@ export const reference = list({
       resolvedData.onlineStatus = onlineStatus.status;
       return resolvedData;
     },
-    afterOperation: async ({originalItem, item, context}) => {
-      await runWebsiteBuild(originalItem, item, context.req?.url)
-    }
+    afterOperation: async ({ context }) => {
+      if (isNonBatchedChange(context.req?.url))
+        await runWebsiteBuildIfProduction();
+    },
   },
 });

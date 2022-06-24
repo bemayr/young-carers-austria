@@ -1,6 +1,6 @@
 import { list } from "@keystone-6/core";
 import { relationship, text } from "@keystone-6/core/fields";
-import { runWebsiteBuild } from "../github-actions";
+import { isNonBatchedChange, runWebsiteBuildIfProduction } from "../github-actions";
 
 export const owner = list({
   ui: {
@@ -32,8 +32,9 @@ export const owner = list({
     }),
   },
   hooks: {
-    afterOperation: async ({originalItem, item, context}) => {
-      await runWebsiteBuild(originalItem, item, context.req?.url)
-    }
+    afterOperation: async ({ context }) => {
+      if (isNonBatchedChange(context.req?.url))
+        await runWebsiteBuildIfProduction();
+    },
   }
 });

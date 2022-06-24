@@ -1,6 +1,6 @@
 import { list } from "@keystone-6/core";
 import { text } from "@keystone-6/core/fields";
-import { runWebsiteBuild } from "../github-actions";
+import { isNonBatchedChange, runWebsiteBuildIfProduction } from "../github-actions";
 
 export const keyword = list({
   ui: {
@@ -14,8 +14,9 @@ export const keyword = list({
     }),
   },
   hooks: {
-    afterOperation: async ({originalItem, item, context}) => {
-      await runWebsiteBuild(originalItem, item, context.req?.url)
-    }
+    afterOperation: async ({ context }) => {
+      if (isNonBatchedChange(context.req?.url))
+        await runWebsiteBuildIfProduction();
+    },
   },
 });

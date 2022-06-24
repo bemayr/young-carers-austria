@@ -1,7 +1,7 @@
 import { list } from "@keystone-6/core";
 import { text } from "@keystone-6/core/fields";
 import { document } from "@keystone-6/fields-document";
-import { runWebsiteBuild } from "../github-actions";
+import { isNonBatchedChange, runWebsiteBuildIfProduction } from "../github-actions";
 import { documentToMarkdown, documentToPlain } from "./category";
 
 export const singleton = list({
@@ -46,8 +46,9 @@ export const singleton = list({
     })
   },
   hooks: {
-    afterOperation: async ({originalItem, item, context}) => {
-      await runWebsiteBuild(originalItem, item, context.req?.url)
-    }
+    afterOperation: async ({ context }) => {
+      if (isNonBatchedChange(context.req?.url))
+        await runWebsiteBuildIfProduction();
+    },
   },
 });
