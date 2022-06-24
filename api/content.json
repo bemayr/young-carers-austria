@@ -91,10 +91,10 @@
           "references": [
             {
               "url": "https://oeqz.at/",
-              "title": "Gesicherte Qualität bei der 48-Stunden-Pflege",
+              "title": "Gesicherte Qualität bei der 24-Stunden-Pflege",
               "description": "Für Agenturen der 24-Stunden-Betreuung gibt es ein freiwilliges Qualitätszertifikat.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.669Z",
+              "lastUpdated": "2021-05-31T15:31:05.675Z",
               "keywords": [
                 "ÖQZ-24"
               ]
@@ -110,7 +110,7 @@
               "title": "24-Stunden-Betreuung",
               "description": "Für betreuungsbedürftige Personen kann es notwendig sein, dass in privaten Haushalten Tag und Nacht eine Betreuungsperson anwesend sein muss. Dies erfolgt im Rahmen einer 24-Stunden-Betreuung. Um die wichtige Qualität sicherzustellen, wird für Vermittlungsagenturen ein Qualitätszertifikat verliehen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.508Z",
+              "lastUpdated": "2021-06-01T07:30:09.122Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -120,7 +120,7 @@
               "title": "24-Stunden-Betreuung",
               "description": "Broschüre \"24-Stunden-Betreuung zu Hause\" als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.678Z",
+              "lastUpdated": "2021-05-31T15:29:26.041Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -139,23 +139,23 @@
           "ownerUrl": "",
           "references": [
             {
+              "url": "https://www.gesundheit.gv.at/news/aktuelles.html",
+              "title": "Gesundheitsportal",
+              "description": "Aktuelle Themen des Gesundheitsportal Österreichs",
+              "isPaidContent": false,
+              "lastUpdated": "2022-06-24T10:30:47.030Z",
+              "keywords": [
+                "Gesundheitsportal Österreichs"
+              ]
+            },
+            {
               "url": "https://www.sozialministerium.at",
               "title": "Informationen vom Ministerium",
               "description": "Die neuesten Informationen bzw. Themen zu Pflege und Gesundheit des Sozialministeriums",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.246Z",
+              "lastUpdated": "2022-01-31T11:38:55.749Z",
               "keywords": [
                 "Sozialministerium"
-              ]
-            },
-            {
-              "url": "https://www.gesundheit.gv.at/aktuelles/inhalt",
-              "title": "Gesundheitsportal",
-              "description": "Aktuelle Themen des Gesundheitsportal Österreichs",
-              "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.663Z",
-              "keywords": [
-                "Gesundheitsportal Österreichs"
               ]
             }
           ]
@@ -176,7 +176,7 @@
               "title": "Who cares? Young Carers!",
               "description": "Folder \"Who cares? Young Carers!\" als Download.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.165Z",
+              "lastUpdated": "2022-01-31T12:16:09.259Z",
               "keywords": [
                 "Sozialministerium",
                 "Young Carers"
@@ -193,7 +193,7 @@
               "title": "Angebote und Hilfe für Young Carers",
               "description": "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.986Z",
+              "lastUpdated": "2021-05-17T16:51:04.761Z",
               "keywords": [
                 "Interessengemeinschaft pflegender Angehöriger",
                 "Young Carers"
@@ -210,7 +210,7 @@
               "title": "Angebote in Vorarlberg",
               "description": "Du kannst dich an die Interessensvertretung für pflegende und betreuende Angehörige in Vorarlberg wenden.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.200Z",
+              "lastUpdated": "2022-01-31T12:05:50.028Z",
               "keywords": [
                 "Interessensvertretung für pflegende und betreuende Angehörige"
               ]
@@ -226,7 +226,7 @@
               "title": "Youngcarers - Get Social",
               "description": "Video des Jugendrotkreuzes zum Thema Young Carers",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.147Z",
+              "lastUpdated": "2021-05-17T14:20:54.827Z",
               "keywords": [
                 "Jugendrotkreuz",
                 "Young Carers"
@@ -243,7 +243,7 @@
               "title": "Hilfe für betreuende und pflegende Angehörige",
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.457Z",
+              "lastUpdated": "2021-06-14T14:48:36.706Z",
               "keywords": [
                 "Pflegende Angehörige",
                 "Soziale Dienste",
@@ -256,7 +256,7 @@
               "title": "Kinder und Jugendliche als pflegende Angehörige",
               "description": "Die beiden Studien (2012, 2014) als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.514Z",
+              "lastUpdated": "2021-05-31T16:55:54.142Z",
               "keywords": [
                 "Sozialministerium",
                 "Young Carers"
@@ -267,7 +267,7 @@
               "title": "EIN:BLICK 5 - Pflege",
               "description": "Broschüre als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.542Z",
+              "lastUpdated": "2021-05-31T16:36:36.458Z",
               "keywords": [
                 "Sozialministerium",
                 "Young Carers"
@@ -284,7 +284,7 @@
               "title": "Familien und Gemeindenahepflege",
               "description": "Video der FH Gesundheit Innsbruck zum Thema Young Carers",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.152Z",
+              "lastUpdated": "2021-05-17T14:19:58.509Z",
               "keywords": [
                 "Stefan Nagiller",
                 "UMIT",
@@ -302,7 +302,7 @@
               "title": "feel-ok.at",
               "description": "feel-ok ist ein Netzwerk aus zahlreichen Institutionen in der Schweiz, in Österreich und in Deutschland. Sie bieten Informationen aus diversen Bereichen des Lebens von Kindern und Jugendlichen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.264Z",
+              "lastUpdated": "2022-01-31T11:31:42.270Z",
               "keywords": [
                 "Österreich"
               ]
@@ -318,7 +318,7 @@
               "title": "Superhands",
               "description": "Auf dieser Seite findest du das Angebot von superhands (Informationen für MultiplikatorInnen).",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.141Z",
+              "lastUpdated": "2021-05-17T14:26:38.460Z",
               "keywords": [
                 "Young Carers",
                 "superhands"
@@ -342,7 +342,7 @@
               "title": "Infos über das Angehörigengespräch",
               "description": "Folder als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.140Z",
+              "lastUpdated": "2022-01-31T12:23:54.330Z",
               "keywords": [
                 "Beratung",
                 "Sozialministerium"
@@ -359,7 +359,7 @@
               "title": "Wie kommts zum Angehörigengespräch?",
               "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.134Z",
+              "lastUpdated": "2022-01-31T12:28:03.701Z",
               "keywords": [
                 "Beratung",
                 "Hausbesuch",
@@ -385,7 +385,7 @@
               "title": "Unterstützungen für pflegende Angehörige",
               "description": "Folder als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.160Z",
+              "lastUpdated": "2022-01-31T12:18:09.688Z",
               "keywords": [
                 "Beratung",
                 "Pflegende Angehörige",
@@ -405,7 +405,7 @@
               "title": "Familienberatungsstellen",
               "description": "Es gibt über 400 Familienberatungsstellen in Österreich. Erfahre mehr über das Angebot.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.399Z",
+              "lastUpdated": "2021-06-24T12:50:17.091Z",
               "keywords": [
                 "Beratung",
                 "Bundeskanzleramt",
@@ -423,7 +423,7 @@
               "title": "Sorgen? Schulpsychologie hilft",
               "description": "Hier gibts Infos aus dem Bereich Schulpsychologie und Bildungsberatung.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.108Z",
+              "lastUpdated": "2022-02-03T15:02:53.150Z",
               "keywords": [
                 "Beratung",
                 "Bundesministerium für Bildung, Wissenschaft und Forschung"
@@ -440,7 +440,7 @@
               "title": "Trauerbegleitung",
               "description": "Caritas Socialis hilft hier bei Trauerbegleitung für Kinder und Jugendliche weiter.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.129Z",
+              "lastUpdated": "2021-05-17T15:32:44.088Z",
               "keywords": [
                 "Beratung",
                 "CS Caritas Socialis",
@@ -458,7 +458,7 @@
               "title": "Get Social - Time4Friends",
               "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.206Z",
+              "lastUpdated": "2022-01-31T11:58:43.518Z",
               "keywords": [
                 "Beratung",
                 "Jugendrotkreuz"
@@ -475,7 +475,7 @@
               "title": "Österreichische Krebshilfe",
               "description": "Hier geht's zu den Informationen der Beratungsstellen der Österreichischen Krebshilfe.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.123Z",
+              "lastUpdated": "2021-05-17T15:35:29.480Z",
               "keywords": [
                 "Beratung",
                 "Österreichische Krebshilfe-Krebsgesellschaft"
@@ -492,7 +492,7 @@
               "title": "#visible - Kinder psychisch erkrankter Eltern sichtbar machen",
               "description": "275.000 Kinder und Jugendliche in Österreich haben eine psychisch erkrankte Mama oder einen psychisch erkrankten Papa. Das Projekt #visible will dieses Thema sichtbar machen und bietet Unterstützung.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.343Z",
+              "lastUpdated": "2021-11-09T13:53:54.853Z",
               "keywords": [
                 "Beratung",
                 "JoJo Kindheit im Schatten",
@@ -510,7 +510,7 @@
               "title": "Beratung/Coaching für Kinder und Jugendliche",
               "description": "Rainbows hilft Kindern und Jugendlichen in stürmischen Zeiten – bei Trennung, Scheidung oder Tod naher Bezugspersonen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.393Z",
+              "lastUpdated": "2021-06-24T12:51:52.153Z",
               "keywords": [
                 "Beratung",
                 "Rainbows"
@@ -527,7 +527,7 @@
               "title": "Rat auf Draht die Elternseite",
               "description": "Hier werden Information, Austausch und Beratung für Eltern und Bezugspersonen angeboten.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.098Z",
+              "lastUpdated": "2021-05-17T15:46:09.744Z",
               "keywords": [
                 "147 - Rat auf Draht",
                 "Beratung"
@@ -544,7 +544,7 @@
               "title": "Hotline 1450",
               "description": "Wenn's weh tut - wähle die Gesundheitsnummer.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.172Z",
+              "lastUpdated": "2022-01-31T12:10:44.867Z",
               "keywords": [
                 "1450 - die Gesundheitsnummer",
                 "Beratung",
@@ -564,7 +564,7 @@
               "title": "Wie kommts zum Angehörigengespräch?",
               "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.134Z",
+              "lastUpdated": "2022-01-31T12:28:03.701Z",
               "keywords": [
                 "Beratung",
                 "Hausbesuch",
@@ -583,7 +583,7 @@
               "title": "Tägliche Pflege",
               "description": "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.192Z",
+              "lastUpdated": "2022-01-31T12:08:13.919Z",
               "keywords": [
                 "Beratung",
                 "Pflegetipps",
@@ -595,7 +595,7 @@
               "title": "Handbuch und Hintergrundinformationen über Young Carers in Österreich",
               "description": "Wenn Kinder und Jugendliche pflegen...\nEin Handbuch für Fachkräfte und Lehrende  im Bildungs-, Gesundheits- und Sozialwesen",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.281Z",
+              "lastUpdated": "2022-01-31T11:09:51.408Z",
               "keywords": [
                 "superhands"
               ]
@@ -605,7 +605,7 @@
               "title": "Superhands informieren Erwachsene",
               "description": "Hier findest du Informationen von superhands für Eltern und Interessierte.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.134Z",
+              "lastUpdated": "2021-05-17T15:30:03.489Z",
               "keywords": [
                 "Beratung",
                 "superhands"
@@ -622,7 +622,7 @@
               "title": "Onlineberatung veRRückte Kindheit",
               "description": "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.121Z",
+              "lastUpdated": "2022-02-03T15:02:08.766Z",
               "keywords": [
                 "Beratung",
                 "VeRRückte Kindheit"
@@ -646,7 +646,7 @@
               "title": "Telefonseelsorge",
               "description": "Die TelefonSeelsorge Österreich – Notruf 142 ist eine österreichweite Organisation mit neun TelefonSeelsorge-Stellen. Hilfe gibts telefonisch, per Sofortchat oder per Mail.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.110Z",
+              "lastUpdated": "2021-05-17T15:42:29.329Z",
               "keywords": [
                 "Beratung",
                 "Telefonseelsorge"
@@ -663,7 +663,7 @@
               "title": "Rat auf Draht",
               "description": "Beratung für Kinder und Jugendliche jederzeit - anonym - kostenlos",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.104Z",
+              "lastUpdated": "2021-05-17T15:45:53.548Z",
               "keywords": [
                 "147 - Rat auf Draht",
                 "Beratung"
@@ -680,7 +680,7 @@
               "title": "open2chat",
               "description": "open2chat ist eine Möglichkeit für Jugendliche, online mit Gleichaltrigen über ihre Sorgen, Fragen und Probleme zu chatten. open2chat ist kostenlos und anonym.\nDiese Form der Unterstützung ersetzt keine psychotherapeutische oder ärztliche Behandlung.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.913Z",
+              "lastUpdated": "2022-05-12T15:03:47.888Z",
               "keywords": [
                 "Caritas"
               ]
@@ -696,7 +696,7 @@
               "title": "Onlineberatung Superhands",
               "description": "Du schreibst lieber als zu reden? superhands ist auch über die Online-Beratung erreichbar.  Vertraulich, anonym und kostenlos.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.117Z",
+              "lastUpdated": "2021-05-17T15:41:12.711Z",
               "keywords": [
                 "Beratung",
                 "superhands"
@@ -713,7 +713,7 @@
               "title": "Onlineberatung veRRückte Kindheit",
               "description": "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.121Z",
+              "lastUpdated": "2022-02-03T15:02:08.766Z",
               "keywords": [
                 "Beratung",
                 "VeRRückte Kindheit"
@@ -737,7 +737,7 @@
               "title": "Coronavirus - Kindern Ängste nehmen",
               "description": "Video zum Thema Coronavirus \"Was können Eltern tun um Kindern Ängste zu nehmen?\"",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.093Z",
+              "lastUpdated": "2021-05-17T15:53:30.432Z",
               "keywords": [
                 "COVID-19",
                 "Coronavirus",
@@ -755,7 +755,7 @@
               "title": "Hotline 1450",
               "description": "Wenn's weh tut - wähle die Gesundheitsnummer.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.172Z",
+              "lastUpdated": "2022-01-31T12:10:44.867Z",
               "keywords": [
                 "1450 - die Gesundheitsnummer",
                 "Beratung",
@@ -769,7 +769,7 @@
               "title": "Wie steht es mit Corona derzeit?",
               "description": "Informationen und Aktuelles zum Coronavirus",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.293Z",
+              "lastUpdated": "2022-01-18T10:26:07.117Z",
               "keywords": [
                 "COVID-19",
                 "Coronavirus",
@@ -781,7 +781,7 @@
               "title": "Corona Schutzimpfung",
               "description": "Hier findest du viele Informationen über die Corona Schutzimpfung.\nACHTUNG: Ab dem 14. Geburtstag dürfen Kinder, die die erforderliche Entscheidungsfähigkeit besitzen, selbst in die Durchführung einer Impfung einwilligen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.300Z",
+              "lastUpdated": "2022-01-18T10:24:34.443Z",
               "keywords": [
                 "COVID-19",
                 "Coronavirus",
@@ -799,7 +799,7 @@
               "title": "Wie gegen Corona schützen?",
               "description": "Aktuelle Informationen zu Schutzmaßnahmen betreffend COVID-19",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T07:10:44.687Z",
+              "lastUpdated": "2022-06-24T10:29:24.581Z",
               "keywords": [
                 "COVID-19",
                 "Coronavirus",
@@ -824,7 +824,7 @@
               "title": "Demenzstrategie - Gut leben mit Demenz",
               "description": "Bericht \"Demenzstrategie Gut leben mit Demenz\" als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.647Z",
+              "lastUpdated": "2021-05-31T15:51:36.685Z",
               "keywords": [
                 "Gesundheit Österreich GmbH",
                 "Sozialministerium"
@@ -835,7 +835,7 @@
               "title": "Gut leben mit Demenz",
               "description": "Folder \"Gut leben mit Demenz\" als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.652Z",
+              "lastUpdated": "2021-05-31T15:50:42.581Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -851,7 +851,7 @@
               "title": "Demenz - was ist das?",
               "description": "Unter folgendem Link findest du umfassende Informationen zum Thema Demenz.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.252Z",
+              "lastUpdated": "2022-01-31T11:35:14.524Z",
               "keywords": [
                 "Gesundheit Österreich GmbH",
                 "Sozialministerium"
@@ -868,7 +868,7 @@
               "title": "Kinder fragen: \"Was ist Demenz?\"",
               "description": "Praxisbeispiele um Kindern das Thema Demenz näherzubringen",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.641Z",
+              "lastUpdated": "2021-05-31T15:51:51.354Z",
               "keywords": [
                 "Gesundheit Österreich GmbH",
                 "Sozialministerium"
@@ -885,7 +885,7 @@
               "title": "Demenz und Ich",
               "description": "Die Online-Hilfe für Angehörige.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.018Z",
+              "lastUpdated": "2022-02-03T15:13:15.391Z",
               "keywords": [
                 "Pflegende Angehörige"
               ]
@@ -908,7 +908,7 @@
               "title": "Pflege Burgenland",
               "description": "Das Land Burgenland bietet hier Informationen zu Pflegethemen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.085Z",
+              "lastUpdated": "2021-05-17T16:05:54.959Z",
               "keywords": [
                 "Burgenland",
                 "Soziale Dienste"
@@ -925,7 +925,7 @@
               "title": "Community Nursing",
               "description": "Community Nurses sind diplomierte Gesundheits- und Krankenpflegepersonen welche wohnortnah ihre Dienstleistung anbieten. Sie sollen z.B. dabei helfen, dass ältere Personen weiterhin zu Hause leben können. Es gibt zur Zeit 120 Pilotprojekte in ganz Österreich.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.010Z",
+              "lastUpdated": "2022-04-07T13:25:37.871Z",
               "keywords": [
                 "Soziale Dienste"
               ]
@@ -941,7 +941,7 @@
               "title": "Infoservice soziale Dienste",
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.152Z",
+              "lastUpdated": "2022-01-31T12:20:45.534Z",
               "keywords": [
                 "Schulung",
                 "Soziale Dienste",
@@ -960,7 +960,7 @@
               "title": "Pflege Kärnten",
               "description": "Das Land Kärten bietet hier Informationen zu Pflegethemen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.164Z",
+              "lastUpdated": "2021-05-17T16:07:45.648Z",
               "keywords": [
                 "Kärnten",
                 "Soziale Dienste"
@@ -977,7 +977,7 @@
               "title": "Pflege Niederösterreich",
               "description": "Das Land Niederösterreich bietet hier Informationen zu Pflegethemen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.220Z",
+              "lastUpdated": "2022-01-31T11:42:37.712Z",
               "keywords": [
                 "Niederösterreich",
                 "Soziale Dienste"
@@ -994,7 +994,7 @@
               "title": "Pflege Oberösterreich",
               "description": "Das Land Oberösterreich bietet hier Informationen zu Pflegethemen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.078Z",
+              "lastUpdated": "2021-05-17T16:10:22.572Z",
               "keywords": [
                 "Oberösterreich",
                 "Soziale Dienste"
@@ -1011,7 +1011,7 @@
               "title": "Pflege Salzburg",
               "description": "Das Land Salzburg bietet hier Informationen zu Pflegethemen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.072Z",
+              "lastUpdated": "2021-05-17T16:11:06.959Z",
               "keywords": [
                 "Salzburg",
                 "Soziale Dienste"
@@ -1028,7 +1028,7 @@
               "title": "Soziale Dienste erklärt",
               "description": "Soziale Dienste sind für Menschen mit Pflegebedarf und Menschen mit Behinderungen damit diese so betreut werden können wie sie das selbst möchten.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.636Z",
+              "lastUpdated": "2021-05-31T15:52:43.447Z",
               "keywords": [
                 "Soziale Dienste",
                 "Sozialministerium"
@@ -1045,7 +1045,7 @@
               "title": "Pflege Steiermark",
               "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.728Z",
+              "lastUpdated": "2021-05-18T12:37:03.595Z",
               "keywords": [
                 "Land",
                 "Soziale Dienste",
@@ -1063,7 +1063,7 @@
               "title": "Pflege Tirol",
               "description": "Hier werden Informationen zu Mobilen Diensten in Tirol angeboten.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.067Z",
+              "lastUpdated": "2021-05-17T16:12:55.668Z",
               "keywords": [
                 "Soziale Dienste",
                 "Tirol"
@@ -1080,7 +1080,7 @@
               "title": "Pflege Vorarlberg",
               "description": "Das Land Vorarlberg bietet hier Informationen zu Pflegethemen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.025Z",
+              "lastUpdated": "2022-02-03T15:08:02.049Z",
               "keywords": [
                 "Soziale Dienste",
                 "Vorarlberg"
@@ -1097,7 +1097,7 @@
               "title": "Pflege Wien",
               "description": "Hier bietet der Fonds Soziales Wien Informationen zu Pflegethemen an.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.061Z",
+              "lastUpdated": "2021-05-17T16:14:44.617Z",
               "keywords": [
                 "Soziale Dienste",
                 "Wien"
@@ -1117,11 +1117,21 @@
           "ownerUrl": "",
           "references": [
             {
+              "url": "https://www.gesundheit.gv.at/service/videos/sport-entspannung/entspannung.html",
+              "title": "Acht Schätze - nicht zum Essen, sondern zum Entspannen",
+              "description": "Unter dem nachstehenden Link findest du die Videoserie \"Die acht Schätze\" zur Entspannung.",
+              "isPaidContent": false,
+              "lastUpdated": "2022-06-24T10:28:46.268Z",
+              "keywords": [
+                "Gesundheitsportal Österreichs"
+              ]
+            },
+            {
               "url": "https://www.gesundheit.gv.at/leben/psyche-seele/praevention/seelisches-gleichgewicht-bewahren",
               "title": "Unausgeglichen?",
               "description": "Wenn du diesen Link anklickst findest du Tipps für die seelische Balance.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.080Z",
+              "lastUpdated": "2022-02-03T15:04:55.956Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -1131,17 +1141,7 @@
               "title": "Gesundheitsportal Österreich - Entspannt bleiben",
               "description": "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.086Z",
-              "keywords": [
-                "Gesundheitsportal Österreichs"
-              ]
-            },
-            {
-              "url": "https://www.gesundheit.gv.at/service/videos/sport-entspannung/entspannung.html",
-              "title": "Acht Schätze - nicht zum Essen, sondern zum Entspannen",
-              "description": "Unter dem nachstehenden Link findest du die Videoserie \"Die acht Schätze\" zur Entspannung.",
-              "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.630Z",
+              "lastUpdated": "2022-02-03T15:04:32.229Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -1157,7 +1157,7 @@
               "title": "Schau auf dich!",
               "description": "Hier bietet dir \"veRRückte Kindheit\" Selbsthilfetipps für zu Hause an.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.128Z",
+              "lastUpdated": "2022-02-03T15:01:36.045Z",
               "keywords": [
                 "VeRRückte Kindheit"
               ]
@@ -1180,7 +1180,7 @@
               "title": "A day in the life of a young carer - BBC News",
               "description": "13-year-old Jameal is a carer for his mum - he describes the struggles and positives of being a young carer.Please subscribe HERE http://bit.ly/1rbfUog",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.049Z",
+              "lastUpdated": "2021-05-17T16:28:55.848Z",
               "keywords": [
                 "BBC News",
                 "Young Carers"
@@ -1197,7 +1197,7 @@
               "title": "Young Carers Network - A Carers Australia Initiative",
               "description": "Gewinne einen Einblick in das Leben von Young Carers in Australien. Sie nehmen dich in ihren Alltag mit.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.349Z",
+              "lastUpdated": "2021-11-09T13:47:48.177Z",
               "keywords": [
                 "Young Carers"
               ]
@@ -1213,7 +1213,7 @@
               "title": "A Young Carer Song (Growing Up)",
               "description": "Ein Song anlässlich der CARERS WEEK",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.177Z",
+              "lastUpdated": "2022-01-31T12:09:19.957Z",
               "keywords": [
                 "Australien",
                 "Charlotte Foley",
@@ -1233,7 +1233,7 @@
               "title": "Orkney Young Carers",
               "description": "A Fixers campaign led by Julie Sivier: http://www.fixers.org.uk/news/16737-11208/life-as-a-young-carer.php Julie Sivier, 17, from Orkney, is helping to incre...",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.044Z",
+              "lastUpdated": "2021-05-17T16:30:02.913Z",
               "keywords": [
                 "Fixers UK",
                 "Young Carers"
@@ -1250,7 +1250,7 @@
               "title": "Young Carer: Kleine Schultern, große Last - edit. Magazin",
               "description": "Lana Rebhan ist Young Carer. Sie kümmert sich um ihren kranken Papa, der an Nierenzysten leidet. Das heißt für die 15-Jährige: Haushalt und Pflege statt Schu...",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.056Z",
+              "lastUpdated": "2021-05-17T16:26:58.913Z",
               "keywords": [
                 "Deutschland",
                 "Hochschule der Medien edit.Magazin"
@@ -1267,7 +1267,7 @@
               "title": "Sie haben etwas zu erzählen",
               "description": "Videointerviews mit Young Carers und Fachpersonen",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.032Z",
+              "lastUpdated": "2021-05-17T16:32:35.246Z",
               "keywords": [
                 "Kalaidos Fachhochschule AG",
                 "Young Carers"
@@ -1284,7 +1284,7 @@
               "title": "Mich gibt’s auch noch",
               "description": "Kostenpflichtiger Film über Geschwister von Menschen mit Behinderung",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.038Z",
+              "lastUpdated": "2021-05-17T16:31:23.321Z",
               "keywords": [
                 "Medienprojekt Wuppertal",
                 "Young Carers"
@@ -1301,7 +1301,7 @@
               "title": "Young Carers und ihre Geschichten",
               "description": "Wie geht es Young Carers in ihrer Situation? Welche Erfahrungen haben sie gemacht? Hier erzählen sie ihre Geschichten.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.477Z",
+              "lastUpdated": "2021-06-14T14:25:10.456Z",
               "keywords": [
                 "superhands",
                 "Österreich"
@@ -1318,7 +1318,7 @@
               "title": "Young Helping Hands",
               "description": "Website für Kinder, Jugendliche und junge Erwachsene, die ihre Eltern und / oder andere Angehörige pflegen – auch für Eltern, ehemals Betroffene und Fachkräfte!",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.959Z",
+              "lastUpdated": "2022-04-07T13:43:53.593Z",
               "keywords": [
                 "Deutschland"
               ]
@@ -1341,7 +1341,7 @@
               "title": "Damit du gewappnet bist",
               "description": "Die Johanniter bieten Erste Hilfe Tipps an.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.013Z",
+              "lastUpdated": "2021-05-17T16:42:27.724Z",
               "keywords": [
                 "Die Johanniter"
               ]
@@ -1357,7 +1357,7 @@
               "title": "Videoreihe \"Erste Hilfe daham\"",
               "description": "Um Erste Hilfe anschaulich zu vermitteln, bietet das Jugendrotkreuz die Videoreihe \"Erste Hilfe daham\".",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.025Z",
+              "lastUpdated": "2021-05-17T16:37:57.869Z",
               "keywords": [
                 "Jugendrotkreuz"
               ]
@@ -1373,7 +1373,7 @@
               "title": "Erste-Hilfe-Kurse Rotes Kreuz",
               "description": "Du möchtest dich weiterbilden? Unter folgendem Link findest du Erste Hilfe Kurse des Roten Kreuzes.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.305Z",
+              "lastUpdated": "2022-01-17T13:34:11.230Z",
               "keywords": [
                 "Rotes Kreuz"
               ]
@@ -1385,11 +1385,11 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.gesundheit.gv.at/service/notruf.html",
-              "title": "Für alle Fälle - Hilfe und Notrufe",
-              "description": "Hier sind alle wichtigen Telefonnummern zu Notruf, Hotlines, Vergiftungsinformationszentrale...",
+              "url": "https://www.gesundheit.gv.at/krankheiten/erste-hilfe/notdienst.html",
+              "title": "1 x 1 der Ersten Hilfe",
+              "description": "Jeder kann diese Information brauchen",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.388Z",
+              "lastUpdated": "2022-06-24T10:35:14.618Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -1399,7 +1399,17 @@
               "title": "Schon ein Erste-Hilfe-Profi?",
               "description": "Teste hier dein Wissen: Erste Hilfe Quiz",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.605Z",
+              "lastUpdated": "2022-06-24T10:25:50.016Z",
+              "keywords": [
+                "Gesundheitsportal Österreichs"
+              ]
+            },
+            {
+              "url": "https://www.gesundheit.gv.at/service/notruf.html",
+              "title": "Für alle Fälle - Hilfe und Notrufe",
+              "description": "Hier sind alle wichtigen Telefonnummern zu Notruf, Hotlines, Vergiftungsinformationszentrale...",
+              "isPaidContent": false,
+              "lastUpdated": "2022-06-24T10:21:41.587Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -1409,7 +1419,7 @@
               "title": "Wie funktioniert ein Notruf?",
               "description": "Hier wird es dir erklärt.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.611Z",
+              "lastUpdated": "2021-05-31T16:02:58.327Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -1419,17 +1429,7 @@
               "title": "Maßnahmen der Ersten Hilfe",
               "description": "Für den Ernstfall findest du hier Maßnahmen für Ersthelferinnen und -helfer.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.617Z",
-              "keywords": [
-                "Gesundheitsportal Österreichs"
-              ]
-            },
-            {
-              "url": "https://www.gesundheit.gv.at/krankheiten/erste-hilfe/notdienst.html",
-              "title": "1 x 1 der Ersten Hilfe",
-              "description": "Jeder kann diese Information brauchen",
-              "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.622Z",
+              "lastUpdated": "2021-05-31T16:02:07.202Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -1445,7 +1445,7 @@
               "title": "Was tun, wenn jede Minute zählt?",
               "description": "superhands bietet dir Erste Hilfe Tipps für den Notfall an.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.019Z",
+              "lastUpdated": "2021-05-17T16:40:59.568Z",
               "keywords": [
                 "superhands"
               ]
@@ -1468,7 +1468,7 @@
               "title": "Familienberatung, aber wo?",
               "description": "Finde die Familienberatungsstelle in deiner Region.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.007Z",
+              "lastUpdated": "2021-05-17T16:44:02.034Z",
               "keywords": [
                 "Bundeskanzleramt"
               ]
@@ -1484,7 +1484,7 @@
               "title": "Gemeinsam wachsen",
               "description": "Ehrenamtliche Patinnen und Paten unterstützen die Kinder, indem sie regelmäßig mit ihnen Zeit verbringen und eine tragfähige Beziehung zu ihnen aufbauen. Sie bieten auch eine Anlaufstelle für Familein in denen ein Elternteil psychisch belastet oder erkrankt ist.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.336Z",
+              "lastUpdated": "2021-11-10T09:01:26.601Z",
               "keywords": [
                 "JoJo Kindheit im Schatten",
                 "Salzburg"
@@ -1501,7 +1501,7 @@
               "title": "Daheim gibts Probleme",
               "description": "Bei Krisen und Problemen in der Familie findest du hier hilfreiche Ratschläge um diese zu bewältigen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.600Z",
+              "lastUpdated": "2022-06-24T10:25:21.825Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -1517,7 +1517,7 @@
               "title": "Gewalt ist nie ok!",
               "description": "Häusliche Gewalt ist Gewalt zwischen Menschen, die in einer partnerschaftlichen Beziehung leben. Hier erfährst du alles zu diesem Thema. Informiere dich darüber wo es Hilfe gibt oder wie du Anderen in solchen Situationen helfen kannst. Es gibt auch Tipps wie man mit negativen Gefühlen umgehen kann.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.363Z",
+              "lastUpdated": "2021-10-28T14:07:42.377Z",
               "keywords": [
                 "Young Carers"
               ]
@@ -1540,7 +1540,7 @@
               "title": "\"Das Pflegekarenzgeld\"",
               "description": "Folder  als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.582Z",
+              "lastUpdated": "2021-05-31T16:14:08.251Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -1550,7 +1550,7 @@
               "title": "\"EIN:BLICK 1 - Kindheit und Jugend\"",
               "description": "Broschüre  als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.588Z",
+              "lastUpdated": "2021-05-31T16:13:55.079Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -1560,7 +1560,7 @@
               "title": "\"EIN:BLICK 7 - Finanzielles\"",
               "description": "Broschüre  als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.593Z",
+              "lastUpdated": "2021-05-31T16:13:44.274Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -1576,7 +1576,7 @@
               "title": "Unterstützungen für pflegende Angehörige",
               "description": "Folder als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.160Z",
+              "lastUpdated": "2022-01-31T12:18:09.688Z",
               "keywords": [
                 "Beratung",
                 "Pflegende Angehörige",
@@ -1596,7 +1596,7 @@
               "title": "Familienportal",
               "description": "Das Familienportal bietet umfangreiche Infos zu finanziellen Themen rund um die Familie.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.995Z",
+              "lastUpdated": "2022-04-07T13:29:09.808Z",
               "keywords": [
                 "Bundeskanzleramt"
               ]
@@ -1612,7 +1612,7 @@
               "title": "Finanzielle Hilfe",
               "description": "Hier findest du sonstige Unterstützungen des Sozialministeriumservice.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.993Z",
+              "lastUpdated": "2021-05-17T16:48:09.303Z",
               "keywords": [
                 "Sozialministeriumservice"
               ]
@@ -1622,7 +1622,7 @@
               "title": "Pflegeunterstützungen",
               "description": "Hier kannst du dich über Unterstützungen des Sozialministeriumservice informieren.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.000Z",
+              "lastUpdated": "2021-05-17T16:46:36.566Z",
               "keywords": [
                 "Sozialministeriumservice"
               ]
@@ -1645,7 +1645,7 @@
               "title": "Langeweile?",
               "description": "Austria4Kids hat Freizeittipps für Familien parat.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.980Z",
+              "lastUpdated": "2021-05-17T16:55:04.733Z",
               "keywords": [
                 "austria4kids"
               ]
@@ -1661,7 +1661,7 @@
               "title": "harmony4kids",
               "description": "harmony4kids-Trainings geben Kindern Zeit, einfach nur Kind zu sein.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.184Z",
+              "lastUpdated": "2022-01-31T12:08:40.261Z",
               "keywords": [
                 "Freizeit",
                 "harmony4kids"
@@ -1671,14 +1671,14 @@
         },
         {
           "ownerName": "Hobby Lobby",
-          "ownerUrl": "https://www.hobbylobby.co.at/",
+          "ownerUrl": "",
           "references": [
             {
               "url": "https://www.hobbylobby.co.at/",
               "title": "Hobby Lobby",
               "description": "Hier findest du kostenlose Freizeitangebote . Von sportlichen Kursen wie Basketball, über Kickboxen bis hin zu kreativen Kursen wie Street Art ist alles dabei.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.877Z",
+              "lastUpdated": "2022-05-12T15:12:36.448Z",
               "keywords": [
                 "Freizeit"
               ]
@@ -1694,7 +1694,7 @@
               "title": "Angebote und Hilfe für Young Carers",
               "description": "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.986Z",
+              "lastUpdated": "2021-05-17T16:51:04.761Z",
               "keywords": [
                 "Interessengemeinschaft pflegender Angehöriger",
                 "Young Carers"
@@ -1711,7 +1711,7 @@
               "title": "Vernetzung beim Roten Kreuz",
               "description": "Get-social - Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.227Z",
+              "lastUpdated": "2022-01-31T11:42:16.558Z",
               "keywords": [
                 "Jugendrotkreuz"
               ]
@@ -1727,7 +1727,7 @@
               "title": "Nicht gut drauf?",
               "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.146Z",
+              "lastUpdated": "2022-01-31T12:22:08.781Z",
               "keywords": [
                 "Tipps",
                 "superhands"
@@ -1751,7 +1751,7 @@
               "title": "In deinem Leben ist was los",
               "description": "Der Wegweiser - \"Ich bin jung\" gibt Infos zu Schule, Beruf, Liebe, Verhütung und noch vielem mehr.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.576Z",
+              "lastUpdated": "2022-06-24T10:24:55.677Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -1774,7 +1774,7 @@
               "title": "Wie wasche ich die Hände richtig?",
               "description": "Schützt vor Viren und Bakterien nicht nur in Zeiten von Corona.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.565Z",
+              "lastUpdated": "2021-05-31T16:20:18.146Z",
               "keywords": [
                 "Medizinische Universität Wien"
               ]
@@ -1790,7 +1790,7 @@
               "title": "#Händewaschen",
               "description": "Sing mit! Händewaschen mit musikalischer Untermalung",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.974Z",
+              "lastUpdated": "2021-05-18T09:19:09.991Z",
               "keywords": [
                 "Rotes Kreuz"
               ]
@@ -1806,7 +1806,7 @@
               "title": "Händehygiene",
               "description": "Wenig Aufwand, große Wirkung!",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.571Z",
+              "lastUpdated": "2022-06-24T10:24:09.828Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -1829,7 +1829,7 @@
               "title": "selpers helpers - Hilfsmittelbörse",
               "description": "Hier werden kostenlos gespendete Hilfsmittel in einer Onlinebörse angeboten.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.312Z",
+              "lastUpdated": "2022-01-17T13:30:34.167Z",
               "keywords": [
                 "Heilbehelfe",
                 "Hilfsmittel"
@@ -1846,7 +1846,7 @@
               "title": "Wo bekommt man Hilfsmittel oder Heilbehelfe?",
               "description": "Du möchtest wissen wie man zu Hilfsmitteln und Heilbehelfen kommt? Hier wird dir weitergeholfen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.560Z",
+              "lastUpdated": "2022-06-24T10:23:21.617Z",
               "keywords": [
                 "Beratung",
                 "Gesundheitsportal Österreichs",
@@ -1873,7 +1873,7 @@
               "title": "Infoservice soziale Dienste",
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.152Z",
+              "lastUpdated": "2022-01-31T12:20:45.534Z",
               "keywords": [
                 "Schulung",
                 "Soziale Dienste",
@@ -1899,7 +1899,7 @@
               "title": "Jugendliche Vorarlberg",
               "description": "\"aha\" ist das Jugendinformationszentrum für Vorarlberg.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.934Z",
+              "lastUpdated": "2021-05-18T09:33:42.866Z",
               "keywords": [
                 "Freizeit",
                 "Vorarlberg"
@@ -1916,7 +1916,7 @@
               "title": "Jugendliche Salzburg",
               "description": "Unter diesem Link erreichst du Salzburgs 1. Adresse für junge Leute.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.948Z",
+              "lastUpdated": "2021-05-18T09:31:10.355Z",
               "keywords": [
                 "Freizeit",
                 "Salzburg"
@@ -1933,7 +1933,7 @@
               "title": "Bundes Jugend Vertretung",
               "description": "Bei der Bundes Jugendvertretung kannst du dich zu Themen wie Bildung und Arbeit, Gleichberechtigung, Jugend und Politik sowie aktuelle Themen die Kinder und Jugendliche interessieren, informieren.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T07:12:01.092Z",
+              "lastUpdated": "2022-06-24T10:05:19.832Z",
               "keywords": [
                 "Kinderrechte",
                 "Österreich"
@@ -1950,7 +1950,7 @@
               "title": "Jugendportal Österreich",
               "description": "Auf dem Jugendportal findest du geprüfte Informationen über Corona, den Youth Reporter Blog, Themen-Infos und die Beteiligungsmöglichkeiten unter Mitmachen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.432Z",
+              "lastUpdated": "2021-06-14T14:59:30.239Z",
               "keywords": [
                 "Bundesnetzwerk Österreichische Jugendinfos",
                 "Freizeit"
@@ -1961,7 +1961,7 @@
               "title": "Jugendinfo Österreich",
               "description": "Österreichische Jugendinfostellen - alle Fragen sind erlaubt! Finde Informationen dazu unter folgendem Link.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.921Z",
+              "lastUpdated": "2021-05-18T09:36:06.577Z",
               "keywords": [
                 "Bundesnetzwerk Österreichische Jugendinfos",
                 "Freizeit"
@@ -1978,7 +1978,7 @@
               "title": "Jugendliche Tirol",
               "description": "Das InfoEck für Jugend und Generationen in Tirol erreichst du hier.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.033Z",
+              "lastUpdated": "2022-02-03T15:07:42.229Z",
               "keywords": [
                 "Freizeit",
                 "Tirol"
@@ -1995,7 +1995,7 @@
               "title": "Jugendliche Niederösterreich",
               "description": "Jugend:info NÖ ist eine Anlaufstelle für junge Menschen in allen Lebenslagen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.954Z",
+              "lastUpdated": "2021-05-18T09:29:07.436Z",
               "keywords": [
                 "Freizeit",
                 "Niederösterreich"
@@ -2012,7 +2012,7 @@
               "title": "Jugendliche Burgenland",
               "description": "Hier gibt es Informationen des Landesjugendreferates Burgenland.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.968Z",
+              "lastUpdated": "2021-05-18T09:27:13.089Z",
               "keywords": [
                 "Burgenland",
                 "Freizeit"
@@ -2029,7 +2029,7 @@
               "title": "Jugendliche Kärnten",
               "description": "Unter diesem Link erreichst du die Info des Landesjugendreferates Kärnten.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.961Z",
+              "lastUpdated": "2021-05-18T09:28:20.222Z",
               "keywords": [
                 "Freizeit",
                 "Kärnten"
@@ -2046,7 +2046,7 @@
               "title": "Jugendliche Oberösterreich",
               "description": "Hier kommst du zur Info des Landesjugendreferates Oberösterreich.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.100Z",
+              "lastUpdated": "2022-02-03T15:03:26.701Z",
               "keywords": [
                 "Freizeit",
                 "Oberösterreich"
@@ -2063,7 +2063,7 @@
               "title": "Jugendliche Steiermark",
               "description": "Besuche hier \"Logo\" das Jugendmanagement in der Steiermark.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.941Z",
+              "lastUpdated": "2021-05-18T09:32:01.302Z",
               "keywords": [
                 "Freizeit",
                 "Steiermark"
@@ -2080,7 +2080,7 @@
               "title": "Jugendliche Wien",
               "description": "WIENXTRA bietet Info-, Beratungs- und Bildungsangebote rund um Kinder- und Jugendthemen in Wien.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.928Z",
+              "lastUpdated": "2021-05-18T09:34:52.863Z",
               "keywords": [
                 "Freizeit",
                 "Wien"
@@ -2104,7 +2104,7 @@
               "title": "kliniksuche.at",
               "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.470Z",
+              "lastUpdated": "2021-06-14T14:31:51.433Z",
               "keywords": [
                 "Kliniksuche",
                 "Sozialministerium",
@@ -2129,7 +2129,7 @@
               "title": "\"Was ist bloß mit Oma los?\" - Demenz",
               "description": "Kindern wird Demenz erklärt",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.900Z",
+              "lastUpdated": "2021-05-18T09:45:44.363Z",
               "keywords": [
                 "Alzheimer Austria"
               ]
@@ -2145,7 +2145,7 @@
               "title": "Kindgerecht Demenz erklären",
               "description": "Das Mini-Buch \"Anna ist die beste Oma der Welt\" kann das.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.905Z",
+              "lastUpdated": "2021-05-18T09:42:43.341Z",
               "keywords": [
                 "CS Caritas Socialis"
               ]
@@ -2161,7 +2161,7 @@
               "title": "\"Demenz verstehen - von Kindesbeinen an\"",
               "description": "Die Webinar-Reihe des Kardinal König Hauses beschäftigt sich mit dem Thema Demenz.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.893Z",
+              "lastUpdated": "2021-05-18T09:47:19.173Z",
               "keywords": [
                 "Kardinal König Haus"
               ]
@@ -2177,7 +2177,7 @@
               "title": "Gesundheitsportal Österreichs",
               "description": "Es liefert gesicherte Informationen zu Krankheitsbildern, z.B. Demenz, Krebserkrankungen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.554Z",
+              "lastUpdated": "2022-06-24T10:28:09.492Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -2193,7 +2193,7 @@
               "title": "Welche Krankheiten gibt's bei Pflege daheim?",
               "description": "Hier sind die häufigsten Krankheiten zusammengefasst, die Kinder/Jugendliche zu Hause bei der Pflege betreffen können (mit Beschreibung, wie es dazu kommen kann und was man tun kann, um zu helfen).",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.916Z",
+              "lastUpdated": "2021-05-18T09:41:35.350Z",
               "keywords": [
                 "superhands"
               ]
@@ -2216,7 +2216,7 @@
               "title": "Infoservice soziale Dienste",
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.152Z",
+              "lastUpdated": "2022-01-31T12:20:45.534Z",
               "keywords": [
                 "Schulung",
                 "Soziale Dienste",
@@ -2235,7 +2235,7 @@
               "title": "Infobox Young Carers",
               "description": "Das Jugendrotkreuz hat Informationen und Unterrichtsmaterialien für Pädagog/innen und Fachkräfte in der Jugendarbeit vorbereitet.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.881Z",
+              "lastUpdated": "2021-05-18T09:59:45.543Z",
               "keywords": [
                 "Jugendrotkreuz",
                 "Unterricht"
@@ -2246,7 +2246,7 @@
               "title": "\"Pflegefit - Betreuung und Pflege in der Familie\"",
               "description": "Das Jugendrotkreuz bietet für SchülerInnen und Schüler ab der 8. Schulstufe einen Kurs an.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.887Z",
+              "lastUpdated": "2021-05-18T09:53:35.066Z",
               "keywords": [
                 "Jugendrotkreuz",
                 "pflegefit"
@@ -2263,7 +2263,7 @@
               "title": "Onlinekurs für Pflegende Angehörige",
               "description": "In diesem Onlinekurs lernst du, wie du dich selbst schützen und wie du dein Leben organisieren kannst, wenn du einen erkrankten Angehörigen pflegen musst.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.039Z",
+              "lastUpdated": "2022-02-03T15:07:20.031Z",
               "keywords": [
                 "Onlinekurs",
                 "Rotes Kreuz"
@@ -2280,7 +2280,7 @@
               "title": "Onlinekurs Pflege",
               "description": "In diesem Kurs erhältst du praktische Anleitungen, wie pflegebedürftige Menschen betreut werden können. Dabei werden die Themen Hygiene, Krankenbeobachtung und Pflege behandelt.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.046Z",
+              "lastUpdated": "2022-02-03T15:06:59.637Z",
               "keywords": [
                 "Onlinekurs",
                 "Rotes Kreuz"
@@ -2297,7 +2297,7 @@
               "title": "Tägliche Pflege",
               "description": "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.192Z",
+              "lastUpdated": "2022-01-31T12:08:13.919Z",
               "keywords": [
                 "Beratung",
                 "Pflegetipps",
@@ -2315,7 +2315,7 @@
               "title": "Seminar für professionell Tätige",
               "description": "\"veRRückte Kindheit\" offeriert ein Seminar für Menschen die mit Jugendlichen arbeiten.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.114Z",
+              "lastUpdated": "2022-02-03T15:02:33.608Z",
               "keywords": [
                 "Seminar",
                 "VeRRückte Kindheit"
@@ -2339,7 +2339,7 @@
               "title": "Infoservice soziale Dienste",
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.152Z",
+              "lastUpdated": "2022-01-31T12:20:45.534Z",
               "keywords": [
                 "Schulung",
                 "Soziale Dienste",
@@ -2365,7 +2365,7 @@
               "title": "Notrufe und Hilfe für Kinder",
               "description": "Hier sind Notrufe und Kontaktadressen für Kinder in Krisensituationen gesammelt.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.875Z",
+              "lastUpdated": "2021-05-18T10:03:32.035Z",
               "keywords": [
                 "austria4kids"
               ]
@@ -2381,7 +2381,7 @@
               "title": "Wohin mit meinen Sorgen?",
               "description": "Der Kindernotruf hat ein offenes Ohr!",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.869Z",
+              "lastUpdated": "2021-05-18T10:04:42.948Z",
               "keywords": [
                 "Kindernotruf",
                 "Verein Lichtblick"
@@ -2405,7 +2405,7 @@
               "title": "Rat auf Draht",
               "description": "Was tun mit den eigenen Bedürfnissen, wenn die Eltern oder Großeltern krank sind und Pflege brauchen? 147 - Rat auf Draht ist der österreichische Notruf für Kinder, Jugendliche und deren Bezugspersonen. Du kannst wählen zwischen Telefonberatung rund um die Uhr, Online- oder Chat-Beratung.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.425Z",
+              "lastUpdated": "2021-06-16T08:33:37.528Z",
               "keywords": [
                 "147 - Rat auf Draht"
               ]
@@ -2421,7 +2421,7 @@
               "title": "CS Caritas Socialis - Multiple Sklerose Betreuung",
               "description": "Hier triffst du Jugendliche in deinem Alter mit den gleichen Erfahrungen und Fragen zu Multipler Sklerose und kannst dich in der Gruppe austauschen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.838Z",
+              "lastUpdated": "2021-05-18T10:21:34.772Z",
               "keywords": [
                 "Beratung",
                 "CS Caritas Socialis",
@@ -2439,7 +2439,7 @@
               "title": "elco/kiko",
               "description": "Unter folgendem Link kommst du zu elco/kiko. Hier bietet man Coaching und Beratung für Familien mit einem psychisch erkrankten Elternteil aus Oberösterreich an den Standorten Linz, Steyr und Wels.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.851Z",
+              "lastUpdated": "2021-05-18T10:19:14.897Z",
               "keywords": [
                 "Beratung",
                 "elco",
@@ -2458,7 +2458,7 @@
               "title": "harmony4kids",
               "description": "harmony4kids-Trainings geben Kindern Zeit, einfach nur Kind zu sein.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.184Z",
+              "lastUpdated": "2022-01-31T12:08:40.261Z",
               "keywords": [
                 "Freizeit",
                 "harmony4kids"
@@ -2475,7 +2475,7 @@
               "title": "JoJo Salzburg",
               "description": "JoJo (Salzburg) stellt verschiedene Angebote für Eltern, Schulen und Fachkräfte bereit. Für Kinder psychisch erkrankter Eltern und Geschwister gibt es Einzel- und Gruppenangebote. Solltest du nicht in eine JoJo-Regionalstelle kommen können, wird eine Online-Videoberatung angeboten.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.093Z",
+              "lastUpdated": "2022-06-24T10:20:40.695Z",
               "keywords": [
                 "Beratung",
                 "JoJo Kindheit im Schatten"
@@ -2492,7 +2492,7 @@
               "title": "Get Social - Time4Friends",
               "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.213Z",
+              "lastUpdated": "2022-01-31T11:58:27.055Z",
               "keywords": [
                 "Beratung",
                 "Jugendrotkreuz"
@@ -2509,7 +2509,7 @@
               "title": "kids-line",
               "description": "kids-line ist ein Beratungstelefon und eine Chat-Beratung für Kinder und Jugendliche. Kinder und Jugendliche rufen an oder chatten, wenn sie Fragen oder Probleme haben – oder einfach, weil sie jemanden zum Zuhören brauchen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.826Z",
+              "lastUpdated": "2021-05-18T10:24:45.054Z",
               "keywords": [
                 "kids-line"
               ]
@@ -2525,7 +2525,7 @@
               "title": "KIPKE Caritas St. Pölten",
               "description": "Hier kommst du zum Projekt KIPKE der Caritas St. Pölten in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.862Z",
+              "lastUpdated": "2021-05-18T10:15:31.659Z",
               "keywords": [
                 "Beratung",
                 "Caritas",
@@ -2543,7 +2543,7 @@
               "title": "KIPKE Psychosoziale Zentren NÖ",
               "description": "Hier kommst du zum Projekt KIPKE der Psychosozialen Zentren in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.856Z",
+              "lastUpdated": "2021-05-18T10:16:40.576Z",
               "keywords": [
                 "Beratung",
                 "KIPKE",
@@ -2561,7 +2561,7 @@
               "title": "Beratungsteam der Österreichischen Krebshilfe",
               "description": "Das Beratungsteam der Österreichischen Krebshilfe bietet hier individuelle Hilfe für Erkrankte und deren Angehörige.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.845Z",
+              "lastUpdated": "2021-05-18T10:20:19.413Z",
               "keywords": [
                 "Beratung",
                 "Österreichische Krebshilfe-Krebsgesellschaft"
@@ -2578,7 +2578,7 @@
               "title": "superhands",
               "description": "superhands ist eine Drehscheibe und Anlaufstelle für Kinder und Jugendliche, die sich um kranke Angehörige kümmern. Du kannst wählen zwischen Telefon- oder Onlineberatung.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.269Z",
+              "lastUpdated": "2022-01-31T11:30:00.179Z",
               "keywords": [
                 "Beratung",
                 "superhands"
@@ -2595,7 +2595,7 @@
               "title": "VeRRückte Kindheit",
               "description": "Beratung für Jugendliche und ewachsene Angehörige in Familien mit einem psychisch erkrankten Elternteil. VeRRückte Kindheit bietet Beratung und Information, Online- und Chat-Beratung, Vorträge, und ein Online Forum zum Gedankenaustausch.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.257Z",
+              "lastUpdated": "2022-01-31T11:32:14.462Z",
               "keywords": [
                 "Beratung",
                 "VeRRückte Kindheit"
@@ -2612,7 +2612,7 @@
               "title": "Young Carers Beratungsstelle Krems",
               "description": "Jeden 2. Freitag des Monats können sich Young Carers oder Interessierte in Krems an der Donau von 15:30 bis 17:30 Uhr mit Mitarbeitern_innen des Teams an der Bezirksstelle des Roten Kreuzes austauschen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.832Z",
+              "lastUpdated": "2021-05-18T10:23:40.200Z",
               "keywords": [
                 "Beratung",
                 "Rotes Kreuz"
@@ -2636,7 +2636,7 @@
               "title": "Pflegegeld - wie kann man es beziehen?",
               "description": "Hier gibt es Informationen zum Pflegegeld wie z.B. Voraussetzungen, Antrag, Begutachtung, Höhe des Pflegegeldes, etc.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.820Z",
+              "lastUpdated": "2021-05-18T10:27:22.077Z",
               "keywords": [
                 "oesterreich.gv.at"
               ]
@@ -2652,7 +2652,7 @@
               "title": "EIN:BLICK 5 - Pflege",
               "description": "Broschüre als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.542Z",
+              "lastUpdated": "2021-05-31T16:36:36.458Z",
               "keywords": [
                 "Sozialministerium",
                 "Young Carers"
@@ -2663,7 +2663,7 @@
               "title": "\"Informationen zum Pflegegeld - erklärt in leichter Sprache\"",
               "description": "Broschüre  als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.548Z",
+              "lastUpdated": "2021-05-31T16:35:30.784Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -2686,7 +2686,7 @@
               "title": "WohlfühlPOOL",
               "description": "Kinder und Jugendliche sollen in allen ihren Lebenswelten – Familie, Schule, Freizeit – gesund aufwachsen können. Gerade die Corona-Pandemie hat uns gezeigt, wie gefährdet manche Gruppen sind und wie wichtig es ist, die psychosoziale Gesundheit junger Menschen zu stärken.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.897Z",
+              "lastUpdated": "2022-05-12T15:10:50.920Z",
               "keywords": [
                 "Freizeit",
                 "Schulpsychologie"
@@ -2703,7 +2703,7 @@
               "title": "Prävention",
               "description": "Prävention soll eine Erkrankung verhindern, verzögern bzw. Krankheitsfolgen vermeiden. Im Unterschied zur Prävention befasst sich die Gesundheitsförderung nicht mit konkreten Krankheitsrisiken, sondern mit der Erhaltung der Gesundheit. Wenn du dich z.B. psychisch belastet fühlst, hole dir Hilfe!",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.464Z",
+              "lastUpdated": "2022-06-24T10:22:28.655Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -2726,7 +2726,7 @@
               "title": "Infos über das Angehörigengespräch",
               "description": "Folder als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.140Z",
+              "lastUpdated": "2022-01-31T12:23:54.330Z",
               "keywords": [
                 "Beratung",
                 "Sozialministerium"
@@ -2743,7 +2743,7 @@
               "title": "Wie kommts zum Angehörigengespräch?",
               "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.134Z",
+              "lastUpdated": "2022-01-31T12:28:03.701Z",
               "keywords": [
                 "Beratung",
                 "Hausbesuch",
@@ -2769,7 +2769,7 @@
               "title": "Welche Rechte habe ich?",
               "description": "Das Info-Portal zur UN-Kinderrechtekonvention und das Bundesverfassungsgesetz über die Rechte von Kindern zeigen es dir.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.801Z",
+              "lastUpdated": "2021-05-18T10:37:48.245Z",
               "keywords": [
                 "Kinder- und Jugendanwaltschaft"
               ]
@@ -2779,7 +2779,7 @@
               "title": "Die Rechte von Kindern und Jugendlichen",
               "description": "Folder  als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.807Z",
+              "lastUpdated": "2021-05-18T10:36:29.265Z",
               "keywords": [
                 "Bundeskanzleramt"
               ]
@@ -2795,7 +2795,7 @@
               "title": "Patientenanwaltschaft",
               "description": "Hier findest du die Patientenanwaltschaften in deinem Bundesland und deren Aufgaben.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.536Z",
+              "lastUpdated": "2021-05-31T16:40:05.769Z",
               "keywords": [
                 "Gesundheitsportal Österreichs",
                 "Patientenanwaltschaft"
@@ -2812,7 +2812,7 @@
               "title": "Kija App für Kinderrechte",
               "description": "Was darf man eigentlich als Jugendlicher und wofür ist man noch zu jung? Die App bietet Infos über Jugendschutzbestimmungen in Österreich.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.324Z",
+              "lastUpdated": "2022-01-17T13:12:41.262Z",
               "keywords": [
                 "Kinderrechte"
               ]
@@ -2828,7 +2828,7 @@
               "title": "Kinder- und Jugendanwaltschaft",
               "description": "Unter dem folgenden Link kommst du zu den Kinder- und Jugendanwaltschaften in Österreich.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.813Z",
+              "lastUpdated": "2021-05-18T10:35:16.434Z",
               "keywords": [
                 "Beratung",
                 "Kinder- und Jugendanwaltschaft"
@@ -2845,7 +2845,7 @@
               "title": "Wer setzt sich für meine Rechte ein?",
               "description": "Informiere dich hier über das Angebot des Netzwerk Kinderrechte Österreich.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.053Z",
+              "lastUpdated": "2022-06-24T10:20:22.471Z",
               "keywords": [
                 "Netzwerk Kinderrechte"
               ]
@@ -2868,7 +2868,7 @@
               "title": "Wohlfühlzone Schule",
               "description": "Hier setzt man sich für dein Wohlbefinden ein. Mobbing an Schulen soll verhindert werden.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.906Z",
+              "lastUpdated": "2022-05-12T15:07:49.153Z",
               "keywords": [
                 "Schulpsychologie"
               ]
@@ -2884,7 +2884,7 @@
               "title": "Schulpsychologischer Dienst",
               "description": "Die Schulpsychologie nimmt sich der Fragen und Probleme von Schüler/innen, Eltern und Lehrpersonen, die sich im schulischen Alltag ergeben, aus psychologischer Sicht an.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.795Z",
+              "lastUpdated": "2021-05-18T12:08:23.418Z",
               "keywords": [
                 "Bundesministerium für Bildung, Wissenschaft und Forschung"
               ]
@@ -2900,7 +2900,7 @@
               "title": "Schulsozialarbeit",
               "description": "Die Schulsozialarbeit kommt inner- und außerhalb der Schule zum Einsatz und umfasst den gesamten Sozialraum, in dem sich Schüler/innen bewegen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.789Z",
+              "lastUpdated": "2021-05-18T12:09:32.251Z",
               "keywords": [
                 "Bundesministerium für Bildung, Wissenschaft und Forschung",
                 "Schulpsychologie"
@@ -2924,7 +2924,7 @@
               "title": "Alateen - Die AL-Anon TEENagergroup",
               "description": "Alateen ist eine Gemeinschaft von Kindern, Jugendlichen und Freunden von Alkoholikern. In der ganzen Welt treffen sich Kinder und junge Menschen in über 3.500 Alateen Gruppen um sich gegenseitig zu helfen, mit den Problemen fertig zu werden, die durch das Trinken eines Angehörigen entstanden sind.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.968Z",
+              "lastUpdated": "2022-04-07T13:41:02.749Z",
               "keywords": [
                 "Beratung"
               ]
@@ -2940,7 +2940,7 @@
               "title": "Selbsthilfegruppen in den Bundesländern",
               "description": "Hier kannst du nach Selbsthilfegruppen in den Bundesländern suchen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.529Z",
+              "lastUpdated": "2021-05-31T16:42:42.511Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -2956,7 +2956,7 @@
               "title": "Infoservice soziale Dienste",
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.152Z",
+              "lastUpdated": "2022-01-31T12:20:45.534Z",
               "keywords": [
                 "Schulung",
                 "Soziale Dienste",
@@ -2975,7 +2975,7 @@
               "title": "Stammtische und Treffen für pflegende Angehörige",
               "description": "Hier findest du Stammtische und Treffen für pflegende Angehörige.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.783Z",
+              "lastUpdated": "2021-05-18T12:14:07.068Z",
               "keywords": [
                 "Interessengemeinschaft pflegender Angehöriger",
                 "Stammtisch"
@@ -2999,7 +2999,7 @@
               "title": "Istokay.at",
               "description": "Hier findest du ein Selbsthilfe-Programm für Jugendliche denen es gerade nicht so gut geht.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.329Z",
+              "lastUpdated": "2022-01-17T13:08:57.450Z",
               "keywords": [
                 "Medizinische Universität Wien"
               ]
@@ -3015,7 +3015,7 @@
               "title": "FIT & STRONG: BETTER TOGETHER",
               "description": "Zeige Stärke, hol dir Hilfe! Psychische Belastungen und Probleme sind unsichtbar, sie liegen oft lange Zeit im Verborgenen. Gerade für junge Menschen, ist es wichtig mental fit zu sein, um den Alltag zu meistern.  Auf dieser Seite findest du Tipps und Anregungen die dir helfen können.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.376Z",
+              "lastUpdated": "2021-09-27T11:07:33.255Z",
               "keywords": [
                 "Tipps",
                 "Österreichische Gesundheitskasse"
@@ -3032,7 +3032,7 @@
               "title": "Nicht gut drauf?",
               "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.146Z",
+              "lastUpdated": "2022-01-31T12:22:08.781Z",
               "keywords": [
                 "Tipps",
                 "superhands"
@@ -3056,7 +3056,7 @@
               "title": "Service für Bürgerinnen und Bürger",
               "description": "Folgender Link führt dich zum Service für Bürgerinnen und Bürger des Sozialministeriums.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.777Z",
+              "lastUpdated": "2021-05-18T12:16:43.626Z",
               "keywords": [
                 "Beratung"
               ]
@@ -3079,7 +3079,7 @@
               "title": "Get Social",
               "description": "Get Social - Internetplattform des Jugendrotkreuzes auf facebook",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.765Z",
+              "lastUpdated": "2021-05-18T12:18:44.569Z",
               "keywords": [
                 "Jugendrotkreuz",
                 "facebook"
@@ -3096,7 +3096,7 @@
               "title": "Superhands",
               "description": "Folge superhands auf facebook",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.771Z",
+              "lastUpdated": "2021-05-18T12:17:53.083Z",
               "keywords": [
                 "facebook",
                 "superhands"
@@ -3113,7 +3113,7 @@
               "title": "VeRRückte Kindheit",
               "description": "Verrückte Kindheit auf facebook",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.483Z",
+              "lastUpdated": "2021-06-14T12:58:49.381Z",
               "keywords": [
                 "Jugendrotkreuz",
                 "facebook"
@@ -3133,26 +3133,26 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://pflege.gv.at/",
-              "title": "Pflegeplattform",
-              "description": "Auf pflege.gv.at finden sich pflege- und betreuungsrelevante Informationen – leicht und verständlich erklärt. Dieses neue Informationsangebot richtet sich an jene, die selbst Pflege oder Betreuung brauchen oder jemanden pflegen. Es werden niederschwellig und unkompliziert wichtige Infos angeboten.",
-              "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.317Z",
-              "keywords": [
-                "Sozialministerium"
-              ]
-            },
-            {
               "url": "https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html",
               "title": "Hilfe für betreuende und pflegende Angehörige",
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.457Z",
+              "lastUpdated": "2021-06-14T14:48:36.706Z",
               "keywords": [
                 "Pflegende Angehörige",
                 "Soziale Dienste",
                 "Sozialministerium",
                 "Young Carers"
+              ]
+            },
+            {
+              "url": "https://pflege.gv.at/",
+              "title": "Pflegeplattform",
+              "description": "Auf pflege.gv.at finden sich pflege- und betreuungsrelevante Informationen – leicht und verständlich erklärt. Dieses neue Informationsangebot richtet sich an jene, die selbst Pflege oder Betreuung brauchen oder jemanden pflegen. Es werden niederschwellig und unkompliziert wichtige Infos angeboten.",
+              "isPaidContent": false,
+              "lastUpdated": "2022-01-17T13:25:46.222Z",
+              "keywords": [
+                "Sozialministerium"
               ]
             }
           ]
@@ -3173,7 +3173,7 @@
               "title": "Sozialversicherung",
               "description": "Menschen, die Angehörige pflegen und deswegen ihre Berufstätigkeit reduzieren oder aufgeben, können sich kranken- und pensionsversichern. Die Beiträge werden vom Staat übernommen, sodass keine Kosten entstehen! Zuständig sind die Österreichische Gesundheitskasse und die Pensionsversicherungsanstalt.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.451Z",
+              "lastUpdated": "2021-06-14T14:50:56.939Z",
               "keywords": [
                 "oesterreich.gv.at"
               ]
@@ -3196,7 +3196,7 @@
               "title": "Berufsverband Österreichischer Psycholog:innen (BÖP) - Projekte für Kinder und Jugendliche",
               "description": "Hier findest du Projekte für Kinder und Jugendliche in psychischen Krisen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.934Z",
+              "lastUpdated": "2022-05-05T14:28:29.928Z",
               "keywords": [
                 "Hilfe für pflegende Kinder"
               ]
@@ -3212,7 +3212,7 @@
               "title": "Gesundheitsportal Österreich - Entspannt bleiben",
               "description": "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.086Z",
+              "lastUpdated": "2022-02-03T15:04:32.229Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -3222,7 +3222,7 @@
               "title": "Stress",
               "description": "Er ist Bestandteil des Lebens und kann auch positiv sein. Zu viel davon macht uns aber krank. Verursacher können z.B. einschneidende Ereignisse, private oder schulische Probleme sein. Wichtig ist, wie wir damit umgehen. Es gibt hilfreiche Möglichkeiten, anspruchsvolle Situationen zu meistern.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.501Z",
+              "lastUpdated": "2021-06-01T07:36:35.429Z",
               "keywords": [
                 "Beratung"
               ]
@@ -3238,7 +3238,7 @@
               "title": "Hilfe für Schulangelegenheiten",
               "description": "In der Schule ist bald wieder ein Test zu schreiben und du bist schon wieder im Stress? Strategien zu Lernen und Schulstress findest du hier zum Nachlesen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.758Z",
+              "lastUpdated": "2021-05-18T12:25:15.280Z",
               "keywords": [
                 "superhands"
               ]
@@ -3261,7 +3261,7 @@
               "title": "Infos der Gesundheitskasse",
               "description": "Nähere Auskünfte zu Verordnungen und Therapien erteilt die zuständige Krankenkasse bzw. der für die Patientin bzw. den Patienten zuständige Krankenversicherungsträger.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.496Z",
+              "lastUpdated": "2021-06-01T07:37:09.776Z",
               "keywords": [
                 "Beratung"
               ]
@@ -3284,7 +3284,7 @@
               "title": "Unterstützungen für pflegende Angehörige",
               "description": "Folder als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.160Z",
+              "lastUpdated": "2022-01-31T12:18:09.688Z",
               "keywords": [
                 "Beratung",
                 "Pflegende Angehörige",
@@ -3304,7 +3304,7 @@
               "title": "Pflegende Angehörige Burgenland",
               "description": "Hier kannst du dich zu Angeboten für betreuende und pflegende Angehörige im Burgenland informieren.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.752Z",
+              "lastUpdated": "2021-05-18T12:32:29.545Z",
               "keywords": [
                 "Burgenland",
                 "Land",
@@ -3322,7 +3322,7 @@
               "title": "Gesundheitsportal Österreichs",
               "description": "Wertvolle Informationen zur Entlastung und Unterstützung pflegender Angehöriger bietet ebenso das Gesundheitsportal Österreichs.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.523Z",
+              "lastUpdated": "2021-05-31T16:52:06.582Z",
               "keywords": [
                 "Gesundheitsportal Österreichs"
               ]
@@ -3334,11 +3334,11 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131&subthema=",
+              "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131&subthema=138",
               "title": "Pflegende Angehörige Kärnten",
               "description": "Das Land Kärnten bietet eigene Unterstützung für pflegende Angehörige.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T07:12:16.229Z",
+              "lastUpdated": "2021-05-18T12:33:27.841Z",
               "keywords": [
                 "Kärnten",
                 "Land",
@@ -3356,7 +3356,7 @@
               "title": "Pflegende Angehörige Niederösterreich",
               "description": "Leistungen für Pflegende in Niederösterreich kannst du hier nachlesen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.233Z",
+              "lastUpdated": "2022-01-31T11:41:04.983Z",
               "keywords": [
                 "Land",
                 "Niederösterreich",
@@ -3374,7 +3374,7 @@
               "title": "Pflegende Angehörige Oberösterreich",
               "description": "Zu Unterstützungsangebote für pflegende Angehörige in Oberösterreich wird unter diesem Link informiert.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.740Z",
+              "lastUpdated": "2021-05-18T12:35:26.590Z",
               "keywords": [
                 "Land",
                 "Oberösterreich",
@@ -3392,7 +3392,7 @@
               "title": "Pflegende Angehörige Salzburg",
               "description": "Unterstützungsangebote für pflegende Angehörige in Salzburg kannst du hier nachlesen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.734Z",
+              "lastUpdated": "2021-05-18T12:36:15.793Z",
               "keywords": [
                 "Land",
                 "Salzburg",
@@ -3410,7 +3410,7 @@
               "title": "Hilfe für betreuende und pflegende Angehörige",
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.457Z",
+              "lastUpdated": "2021-06-14T14:48:36.706Z",
               "keywords": [
                 "Pflegende Angehörige",
                 "Soziale Dienste",
@@ -3429,7 +3429,7 @@
               "title": "Pflege Steiermark",
               "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.728Z",
+              "lastUpdated": "2021-05-18T12:37:03.595Z",
               "keywords": [
                 "Land",
                 "Soziale Dienste",
@@ -3447,7 +3447,7 @@
               "title": "Pflegende Angehörige Tirol",
               "description": "Mobile Dienste in Tirol können hier abgefragt werden.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.288Z",
+              "lastUpdated": "2022-01-28T14:06:27.508Z",
               "keywords": [
                 "Land",
                 "Soziale Dienste",
@@ -3465,7 +3465,7 @@
               "title": "Pflegende Angehörige Vorarlberg",
               "description": "Die Broschüre \"Entlastungs- und Unterstützungsangebote 2021\" in Vorarlberg kannst du hier nachlesen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.406Z",
+              "lastUpdated": "2021-06-22T15:19:08.272Z",
               "keywords": [
                 "Land",
                 "Soziale Dienste",
@@ -3483,7 +3483,7 @@
               "title": "Pflegende Angehörige Wien",
               "description": "Der Fonds Soziales Wien informiert pflegende Angehörige unter diesem Link über bestehende Unterstüzungsangebote.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.722Z",
+              "lastUpdated": "2021-05-18T12:39:29.367Z",
               "keywords": [
                 "Land",
                 "Soziale Dienste",
@@ -3508,7 +3508,7 @@
               "title": "Juniorcamps",
               "description": "Wir alle brauchen regelmäßig eine Auszeit. Das Juniorcamp des Jugendrotkreuzes bietet einen Erholungsaufenthalt für Kinder von Eltern mit schwerer Erkrankung. Durch den Austausch mit Gleichaltrigen lernen die Kinder und Jugendlichen, ihre Situation besser zu verstehen und besser damit umzugehen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.489Z",
+              "lastUpdated": "2021-06-01T07:38:39.147Z",
               "keywords": [
                 "Freizeit",
                 "Jugendrotkreuz",
@@ -3526,7 +3526,7 @@
               "title": "Sommercamps",
               "description": "Das Jugendrotkreuz veranstaltet auch verschiedene Sommercamps für kids mit speziellen Bedürfnissen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.717Z",
+              "lastUpdated": "2021-05-18T12:42:09.756Z",
               "keywords": [
                 "Freizeit",
                 "Jugendrotkreuz",
@@ -3544,7 +3544,7 @@
               "title": "Kinderburg Rapottenstein",
               "description": "Die Kinderburg Rapottenstein soll Erholung und Krafttanken für Familien mit chronisch oder schwerkranken Kindern oder Eltern ermöglichen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.060Z",
+              "lastUpdated": "2022-02-03T15:06:12.770Z",
               "keywords": [
                 "Freizeit",
                 "Kinderburg Rapottenstein"
@@ -3568,7 +3568,7 @@
               "title": "Eurocarers - European Carers Day 6. Oktober",
               "description": "Die Idee besteht darin, die nationalen Bemühungen zur Sensibilisierung für die Belange von Pflegekräften im Rahmen einer gesamteuropäischen Struktur zu koordinieren und zu fördern. #WeAreCarers_EU #CarersDay_EU",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.381Z",
+              "lastUpdated": "2021-09-27T11:07:09.829Z",
               "keywords": [
                 "Eurocarers",
                 "Young Carers"
@@ -3585,7 +3585,7 @@
               "title": "Veranstaltungskalender Demenz",
               "description": "Veranstaltungen und Online-Seminare zum Thema Demenz kannst du hier abfragen.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.444Z",
+              "lastUpdated": "2021-06-14T14:57:58.147Z",
               "keywords": [
                 "Sozialministerium"
               ]
@@ -3601,7 +3601,7 @@
               "title": "Veranstaltungskalender Pflege, pflegende Angehörige",
               "description": "Laufend finden in ganz Österreich Veranstaltungen zum Thema Pflege und pflegende Angehörige statt. Hier findest du Termine für verschiedene Events, Stammtische und Treffen für pflegende Angehörige, die für dich interessant sein könnten.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.437Z",
+              "lastUpdated": "2021-06-14T14:58:12.180Z",
               "keywords": [
                 "Interessengemeinschaft pflegender Angehöriger",
                 "Stammtisch"
@@ -3625,7 +3625,7 @@
               "title": "Infos über das Angehörigengespräch",
               "description": "Folder als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.140Z",
+              "lastUpdated": "2022-01-31T12:23:54.330Z",
               "keywords": [
                 "Beratung",
                 "Sozialministerium"
@@ -3642,7 +3642,7 @@
               "title": "Wie kommts zum Angehörigengespräch?",
               "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.134Z",
+              "lastUpdated": "2022-01-31T12:28:03.701Z",
               "keywords": [
                 "Beratung",
                 "Hausbesuch",
@@ -3668,7 +3668,7 @@
               "title": "Pflegetipps per Hausbesuch",
               "description": "Wenn du und deine Familie praktische Pflegetipps und eine individuelle Beratung benötigt, kann ein kostenloser Hausbesuch durch eine diplomierte Gesundheits- und Krankenperson angefordert werden.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.710Z",
+              "lastUpdated": "2021-05-18T12:50:10.622Z",
               "keywords": [
                 "Hausbesuch",
                 "Kompetenzzentrum"
@@ -3692,7 +3692,7 @@
               "title": "Village Projekt",
               "description": "Das Village-Forschungsprojekt der Ludwig Boltzmann Gesellschaft und der Medizinischen Universität Innsbruck zielt darauf ab, ein besseres Verständnis dafür zu schaffen, wie Kinder psychisch kranker Eltern unterstützt werden können.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.413Z",
+              "lastUpdated": "2021-06-16T09:35:28.811Z",
               "keywords": [
                 "LBG Village",
                 "Sozialministerium",
@@ -3710,7 +3710,7 @@
               "title": "Kinder und Jugendliche als pflegende Angehörige",
               "description": "Die beiden Studien (2012, 2014) als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.514Z",
+              "lastUpdated": "2021-05-31T16:55:54.142Z",
               "keywords": [
                 "Sozialministerium",
                 "Young Carers"
@@ -3721,7 +3721,7 @@
               "title": "Angehörigenpflege in Österreich",
               "description": "Studie als Download",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:48.158Z",
+              "lastUpdated": "2021-05-18T12:54:23.071Z",
               "keywords": [
                 "Young Carers"
               ]
@@ -3737,7 +3737,7 @@
               "title": "Wikipedia für Eltern",
               "description": "Unter dem Wikipediaeintrag zu \"Young Carers\" finden sich umfassende Infos zur Situation pflegender Kinder und Jugendlicher in verschiedenen Ländern.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.984Z",
+              "lastUpdated": "2022-04-07T13:34:26.839Z",
               "keywords": [
                 "Deutschland",
                 "Vereinigtes Königreich",
@@ -3756,7 +3756,7 @@
               "title": "Projekt YouDiG",
               "description": "**Young Carers in Graz** will erforschen, was Kinder und Jugendliche, die Angehörige zu Hause betreuen und pflegen brauchen, um ihren Alltag besser zu meistern bzw. sich besser unterstützt zu fühlen. Welche Chancen und Risiken ergeben sich durch den Einsatz digitaler Technologien?",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.369Z",
+              "lastUpdated": "2021-09-27T11:13:14.823Z",
               "keywords": [
                 "Universität Graz",
                 "Young Carers"
@@ -3776,11 +3776,11 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "http://www.anhoriga.se/information-in-english/ecr/",
+              "url": "https://anhoriga-se.translate.goog/konferenser/tidigare-konferenser/international-young-carers-conference-2017/?_x_tr_sl=sv&_x_tr_tl=en&_x_tr_hl=en",
               "title": "Young Carers Conference auf internationaler Ebene",
               "description": "2017 fand in Malmö die 2nd International Young Carers Conference \"Every Child has the right to ...\" statt. Hier findest du viele interessante Präsentationen und Vorträge von Expertinnen und Experten sowie Young Carers aus verschiedensten Ländern.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.685Z",
+              "lastUpdated": "2022-06-24T10:34:08.156Z",
               "keywords": [
                 "2nd International Young Carers Conference 2017",
                 "Young Carers"
@@ -3797,7 +3797,7 @@
               "title": "Interesse an einer internationalen Konferenz?",
               "description": "Die 3rd International Young Carers Conference \"Identify, Support and Listen to Young Carers\" fand online von 3. bis 6 Mai 2021 statt.\n**Bitte auf Translate im oberen rechten Bereich der Seite klicken**",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.942Z",
+              "lastUpdated": "2022-05-05T14:22:59.590Z",
               "keywords": [
                 "3rd International Young Carers Conference 2021",
                 "Young Carers"
@@ -3814,7 +3814,7 @@
               "title": "Young Carers in der Schweiz",
               "description": "Hier findest du Informationen aus der Schweiz",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.697Z",
+              "lastUpdated": "2021-05-18T13:09:39.253Z",
               "keywords": [
                 "Careum",
                 "Schweiz",
@@ -3832,7 +3832,7 @@
               "title": "A Young Carer Song (Growing Up)",
               "description": "Ein Song anlässlich der CARERS WEEK",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.177Z",
+              "lastUpdated": "2022-01-31T12:09:19.957Z",
               "keywords": [
                 "Australien",
                 "Charlotte Foley",
@@ -3852,7 +3852,7 @@
               "title": "Hilfe für pflegende Kinder Deutschland",
               "description": "Hier haben wir noch einen Link nach Deutschland für dich - Hilfe für minderjährige Kinder, welche ihre Eltern pflegen. Es gibt viel Interessantes zum Nachlesen, Filme und Ideen für Projekte.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.276Z",
+              "lastUpdated": "2022-01-31T11:13:52.701Z",
               "keywords": [
                 "Deutschland",
                 "Hilfe für pflegende Kinder",
@@ -3870,7 +3870,7 @@
               "title": "JUMP – Junge Menschen mit Pflegeverantwortung",
               "description": "Ist ein deutsches Netzwerk von pflegenden Angehörigen und Pflege Akteuren. Gemeinsam wollen sie größere Aufmerksamkeit und Unterstützung für Tausende von Kindern und Jugendlichen erreichen, die schon in frühen Jahren große Pflegeverantwortung haben.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:46.928Z",
+              "lastUpdated": "2022-05-05T14:30:56.742Z",
               "keywords": [
                 "Deutschland",
                 "Young Carers"
@@ -3887,7 +3887,7 @@
               "title": "Young Carers Deutschland",
               "description": "Young Carers Deutschland ist ein Angebot für junge Pflegende unter 18 Jahren, die mit einem chronisch kranken oder beeinträchtigten Angehörigen zusammenleben.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.065Z",
+              "lastUpdated": "2022-02-03T15:05:52.241Z",
               "keywords": [
                 "Deutschland",
                 "Kinderschutzbund",
@@ -3905,7 +3905,7 @@
               "title": "Young Carers in Australien",
               "description": "Little Dreamers als führende Organisation in Australien vermittelt dir einen Eindruck, was so in Down Under passiert.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.692Z",
+              "lastUpdated": "2021-05-18T13:09:52.695Z",
               "keywords": [
                 "Australien",
                 "Little Dreamers",
@@ -3923,7 +3923,7 @@
               "title": "Pausentaste Deutschland",
               "description": "Pausentaste - Wer anderen hilft, braucht manchmal selbst Hilfe (Deutschland)",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.704Z",
+              "lastUpdated": "2021-05-18T13:09:19.195Z",
               "keywords": [
                 "Deutschland",
                 "Pausentaste",
@@ -3941,7 +3941,7 @@
               "title": "Young Carers in Großbritannien",
               "description": "The Children's Society in Großbritannien kümmert sich u.a. auch um den Support von Young Carers .",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.072Z",
+              "lastUpdated": "2022-02-03T15:05:20.802Z",
               "keywords": [
                 "Children's Society",
                 "Vereinigtes Königreich",
@@ -3959,7 +3959,7 @@
               "title": "Du bist dran! Verein Raum für Geschwister",
               "description": "Manchmal kommen Geschwister von Kindern mit Krankheit oder Behinderung oft zu kurz. Der Verein \"Raum für Geschwister\" aus der Schweiz bemüht sich um dieses Thema.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.356Z",
+              "lastUpdated": "2021-10-28T14:47:17.977Z",
               "keywords": [
                 "Young Carers"
               ]
@@ -3975,7 +3975,7 @@
               "title": "Young Carer Hilfe Deutschland",
               "description": "Hilfe für Kinder kranker Eltern (Deutschland) tritt für bessere Chancen von Young Carers auf einen guten Start ein.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.240Z",
+              "lastUpdated": "2022-01-31T11:39:37.845Z",
               "keywords": [
                 "Deutschland",
                 "Young Carer Hilfe",
@@ -4000,7 +4000,7 @@
               "title": "Was tun wenn die Hauptpflegeperson mal Pause braucht?",
               "description": "Jeder Mensch braucht Urlaub und Erholung. Wenn die Hauptpflegeperson ausfällt, können Zuwendungen für Kosten der Ersatzpflege gewährt werden. Voraussetzung ist Pflegegeld ab Stufe 3; bei Menschen mit Demenz und Minderjährigen reicht Stufe 1.",
               "isPaidContent": false,
-              "lastUpdated": "2022-06-24T03:54:47.420Z",
+              "lastUpdated": "2021-06-16T09:34:53.616Z",
               "keywords": [
                 "Sozialministeriumservice"
               ]
@@ -4046,5 +4046,5 @@
       "content": "Angaben gemäß Web-Zugänglichkeits-Gesetz (WZG)\nErklärung zur Barrierefreiheit\nDas Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz (Sozialministerium) ist bemüht, sowohl seine Websites, als auch seine mobilen Anwendungen im Einklang mit dem Web-Zugänglichkeits-Gesetz (WZG) idgF zur Umsetzung der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen (Amtsblatt L 327 vom 2.12.2016, S. 1) barrierefrei zugänglich zu machen.\nDiese Erklärung zur Barrierefreiheit gilt für die mobile App YoungCarers Austria.\nStand der Vereinbarkeit mit den Anforderungen\nDiese Anwendung ist mit Konformitätsstufe AA der \"Richtlinien für barrierefreie Webinhalte Web – WCAG 2.1\" beziehungsweise mit dem geltenden Europäischen Standard EN 301 549 V2.1.2 (2018-08) geprüft und vereinbar.\nNicht barrierefreie Inhalte\nDa die Anwendung vorwiegend auf externe Inhalte verlinkt und die Möglichkeit der einfacheren Auffindbarkeit dieser bietet, liegt die Barrierefreiheit fremder Inhalte nicht in der Kompetenz des Sozialministeriums. Für verlinkte Inhalte von Dritten, beispielsweise Videos oder Infomaterialien von externen Organisationen, die nicht im Einflussbereich des Sozialministeriums liegen, kann bezüglich Vereinbarkeit mit Barrierefreiheitsbestimmungen keine Aussage getroffen werden.### Erstellung dieser Erklärung zur Barrierefreiheit\nDiese Erklärung wurde am 04. November 2021 erstellt.\nDie Bewertung der Vereinbarkeit der Website mit dem WZG zur Umsetzung der Anforderungen der Richtlinie (EU) 2016/2102 erfolgte in Form eines Selbsttests nach WCAG 2.1 im Konformitätslevel AA im November 2021 sowie einer externen Überprüfung durch die Hilfsgemeinschaft der Blinden und Sehschwachen Österreichs. Überprüft (für mobile OS: Apple IOS und Google Android) wurden die Startseite, mehrere Kategorienseiten, mehrere Texteinträge, die Krankenhaussuche, die Suche und das Suchergebnis.\nFeedback und Kontaktangaben\nDie Angebote und Services  dieser Anwendung werden laufend verbessert, ausgetauscht und ausgebaut. Dabei ist uns die Bedienbarkeit und Zugänglichkeit ein großes Anliegen.\nWenn Ihnen Barrieren auffallen, die Sie an der Benutzung unserer Anwendung behindern – Probleme, die in dieser Erklärung nicht beschrieben sind, Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen – so bitten wir Sie, uns diese per E Mail mitzuteilen. Wir werden Ihre Anfrage prüfen und Sie ehestmöglich kontaktieren.\nSämtliche Mitteilungen und Anregungen senden Sie bitte an die Supportadresse mit dem Betreff \"Meldung einer Barriere in der Young Carers App\". Bitte beschreiben Sie das Problem und wo es auftritt (inkl. Gerät, Betriebssystemversion, eingesetzte Hilfsmittel, besondere Einstellungen).Kontakt:Bundesministerium für Soziales, Gesundheit, Pflege und KonsumentenschutzE-Mail:### Durchsetzungsverfahren\nBei nicht zufriedenstellenden Antworten aus oben genannter Kontaktmöglichkeit können Sie sich mittels Beschwerde an die Österreichische Forschungsförderungsgesellschaft mit beschränkter Haftung (FFG) wenden. Die FFG nimmt über das Kontaktformular Beschwerden auf elektronischem Weg entgegen.\nKontaktformular der Beschwerdestelle\nDie Beschwerden werden von der FFG dahingehend geprüft, ob sie sich auf Verstöße gegen die Vorgaben des Web-Zugänglichkeits-Gesetzes, insbesondere Mängel bei der Einhaltung der Barrierefreiheitsanforderungen, durch den Bund oder einer ihm zuordenbaren Einrichtung beziehen.Sofern die Beschwerde berechtigt ist, hat die FFG dem Bund oder den betroffenen Rechtsträgern Handlungsempfehlungen auszusprechen und Maßnahmen vorzuschlagen, die der Beseitigung der vorliegenden Mängel dienen.\nWeitere Informationen zum Beschwerdeverfahren\nFakultative Inhalte: Zusatzinformationen\nDie Anwendung YoungCarers Austria wurde im Jahr 2021 entwickelt.\nDas Sozialministerium ist um eine möglichst barrierefreie Zugänglichkeit zu seinen Internet-Angeboten bemüht. Dabei orientieren wir uns seit dem Jahr 2008 in Übereinstimmung mit den nationalen Rechtsvorschriften \"E-Government-Gesetz 2004\" und den geltenden einschlägigen Anti-Diskriminierungsbestimmungen an den Richtlinien für barrierefreie Inhalte WCAG 2.0/2.1. Eine Überprüfung nach allen A- und AA-Kriterien der WCAG 2.1 ist für diese Anwendung vor der Veröffentlichung erfolgt.\nLetzte Aktualisierung: 05. November 2021"
     }
   ],
-  "timestamp": "2022-06-24T07:13:05.884Z"
+  "timestamp": "2022-06-24T09:39:22.139Z"
 }
