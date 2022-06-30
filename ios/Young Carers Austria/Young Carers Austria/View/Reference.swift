@@ -28,6 +28,8 @@ struct ReferenceView {
     
     struct Entry: View {
         var reference: Reference
+        
+        @State private var presentingConfirmationDialog: Bool = false
 
         var body: some View {
             Link(destination: reference.url) {
@@ -67,10 +69,41 @@ struct ReferenceView {
                         .padding()
                         .background(.thinMaterial)
                     }
+                    
+                    if(reference.isPaidContent) {
+                        ZStack{
+                            Circle()
+                                .fill(.thinMaterial)
+                                .frame(width: 30, height: 30)
+                            Text("💵")
+                                .accessibilityLabel("Dieser Eintrag enthält bezahlbaren Inhalt")
+                        }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+                        .padding(6)
+                    }
                 }
-                .cornerRadius(15, antialiased: true)
+                .cornerRadius(18, antialiased: true)
             }
+            .confirmationDialog("Link wirklich öffnen", isPresented: $presentingConfirmationDialog) {
+                Button("Link öffnen", role: .none, action: { openLink() })
+                Button("Abbrechen", role: .cancel, action: { })
+              } message: {
+                  Text("Wir möchten dich darauf hinweisen, dass dieser Link bezahlbaren Inhalt beinhaltet. Möchtest du ihn wirklich öffnen?")
+                }
+
+            .environment(\.openURL, OpenURLAction { url in
+                if(reference.isPaidContent) {
+                    presentingConfirmationDialog.toggle()
+                }
+                else {
+                    openLink()
+                }
+                return .handled
+            })
+        }
+        
+        private func openLink() {
+            UIApplication.shared.open(reference.url)
         }
     }
-
 }
