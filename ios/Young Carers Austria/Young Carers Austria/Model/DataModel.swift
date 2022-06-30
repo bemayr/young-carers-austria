@@ -13,16 +13,24 @@ struct Content: Decodable {
     let timestamp: Date
 }
 
-struct Insight: Decodable {
+struct Insight: Decodable, Identifiable {
+    var id: String {
+        question
+    }
+    
     let question: String
-    let parts: [InsightPart]
+    let parts: [Part]
     
     enum CodingKeys: String, CodingKey {
         case question
         case parts = "content"
     }
     
-    enum Part: Decodable {
+    enum Part: Decodable, Identifiable {
+        var id: UUID {
+            UUID()
+        }
+        
         case text(String)
         case reference(Reference)
         case category(Category)
@@ -52,16 +60,13 @@ struct Insight: Decodable {
             }
         }
     }
-    
-    struct InsightPart: Decodable {
-        let type: String
-        let text: String?
-        let reference: Reference?
-        let category: Category?
-    }
 }
 
-struct Category: Decodable {
+struct Category: Decodable, Identifiable {
+    var id: String {
+        name
+    }
+    
     let name: String
     let title: String
     let information: String
@@ -88,7 +93,11 @@ struct Category: Decodable {
 }
 
 
-struct Reference: Decodable {
+struct Reference: Decodable, Identifiable {
+    var id: URL {
+        url
+    }
+    
     let title: String
     let description: String
     let url: URL
