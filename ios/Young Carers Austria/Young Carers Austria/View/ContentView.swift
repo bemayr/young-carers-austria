@@ -26,7 +26,7 @@ struct ContentView: View {
                 viewBuilder()
             }
             .tabItem {
-                Label(label, systemImage: icon)
+                Label(label, image: icon)
             }
             .tag(tab)
         }
@@ -35,16 +35,16 @@ struct ContentView: View {
     var body: some View {
         if let content = viewModel.content {
             TabView(selection: $selection) {
-                TabViewItem(.insights, label: "Hilfe", icon: "book") {
+                TabViewItem(.insights, label: "Hilfe", icon: "alert_fragezeichen") {
                     InsightsPage(insights: content.insights)
                 }
-                TabViewItem(.abc, label: "Infos", icon: "info") {
+                TabViewItem(.abc, label: "Infos", icon: "alert_tipp") {
                     AlphabetPage(categories: content.abc)
                 }
-                TabViewItem(.emergency, label: "Im Notfall", icon: "person.crop.circle.badge.exclamationmark") {
+                TabViewItem(.emergency, label: "Im Notfall", icon: "themen_gesundheit_notfaelle") {
                     EmergencyPage(emergency: content.emergency)
                 }
-                TabViewItem(.about, label: "Über", icon: "ellipsis") {
+                TabViewItem(.about, label: "Über", icon: "more") {
                     AboutPage(metadata: content.metadata, contentTimestamp: content.timestamp)
                 }
             }

@@ -5,11 +5,15 @@ struct InsightsPage: View {
 
     var body: some View {
         List {
-            Section {
-                Text("Hier bist du auf der Startseite der Young Carers Austria App gelandet. Vielleicht hast du ja eine der folgenden Fragen, oder du erlebst auch gerade eine dieser Situationen?")
+            Section(header:
+                        Text("Hier bist du auf der Startseite der Young Carers Austria App gelandet. Vielleicht hast du ja eine der folgenden Fragen, oder du erlebst auch gerade eine dieser Situationen?")
                 .font(.body)
                 .listRowBackground(Color(.secondarySystemBackground))
-            }
+                .padding([.top])
+            ) {}
+            .listRowInsets(EdgeInsets())
+            .foregroundColor(Color.primary)
+            .textCase(nil)
             
             Section{
                 ForEach(insights) { insight in
@@ -43,7 +47,8 @@ struct InsightsDetailPage: View {
                             .multilineTextAlignment(.leading)
                     case .reference(let reference):
                         ReferenceView.Entry(reference: reference)
-                            .frame(width: .infinity, height: 185, alignment: .center)
+                            .frame(height: 200, alignment: .center)
+                            .padding([.vertical])
                     case .category(let category):
                         NavigationLink {
                             CategoryView(category: category)

@@ -12,13 +12,19 @@ struct CategoryView: View {
     
     var body: some View {
         List {
-            Section {
+            VStack(alignment: .leading) {
+                Text(category.title)
+                    .font(.headline)
+                    .fontWeight(.bold)
+                    .padding([.bottom], 2)
                 Markdown(category.information)
                     .font(.subheadline)
-                    .listRowBackground(Color(.secondarySystemBackground))
             }
-//            .listRowSeparator(.hidden)
             .listSectionSeparator(.hidden)
+            .listRowSeparator(.hidden)
+            .listRowInsets(EdgeInsets())
+            .listRowBackground(Color(.secondarySystemBackground))
+            .padding([.horizontal, .top])
             
             ForEach(category.entries, id: \.ownerName) { entry in
                 Section(header: HStack {
@@ -41,7 +47,7 @@ struct CategoryView: View {
         .listRowInsets(EdgeInsets())
         .listStyle(.plain)
         .background(Color(.secondarySystemBackground))
-        .navigationTitle(category.title)
+        .navigationTitle(category.name)
     }
 }
 

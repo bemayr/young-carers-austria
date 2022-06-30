@@ -32,25 +32,23 @@ struct ReferenceView {
         var body: some View {
             Link(destination: reference.url) {
                 ZStack {
-//                    RoundedRectangle(cornerRadius: 10, style: .continuous)
-//                                    .fill(.white)
+                    
+                    // Really hacky, probably because of AsyncImage
                     GeometryReader { geometry in
                         VStack {
-                        AsyncImage(url: URL(string: "https://www.uopeople.edu/wp-content/uploads/2020/04/ben-mullins-oXV3bzR7jxI-unsplash-1-scaled-e1586692935743.jpg")) { image in
-                            image
-                                .renderingMode(.original)
-                                .resizable()
-                                .aspectRatio(contentMode: .fill)
-    //                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-                                .clipped()
-//                                .contentShape(Rectangle())
-                        } placeholder: {
-                            ProgressView()
+                            AsyncImage(url: URL(string: "https://www.uopeople.edu/wp-content/uploads/2020/04/ben-mullins-oXV3bzR7jxI-unsplash-1-scaled-e1586692935743.jpg")) { image in
+                                image
+                                    .renderingMode(.original)
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fill)
+                                    .clipped()
+                                }
+                            placeholder: {
+                                ProgressView()
+                            }
                         }
-//                            Text(geometry.size.height.description)
-                        }
-                        
                     }
+                    
                     VStack(alignment: .leading) {
                         Spacer()
                         VStack(alignment: .leading) {
@@ -60,7 +58,7 @@ struct ReferenceView {
                                 .foregroundColor(.primary)
                                 .multilineTextAlignment(.leading)
                                 .padding([.bottom], 1)
-                            Text(reference.description)
+                            Markdown(reference.description)
                                 .font(.footnote)
                                 .foregroundColor(.secondary)
                                 .multilineTextAlignment(.leading)
