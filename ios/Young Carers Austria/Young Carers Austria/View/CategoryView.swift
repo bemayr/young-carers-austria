@@ -32,7 +32,8 @@ struct CategoryView: View {
                     }
                 }) {
                     ReferenceView.Row(entry: entry)
-                        .background(.teal)
+                        .listRowBackground(Color(.secondarySystemBackground))
+                        .listRowSeparator(.hidden)
                 }
             }
             

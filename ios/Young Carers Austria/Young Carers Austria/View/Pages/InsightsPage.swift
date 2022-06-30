@@ -16,10 +16,7 @@ struct InsightsPage: View {
                     NavigationLink {
                         InsightsDetailPage(insight: insight)
                     } label: {
-                        HStack {
-                            Text(insight.question)
-                            Spacer()
-                        }
+                        Text(insight.question)
                     }
                 }
             }

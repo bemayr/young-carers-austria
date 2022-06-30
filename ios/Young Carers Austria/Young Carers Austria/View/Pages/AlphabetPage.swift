@@ -16,6 +16,7 @@ struct AlphabetPage: View {
                 Text("Hier haben wir alle Informationen für dich gesammelt und alphabetisch sortiert. Schau einfach ein bisschen durch, frag den Chatbot oder probiere die Suche wenn du Infos zu einem speziellen Thema haben möchtest.")
                 .font(.subheadline)
                 .listRowBackground(Color(.secondarySystemBackground))
+                .padding([.top])
             }
             Section{
                 ForEach(categories) {category in

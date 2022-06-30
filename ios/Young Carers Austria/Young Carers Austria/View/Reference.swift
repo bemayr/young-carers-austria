@@ -14,17 +14,15 @@ struct ReferenceView {
         var body: some View {
             GeometryReader { geometry in
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(alignment: .top, spacing: 0) {
+                    HStack(alignment: .top, spacing: 15) {
                         ForEach(entry.references) { reference in
                             ReferenceView.Entry(reference: reference)
                                 .frame(width: geometry.size.width * 0.85)
-                                .background(.yellow)
                         }
                     }
                 }
-                .background(.green)
             }
-            .frame(height: 185)
+            .frame(height: 200)
         }
     }
     
@@ -33,54 +31,46 @@ struct ReferenceView {
 
         var body: some View {
             Link(destination: reference.url) {
-//                VStack(alignment: .leading) {
-//                    AsyncImage(url: URL(string: "https://www.uopeople.edu/wp-content/uploads/2020/04/ben-mullins-oXV3bzR7jxI-unsplash-1-scaled-e1586692935743.jpg")) { image in
-//                        image
-//                            .resizable()
-//                            .frame(width: 155, height: 155)
-//                            .cornerRadius(5)
-//                    } placeholder: {
-//                        ProgressView()
-//                    }
-//                    Text(reference.title)
-//                        .font(.caption)
-//                    Text(reference.description)
-//                        .font(.footnote)
-//                }
-                VStack {
-                    AsyncImage(url: URL(string: "https://www.uopeople.edu/wp-content/uploads/2020/04/ben-mullins-oXV3bzR7jxI-unsplash-1-scaled-e1586692935743.jpg")) { image in
-                        image
-                            .resizable()
-                            .renderingMode(.original)
-                            .cornerRadius(5)
-                            .aspectRatio(contentMode: .fit)
-                    } placeholder: {
-                        ProgressView()
+                ZStack {
+//                    RoundedRectangle(cornerRadius: 10, style: .continuous)
+//                                    .fill(.white)
+                    GeometryReader { geometry in
+                        VStack {
+                        AsyncImage(url: URL(string: "https://www.uopeople.edu/wp-content/uploads/2020/04/ben-mullins-oXV3bzR7jxI-unsplash-1-scaled-e1586692935743.jpg")) { image in
+                            image
+                                .renderingMode(.original)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+    //                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+                                .clipped()
+//                                .contentShape(Rectangle())
+                        } placeholder: {
+                            ProgressView()
+                        }
+//                            Text(geometry.size.height.description)
+                        }
+                        
                     }
-                    HStack {
+                    VStack(alignment: .leading) {
+                        Spacer()
                         VStack(alignment: .leading) {
-//                            Text(reference.keywords.map { $0.uppercased() }.joined(separator: ", "))
-//                                .font(.headline)
-//                                .foregroundColor(.secondary)
                             Text(reference.title)
-                                .font(.title2)
+                                .font(.title3)
                                 .fontWeight(.semibold)
                                 .foregroundColor(.primary)
+                                .multilineTextAlignment(.leading)
+                                .padding([.bottom], 1)
                             Text(reference.description)
-                                .font(.subheadline)
+                                .font(.footnote)
                                 .foregroundColor(.secondary)
+                                .multilineTextAlignment(.leading)
                         }
-                        .layoutPriority(100)
-
-                        Spacer()
+                        .frame(maxWidth: .infinity, alignment: .bottomLeading)
+                        .padding()
+                        .background(.thinMaterial)
                     }
                 }
-                .cornerRadius(10)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 1)
-                )
-                .padding([.top, .horizontal])
+                .cornerRadius(15, antialiased: true)
             }
         }
     }
