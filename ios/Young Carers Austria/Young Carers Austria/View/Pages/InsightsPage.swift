@@ -9,13 +9,11 @@ struct InsightsPage: View {
                         Text("Hier bist du auf der Startseite der Young Carers Austria App gelandet. Vielleicht hast du ja eine der folgenden Fragen, oder du erlebst auch gerade eine dieser Situationen?")
                 .font(.body)
                 .listRowBackground(Color(.secondarySystemBackground))
-                .padding([.top])
-            ) {}
-            .listRowInsets(EdgeInsets())
-            .foregroundColor(Color.primary)
-            .textCase(nil)
-            
-            Section{
+                .padding([.vertical])
+                    .listRowInsets(EdgeInsets())
+                    .foregroundColor(Color.primary)
+                    .textCase(nil)
+            ) {
                 ForEach(insights) { insight in
                     NavigationLink {
                         InsightsDetailPage(insight: insight)
@@ -24,9 +22,9 @@ struct InsightsPage: View {
                     }
                 }
             }
-            .listStyle(InsetGroupedListStyle())
-        .navigationTitle("Hallo!")
         }
+        .listStyle(InsetGroupedListStyle())
+        .navigationTitle("Hallo!")
     }
 }
 
