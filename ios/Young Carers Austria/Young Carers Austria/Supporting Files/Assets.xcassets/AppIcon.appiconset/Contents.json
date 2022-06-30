@@ -90,16 +90,19 @@
       "size" : "76x76"
     },
     {
+      "filename" : "Icon-76x76@2x.jpg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
+      "filename" : "Icon-83.5@2x.jpg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "Icon-marketing-1024x1024.jpg",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
