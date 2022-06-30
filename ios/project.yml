@@ -1,0 +1,114 @@
+name: Young Carers Austria
+fileGroups:
+- Gemfile
+- README.md
+- project.yml
+- ".gitignore"
+
+targets:
+  YoungCarersAustria:
+    templates:
+     - appTarget
+    sources:
+      - path: YoungCarersAustria
+    scheme:
+      testTargets:
+        - name: YoungCarersAustriaTests
+          parallelizable: true
+          randomizedExecutionOrder: true
+        - name: YoungCarersAustriaUITests
+          parallelizable: true
+          randomizedExecutionOrder: true
+    postCompileScripts:
+      - script: |
+                export PATH="$PATH:/opt/homebrew/bin"
+                if which swiftlint > /dev/null; then
+                  swiftlint
+                else
+                  echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+                fi
+        name: SwiftLint
+    settings:
+     base:
+      INFOPLIST_FILE: "YoungCarersAustria/SupportingFiles/Info.plist"
+      TARGETED_DEVICE_FAMILY: "1,2"   ### Set 1 for iPhone or "1,2" for iPhone and iPad
+      PRODUCT_BUNDLE_IDENTIFIER: "at.sozialministerium.youngcarers"
+     configs:
+      Debug:
+       PROVISIONING_PROFILE_SPECIFIER: "match Development bundleIdentifier"
+      Release:
+       PROVISIONING_PROFILE_SPECIFIER: "match AppStore bundleIdentifier"
+
+  YoungCarersAustriaUITests:
+    templates:
+      - uiTestTemplate
+    sources:
+      - YoungCarersAustriaUITests
+    scheme:
+        testTargets:
+            - name: YoungCarersAustriaUITests
+              parallelizable: true
+              randomizedExecutionOrder: true
+    settings:
+      base:
+        INFOPLIST_FILE: "YoungCarersAustriaTests/Info.plist"
+        PRODUCT_BUNDLE_IDENTIFIER: "bundleIdentifier.UITests"
+        TEST_TARGET_NAME: "YoungCarersAustria"
+    dependencies:
+      - target: YoungCarersAustria
+
+  YoungCarersAustriaTests:
+    templates:
+      - testTemplate
+    sources:
+      - YoungCarersAustriaTests
+    scheme:
+        testTargets:
+            - name: YoungCarersAustriaTests
+              parallelizable: true
+              randomizedExecutionOrder: true
+    settings:
+      base:
+        INFOPLIST_FILE: "YoungCarersAustriaTests/Info.plist"
+        PRODUCT_BUNDLE_IDENTIFIER: "bundleIdentifier.Tests"
+        TEST_TARGET_NAME: "YoungCarersAustria"
+    dependencies:
+      - target: YoungCarersAustria
+
+targetTemplates:
+  appTarget:
+    type: application
+    platform: iOS
+    settings:
+      base:
+        CODE_SIGN_STYLE: "Manual"
+      configs:
+        Debug:
+          CODE_SIGN_IDENTITY: "iPhone Developer"
+        Release:
+          CODE_SIGN_IDENTITY: "iPhone Distribution"
+
+  uiTestTemplate:
+    type: bundle.ui-testing
+    platform: iOS
+
+  testTemplate:
+    type: bundle.unit-test
+    platform: iOS
+
+options:
+  createIntermediateGroups: true
+  localPackagesGroup: Modules
+  groupOrdering:
+   - order: [YoungCarersAustria, YoungCarersAustriaTests, YoungCarersAustriaUITests, Modules]
+  deploymentTarget:
+    iOS: 15.0
+  xcodeVersion: "13.4.1"
+
+configs:
+  Debug: debug
+  Release: release
+settings:
+  base:
+    DEVELOPMENT_TEAM: #TeamID
+    VERSIONING_SYSTEM: apple-generic
