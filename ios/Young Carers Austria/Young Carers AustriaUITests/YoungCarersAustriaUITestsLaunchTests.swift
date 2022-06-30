@@ -1,6 +1,6 @@
 //
-//  YoungCarersAustriaUITestsLaunchTests.swift
-//  YoungCarersAustriaUITests
+//  Young_Carers_AustriaUITestsLaunchTests.swift
+//  Young Carers AustriaUITests
 //
 //  Created by Bernhard Mayr on 30.06.22.
 //

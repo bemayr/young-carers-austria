@@ -1,12 +1,12 @@
 //
-//  YoungCarersAustriaTests.swift
-//  YoungCarersAustriaTests
+//  Young_Carers_AustriaTests.swift
+//  Young Carers AustriaTests
 //
 //  Created by Bernhard Mayr on 30.06.22.
 //
 
 import XCTest
-@testable import YoungCarersAustria
+@testable import Young_Carers_Austria
 
 class YoungCarersAustriaTests: XCTestCase {
 
