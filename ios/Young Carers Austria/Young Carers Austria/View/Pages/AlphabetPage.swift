@@ -18,7 +18,7 @@ struct AlphabetPage: View {
                 .listRowBackground(Color(.secondarySystemBackground))
                 .padding([.vertical])
                 .listRowInsets(EdgeInsets())
-                .foregroundColor(Color.primary)
+                .foregroundColor(Color(.label))
                 .textCase(nil)
             ) {
                 ForEach(categories) {category in

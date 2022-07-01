@@ -22,7 +22,7 @@ struct ReferenceView {
                     }
                 }
             }
-            .frame(height: 200)
+            .frame(height: 250)
         }
     }
     
@@ -38,11 +38,21 @@ struct ReferenceView {
                     // Really hacky, probably because of AsyncImage
                     GeometryReader { geometry in
                         VStack {
-                            AsyncImage(url: URL(string: "https://www.uopeople.edu/wp-content/uploads/2020/04/ben-mullins-oXV3bzR7jxI-unsplash-1-scaled-e1586692935743.jpg")) { image in
+                            let images = [
+                                "https://www.uopeople.edu/wp-content/uploads/2020/04/ben-mullins-oXV3bzR7jxI-unsplash-1-scaled-e1586692935743.jpg",
+                                "https://www.sozialministerium.at/dam/jcr:7f12a701-79ca-4764-8a5b-5fe6d2890bd9/Webbilder_YoungCarers-App_Bubble-closeup5.jpg",
+                                "https://www.sozialministerium.at/dam/jcr:264d5198-d7e5-4106-950f-12a854e6b270/Webbilder_YoungCarers-App_Bubble-closeup9.jpg",
+                                "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                                "https://www.gesundheit.gv.at/dam/jcr:3a7f4b85-a91d-4468-bd81-13c26d1f1861/Video_Entspannen_V3_328045292.jpeg",
+                                "https://www.gesundheit.gv.at/dam/jcr:b1d25c98-89c5-4062-99a6-bb74932b0ee1/notruf1.jpg",
+                                "https://www.harmony4kids.at/wp-content/uploads/2020/04/harmony4kids-training.jpg"]
+                            
+                            AsyncImage(url: URL(string: images.randomElement()!)) { image in
                                 image
                                     .renderingMode(.original)
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
+                                    .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
                                     .clipped()
                                 }
                             placeholder: {
@@ -73,7 +83,7 @@ struct ReferenceView {
                     if(reference.isPaidContent) {
                         ZStack{
                             Circle()
-                                .fill(.thinMaterial)
+                                .fill(.thickMaterial)
                                 .frame(width: 30, height: 30)
                             Text("💵")
                                 .accessibilityLabel("Dieser Eintrag enthält bezahlbaren Inhalt")

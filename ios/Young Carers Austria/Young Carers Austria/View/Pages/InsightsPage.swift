@@ -52,6 +52,11 @@ struct InsightsDetailPage: View {
                             CategoryView(category: category)
                         } label: {
                             Text(category.name)
+                                .padding()
+                                .frame(maxWidth: .infinity)
+                                .background(Color(.systemBackground))
+                                .cornerRadius(12)
+                                .padding([.vertical])
                         }
                     }
                 }

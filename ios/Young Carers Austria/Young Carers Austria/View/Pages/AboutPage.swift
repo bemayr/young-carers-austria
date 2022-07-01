@@ -28,6 +28,7 @@ struct AboutPage: View {
                 Markdown(metadata.content)
                     .font(.body)
                     .multilineTextAlignment(.leading)
+                    .frame(maxWidth: .infinity, alignment: .leading)
             }
         }
     }
@@ -66,7 +67,7 @@ struct AboutPage: View {
             MetadaView(accessibility)
         }
         .navigationTitle("Über die App")
-        .padding([.horizontal, .bottom])
+        .padding([.horizontal])
         .background(Color(.secondarySystemBackground))
     }
 }

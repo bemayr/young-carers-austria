@@ -27,8 +27,15 @@ struct Insight: Decodable, Identifiable {
     }
     
     enum Part: Decodable, Identifiable {
-        var id: UUID {
-            UUID()
+        var id: String {
+            switch self {
+            case .text(let content):
+                return "text:\(content.hashValue)"
+            case .reference(let reference):
+                return "reference:\(reference.id)"
+            case .category(let category):
+                return "category:\(category.id)"
+            }
         }
         
         case text(String)
