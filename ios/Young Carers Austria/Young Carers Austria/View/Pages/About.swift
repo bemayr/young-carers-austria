@@ -1,37 +1,8 @@
-//
-//  About.swift
-//  Young Carers Austria
-//
-//  Created by Bernhard Mayr on 30.06.22.
-//
-
 import SwiftUI
 
 struct AboutPage: View {
     var metadata: [MetadataEntry]
     var contentTimestamp: Date
-    
-    struct MetadaView : View {
-        var metadata: MetadataEntry?
-        
-        init(_ metadata: MetadataEntry?) {
-            self.metadata = metadata
-        }
-        
-        var body: some View {
-            if let metadata = metadata {
-                Text(metadata.title)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .font(.title2)
-                    .padding([.bottom], 1)
-                    .padding([.top], 6)
-                Markdown(metadata.content)
-                    .font(.body)
-                    .multilineTextAlignment(.leading)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-            }
-        }
-    }
     
     var body: some View {
         let imprint = metadata.first { $0.key == "imprint" }
@@ -42,7 +13,7 @@ struct AboutPage: View {
         ScrollView {
             MetadaView(imprint)
                 .padding([.top])
-
+            
             Image("bmsgpk")
                 .resizable()
                 .scaledToFit()
@@ -76,10 +47,4 @@ func timeAgoDisplay(date: Date) -> String {
     let formatter = RelativeDateTimeFormatter()
     formatter.unitsStyle = .short
     return formatter.localizedString(for: date, relativeTo: Date())
-}
-
-struct About_Previews: PreviewProvider {
-    static var previews: some View {
-        AboutPage(metadata: previewContent.metadata, contentTimestamp: previewContent.timestamp)
-    }
 }

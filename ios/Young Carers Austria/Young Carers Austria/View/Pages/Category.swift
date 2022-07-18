@@ -1,13 +1,6 @@
-//
-//  Category.swift
-//  Young Carers Austria
-//
-//  Created by Bernhard Mayr on 30.06.22.
-//
-
 import SwiftUI
 
-struct CategoryView: View {
+struct CategoryDetailPage: View {
     var category: Category
     
     var body: some View {
@@ -50,10 +43,3 @@ struct CategoryView: View {
         .navigationTitle(category.name)
     }
 }
-
-
-//struct CategoryView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CategoryView()
-//    }
-//}

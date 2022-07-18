@@ -1,10 +1,3 @@
-//
-//  EmergencyPage.swift
-//  Young Carers Austria
-//
-//  Created by Bernhard Mayr on 30.06.22.
-//
-
 import SwiftUI
 
 struct EmergencyNumber {
@@ -35,15 +28,12 @@ struct EmergencyPage: View {
                 .listRowInsets(EdgeInsets())
                 .foregroundColor(Color.primary)
                 .textCase(nil),
-                    
                     footer: Link(destination: URL(string: "https://www.oesterreich.gv.at/themen/gesundheit_und_notfaelle/notrufnummern.html")!) {
                 Text("Mehr Info zu den Notrufnummern findest du auf www.oesterreich.gv.at.")
                     .padding([.top], 1)
                     .frame(maxWidth: .infinity, alignment: .center)
                     .multilineTextAlignment(.center)
-                
-            }
-            ) {
+            }) {
                 ForEach(numbers, id: \.number) { entry in
                     Button(action: { callNumber(phoneNumber: entry.number) })
                     {
@@ -75,16 +65,9 @@ struct EmergencyPage: View {
     
     private func callNumber(phoneNumber: String) {
         guard let url = URL(string: "telprompt://\(phoneNumber)"),
-            UIApplication.shared.canOpenURL(url) else {
+              UIApplication.shared.canOpenURL(url) else {
             return
         }
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
-    }
-
-}
-
-struct EmergencyPage_Previews: PreviewProvider {
-    static var previews: some View {
-        EmergencyPage(emergency: previewContent.emergency)
     }
 }

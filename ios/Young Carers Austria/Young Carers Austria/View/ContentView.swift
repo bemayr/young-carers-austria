@@ -5,7 +5,7 @@ struct ContentView: View {
     @State private var selection: Tab = .insights
     
     enum Tab {
-        case insights, abc, emergency, about
+        case insights, categories, emergency, about
     }
     
     struct TabViewItem<Page: View>: View {
@@ -38,8 +38,8 @@ struct ContentView: View {
                 TabViewItem(.insights, label: "Hilfe", icon: "alert_fragezeichen") {
                     InsightsPage(insights: content.insights)
                 }
-                TabViewItem(.abc, label: "Infos", icon: "alert_tipp") {
-                    AlphabetPage(categories: content.abc)
+                TabViewItem(.categories, label: "Infos", icon: "alert_tipp") {
+                    CategoriesPage(categories: content.abc)
                 }
                 TabViewItem(.emergency, label: "Im Notfall", icon: "themen_gesundheit_notfaelle") {
                     EmergencyPage(emergency: content.emergency)
@@ -55,40 +55,5 @@ struct ContentView: View {
                 Text("Daten werden geladen...")
             }
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            .environmentObject(PreviewViewModel())
-    }
-}
-
-final class PreviewViewModel: ObservableObject {
-    @Published var content: Content = previewContent
-}
-
-let previewContent: Content = load("content.json")
-
-func load<T: Decodable>(_ filename: String) -> T {
-    let data: Data
-
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-    else {
-        fatalError("Couldn't find \(filename) in main bundle.")
-    }
-
-    do {
-        data = try Data(contentsOf: file)
-    } catch {
-        fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
-    }
-
-    do {
-        let decoder = JSONDecoder()
-        return try decoder.decode(T.self, from: data)
-    } catch {
-        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }

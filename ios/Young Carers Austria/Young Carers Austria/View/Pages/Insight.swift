@@ -1,36 +1,8 @@
 import SwiftUI
 
-struct InsightsPage: View {
-    var insights: [Insight]
-
-    var body: some View {
-        List {
-            Section(header:
-                        Text("Hier bist du auf der Startseite der Young Carers Austria App gelandet. Vielleicht hast du ja eine der folgenden Fragen, oder du erlebst auch gerade eine dieser Situationen?")
-                .font(.body)
-                .listRowBackground(Color(.secondarySystemBackground))
-                .padding([.vertical])
-                    .listRowInsets(EdgeInsets())
-                    .foregroundColor(Color.primary)
-                    .textCase(nil)
-            ) {
-                ForEach(insights) { insight in
-                    NavigationLink {
-                        InsightsDetailPage(insight: insight)
-                    } label: {
-                        Text(insight.question)
-                    }
-                }
-            }
-        }
-        .listStyle(InsetGroupedListStyle())
-        .navigationTitle("Hallo!")
-    }
-}
-
-struct InsightsDetailPage: View {
+struct InsightDetailPage: View {
     var insight: Insight
-
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading){
@@ -45,11 +17,10 @@ struct InsightsDetailPage: View {
                             .multilineTextAlignment(.leading)
                     case .reference(let reference):
                         ReferenceView.Entry(reference: reference)
-                            .frame(height: 200, alignment: .center)
                             .padding([.vertical])
                     case .category(let category):
                         NavigationLink {
-                            CategoryView(category: category)
+                            CategoryDetailPage(category: category)
                         } label: {
                             Text(category.name)
                                 .padding()
@@ -66,13 +37,5 @@ struct InsightsDetailPage: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .background(Color(.secondarySystemBackground))
-    }
-}
-
-
-
-struct InsightsPage_Previews: PreviewProvider {
-    static var previews: some View {
-        InsightsPage(insights: previewContent.insights)
     }
 }
