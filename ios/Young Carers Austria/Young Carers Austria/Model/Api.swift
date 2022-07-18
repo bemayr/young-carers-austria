@@ -1,10 +1,3 @@
-//
-//  Model.swift
-//  Young Carers Austria
-//
-//  Created by Bernhard Mayr on 30.06.22.
-//
-
 import Foundation
 
 actor Model {
@@ -58,7 +51,7 @@ actor Model {
         decoder.dateDecodingStrategy = .formatted(formatter)
         
         // decode and return
-        return try! decoder.decode(Content.self, from: content)
+        return try decoder.decode(Content.self, from: content)
     }
     
     private func loadContentFromURL(_ url: URL?) throws -> Data? {

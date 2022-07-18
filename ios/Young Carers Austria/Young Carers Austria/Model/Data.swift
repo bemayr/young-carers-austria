@@ -1,7 +1,4 @@
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
-//
-//   let welcome = try? newJSONDecoder().decode(Welcome.self, from: jsonData)
 
 import Foundation
 
@@ -13,16 +10,31 @@ struct Content: Decodable {
     let timestamp: Date
 }
 
-struct Insight: Decodable {
+struct Insight: Decodable, Identifiable {
+    var id: String {
+        question
+    }
+    
     let question: String
-    let parts: [InsightPart]
+    let parts: [Part]
     
     enum CodingKeys: String, CodingKey {
         case question
         case parts = "content"
     }
     
-    enum Part: Decodable {
+    enum Part: Decodable, Identifiable {
+        var id: String {
+            switch self {
+            case .text(let content):
+                return "text:\(content.hashValue)"
+            case .reference(let reference):
+                return "reference:\(reference.id)"
+            case .category(let category):
+                return "category:\(category.id)"
+            }
+        }
+        
         case text(String)
         case reference(Reference)
         case category(Category)
@@ -52,16 +64,13 @@ struct Insight: Decodable {
             }
         }
     }
-    
-    struct InsightPart: Decodable {
-        let type: String
-        let text: String?
-        let reference: Reference?
-        let category: Category?
-    }
 }
 
-struct Category: Decodable {
+struct Category: Decodable, Identifiable {
+    var id: String {
+        name
+    }
+    
     let name: String
     let title: String
     let information: String
@@ -88,9 +97,14 @@ struct Category: Decodable {
 }
 
 
-struct Reference: Decodable {
+struct Reference: Decodable, Identifiable {
+    var id: URL {
+        url
+    }
+    
     let title: String
     let description: String
+    let previewImageUrl: String // using String here deliberately, because if the URL is ill-formatted the Decoder simply crashes
     let url: URL
     let isPaidContent: Bool
     let lastUpdated: Date
