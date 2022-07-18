@@ -23,6 +23,13 @@ struct YoungCarersAustriaApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(viewModel)
+                .task {
+                    let url = URL(string: "https://www.gesundheit.steiermark.at/cms/bilder/861513/80/150/100/df7e405d/CCM.jpg?as_is=J\n")
+                    
+                    print(url)
+                    
+                    try! await viewModel.loadContent() // intentionally fail here if this function throws
+                }
         }
     }
 }

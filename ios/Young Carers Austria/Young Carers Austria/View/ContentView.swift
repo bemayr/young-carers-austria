@@ -53,8 +53,6 @@ struct ContentView: View {
             VStack {
                 ProgressView()
                 Text("Daten werden geladen...")
-            }.onAppear() {
-                viewModel.loadContent()
             }
         }
     }

@@ -107,6 +107,7 @@ struct Reference: Decodable, Identifiable {
     
     let title: String
     let description: String
+    let previewImageUrl: String
     let url: URL
     let isPaidContent: Bool
     let lastUpdated: Date

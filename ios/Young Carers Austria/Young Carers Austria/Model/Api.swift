@@ -58,7 +58,7 @@ actor Model {
         decoder.dateDecodingStrategy = .formatted(formatter)
         
         // decode and return
-        return try! decoder.decode(Content.self, from: content)
+        return try decoder.decode(Content.self, from: content)
     }
     
     private func loadContentFromURL(_ url: URL?) throws -> Data? {
