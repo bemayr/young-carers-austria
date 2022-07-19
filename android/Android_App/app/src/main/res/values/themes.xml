@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.YoungCarers" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/yc_red_dark</item>
+    </style>
+</resources>
