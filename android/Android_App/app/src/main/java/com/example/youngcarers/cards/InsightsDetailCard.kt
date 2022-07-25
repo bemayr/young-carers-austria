@@ -64,8 +64,9 @@ fun InsightsDetailCard(
                 Modifier.padding(8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
+
                 Image(
-                    painter = painterResource(id = R.drawable.fragezeichen), //rememberAsyncImagePainter(image), //painterResource(id = R.drawable.picture)
+                    painter = rememberAsyncImagePainter(image), //painterResource(id = R.drawable.picture)
                     contentDescription = null,
                     modifier = Modifier
                         .size(width = 120.dp, height = 80.dp)
