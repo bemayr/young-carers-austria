@@ -15,16 +15,26 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
+import coil.compose.rememberAsyncImagePainter
 import com.example.youngcarers.NavRoutes
 import com.example.youngcarers.R
+import com.example.youngcarers.data.api.models.Insight
 
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun InsightsDetailCard(header: String, description: String, image: Int, navController: NavHostController, url: String) {
+fun InsightsDetailCard(
+    header: String,
+    description: String,
+    image: String,
+    navController: NavHostController,
+    url: String,
+    index: Int
+) {
 
     val uriHandler = LocalUriHandler.current
 
@@ -38,7 +48,7 @@ fun InsightsDetailCard(header: String, description: String, image: Int, navContr
             if (url != "null"){
                 uriHandler.openUri(url)
             }else{
-                navController.navigate(NavRoutes.InsightsDetail.route + "/0")
+                navController.navigate(NavRoutes.InsightsDetail.route + "/$index")
             }
         },
         shape = MaterialTheme.shapes.medium,
@@ -55,7 +65,7 @@ fun InsightsDetailCard(header: String, description: String, image: Int, navContr
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.picture),
+                    painter = painterResource(id = R.drawable.fragezeichen), //rememberAsyncImagePainter(image), //painterResource(id = R.drawable.picture)
                     contentDescription = null,
                     modifier = Modifier
                         .size(width = 120.dp, height = 80.dp)

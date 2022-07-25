@@ -12,6 +12,8 @@ data class Reference(
     val keywords: List<String>,
     @SerializedName("lastUpdated")
     val lastUpdated: String,
+    @SerializedName("previewImageUrl")
+    val previewImageUrl: String,
     @SerializedName("title")
     val title: String,
     @SerializedName("url")

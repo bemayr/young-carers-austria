@@ -13,16 +13,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.example.youngcarers.R
 
 import com.example.youngcarers.core.*
-import com.example.youngcarers.data.api.models.Abc
 import com.example.youngcarers.cards.AbcDetailSideCard
+import com.example.youngcarers.data.api.models.Abc
 import com.example.youngcarers.ui.theme.*
 
 
@@ -115,7 +113,7 @@ fun Detail_Screen(navController: NavHostController, viewTitle: String?, content:
                                 .fillMaxWidth()
                         ) {
                             entry.references.forEach { ref ->
-                                AbcDetailSideCard(ref.title, ref.description, detail.imageRes, ref.url)
+                                AbcDetailSideCard(ref.title, ref.description, ref.previewImageUrl , ref.url)
                             }//TODO: image
                         }
 

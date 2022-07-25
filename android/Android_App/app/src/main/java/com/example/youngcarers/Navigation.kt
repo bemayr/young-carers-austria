@@ -35,6 +35,7 @@ fun Navigation(navController: NavHostController, mainViewModel: MainViewModel) {
             // Insights Page
             composable(NavigationItem.Help.route) {
                 mainViewModel.content?.let { content ->
+
                     Help_Screen(
                         insights = content.insights,
                         navigateToDetail = ::navigateToInsightDetail,

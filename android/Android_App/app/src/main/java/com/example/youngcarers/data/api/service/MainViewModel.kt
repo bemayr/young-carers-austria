@@ -5,8 +5,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.youngcarers.data.api.models.Abc
-import com.example.youngcarers.data.api.models.Content
 import com.example.youngcarers.data.api.models.YoungCarersModel
 import kotlinx.coroutines.launch
 

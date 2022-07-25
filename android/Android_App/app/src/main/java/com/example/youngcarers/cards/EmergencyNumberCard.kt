@@ -39,6 +39,8 @@ fun EmergencyNumberCard(header: String) {
                 .padding(8.dp),
             verticalAlignment = Alignment.CenterVertically,
 
+            //horizontalArrangement = Arrangement.Center,
+
             ) {
             Icon(
                 painter = painterResource(id = R.drawable.ic_phone_red),

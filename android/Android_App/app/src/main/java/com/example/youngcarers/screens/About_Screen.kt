@@ -13,9 +13,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.youngcarers.core.*
-import com.example.youngcarers.ui.theme.*
 import com.example.youngcarers.data.api.models.Metadata
-
+import com.example.youngcarers.ui.theme.*
 
 
 @Composable
