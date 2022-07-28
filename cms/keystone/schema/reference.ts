@@ -3,6 +3,7 @@ import { list } from "@keystone-6/core";
 import { checkbox, relationship, select, text, timestamp } from "@keystone-6/core/fields";
 import { url } from "../fields/url-field";
 import { isNonBatchedChange, runWebsiteBuildIfProduction } from "../github-actions";
+import escapeHtml from 'escape-html'
 
 export const reference = list({
   ui: {
@@ -29,6 +30,13 @@ export const reference = list({
     }),
     description: text({
       label: "Beschreibung",
+      ui: {
+        itemView: { fieldMode: "hidden" },
+        createView: { fieldMode: "hidden" },
+      },
+    }),
+    previewImageUrl: text({
+      label: "Vorschaubild",
       ui: {
         itemView: { fieldMode: "hidden" },
         createView: { fieldMode: "hidden" },
@@ -93,12 +101,12 @@ export const reference = list({
   },
   hooks: {
     resolveInput: ({ resolvedData, item, inputData }) => {
-      // console.log({
-      //   url: resolvedData.address.url,
-      //   resolvedData,
-      //   onlineStatus: resolvedData.address.onlineStatus,
-      //   openGraphData: resolvedData.address.openGraphData,
-      // });
+      console.log({
+        url: resolvedData.address.url,
+        resolvedData,
+        onlineStatus: resolvedData.address.onlineStatus,
+        openGraphData: resolvedData.address.openGraphData,
+      });
       const onlineStatus =
         resolvedData.address.onlineStatus !== undefined
           ? JSON.parse(resolvedData.address.onlineStatus)
@@ -121,6 +129,13 @@ export const reference = list({
           ? openGraphData.description
           : resolvedData.address.description;
       resolvedData.onlineStatus = onlineStatus.status;
+      resolvedData.previewImageUrl =
+        openGraphData === undefined ||
+        openGraphData.imageUrl === undefined ||
+        openGraphData.imageUrl === null ||
+        openGraphData.imageUrl === ""
+          ? "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg"
+          : escapeHtml(openGraphData.imageUrl);
       return resolvedData;
     },
     afterOperation: async ({ context }) => {
