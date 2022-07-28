@@ -24,14 +24,24 @@ permalink: "abc/{{ category.name | slugify }}/"
   </div>
   <main role="main" class="w-full h-full flex-grow p-3 overflow-auto">
   <h1 class="text-3xl">{{ category.title }}</h1>
-  <p>{{ category.information }}</p>
+  {{ category.information | markdown }}
 
   {% for group in category.entries %}
     <h2 class="mt-4"><a href="{{ group.ownerUrl }}">{{ group.ownerName }}</a></h2>
     <p>{{ group.ownerUrl }}</p>
     <hr />
     {% for reference in group.references %}
-      <a href="{{reference.url}}">{{ reference.title }}</a><br/>
+      <div class="bg-white shadow-md border border-gray-200 rounded max-w-sm">
+          <a href="#">
+              <img class="rounded-t-lg" src="{{ reference.previewImageUrl }}" alt="">
+          </a>
+          <div class="p-5">
+              <a href="#">
+                  <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2">{{ reference.title }}</h5>
+              </a>
+              <p class="font-normal text-gray-700 mb-3">{{ reference.description }}</p>
+          </div>
+      </div>
     {% endfor %}
   {% endfor %}
 
