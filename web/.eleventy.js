@@ -1,5 +1,6 @@
 const fs = require("fs");
 const htmlmin = require("html-minifier");
+const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig) {
 
@@ -19,6 +20,15 @@ module.exports = function(eleventyConfig) {
   if (process.env.GITHUB_REPOSITORY) {
     pathPrefix = process.env.GITHUB_REPOSITORY.split('/')[1];
   }
+
+  // Markdown Filter
+  const md = new markdownIt({
+    html: true,
+  });
+
+  eleventyConfig.addFilter("markdown", (content) => {
+    return md.render(content);
+  });
 
   return {
     dir: {
