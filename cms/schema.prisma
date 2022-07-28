@@ -27,6 +27,7 @@ model Reference {
   url                   String     @unique @default("")
   title                 String     @default("")
   description           String     @default("")
+  previewImageUrl       String     @default("")
   address_url           String?
   address_onlineStatus  String?
   address_openGraphData String?

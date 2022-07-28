@@ -165,6 +165,7 @@ type Reference {
   url: String
   title: String
   description: String
+  previewImageUrl: String
   address: UrlFieldOutput
   onlineStatus: ReferenceOnlineStatusType
   isPaidContent: Boolean
@@ -251,6 +252,7 @@ input ReferenceWhereInput {
   url: StringFilter
   title: StringFilter
   description: StringFilter
+  previewImageUrl: StringFilter
   onlineStatus: ReferenceOnlineStatusTypeNullableFilter
   isPaidContent: BooleanFilter
   owner: OwnerWhereInput
@@ -281,6 +283,7 @@ input ReferenceOrderByInput {
   url: OrderDirection
   title: OrderDirection
   description: OrderDirection
+  previewImageUrl: OrderDirection
   onlineStatus: OrderDirection
   isPaidContent: OrderDirection
   lastUpdated: OrderDirection
@@ -290,6 +293,7 @@ input ReferenceUpdateInput {
   url: String
   title: String
   description: String
+  previewImageUrl: String
   address: UrlFieldInput
   onlineStatus: ReferenceOnlineStatusType
   isPaidContent: Boolean
@@ -329,6 +333,7 @@ input ReferenceCreateInput {
   url: String
   title: String
   description: String
+  previewImageUrl: String
   address: UrlFieldInput
   onlineStatus: ReferenceOnlineStatusType
   isPaidContent: Boolean
