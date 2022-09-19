@@ -46,11 +46,24 @@ export const getOnlineStatus = (
   return new Promise((resolve) => {
     try {
       const realUrl = new URL(url);
-      const options = {
+      let options = {
         hostname: realUrl.hostname,
         path: realUrl.pathname,
         headers: { "User-Agent": "Mozilla/5.0" },
       };
+
+      // handle youtube links differently: https://gist.github.com/tonY1883/a3b85925081688de569b779b4657439b
+      console.log({hostname: realUrl.hostname, v: realUrl.searchParams.get("v")})
+      if (realUrl.hostname.endsWith("youtube.com")) {
+        const youtubeImgUrl = new URL(
+          "http://img.youtube.com/vi/" + realUrl.searchParams.get("v") + "/mqdefault.jpg"
+        );
+        options = {
+          ...options,
+          hostname: youtubeImgUrl.hostname,
+          path: youtubeImgUrl.pathname,
+        };
+      }
 
       const request = get(options, (response) => {
         const {
@@ -105,7 +118,6 @@ export function registerDeadLinkDetection(
 
     resultTemp
       .filter(({ onlineStatus }) => needsCorrection(onlineStatus))
-      .filter(({ onlineStatus: { url } }) => !url.includes("youtube"))
       .forEach(({ title, onlineStatus }) => {
         switch (onlineStatus.status) {
           case "offline":
@@ -135,13 +147,6 @@ export function registerDeadLinkDetection(
     const data = await Promise.all(
       references.map(async (ref) => {
         let status = await getOnlineStatus(ref.url);
-
-        if (ref.url.includes("youtube") && status.status === "moved")
-          status = { url: ref.url, status: "online" };
-
-        // [TODO]: remove this hotfix (wrong HTTP status code of website)
-        if (ref.url === "https://www.fit-and-strong.at/")
-          status = { url: ref.url, status: "online" };
 
         return {
           where: { id: ref.id },
