@@ -2,16 +2,13 @@
 /** @jsx jsx */
 import { jsx, H3 } from "@keystone-ui/core";
 import Link from "next/link";
-import Image from "next/image";
-
-import logo from "../../assets/img/logo.png";
 
 export function YoungCarersLogo() {
   return (
     <H3>
       <Link href="/" passHref>
         <a>
-          <Image src={logo} />
+          <img style={{width: "100%"}} src="https://bemayr.github.io/young-carers-austria/images/logo.png" alt="Young Carers Austria Logo"></img>
         </a>
       </Link>
     </H3>
