@@ -101,6 +101,7 @@ export const reference = list({
   },
   hooks: {
     resolveInput: ({ resolvedData, item, inputData }) => {
+      // TODO: remove this console.log
       console.log({
         url: resolvedData.address.url,
         resolvedData,
