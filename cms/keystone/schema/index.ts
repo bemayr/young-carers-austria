@@ -20,7 +20,6 @@ import type { ListSchemaConfig } from '@keystone-6/core/types';
 import { user } from './user';
 import { category } from './category';
 import { reference } from './reference';
-import { keyword } from './keyword';
 import { singleton } from './singleton';
 import { owner } from './owner';
 
@@ -31,7 +30,6 @@ export const lists: ListSchemaConfig = {
   Category: category,
   Reference: reference,
   Owner: owner,
-  Keyword: keyword,
   Singleton: singleton,
   User: user,
 };

@@ -1,4 +1,3 @@
-import { stars } from "./../fields/stars-field/index";
 import { list } from "@keystone-6/core";
 import { checkbox, relationship, select, text, timestamp } from "@keystone-6/core/fields";
 import { url } from "../fields/url-field";
@@ -58,6 +57,14 @@ export const reference = list({
     isPaidContent: checkbox({
       label: "Diese Seite enthält kostenpflichtigen Inhalt ⚠️",
     }),
+    keywords: text({
+      label: "Schlagwörter",
+      isFilterable: true,
+      isOrderable: false,
+      ui: {
+        displayMode: "textarea"
+      }
+    }),
     lastUpdated: timestamp({
       isFilterable: false,
       isOrderable: true,
@@ -88,14 +95,6 @@ export const reference = list({
         cardFields: ["name"],
         linkToItem: true,
         inlineConnect: true,
-      },
-    }),
-    keywords: relationship({
-      label: "Schlagwörter",
-      ref: "Keyword",
-      many: true,
-      ui: {
-        displayMode: "select",
       },
     }),
   },

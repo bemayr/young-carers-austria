@@ -73,7 +73,7 @@ export const category = list({
       label: "Beschreibung als Markdown",
       ui: {
         createView: { fieldMode: "hidden" },
-        itemView: { fieldMode: "read" }, // [todo]: make readable only for administrators
+        itemView: { fieldMode: "hidden" }, // [todo]: make readable only for administrators
         listView: { fieldMode: "hidden" },
         description: "This field gets automatically populated via Slate"
       },
@@ -85,6 +85,14 @@ export const category = list({
           return slateToMarkdown(information);
         },
       },
+    }),
+    keywords: text({
+      label: "Schlagwörter",
+      isFilterable: true,
+      isOrderable: false,
+      ui: {
+        displayMode: "textarea"
+      }
     }),
     lastUpdated: timestamp({
       isFilterable: false,
@@ -106,14 +114,6 @@ export const category = list({
         cardFields: ["title", "url"],
         linkToItem: true,
         inlineConnect: true,
-      },
-    }),
-    keywords: relationship({
-      label: "Schlagwörter",
-      ref: "Keyword",
-      many: true,
-      ui: {
-        displayMode: "select",
       },
     }),
   },

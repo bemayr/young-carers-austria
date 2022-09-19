@@ -18,9 +18,9 @@ model Category {
   title               String      @default("")
   information         String      @default("[{\"type\":\"paragraph\",\"children\":[{\"text\":\"\"}]}]")
   renderedInformation String      @default("")
+  keywords            String      @default("")
   lastUpdated         DateTime?   @updatedAt
   references          Reference[] @relation("Category_references")
-  keywords            Keyword[]   @relation("Category_keywords")
 }
 
 model Reference {
@@ -36,11 +36,11 @@ model Reference {
   address_description   String?
   onlineStatus          String?
   isPaidContent         Boolean    @default(false)
+  keywords              String     @default("")
   lastUpdated           DateTime?  @updatedAt
   owner                 Owner?     @relation("Reference_owner", fields: [ownerId], references: [id])
   ownerId               String?    @map("owner")
   categories            Category[] @relation("Category_references")
-  keywords              Keyword[]  @relation("Reference_keywords")
 
   @@index([ownerId])
 }
@@ -50,13 +50,6 @@ model Owner {
   name       String      @unique @default("")
   url        String      @default("")
   references Reference[] @relation("Reference_owner")
-}
-
-model Keyword {
-  id                      String      @id @default(cuid())
-  name                    String      @unique @default("")
-  from_Category_keywords  Category[]  @relation("Category_keywords")
-  from_Reference_keywords Reference[] @relation("Reference_keywords")
 }
 
 model Singleton {

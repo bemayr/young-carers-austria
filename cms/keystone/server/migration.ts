@@ -1,10 +1,10 @@
+import { staticKeywords } from "./../../data/migration/v1/keywords";
 import { Express } from "express";
 import {
   BaseKeystoneTypeInfo,
   CreateRequestContext,
   KeystoneContext,
 } from "@keystone-6/core/types";
-import fileApiContent from "../../data/migration/v1/brz-data.29-01-2022.json";
 import { deserializeMarkdown as deserializeMarkdownKeystone } from "../_fixes/document-field/markdown";
 import { getOnlineStatus } from "./links";
 import { getOpenGraphData } from "./opengraph";
@@ -174,8 +174,9 @@ const existingReferencesLookup: Record<
   },
   "https://www.verrueckte-kindheit.at/de/angebote/beratung/": {
     title: "Onlineberatung veRRückte Kindheit",
-    description: "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung."
-  }
+    description:
+      'Bei "veRRückte Kindheit" gibt es verschiedene Möglichkeiten der Onlineberatung.',
+  },
 };
 
 export function registerMigrateV1Data(
@@ -192,7 +193,6 @@ export function registerMigrateV1Data(
         .then((ids) => context.query[list].deleteMany({ where: ids }));
     }
 
-    await prune("Keyword");
     await prune("Category");
     await prune("Owner");
     await prune("Reference");
@@ -211,19 +211,22 @@ export function registerMigrateV1Data(
 
     // === KEYWORDS ===
     console.log("🗝 Migrating keywords...");
-    const existingKeywords = [
-      ...new Set(entries.all.flatMap((entry) => entry.keywords)),
-    ];
-    const transformedKeywords = existingKeywords.map((keyword) => ({
-      name: keyword,
-    }));
-    const insertedKeywords = await context.query.Keyword.createMany({
-      data: transformedKeywords,
-      query: "id name",
-    });
-    const keywordLookup = Object.fromEntries(
-      insertedKeywords.map(({ id, name }) => [name, id])
-    );
+    function getCombinedKeywords(...keywords: string[]) {
+      const combinedKeywords = new Set([
+        ...keywords, // add all passed keywords to the returned Set
+        // @ts-ignore
+        ...keywords.flatMap((keyword) => staticKeywords.categories[keyword] || []), // add all category keywords
+        // @ts-ignore
+        ...keywords.flatMap((keyword) => staticKeywords.references[keyword] || []), // add all reference keywords
+      ].sort());
+      const result = [...combinedKeywords].join(", ");
+      console.log({
+        function: "keywords",
+        input: keywords,
+        output: result,
+      });
+      return result;
+    }
 
     // === CATEGORIES ===
     console.log("🧾 Migrating categories...");
@@ -235,11 +238,7 @@ export function registerMigrateV1Data(
         title: title,
         information: deserializeMarkdown(value),
         lastUpdated: new Date(modifiedAt).toISOString(),
-        keywords: {
-          connect: keywords.map((keyword) => ({
-            id: keywordLookup[keyword],
-          })),
-        },
+        keywords: getCombinedKeywords(category, ...keywords),
       })
     );
     const insertedCategories = await context.query.Category.createMany({
@@ -316,9 +315,7 @@ export function registerMigrateV1Data(
 
         const lastUpdated = new Date(entry.modifiedAt).toISOString();
 
-        const keywordIds = ref
-          .flatMap((e) => e.keywords)
-          .map((keyword) => ({ id: keywordLookup[keyword] }));
+        const keywords = getCombinedKeywords(...ref.flatMap((e) => e.keywords));
 
         const onlineStatus = await getOnlineStatus(url);
         const openGraphData = await getOpenGraphData(url);
@@ -337,7 +334,7 @@ export function registerMigrateV1Data(
           categories: { connect: categoryIds },
           owner: { connect: { id: ownerId } },
           lastUpdated: lastUpdated,
-          keywords: { connect: keywordIds },
+          keywords: keywords,
         };
       })
     );
@@ -395,7 +392,6 @@ export function registerMigrateV1Data(
     runWebsiteBuildIfProduction();
 
     res.json({
-      keywords: insertedKeywords.length,
       categories: insertedCategories.length,
       owners: insertedOwners.length,
       references: insertedReferences.length,

@@ -7,6 +7,7 @@ type Category {
   title: String
   information: Category_information_Document
   renderedInformation: String
+  keywords: String
   lastUpdated: DateTime
   references(
     where: ReferenceWhereInput! = {}
@@ -15,13 +16,6 @@ type Category {
     skip: Int! = 0
   ): [Reference!]
   referencesCount(where: ReferenceWhereInput! = {}): Int
-  keywords(
-    where: KeywordWhereInput! = {}
-    orderBy: [KeywordOrderByInput!]! = []
-    take: Int
-    skip: Int! = 0
-  ): [Keyword!]
-  keywordsCount(where: KeywordWhereInput! = {}): Int
 }
 
 type Category_information_Document {
@@ -44,8 +38,8 @@ input CategoryWhereInput {
   name: StringFilter
   title: StringFilter
   renderedInformation: StringFilter
+  keywords: StringFilter
   references: ReferenceManyRelationFilter
-  keywords: KeywordManyRelationFilter
 }
 
 input IDFilter {
@@ -93,12 +87,6 @@ input ReferenceManyRelationFilter {
   none: ReferenceWhereInput
 }
 
-input KeywordManyRelationFilter {
-  every: KeywordWhereInput
-  some: KeywordWhereInput
-  none: KeywordWhereInput
-}
-
 input CategoryOrderByInput {
   id: OrderDirection
   name: OrderDirection
@@ -116,9 +104,9 @@ input CategoryUpdateInput {
   title: String
   information: JSON
   renderedInformation: String
+  keywords: String
   lastUpdated: DateTime
   references: ReferenceRelateToManyForUpdateInput
-  keywords: KeywordRelateToManyForUpdateInput
 }
 
 input ReferenceRelateToManyForUpdateInput {
@@ -126,13 +114,6 @@ input ReferenceRelateToManyForUpdateInput {
   set: [ReferenceWhereUniqueInput!]
   create: [ReferenceCreateInput!]
   connect: [ReferenceWhereUniqueInput!]
-}
-
-input KeywordRelateToManyForUpdateInput {
-  disconnect: [KeywordWhereUniqueInput!]
-  set: [KeywordWhereUniqueInput!]
-  create: [KeywordCreateInput!]
-  connect: [KeywordWhereUniqueInput!]
 }
 
 input CategoryUpdateArgs {
@@ -145,19 +126,14 @@ input CategoryCreateInput {
   title: String
   information: JSON
   renderedInformation: String
+  keywords: String
   lastUpdated: DateTime
   references: ReferenceRelateToManyForCreateInput
-  keywords: KeywordRelateToManyForCreateInput
 }
 
 input ReferenceRelateToManyForCreateInput {
   create: [ReferenceCreateInput!]
   connect: [ReferenceWhereUniqueInput!]
-}
-
-input KeywordRelateToManyForCreateInput {
-  create: [KeywordCreateInput!]
-  connect: [KeywordWhereUniqueInput!]
 }
 
 type Reference {
@@ -169,6 +145,7 @@ type Reference {
   address: UrlFieldOutput
   onlineStatus: ReferenceOnlineStatusType
   isPaidContent: Boolean
+  keywords: String
   lastUpdated: DateTime
   owner: Owner
   categories(
@@ -178,13 +155,6 @@ type Reference {
     skip: Int! = 0
   ): [Category!]
   categoriesCount(where: CategoryWhereInput! = {}): Int
-  keywords(
-    where: KeywordWhereInput! = {}
-    orderBy: [KeywordOrderByInput!]! = []
-    take: Int
-    skip: Int! = 0
-  ): [Keyword!]
-  keywordsCount(where: KeywordWhereInput! = {}): Int
 }
 
 type UrlFieldOutput {
@@ -255,9 +225,9 @@ input ReferenceWhereInput {
   previewImageUrl: StringFilter
   onlineStatus: ReferenceOnlineStatusTypeNullableFilter
   isPaidContent: BooleanFilter
+  keywords: StringFilter
   owner: OwnerWhereInput
   categories: CategoryManyRelationFilter
-  keywords: KeywordManyRelationFilter
 }
 
 input ReferenceOnlineStatusTypeNullableFilter {
@@ -297,10 +267,10 @@ input ReferenceUpdateInput {
   address: UrlFieldInput
   onlineStatus: ReferenceOnlineStatusType
   isPaidContent: Boolean
+  keywords: String
   lastUpdated: DateTime
   owner: OwnerRelateToOneForUpdateInput
   categories: CategoryRelateToManyForUpdateInput
-  keywords: KeywordRelateToManyForUpdateInput
 }
 
 input UrlFieldInput {
@@ -337,10 +307,10 @@ input ReferenceCreateInput {
   address: UrlFieldInput
   onlineStatus: ReferenceOnlineStatusType
   isPaidContent: Boolean
+  keywords: String
   lastUpdated: DateTime
   owner: OwnerRelateToOneForCreateInput
   categories: CategoryRelateToManyForCreateInput
-  keywords: KeywordRelateToManyForCreateInput
 }
 
 input OwnerRelateToOneForCreateInput {
@@ -402,42 +372,6 @@ input OwnerCreateInput {
   name: String
   url: String
   references: ReferenceRelateToManyForCreateInput
-}
-
-type Keyword {
-  id: ID!
-  name: String
-}
-
-input KeywordWhereUniqueInput {
-  id: ID
-  name: String
-}
-
-input KeywordWhereInput {
-  AND: [KeywordWhereInput!]
-  OR: [KeywordWhereInput!]
-  NOT: [KeywordWhereInput!]
-  id: IDFilter
-  name: StringFilter
-}
-
-input KeywordOrderByInput {
-  id: OrderDirection
-  name: OrderDirection
-}
-
-input KeywordUpdateInput {
-  name: String
-}
-
-input KeywordUpdateArgs {
-  where: KeywordWhereUniqueInput!
-  data: KeywordUpdateInput!
-}
-
-input KeywordCreateInput {
-  name: String
 }
 
 type Singleton {
@@ -574,15 +508,6 @@ type Mutation {
   updateOwners(data: [OwnerUpdateArgs!]!): [Owner]
   deleteOwner(where: OwnerWhereUniqueInput!): Owner
   deleteOwners(where: [OwnerWhereUniqueInput!]!): [Owner]
-  createKeyword(data: KeywordCreateInput!): Keyword
-  createKeywords(data: [KeywordCreateInput!]!): [Keyword]
-  updateKeyword(
-    where: KeywordWhereUniqueInput!
-    data: KeywordUpdateInput!
-  ): Keyword
-  updateKeywords(data: [KeywordUpdateArgs!]!): [Keyword]
-  deleteKeyword(where: KeywordWhereUniqueInput!): Keyword
-  deleteKeywords(where: [KeywordWhereUniqueInput!]!): [Keyword]
   createSingleton(data: SingletonCreateInput!): Singleton
   createSingletons(data: [SingletonCreateInput!]!): [Singleton]
   updateSingleton(
@@ -652,14 +577,6 @@ type Query {
   ): [Owner!]
   owner(where: OwnerWhereUniqueInput!): Owner
   ownersCount(where: OwnerWhereInput! = {}): Int
-  keywords(
-    where: KeywordWhereInput! = {}
-    orderBy: [KeywordOrderByInput!]! = []
-    take: Int
-    skip: Int! = 0
-  ): [Keyword!]
-  keyword(where: KeywordWhereUniqueInput!): Keyword
-  keywordsCount(where: KeywordWhereInput! = {}): Int
   singletons(
     where: SingletonWhereInput! = {}
     orderBy: [SingletonOrderByInput!]! = []
