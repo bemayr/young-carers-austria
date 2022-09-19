@@ -2,7 +2,7 @@ import { list } from "@keystone-6/core";
 import { text } from "@keystone-6/core/fields";
 import { document } from "@keystone-6/fields-document";
 import { isNonBatchedChange, runWebsiteBuildIfProduction } from "../github-actions";
-import { documentToMarkdown } from "./category";
+import { slateToMarkdown } from "../_utils/markdown";
 
 export const singleton = list({
   ui: {
@@ -40,7 +40,7 @@ export const singleton = list({
         resolveInput: ({ resolvedData, context }) => {
           const { content } = resolvedData;
           if (content === undefined) return undefined;
-          return documentToMarkdown(content);
+          return slateToMarkdown(content);
         },
       },
     })
