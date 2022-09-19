@@ -7,7 +7,7 @@ export function isNonBatchedChange(url: string | undefined): boolean {
 export async function runWebsiteBuildIfProduction() {
   const isProduction = process.env.NODE_ENV === "production";
 
-  console.info(`🛠️ Initiating Website Rebuild`)
+  console.info(`🛠️ Initiating Website Rebuild (env: ${process.env.NODE_ENV})`)
 
   if (isProduction)
     await fetch(
