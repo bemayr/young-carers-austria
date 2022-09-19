@@ -1,16 +1,19 @@
 import { list } from "@keystone-6/core";
 import { relationship, text, timestamp } from "@keystone-6/core/fields";
 import { document } from "@keystone-6/fields-document";
-import { Node, Text } from "slate";
 import {
   isNonBatchedChange,
   runWebsiteBuildIfProduction,
 } from "../github-actions";
-import escapeHtml from 'escape-html'
+import { slateToMarkdown } from "../_utils/markdown";
 
 export const category = list({
   ui: {
     description: "Kategorien",
+    label: "Kategorien",
+    singular: "Kategorie",
+    plural: "Kategorien",
+    path: "kategorie",
     labelField: "name",
     searchFields: ["name", "title", "renderedInformation"],
   },
@@ -55,7 +58,7 @@ export const category = list({
 
           if (information === undefined) addError();
           else {
-            const markdown = documentToMarkdown(information);
+            const markdown = slateToMarkdown(information);
             const trimmed = markdown
               .replace("\n", "")
               .replace("<br>", "")
@@ -70,14 +73,16 @@ export const category = list({
       label: "Beschreibung als Markdown",
       ui: {
         createView: { fieldMode: "hidden" },
-        itemView: { fieldMode: "hidden" }, // [todo]: make readable only for administrators
+        itemView: { fieldMode: "read" }, // [todo]: make readable only for administrators
         listView: { fieldMode: "hidden" },
+        description: "This field gets automatically populated via Slate"
       },
       hooks: {
         resolveInput: ({ resolvedData, context }) => {
           const { information } = resolvedData;
+          console.log({information, markdown: slateToMarkdown(information)})
           if (information === undefined) return undefined;
-          return documentToMarkdown(information);
+          return slateToMarkdown(information);
         },
       },
     }),
@@ -120,37 +125,6 @@ export const category = list({
   },
 });
 
-// [todo]: extract this function
-export function documentToMarkdown(documentValue: any) {
-  // [TODO]: fix markdown serialization
-  const node = { children: JSON.parse(documentValue) }
-  const markdown = serialize(node).trim()
-  // console.log(documentValue)
-  // console.log({blocks})
-  // const markdown: string = blocks
-  //   .map((block: any) => serialize(block))
-  //   .join("")
-  //   .trim();
-  return markdown;
-}
 
-const serialize = node => {
-  if (Text.isText(node)) {
-    let string = escapeHtml(node.text)
-    if (node.bold) {
-      string = `**${string}**`
-    }
-    return string
-  }
 
-  const children = node.children.map(n => serialize(n)).join('')
 
-  switch (node.type) {
-    case 'paragraph':
-      return `${children}\r\n\r\n`
-    case 'link':
-      return `[${children}](${escapeHtml(node.href)})`
-    default:
-      return children
-  }
-}
