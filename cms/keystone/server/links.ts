@@ -23,10 +23,7 @@ export type Moved = Url & {
 export type Timeout = Url & { status: "timeout" };
 export type Error = Url & { status: "error"; error: unknown };
 
-export const isReachable = ({ status }: OnlineStatus) => status === "online";
-export const needsCorrection = (onlineStatus: OnlineStatus) =>
-  !isReachable(onlineStatus);
-
+// TODO: find a better place for this
 export function createValidUrl(passedUrl: string, passedBaseUrl: string) {
   try {
     const baseUrl = new URL(passedBaseUrl);
@@ -37,7 +34,7 @@ export function createValidUrl(passedUrl: string, passedBaseUrl: string) {
     return undefined;
   }
 }
-
+// TODO: find a better place for this
 export const getOnlineStatus = (
   url: string,
   timeoutTime: number = 20000
@@ -53,10 +50,11 @@ export const getOnlineStatus = (
       };
 
       // handle youtube links differently: https://gist.github.com/tonY1883/a3b85925081688de569b779b4657439b
-      console.log({hostname: realUrl.hostname, v: realUrl.searchParams.get("v")})
       if (realUrl.hostname.endsWith("youtube.com")) {
         const youtubeImgUrl = new URL(
-          "http://img.youtube.com/vi/" + realUrl.searchParams.get("v") + "/mqdefault.jpg"
+          "http://img.youtube.com/vi/" +
+            realUrl.searchParams.get("v") +
+            "/mqdefault.jpg"
         );
         options = {
           ...options,
@@ -96,111 +94,112 @@ export const getOnlineStatus = (
   });
 };
 
+const scanAllReferences = async (
+  context: KeystoneContext<BaseKeystoneTypeInfo>
+) => {
+  const references = await context.query.Reference.findMany({
+    query: "id url title description",
+  });
+
+  console.log(`Checking URLs... ❓`);
+
+  const resultTemp = await Promise.all(
+    references.map(async (ref) => ({
+      title: ref.title,
+      onlineStatus: await getOnlineStatus(ref.url),
+    }))
+  );
+
+  resultTemp
+    .filter(({ onlineStatus: { status } }) => status !== "online")
+    .forEach(({ title, onlineStatus }) => {
+      switch (onlineStatus.status) {
+        case "offline":
+          console.log(
+            `⛔ ${title} [${onlineStatus.statusCode}] (${onlineStatus.url})`
+          );
+          break;
+        case "moved":
+          const isSame = onlineStatus.url === onlineStatus.location;
+          console.log(
+            `➡ ${title} [${onlineStatus.statusCode}] ${isSame ? "🤣" : ""} (${
+              onlineStatus.url
+            }) MOVED TO ${onlineStatus.location}`
+          );
+          break;
+        case "timeout":
+          console.log(`⏰ ${title} (${onlineStatus.url})`);
+          break;
+        case "error":
+          console.log(`⁉ ${title} (${onlineStatus.url}) ${onlineStatus.error}`);
+          break;
+      }
+    });
+
+  const data = await Promise.all(
+    references.map(async (ref) => {
+      let status = await getOnlineStatus(ref.url);
+
+      return {
+        where: { id: ref.id },
+        data: {
+          address: {
+            url: ref.url,
+            onlineStatus: JSON.stringify(status),
+            title: ref.title,
+            description: ref.description,
+          },
+        },
+      };
+    })
+  );
+
+  const result = await context.query.Reference.updateMany({
+    data: data,
+    query: `
+      url
+      title
+      description
+      address {
+        url
+        title
+        description
+        onlineStatus {
+          ... on UrlOnline {
+            status
+          }
+          ... on UrlOffline {
+            status
+            statusCode
+          }
+          ... on UrlMoved {
+            status
+            statusCode
+            location
+          }
+          ... on UrlTimeout {
+            status
+          }
+          ... on UrlError {
+            status
+            error
+          }
+        }
+      }`,
+  });
+
+  console.log(`All URLs checked... 🏁`);
+
+  return result;
+};
+
 export function registerDeadLinkDetection(
   app: Express,
   createContext: CreateRequestContext<BaseKeystoneTypeInfo>
 ) {
   app.post("/links/validate", async (req, res) => {
-    const context: KeystoneContext = await createContext(req, res);
-
-    const references = await context.query.Reference.findMany({
-      query: "id url title description",
-    });
-
-    console.log(`Checking URLs... ❓`);
-
-    const resultTemp = await Promise.all(
-      references.map(async (ref) => ({
-        title: ref.title,
-        onlineStatus: await getOnlineStatus(ref.url),
-      }))
-    );
-
-    resultTemp
-      .filter(({ onlineStatus }) => needsCorrection(onlineStatus))
-      .forEach(({ title, onlineStatus }) => {
-        switch (onlineStatus.status) {
-          case "offline":
-            console.log(
-              `⛔ ${title} [${onlineStatus.statusCode}] (${onlineStatus.url})`
-            );
-            break;
-          case "moved":
-            const isSame = onlineStatus.url === onlineStatus.location;
-            console.log(
-              `➡ ${title} [${onlineStatus.statusCode}] ${isSame ? "🤣" : ""} (${
-                onlineStatus.url
-              }) MOVED TO ${onlineStatus.location}`
-            );
-            break;
-          case "timeout":
-            console.log(`⏰ ${title} (${onlineStatus.url})`);
-            break;
-          case "error":
-            console.log(
-              `⁉ ${title} (${onlineStatus.url}) ${onlineStatus.error}`
-            );
-            break;
-        }
-      });
-
-    const data = await Promise.all(
-      references.map(async (ref) => {
-        let status = await getOnlineStatus(ref.url);
-
-        return {
-          where: { id: ref.id },
-          data: {
-            address: {
-              url: ref.url,
-              onlineStatus: JSON.stringify(status),
-              title: ref.title,
-              description: ref.description,
-            },
-          },
-        };
-      })
-    );
-
-    const result = await context.query.Reference.updateMany({
-      data: data,
-      query: `
-        url
-        title
-        description
-        address {
-          url
-          title
-          description
-          onlineStatus {
-            ... on UrlOnline {
-              status
-            }
-            ... on UrlOffline {
-              status
-              statusCode
-            }
-            ... on UrlMoved {
-              status
-              statusCode
-              location
-            }
-            ... on UrlTimeout {
-              status
-            }
-            ... on UrlError {
-              status
-              error
-            }
-          }
-        }`,
-    });
-
-    console.log(`All URLs checked... 🏁`);
-
-    res.json({
-      result,
-    });
+    const scanResult = await scanAllReferences(await createContext(req, res));
+    res.json(scanResult);
   });
 
   app.get("/link/validate", async (req, res) => {
