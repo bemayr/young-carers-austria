@@ -4,6 +4,6 @@ import { YoungCarersLogo } from "./logo";
 import { Navigation } from './navigation';
 
 export const components: AdminConfig['components'] = {
-    // Logo: YoungCarersLogo,
+    Logo: YoungCarersLogo,
     Navigation: Navigation
 }
