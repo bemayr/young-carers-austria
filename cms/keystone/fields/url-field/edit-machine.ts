@@ -36,6 +36,7 @@ export const urlEditMachine =
     events: {} as Events,
     services: {} as Services,
   },
+  predictableActionArguments: true,
   id: "URL Edit Machine",
   initial: "Choose Online Status",
   states: {

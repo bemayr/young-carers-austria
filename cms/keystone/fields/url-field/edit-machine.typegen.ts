@@ -2,41 +2,31 @@
 
 export interface Typegen0 {
   "@@xstate/typegen": true;
-  eventsCausingActions: {
-    "Assign URL": "URL Changed";
-    "Assign Open Graph Data": "done.invoke.Fetch Open Graph Data";
-    "Report New Value":
-      | "done.invoke.Fetch Open Graph Data"
-      | "done.invoke.Fetch Online Status";
-    "Assign Proposed URL": "Accept Proposed URL";
-    "Assign Online Status": "done.invoke.Fetch Online Status";
-    "Clear Open Graph Data": "done.invoke.Fetch Online Status";
-  };
   internalEvents: {
-    "done.invoke.Fetch Open Graph Data": {
-      type: "done.invoke.Fetch Open Graph Data";
-      data: unknown;
-      __tip: "See the XState TS docs to learn how to strongly type this.";
-    };
+    "": { type: "" };
     "done.invoke.Fetch Online Status": {
       type: "done.invoke.Fetch Online Status";
       data: unknown;
       __tip: "See the XState TS docs to learn how to strongly type this.";
     };
-    "": { type: "" };
-    "xstate.init": { type: "xstate.init" };
-    "error.platform.Fetch Open Graph Data": {
-      type: "error.platform.Fetch Open Graph Data";
+    "done.invoke.Fetch Open Graph Data": {
+      type: "done.invoke.Fetch Open Graph Data";
       data: unknown;
+      __tip: "See the XState TS docs to learn how to strongly type this.";
     };
     "error.platform.Fetch Online Status": {
       type: "error.platform.Fetch Online Status";
       data: unknown;
     };
+    "error.platform.Fetch Open Graph Data": {
+      type: "error.platform.Fetch Open Graph Data";
+      data: unknown;
+    };
+    "xstate.init": { type: "xstate.init" };
   };
   invokeSrcNameMap: {
-    "Fetch Open Graph Data": "done.invoke.Fetch Open Graph Data";
     "Fetch Online Status": "done.invoke.Fetch Online Status";
+    "Fetch Open Graph Data": "done.invoke.Fetch Open Graph Data";
   };
   missingImplementations: {
     actions:
@@ -46,7 +36,7 @@ export interface Typegen0 {
       | "Assign Proposed URL"
       | "Assign Online Status"
       | "Clear Open Graph Data";
-    services: "Fetch Online Status" | "Fetch Open Graph Data";
+    services: "Fetch Open Graph Data" | "Fetch Online Status";
     guards:
       | "Is Online"
       | "Is Offline"
@@ -55,36 +45,46 @@ export interface Typegen0 {
       | "Is Error";
     delays: never;
   };
+  eventsCausingActions: {
+    "Assign Online Status": "done.invoke.Fetch Online Status";
+    "Assign Open Graph Data": "done.invoke.Fetch Open Graph Data";
+    "Assign Proposed URL": "Accept Proposed URL";
+    "Assign URL": "URL Changed";
+    "Clear Open Graph Data": "done.invoke.Fetch Online Status";
+    "Report New Value":
+      | "done.invoke.Fetch Online Status"
+      | "done.invoke.Fetch Open Graph Data";
+  };
   eventsCausingServices: {
-    "Fetch Online Status": "URL Changed" | "Accept Proposed URL";
-    "Fetch Open Graph Data": "xstate.init";
+    "Fetch Online Status": "Accept Proposed URL" | "URL Changed";
+    "Fetch Open Graph Data": "";
   };
   eventsCausingGuards: {
-    "Is Online": "";
-    "Is Offline": "";
-    "Is Timed Out": "";
-    "Is Moved": "";
     "Is Error": "";
+    "Is Moved": "";
+    "Is Offline": "";
+    "Is Online": "";
+    "Is Timed Out": "";
   };
   eventsCausingDelays: {};
   matchesStates:
-    | "Choose Online Status"
-    | "Online"
-    | "Online.Resolved"
-    | "Online.Fetching Open Graph Data"
-    | "Offline"
-    | "Moved"
-    | "Timeout"
-    | "Error"
     | "Checking Online Status"
-    | { Online?: "Resolved" | "Fetching Open Graph Data" };
-  tags:
-    | "Online"
-    | "Loading"
-    | "Open Graph Data"
-    | "Offline"
-    | "Moved"
-    | "Timeout"
+    | "Choose Online Status"
     | "Error"
-    | "Online Status";
+    | "Moved"
+    | "Offline"
+    | "Online"
+    | "Online.Fetching Open Graph Data"
+    | "Online.Resolved"
+    | "Timeout"
+    | { Online?: "Fetching Open Graph Data" | "Resolved" };
+  tags:
+    | "Error"
+    | "Loading"
+    | "Moved"
+    | "Offline"
+    | "Online"
+    | "Online Status"
+    | "Open Graph Data"
+    | "Timeout";
 }
