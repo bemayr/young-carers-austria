@@ -12,6 +12,6 @@ jobs:
       - name: Check Links 🖇️
         uses: fjogeleit/http-request-action@v1
         with:
-          url: 'http://yc-backend.projekte.fh-hagenberg.at/links/validate'
+          url: 'https://redaktions.young-carers-austria.at/links/validate'
           method: 'POST'
           timeout: 60000

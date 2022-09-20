@@ -7,7 +7,7 @@ actor Model {
     
     func loadContentFromNetwork() async throws -> Data {
         print("loadContentFromNetwork")
-        var request = URLRequest(url: URL(string: "https://bemayr.github.io/young-carers-austria/api/content.json")!)
+        var request = URLRequest(url: URL(string: "https://www.young-carers-austria.at/api/content.json")!)
         request.allHTTPHeaderFields = ["Accept": "application/json"]
         let (data, _) = try await URLSession.shared.data(for: request)
         return data
