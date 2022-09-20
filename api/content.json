@@ -1,5 +1,76 @@
 {
-  "insights": [],
+  "insights": [
+    {
+      "question": "Wenn das jetzt geht siehts für 29. sehr gut aus 😁",
+      "content": [
+        {
+          "type": "text",
+          "text": "Idealerweise funktionieren sowohl Kategorien"
+        },
+        {
+          "type": "category",
+          "category": {
+            "name": "Therapie",
+            "title": "Was sind die häufigsten Therapieformen und wie kommt man dazu?",
+            "information": "Zu den anerkannten Therapieformen zählen u.a. **Physiotherapie** und **Ergotherapie** bei Behinderungen im Bewegungsablauf; **Logopädie** bei Behinderungen der Sprache und des Sprachverständnisses. Die Ärztin / Der Arzt stellt eine **Verordnung** aus. Erfolgt die Behandlung bei Vertragspartner:innen, ist keine Bewilligung durch die [**Österreichische Gesundheitskasse**](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) erforderlich. Wird die Behandlung von freiberuflichen Therapeut:innen, Wahlfachärztinnen und -ärzten oder von Wahl-Instituten durchgeführt, ist eine **Bewilligung** in einer Kundenservicestelle erforderlich.\r\n\r\nTherapeut:innen, Fachärztinnen und Fachärzte, sowie Institute die einen Vertrag mit der Krankenkasse haben, können die durchgeführten Behandlungen direkt mit der Kasse abrechnen. Es entstehen keine zusätzlichen Kosten. Dies gilt auch für Gesundheitseinrichtungen.Sucht man sich Therapeut:innen, Fachärztinnen und Fachärzte oder Institute die keinen Vertrag mit der [Österreichischen Gesundheitskasse](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) haben, muss man das Honorar für die Behandlungen zunächst selbst bezahlen. Dann kann man um **Kostenerstattung** ansuchen. Nähere Auskünfte erteilt die zuständige Krankenkasse.",
+            "entries": [
+              {
+                "ownerName": "Österreichische Gesundheitskasse",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&portal=oegkportal",
+                    "title": "Infos der Gesundheitskasse",
+                    "description": "Nähere Auskünfte zu Verordnungen und Therapien erteilt die zuständige Krankenkasse bzw. der für die Patientin bzw. den Patienten zuständige Krankenversicherungsträger.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2021-06-01T07:37:09.776Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Rat",
+                      "Unterstützung"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "als auch Referenzen (hier auch Einträge genannt)"
+        },
+        {
+          "type": "reference",
+          "reference": {
+            "url": "https://www.istokay.at/",
+            "title": "Istokay.at",
+            "description": "Hier findest du ein Selbsthilfe-Programm für Jugendliche denen es gerade nicht so gut geht.",
+            "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+            "isPaidContent": false,
+            "lastUpdated": "2022-01-17T13:08:57.450Z",
+            "keywords": "Bildung, Bundesland, Forschung, MedUni, Medizin, Medizinische Universität Wien, Universität, Wien, Wissen"
+          }
+        },
+        {
+          "type": "reference",
+          "reference": {
+            "url": "https://chat.onlineberatung-telefonseelsorge.at/hc/de",
+            "title": "Telefonseelsorge",
+            "description": "Die TelefonSeelsorge Österreich – Notruf 142 ist eine österreichweite Organisation mit neun TelefonSeelsorge-Stellen. Hilfe gibts telefonisch, per Sofortchat oder per Mail.",
+            "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+            "isPaidContent": false,
+            "lastUpdated": "2022-08-12T13:46:38.688Z",
+            "keywords": "142, Anlaufstelle, Beratung, Beratungsstelle, Chatten, E-Mail, Gespräch, Gewalt, Hilfe, Hilfseinrichtung, Mail, Mobbing, Notruf, Organisation, Pflege, Rat, Reden, Sorgen, Telefon, Telefonseelsorge, Unterstützung"
+          }
+        }
+      ]
+    }
+  ],
   "abc": [
     {
       "name": "24-Stunden-Betreuung",
@@ -7799,5 +7870,5 @@
       "content": "Angaben gemäß Web-Zugänglichkeits-Gesetz (WZG)\r\n\r\nErklärung zur BarrierefreiheitDas Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz (Sozialministerium) ist bemüht, sowohl seine Websites, als auch seine mobilen Anwendungen im Einklang mit dem [Web-Zugänglichkeits-Gesetz (WZG) idgF](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20010727) zur Umsetzung der [Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen (Amtsblatt L 327 vom 2.12.2016, S. 1)](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016L2102) barrierefrei zugänglich zu machen.\r\n\r\nDiese Erklärung zur Barrierefreiheit gilt für die mobile App YoungCarers Austria.\r\n\r\nStand der Vereinbarkeit mit den AnforderungenDiese Anwendung ist mit **Konformitätsstufe AA der &quot;Richtlinien für barrierefreie Webinhalte Web – **[**WCAG 2.1**](https://www.w3.org/TR/WCAG21/)**&quot;** beziehungsweise mit dem geltenden Europäischen Standard EN 301 549 V2.1.2 (2018-08) geprüft und vereinbar.\r\n\r\nNicht barrierefreie InhalteDa die Anwendung vorwiegend auf externe Inhalte verlinkt und die Möglichkeit der einfacheren Auffindbarkeit dieser bietet, liegt die Barrierefreiheit fremder Inhalte nicht in der Kompetenz des Sozialministeriums. Für verlinkte Inhalte von Dritten, beispielsweise Videos oder Infomaterialien von externen Organisationen, die nicht im Einflussbereich des Sozialministeriums liegen, kann bezüglich Vereinbarkeit mit Barrierefreiheitsbestimmungen keine Aussage getroffen werden.### Erstellung dieser Erklärung zur Barrierefreiheit\r\n\r\nDiese Erklärung wurde am 04. November 2021 erstellt.\r\n\r\nDie Bewertung der Vereinbarkeit der Website mit dem WZG zur Umsetzung der Anforderungen der Richtlinie (EU) 2016/2102 erfolgte in Form eines Selbsttests nach WCAG 2.1 im Konformitätslevel AA im November 2021 sowie einer externen Überprüfung durch die Hilfsgemeinschaft der Blinden und Sehschwachen Österreichs. Überprüft (für mobile OS: Apple IOS und Google Android) wurden die Startseite, mehrere Kategorienseiten, mehrere Texteinträge, die Krankenhaussuche, die Suche und das Suchergebnis.\r\n\r\nFeedback und KontaktangabenDie Angebote und Services  dieser Anwendung werden laufend verbessert, ausgetauscht und ausgebaut. Dabei ist uns die Bedienbarkeit und Zugänglichkeit ein großes Anliegen.\r\n\r\nWenn Ihnen Barrieren auffallen, die Sie an der Benutzung unserer Anwendung behindern – Probleme, die in dieser Erklärung nicht beschrieben sind, Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen – so bitten wir Sie, uns diese per E Mail mitzuteilen. Wir werden Ihre Anfrage prüfen und Sie ehestmöglich kontaktieren.\r\n\r\nSämtliche Mitteilungen und Anregungen senden Sie bitte an die [Supportadresse](mailto:yc-support@sozialministerium.at) mit dem Betreff &quot;Meldung einer Barriere in der Young Carers App&quot;. Bitte beschreiben Sie das Problem und wo es auftritt (inkl. Gerät, Betriebssystemversion, eingesetzte Hilfsmittel, besondere Einstellungen).Kontakt:Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz[E-Mail:](mailto:yc-support@sozialministerium.at)### Durchsetzungsverfahren\r\n\r\nBei nicht zufriedenstellenden Antworten aus oben genannter Kontaktmöglichkeit können Sie sich mittels Beschwerde an die Österreichische Forschungsförderungsgesellschaft mit beschränkter Haftung (FFG) wenden. Die FFG nimmt über das Kontaktformular Beschwerden auf elektronischem Weg entgegen.\r\n\r\n[Kontaktformular der Beschwerdestelle](https://www.ffg.at/form/kontaktformular-beschwerdestelle)\r\n\r\nDie Beschwerden werden von der FFG dahingehend geprüft, ob sie sich auf Verstöße gegen die Vorgaben des Web-Zugänglichkeits-Gesetzes, insbesondere Mängel bei der Einhaltung der Barrierefreiheitsanforderungen, durch den Bund oder einer ihm zuordenbaren Einrichtung beziehen.Sofern die Beschwerde berechtigt ist, hat die FFG dem Bund oder den betroffenen Rechtsträgern Handlungsempfehlungen auszusprechen und Maßnahmen vorzuschlagen, die der Beseitigung der vorliegenden Mängel dienen.\r\n\r\n[Weitere Informationen zum Beschwerdeverfahren](https://www.ffg.at/digitale-barrierefreiheit/digitales-zugaenglich-machen/beschwerdestelle)\r\n\r\nFakultative Inhalte: ZusatzinformationenDie Anwendung YoungCarers Austria wurde im Jahr 2021 entwickelt.\r\n\r\nDas Sozialministerium ist um eine möglichst barrierefreie Zugänglichkeit zu seinen Internet-Angeboten bemüht. Dabei orientieren wir uns seit dem Jahr 2008 in Übereinstimmung mit den nationalen Rechtsvorschriften &quot;E-Government-Gesetz 2004&quot; und den geltenden einschlägigen Anti-Diskriminierungsbestimmungen an den Richtlinien für barrierefreie Inhalte WCAG 2.0/2.1. Eine Überprüfung nach allen A- und AA-Kriterien der WCAG 2.1 ist für diese Anwendung vor der Veröffentlichung erfolgt.\r\n\r\nLetzte Aktualisierung: 05. November 2021"
     }
   ],
-  "timestamp": "2022-09-20T21:18:26.772Z"
+  "timestamp": "2022-09-20T21:19:43.064Z"
 }
