@@ -25,9 +25,7 @@ const category = {
           previewImageUrl: reference.previewImageUrl,
           isPaidContent: reference.isPaidContent,
           lastUpdated: reference.lastUpdated,
-          keywords: reference.keywords
-            .map((keyword: any) => keyword.name)
-            .sort(),
+          keywords: reference.keywords.split(", "),
         });
         return owners;
       }, {})
@@ -252,9 +250,7 @@ export function registerAPIv2(
                     name
                     url
                   }
-                  keywords {
-                    name
-                  }
+                  keywords
                 }
               }
             }
