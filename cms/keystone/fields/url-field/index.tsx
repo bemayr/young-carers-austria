@@ -31,6 +31,7 @@ export type UrlType = {
   openGraphData: OpenGraphData;
   title: string | null;
   description: string | null;
+  previewImageUrl: string | null;
 };
 
 const UrlOnline = graphql.object<Online>()({
@@ -107,6 +108,7 @@ const UrlFieldInput = graphql.inputObject({
     openGraphData: graphql.arg({ type: graphql.String }),
     title: graphql.arg({ type: graphql.String }),
     description: graphql.arg({ type: graphql.String }),
+    previewImageUrl: graphql.arg({ type: graphql.String }),
   },
 });
 
@@ -119,6 +121,7 @@ type UrlFieldInputType =
       openGraphData?: string | null;
       title?: string | null;
       description?: string | null;
+      previewImageUrl?: string | null;
     };
 
 async function inputResolver(
@@ -141,6 +144,7 @@ async function inputResolver(
     openGraphData: undefined,
     title: undefined,
     description: undefined,
+    previewImageUrl: undefined,
     ...data,
   };
 
@@ -179,6 +183,7 @@ const UrlFieldOutput = graphql.object<UrlType>()({
     }),
     title: graphql.field({ type: graphql.String }),
     description: graphql.field({ type: graphql.String }),
+    previewImageUrl: graphql.field({ type: graphql.String }),
   }),
 });
 
@@ -230,6 +235,11 @@ export const url =
           mode: "optional",
           scalar: "String",
         },
+        previewImageUrl: {
+          kind: "scalar",
+          mode: "optional",
+          scalar: "String",
+        },
       },
     })({
       ...config,
@@ -253,7 +263,7 @@ export const url =
       output: graphql.field({
         type: UrlFieldOutput,
         resolve({
-          value: { url, onlineStatus, openGraphData, title, description },
+          value: { url, onlineStatus, openGraphData, title, description, previewImageUrl },
         }) {
           // console.log({ in: "UrlFieldOutput.resolve", url, onlineStatus, openGraphData });
           return {
@@ -262,6 +272,7 @@ export const url =
             openGraphData: openGraphData && JSON.parse(openGraphData),
             title: title,
             description: description,
+            previewImageUrl: previewImageUrl,
           };
           // // return value as unknown as UrlType;
         },

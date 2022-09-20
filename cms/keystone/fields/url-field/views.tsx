@@ -8,7 +8,7 @@ import {
   TextArea,
   TextInput,
 } from "@keystone-ui/fields";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   CardValueComponent,
   CellComponent,
@@ -34,6 +34,14 @@ function getOpenGraphData(url: string) {
   );
 }
 
+async function getPredefinedPreviewImageUrls() {
+  const response = await fetch(
+    `https://www.young-carers-austria.at/api/previewImages.json`
+  );
+  const data = await response.json();
+  return data;
+}
+
 export const Field = ({
   field,
   value,
@@ -43,6 +51,11 @@ export const Field = ({
 }: FieldProps<typeof controller>) => {
   const { typography, fields } = useTheme();
   const [shouldShowErrors, setShouldShowErrors] = useState(false);
+  const [predefinedPreviewImageUrls, setPredefinedPreviewImageUrls] = useState([]);
+
+  useEffect(() => {
+    getPredefinedPreviewImageUrls().then(setPredefinedPreviewImageUrls);
+  }, []);
 
   const [state, send, service] = useMachine(urlEditMachine, {
     actions: {
@@ -53,7 +66,7 @@ export const Field = ({
         openGraphData: (_, result) => result.data,
       }),
       "Clear Open Graph Data": assign({
-        openGraphData: (_) => undefined
+        openGraphData: (_) => undefined,
       }),
       "Assign URL": assign({
         url: (_, event) => event.url,
@@ -103,11 +116,6 @@ export const Field = ({
     (state) =>
       state.context.openGraphData && state.context.openGraphData.description
   );
-  const ogFavicon = useSelector(
-    service,
-    (state) =>
-      state.context.openGraphData && state.context.openGraphData.favicon
-  );
   const ogImageUrl = useSelector(
     service,
     (state) =>
@@ -117,6 +125,13 @@ export const Field = ({
     service,
     (state) =>
       state.context.openGraphData && state.context.openGraphData.imageAlt
+  );
+  const previewImagesUrls = useSelector(
+    service,
+    (state) =>
+      state.context.openGraphData && state.context.openGraphData.imageUrl
+      ? [createValidUrl(state.context.openGraphData.imageUrl, state.context.url), ...predefinedPreviewImageUrls]
+      : predefinedPreviewImageUrls
   );
 
   const isOnline = state.hasTag("Online");
@@ -168,7 +183,12 @@ export const Field = ({
             </Stack>
           )}
           {needsAdmin && (
-            <p>👨‍💻 Irgendetwas stimmt hier nicht, bitte wenden Sie sich an <a href="mailto:yc-support@youngcarers.at">yc-support@youngcarers.at</a></p>
+            <p>
+              👨‍💻 Irgendetwas stimmt hier nicht, bitte wenden Sie sich an{" "}
+              <a href="mailto:yc-support@youngcarers.at">
+                yc-support@youngcarers.at
+              </a>
+            </p>
           )}
           <FieldLabel>Titel</FieldLabel>
           <TextInput
@@ -206,26 +226,34 @@ export const Field = ({
           <pre>{JSON.stringify(state.context, null, 2)}</pre>
           <pre>{JSON.stringify(value.onlineStatus, null, 2)}</pre>
           <pre>{JSON.stringify(value.openGraphData, null, 2)}</pre> */}
-          {ogImageUrl && (
-            <div>
-              <FieldLabel>Titelbild</FieldLabel>
-              <img
-                src={createValidUrl(ogImageUrl, url!)}
-                alt={ogImageAlt}
-                width={300}
+
+
+<fieldset>
+<legend><FieldLabel>Titelbild</FieldLabel></legend>
+          {
+            previewImagesUrls.map(url => <div>
+              <input
+              type="radio"
+              name="titleImage"
+              id={`titleImage(${url})`}
+              value={url}
+              onChange={(event) => {
+                onChange({
+                  ...value,
+                  previewImageUrl: event.target.value
+                })
+              }}
+              checked={value.previewImageUrl === url} />
+            <label htmlFor={`titleImage(${url})`}>
+            <img
+                src={url}
+                alt="Preview Image"
+                height={160}
               ></img>
-            </div>
-          )}
-          {ogFavicon && (
-            <div>
-              <FieldLabel>Icon</FieldLabel>
-              <img
-                src={createValidUrl(ogFavicon, url!)}
-                alt="favicon"
-                width={32}
-              ></img>
-            </div>
-          )}
+            </label>
+            </div>)
+          }
+</fieldset>
         </Stack>
       ) : null}
     </FieldContainer>
@@ -298,6 +326,7 @@ export const controller = (
       openGraphData
       title
       description
+      previewImageUrl
     }`,
     deserialize: (data) => {
       const urlValue = data[config.path];
@@ -305,13 +334,14 @@ export const controller = (
       return { ...urlValue, openGraphData: JSON.parse(urlValue.openGraphData) };
     },
     defaultValue: {},
-    serialize: ({ url, onlineStatus, openGraphData, title, description }) => ({
+    serialize: ({ url, onlineStatus, openGraphData, title, description, previewImageUrl }) => ({
       [config.path]: {
         url,
         onlineStatus: JSON.stringify(onlineStatus),
         openGraphData: JSON.stringify(openGraphData),
         title,
         description,
+        previewImageUrl,
       },
     }),
   };

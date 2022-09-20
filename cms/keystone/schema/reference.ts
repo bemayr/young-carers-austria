@@ -100,13 +100,6 @@ export const reference = list({
   },
   hooks: {
     resolveInput: ({ resolvedData, item, inputData }) => {
-      // TODO: remove this console.log
-      console.log({
-        url: resolvedData.address.url,
-        resolvedData,
-        onlineStatus: resolvedData.address.onlineStatus,
-        openGraphData: resolvedData.address.openGraphData,
-      });
       const onlineStatus =
         resolvedData.address.onlineStatus !== undefined
           ? JSON.parse(resolvedData.address.onlineStatus)
@@ -115,6 +108,14 @@ export const reference = list({
         resolvedData.address.openGraphData !== undefined
           ? JSON.parse(resolvedData.address.openGraphData)
           : undefined;
+        // TODO: remove this console.log
+        // console.log({
+        //   url: resolvedData.address.url,
+        //   resolvedData,
+        //   // onlineStatus: resolvedData.address.onlineStatus,
+        //   openGraphData: openGraphData,
+        //   previewImageUrl: openGraphData.imageUrl
+        // });
       resolvedData.url = resolvedData.address.url;
       resolvedData.title =
         resolvedData.address.title === undefined ||
@@ -130,12 +131,7 @@ export const reference = list({
           : resolvedData.address.description;
       resolvedData.onlineStatus = onlineStatus.status;
       resolvedData.previewImageUrl =
-        openGraphData === undefined ||
-        openGraphData.imageUrl === undefined ||
-        openGraphData.imageUrl === null ||
-        openGraphData.imageUrl === ""
-          ? "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg"
-          : escapeHtml(openGraphData.imageUrl);
+        escapeHtml(resolvedData.address.previewImageUrl || "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg") // TODO: get rid of this
       return resolvedData;
     },
     afterOperation: async ({ context }) => {
