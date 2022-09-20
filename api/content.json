@@ -1,177 +1,56 @@
 {
   "insights": [
     {
-      "question": "Wie sieht ein typischer Tag eines Young Carers aus?",
+      "question": "Wie schauts aus mit der Einführung? 👏",
       "content": [
         {
           "type": "text",
-          "text": "Das ist ein bisschen ein **Markdown**-Text, der sporadische Formatierungen zulässt.\n\nDie nächste Zeile stellt einen Verweis auf eine Referenz dar:"
+          "text": "Wenn das nun alles klappt, dann können wir perfekt am 29. eine Einschulung machen. 😁"
+        },
+        {
+          "type": "text",
+          "text": "Das hier ist ein Beitrag:"
         },
         {
           "type": "reference",
           "reference": {
-            "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=175",
-            "title": "24-Stunden-Betreuung",
-            "description": "Broschüre \"24-Stunden-Betreuung zu Hause\" als Download",
+            "url": "https://www.superhands.at/fuer-dich/",
+            "title": "Nicht gut drauf?",
+            "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
             "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
             "isPaidContent": false,
-            "lastUpdated": "2022-04-12T08:43:35.740Z",
-            "keywords": [
-              "Sozialministerium"
-            ]
+            "lastUpdated": "2022-09-20T04:42:50.053Z",
+            "keywords": ""
           }
         },
         {
           "type": "text",
-          "text": "Nun kommt wieder ein bisschen Erklärungstext, damit hier ein bisschen ein Text steht..."
+          "text": "Und das hier ist eine Kategorie:"
         },
         {
           "type": "category",
           "category": {
-            "name": "24-Stunden-Betreuung",
-            "title": "24-Stunden-Betreuung",
-            "information": "Eine 24-Stunden-Betreuung ist den ganzen Tag sowie die ganze Nacht da, um die pflegebedürftige Person zu betreuen. Dabei spielt die Qualität eine ganz wichtige Rolle und wird auch mit einem Qualitätszertifikat für Vermittlungsagenturen ausgezeichnet.",
-            "entries": [
+            "name": "Therapie",
+            "title": "Was sind die häufigsten Therapieformen und wie kommt man dazu?",
+            "renderedInformation": "Zu den anerkannten Therapieformen zählen u.a. **Physiotherapie** und **Ergotherapie** bei Behinderungen im Bewegungsablauf; **Logopädie** bei Behinderungen der Sprache und des Sprachverständnisses. Die Ärztin / Der Arzt stellt eine **Verordnung** aus. Erfolgt die Behandlung bei Vertragspartner:innen, ist keine Bewilligung durch die [**Österreichische Gesundheitskasse**](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) erforderlich. Wird die Behandlung von freiberuflichen Therapeut:innen, Wahlfachärztinnen und -ärzten oder von Wahl-Instituten durchgeführt, ist eine **Bewilligung** in einer Kundenservicestelle erforderlich.\r\n\r\nTherapeut:innen, Fachärztinnen und Fachärzte, sowie Institute die einen Vertrag mit der Krankenkasse haben, können die durchgeführten Behandlungen direkt mit der Kasse abrechnen. Es entstehen keine zusätzlichen Kosten. Dies gilt auch für Gesundheitseinrichtungen.Sucht man sich Therapeut:innen, Fachärztinnen und Fachärzte oder Institute die keinen Vertrag mit der [Österreichischen Gesundheitskasse](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) haben, muss man das Honorar für die Behandlungen zunächst selbst bezahlen. Dann kann man um **Kostenerstattung** ansuchen. Nähere Auskünfte erteilt die zuständige Krankenkasse.",
+            "references": [
               {
-                "ownerName": "ÖQZ-24",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://oeqz.at/",
-                    "title": "Gesicherte Qualität bei der 24-Stunden-Pflege (geändert)",
-                    "description": "Für Agenturen der 24-Stunden-Betreuung gibt es ein freiwilliges Qualitätszertifikat.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-06-16T13:23:16.713Z",
-                    "keywords": [
-                      "ÖQZ-24"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Sozialministerium",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.sozialministerium.at/Themen/Pflege/24-Stunden-Betreuung.html",
-                    "title": "24-Stunden-Betreuung",
-                    "description": "Für betreuungsbedürftige Personen kann es notwendig sein, dass in privaten Haushalten Tag und Nacht eine Betreuungsperson anwesend sein muss. Dies erfolgt im Rahmen einer 24-Stunden-Betreuung. Um die wichtige Qualität sicherzustellen, wird für Vermittlungsagenturen ein Qualitätszertifikat verliehen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-04-12T08:43:35.345Z",
-                    "keywords": [
-                      "Sozialministerium"
-                    ]
-                  },
-                  {
-                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=175",
-                    "title": "24-Stunden-Betreuung",
-                    "description": "Broschüre \"24-Stunden-Betreuung zu Hause\" als Download",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-04-12T08:43:35.740Z",
-                    "keywords": [
-                      "Sozialministerium"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "question": "Wie könnte eine weitere Alltagssituation aussehen?",
-      "content": [
-        {
-          "type": "text",
-          "text": "Eine **24-Stunden-Betreuung** ist den ganzen Tag sowie die ganze Nacht da, um die pflegebedürftige Person zu betreuen. Dabei spielt die Qualität eine ganz wichtige Rolle und wird auch mit einem [Qualitätszertifikat für Vermittlungsagenturen](https://oeqz.at) ausgezeichnet."
-        },
-        {
-          "type": "reference",
-          "reference": {
-            "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=175",
-            "title": "24-Stunden-Betreuung",
-            "description": "Broschüre \"24-Stunden-Betreuung zu Hause\" als Download",
-            "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-            "isPaidContent": false,
-            "lastUpdated": "2022-04-12T08:43:35.740Z",
-            "keywords": [
-              "Sozialministerium"
-            ]
-          }
-        },
-        {
-          "type": "reference",
-          "reference": {
-            "url": "https://www.gesundheit.gv.at/news/aktuelles.html",
-            "title": "Gesundheitsportal",
-            "description": "Aktuelle Themen des Gesundheitsportal Österreichs",
-            "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
-            "isPaidContent": false,
-            "lastUpdated": "2022-07-18T14:59:28.495Z",
-            "keywords": [
-              "Gesundheitsportal Österreichs"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "text": "Nun kommt wieder ein bisschen Erklärungstext, damit hier ein bisschen ein Text steht... Allerdings ist dieser Text um einiges länger und enthält auch **fetten**, *kursiven* und ~durchgestrichenen~ Text.\r\n\r\n> Außerdem ist das ein Zitat."
-        },
-        {
-          "type": "category",
-          "category": {
-            "name": "24-Stunden-Betreuung",
-            "title": "24-Stunden-Betreuung",
-            "information": "Eine 24-Stunden-Betreuung ist den ganzen Tag sowie die ganze Nacht da, um die pflegebedürftige Person zu betreuen. Dabei spielt die Qualität eine ganz wichtige Rolle und wird auch mit einem Qualitätszertifikat für Vermittlungsagenturen ausgezeichnet.",
-            "entries": [
-              {
-                "ownerName": "ÖQZ-24",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://oeqz.at/",
-                    "title": "Gesicherte Qualität bei der 24-Stunden-Pflege (geändert)",
-                    "description": "Für Agenturen der 24-Stunden-Betreuung gibt es ein freiwilliges Qualitätszertifikat.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-06-16T13:23:16.713Z",
-                    "keywords": [
-                      "ÖQZ-24"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Sozialministerium",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.sozialministerium.at/Themen/Pflege/24-Stunden-Betreuung.html",
-                    "title": "24-Stunden-Betreuung",
-                    "description": "Für betreuungsbedürftige Personen kann es notwendig sein, dass in privaten Haushalten Tag und Nacht eine Betreuungsperson anwesend sein muss. Dies erfolgt im Rahmen einer 24-Stunden-Betreuung. Um die wichtige Qualität sicherzustellen, wird für Vermittlungsagenturen ein Qualitätszertifikat verliehen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-04-12T08:43:35.345Z",
-                    "keywords": [
-                      "Sozialministerium"
-                    ]
-                  },
-                  {
-                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=175",
-                    "title": "24-Stunden-Betreuung",
-                    "description": "Broschüre \"24-Stunden-Betreuung zu Hause\" als Download",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-04-12T08:43:35.740Z",
-                    "keywords": [
-                      "Sozialministerium"
-                    ]
-                  }
-                ]
+                "id": "cl5r2979t134063mp8iw4l8i78",
+                "url": "https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&portal=oegkportal",
+                "title": "Infos der Gesundheitskasse",
+                "description": "Nähere Auskünfte zu Verordnungen und Therapien erteilt die zuständige Krankenkasse bzw. der für die Patientin bzw. den Patienten zuständige Krankenversicherungsträger.",
+                "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                "address": {
+                  "openGraphData": "{\"title\":\"Österreichische Gesundheitskasse\",\"favicon\":\"/cdscontent/load?contentid=10008.748070&version=1646235514\"}"
+                },
+                "isPaidContent": false,
+                "lastUpdated": "2022-09-20T04:42:50.389Z",
+                "owner": {
+                  "id": "cl5r28q8m88583mp8gflvffi0",
+                  "name": "Österreichische Gesundheitskasse",
+                  "url": ""
+                },
+                "keywords": ""
               }
             ]
           }
@@ -197,7 +76,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.508Z",
               "keywords": [
-                "ÖQZ-24"
+                ""
               ]
             }
           ]
@@ -214,7 +93,7 @@
               "isPaidContent": true,
               "lastUpdated": "2022-09-20T04:42:50.401Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             },
             {
@@ -225,7 +104,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.513Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -249,7 +128,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.758Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             },
             {
@@ -260,7 +139,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.134Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -284,8 +163,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.046Z",
               "keywords": [
-                "Sozialministerium",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -302,8 +180,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.833Z",
               "keywords": [
-                "Interessengemeinschaft pflegender Angehöriger",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -320,7 +197,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.086Z",
               "keywords": [
-                "Interessensvertretung für pflegende und betreuende Angehörige"
+                ""
               ]
             }
           ]
@@ -337,8 +214,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:51.012Z",
               "keywords": [
-                "Jugendrotkreuz",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -355,10 +231,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.357Z",
               "keywords": [
-                "Pflegende Angehörige",
-                "Soziale Dienste",
-                "Sozialministerium",
-                "Young Carers"
+                ""
               ]
             },
             {
@@ -369,8 +242,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.408Z",
               "keywords": [
-                "Sozialministerium",
-                "Young Carers"
+                ""
               ]
             },
             {
@@ -381,8 +253,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.432Z",
               "keywords": [
-                "Sozialministerium",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -399,9 +270,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:51.017Z",
               "keywords": [
-                "Stefan Nagiller",
-                "UMIT",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -418,7 +287,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.153Z",
               "keywords": [
-                "Österreich"
+                ""
               ]
             }
           ]
@@ -435,8 +304,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:51.005Z",
               "keywords": [
-                "Young Carers",
-                "superhands"
+                ""
               ]
             }
           ]
@@ -460,8 +328,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.026Z",
               "keywords": [
-                "Beratung",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -478,10 +345,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.021Z",
               "keywords": [
-                "Beratung",
-                "Hausbesuch",
-                "Kompetenzzentrum",
-                "Pflegetipps"
+                ""
               ]
             }
           ]
@@ -505,11 +369,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.040Z",
               "keywords": [
-                "Beratung",
-                "Pflegende Angehörige",
-                "Pflegetipps",
-                "Soziale Dienste",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -526,9 +386,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.300Z",
               "keywords": [
-                "Beratung",
-                "Bundeskanzleramt",
-                "Familienberatung"
+                ""
               ]
             }
           ]
@@ -545,8 +403,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.997Z",
               "keywords": [
-                "Beratung",
-                "Bundesministerium für Bildung, Wissenschaft und Forschung"
+                ""
               ]
             }
           ]
@@ -563,9 +420,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.993Z",
               "keywords": [
-                "Beratung",
-                "CS Caritas Socialis",
-                "Roter Anker"
+                ""
               ]
             }
           ]
@@ -582,8 +437,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.094Z",
               "keywords": [
-                "Beratung",
-                "Jugendrotkreuz"
+                ""
               ]
             }
           ]
@@ -600,8 +454,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.986Z",
               "keywords": [
-                "Beratung",
-                "Österreichische Krebshilfe-Krebsgesellschaft"
+                ""
               ]
             }
           ]
@@ -618,9 +471,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.246Z",
               "keywords": [
-                "Beratung",
-                "JoJo Kindheit im Schatten",
-                "pro mente OÖ"
+                ""
               ]
             }
           ]
@@ -637,8 +488,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.291Z",
               "keywords": [
-                "Beratung",
-                "Rainbows"
+                ""
               ]
             }
           ]
@@ -655,8 +505,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.961Z",
               "keywords": [
-                "147 - Rat auf Draht",
-                "Beratung"
+                ""
               ]
             }
           ]
@@ -673,11 +522,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.059Z",
               "keywords": [
-                "1450 - die Gesundheitsnummer",
-                "Beratung",
-                "COVID-19",
-                "Coronavirus",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -694,10 +539,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.021Z",
               "keywords": [
-                "Beratung",
-                "Hausbesuch",
-                "Kompetenzzentrum",
-                "Pflegetipps"
+                ""
               ]
             }
           ]
@@ -714,9 +556,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.079Z",
               "keywords": [
-                "Beratung",
-                "Pflegetipps",
-                "superhands"
+                ""
               ]
             },
             {
@@ -727,7 +567,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.174Z",
               "keywords": [
-                "superhands"
+                ""
               ]
             },
             {
@@ -738,8 +578,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.998Z",
               "keywords": [
-                "Beratung",
-                "superhands"
+                ""
               ]
             }
           ]
@@ -756,8 +595,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.009Z",
               "keywords": [
-                "Beratung",
-                "VeRRückte Kindheit"
+                ""
               ]
             }
           ]
@@ -781,8 +619,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.973Z",
               "keywords": [
-                "Beratung",
-                "Telefonseelsorge"
+                ""
               ]
             }
           ]
@@ -799,8 +636,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.966Z",
               "keywords": [
-                "147 - Rat auf Draht",
-                "Beratung"
+                ""
               ]
             }
           ]
@@ -817,7 +653,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.866Z",
               "keywords": [
-                "Caritas"
+                ""
               ]
             }
           ]
@@ -834,8 +670,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.980Z",
               "keywords": [
-                "Beratung",
-                "superhands"
+                ""
               ]
             }
           ]
@@ -852,8 +687,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.009Z",
               "keywords": [
-                "Beratung",
-                "VeRRückte Kindheit"
+                ""
               ]
             }
           ]
@@ -877,9 +711,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.954Z",
               "keywords": [
-                "COVID-19",
-                "Coronavirus",
-                "Rotes Kreuz"
+                ""
               ]
             }
           ]
@@ -896,11 +728,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.059Z",
               "keywords": [
-                "1450 - die Gesundheitsnummer",
-                "Beratung",
-                "COVID-19",
-                "Coronavirus",
-                "Sozialministerium"
+                ""
               ]
             },
             {
@@ -911,9 +739,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.190Z",
               "keywords": [
-                "COVID-19",
-                "Coronavirus",
-                "Sozialministerium"
+                ""
               ]
             },
             {
@@ -924,9 +750,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.197Z",
               "keywords": [
-                "COVID-19",
-                "Coronavirus",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -943,9 +767,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.765Z",
               "keywords": [
-                "COVID-19",
-                "Coronavirus",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -969,8 +791,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.496Z",
               "keywords": [
-                "Gesundheit Österreich GmbH",
-                "Sozialministerium"
+                ""
               ]
             },
             {
@@ -981,7 +802,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.501Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -998,8 +819,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.141Z",
               "keywords": [
-                "Gesundheit Österreich GmbH",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -1016,8 +836,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.489Z",
               "keywords": [
-                "Gesundheit Österreich GmbH",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -1034,7 +853,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.924Z",
               "keywords": [
-                "Pflegende Angehörige"
+                ""
               ]
             }
           ]
@@ -1058,8 +877,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.949Z",
               "keywords": [
-                "Burgenland",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -1076,7 +894,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.918Z",
               "keywords": [
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -1093,10 +911,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.033Z",
               "keywords": [
-                "Schulung",
-                "Soziale Dienste",
-                "Sozialministerium",
-                "Young Minds UK"
+                ""
               ]
             }
           ]
@@ -1113,8 +928,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.941Z",
               "keywords": [
-                "Kärnten",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -1131,8 +945,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.106Z",
               "keywords": [
-                "Niederösterreich",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -1149,8 +962,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.933Z",
               "keywords": [
-                "Oberösterreich",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -1167,8 +979,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.926Z",
               "keywords": [
-                "Salzburg",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -1185,8 +996,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.482Z",
               "keywords": [
-                "Soziale Dienste",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -1203,9 +1013,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.562Z",
               "keywords": [
-                "Land",
-                "Soziale Dienste",
-                "Steiermark"
+                ""
               ]
             }
           ]
@@ -1222,8 +1030,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.919Z",
               "keywords": [
-                "Soziale Dienste",
-                "Tirol"
+                ""
               ]
             }
           ]
@@ -1240,8 +1047,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.929Z",
               "keywords": [
-                "Soziale Dienste",
-                "Vorarlberg"
+                ""
               ]
             }
           ]
@@ -1258,8 +1064,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.913Z",
               "keywords": [
-                "Soziale Dienste",
-                "Wien"
+                ""
               ]
             }
           ]
@@ -1283,7 +1088,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.771Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             },
             {
@@ -1294,7 +1099,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.974Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             },
             {
@@ -1305,7 +1110,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.981Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             }
           ]
@@ -1322,7 +1127,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.014Z",
               "keywords": [
-                "VeRRückte Kindheit"
+                ""
               ]
             }
           ]
@@ -1346,8 +1151,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.898Z",
               "keywords": [
-                "BBC News",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -1364,7 +1168,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.252Z",
               "keywords": [
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -1381,11 +1185,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.073Z",
               "keywords": [
-                "Australien",
-                "Charlotte Foley",
-                "Vereinigtes Königreich",
-                "Young Carers",
-                "song Growing up"
+                ""
               ]
             }
           ]
@@ -1402,8 +1202,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.892Z",
               "keywords": [
-                "Fixers UK",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -1420,8 +1219,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.906Z",
               "keywords": [
-                "Deutschland",
-                "Hochschule der Medien edit.Magazin"
+                ""
               ]
             }
           ]
@@ -1438,8 +1236,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.878Z",
               "keywords": [
-                "Kalaidos Fachhochschule AG",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -1456,8 +1253,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.885Z",
               "keywords": [
-                "Medienprojekt Wuppertal",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -1474,8 +1270,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.370Z",
               "keywords": [
-                "superhands",
-                "Österreich"
+                ""
               ]
             }
           ]
@@ -1492,7 +1287,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.893Z",
               "keywords": [
-                "Deutschland"
+                ""
               ]
             }
           ]
@@ -1516,7 +1311,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.858Z",
               "keywords": [
-                "Die Johanniter"
+                ""
               ]
             }
           ]
@@ -1533,7 +1328,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.872Z",
               "keywords": [
-                "Jugendrotkreuz"
+                ""
               ]
             }
           ]
@@ -1550,7 +1345,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.209Z",
               "keywords": [
-                "Rotes Kreuz"
+                ""
               ]
             }
           ]
@@ -1567,7 +1362,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.731Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             },
             {
@@ -1578,7 +1373,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.785Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             },
             {
@@ -1589,7 +1384,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.822Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             },
             {
@@ -1600,7 +1395,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.469Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             },
             {
@@ -1611,7 +1406,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.475Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             }
           ]
@@ -1628,7 +1423,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.865Z",
               "keywords": [
-                "superhands"
+                ""
               ]
             }
           ]
@@ -1652,7 +1447,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.852Z",
               "keywords": [
-                "Bundeskanzleramt"
+                ""
               ]
             }
           ]
@@ -1669,8 +1464,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.240Z",
               "keywords": [
-                "JoJo Kindheit im Schatten",
-                "Salzburg"
+                ""
               ]
             }
           ]
@@ -1687,7 +1481,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.790Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             }
           ]
@@ -1704,7 +1498,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.265Z",
               "keywords": [
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -1728,7 +1522,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.449Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             },
             {
@@ -1739,7 +1533,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.456Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             },
             {
@@ -1750,7 +1544,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.461Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -1767,11 +1561,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.040Z",
               "keywords": [
-                "Beratung",
-                "Pflegende Angehörige",
-                "Pflegetipps",
-                "Soziale Dienste",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -1788,7 +1578,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.912Z",
               "keywords": [
-                "Bundeskanzleramt"
+                ""
               ]
             }
           ]
@@ -1805,7 +1595,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.840Z",
               "keywords": [
-                "Sozialministeriumservice"
+                ""
               ]
             },
             {
@@ -1816,7 +1606,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.845Z",
               "keywords": [
-                "Sozialministeriumservice"
+                ""
               ]
             }
           ]
@@ -1840,7 +1630,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.826Z",
               "keywords": [
-                "austria4kids"
+                ""
               ]
             }
           ]
@@ -1857,8 +1647,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.066Z",
               "keywords": [
-                "Freizeit",
-                "harmony4kids"
+                ""
               ]
             }
           ]
@@ -1875,7 +1664,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.848Z",
               "keywords": [
-                "Freizeit"
+                ""
               ]
             }
           ]
@@ -1892,8 +1681,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.833Z",
               "keywords": [
-                "Interessengemeinschaft pflegender Angehöriger",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -1910,7 +1698,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.114Z",
               "keywords": [
-                "Jugendrotkreuz"
+                ""
               ]
             }
           ]
@@ -1927,8 +1715,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.053Z",
               "keywords": [
-                "Tipps",
-                "superhands"
+                ""
               ]
             }
           ]
@@ -1952,7 +1739,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.797Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -1976,7 +1763,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.444Z",
               "keywords": [
-                "Medizinische Universität Wien"
+                ""
               ]
             }
           ]
@@ -1993,7 +1780,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.821Z",
               "keywords": [
-                "Rotes Kreuz"
+                ""
               ]
             }
           ]
@@ -2010,7 +1797,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.803Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             }
           ]
@@ -2034,8 +1821,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.215Z",
               "keywords": [
-                "Heilbehelfe",
-                "Hilfsmittel"
+                ""
               ]
             }
           ]
@@ -2052,11 +1838,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.810Z",
               "keywords": [
-                "Beratung",
-                "Gesundheitsportal Österreichs",
-                "Heilbehelfe",
-                "Hilfsmittel",
-                "Pflegetipps"
+                ""
               ]
             }
           ]
@@ -2080,10 +1862,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.033Z",
               "keywords": [
-                "Schulung",
-                "Soziale Dienste",
-                "Sozialministerium",
-                "Young Minds UK"
+                ""
               ]
             }
           ]
@@ -2107,8 +1886,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.778Z",
               "keywords": [
-                "Freizeit",
-                "Vorarlberg"
+                ""
               ]
             }
           ]
@@ -2125,8 +1903,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.793Z",
               "keywords": [
-                "Freizeit",
-                "Salzburg"
+                ""
               ]
             }
           ]
@@ -2143,8 +1920,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.841Z",
               "keywords": [
-                "Kinderrechte",
-                "Österreich"
+                ""
               ]
             }
           ]
@@ -2161,8 +1937,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.332Z",
               "keywords": [
-                "Bundesnetzwerk Österreichische Jugendinfos",
-                "Freizeit"
+                ""
               ]
             },
             {
@@ -2173,8 +1948,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.765Z",
               "keywords": [
-                "Bundesnetzwerk Österreichische Jugendinfos",
-                "Freizeit"
+                ""
               ]
             }
           ]
@@ -2191,8 +1965,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.937Z",
               "keywords": [
-                "Freizeit",
-                "Tirol"
+                ""
               ]
             }
           ]
@@ -2209,8 +1982,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.799Z",
               "keywords": [
-                "Freizeit",
-                "Niederösterreich"
+                ""
               ]
             }
           ]
@@ -2227,8 +1999,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.813Z",
               "keywords": [
-                "Burgenland",
-                "Freizeit"
+                ""
               ]
             }
           ]
@@ -2245,8 +2016,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.806Z",
               "keywords": [
-                "Freizeit",
-                "Kärnten"
+                ""
               ]
             }
           ]
@@ -2263,8 +2033,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.986Z",
               "keywords": [
-                "Freizeit",
-                "Oberösterreich"
+                ""
               ]
             }
           ]
@@ -2281,8 +2050,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.785Z",
               "keywords": [
-                "Freizeit",
-                "Steiermark"
+                ""
               ]
             }
           ]
@@ -2299,8 +2067,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.770Z",
               "keywords": [
-                "Freizeit",
-                "Wien"
+                ""
               ]
             }
           ]
@@ -2324,9 +2091,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.363Z",
               "keywords": [
-                "Kliniksuche",
-                "Sozialministerium",
-                "Spitäler"
+                ""
               ]
             }
           ]
@@ -2350,7 +2115,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.743Z",
               "keywords": [
-                "Alzheimer Austria"
+                ""
               ]
             }
           ]
@@ -2367,7 +2132,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.750Z",
               "keywords": [
-                "CS Caritas Socialis"
+                ""
               ]
             }
           ]
@@ -2384,7 +2149,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.737Z",
               "keywords": [
-                "Kardinal König Haus"
+                ""
               ]
             }
           ]
@@ -2401,7 +2166,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.778Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             }
           ]
@@ -2418,7 +2183,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.757Z",
               "keywords": [
-                "superhands"
+                ""
               ]
             }
           ]
@@ -2442,10 +2207,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.033Z",
               "keywords": [
-                "Schulung",
-                "Soziale Dienste",
-                "Sozialministerium",
-                "Young Minds UK"
+                ""
               ]
             }
           ]
@@ -2462,8 +2224,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.724Z",
               "keywords": [
-                "Jugendrotkreuz",
-                "Unterricht"
+                ""
               ]
             },
             {
@@ -2474,8 +2235,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.730Z",
               "keywords": [
-                "Jugendrotkreuz",
-                "pflegefit"
+                ""
               ]
             }
           ]
@@ -2492,8 +2252,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.942Z",
               "keywords": [
-                "Onlinekurs",
-                "Rotes Kreuz"
+                ""
               ]
             }
           ]
@@ -2510,8 +2269,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.949Z",
               "keywords": [
-                "Onlinekurs",
-                "Rotes Kreuz"
+                ""
               ]
             }
           ]
@@ -2528,9 +2286,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.079Z",
               "keywords": [
-                "Beratung",
-                "Pflegetipps",
-                "superhands"
+                ""
               ]
             }
           ]
@@ -2547,8 +2303,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.002Z",
               "keywords": [
-                "Seminar",
-                "VeRRückte Kindheit"
+                ""
               ]
             }
           ]
@@ -2572,10 +2327,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.033Z",
               "keywords": [
-                "Schulung",
-                "Soziale Dienste",
-                "Sozialministerium",
-                "Young Minds UK"
+                ""
               ]
             }
           ]
@@ -2599,7 +2351,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.717Z",
               "keywords": [
-                "austria4kids"
+                ""
               ]
             }
           ]
@@ -2616,8 +2368,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.710Z",
               "keywords": [
-                "Kindernotruf",
-                "Verein Lichtblick"
+                ""
               ]
             }
           ]
@@ -2641,7 +2392,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.325Z",
               "keywords": [
-                "147 - Rat auf Draht"
+                ""
               ]
             }
           ]
@@ -2658,9 +2409,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.678Z",
               "keywords": [
-                "Beratung",
-                "CS Caritas Socialis",
-                "Multiple Sklerose"
+                ""
               ]
             }
           ]
@@ -2677,10 +2426,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.690Z",
               "keywords": [
-                "Beratung",
-                "elco",
-                "kiko",
-                "pro mente OÖ"
+                ""
               ]
             }
           ]
@@ -2697,8 +2443,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.066Z",
               "keywords": [
-                "Freizeit",
-                "harmony4kids"
+                ""
               ]
             }
           ]
@@ -2715,8 +2460,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.829Z",
               "keywords": [
-                "Beratung",
-                "JoJo Kindheit im Schatten"
+                ""
               ]
             }
           ]
@@ -2733,8 +2477,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.101Z",
               "keywords": [
-                "Beratung",
-                "Jugendrotkreuz"
+                ""
               ]
             }
           ]
@@ -2751,7 +2494,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.665Z",
               "keywords": [
-                "kids-line"
+                ""
               ]
             }
           ]
@@ -2768,9 +2511,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.703Z",
               "keywords": [
-                "Beratung",
-                "Caritas",
-                "KIPKE"
+                ""
               ]
             }
           ]
@@ -2787,9 +2528,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.697Z",
               "keywords": [
-                "Beratung",
-                "KIPKE",
-                "Psychosoziale Zentren"
+                ""
               ]
             }
           ]
@@ -2806,8 +2545,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.684Z",
               "keywords": [
-                "Beratung",
-                "Österreichische Krebshilfe-Krebsgesellschaft"
+                ""
               ]
             }
           ]
@@ -2824,8 +2562,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.159Z",
               "keywords": [
-                "Beratung",
-                "superhands"
+                ""
               ]
             }
           ]
@@ -2842,8 +2579,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.146Z",
               "keywords": [
-                "Beratung",
-                "VeRRückte Kindheit"
+                ""
               ]
             }
           ]
@@ -2860,8 +2596,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.672Z",
               "keywords": [
-                "Beratung",
-                "Rotes Kreuz"
+                ""
               ]
             }
           ]
@@ -2885,7 +2620,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.660Z",
               "keywords": [
-                "oesterreich.gv.at"
+                ""
               ]
             }
           ]
@@ -2902,8 +2637,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.432Z",
               "keywords": [
-                "Sozialministerium",
-                "Young Carers"
+                ""
               ]
             },
             {
@@ -2914,7 +2648,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.438Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -2938,8 +2672,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.854Z",
               "keywords": [
-                "Freizeit",
-                "Schulpsychologie"
+                ""
               ]
             }
           ]
@@ -2956,7 +2689,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.816Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -2980,8 +2713,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.026Z",
               "keywords": [
-                "Beratung",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -2998,10 +2730,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.021Z",
               "keywords": [
-                "Beratung",
-                "Hausbesuch",
-                "Kompetenzzentrum",
-                "Pflegetipps"
+                ""
               ]
             }
           ]
@@ -3025,7 +2754,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.641Z",
               "keywords": [
-                "Kinder- und Jugendanwaltschaft"
+                ""
               ]
             },
             {
@@ -3036,7 +2765,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.648Z",
               "keywords": [
-                "Bundeskanzleramt"
+                ""
               ]
             }
           ]
@@ -3053,8 +2782,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.425Z",
               "keywords": [
-                "Gesundheitsportal Österreichs",
-                "Patientenanwaltschaft"
+                ""
               ]
             }
           ]
@@ -3071,7 +2799,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.228Z",
               "keywords": [
-                "Kinderrechte"
+                ""
               ]
             }
           ]
@@ -3088,8 +2816,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.653Z",
               "keywords": [
-                "Beratung",
-                "Kinder- und Jugendanwaltschaft"
+                ""
               ]
             }
           ]
@@ -3106,7 +2833,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.835Z",
               "keywords": [
-                "Netzwerk Kinderrechte"
+                ""
               ]
             }
           ]
@@ -3130,7 +2857,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.861Z",
               "keywords": [
-                "Schulpsychologie"
+                ""
               ]
             }
           ]
@@ -3147,7 +2874,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.634Z",
               "keywords": [
-                "Bundesministerium für Bildung, Wissenschaft und Forschung"
+                ""
               ]
             }
           ]
@@ -3164,8 +2891,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.627Z",
               "keywords": [
-                "Bundesministerium für Bildung, Wissenschaft und Forschung",
-                "Schulpsychologie"
+                ""
               ]
             }
           ]
@@ -3189,7 +2915,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.900Z",
               "keywords": [
-                "Beratung"
+                ""
               ]
             }
           ]
@@ -3206,7 +2932,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.420Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             }
           ]
@@ -3223,10 +2949,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.033Z",
               "keywords": [
-                "Schulung",
-                "Soziale Dienste",
-                "Sozialministerium",
-                "Young Minds UK"
+                ""
               ]
             }
           ]
@@ -3243,8 +2966,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.619Z",
               "keywords": [
-                "Interessengemeinschaft pflegender Angehöriger",
-                "Stammtisch"
+                ""
               ]
             }
           ]
@@ -3268,7 +2990,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.234Z",
               "keywords": [
-                "Medizinische Universität Wien"
+                ""
               ]
             }
           ]
@@ -3285,8 +3007,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.277Z",
               "keywords": [
-                "Tipps",
-                "Österreichische Gesundheitskasse"
+                ""
               ]
             }
           ]
@@ -3303,8 +3024,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.053Z",
               "keywords": [
-                "Tipps",
-                "superhands"
+                ""
               ]
             }
           ]
@@ -3328,7 +3048,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.613Z",
               "keywords": [
-                "Beratung"
+                ""
               ]
             }
           ]
@@ -3352,8 +3072,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.601Z",
               "keywords": [
-                "Jugendrotkreuz",
-                "facebook"
+                ""
               ]
             }
           ]
@@ -3370,8 +3089,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.606Z",
               "keywords": [
-                "facebook",
-                "superhands"
+                ""
               ]
             }
           ]
@@ -3388,8 +3106,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.377Z",
               "keywords": [
-                "Jugendrotkreuz",
-                "facebook"
+                ""
               ]
             }
           ]
@@ -3413,7 +3130,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.221Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             },
             {
@@ -3424,10 +3141,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.357Z",
               "keywords": [
-                "Pflegende Angehörige",
-                "Soziale Dienste",
-                "Sozialministerium",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -3451,7 +3165,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.351Z",
               "keywords": [
-                "oesterreich.gv.at"
+                ""
               ]
             }
           ]
@@ -3475,7 +3189,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.880Z",
               "keywords": [
-                "Hilfe für pflegende Kinder"
+                ""
               ]
             }
           ]
@@ -3492,7 +3206,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.981Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             },
             {
@@ -3503,7 +3217,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.394Z",
               "keywords": [
-                "Beratung"
+                ""
               ]
             }
           ]
@@ -3520,7 +3234,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.593Z",
               "keywords": [
-                "superhands"
+                ""
               ]
             }
           ]
@@ -3544,7 +3258,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.389Z",
               "keywords": [
-                "Beratung"
+                ""
               ]
             }
           ]
@@ -3568,11 +3282,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.040Z",
               "keywords": [
-                "Beratung",
-                "Pflegende Angehörige",
-                "Pflegetipps",
-                "Soziale Dienste",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -3589,9 +3299,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.588Z",
               "keywords": [
-                "Burgenland",
-                "Land",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -3608,7 +3316,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.413Z",
               "keywords": [
-                "Gesundheitsportal Österreichs"
+                ""
               ]
             }
           ]
@@ -3625,9 +3333,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.581Z",
               "keywords": [
-                "Kärnten",
-                "Land",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -3644,9 +3350,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.121Z",
               "keywords": [
-                "Land",
-                "Niederösterreich",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -3663,9 +3367,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.574Z",
               "keywords": [
-                "Land",
-                "Oberösterreich",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -3682,9 +3384,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.569Z",
               "keywords": [
-                "Land",
-                "Salzburg",
-                "Soziale Dienste"
+                ""
               ]
             }
           ]
@@ -3701,10 +3401,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.357Z",
               "keywords": [
-                "Pflegende Angehörige",
-                "Soziale Dienste",
-                "Sozialministerium",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -3721,9 +3418,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.562Z",
               "keywords": [
-                "Land",
-                "Soziale Dienste",
-                "Steiermark"
+                ""
               ]
             }
           ]
@@ -3740,9 +3435,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.182Z",
               "keywords": [
-                "Land",
-                "Soziale Dienste",
-                "Tirol"
+                ""
               ]
             }
           ]
@@ -3759,9 +3452,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.305Z",
               "keywords": [
-                "Land",
-                "Soziale Dienste",
-                "Vorarlberg"
+                ""
               ]
             }
           ]
@@ -3778,9 +3469,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.556Z",
               "keywords": [
-                "Land",
-                "Soziale Dienste",
-                "Wien"
+                ""
               ]
             }
           ]
@@ -3804,9 +3493,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.382Z",
               "keywords": [
-                "Freizeit",
-                "Jugendrotkreuz",
-                "Juniorcamp"
+                ""
               ]
             }
           ]
@@ -3823,9 +3510,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.549Z",
               "keywords": [
-                "Freizeit",
-                "Jugendrotkreuz",
-                "Sommercamps"
+                ""
               ]
             }
           ]
@@ -3842,8 +3527,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.954Z",
               "keywords": [
-                "Freizeit",
-                "Kinderburg Rapottenstein"
+                ""
               ]
             }
           ]
@@ -3867,8 +3551,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.285Z",
               "keywords": [
-                "Eurocarers",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -3885,7 +3568,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.345Z",
               "keywords": [
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -3902,8 +3585,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.338Z",
               "keywords": [
-                "Interessengemeinschaft pflegender Angehöriger",
-                "Stammtisch"
+                ""
               ]
             }
           ]
@@ -3927,8 +3609,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.026Z",
               "keywords": [
-                "Beratung",
-                "Sozialministerium"
+                ""
               ]
             }
           ]
@@ -3945,10 +3626,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.021Z",
               "keywords": [
-                "Beratung",
-                "Hausbesuch",
-                "Kompetenzzentrum",
-                "Pflegetipps"
+                ""
               ]
             }
           ]
@@ -3972,8 +3650,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.542Z",
               "keywords": [
-                "Hausbesuch",
-                "Kompetenzzentrum"
+                ""
               ]
             }
           ]
@@ -3997,9 +3674,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.313Z",
               "keywords": [
-                "LBG Village",
-                "Sozialministerium",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4016,8 +3691,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.408Z",
               "keywords": [
-                "Sozialministerium",
-                "Young Carers"
+                ""
               ]
             },
             {
@@ -4028,7 +3702,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.537Z",
               "keywords": [
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4045,10 +3719,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.906Z",
               "keywords": [
-                "Deutschland",
-                "Vereinigtes Königreich",
-                "Young Carers",
-                "Österreich"
+                ""
               ]
             }
           ]
@@ -4065,8 +3736,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.270Z",
               "keywords": [
-                "Universität Graz",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4090,8 +3760,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.752Z",
               "keywords": [
-                "2nd International Young Carers Conference 2017",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4108,8 +3777,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.886Z",
               "keywords": [
-                "3rd International Young Carers Conference 2021",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4126,9 +3794,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.525Z",
               "keywords": [
-                "Careum",
-                "Schweiz",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4145,11 +3811,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.073Z",
               "keywords": [
-                "Australien",
-                "Charlotte Foley",
-                "Vereinigtes Königreich",
-                "Young Carers",
-                "song Growing up"
+                ""
               ]
             }
           ]
@@ -4166,9 +3828,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.167Z",
               "keywords": [
-                "Deutschland",
-                "Hilfe für pflegende Kinder",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4185,8 +3845,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.873Z",
               "keywords": [
-                "Deutschland",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4203,9 +3862,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.961Z",
               "keywords": [
-                "Deutschland",
-                "Kinderschutzbund",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4222,9 +3879,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.518Z",
               "keywords": [
-                "Australien",
-                "Little Dreamers",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4241,9 +3896,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.530Z",
               "keywords": [
-                "Deutschland",
-                "Pausentaste",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4260,9 +3913,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:49.968Z",
               "keywords": [
-                "Children's Society",
-                "Vereinigtes Königreich",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4279,7 +3930,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.258Z",
               "keywords": [
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4296,9 +3947,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.128Z",
               "keywords": [
-                "Deutschland",
-                "Young Carer Hilfe",
-                "Young Carers"
+                ""
               ]
             }
           ]
@@ -4322,7 +3971,7 @@
               "isPaidContent": false,
               "lastUpdated": "2022-09-20T04:42:50.318Z",
               "keywords": [
-                "Sozialministeriumservice"
+                ""
               ]
             }
           ]
@@ -4366,5 +4015,5 @@
       "content": "Angaben gemäß Web-Zugänglichkeits-Gesetz (WZG)\r\n\r\nErklärung zur BarrierefreiheitDas Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz (Sozialministerium) ist bemüht, sowohl seine Websites, als auch seine mobilen Anwendungen im Einklang mit dem [Web-Zugänglichkeits-Gesetz (WZG) idgF](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20010727) zur Umsetzung der [Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen (Amtsblatt L 327 vom 2.12.2016, S. 1)](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016L2102) barrierefrei zugänglich zu machen.\r\n\r\nDiese Erklärung zur Barrierefreiheit gilt für die mobile App YoungCarers Austria.\r\n\r\nStand der Vereinbarkeit mit den AnforderungenDiese Anwendung ist mit **Konformitätsstufe AA der &quot;Richtlinien für barrierefreie Webinhalte Web – **[**WCAG 2.1**](https://www.w3.org/TR/WCAG21/)**&quot;** beziehungsweise mit dem geltenden Europäischen Standard EN 301 549 V2.1.2 (2018-08) geprüft und vereinbar.\r\n\r\nNicht barrierefreie InhalteDa die Anwendung vorwiegend auf externe Inhalte verlinkt und die Möglichkeit der einfacheren Auffindbarkeit dieser bietet, liegt die Barrierefreiheit fremder Inhalte nicht in der Kompetenz des Sozialministeriums. Für verlinkte Inhalte von Dritten, beispielsweise Videos oder Infomaterialien von externen Organisationen, die nicht im Einflussbereich des Sozialministeriums liegen, kann bezüglich Vereinbarkeit mit Barrierefreiheitsbestimmungen keine Aussage getroffen werden.### Erstellung dieser Erklärung zur Barrierefreiheit\r\n\r\nDiese Erklärung wurde am 04. November 2021 erstellt.\r\n\r\nDie Bewertung der Vereinbarkeit der Website mit dem WZG zur Umsetzung der Anforderungen der Richtlinie (EU) 2016/2102 erfolgte in Form eines Selbsttests nach WCAG 2.1 im Konformitätslevel AA im November 2021 sowie einer externen Überprüfung durch die Hilfsgemeinschaft der Blinden und Sehschwachen Österreichs. Überprüft (für mobile OS: Apple IOS und Google Android) wurden die Startseite, mehrere Kategorienseiten, mehrere Texteinträge, die Krankenhaussuche, die Suche und das Suchergebnis.\r\n\r\nFeedback und KontaktangabenDie Angebote und Services  dieser Anwendung werden laufend verbessert, ausgetauscht und ausgebaut. Dabei ist uns die Bedienbarkeit und Zugänglichkeit ein großes Anliegen.\r\n\r\nWenn Ihnen Barrieren auffallen, die Sie an der Benutzung unserer Anwendung behindern – Probleme, die in dieser Erklärung nicht beschrieben sind, Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen – so bitten wir Sie, uns diese per E Mail mitzuteilen. Wir werden Ihre Anfrage prüfen und Sie ehestmöglich kontaktieren.\r\n\r\nSämtliche Mitteilungen und Anregungen senden Sie bitte an die [Supportadresse](mailto:yc-support@sozialministerium.at) mit dem Betreff &quot;Meldung einer Barriere in der Young Carers App&quot;. Bitte beschreiben Sie das Problem und wo es auftritt (inkl. Gerät, Betriebssystemversion, eingesetzte Hilfsmittel, besondere Einstellungen).Kontakt:Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz[E-Mail:](mailto:yc-support@sozialministerium.at)### Durchsetzungsverfahren\r\n\r\nBei nicht zufriedenstellenden Antworten aus oben genannter Kontaktmöglichkeit können Sie sich mittels Beschwerde an die Österreichische Forschungsförderungsgesellschaft mit beschränkter Haftung (FFG) wenden. Die FFG nimmt über das Kontaktformular Beschwerden auf elektronischem Weg entgegen.\r\n\r\n[Kontaktformular der Beschwerdestelle](https://www.ffg.at/form/kontaktformular-beschwerdestelle)\r\n\r\nDie Beschwerden werden von der FFG dahingehend geprüft, ob sie sich auf Verstöße gegen die Vorgaben des Web-Zugänglichkeits-Gesetzes, insbesondere Mängel bei der Einhaltung der Barrierefreiheitsanforderungen, durch den Bund oder einer ihm zuordenbaren Einrichtung beziehen.Sofern die Beschwerde berechtigt ist, hat die FFG dem Bund oder den betroffenen Rechtsträgern Handlungsempfehlungen auszusprechen und Maßnahmen vorzuschlagen, die der Beseitigung der vorliegenden Mängel dienen.\r\n\r\n[Weitere Informationen zum Beschwerdeverfahren](https://www.ffg.at/digitale-barrierefreiheit/digitales-zugaenglich-machen/beschwerdestelle)\r\n\r\nFakultative Inhalte: ZusatzinformationenDie Anwendung YoungCarers Austria wurde im Jahr 2021 entwickelt.\r\n\r\nDas Sozialministerium ist um eine möglichst barrierefreie Zugänglichkeit zu seinen Internet-Angeboten bemüht. Dabei orientieren wir uns seit dem Jahr 2008 in Übereinstimmung mit den nationalen Rechtsvorschriften &quot;E-Government-Gesetz 2004&quot; und den geltenden einschlägigen Anti-Diskriminierungsbestimmungen an den Richtlinien für barrierefreie Inhalte WCAG 2.0/2.1. Eine Überprüfung nach allen A- und AA-Kriterien der WCAG 2.1 ist für diese Anwendung vor der Veröffentlichung erfolgt.\r\n\r\nLetzte Aktualisierung: 05. November 2021"
     }
   ],
-  "timestamp": "2022-09-20T05:07:16.871Z"
+  "timestamp": "2022-09-20T18:17:54.590Z"
 }
