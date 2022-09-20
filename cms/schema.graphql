@@ -429,6 +429,50 @@ input SingletonCreateInput {
   renderedContent: String
 }
 
+type Story {
+  id: ID!
+  name: String
+  content: Story_content_Document
+  renderedContent(something: Int): String
+}
+
+type Story_content_Document {
+  document(hydrateRelationships: Boolean! = false): JSON!
+}
+
+input StoryWhereUniqueInput {
+  id: ID
+  name: String
+}
+
+input StoryWhereInput {
+  AND: [StoryWhereInput!]
+  OR: [StoryWhereInput!]
+  NOT: [StoryWhereInput!]
+  id: IDFilter
+  name: StringFilter
+}
+
+input StoryOrderByInput {
+  id: OrderDirection
+  name: OrderDirection
+}
+
+input StoryUpdateInput {
+  name: String
+  content: JSON
+}
+
+input StoryUpdateArgs {
+  where: StoryWhereUniqueInput!
+  data: StoryUpdateInput!
+}
+
+input StoryCreateInput {
+  name: String
+  content: JSON
+}
+
 type User {
   id: ID!
   name: String
@@ -519,6 +563,12 @@ type Mutation {
   updateSingletons(data: [SingletonUpdateArgs!]!): [Singleton]
   deleteSingleton(where: SingletonWhereUniqueInput!): Singleton
   deleteSingletons(where: [SingletonWhereUniqueInput!]!): [Singleton]
+  createStory(data: StoryCreateInput!): Story
+  createStories(data: [StoryCreateInput!]!): [Story]
+  updateStory(where: StoryWhereUniqueInput!, data: StoryUpdateInput!): Story
+  updateStories(data: [StoryUpdateArgs!]!): [Story]
+  deleteStory(where: StoryWhereUniqueInput!): Story
+  deleteStories(where: [StoryWhereUniqueInput!]!): [Story]
   createUser(data: UserCreateInput!): User
   createUsers(data: [UserCreateInput!]!): [User]
   updateUser(where: UserWhereUniqueInput!, data: UserUpdateInput!): User
@@ -587,6 +637,14 @@ type Query {
   ): [Singleton!]
   singleton(where: SingletonWhereUniqueInput!): Singleton
   singletonsCount(where: SingletonWhereInput! = {}): Int
+  stories(
+    where: StoryWhereInput! = {}
+    orderBy: [StoryOrderByInput!]! = []
+    take: Int
+    skip: Int! = 0
+  ): [Story!]
+  story(where: StoryWhereUniqueInput!): Story
+  storiesCount(where: StoryWhereInput! = {}): Int
   users(
     where: UserWhereInput! = {}
     orderBy: [UserOrderByInput!]! = []
