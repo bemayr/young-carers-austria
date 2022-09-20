@@ -17,11 +17,12 @@ A field: The individual bits of data on your list, each with its own type.
 // our types to a stricter subset that is type-aware of other lists in our schema
 // that Typescript cannot easily infer.
 import type { ListSchemaConfig } from '@keystone-6/core/types';
-import { user } from './user';
 import { category } from './category';
+import { owner } from './owner';
 import { reference } from './reference';
 import { singleton } from './singleton';
-import { owner } from './owner';
+import { story } from './story';
+import { user } from './user';
 
 // We have a users list, a blogs list, and tags for blog posts, so they can be filtered.
 // Each property on the exported object will become the name of a list (a.k.a. the `listKey`),
@@ -31,5 +32,6 @@ export const lists: ListSchemaConfig = {
   Reference: reference,
   Owner: owner,
   Singleton: singleton,
+  Story: story,
   User: user,
 };

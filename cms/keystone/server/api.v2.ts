@@ -5,6 +5,9 @@ import {
   KeystoneContext,
 } from "@keystone-6/core/types";
 import { gql } from "@keystone-6/core";
+import { Node, Text } from "slate";
+import escapeHtml from "escape-html";
+import { nodeToMarkdown } from "../_utils/markdown";
 
 const category = {
   transform: (category: any) => ({
@@ -84,8 +87,8 @@ export function registerAPIv2(
                         "Gesicherte Qualität bei der 24-Stunden-Pflege (geändert)",
                       description:
                         "Für Agenturen der 24-Stunden-Betreuung gibt es ein freiwilliges Qualitätszertifikat.",
-                        previewImageUrl:
-                          "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                      previewImageUrl:
+                        "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                       isPaidContent: false,
                       lastUpdated: "2022-06-16T13:23:16.713Z",
                       keywords: ["ÖQZ-24"],
@@ -101,8 +104,8 @@ export function registerAPIv2(
                       title: "24-Stunden-Betreuung",
                       description:
                         "Für betreuungsbedürftige Personen kann es notwendig sein, dass in privaten Haushalten Tag und Nacht eine Betreuungsperson anwesend sein muss. Dies erfolgt im Rahmen einer 24-Stunden-Betreuung. Um die wichtige Qualität sicherzustellen, wird für Vermittlungsagenturen ein Qualitätszertifikat verliehen.",
-                        previewImageUrl:
-                          "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                      previewImageUrl:
+                        "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                       isPaidContent: false,
                       lastUpdated: "2022-04-12T08:43:35.345Z",
                       keywords: ["Sozialministerium"],
@@ -112,8 +115,8 @@ export function registerAPIv2(
                       title: "24-Stunden-Betreuung",
                       description:
                         'Broschüre "24-Stunden-Betreuung zu Hause" als Download',
-                        previewImageUrl:
-                          "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                      previewImageUrl:
+                        "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                       isPaidContent: false,
                       lastUpdated: "2022-04-12T08:43:35.740Z",
                       keywords: ["Sozialministerium"],
@@ -181,8 +184,8 @@ export function registerAPIv2(
                         "Gesicherte Qualität bei der 24-Stunden-Pflege (geändert)",
                       description:
                         "Für Agenturen der 24-Stunden-Betreuung gibt es ein freiwilliges Qualitätszertifikat.",
-                        previewImageUrl:
-                          "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                      previewImageUrl:
+                        "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                       isPaidContent: false,
                       lastUpdated: "2022-06-16T13:23:16.713Z",
                       keywords: ["ÖQZ-24"],
@@ -198,8 +201,8 @@ export function registerAPIv2(
                       title: "24-Stunden-Betreuung",
                       description:
                         "Für betreuungsbedürftige Personen kann es notwendig sein, dass in privaten Haushalten Tag und Nacht eine Betreuungsperson anwesend sein muss. Dies erfolgt im Rahmen einer 24-Stunden-Betreuung. Um die wichtige Qualität sicherzustellen, wird für Vermittlungsagenturen ein Qualitätszertifikat verliehen.",
-                        previewImageUrl:
-                          "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                      previewImageUrl:
+                        "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                       isPaidContent: false,
                       lastUpdated: "2022-04-12T08:43:35.345Z",
                       keywords: ["Sozialministerium"],
@@ -209,8 +212,8 @@ export function registerAPIv2(
                       title: "24-Stunden-Betreuung",
                       description:
                         'Broschüre "24-Stunden-Betreuung zu Hause" als Download',
-                        previewImageUrl:
-                          "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                      previewImageUrl:
+                        "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                       isPaidContent: false,
                       lastUpdated: "2022-04-12T08:43:35.740Z",
                       keywords: ["Sozialministerium"],
@@ -287,6 +290,99 @@ export function registerAPIv2(
 
     const timestamp = new Date().toISOString();
 
-    res.json({ insights, abc: categories, emergency, metadata, timestamp });
+    const stories = (
+      (
+        await context.graphql.run({
+          query: gql`
+            query {
+              stories {
+                name
+                content {
+                  document(hydrateRelationships: true)
+                }
+              }
+            }
+          `,
+        })
+      ).stories as any[]
+    ).map(story => ({
+      question: story.name,
+      content: serializeStory(story.content.document)
+    }));
+
+    res.json({
+      insights,
+      abc: categories,
+      emergency,
+      metadata,
+      stories,
+      timestamp,
+    });
   });
+}
+
+type Story = Array<
+  | { type: "text"; text: string }
+  | { type: "reference"; reference: any }
+  | { type: "category"; category: any }
+>;
+export function serializeStory(documentValue: any): Story {
+  let result = [];
+
+  function serialize(node: Node, story: Story): Story {
+    function extendStoryWith(text: string): Story {
+      const last = story.at(-1);
+      if (last?.type === "text") {
+        last.text += text;
+        return story;
+      } else {
+        return [...story, { type: "text", text: text }];
+      }
+    }
+
+    if (Text.isText(node)) {
+      let string = escapeHtml(node.text);
+      if (node.bold) {
+        string = `**${string}**`;
+      }
+      return extendStoryWith(string);
+    }
+
+    if(node.type === "relationship") {
+      switch (node.relationship) {
+        case "reference":
+          return [...story, { type: "reference", reference: node.data.data }];
+        case "category":
+          return [...story, { type: "category", category: node.data.data }];
+      }
+    }
+
+    const children = node.children.map((n) => nodeToMarkdown(n)).join("");
+
+    switch (node.type) {
+      case "paragraph":
+        extendStoryWith(`${children}\r\n\r\n`);
+        break;
+      case "link":
+        extendStoryWith(`[${children}](${escapeHtml(node.href)})`);
+        break;
+      case "unordered-list":
+        return extendStoryWith(`\r\n${node.children
+          .map((n) => `* ${nodeToMarkdown(n)}`)
+          .join(`\r\n`)}\r\n\r\n`);
+      case "ordered-list":
+        return extendStoryWith(`\r\n${node.children
+          .map((n) => `1. ${nodeToMarkdown(n)}`)
+          .join(`\r\n`)}\r\n\r\n`);
+    }
+
+    return node.children
+    ? node.children.reduce((result, children) => serialize(children, result), story)
+    : story;
+  }
+  console.log(documentValue)
+  const markdown = documentValue
+    .flatMap(node => serialize(node, []))
+    .filter(node => !(node.type === "text" && node.text === ""));
+  return markdown;
 }

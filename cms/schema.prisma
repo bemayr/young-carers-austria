@@ -61,6 +61,12 @@ model Singleton {
   renderedContent String @default("")
 }
 
+model Story {
+  id      String @id @default(cuid())
+  name    String @unique @default("")
+  content String @default("[{\"type\":\"paragraph\",\"children\":[{\"text\":\"\"}]}]")
+}
+
 model User {
   id       String @id @default(cuid())
   name     String @default("")
