@@ -166,7 +166,7 @@ export function serializeStory(documentValue: any): Story {
     if (node.type === "relationship") {
       switch (node.relationship) {
         case "reference":
-          return [...story, { type: "reference", reference: node.data.data }];
+          return [...story, { type: "reference", reference: {...node.data.data, keywords: node.data.data.keywords.split(", ") } }];
         case "category":
           return [...story, { type: "category", category: category.transform(node.data.data) }];
       }
