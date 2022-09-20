@@ -168,7 +168,7 @@ export function serializeStory(documentValue: any): Story {
         case "reference":
           return [...story, { type: "reference", reference: node.data.data }];
         case "category":
-          return [...story, { type: "category", category: node.data.data }];
+          return [...story, { type: "category", category: category.transform(node.data.data) }];
       }
     }
 
