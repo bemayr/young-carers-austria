@@ -8,7 +8,7 @@ export function YoungCarersLogo() {
     <H3>
       <Link href="/" passHref>
         <a>
-          <img style={{width: "100%"}} src="https://bemayr.github.io/young-carers-austria/images/logo.png" alt="Young Carers Austria Logo"></img>
+          <img style={{width: "100%"}} src="https://www.young-carers-austria.at/images/logo.png" alt="Young Carers Austria Logo"></img>
         </a>
       </Link>
     </H3>
