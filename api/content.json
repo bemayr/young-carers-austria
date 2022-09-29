@@ -8123,7 +8123,7 @@
     {
       "key": "imprint",
       "title": "Impressum",
-      "content": "&lt;address&gt;Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz&lt;br/&gt;Stubenring 1, 1010 Wien&lt;/address&gt;Telefon: [+43 1 711 00 – 0](tel:+431711000)&lt;br/&gt;E-Mail: [post@sozialministerium.at](mailto:post@sozialministerium.at)"
+      "content": "Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz\r\n\r\nStubenring 1, 1010 Wien\r\n\r\nTelefon: [+43 1 711 00 – 0](tel:+431711000)\r\n\r\nE-Mail: [post@sozialministerium.at](mailto:post@sozialministerium.at)"
     },
     {
       "key": "copyright",
@@ -8156,5 +8156,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-09-29T13:17:51.942Z"
+  "timestamp": "2022-09-29T13:19:48.832Z"
 }
