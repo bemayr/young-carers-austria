@@ -1,0 +1,42 @@
+version: "3"
+
+networks:
+  web:
+    external: true
+  internal:
+    external: false
+
+services:
+  cms:
+    image: bemayr/young-carers-austria-cms:0.2.3
+    container_name: cms
+    restart: always
+    labels:
+      - traefik.http.routers.cms.rule=Host(`redaktion.young-carers-austria.at`)
+      - traefik.http.routers.cms.tls=true
+      - traefik.http.routers.cms.tls.certresolver=lets-encrypt
+      - traefik.port=80
+    networks:
+      - internal
+      - web
+    volumes:
+      - ./cms/database:/app/database:rw
+    environment:
+      - GITHUB_ACTIONS_TOKEN
+      - SESSION_SECRET
+  app-forward:
+    image: bemayr/app-forward:1.0.0
+    container_name: app-forward
+    restart: always
+    labels:
+      - traefik.http.routers.app-forward.rule=Host(`app.young-carers-austria.at`)
+      - traefik.http.routers.app-forward.tls=true
+      - traefik.http.routers.app-forward.tls.certresolver=lets-encrypt
+      - traefik.port=80
+    networks:
+      - internal
+      - web
+    environment:
+      - APPFORWARD_IOSURL
+      - APPFORWARD_ANDROIDURL
+      - APPFORWARD_FALLBACKURL
