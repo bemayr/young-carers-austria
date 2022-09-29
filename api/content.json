@@ -221,7 +221,26 @@
       "name": "Sozialversicherung",
       "title": "Wo gibt es Infos zur Sozialversicherung?",
       "information": "Menschen, die eine nahe Angehörige oder einen nahen Angehörigen zu Hause pflegen und deswegen nicht mehr arbeiten können oder wollen, können sich freiwillig kranken- und pensionsversichern. Die Beiträge für die Versicherung werden vom Staat übernommen, sodass **keine Kosten** entstehen!\r\n\r\nZuständig ist in der Regel die [Österreichische Gesundheitskasse](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) (für die Krankenversicherung) und die [Pensionsversicherungsanstalt](https://www.pv.at/cdscontent/?contentid=10007.707551&amp;portal=pvaportal) (Freiwillige Pensionsversicherung für pflegende Angehörige).",
-      "entries": []
+      "entries": [
+        {
+          "ownerName": "37 Grad ZDF",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://github.com/bemayr/young-carers-austria/actions",
+              "title": "GitHub",
+              "description": "Young Carers Austria App on behalf of the Austrian Social Ministry - Actions · bemayr/young-carers-austria",
+              "previewImageUrl": "https://opengraph.githubassets.com/b250a2147e29904a9b00f35679bfd217b15ae9c8e7ea15bfdf5c9815b4faf71f/bemayr/young-carers-austria",
+              "isPaidContent": false,
+              "lastUpdated": "2022-09-29T09:13:19.130Z",
+              "keywords": [
+                "einige",
+                "schlagwörter"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Stress",
@@ -294,5 +313,5 @@
     "state": "yet to be defined"
   },
   "metadata": [],
-  "timestamp": "2022-09-29T09:12:00.974Z"
+  "timestamp": "2022-09-29T09:13:40.075Z"
 }
