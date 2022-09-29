@@ -83,7 +83,13 @@ export const getOnlineStatus = (
         } else {
           resolve({ status: "offline", url, statusCode });
         }
-      }).on("error", (error) => resolve({ status: "error", url, error }));
+      }).on("error", (error) =>
+        resolve({
+          status: "error",
+          url,
+          error: error.message,
+        })
+      );
       const timeout = setTimeout(() => {
         resolve({ status: "timeout", url });
         request.destroy();
