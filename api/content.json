@@ -334,6 +334,10 @@
               "praktisch"
             ]
           }
+        },
+        {
+          "type": "text",
+          "text": "sowie einen [Link 🌐](https://github.com/bemayr/young-carers-austria)Link 🌐, einen weiteren [Link ☎️](tel:1234567890)Link ☎️ und eine [Mail-Adresse ✉️](mailto:test@test.com)Mail-Adresse ✉️"
         }
       ]
     }
@@ -8152,5 +8156,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-09-29T13:14:47.987Z"
+  "timestamp": "2022-09-29T13:17:51.942Z"
 }
