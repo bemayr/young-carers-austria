@@ -7802,7 +7802,12 @@
       "key": "welcome-hello",
       "title": "Kurzer Text auf der allerersten Seite der App",
       "content": "Willkommen bei der Young Carers Austria App!"
+    },
+    {
+      "key": "welcome-info",
+      "title": "Information zur App in der Welcoming Experience",
+      "content": "Pflegst du jemanden? Mit dieser App wollen wir dich in deiner herausfordernden Lebenssituation unterstützen. **Ziel** der App ist, dir hier gebündelte Informationen anzubieten und dir bzw. deiner Familie einen Überblick über bestehende Hilfsangebote aufzuzeigen.\r\n\r\nEltern, Lehrer:innen oder andere interessierte Menschen sollen erfahren, was es bedeuten kann, ein Young Carer zu sein und wie sie diese unterstützen können."
     }
   ],
-  "timestamp": "2022-09-29T13:06:05.898Z"
+  "timestamp": "2022-09-29T13:07:05.054Z"
 }
