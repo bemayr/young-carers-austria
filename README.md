@@ -27,7 +27,7 @@ Young Carers Austria App on behalf of the Austrian Social Ministry
 
 ### App Forwarding
 
-![https://app.young-carers-austria.at](./app-qr.svg "Young Carers Austria App QR Code")
+<img src="./app-qr.svg" alt="https://app.young-carers-austria.at" title="Young Carers Austria App QR Code" style="width: 200px;">
 
 `// TODO`
 
