@@ -7807,7 +7807,12 @@
       "key": "welcome-info",
       "title": "Information zur App in der Welcoming Experience",
       "content": "Pflegst du jemanden? Mit dieser App wollen wir dich in deiner herausfordernden Lebenssituation unterstützen. **Ziel** der App ist, dir hier gebündelte Informationen anzubieten und dir bzw. deiner Familie einen Überblick über bestehende Hilfsangebote aufzuzeigen.\r\n\r\nEltern, Lehrer:innen oder andere interessierte Menschen sollen erfahren, was es bedeuten kann, ein Young Carer zu sein und wie sie diese unterstützen können."
+    },
+    {
+      "key": "welcome-feedback",
+      "title": "Feedbackaufforderung in der Welcoming Experience",
+      "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-09-29T13:07:05.054Z"
+  "timestamp": "2022-09-29T13:08:14.099Z"
 }
