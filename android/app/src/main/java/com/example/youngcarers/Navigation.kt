@@ -8,7 +8,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.example.youngcarers.core.emergency
-//import com.example.youngcarers.core.getABCList
 import com.example.youngcarers.core.tel
 import com.example.youngcarers.data.api.service.MainViewModel
 import com.example.youngcarers.screens.Detail_Screen
@@ -84,6 +83,7 @@ fun Navigation(navController: NavHostController, mainViewModel: MainViewModel) {
             // Category Detail Page
             composable(NavRoutes.Detail.route + "/{viewTitle}") { backStackEntry ->
                 val viewTitle = backStackEntry.arguments?.getString("viewTitle")
+
                 mainViewModel.content?.let { content ->
                     Detail_Screen(navController, viewTitle, content = content.abc)
                 }

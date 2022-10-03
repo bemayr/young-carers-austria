@@ -43,10 +43,10 @@ fun About_Screen(metadata: List<Metadata>) {
         metadata.forEach { part ->
             when (part.key) {
                 "imprint" ->
-                    txt(part.title, part.content)
-                "copyright" -> txt(part.title, part.content)
-                "accessibility" -> txt(part.title, part.content)
-                "gdpr" -> txt(part.title, part.content)
+                    Text_Builder(part.title, part.content)
+                "copyright" -> Text_Builder(part.title, part.content)
+                "accessibility" -> Text_Builder(part.title, part.content)
+                "gdpr" -> Text_Builder(part.title, part.content)
             }
             
         }
@@ -54,7 +54,7 @@ fun About_Screen(metadata: List<Metadata>) {
 }
 
 @Composable
-fun txt(title: String, content: String){
+fun Text_Builder(title: String, content: String){
     Text(
         text = title,
         color = colorDarkRed,//colorResource(id = com.example.youngcarers.R.color.yc_red_dark),
