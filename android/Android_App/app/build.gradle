@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.youngcarers"
+        applicationId "at.sozialministerium.youngcarers"
         minSdk 26
         targetSdk 31
         versionCode 1
@@ -62,7 +62,7 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
 
-    def nav_compose_version = "2.4.2"
+
     implementation "androidx.navigation:navigation-compose:$nav_compose_version"
 
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
