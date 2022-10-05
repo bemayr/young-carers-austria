@@ -13,6 +13,9 @@ Young Carers Austria App on behalf of the Austrian Social Ministry
 🔍 | [insights.young-carers-austria.at](https://insights.young-carers-austria.at) | [Insights](#insights)
 🖥️ | [monitor.young-carers-austria.at](https://monitor.young-carers-austria.at) | [Service Monitoring System](#service-monitoring-system)
 
+## Project Progress
+The [progress of the project](https://github.com/bemayr/young-carers-austria/projects/1) is tracked using GitHub's project management and is publicly visible.
+
 ## Platform Architecture
 
 ![Young Carers Austria Architecture Diagram](./yc%20app%20architecture.png)
