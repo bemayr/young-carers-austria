@@ -1,3 +1,23 @@
+# dependencies installed by npm
+node_modules
+
+# build artefacts
+_site
+dist
+
+# secrets
+.env
+
+# logs
+*.log
+report.html
+
+# cache
+.eslintcache
+.stylelintcache
+
+# Local Netlify folder
+.netlify
+
+# 11ty cache
 .cache
-node_modules/
-_site/

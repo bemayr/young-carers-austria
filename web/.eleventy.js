@@ -1,57 +1,24 @@
-const fs = require("fs");
-const htmlmin = require("html-minifier");
-const markdownIt = require("markdown-it");
+const fs = require('fs');
 
-module.exports = function(eleventyConfig) {
-
-  if (process.env.ELEVENTY_PRODUCTION) {
-    eleventyConfig.addTransform("htmlmin", htmlminTransform);
-  } else {
-    eleventyConfig.setBrowserSyncConfig({ callbacks: { ready: browserSyncReady }});
-  }
-
-  // Passthrough
-  eleventyConfig.addPassthroughCopy({ "src/static": "." });
-
-  // Watch targets
-  eleventyConfig.addWatchTarget("./src/styles/");
-
-  // Markdown Filter
-  const md = new markdownIt({
-    html: true,
+module.exports = function (config) {
+  config.setLiquidOptions({
+    dynamicPartials: true,
   });
 
-  eleventyConfig.addFilter("markdown", (content) => {
-    return md.render(content);
-  });
+  // Static assets to pass through
+  config.addPassthroughCopy('./src/images');
+  config.addPassthroughCopy('./src/public');
+  config.addPassthroughCopy('./src/styles');
+  config.addPassthroughCopy('./src/main.js');
 
   return {
     dir: {
-      input: "src"
+      input: 'src',
+      output: '_site',
     },
-  }
+    passthroughFileCopy: true,
+    htmlTemplateEngine: 'liquid',
+    dataTemplateEngine: 'liquid',
+    markdownTemplateEngine: 'liquid',
+  };
 };
-
-function browserSyncReady(err, bs) {
-  bs.addMiddleware("*", (req, res) => {
-    const content_404 = fs.readFileSync('_site/404.html');
-    // Provides the 404 content without redirect.
-    res.write(content_404);
-    // Add 404 http status code in request header.
-    // res.writeHead(404, { "Content-Type": "text/html" });
-    res.writeHead(404);
-    res.end();
-  });
-}
-
-function htmlminTransform(content, outputPath) {
-  if( outputPath.endsWith(".html") ) {
-    let minified = htmlmin.minify(content, {
-      useShortDoctype: true,
-      removeComments: true,
-      collapseWhitespace: true
-    });
-    return minified;
-  }
-  return content;
-}

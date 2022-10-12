@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html class="leading-tight text-gray-900 antialiased" lang="en">
+  <head>
+    {% include "partials/site-head.html" %}
+  </head>
+  <body
+    class="min-h-screen bg-white"
+    data-env="{{ node.env }}"
+    x-data="{ open: false }"
+    x-init="() => { setTimeout(() => { open = true }, 1500); }"
+  >
+    {% include "partials/site-header.html" %}
+
+    <div class="py-10">{% block content %}{% endblock %}</div>
+
+    {% include "partials/banner.html" %}
+
+    <div class="container">Zuletzt aktualisiert: {{ cms.timestamp }}</div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
