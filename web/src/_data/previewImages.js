@@ -4,8 +4,5 @@ const fs = require('fs');
 module.exports = async function () {
   const previewImagesFolder = path.resolve(__dirname, '../images/preview');
   const imageNames = await fs.promises.readdir(previewImagesFolder);
-
-  console.log(imageNames);
-
   return imageNames;
 };
