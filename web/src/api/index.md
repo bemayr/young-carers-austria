@@ -1,14 +1,11 @@
 ---
-layout: 'layouts/home.html'
-title: 'Home'
-meta:
-  desc:
-    '11st-Starter-Kit is a minimal starting point for building static websites
-    with 11ty, powered by Vite with Tailwind CSS and Alpine.js.'
-intro:
-  title: 'Young Carers Austria API'
-  desc: 'Auf dieser Seite werden die API-Endpunkte des Young Carers Austria Systems beschrieben.'
+layout: 'layouts/textcontent'
+title: 'API'
 ---
+
+# Young Carers Austria API
+
+Auf dieser Seite werden die API-Endpunkte des Young Carers Austria Systems beschrieben.
 
 ## CMS Inhalte
 

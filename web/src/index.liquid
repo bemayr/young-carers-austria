@@ -79,8 +79,8 @@ können sich auf der Plattform informieren.'
     </div>
   </a>
 
-  <a href="/chatbot/"
-    class="drop-shadow-2xl rounded-3xl sm:w-96 bg-white rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
+  <button @click="chatbotOpen = true" type="button"
+    class="drop-shadow-2xl rounded-3xl text-left sm:w-96 bg-white rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
     <div class="flex flex-row px-6 py-5">
       <div class="border-r border-transparent my-auto text-4xl pr-2">
         🤖
@@ -96,7 +96,7 @@ können sich auf der Plattform informieren.'
         </p>
       </div>
     </div>
-  </a>
+  </button>
 
   <a href="/app/"
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
@@ -116,56 +116,64 @@ können sich auf der Plattform informieren.'
   </a>
 </div>
 
+<section class="max-w-5xl mx-auto my-12">
+  <h2 class="text-center text-darkBlue">Häufig gestellte Fragen</h2>
 
-<h2>Häufig gestellte Fragen</h2>
+  <p>TODO: Integrate FAQ</p>
 
-TODO: Integrate FAQ
+</section>
 
-<h2>Die App aus Sicht von Nutzer:innen</h2>
 
-<div>"Eine wirklich gelungene und ansprechende App für Kinder, Jugendliche, aber auch für Eltern, Großeltern."
-</div>
+<section class="max-w-5xl mx-auto">
+  <h2 class="text-center text-darkBlue">Die Young Carers Austria App</h2>
+  <div class="flex flex-row items-center">
+    <div class="w-2/5 h-auto -rotate-2">
+      <img src="/images/yc-app.ios.png" alt="Young Carers Austria App">
+    </div>
+    <div class="w-3/5 pl-10 flex flex-col items-center">
 
-<div>"Die App ist übersichtlich gestaltet und Informationen für zB Notfallsituationen sind schnell und einfach
-  abrufbar."</div>
+      <div class="bg-white rounded-xl shadow-2xl relative w-4/5 p-5">
+        <div class="absolute font-extrabold text-8xl text-darkBlue italic font-serif">"</div>
+        <p class="ml-16 mt-8 mb-4">
 
-<h2>Über Young Carers Austria</h2>
-<p><img src="/images/sujets/yc-sujet-%C3%B6sterreich.jpg" alt="/images/sujets/yc-sujet-österreich.jpg"></p>
-<p>Mit der neuen App &quot;YoungCarers Austria&quot; gibt es eine Informationsquelle die Betroffenen und deren
-  Familien
-  einen Überblick zu bestehenden (Hilfs-)Angeboten bietet. Aber auch Eltern, Lehrpersonen oder sonstige
-  Wegbegleiter:innen können sich auf der Plattform informieren.</p>
-<p>Für die Vollständigkeit der Inhalte kann nicht garantiert werden. Ergänzende Hinweise, Tipps oder Anregungen
-  gerne an
-  <a href="mailto:yc-support@sozialministerium.at">yc-support@sozialministerium.at</a>
-  senden.
-</p>
-<p>Für die Umsetzung der App zeichnet die Fachhochschule Oberösterreich/Campus Hagenberg verantwortlich.
-  Betroffene
-  Jugendliche waren von Beginn an eingebunden. Die App ist kostenlos und barrierefrei.</p>
-<h2>Weitere Informationen / Partnereinrichtungen</h2>
-<ul>
-  <li>
-    <a href="https://www.superhands.at/">superhands</a>
-  </li>
-  <li>
-    <a href="https://www.rataufdraht.at/">147 - Rat auf Draht</a>
-  </li>
-  <li>
-    <a href="https://www.jugendrotkreuz.at/">Jugendrotkreuz</a>
-  </li>
-  <li>
-    <a href="https://www.verrueckte-kindheit.at/de/meta/home/">VeRRückte Kindheit</a>
-  </li>
-  <li>
-    <a href="https://www.ig-pflege.at/">Interessensgemeinschaft pflegender Angehöriger</a>
-  </li>
-</ul>
-<h2>Downloads</h2>
-<ul>
-  <li><a href="https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307">Band 19 der
-      Sozialpolitischen Studienreihe</a></li>
-  <li><a href="https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=430">Folder
-      &quot;Young
-      Carers&quot;</a></li>
-</ul>
+          Eine wirklich gelungene und ansprechende App für Kinder,
+          Jugendliche, aber auch
+          für Eltern, Großeltern.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-2xl relative w-4/5 p-5 mt-12">
+        <div class="absolute font-extrabold text-8xl text-darkBlue italic font-serif">"</div>
+        <p class="ml-16 mt-8 mb-4">
+          Die App ist übersichtlich gestaltet und Informationen für zB Notfallsituationen sind schnell und einfach
+          abrufbar.
+        </p>
+      </div>
+      <a class="rounded-full text-center mt-12 bg-red text-white py-2 px-5 no-underline w-32" href="/app/">Zur App</a>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="max-w-5xl mx-auto">
+  <h2 class="text-center text-darkBlue">Über Young Carers Austria</h2>
+  <div class="flex flex-row">
+    <div class="w-3/5 pr-10">
+      <p>Mit der neuen App &quot;YoungCarers Austria&quot; gibt es eine Informationsquelle die Betroffenen und deren
+        Familien
+        einen Überblick zu bestehenden (Hilfs-)Angeboten bietet. Aber auch Eltern, Lehrpersonen oder sonstige
+        Wegbegleiter:innen können sich auf der Plattform informieren.</p>
+      <p>Für die Vollständigkeit der Inhalte kann nicht garantiert werden. Ergänzende Hinweise, Tipps oder Anregungen
+        gerne an
+        <a href="mailto:yc-support@sozialministerium.at">yc-support@sozialministerium.at</a>
+        senden.
+      </p>
+      <p>Für die Umsetzung der App ist die Fachhochschule Oberösterreich/Campus Hagenberg verantwortlich.
+        Betroffene Jugendliche waren von Beginn an eingebunden. Die App ist <b>kostenlos und barrierefrei</b>.</p>
+    </div>
+    <div class="w-2/5 h-auto">
+      <img src="/images/sujets/yc-sujet-%C3%B6sterreich.jpg" alt="/images/sujets/yc-sujet-österreich.jpg">
+    </div>
+  </div>
+</section>
