@@ -4,15 +4,15 @@ site.name == title %}
   {% assign page_title = title %}
 {% endif %}
 {% assign
-      site_title = site.name %}
+       site_title = site.name %}
 {% assign current_url = site.url | append: page.url %}
 {% unless social_image %}
   {% assign social_image = site.url | append:
-      '/images/social-share.png' %}
+       '/images/social-share.png' %}
 {% endunless %}
 {% if meta.title %}
   {% assign
-      page_title = meta.title %}
+       page_title = meta.title %}
 {% endif %}
 
 <meta charset="UTF-8"/>
@@ -45,8 +45,8 @@ site.name == title %}
 {%- comment -%}
   <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
 {%- endcomment -%}
-<link rel="alternate icon" href="/public/favicon.ico" type="image/png" sizes="48x48"/>
-<link rel="apple-touch-icon" href="/public/apple-touch-icon.png" sizes="192x192"/>
+<link rel="alternate icon" href="/favicon.ico" type="image/png" sizes="48x48"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="192x192"/>
 {%- comment -%}
   <link rel="mask-icon" href="/favicon.svg" color="#4a5568"/>
 {%- endcomment -%}

@@ -1,6 +1,6 @@
 ---
 layout: 'layouts/home'
-title: 'Young Carers Austria'
+title: 'FAQ'
 meta:
   desc:
     '11st-Starter-Kit is a minimal starting point for building static websites
@@ -13,20 +13,6 @@ intro:
     font-medium underline">Eleventy</a> and <a href="https://vitejs.dev/"
     class="text-gray-900 font-medium underline">Vite</a> documentation.'
 ---
-
-## Young Carers Austria
-
-In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Sie unterstützen im Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen viel Verantwortung. Das ist eine große Herausforderung, der sich andere Gleichaltrige nicht stellen müssen. Es ist nicht schlimm, wenn man sich Hilfe holt. Ganz im Gegenteil – Hilfe holen, heißt Stärke zeigen!
-
-Bist auch du ein Young Carer? Hol dir Informationen und Unterstützung.
-
-TODO: App-Info
-
-Mit der neuen App "YoungCarers Austria" gibt es eine Informationsquelle die Betroffenen und deren Familien einen Überblick zu bestehenden (Hilfs-)Angeboten bietet. Aber auch Eltern, Lehrpersonen oder sonstige Wegbegleiter:innen können sich auf der Plattform informieren.
-
-Für die Vollständigkeit der Inhalte kann nicht garantiert werden. Ergänzende Hinweise, Tipps oder Anregungen gerne an yc-support@sozialministerium.at senden.
-
-Für die Umsetzung der App zeichnet die Fachhochschule Oberösterreich/Campus Hagenberg verantwortlich. Betroffene Jugendliche waren von Beginn an eingebunden. Die App ist kostenlos und barrierefrei.
 
 ## Häufig gestellte Fragen
 
@@ -96,26 +82,3 @@ Typischerweise kümmern sich Young Carers über einen längeren Zeitraum regelm�
 Im aktuellen Regierungsprogramm wird ein besonderer Fokus auf die bestmögliche Unterstützung von betreuungs- und pflegebedürftigen Menschen sowie ihrer An- und Zugehörigen und Pflegenden gelegt. Persönliche, gesundheitliche und finanzielle Auswirkungen für pflegende Kinder und Jugendliche sollen durch präventive Maßnahmen und maßgeschneiderte Unterstützungsangebote abgefedert werden.
 
 Die **„Young Carers Austria“ App** des Sozialministeriums gibt individuelle Hilfestellung für pflegende Kinder, Jugendliche und deren Familien bzw. Interessierte. Geboten werden praktische Links und Kontakte, Informationsmaterialien, Anleitungen zur Pflege, ein ABC für Young Carers und vieles mehr.
-
-## Die App aus Sicht von Nutzer:innen
-
-"Eine wirklich gelungene und ansprechende App für Kinder, Jugendliche, aber auch für Eltern, Großeltern."
-
-"Die App ist übersichtlich gestaltet und Informationen für zB Notfallsituationen sind schnell und einfach abrufbar."
-
-## Young Carers Austria in Zahlen
-
-![/images/sujets/yc-sujet-österreich.jpg](/images/sujets/yc-sujet-österreich.jpg)
-
-## Weitere Informationen / Partnereinrichtungen
-
-- [superhands](https://www.superhands.at/)
-- [147 - Rat auf Draht](https://www.rataufdraht.at/)
-- [Jugendrotkreuz](https://www.jugendrotkreuz.at/)
-- [VeRRückte Kindheit](https://www.verrueckte-kindheit.at/de/meta/home/)
-- [Interessensgemeinschaft pflegender Angehöriger](https://www.ig-pflege.at/)
-
-## Downloads
-
-- [Band 19 der Sozialpolitischen Studienreihe](https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307)
-- [Folder "Young Carers"](https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=430)
