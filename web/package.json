@@ -38,7 +38,6 @@
   },
   "scripts": {
     "clean": "rimraf _site",
-    "prepare": "npx husky install",
     "preview": "npx vite preview",
     "predev": "run-s clean",
     "dev": "cross-env NODE_ENV=development run-p dev:*",
