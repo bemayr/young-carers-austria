@@ -1,6 +1,6 @@
 ---js
 {
-  layout: 'layouts/home.html',
+  layout: 'layouts/textcontent',
   title: 'Barrierefreiheitserklärung',
   permalink: '/barrierefreiheitserklärung/',
   intro: {
@@ -16,8 +16,6 @@
 
 <h1>Barrierefreiheitserklärung</h1>
 <p class="text-xl">
-  {% renderTemplate "liquid,md", imprint %}
-    {{ content }}
-  {% endrenderTemplate
+  {% renderTemplate "liquid,md", imprint %} {{ content }} {% endrenderTemplate
   %}
 </p>

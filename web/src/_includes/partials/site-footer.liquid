@@ -1,9 +1,14 @@
-<footer>
-  <div class="container">Zuletzt aktualisiert:
-    {{ cms.timestamp }}
+<footer class="bg-darkBlue text-white p-10 dark:prose-invert">
+  <div class="container flex flex-col sm:flex-row justify-between">
+    <a href="https://www.sozialministerium.at/">
+      <img class="w-96" src="/images/BMSGPK_Logo_weiss.svg" alt="Logo des österreichischen Sozialministeriums">
+    </a>
+
+    <nav class="flex flex-col underline text-right self-center">
+      <a href="/impressum/">Impressum</a>
+      <a href="/datenschutzerklärung/">Datenschutzerklärung</a>
+      <a href="/barrierefreiheitserklärung/">Barrierefreiheitserklärung</a>
+      <a href="/copyright/">Copyright</a>
+    </nav>
   </div>
-  <a href="/impressum/">Impressum</a>
-  <a href="/datenschutzerklärung/">Datenschutzerklärung</a>
-  <a href="/barrierefreiheitserklärung/">Barrierefreiheitserklärung</a>
-  <a href="/copyright/">Copyright</a>
 </footer>

@@ -3,27 +3,27 @@
     <div class="flex h-24 items-center justify-between">
       <a href="/">
         <figure class="flex flex-shrink-0 items-center space-x-1">
-          <img alt="Young Carers Logo" class="h-16 w-auto" src="/images/logo.png"/>
+          <img alt="Young Carers Logo" class="h-16 w-auto" src="/images/logo.png" />
         </figure>
       </a>
-      <ul class="flex space-x-4">
+      <ul class="hidden sm:flex space-x-4">
         {%- comment -%}
-          {% for item in navigation.items %}
-          {% if item.url == page.url %}
-          {%
-          assign highlight = 'cursor-default' %}
-          {% assign current =
-          'aria-current="page"' %}
-          {% else %}
-          {% assign highlight = 'underline' %}
-          {% assign current = '' %}
-          {% endif %}
-          <li>
+        {% for item in navigation.items %}
+        {% if item.url == page.url %}
+        {%
+        assign highlight = 'cursor-default' %}
+        {% assign current =
+        'aria-current="page"' %}
+        {% else %}
+        {% assign highlight = 'underline' %}
+        {% assign current = '' %}
+        {% endif %}
+        <li>
           <a href="{{ item.url }}" class="text-base font-bold {{ highlight }}" {{ current }}>
-          {{ item.text }}
+            {{ item.text }}
           </a>
-          </li>
-          {% endfor %}
+        </li>
+        {% endfor %}
         {%- endcomment -%}
         <li>
           <a href="/alltagssituationen/" class="text-base text-darkBlue {{ highlight }}" {{ current }}>
@@ -46,11 +46,12 @@
           </a>
         </li>
         {%- comment -%}
-          <li>
-          <a href="https://github.com/stefanfrede/11st-starter-kit/" class="text-base font-bold underline hover:text-green-900">
-          GitHub
+        <li>
+          <a href="https://github.com/stefanfrede/11st-starter-kit/"
+            class="text-base font-bold underline hover:text-green-900">
+            GitHub
           </a>
-          </li>
+        </li>
         {%- endcomment -%}
       </ul>
     </div>

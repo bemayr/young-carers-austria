@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
+const { DateTime } = require('luxon');
 
 module.exports = function (config) {
   config.setLiquidOptions({
@@ -7,6 +8,12 @@ module.exports = function (config) {
   });
 
   config.addPlugin(EleventyRenderPlugin);
+
+  config.addFilter('date', (dateObj) => {
+    return DateTime.fromISO(dateObj)
+      .setLocale('de-AT')
+      .toLocaleString(DateTime.DATETIME_MED);
+  });
 
   // Static assets to pass through
   config.addPassthroughCopy('./src/images');

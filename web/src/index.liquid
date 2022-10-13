@@ -2,58 +2,120 @@
 layout: 'layouts/noborder'
 title: 'Young Carers Austria'
 meta:
-  desc: 'Mit der neuen App Young Carers Austria gibt es eine Informationsquelle die Betroffenen und deren Familien einen Überblick zu bestehenden (Hilfs-)Angeboten bietet. Aber auch Eltern, Lehrpersonen oder sonstige Wegbegleiter:innen können sich auf der Plattform informieren.'
-features:
-  - icon: ℹ️
-    name: Infos
-    text: 'In den Infos haben wir die wichtigsten Informationen für dich gesammelt und sortiert damit du sie bestmöglich findest.'
-  - icon: 📆
-    name: Alltagssituationen
-    text: 'Vielleicht kennst auch die eine dieser Situationen und kannst von den Erlebnissen anderer profitieren.'
-  - icon: 🚑
-    name: Im Notfall
-    text: Vorbereitung ist alles - besonders in einer Notfallsituation, finde hier die wichtigsten Infos die du dafür brauchst.
-  - icon: 🤖
-    name: Chatbot
-    text: Du suchst nach etwas ganz Bestimmtem? Dann frag doch einfach unseren Chatbot, er versucht dir bestmöglich zu helfen!
-  - icon: 📱
-    name: App
-    text: Du möchtest die Infos lieber als App haben, dann wechsle hier zur Young Carers Austria App.
+desc: 'Mit der neuen App Young Carers Austria gibt es eine Informationsquelle die Betroffenen und deren Familien einen
+Überblick zu bestehenden (Hilfs-)Angeboten bietet. Aber auch Eltern, Lehrpersonen oder sonstige Wegbegleiter:innen
+können sich auf der Plattform informieren.'
 ---
 <div class="mx-auto max-w-4xl flex flex-col sm:flex-row">
-  <h1 class="text-darkBlue basis-2/5 text-center text-7xl justify-center self-center mb-0">Young Carers Austria</h1>
-  <p class="basis-3/5 prose prose-lg prose-gray text-gray-500">
-    In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Sie unterstützen im Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen viel Verantwortung. Das ist eine große Herausforderung, der sich andere Gleichaltrige nicht stellen müssen. Es ist nicht schlimm, wenn man sich Hilfe holt.
-    <b class="text-red">Ganz im Gegenteil – Hilfe holen, heißt Stärke zeigen!</b>
-  </p>
-  <p>
+  <h1 class="text-darkBlue basis-2/5 text-right text-7xl justify-center self-center mb-0 mr-12 -mt-12">Young Carers
+    Austria
+  </h1>
+  <div class="basis-3/5">
+    <p class="prose prose-lg prose-gray text-gray-500">
+      In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Sie unterstützen im
+      Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen viel Verantwortung. Das ist
+      eine große Herausforderung, der sich andere Gleichaltrige nicht stellen müssen. Es ist nicht schlimm, wenn man
+      sich
+      Hilfe holt.
+      <b class="text-red">Ganz im Gegenteil – Hilfe holen, heißt Stärke zeigen!</b>
+    </p>
+    <p> Bist auch du ein Young Carer? Hol dir hier Informationen und Unterstützung.</p>
+  </div>
 </div>
 
-  Bist auch du ein Young Carer? Hol dir hier Informationen und Unterstützung.
-</p>
 
 
-<div class="flex flex-col flex-wrap md:flex-row my-12">
-  {% for feature in features %}
-  <div class="drop-shadow-2xl rounded-3xl bg-white scale-105 rotate-6 m-3 transition-all delay-200 duration-500">
-
-<div class="flex flex-row w-96 px-6 py-5">
-    <div class="border-r border-transparent my-auto text-4xl pr-2">
-{{feature.icon}}
+<div class="flex flex-row flex-wrap my-12 justify-center">
+  <a href="/infos/"
+    class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-98 -rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
+    <div class="flex flex-row w-96 px-6 py-5">
+      <div class="border-r border-transparent my-auto text-4xl pr-2">
+        ℹ️
+      </div>
+      <div class="flex flex-col pl-3 font-normal">
+        <h3 class="my-0 pb-1 text-darkBlue">
+          Infos
+        </h3>
+        <p class="mb-0 text-gray-500">
+          In den Infos haben wir die wichtigsten Informationen für dich gesammelt und sortiert damit du sie bestmöglich
+          findest.
+        </p>
+      </div>
     </div>
-  <div class="flex flex-col pl-3">
-    <h3 class="my-0 pb-1">
-{{feature.name}}
-    </h3>
-  <p class="mb-0">
-{{feature.text}}
-  </p>
-  </div>
-</div>
-  </div>
+  </a>
 
-  {% endfor %}
+  <a href="/alltagssituationen/"
+    class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-95 rotate-6 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
+    <div class="flex flex-row w-96 px-6 py-5">
+      <div class="border-r border-transparent my-auto text-4xl pr-2">
+        📆
+      </div>
+      <div class="flex flex-col pl-3 font-normal">
+        <h3 class="my-0 pb-1 text-darkBlue">
+          Alltagssituationen
+        </h3>
+        <p class="mb-0 text-gray-500">
+          Vielleicht kennst auch eine dieser Situationen und kannst von den Erlebnissen anderer profitieren.
+        </p>
+      </div>
+    </div>
+  </a>
+
+  <a href="/im-notfall/"
+    class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-97 -rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
+    <div class="flex flex-row w-96 px-6 py-5">
+      <div class="border-r border-transparent my-auto text-4xl pr-2">
+        🚑
+      </div>
+      <div class="flex flex-col pl-3 font-normal">
+        <h3 class="my-0 pb-1 text-darkBlue">
+          Im Notfall
+        </h3>
+        <p class="mb-0 text-gray-500">
+          Vorbereitung ist alles - besonders in einer Notfallsituation, finde hier die wichtigsten Infos die du dafür
+          brauchst.
+        </p>
+      </div>
+    </div>
+  </a>
+
+  <a href="/chatbot/"
+    class="drop-shadow-2xl rounded-3xl sm:w-96 bg-white rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
+    <div class="flex flex-row px-6 py-5">
+      <div class="border-r border-transparent my-auto text-4xl pr-2">
+        🤖
+      </div>
+      <div class="flex flex-col pl-3 font-normal">
+        <h3 class="my-0 pb-1 text-darkBlue">
+          Chatbot
+        </h3>
+        <p class="mb-0 text-gray-500">
+          Du suchst nach etwas ganz Bestimmtem? Dann frag doch einfach unseren Chatbot, er versucht dir bestmöglich
+          zu
+          helfen!
+        </p>
+      </div>
+    </div>
+  </a>
+
+  <a href="/app/"
+    class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
+    <div class="flex flex-row px-6 py-5">
+      <div class="border-r border-transparent my-auto text-4xl pr-2">
+        📱
+      </div>
+      <div class="flex flex-col pl-3 font-normal">
+        <h3 class="my-0 pb-1 text-darkBlue">
+          App
+        </h3>
+        <p class="mb-0 text-gray-500">
+          Du möchtest die Infos lieber als App haben, dann wechsle hier zur Young Carers Austria App.
+        </p>
+      </div>
+    </div>
+  </a>
 </div>
+
 
 <h2>Häufig gestellte Fragen</h2>
 
@@ -61,17 +123,26 @@ TODO: Integrate FAQ
 
 <h2>Die App aus Sicht von Nutzer:innen</h2>
 
-<div>"Eine wirklich gelungene und ansprechende App für Kinder, Jugendliche, aber auch für Eltern, Großeltern."</div>
+<div>"Eine wirklich gelungene und ansprechende App für Kinder, Jugendliche, aber auch für Eltern, Großeltern."
+</div>
 
-<div>"Die App ist übersichtlich gestaltet und Informationen für zB Notfallsituationen sind schnell und einfach abrufbar."</div>
+<div>"Die App ist übersichtlich gestaltet und Informationen für zB Notfallsituationen sind schnell und einfach
+  abrufbar."</div>
 
 <h2>Über Young Carers Austria</h2>
 <p><img src="/images/sujets/yc-sujet-%C3%B6sterreich.jpg" alt="/images/sujets/yc-sujet-österreich.jpg"></p>
-<p>Mit der neuen App &quot;YoungCarers Austria&quot; gibt es eine Informationsquelle die Betroffenen und deren Familien einen Überblick zu bestehenden (Hilfs-)Angeboten bietet. Aber auch Eltern, Lehrpersonen oder sonstige Wegbegleiter:innen können sich auf der Plattform informieren.</p>
-<p>Für die Vollständigkeit der Inhalte kann nicht garantiert werden. Ergänzende Hinweise, Tipps oder Anregungen gerne an
+<p>Mit der neuen App &quot;YoungCarers Austria&quot; gibt es eine Informationsquelle die Betroffenen und deren
+  Familien
+  einen Überblick zu bestehenden (Hilfs-)Angeboten bietet. Aber auch Eltern, Lehrpersonen oder sonstige
+  Wegbegleiter:innen können sich auf der Plattform informieren.</p>
+<p>Für die Vollständigkeit der Inhalte kann nicht garantiert werden. Ergänzende Hinweise, Tipps oder Anregungen
+  gerne an
   <a href="mailto:yc-support@sozialministerium.at">yc-support@sozialministerium.at</a>
-  senden.</p>
-<p>Für die Umsetzung der App zeichnet die Fachhochschule Oberösterreich/Campus Hagenberg verantwortlich. Betroffene Jugendliche waren von Beginn an eingebunden. Die App ist kostenlos und barrierefrei.</p>
+  senden.
+</p>
+<p>Für die Umsetzung der App zeichnet die Fachhochschule Oberösterreich/Campus Hagenberg verantwortlich.
+  Betroffene
+  Jugendliche waren von Beginn an eingebunden. Die App ist kostenlos und barrierefrei.</p>
 <h2>Weitere Informationen / Partnereinrichtungen</h2>
 <ul>
   <li>
@@ -92,6 +163,9 @@ TODO: Integrate FAQ
 </ul>
 <h2>Downloads</h2>
 <ul>
-  <li><a href="https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307">Band 19 der Sozialpolitischen Studienreihe</a></li>
-  <li><a href="https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=430">Folder &quot;Young Carers&quot;</a></li>
+  <li><a href="https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307">Band 19 der
+      Sozialpolitischen Studienreihe</a></li>
+  <li><a href="https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=430">Folder
+      &quot;Young
+      Carers&quot;</a></li>
 </ul>
