@@ -1,0 +1,21 @@
+---js
+{
+  layout: 'layouts/textcontent',
+  title: 'Barrierefreiheitserklärung',
+  permalink: '/barrierefreiheitserklärung/',
+  intro: {
+    title: 'Barrierefreiheitserklärung',
+  },
+  eleventyComputed: {
+    imprint: function(data) {
+      return data.cms.metadata.find(metadata => metadata.key === "accessibility")
+    }
+  }
+}
+---
+
+<h1>Barrierefreiheitserklärung</h1>
+<p class="text-xl">
+  {% renderTemplate "liquid,md", imprint %} {{ content }} {% endrenderTemplate
+  %}
+</p>

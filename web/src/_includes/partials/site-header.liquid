@@ -1,0 +1,59 @@
+<header>
+  <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex h-24 items-center justify-between">
+      <a href="/">
+        <figure class="flex flex-shrink-0 items-center space-x-1">
+          <img alt="Young Carers Logo" class="h-16 w-auto" src="/images/logo.png" />
+        </figure>
+      </a>
+      <ul class="hidden sm:flex space-x-4">
+        {%- comment -%}
+        {% for item in navigation.items %}
+        {% if item.url == page.url %}
+        {%
+        assign highlight = 'cursor-default' %}
+        {% assign current =
+        'aria-current="page"' %}
+        {% else %}
+        {% assign highlight = 'underline' %}
+        {% assign current = '' %}
+        {% endif %}
+        <li>
+          <a href="{{ item.url }}" class="text-base font-bold {{ highlight }}" {{ current }}>
+            {{ item.text }}
+          </a>
+        </li>
+        {% endfor %}
+        {%- endcomment -%}
+        <li>
+          <a href="/alltagssituationen/" class="text-base text-darkBlue {{ highlight }}" {{ current }}>
+            Alltagssituationen
+          </a>
+        </li>
+        <li>
+          <a href="/infos/" class="text-base text-darkBlue {{ highlight }}" {{ current }}>
+            Infos
+          </a>
+        </li>
+        <li>
+          <a href="/im-notfall/" class="text-base text-darkBlue {{ highlight }}" {{ current }}>
+            Im Notfall
+          </a>
+        </li>
+        <li>
+          <a href="/app/" class="text-base text-darkBlue {{ highlight }}" {{ current }}>
+            App
+          </a>
+        </li>
+        {%- comment -%}
+        <li>
+          <a href="https://github.com/stefanfrede/11st-starter-kit/"
+            class="text-base font-bold underline hover:text-green-900">
+            GitHub
+          </a>
+        </li>
+        {%- endcomment -%}
+      </ul>
+    </div>
+  </nav>
+</header>

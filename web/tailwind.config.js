@@ -1,7 +1,18 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
-  content: ["./src/**/*.{html,njk,liquid}"],
+  content: ['./src/**/*.html', './src/**/*.liquid', './src/**/*.md'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        darkBlue: '#233760',
+        red: '#9d132e',
+      },
+    },
   },
-  plugins: [],
+  variants: {},
+  plugins: [require('@tailwindcss/typography')],
 };
