@@ -1,100 +1,49 @@
 {
-  "name": "11st-starter-kit",
-  "description": "11ty, powered by Vite with Tailwind CSS and Alpine.js.",
-  "version": "2.0.0",
+  "name": "@young-carers-austria/website",
+  "description": "Information Website for Young Carers in Austria",
+  "version": "1.0.0-prerelease",
+  "private": true,
   "engines": {
     "node": "16.x.x",
     "npm": "8.x.x"
   },
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:stefanfrede/11st-starter-kit.git"
+    "url": "git@github.com:bemayr/young-carers-austria.git"
   },
-  "keywords": [
-    "alpinejs",
-    "eleventy",
-    "jamstack",
-    "liquidjs",
-    "netlify",
-    "pwa",
-    "tailwindcss",
-    "vite"
-  ],
   "author": {
-    "name": "Stefan Frede",
-    "email": "stefan@frede.dev"
+    "name": "Bernhard Mayr",
+    "email": "bernhard@mayr.io"
   },
   "license": "MIT",
-  "private": true,
   "bugs": {
-    "url": "https://github.com/stefanfrede/11st-starter-kit/issues"
+    "url": "https://github.com/bemayr/young-carers-austria/issues"
   },
-  "homepage": "https://11st-starter-kit.netlify.app",
-  "lint-staged": {
-    "*.html": "prettier --write",
-    "*.css": "stylelint --cache --fix",
-    "*.js": "eslint --cache --fix"
-  },
+  "homepage": "https://www.young-carers-austria.at",
   "scripts": {
-    "clean": "rimraf _site",
-    "preview": "npx vite preview",
-    "predev": "run-s clean",
-    "dev": "cross-env NODE_ENV=development run-p dev:*",
-    "dev:eleventy": "npx @11ty/eleventy --incremental --watch",
-    "dev:vite": "npx vite",
-    "prebuild": "run-s clean",
-    "build": "cross-env NODE_ENV=production run-s build:*",
-    "build:eleventy": "npx @11ty/eleventy",
-    "build:vite": "npx vite build",
-    "lint": "run-s lint:*",
-    "lint:html": "npx prettier --check \"src/**/*.html\"",
-    "lint:stylelint": "npx stylelint \"src/**/*.css\"",
-    "lint:eslint": "npx eslint --ext .js src/",
-    "format": "run-s format:*",
-    "format:html": "npx prettier --write \"src/**/*.html\"",
-    "format:stylelint": "npx stylelint \"src/**/*.css\" --fix",
-    "format:eslint": "npx eslint --ext .js src/ --fix",
-    "validate": "run-s build lint",
+    "clean": "del-cli _site",
+    "start": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch",
+    "serve": "npx @11ty/eleventy --serve",
+    "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "npm install && npm run validate"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.5",
-    "@babel/eslint-parser": "^7.15.8",
-    "@babel/preset-env": "^7.16.5",
-    "@commitlint/config-conventional": "^17.0.3",
-    "@tailwindcss/typography": "^0.5.0",
-    "autoprefixer": "^10.2.4",
-    "browserslist": "^4.16.6",
-    "cross-env": "^7.0.3",
-    "eslint": "^8.0.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-compat": "^4.0.0",
-    "eslint-plugin-import": "^2.23.2",
-    "eslint-plugin-json": "^3.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "lint-staged": "^13.0.3",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.2.14",
-    "postcss-cli": "^10.0.0",
-    "prettier": "^2.2.1",
-    "prettier-plugin-tailwindcss": "^0.1.7",
-    "rimraf": "^3.0.2",
-    "stylelint": "^14.1.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^28.0.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.2",
-    "stylelint-order": "^5.0.0",
-    "tailwindcss": "^3.0.1",
-    "vite": "^3.1.0",
-    "vite-plugin-pwa": "^0.12.0"
+    "del-cli": "5.0.0"
   },
   "dependencies": {
-    "@11ty/eleventy-fetch": "^3.0.0",
-    "alpinejs": "^3.0.1",
-    "core-js": "^3.20.2"
+    "@11ty/eleventy": "2.0.0-canary.16",
+    "@11ty/eleventy-fetch": "3.0.0",
+    "@11ty/eleventy-img": "2.0.1",
+    "@11ty/eleventy-plugin-vite": "2.0.0-canary.2",
+    "@tailwindcss/typography": "0.5.7",
+    "alpinejs": "3.10.4",
+    "autoprefixer": "10.4.12",
+    "cssnano": "5.1.13",
+    "postcss": "8.4.18",
+    "postcss-nesting": "10.2.0",
+    "tailwindcss": "3.1.8"
   }
 }

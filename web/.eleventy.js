@@ -1,32 +1,66 @@
 const fs = require('fs');
-const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const { DateTime } = require('luxon');
 
-module.exports = function (config) {
-  config.setLiquidOptions({
+const { EleventyRenderPlugin } = require('@11ty/eleventy');
+const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite');
+
+module.exports = function (eleventyConfig) {
+  eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
 
-  config.addPlugin(EleventyRenderPlugin);
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
-  config.addFilter('date', (dateObj) => {
+  eleventyConfig.addFilter('date', (dateObj) => {
     return DateTime.fromISO(dateObj)
       .setLocale('de-AT')
       .toLocaleString(DateTime.DATETIME_MED);
   });
 
   // Static assets to pass through
-  config.addPassthroughCopy('./src/images');
-  config.addPassthroughCopy('./src/public');
-  config.addPassthroughCopy('./src/styles');
-  config.addPassthroughCopy('./src/main.js');
-  config.addPassthroughCopy('./src/CNAME');
+  eleventyConfig.addPassthroughCopy('./src/images');
+  eleventyConfig.addPassthroughCopy('./src/public');
+  eleventyConfig.addPassthroughCopy('./src/styles');
+  eleventyConfig.addPassthroughCopy('./src/main.js');
+
+  // https://github.com/matthiasott/eleventy-plus-vite/issues/2
+  eleventyConfig.setServerPassthroughCopyBehavior('copy');
+
+  eleventyConfig.addPlugin(EleventyVitePlugin, {
+    tempFolderName: '.11ty-vite', // Default name of the temp folder
+
+    // Vite options (equal to vite.config.js inside project root)
+    viteOptions: {
+      publicDir: 'public',
+      clearScreen: false,
+      server: {
+        mode: 'development',
+        middlewareMode: true,
+      },
+      appType: 'custom',
+      assetsInclude: ['**/*.xml', '**/*.txt'],
+      build: {
+        mode: 'production',
+        sourcemap: 'true',
+        manifest: true,
+        // This puts CSS and JS in subfolders – remove if you want all of it to be in /assets instead
+        rollupOptions: {
+          output: {
+            assetFileNames: 'assets/css/main.[hash].css',
+            chunkFileNames: 'assets/js/[name].[hash].js',
+            entryFileNames: 'assets/js/[name].[hash].js',
+          },
+        },
+      },
+    },
+  });
 
   return {
     dir: {
       input: 'src',
       output: '_site',
     },
+    templateFormats: ['md', 'njk', 'html', 'liquid'],
     passthroughFileCopy: true,
     htmlTemplateEngine: 'liquid',
     dataTemplateEngine: 'liquid',
