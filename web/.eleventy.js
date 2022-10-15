@@ -23,7 +23,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/styles');
   eleventyConfig.addPassthroughCopy('./src/main.js');
 
-  // https://github.com/matthiasott/eleventy-plus-vite/issues/2
+  // TODO: https://github.com/matthiasott/eleventy-plus-vite/issues/2
+  // TODO: https://github.com/matthiasott/eleventy-plus-vite/issues/4
   eleventyConfig.setServerPassthroughCopyBehavior('copy');
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {
@@ -60,7 +61,7 @@ module.exports = function (eleventyConfig) {
       input: 'src',
       output: '_site',
     },
-    templateFormats: ['md', 'njk', 'html', 'liquid'],
+    templateFormats: ['md', 'njk', 'html', 'liquid', '11ty.js'],
     passthroughFileCopy: true,
     htmlTemplateEngine: 'liquid',
     dataTemplateEngine: 'liquid',
