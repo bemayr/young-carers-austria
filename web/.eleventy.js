@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
         middlewareMode: true,
       },
       appType: 'custom',
-      assetsInclude: ['**/*.xml', '**/*.txt'],
+      assetsInclude: ['**/*.xml', '**/*.txt', '**/*.json'],
       build: {
         mode: 'production',
         sourcemap: 'true',
