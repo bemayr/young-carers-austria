@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
+
+# Do not index the API and its documentation for search engines, it is simply not needed to be indexed
+Disallow: /api/
