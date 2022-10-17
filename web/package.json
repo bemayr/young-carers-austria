@@ -25,12 +25,14 @@
     "start": "npx @11ty/eleventy --serve",
     "watch": "npx @11ty/eleventy --watch",
     "serve": "npx @11ty/eleventy --serve",
+    "preview": "npx @11ty/eleventy-dev-server --input=_site",
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "build": "npx @11ty/eleventy",
+    "build": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "npm install && npm run validate"
   },
   "devDependencies": {
+    "cross-env": "7.0.3",
     "del-cli": "5.0.0"
   },
   "dependencies": {
