@@ -7,7 +7,9 @@ desc: 'Mit der neuen App Young Carers Austria gibt es eine Informationsquelle di
 können sich auf der Plattform informieren.'
 ---
 <div class="mx-auto max-w-4xl flex flex-col sm:flex-row">
-  <h1 class="text-darkBlue basis-2/5 text-right text-7xl justify-center self-center mb-0 mr-12 -mt-12">Young Carers
+  <h1
+    class=" text-center text-3xl text-darkBlue basis-2/5 sm:text-right sm:text-7xl justify-center self-center mb-0 sm:mr-12 -mt-12">
+    Young Carers
     Austria
   </h1>
   <div class="basis-3/5">
@@ -25,7 +27,7 @@ können sich auf der Plattform informieren.'
 
 
 
-<div class="flex flex-row flex-wrap my-12 justify-center">
+<div class="flex flex-row flex-wrap py-12 justify-center">
   <a href="/infos/"
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-98 -rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
     <div class="flex flex-row w-96 px-6 py-5">
@@ -119,8 +121,52 @@ können sich auf der Plattform informieren.'
 <section class="max-w-5xl mx-auto my-12">
   <h2 class="text-center text-darkBlue">Häufig gestellte Fragen</h2>
 
-  <p>TODO: Integrate FAQ</p>
+  {%- comment -%} show as details element on mobile {%- endcomment -%}
+  <div class="sm:hidden">
 
+    {% for faq in cms.faqs %}
+
+    <details>
+      <summary>{{ faq.question }}</summary>
+      <div>
+        {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate
+        %}
+      </div>
+    </details>
+
+    {% endfor %}
+
+  </div>
+  <div class="hidden sm:block">
+
+    <div class="flex flex-row">
+      <div class="w-2/5">
+
+        <ul class="list-none">
+          {% for faq in cms.faqs %}
+
+          <li class="px-5 py-2 bg-white rounded-lg shadow-md">
+            {{ faq.question }}
+          </li>
+
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="w-3/5">
+        <ul class="list-none">
+          {% for faq in cms.faqs %}
+
+          <li>
+            {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate
+            %}
+          </li>
+
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
 </section>
 
 
