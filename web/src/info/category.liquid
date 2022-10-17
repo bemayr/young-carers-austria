@@ -1,66 +1,69 @@
 ---
 layout: 'layouts/home.html'
 pagination:
-    data: cms.abc
-    size: 1
-    alias: category
+  data: cms.abc
+  size: 1
+  alias: category
 permalink: "info/{{ category.name | slugify }}/"
 ---
 <div class="container w-full flex flex-wrap mx-auto px-2 pt-8 lg:pt-16 mt-16">
-    <div class="w-full sticky inset-0 hidden h-64 lg:h-auto overflow-x-hidden overflow-y-auto lg:overflow-y-hidden lg:block mt-0 border border-gray-400 lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-8" style="top:5em;" id="menu-content">
-      <ul class="list-reset">
-        {% for category in cms.abc %}
-          {% assign categorySlug = category.name | slugify %}
-          {% assign categoryLink = "/abc/" | append: categorySlug %}
-          {% assign categoryUrl = categoryLink | url %}
+  <div
+    class="w-full sticky inset-0 hidden h-64 lg:h-auto overflow-x-hidden overflow-y-auto lg:overflow-y-hidden lg:block mt-0 border border-gray-400 lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-8"
+    style="top:5em;" id="menu-content">
+    <ul class="list-reset">
+      {% for category in cms.abc %}
+      {% assign categorySlug = category.name | slugify %}
+      {% assign categoryLink = "/info/" | append: categorySlug %}
+      {% assign categoryUrl = categoryLink | url %}
 
-          <li class="py-2 md:my-0 hover:bg-red-100 lg:hover:bg-transparent">
-            <a href="{{ categoryUrl }}" class="block pl-4 align-middle text-gray-700 no-underline hover:text-red-500 border-l-4 border-transparent lg:hover:border-gray-400">
-              <span class="pb-1 md:pb-0 text-sm">{{ category.name }}
-              </span>
-            </a>
-          </li>
-
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-  <div class="w-full lg:w-4/5 p-8 mt-6 lg:mt-0 text-gray-900 leading-normal bg-white border border-gray-400 border-rounded">
-    <!--Title-->
-    <div class="font-sans">
-      <h1 class="font-sans break-normal text-gray-900 pt-6 pb-2 text-xl">{{ category.title }}
-      </h1>
-      {% renderTemplate "liquid,md", category %}
-        {{ information }}
-      {% endrenderTemplate %}
-      <hr class="mt-6 border-b border-gray-400">
-    </div>
-    <!--Post Content-->
-    {% for group in category.entries %}
-      <h2 class="mt-4">
-        <a href="{{ group.ownerUrl }}">{{ group.ownerName }}
+      <li class="py-2 md:my-0 hover:bg-red-100 lg:hover:bg-transparent">
+        <a href="{{ categoryUrl }}"
+          class="block pl-4 align-middle text-gray-700 no-underline hover:text-red-500 border-l-4 border-transparent lg:hover:border-gray-400">
+          <span class="pb-1 md:pb-0 text-sm">{{ category.name }}
+          </span>
         </a>
-      </h2>
-      <p>{{ group.ownerUrl }}
-      </p>
-      <hr/>
-      {% for reference in group.references %}
-        <div class="bg-white shadow-md border border-gray-200 rounded max-w-sm">
-          <a href="{{ reference.url }}">
-            <img class="rounded-t-lg" src="{{ reference.previewImageUrl }}" alt="">
-          </a>
-          <div class="p-5">
-            <a href="{{ reference.url }}">
-              <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2">{{ reference.title }}
-              </h5>
-            </a>
-            <p class="font-normal text-gray-700 mb-3">{{ reference.description }}
-            </p>
-          </div>
-        </div>
+      </li>
+
       {% endfor %}
-    {% endfor %}
+    </ul>
   </div>
+</div>
+<div
+  class="w-full lg:w-4/5 p-8 mt-6 lg:mt-0 text-gray-900 leading-normal bg-white border border-gray-400 border-rounded">
+  <!--Title-->
+  <div class="font-sans">
+    <h1 class="font-sans break-normal text-gray-900 pt-6 pb-2 text-xl">{{ category.title }}
+    </h1>
+    {% renderTemplate "liquid,md", category %}
+    {{ information }}
+    {% endrenderTemplate %}
+    <hr class="mt-6 border-b border-gray-400">
+  </div>
+  <!--Post Content-->
+  {% for group in category.entries %}
+  <h2 class="mt-4">
+    <a href="{{ group.ownerUrl }}">{{ group.ownerName }}
+    </a>
+  </h2>
+  <p>{{ group.ownerUrl }}
+  </p>
+  <hr />
+  {% for reference in group.references %}
+  <div class="bg-white shadow-md border border-gray-200 rounded max-w-sm">
+    <a href="{{ reference.url }}">
+      <img class="rounded-t-lg" src="{{ reference.previewImageUrl }}" alt="">
+    </a>
+    <div class="p-5">
+      <a href="{{ reference.url }}">
+        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2">{{ reference.title }}
+        </h5>
+      </a>
+      <p class="font-normal text-gray-700 mb-3">{{ reference.description }}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+  {% endfor %}
 </div>
 <!--/container-->
 <footer class="bg-white border-t border-gray-400 shadow">
@@ -79,7 +82,8 @@ permalink: "info/{{ category.name | slugify }}/"
           <h3 class="font-bold text-gray-900">Social Media</h3>
           <ul class="list-reset items-center text-sm pt-3">
             <li>
-              <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:underline py-1" href="https://www.sozialministerium.at/youngcarers">Sozialministerium</a>
+              <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:underline py-1"
+                href="https://www.sozialministerium.at/youngcarers">Sozialministerium</a>
             </li>
           </ul>
         </div>
