@@ -3,6 +3,9 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        //markdown
+        maven { url 'https://jitpack.io' }
+
     }
 }
 dependencyResolutionManagement {
