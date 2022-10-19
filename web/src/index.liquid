@@ -120,12 +120,12 @@ können sich auf der Plattform informieren.'
 
 <section class="max-w-5xl mx-auto my-12">
   <h2 class="text-center text-darkBlue">Häufig gestellte Fragen</h2>
+   
+  {% assign relevant_faqs = cms.faqs | where: 'showOnLandingPage' %}
 
   {%- comment -%} show as details element on mobile {%- endcomment -%}
   <div class="sm:hidden">
-
-    {% for faq in cms.faqs %}
-
+    {% for faq in relevant_faqs %}
     <details>
       <summary>{{ faq.question }}</summary>
       <div>
@@ -133,39 +133,24 @@ können sich auf der Plattform informieren.'
         %}
       </div>
     </details>
-
     {% endfor %}
-
   </div>
-  <div class="hidden sm:block">
-
-    <div class="flex flex-row">
-      <div class="w-2/5">
-
-        <ul class="list-none">
-          {% for faq in cms.faqs %}
-
-          <li class="px-5 py-2 bg-white rounded-lg shadow-md">
-            {{ faq.question }}
-          </li>
-
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="w-3/5">
-        <ul class="list-none">
-          {% for faq in cms.faqs %}
-
-          <li>
-            {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate
-            %}
-          </li>
-
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-
+  <div class="hidden sm:block relative">
+    <ul class="list-none relative">
+      {% for faq in relevant_faqs %}
+      <li>
+        {%- assign faq_id = faq.question | slugify -%}
+        <input class="hidden peer" type="radio" id="{{faq_id }}" name="faq-questions" {% if forloop.index0 == 0 %}checked{% endif %}>
+        <label
+          for="{{ faq_id }}"
+          class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block">{{ faq.question }}</label>
+        <div class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5">
+          {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate
+          %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
 
