@@ -1,0 +1,15 @@
+---
+layout: 'layouts/textcontent'
+title: 'FAQ'
+---
+<h1 class="text-darkBlue">Häufig gestellte Fragen</h1>
+
+{% for faq in cms.faqs %}
+
+<h2 class="text-darkBlue">{{ faq.question }}</h2>
+<div class="mb-4">
+  {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate
+  %}
+</div>
+
+{% endfor %}

@@ -7,7 +7,9 @@ desc: 'Mit der neuen App Young Carers Austria gibt es eine Informationsquelle di
 können sich auf der Plattform informieren.'
 ---
 <div class="mx-auto max-w-4xl flex flex-col sm:flex-row">
-  <h1 class="text-darkBlue basis-2/5 text-right text-7xl justify-center self-center mb-0 mr-12 -mt-12">Young Carers
+  <h1
+    class=" text-center text-3xl text-darkBlue basis-2/5 sm:text-right sm:text-7xl justify-center self-center mb-0 sm:mr-12 -mt-12">
+    Young Carers
     Austria
   </h1>
   <div class="basis-3/5">
@@ -25,7 +27,7 @@ können sich auf der Plattform informieren.'
 
 
 
-<div class="flex flex-row flex-wrap my-12 justify-center">
+<div class="flex flex-row flex-wrap py-12 justify-center">
   <a href="/infos/"
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-98 -rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
     <div class="flex flex-row w-96 px-6 py-5">
@@ -118,9 +120,38 @@ können sich auf der Plattform informieren.'
 
 <section class="max-w-5xl mx-auto my-12">
   <h2 class="text-center text-darkBlue">Häufig gestellte Fragen</h2>
+   
+  {% assign relevant_faqs = cms.faqs | where: 'showOnLandingPage' %}
 
-  <p>TODO: Integrate FAQ</p>
-
+  {%- comment -%} show as details element on mobile {%- endcomment -%}
+  <div class="sm:hidden">
+    {% for faq in relevant_faqs %}
+    <details>
+      <summary>{{ faq.question }}</summary>
+      <div>
+        {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate
+        %}
+      </div>
+    </details>
+    {% endfor %}
+  </div>
+  <div class="hidden sm:block relative">
+    <ul class="list-none relative">
+      {% for faq in relevant_faqs %}
+      <li>
+        {%- assign faq_id = faq.question | slugify -%}
+        <input class="hidden peer" type="radio" id="{{faq_id }}" name="faq-questions" {% if forloop.index0 == 0 %}checked{% endif %}>
+        <label
+          for="{{ faq_id }}"
+          class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block">{{ faq.question }}</label>
+        <div class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5">
+          {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate
+          %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
 
 
