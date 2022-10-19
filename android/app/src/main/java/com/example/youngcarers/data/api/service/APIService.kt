@@ -4,7 +4,13 @@ import com.example.youngcarers.data.api.models.YoungCarersModel
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET
+import java.net.URLEncoder
+
+/**
+ * Retrofit api service to get the content from the backend
+ */
 
 interface APIService {
 
