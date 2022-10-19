@@ -1,95 +1,113 @@
 package com.example.youngcarers
 
-
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.example.youngcarers.core.emergency
-import com.example.youngcarers.core.tel
-import com.example.youngcarers.data.api.service.MainViewModel
-import com.example.youngcarers.screens.Detail_Screen
-import com.example.youngcarers.screens.Insights_Detail_Screen
+import com.example.youngcarers.screens.DetailScreen
+import com.example.youngcarers.screens.InsightsDetailScreen
+import com.example.youngcarers.screens.chatbot.ChatBotScreen
+import com.example.youngcarers.screens.onboarding.OnBoarding
+import com.google.accompanist.pager.ExperimentalPagerApi
 
+/**
+ * Navigation controller, which selects the links and content on the individual pages
+ */
 
-
+@OptIn(ExperimentalPagerApi::class)
 @Composable
-fun Navigation(navController: NavHostController, mainViewModel: MainViewModel) {
+fun Navigation(
+    navController: NavHostController,
+    startDestination: String
+    ) {
 
+    // TODO: remove navController integrate this
     fun navigateToInsightDetail(questionIndex: Int) {
         navController.navigate(NavRoutes.InsightsDetail.route + "/$questionIndex")
     }
-
+    // TODO: remove navController integrate this
     fun navigateToAbcDetail(abcEntryName: String) {
         navController.navigate(NavRoutes.Detail.route + "/$abcEntryName")
     }
 
-   // mainViewModel.content?.let { content ->
-        NavHost(
-            navController = navController,
-            startDestination = NavigationItem.Help.route
-        ) {
-            // Insights Page
-            composable(NavigationItem.Help.route) {
-                mainViewModel.content?.let { content ->
+// mainViewModel.content?.let { content -> // TODO
+    NavHost(
+        navController = navController,
+        //startDestination = NavigationItem.Help.route
+        startDestination = startDestination
 
-                    Help_Screen(
-                        insights = content.insights,
-                        navigateToDetail = ::navigateToInsightDetail,
-                        navController
-                    ) // TODO: Remove this, not needed any more due to function passing
+
+    ) {
+
+        // Insights Page
+        composable(NavigationItem.Help.route) {
+            HelpScreen(
+                navigateToDetail = {
+                        questionIndex: Int -> navController.navigate(NavRoutes.InsightsDetail.route + "/$questionIndex")
+                },
+                navController
+            ) // TODO: Remove this, not needed any more due to function passing
+        }
+
+        // Categories Page
+        composable(NavigationItem.ABC.route) {
+            AbcScreen(
+                navigateToDetail = {
+                    abcEntryName: String -> navController.navigate(NavRoutes.Detail.route + "/$abcEntryName")
                 }
-            }
+            )
+        }
 
-            // Categories Page
-            composable(NavigationItem.ABC.route) {
-                mainViewModel.content?.let { content ->
-                    ABC_Screen(
-                        categories = content.abc,
-                        navigateToDetail = ::navigateToAbcDetail,
-                        navController)
-            }}
+        // Emergency Page
+        composable(NavigationItem.Emergency.route) {
+            EmergencyScreen(navController = navController)
+        }
 
-            // Emergency Page
-            composable(NavigationItem.Emergency.route) {
-                Emergency_Screen(emergency, tel, navController)
-            }
+        // About Page
+        composable(NavigationItem.About.route) {
+            AboutScreen()
+        }
+        /**
+         * ChatBot
+         */
+        // ChatBot Page
+       composable(NavigationItem.Bot.route) {
+            ChatBotScreen()
+        }
 
-            // About Page
-            composable(NavigationItem.About.route) {
-                mainViewModel.content?.let { content ->
-                    About_Screen(
-                        metadata = content.metadata
-                    )
-                }
+        // Insight Detail Page
+        composable(
+            NavRoutes.InsightsDetail.route + "/{questionIndex}",
+            arguments = listOf(navArgument("questionIndex") { type = NavType.IntType })
+        ) { backStackEntry ->
+            val questionIndex = backStackEntry.arguments?.getInt("questionIndex")!!
+            InsightsDetailScreen(
+                navController,
+                onClick = {
+                    questionIndex: Int -> navController.navigate(NavRoutes.InsightsDetail.route + "/$questionIndex")
+                },
+                questionIndex)
+        }
 
-            }
+        // Category Detail Page
+        composable(NavRoutes.Detail.route + "/{viewTitle}") { backStackEntry ->
+            val viewTitle = backStackEntry.arguments?.getString("viewTitle")
+            DetailScreen(navController, viewTitle)
+        }
 
-            // Insight Detail Page
-            composable(
-                NavRoutes.InsightsDetail.route + "/{questionIndex}",
-                arguments = listOf(navArgument("questionIndex") { type = NavType.IntType })
-            ) { backStackEntry ->
-                val questionIndex = backStackEntry.arguments?.getInt("questionIndex")!!
+        // Onboardscreen
+        composable(Welcome.Onboard.route){
+            OnBoarding(navController = navController)
 
-                mainViewModel.content?.let { content ->
-                    val insight = content.insights[questionIndex]
-                    Insights_Detail_Screen(navController, insight!!)
-                }
-            }
+        }
+        // Onboardscreen
+        composable(Welcome.Home.route){
+            HomeScreen()
 
-            // Category Detail Page
-            composable(NavRoutes.Detail.route + "/{viewTitle}") { backStackEntry ->
-                val viewTitle = backStackEntry.arguments?.getString("viewTitle")
+        }
 
-                mainViewModel.content?.let { content ->
-                    Detail_Screen(navController, viewTitle, content = content.abc)
-                }
-
-
-            }
 
     }
 }
