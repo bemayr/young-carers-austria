@@ -14,15 +14,27 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.example.youngcarers.NavRoutes
+import com.example.youngcarers.R
 import com.example.youngcarers.data.api.models.Category
+
+/**
+ * @param category category data from the category model
+ * @param navController navController for navigate to another page
+ * Here the category detail cards for the insights detail screen are created
+ */
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun CategoryDetailCard(category: Category, navController: NavHostController) {
+fun CategoryDetailCard(
+    category: Category,
+    navController: NavHostController
+) {
     androidx.compose.material.Card(
         backgroundColor = Color.White,
         modifier = Modifier.fillMaxWidth(),
@@ -44,9 +56,16 @@ fun CategoryDetailCard(category: Category, navController: NavHostController) {
             )
             Icon(
                 imageVector = Icons.Filled.KeyboardArrowRight,
-                contentDescription = "Forward",
+                contentDescription = R.string.contentDescription.toString(),
                 modifier = Modifier.padding(end = 10.dp, top = 16.dp)
             )
         }
     }
+}
+
+@Preview
+@Composable
+fun CategoryDetailCardPreview() {
+    val category = Category(emptyList(), "Info...", "Category Name", "Category Title")
+    CategoryDetailCard(category = category, navController = rememberNavController(navigators = emptyArray()))
 }

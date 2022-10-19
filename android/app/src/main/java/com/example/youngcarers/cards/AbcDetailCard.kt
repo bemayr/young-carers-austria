@@ -15,34 +15,42 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavHostController
-import com.example.youngcarers.NavRoutes
+import com.example.youngcarers.R
 import com.example.youngcarers.data.api.models.Abc
+
+/**
+ * @param data abc data from abc model
+ * @param onClick onClick listener with given string
+ * Here the cards for the abc screen are created
+ */
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun AbcDetailCard(data: Abc, navController: NavHostController, onClick: (Int) -> Unit) {
+fun AbcDetailCard(
+    data: Abc,
+    onClick: (questionIndex: String) -> Unit
+) {
 
     var viewTitle = data.name
 
+    val errorHandling = "/"
 
     Row(
         modifier = Modifier
             .fillMaxWidth()
             .padding(1.dp)
-
     ) {
         Card(
             backgroundColor = Color.White,
             modifier = Modifier.fillMaxWidth(),
             onClick = {
-                //Todo "/" error handling
-                if(viewTitle.contains("/")){
-                    viewTitle = viewTitle.replace("/","")
-                }
-                navController.navigate(NavRoutes.Detail.route + "/$viewTitle")
+
+                    onClick(data.name)
+
+
             }
         ) {
             Row(
@@ -59,15 +67,23 @@ fun AbcDetailCard(data: Abc, navController: NavHostController, onClick: (Int) ->
                     ), modifier = Modifier.padding(16.dp)
                 )
 
-                    Icon(
-
-                        imageVector = Icons.Filled.KeyboardArrowRight,
-                        contentDescription = "Forward",
-                        modifier = Modifier.padding(end = 10.dp, top = 16.dp)
-
-                    )
+                Icon(
+                    imageVector = Icons.Filled.KeyboardArrowRight,
+                    contentDescription = R.string.contentDescription.toString(),
+                    modifier = Modifier.padding(end = 10.dp, top = 16.dp)
+                )
 
             }
         }
     }
+}
+
+@Preview
+@Composable
+fun AbcDetailCardPreview() {
+    val data = Abc(emptyList(), "ABC Info...", "ABC Name", "ABC Title")
+    AbcDetailCard(
+        data = data,
+        onClick = {}
+    )
 }
