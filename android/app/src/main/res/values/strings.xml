@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">Young Carers Austria</string>
+    <string name="contentDescription">Forward</string>
+    <string name="abc_title">Young Carers ABC</string>
+    <string name="abc_body">Hier haben wir alle Informationen für dich gesammelt und alphabetisch sortiert Schau einfach ein bisschen durch, frag den Chatbot oder probiere die Suche wenn du Infos zu einem speziellen Thema haben möchtest </string>
+    <string name="about_title">Über die App und Rechtliches</string>
+    <string name="about_body">Hallo. Ich bin ein kleiner Blindtext. Und zwar schon so lange ich denken kann. Es war nicht leicht zu verstehen, was es bedeutet, ein blinder Text zu sein: Man ergibt keinen Sinn. Wirklich keinen Sinn. Man wird zusammenhangslos eingeschoben und rumgedreht – und oftmals gar nicht erst gelesen.  </string>
+    <string name="detail_title">Detail Page</string>
+    <string name="detail_body">Hallo. Ich bin ein kleiner Blindtext. Und zwar schon so lange ich denken kann. Es war nicht leicht zu verstehen, was es bedeutet, ein blinder Text zu sein: Man ergibt keinen Sinn. Wirklich keinen Sinn. Man wird zusammenhangslos eingeschoben und rumgedreht – und oftmals gar nicht erst gelesen.  </string>
+
+    //Emergency screen
+    <string name="emergency_title">Im Notfall</string>
+    <string name="emergency_quick_help">Im Notfall muss es schnell gehen. Deshalb bietet dir diese Seite eine Übersicht über die relevanten Notrufnummern. Am besten auf Notfälle vorbereitet bist du allerdings, wenn du dich bereits im Vornherein darauf vorbereitest, deshalb haben wir für dich auch ein paar Informationen dazu gesammelt.</string>
+    <string name="emergency_title_preparation">Schau mal rein...</string>
+
+
+    <string name="help_title">Hallo!</string>
+    <string name="help_body">Hier bist du auf der Young Carers App gelandet. Vielleicht hast du ja eine der folgenden Fragen oder du erlebst auch gerade eine dieser Situationen?</string>
+    <string name="help_body_hint">Du hast nicht gefunden wonach du gesucht hast, vielleicht wirst du im Young Carers ABC fündig?</string>
+    <string name="nav_help">Hilfe</string>
+    <string name="nav_abc">ABC</string>
+    <string name="nav_emergency">Emergency</string>
+    <string name="nav_about">Über</string>
+    <string name="help_screen">helpScreen</string>
+    <string name="abc_screen">abcScreen</string>
+    <string name="insights_card">insightsCard</string>
+    <string name="insights_detail_screen">insightsDetailScreen</string>
+    <string name="yc_abc">Young Carers ABC</string>
+
+    <string name="nav_help_route">help</string>
+    <string name="nav_abc_route">abc</string>
+    <string name="nav_emergency_route">emergency</string>
+    <string name="nav_about_route">about</string>
+
+    <string name="nav_detail_route">detail_route</string>
+    <string name="nav_insights_detail_route">insights_detail_route</string>
+    <string name="nav_detail">detail</string>
+    <string name="nav_insights_detail">insights detail
+    </string>
+
+
+
+    <string name="cd_button_send">Send</string>
+
 </resources>

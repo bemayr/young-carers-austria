@@ -4,4 +4,12 @@
     <style name="Theme.YoungCarers" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/yc_red_dark</item>
     </style>
+
+    <style name="Theme.CustomSplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_yc_round</item>
+        <item name="windowSplashScreenAnimationDuration">600</item>
+        <item name="postSplashScreenTheme">@style/Theme.YoungCarers</item>
+    </style>
+
 </resources>

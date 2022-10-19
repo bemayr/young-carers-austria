@@ -3,4 +3,6 @@
     <color name="yc_red">#9D0529</color>
     <color name="yc_red_dark">#700009</color>
     <color name="yc_rose">#F5E6E9</color>
+    <color name="yc_blue_dark">#104166</color>
+    <color name="yc_background">#E0E0E0</color>
 </resources>
