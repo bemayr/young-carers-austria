@@ -51,43 +51,17 @@ captures/
 
 # Android Patch
 
+# IntelliJ
+*.iws
+/out/
+*.iml
+**/.idea/
+
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
 # NDK
 obj/
-
-# IntelliJ
-*.iws
-/out/
-*.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/.name
-.idea/compiler.xml
-.idea/copyright/profiles_settings.xml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/scopes/scope_settings.xml
-.idea/dictionaries
-.idea/vcs.xml
-.idea/jsLibraryMappings.xml
-.idea/datasources.xml
-.idea/dataSources.ids
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
-.idea/assetWizardSettings.xml
-.idea/libraries
-.idea/shelf/
-# Android Studio 3 in .gitignore file.
-.idea/caches
-.idea/modules.xml
-# Comment next line if keeping position of elements in Navigation Editor is relevant for you
-.idea/jarRepositories.xml
-.idea/navEditor.xml
-
 
 # Legacy Eclipse project files
 .cproject
