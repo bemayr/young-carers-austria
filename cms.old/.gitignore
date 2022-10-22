@@ -1,0 +1,5 @@
+node_modules
+.keystone/admin
+database
+*.log
+*.env*
