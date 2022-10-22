@@ -21,12 +21,20 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
 
-  whoami:
-    image: traefik/whoami
+  app-forward:
+    image: bemayr/app-forward:1.0.1
+    container_name: app-forward
+    restart: always
     labels:
-      - traefik.enable=true
-      - traefik.http.routers.whoami.rule=Host(`app.young-carers-austria.local`)
-      - traefik.http.routers.whoami.entrypoints=web
+      - "traefik.enable=true"
+      - "traefik.http.routers.app-forward.rule=Host(`app.young-carers-austria.local`)"
+      - "traefik.http.routers.app-forward.entrypoints=web"
+      # - traefik.port=80
+    environment:
+      - APPFORWARD_IOSURL
+      - APPFORWARD_ANDROIDURL
+      - APPFORWARD_FALLBACKURL
+
 #   cms:
 #     build:
 #       context: .
