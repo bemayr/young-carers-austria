@@ -19,6 +19,9 @@
   // connected. This is typically a file mount in .devcontainer/docker-compose.yml
   "workspaceFolder": "/workspace/cms",
 
+  // set appropriate non-root user permission: https://code.visualstudio.com/remote/advancedcontainers/improve-performance
+  "postCreateCommand": "sudo chown node node_modules",
+
   // Configure tool-specific properties.
   "customizations": {
     // Configure properties specific to VS Code.
@@ -26,10 +29,10 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": ["dbaeumer.vscode-eslint", "mongodb.mongodb-vscode"]
     }
-  }
+  },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
+  "forwardPorts": [3000, 27017]
 
   // Uncomment the next line if you want start specific services in your Docker Compose config.
   // "runServices": [],
