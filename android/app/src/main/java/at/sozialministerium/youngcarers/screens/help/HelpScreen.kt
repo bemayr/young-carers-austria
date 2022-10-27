@@ -16,6 +16,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import at.sozialministerium.youngcarers.cards.InsightsCard
 import at.sozialministerium.youngcarers.data.api.models.Insight
+import at.sozialministerium.youngcarers.screens.chatbot.BotActionButton
 import at.sozialministerium.youngcarers.screens.help.HelpScreenViewModel
 import org.koin.androidx.compose.getViewModel
 
@@ -73,6 +74,9 @@ fun HelpScreen(
         insights.forEachIndexed { index, item ->
                 InsightsCard(data = item, navController = navController, index = index)
             }
+
+        //Chatbot button
+        BotActionButton(navController = navController)
 
         }
     }

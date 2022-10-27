@@ -5,7 +5,9 @@ import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
@@ -22,13 +24,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import at.sozialministerium.youngcarers.R
+import at.sozialministerium.youngcarers.core.chatBotNames
 import at.sozialministerium.youngcarers.ui.theme.colorDarkRed
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
-
-
-
 
 /**
  * Generate the ChatBot page
@@ -37,19 +38,9 @@ val message = mutableStateOf("")
 val BotChatBubbleShape = RoundedCornerShape(0.dp,8.dp,8.dp,8.dp)
 val AutnorChatBubbleShape = RoundedCornerShape(8.dp,0.dp,8.dp,8.dp)
 
-var message_dummy = listOf(
-   /* Message(
-        text = "OK, hier wäre ein Link für dich\n"  ,
-        recipient_id = "bot",
-        isOut = false
-    ),
+var message_dummy = mutableStateListOf<Message>(
     Message(
-        text = "hebe fragen zu finanziellen unterstüzungen ",
-        recipient_id = "user",
-        isOut = true
-    ),*/
-    Message(
-        text = "Schreib mir einfach eine Nachricht und ich werde dir sofort antworten.",
+        text = "Willkommen! Bei Young Carers Austria.",
         recipient_id = "bot",
         isOut = false
     ),
@@ -59,11 +50,11 @@ var message_dummy = listOf(
         isOut = false
     ),
     Message(
-        text = "Willkommen! Bei Young Carers Austria.",
+        text = "Schreib mir einfach eine Nachricht und ich werde dir sofort antworten.",
         recipient_id = "bot",
         isOut = false
+    ),
     )
-)
 
 @Composable
 fun ChatBotScreen() {
@@ -71,16 +62,19 @@ fun ChatBotScreen() {
     val _noteList = remember { MutableStateFlow(listOf<String>()) }
 
     val context = LocalContext.current
+
+    val listState = rememberLazyListState()
+
     Column (modifier = Modifier.fillMaxSize(),
-    verticalArrangement = Arrangement.SpaceBetween
+        verticalArrangement = Arrangement.SpaceBetween
     ) {
         TopBarSection(
-            username = "ChatBot",
+            username = chatBotNames().random(),
             profile= painterResource(id = R.drawable.ic_bot_icon),
             isOnline = true
         )
-        ChatSection(Modifier.weight(1f))
-        MessageSection()
+        ChatSection(Modifier.weight(1f), listState)
+        MessageSection(listState)
 
     }
 }
@@ -98,24 +92,24 @@ fun TopBarSection(
             .height(60.dp),
         backgroundColor = Color(0xFFFAFAFA),
         elevation = 4.dp
-            ) {
+    ) {
         Row (
             modifier = Modifier
                 .fillMaxSize()
                 .padding(horizontal = 8.dp),
             verticalAlignment = Alignment.CenterVertically
-                ){
-androidx.compose.foundation.Image(painter = profile, contentDescription = null, modifier = Modifier
-    .size(42.dp)
-    .clip(
-        CircleShape
-    ))
+        ){
+            androidx.compose.foundation.Image(painter = profile, contentDescription = null, modifier = Modifier
+                .size(42.dp)
+                .clip(
+                    CircleShape
+                ))
             Spacer(modifier = Modifier.width(8.dp))
-            
+
             Column {
                 Text(text = username, fontWeight = FontWeight.SemiBold)
                 Text(text = if (isOnline) "Online" else "Offline",
-                fontSize = 12.sp)
+                    fontSize = 12.sp)
             }
         }
 
@@ -125,13 +119,15 @@ androidx.compose.foundation.Image(painter = profile, contentDescription = null, 
 @Composable
 fun ChatSection(
     modifier: Modifier = Modifier,
+    listState: LazyListState,
 ){
     val simpleDataFormat = SimpleDateFormat("h:mm a", Locale.GERMANY)
     LazyColumn(
+        state = listState,
         modifier = modifier
             .fillMaxSize()
             .padding(16.dp),
-        reverseLayout = true
+        //reverseLayout = true
     ){
         items(message_dummy) { chat ->
             MessageItem(
@@ -159,7 +155,7 @@ fun MessageItem(
                 Box(
                     modifier = Modifier
                         .background(
-                            if (isOut) MaterialTheme.colors.primary else at.sozialministerium.youngcarers.ui.theme.colorDarkRed,//Color(0xFF616161),
+                            if (isOut) Color.Gray else at.sozialministerium.youngcarers.ui.theme.colorDarkRed,//Color(0xFF616161), MaterialTheme.colors.primary
                             shape = if (isOut) AutnorChatBubbleShape else BotChatBubbleShape
                         )
                         .padding(
@@ -170,27 +166,36 @@ fun MessageItem(
                         )
 
                 ){
-                 Text(text = messageText, color = Color.White)
+                    Text(text = messageText, color = Color.White)
 
                 }
             }
         }
-       // Text(text = time, fontSize = 12.sp, modifier = Modifier.padding(start = 8.dp))
+        // Text(text = time, fontSize = 12.sp, modifier = Modifier.padding(start = 8.dp))
     }
 }
 
 
 
 @Composable
-fun MessageSection(modifier: Modifier = Modifier,){
+fun MessageSection(
+    listState: LazyListState
+
+){
+    val coroutineScope = rememberCoroutineScope()
     val context = LocalContext.current
+    val isTopButtonVisible  = remember {
+        derivedStateOf {
+            listState.firstVisibleItemIndex > 0
+        }
+    }
     Card (
         modifier = Modifier
             .fillMaxWidth()
             .padding(bottom = 60.dp),
         backgroundColor = Color.White,
         elevation = 10.dp
-            ) {
+    ) {
         OutlinedTextField(
             colors = TextFieldDefaults.outlinedTextFieldColors(
                 focusedBorderColor = colorDarkRed,
@@ -204,37 +209,51 @@ fun MessageSection(modifier: Modifier = Modifier,){
                 message.value = value //it
             },
             shape = RoundedCornerShape(25.dp),
+
             trailingIcon = {
+
                 IconButton(onClick = {
+
+                    message_dummy.add(Message(message.value, "user", true))
+
                     Toast.makeText(context, "press " + message.value, Toast.LENGTH_SHORT).show()
-                    val input = Message(message.value, "user", true)
-                    message_dummy = message_dummy + input
+
+                    if(message.value == "test"){
+                        message_dummy.add(Message("Oh cooler Test", "bot", false))
+                    }
+
                     message.value = ""
+
+                    //follow messages to bottom
+                    coroutineScope.launch {
+
+                        listState.animateScrollToItem(message_dummy.size)
+
+                    }
 
                 }
                 )
                 {
 
+                    Icon(
+                        painter = painterResource(id = R.drawable.ic_send_f),
+                        contentDescription = null,
+                        tint = colorDarkRed,
+                        modifier = Modifier
+                            .size(50.dp)
 
-                Icon(
-                    painter = painterResource(id = R.drawable.ic_send_f),
-                    contentDescription = null,
-                    tint = colorDarkRed,
-                    modifier = Modifier
-                        .size(50.dp)
-
-                )}
+                    )}
             },
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(10.dp),
-                )
-        
+        )
+
     }
 }
 @Composable
 fun TextView() {
     Text(
-        text = "Message...."
+        text = "Frag mich was"
     )
 }

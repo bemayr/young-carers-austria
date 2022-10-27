@@ -35,8 +35,6 @@ sealed class Welcome(
     var route: String,
 ) {
     object Onboard : Welcome("onboarding_route")
-    object Home: Welcome("home_screen")
-
 }
 
 

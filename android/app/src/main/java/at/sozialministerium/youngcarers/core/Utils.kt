@@ -18,5 +18,10 @@ fun emergency_number_names() = listOf(
 fun emergency_numbers() = listOf(
     "112", "122", "133", "140", "141", "142" , "144", "147"
 )
-
+/* ======================================
+            ChatBot SCREEN
+========================================= */
+fun chatBotNames() = listOf(
+    "Marie", "Emilia", "Anna", "Emma","Lena","Mia", "Laura","Valentina", "Hannah", "Lea", "Paul", "Jakob", "Maximilian", "Elias", "David", "Felix","Leon", "Tobias", "Jonas","Noah"
+)
 

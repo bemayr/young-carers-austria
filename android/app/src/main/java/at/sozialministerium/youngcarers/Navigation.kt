@@ -102,13 +102,6 @@ fun Navigation(
             OnBoarding(navController = navController)
 
         }
-        // Onboardscreen
-        composable(Welcome.Home.route){
-            HomeScreen()
-
-        }
-
-
     }
 }
 
