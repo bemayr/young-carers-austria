@@ -10,6 +10,10 @@ import com.google.gson.annotations.SerializedName
  */
 
 data class Emergency(
+    @SerializedName("content")
+    val content: List<Content>,
+    @SerializedName("numbers")
+    val numbers: List<Number>,
     @SerializedName("state")
     val state: String
 )
