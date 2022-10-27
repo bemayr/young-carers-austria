@@ -55,5 +55,379 @@
       "answer": "Im aktuellen Regierungsprogramm wird ein besonderer Fokus auf die bestmögliche Unterstützung von betreuungs- und pflegebedürftigen Menschen sowie ihrer An- und Zugehörigen und Pflegenden gelegt. Persönliche, gesundheitliche und finanzielle Auswirkungen für pflegende Kinder und Jugendliche sollen durch präventive Maßnahmen und maßgeschneiderte Unterstützungsangebote abgefedert werden.\n\nDie **„Young Carers Austria“ App** des Sozialministeriums gibt individuelle Hilfestellung für pflegende Kinder, Jugendliche und deren Familien bzw. Interessierte. Geboten werden praktische Links und Kontakte, Informationsmaterialien, Anleitungen zur Pflege, ein ABC für Young Carers und vieles mehr.",
       "showOnLandingPage": false
     }
-  ]
+  ],
+  "emergency": {
+    "numbers": [
+      {
+        "label": "Euro-Notruf",
+        "number": 112
+      },
+      {
+        "label": "Feuerwehr",
+        "number": 122
+      },
+      {
+        "label": "Polizei",
+        "number": 133
+      },
+      {
+        "label": "Bergrettung",
+        "number": 140
+      },
+      {
+        "label": "Ärztedienst",
+        "number": 141
+      },
+      {
+        "label": "Telefonseelsorge",
+        "number": 142
+      },
+      {
+        "label": "Rettung",
+        "number": 144
+      },
+      {
+        "label": "Notrufdienst für Kinder und Jugendliche",
+        "number": 147
+      }
+    ],
+    "content": [
+      {
+        "type": "text",
+        "text": "Dieser Text ist **fett**,"
+      },
+      {
+        "type": "text",
+        "text": "\r\n1. beinhaltet\r\n1. eine\r\n1. nummerierte\r\n1. Aufzählung\r\n\r\n"
+      },
+      {
+        "type": "text",
+        "text": "und eine"
+      },
+      {
+        "type": "text",
+        "text": "\r\n* nicht\r\n* nummerierte\r\n* Aufzählung\r\n\r\n"
+      },
+      {
+        "type": "text",
+        "text": "sowie Verweise auf Kategorien"
+      },
+      {
+        "type": "category",
+        "category": {
+          "name": "Zweck der App",
+          "title": "Unterstützung für dich",
+          "information": "Pflegst du jemanden? Mit dieser App wollen wir dich in deiner herausfordernden Lebenssituation unterstützen. **Ziel** ist, dir hier gebündelte Informationen anzubieten und dir bzw. deiner Familie einen Überblick über bestehende Hilfsangebote aufzuzeigen.\r\n\r\nEltern, Lehrer:innen oder andere interessierte Menschen sollen erfahren, was es bedeuten kann, ein Young Carer zu sein und wie sie diese unterstützen können.\r\n\r\nWenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können. Wir freuen uns!",
+          "entries": []
+        }
+      },
+      {
+        "type": "category",
+        "category": {
+          "name": "Finanzielles",
+          "title": "Finanzielle Hilfen bei Pflege und Betreuung zu Hause",
+          "information": "Für betreuende Angehörige sowie für pflegebedürftige Personen gibt es **verschiedene Hilfeleistungen.** Zum Beispiel kann man Dinge/Dienstleistungen billiger oder gratis bekommen. Es gibt viele unterschiedliche Angebote von Hilfen.Finanzielle Unterstützung zu den **Kosten für die Ersatzpflege** soll dabei helfen wenn nahe Angehörigen während ihrer Abwesenheit (z.B. Urlaub oder Krankenstand) eine geeignete Ersatzpflege organisieren und bezahlen müssen. Eine **Förderung der 24-Stunden-Betreuung** kann man **ab Pflegestufe 3** bekommen, egal wieviel Vermögen man hat.\r\n\r\nDamit Job und Pflege gleichzeitig funktionieren gibt es die Pflegekarenz, die Pflegeteilzeit und die Familienhospizkarenz. Damit man während dieser Zeit trotzdem ein Einkommen hat, gibt es das **Pflegekarenzgeld**.\r\n\r\nPflegende Angehörige, welche wegen der Pflege weniger oder gar nicht arbeiten können oder wollen, haben die Möglichkeit, eine **kostenlose Weiter- oder Selbstversicherung in der Pensionsversicherung** in Anspruch zu nehmen. In der **Krankenversicherung** gibt es die Möglichkeit der Mitversicherung und der kostenlosen Selbstversicherung bei sozialer Schutzbedürftigkeit.",
+          "entries": [
+            {
+              "ownerName": "Broschürenservice",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=288",
+                  "title": "\"Das Pflegekarenzgeld\"",
+                  "description": "Folder  als Download",
+                  "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-10-21T04:09:17.517Z",
+                  "keywords": [
+                    "Behinderung",
+                    "Beratung",
+                    "Finanzielles",
+                    "Geld",
+                    "Gesundheit",
+                    "Gesundheitsministerium",
+                    "Hilfe",
+                    "Ministerium",
+                    "Pflege",
+                    "Pflegegeld",
+                    "Pflegeplattform",
+                    "Plattform",
+                    "Sozial",
+                    "Sozialministerium",
+                    "Unterstützung"
+                  ]
+                },
+                {
+                  "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=359",
+                  "title": "\"EIN:BLICK 1 - Kindheit und Jugend\"",
+                  "description": "Broschüre  als Download",
+                  "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-10-21T04:09:17.526Z",
+                  "keywords": [
+                    "Behinderung",
+                    "Beratung",
+                    "Finanzielles",
+                    "Geld",
+                    "Gesundheit",
+                    "Gesundheitsministerium",
+                    "Hilfe",
+                    "Ministerium",
+                    "Pflege",
+                    "Pflegegeld",
+                    "Pflegeplattform",
+                    "Plattform",
+                    "Sozial",
+                    "Sozialministerium",
+                    "Unterstützung"
+                  ]
+                },
+                {
+                  "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=433",
+                  "title": "\"EIN:BLICK 7 - Finanzielles\"",
+                  "description": "Broschüre  als Download",
+                  "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-10-21T04:09:17.534Z",
+                  "keywords": [
+                    "Behinderung",
+                    "Beratung",
+                    "Finanzielles",
+                    "Geld",
+                    "Gesundheit",
+                    "Gesundheitsministerium",
+                    "Hilfe",
+                    "Ministerium",
+                    "Pflege",
+                    "Pflegegeld",
+                    "Pflegeplattform",
+                    "Plattform",
+                    "Sozial",
+                    "Sozialministerium",
+                    "Unterstützung"
+                  ]
+                }
+              ]
+            },
+            {
+              "ownerName": "Broschürenservice des Sozialministeriums",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=331",
+                  "title": "Unterstützungen für pflegende Angehörige",
+                  "description": "Folder als Download",
+                  "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-10-21T04:09:17.074Z",
+                  "keywords": [
+                    "Alltag",
+                    "Angehörige",
+                    "Anlaufstelle",
+                    "Behinderung",
+                    "Beratung",
+                    "Beratungsstelle",
+                    "Betreuung",
+                    "Bruder",
+                    "Bundesland",
+                    "Daheim",
+                    "Eltern",
+                    "FSW",
+                    "Finanzielles",
+                    "Geld",
+                    "Geschwister",
+                    "Gesundheit",
+                    "Gesundheitsministerium",
+                    "Großeltern",
+                    "Hilfe",
+                    "Hilfseinrichtung",
+                    "Kinder",
+                    "Lernen",
+                    "Mama",
+                    "Ministerium",
+                    "Mobil",
+                    "Oma",
+                    "Opa",
+                    "Papa",
+                    "Pflege",
+                    "Pflegegeld",
+                    "Pflegende Angehörige",
+                    "Pflegeplattform",
+                    "Pflegetipps",
+                    "Plattform",
+                    "Rat",
+                    "Schwester",
+                    "Sozial",
+                    "Soziale Dienste",
+                    "Sozialministerium",
+                    "Tipps",
+                    "Unterstützung",
+                    "Wissen",
+                    "Young Carer",
+                    "Zu Hause",
+                    "Zugehörige",
+                    "Zuhause",
+                    "praktisch"
+                  ]
+                }
+              ]
+            },
+            {
+              "ownerName": "Bundeskanzleramt",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "https://www.bundeskanzleramt.gv.at/familienportal",
+                  "title": "Familienportal",
+                  "description": "Das Familienportal bietet umfangreiche Infos zu finanziellen Themen rund um die Familie.",
+                  "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-10-21T04:09:16.936Z",
+                  "keywords": [
+                    "BKA",
+                    "Bundeskanzleramt",
+                    "Kanzler",
+                    "Österreich"
+                  ]
+                }
+              ]
+            },
+            {
+              "ownerName": "Sozialministeriumservice",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "https://www.sozialministeriumservice.at/Finanzielles/Finanzielle_Unterstuetzung/Sonstige_finanzielle_Vorteile/Sonstige_finanzielle_Vorteile_und_Unterstuetzungen.de.html",
+                  "title": "Finanzielle Hilfe",
+                  "description": "Hier findest du sonstige Unterstützungen des Sozialministeriumservice.",
+                  "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-10-21T04:09:18.020Z",
+                  "keywords": [
+                    "Behinderung",
+                    "Beratung",
+                    "Finanzielles",
+                    "Geld",
+                    "Gesundheit",
+                    "Hilfe",
+                    "Pflege",
+                    "Sozial",
+                    "Sozialministeriumservice",
+                    "Unterstützung"
+                  ]
+                },
+                {
+                  "url": "https://www.sozialministeriumservice.at/Finanzielles/Pflegeunterstuetzungen/Pflegeunterstuetzungen.de.html",
+                  "title": "Pflegeunterstützungen",
+                  "description": "Hier kannst du dich über Unterstützungen des Sozialministeriumservice informieren.",
+                  "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-10-21T04:09:18.026Z",
+                  "keywords": [
+                    "Behinderung",
+                    "Beratung",
+                    "Finanzielles",
+                    "Geld",
+                    "Gesundheit",
+                    "Hilfe",
+                    "Pflege",
+                    "Sozial",
+                    "Sozialministeriumservice",
+                    "Unterstützung"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "text": "und einzelne Beiträge"
+      },
+      {
+        "type": "reference",
+        "reference": {
+          "url": "https://village.lbg.ac.at/",
+          "title": "Village Projekt",
+          "description": "Das Village-Forschungsprojekt der Ludwig Boltzmann Gesellschaft und der Medizinischen Universität Innsbruck zielt darauf ab, ein besseres Verständnis dafür zu schaffen, wie Kinder psychisch kranker Eltern unterstützt werden können.",
+          "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+          "isPaidContent": false,
+          "lastUpdated": "2022-10-21T04:09:16.659Z",
+          "keywords": [
+            "Angehörige",
+            "Behinderung",
+            "Beratung",
+            "Bildung",
+            "Bruder",
+            "Bundesland",
+            "Eltern",
+            "Finanzielles",
+            "Forschung",
+            "Geld",
+            "Geschwister",
+            "Gesundheit",
+            "Gesundheitsministerium",
+            "Großeltern",
+            "Hilfe",
+            "Innsbruck",
+            "Jugendliche",
+            "Junge",
+            "Kinder",
+            "LBG Village",
+            "Ludwig Boltzmann Institut",
+            "Mama",
+            "Ministerium",
+            "Mutter",
+            "Oma",
+            "Opa",
+            "Papa",
+            "Pflege",
+            "Pflegegeld",
+            "Pflegeplattform",
+            "Plattform",
+            "Schwester",
+            "Sozial",
+            "Sozialministerium",
+            "Tirol",
+            "Universität",
+            "Unterstützung",
+            "Vater",
+            "Verständnis",
+            "Wissen",
+            "Young Carers",
+            "krank",
+            "psychisch"
+          ]
+        }
+      },
+      {
+        "type": "reference",
+        "reference": {
+          "url": "https://bittelebe.at/",
+          "title": "Bitte Lebe - Hilfe bei Suizidgedanken",
+          "description": "Du hast Angst, dass sich dein Freund oder deine Freundin etwas antut? In den Videos findest du viele Tipps, wie du helfen kannst.",
+          "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+          "isPaidContent": false,
+          "lastUpdated": "2022-10-21T04:09:16.735Z",
+          "keywords": [
+            "Alltag",
+            "Beratung",
+            "Hilfe",
+            "Lernen",
+            "Pflege",
+            "Rat",
+            "Tipps",
+            "Unterstützung",
+            "Wissen",
+            "praktisch"
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "text": "sowie einen [Link 🌐](https://github.com/bemayr/young-carers-austria)Link 🌐, einen weiteren [Link ☎️](tel:1234567890)Link ☎️ und eine [Mail-Adresse ✉️](mailto:test@test.com)Mail-Adresse ✉️"
+      }
+    ]
+  }
 }
