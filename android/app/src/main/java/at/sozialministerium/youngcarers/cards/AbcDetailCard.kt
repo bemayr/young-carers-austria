@@ -36,7 +36,8 @@ fun AbcDetailCard(
 
     var viewTitle = data.name
 
-    val errorHandling = "/"
+    val apiErrorValue = "/"
+    val newApiValue = "%2F"
 
     Row(
         modifier = Modifier
@@ -47,10 +48,12 @@ fun AbcDetailCard(
             backgroundColor = Color.White,
             modifier = Modifier.fillMaxWidth(),
             onClick = {
-
+                if (data.name.contains("/")) {
+                    var newLink = data.name.replace(apiErrorValue, newApiValue)
+                    onClick(newLink)
+                } else {
                     onClick(data.name)
-
-
+                }
             }
         ) {
             Row(
