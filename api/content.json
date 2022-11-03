@@ -1900,8 +1900,8 @@
         {
           "type": "category",
           "category": {
-            "name": "Demenz(strategie)",
-            "title": "Was ist unter Demenz und der Österreichischen Demenzstrategie zu verstehen?",
+            "name": "Demenz ",
+            "title": "Was ist unter Demenz und der Österreichischen Demenzstrategie zu verstehen? ",
             "information": "Was genau ist Demenz? Je älter man wird, desto größer ist auch der Verlust an Gehirnzellen. Das ist ein ganz normaler Vorgang. Allerdings läuft das Absterben von Gehirnzellen bei einer Demenz **viel schneller** ab. Durch die zunehmende Vergesslichkeit und beeinträchtigte Gehirnfunktion, sowie durch **emotionale und soziale Verhaltensänderungen** macht sich dieser schnellere Verlust bemerkbar. Erkrankte können ihren Alltag immer weniger selbständig bewältigen.\r\n\r\nDie pflegende Person muss viel Einfühlungsvermögen, Geduld aber auch Wissen über diese Krankheit mitbringen, denn durch spezielle Pflege und Betreuung kann man den Verlauf verzögern und die Lebensqualität der betroffenen Person verbessern. Mehr als **130.000** Menschen leiden daran, die bekannteste Form ist die **Alzheimer-Krankheit**.\r\n\r\nDie Demenzstrategie **Gut leben mit Demenz** soll eine Unterstützung für Menschen und Organisationen bieten, die mit Demenzpatient:innen arbeiten, sie betreuen oder sich anderweitig mit dem Thema befassen. Das oberste Ziel der Strategie ist die **bestmögliche Lebensqualität** für Demenzerkrankte und deren Angehörige. Um das Ziel zu erreichen, wird mit Bund, Ländern, Gemeinden, Trägereinrichtungen sowie Expert:innen eng zusammengearbeitet. Auf der Website der [**Demenzstrategie**](www.demenzstrategie.at) befinden sich alle nützlichen Informationen, Praxisbeispiele und Materialien für Betroffene und Angehörige.",
             "entries": [
               {
@@ -2087,11 +2087,11 @@
                 "references": [
                   {
                     "url": "https://www.infoservice.sozialministerium.at/willkommen",
-                    "title": "Infoservice soziale Dienste",
+                    "title": "Infoservice soziale Dienste ",
                     "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:28.473Z",
+                    "lastUpdated": "2022-11-03T09:44:39.357Z",
                     "keywords": [
                       "Ausland",
                       "Behinderung",
@@ -4389,8 +4389,8 @@
       ]
     },
     {
-      "name": "Demenz(strategie)",
-      "title": "Was ist unter Demenz und der Österreichischen Demenzstrategie zu verstehen?",
+      "name": "Demenz ",
+      "title": "Was ist unter Demenz und der Österreichischen Demenzstrategie zu verstehen? ",
       "information": "Was genau ist Demenz? Je älter man wird, desto größer ist auch der Verlust an Gehirnzellen. Das ist ein ganz normaler Vorgang. Allerdings läuft das Absterben von Gehirnzellen bei einer Demenz **viel schneller** ab. Durch die zunehmende Vergesslichkeit und beeinträchtigte Gehirnfunktion, sowie durch **emotionale und soziale Verhaltensänderungen** macht sich dieser schnellere Verlust bemerkbar. Erkrankte können ihren Alltag immer weniger selbständig bewältigen.\r\n\r\nDie pflegende Person muss viel Einfühlungsvermögen, Geduld aber auch Wissen über diese Krankheit mitbringen, denn durch spezielle Pflege und Betreuung kann man den Verlauf verzögern und die Lebensqualität der betroffenen Person verbessern. Mehr als **130.000** Menschen leiden daran, die bekannteste Form ist die **Alzheimer-Krankheit**.\r\n\r\nDie Demenzstrategie **Gut leben mit Demenz** soll eine Unterstützung für Menschen und Organisationen bieten, die mit Demenzpatient:innen arbeiten, sie betreuen oder sich anderweitig mit dem Thema befassen. Das oberste Ziel der Strategie ist die **bestmögliche Lebensqualität** für Demenzerkrankte und deren Angehörige. Um das Ziel zu erreichen, wird mit Bund, Ländern, Gemeinden, Trägereinrichtungen sowie Expert:innen eng zusammengearbeitet. Auf der Website der [**Demenzstrategie**](www.demenzstrategie.at) befinden sich alle nützlichen Informationen, Praxisbeispiele und Materialien für Betroffene und Angehörige.",
       "entries": [
         {
@@ -4634,11 +4634,11 @@
           "references": [
             {
               "url": "https://www.infoservice.sozialministerium.at/willkommen",
-              "title": "Infoservice soziale Dienste",
+              "title": "Infoservice soziale Dienste ",
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:28.473Z",
+              "lastUpdated": "2022-11-03T09:44:39.357Z",
               "keywords": [
                 "Ausland",
                 "Behinderung",
@@ -6439,68 +6439,6 @@
       ]
     },
     {
-      "name": "Infoservice des Sozialministeriums",
-      "title": "Infoservice des Sozialministeriums",
-      "information": "Das [**Infoservice des Sozialministeriums**](https://www.infoservice.sozialministerium.at/willkommen) bietet **vielfältige Informationen** über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen der öffentlichen und privaten Wohlfahrt in deiner Region. Suchen kannst du sowohl nach **individuellen Suchbegriffen**, aber auch nach **Lebenssituationen** sowie **Themengruppen**.",
-      "entries": [
-        {
-          "ownerName": "Infoservice des Sozialministeriums",
-          "ownerUrl": "",
-          "references": [
-            {
-              "url": "https://www.infoservice.sozialministerium.at/willkommen",
-              "title": "Infoservice soziale Dienste",
-              "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
-              "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-              "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:28.473Z",
-              "keywords": [
-                "Ausland",
-                "Behinderung",
-                "Beratung",
-                "Betreuung",
-                "Bildung",
-                "Bundesland",
-                "Daheim",
-                "Eltern",
-                "FSW",
-                "Finanzielles",
-                "Geld",
-                "Gesundheit",
-                "Gesundheitsministerium",
-                "Großeltern",
-                "Hilfe",
-                "International",
-                "Kurs",
-                "Lernen",
-                "Mama",
-                "Ministerium",
-                "Mobil",
-                "Oma",
-                "Opa",
-                "Organisation",
-                "Papa",
-                "Pflege",
-                "Pflegegeld",
-                "Pflegeplattform",
-                "Plattform",
-                "Schulung",
-                "Sozial",
-                "Soziale Dienste",
-                "Sozialministerium",
-                "Unterricht",
-                "Unterstützung",
-                "Wissen",
-                "Young Minds UK",
-                "Zu Hause",
-                "Zuhause"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Jugend",
       "title": "Jugendportal und Jugendinfostellen",
       "information": "Das [Jugendportal](https://www.jugendportal.at) und die [Jugendinfostellen](https://www.jugendinfo.at/ueber-uns/jugendinfostellen) der Bundesländer helfen dir bei Fragen weiter und informieren dich zu vielen Themen und Projekten, die junge Menschen betreffen und interessieren.",
@@ -7023,11 +6961,11 @@
           "references": [
             {
               "url": "https://www.infoservice.sozialministerium.at/willkommen",
-              "title": "Infoservice soziale Dienste",
+              "title": "Infoservice soziale Dienste ",
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:28.473Z",
+              "lastUpdated": "2022-11-03T09:44:39.357Z",
               "keywords": [
                 "Ausland",
                 "Behinderung",
@@ -7306,11 +7244,11 @@
           "references": [
             {
               "url": "https://www.infoservice.sozialministerium.at/willkommen",
-              "title": "Infoservice soziale Dienste",
+              "title": "Infoservice soziale Dienste ",
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:28.473Z",
+              "lastUpdated": "2022-11-03T09:44:39.357Z",
               "keywords": [
                 "Ausland",
                 "Behinderung",
@@ -8437,11 +8375,11 @@
           "references": [
             {
               "url": "https://www.infoservice.sozialministerium.at/willkommen",
-              "title": "Infoservice soziale Dienste",
+              "title": "Infoservice soziale Dienste ",
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:28.473Z",
+              "lastUpdated": "2022-11-03T09:44:39.357Z",
               "keywords": [
                 "Ausland",
                 "Behinderung",
@@ -10667,5 +10605,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:40:05.729Z"
+  "timestamp": "2022-11-03T09:46:05.472Z"
 }
