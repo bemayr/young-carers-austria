@@ -8498,36 +8498,6 @@
       ]
     },
     {
-      "name": "Service für Bürgerinnen und Bürger",
-      "title": "Beratung und Orientierung zu Fragen aus dem Sozialbereich",
-      "information": "Das [**Service für Bürger:innen des Sozialministeriums**](https://www.sozialministerium.at/Services/Service-fuer-Buergerinnen-und-Buerger.html) informiert und berät in allgemeinen sozialen Fragen, auch bei Pflege in der Familie. Eine qualifizierte Auskunft sowie Vertraulichkeit stehen dabei an erster Stelle. Du kannst deine Fragen per [E-Mail](buergerservice@sozialministerium.at) stellen. Für telefonische Anfragen ist das Bürger:innenservice Montag bis Freitag von 8 bis 16 Uhr gebührenfrei unter [**0800 201 611**](tel:0800201611) zu erreichen.",
-      "entries": [
-        {
-          "ownerName": "Sozialministerium",
-          "ownerUrl": "",
-          "references": [
-            {
-              "url": "https://www.sozialministerium.at/Services/Service-fuer-Buergerinnen-und-Buerger.html",
-              "title": "Service für Bürgerinnen und Bürger",
-              "description": "Folgender Link führt dich zum Service für Bürgerinnen und Bürger des Sozialministeriums.",
-              "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-              "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:29.088Z",
-              "keywords": [
-                "Anlaufstelle",
-                "Beratung",
-                "Beratungsstelle",
-                "Hilfe",
-                "Hilfseinrichtung",
-                "Rat",
-                "Unterstützung"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Social Media",
       "title": "Social Media der Organisationen",
       "information": "Du findest zusätzliche/weiterführende Informationen bzw. Neuigkeiten über Young Carers auch in diversen Social Media Kanälen, z.B. auf Facebook.",
@@ -8624,8 +8594,8 @@
       ]
     },
     {
-      "name": "Sozialministerium",
-      "title": "Sozialministerium",
+      "name": "Sozialministerium ",
+      "title": "Sozialministerium ",
       "information": "Das Sozialministerium beschäftigt sich unter anderem mit **Angeboten zur Unterstützung für pflegende Angehörige**. Auch die Herausforderungen, mit denen Young Carers konfrontiert sind, sind hier ein großes Thema. So wurden verschiedene Aktionen durchgeführt, um die Öffentlichkeit auf pflegende Kinder und Jugendliche - was sie tun und wieviel sie leisten - aufmerksam zu machen.\r\n\r\nAußerdem gibt es **verschiedene Hilfsangebote** für betreuende und pflegende Angehörige, z.B. kostenlose Kranken- und Pensionsversicherung, Pflegekarenz, Familienhospizkarenz, Pflegekarenzgeld, etc.",
       "entries": [
         {
@@ -8707,6 +8677,23 @@
                 "Zu Hause",
                 "Zugehörige",
                 "Zuhause"
+              ]
+            },
+            {
+              "url": "https://www.sozialministerium.at/Services/Service-fuer-Buergerinnen-und-Buerger.html",
+              "title": "Service für Bürgerinnen und Bürger",
+              "description": "Folgender Link führt dich zum Service für Bürgerinnen und Bürger des Sozialministeriums.",
+              "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-03T03:50:29.088Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Rat",
+                "Unterstützung"
               ]
             }
           ]
@@ -10414,5 +10401,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:55:00.560Z"
+  "timestamp": "2022-11-03T09:57:23.823Z"
 }
