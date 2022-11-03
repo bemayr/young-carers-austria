@@ -7272,9 +7272,9 @@
       ]
     },
     {
-      "name": "Notfall(nummern)",
-      "title": "Welche Nummer wähle ich im Notfall?",
-      "information": "Für den Ernstfall:\r\n\r\n\r\n* **Feuerwehr**: [122](tel:122)\r\n* **Polizei**: [133](tel:133)\r\n* **Rettung**: [144](tel:144)\r\n* **Ärztebereitschaftsdienst**: [141](tel:141)\r\n\r\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\r\n\r\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+      "name": "Notfall(nummern) ",
+      "title": "Welche Nummer wähle ich im Notfall? ",
+      "information": "Für den Ernstfall:\r\n\r\n\r\n* **Feuerwehr**: [122](tel:122)\r\n* **Polizei**: [133](tel:133)\r\n* **Rettung**: [144](tel:144)\r\n* **Ärztebereitschaftsdienst**: [141](tel:141)\r\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\r\n\r\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\r\n\r\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
       "entries": [
         {
           "ownerName": "austria4kids",
@@ -10401,5 +10401,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:57:23.823Z"
+  "timestamp": "2022-11-03T10:00:59.011Z"
 }
