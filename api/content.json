@@ -1555,6 +1555,15 @@
           "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Dadurch hat Mama die notwendige Zeit, sich um den kranken Papa zu kümmern."
         }
       ]
+    },
+    {
+      "question": "Stress in der Schule",
+      "content": [
+        {
+          "type": "text",
+          "text": "Manchmal schafft es Mario nicht, pünktlich in der Schule zu sein. Er hat in der Früh zu Hause einfach zu viel zu tun. In der Klasse ist er dann manchmal müde und hat Probleme dem Unterricht zu folgen. Es kann aber auch passieren, dass das Handy läutet und Mario muss schnell nach Hause, weil er dort dringend für die Betreuung seines Vaters gebraucht wird. Das führt dazu, dass er immer mehr Fehlstunden in der Schule hat. Seine Noten werden auch schlechter, weil er sich nicht genug auf Tests und Prüfungen vorbereiten kann."
+        }
+      ]
     }
   ],
   "abc": [
@@ -9368,5 +9377,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:27:28.631Z"
+  "timestamp": "2022-11-03T09:28:25.270Z"
 }
