@@ -481,7 +481,7 @@
                     "description": "Folder  als Download",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.507Z",
+                    "lastUpdated": "2022-11-03T03:50:28.913Z",
                     "keywords": [
                       "Behinderung",
                       "Beratung",
@@ -506,7 +506,7 @@
                     "description": "Broschüre  als Download",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.512Z",
+                    "lastUpdated": "2022-11-03T03:50:28.920Z",
                     "keywords": [
                       "Behinderung",
                       "Beratung",
@@ -531,7 +531,7 @@
                     "description": "Broschüre  als Download",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.516Z",
+                    "lastUpdated": "2022-11-03T03:50:28.925Z",
                     "keywords": [
                       "Behinderung",
                       "Beratung",
@@ -562,7 +562,7 @@
                     "description": "Folder als Download",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.182Z",
+                    "lastUpdated": "2022-11-03T03:50:28.481Z",
                     "keywords": [
                       "Alltag",
                       "Angehörige",
@@ -625,7 +625,7 @@
                     "description": "Das Familienportal bietet umfangreiche Infos zu finanziellen Themen rund um die Familie.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.045Z",
+                    "lastUpdated": "2022-11-03T03:50:28.349Z",
                     "keywords": [
                       "BKA",
                       "Bundeskanzleramt",
@@ -645,7 +645,7 @@
                     "description": "Hier findest du sonstige Unterstützungen des Sozialministeriumservice.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.856Z",
+                    "lastUpdated": "2022-11-03T03:50:29.322Z",
                     "keywords": [
                       "Behinderung",
                       "Beratung",
@@ -665,7 +665,7 @@
                     "description": "Hier kannst du dich über Unterstützungen des Sozialministeriumservice informieren.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.861Z",
+                    "lastUpdated": "2022-11-03T03:50:29.328Z",
                     "keywords": [
                       "Behinderung",
                       "Beratung",
@@ -696,7 +696,7 @@
             "description": "Das Village-Forschungsprojekt der Ludwig Boltzmann Gesellschaft und der Medizinischen Universität Innsbruck zielt darauf ab, ein besseres Verständnis dafür zu schaffen, wie Kinder psychisch kranker Eltern unterstützt werden können.",
             "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
             "isPaidContent": false,
-            "lastUpdated": "2022-10-27T04:01:02.796Z",
+            "lastUpdated": "2022-11-03T03:50:28.076Z",
             "keywords": [
               "Angehörige",
               "Behinderung",
@@ -752,7 +752,7 @@
             "description": "Du hast Angst, dass sich dein Freund oder deine Freundin etwas antut? In den Videos findest du viele Tipps, wie du helfen kannst.",
             "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
             "isPaidContent": false,
-            "lastUpdated": "2022-10-27T04:01:02.864Z",
+            "lastUpdated": "2022-11-03T03:50:28.166Z",
             "keywords": [
               "Alltag",
               "Beratung",
@@ -770,94 +770,6 @@
         {
           "type": "text",
           "text": "sowie einen [Link 🌐](https://github.com/bemayr/young-carers-austria)Link 🌐, einen weiteren [Link ☎️](tel:1234567890)Link ☎️ und eine [Mail-Adresse ✉️](mailto:test@test.com)Mail-Adresse ✉️"
-        }
-      ]
-    },
-    {
-      "question": "Was mache ich, wenn Mama oder Papa gestürzt ist?",
-      "content": [
-        {
-          "type": "text",
-          "text": "Erstmal wichtig: **Ruhig bleiben!**"
-        },
-        {
-          "type": "text",
-          "text": "Dann musst du schauen, ob die Person bei Bewusstsein ist - also ob sie mit dir sprechen kann."
-        },
-        {
-          "type": "text",
-          "text": "Wenn sie sprechen kann, fragst du ob ihr etwas weh tut."
-        },
-        {
-          "type": "text",
-          "text": "Wenn du Hilfe brauchst, rufst du die Notrufnummer 144 an. **Wichtig**: **Gut zuhören und möglichst genaue Antworten geben.**"
-        },
-        {
-          "type": "category",
-          "category": {
-            "name": "Notfall(nummern)",
-            "title": "Welche Nummer wähle ich im Notfall?",
-            "information": "Für den Ernstfall:\r\n\r\n\r\n* **Feuerwehr**: [122](tel:122)\r\n* **Polizei**: [133](tel:133)\r\n* **Rettung**: [144](tel:144)\r\n* **Ärztebereitschaftsdienst**: [141](tel:141)\r\n\r\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\r\n\r\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
-            "entries": [
-              {
-                "ownerName": "austria4kids",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "http://www.austria4kids.at/notruf-hilfe-kinder.html",
-                    "title": "Notrufe und Hilfe für Kinder",
-                    "description": "Hier sind Notrufe und Kontaktadressen für Kinder in Krisensituationen gesammelt.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.755Z",
-                    "keywords": [
-                      "Anlaufstelle",
-                      "Beratungsstelle",
-                      "Freizeit",
-                      "Hilfe",
-                      "Hilfseinrichtung",
-                      "Organisation",
-                      "Rat",
-                      "Tipps",
-                      "Unterstützung",
-                      "austria4kids"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Kindernotruf",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "http://www.verein-lichtblick.at/kindernotruf-3/",
-                    "title": "Wohin mit meinen Sorgen?",
-                    "description": "Der Kindernotruf hat ein offenes Ohr!",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.749Z",
-                    "keywords": [
-                      "Anrufen",
-                      "E-Mail",
-                      "Hilfe",
-                      "Kinder",
-                      "Kindernotruf",
-                      "Lichtblick",
-                      "Mail",
-                      "Notruf",
-                      "Sorgen",
-                      "Telefon",
-                      "Verein Lichtblick"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "text": "Wenn du alleine nicht zurecht kommst, dann kontaktiere Nachbarn oder Verwandte."
         }
       ]
     },
@@ -889,7 +801,7 @@
                     "description": "Hier setzt man sich für dein Wohlbefinden ein. Mobbing an Schulen soll verhindert werden.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:02.977Z",
+                    "lastUpdated": "2022-11-03T03:50:28.290Z",
                     "keywords": [
                       "Beratung",
                       "Bildung",
@@ -924,7 +836,7 @@
                     "description": "Die Schulpsychologie nimmt sich der Fragen und Probleme von Schüler/innen, Eltern und Lehrpersonen, die sich im schulischen Alltag ergeben, aus psychologischer Sicht an.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.677Z",
+                    "lastUpdated": "2022-11-03T03:50:29.106Z",
                     "keywords": [
                       "BMBWF",
                       "Bildung",
@@ -949,7 +861,7 @@
                     "description": "Die Schulsozialarbeit kommt inner- und außerhalb der Schule zum Einsatz und umfasst den gesamten Sozialraum, in dem sich Schüler/innen bewegen.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.672Z",
+                    "lastUpdated": "2022-11-03T03:50:29.100Z",
                     "keywords": [
                       "BMBWF",
                       "Beratung",
@@ -1004,7 +916,7 @@
                     "description": "Hier findest du Projekte für Kinder und Jugendliche in psychischen Krisen.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.001Z",
+                    "lastUpdated": "2022-11-03T03:50:28.309Z",
                     "keywords": [
                       "Beratung",
                       "Hilfe",
@@ -1024,7 +936,7 @@
                     "description": "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.117Z",
+                    "lastUpdated": "2022-11-03T03:50:28.418Z",
                     "keywords": [
                       "Anlaufstelle",
                       "Diagnose",
@@ -1047,7 +959,7 @@
                     "description": "Er ist Bestandteil des Lebens und kann auch positiv sein. Zu viel davon macht uns aber krank. Verursacher können z.B. einschneidende Ereignisse, private oder schulische Probleme sein. Wichtig ist, wie wir damit umgehen. Es gibt hilfreiche Möglichkeiten, anspruchsvolle Situationen zu meistern.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.457Z",
+                    "lastUpdated": "2022-11-03T03:50:28.858Z",
                     "keywords": [
                       "Anlaufstelle",
                       "Beratung",
@@ -1070,7 +982,7 @@
                     "description": "In der Schule ist bald wieder ein Test zu schreiben und du bist schon wieder im Stress? Strategien zu Lernen und Schulstress findest du hier zum Nachlesen.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.644Z",
+                    "lastUpdated": "2022-11-03T03:50:29.066Z",
                     "keywords": [
                       "Anlaufstelle",
                       "Beratungsstelle",
@@ -1110,7 +1022,7 @@
                     "description": "Unter dem nachstehenden Link findest du die Videoserie \"Die acht Schätze\" zur Entspannung.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:02.896Z",
+                    "lastUpdated": "2022-11-03T03:50:28.205Z",
                     "keywords": [
                       "Anlaufstelle",
                       "Diagnose",
@@ -1133,7 +1045,7 @@
                     "description": "Wenn du diesen Link anklickst findest du Tipps für die seelische Balance.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.110Z",
+                    "lastUpdated": "2022-11-03T03:50:28.412Z",
                     "keywords": [
                       "Anlaufstelle",
                       "Diagnose",
@@ -1156,7 +1068,7 @@
                     "description": "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.117Z",
+                    "lastUpdated": "2022-11-03T03:50:28.418Z",
                     "keywords": [
                       "Anlaufstelle",
                       "Diagnose",
@@ -1185,7 +1097,7 @@
                     "description": "Hier bietet dir \"veRRückte Kindheit\" Selbsthilfetipps für zu Hause an.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.153Z",
+                    "lastUpdated": "2022-11-03T03:50:28.453Z",
                     "keywords": [
                       "Beratung",
                       "Chatten",
@@ -1233,7 +1145,7 @@
                     "description": "Austria4Kids hat Freizeittipps für Familien parat.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.845Z",
+                    "lastUpdated": "2022-11-03T03:50:29.309Z",
                     "keywords": [
                       "Anlaufstelle",
                       "Beratungsstelle",
@@ -1259,7 +1171,7 @@
                     "description": "Hier findest du kostenlose Freizeitangebote . Von sportlichen Kursen wie Basketball, über Kickboxen bis hin zu kreativen Kursen wie Street Art ist alles dabei.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:02.962Z",
+                    "lastUpdated": "2022-11-03T03:50:28.276Z",
                     "keywords": [
                       "Auszeit",
                       "Entspannung",
@@ -1281,7 +1193,7 @@
                     "description": "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.849Z",
+                    "lastUpdated": "2022-11-03T03:50:29.316Z",
                     "keywords": [
                       "Angehörige",
                       "Betreuung",
@@ -1317,7 +1229,7 @@
                     "description": "Get-social - Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.242Z",
+                    "lastUpdated": "2022-11-03T03:50:28.540Z",
                     "keywords": [
                       "Beratung",
                       "Hilfe",
@@ -1344,7 +1256,7 @@
                     "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.168Z",
+                    "lastUpdated": "2022-11-03T03:50:28.466Z",
                     "keywords": [
                       "Alltag",
                       "Anlaufstelle",
@@ -1382,7 +1294,7 @@
             "description": "Was tun mit den eigenen Bedürfnissen, wenn die Eltern oder Großeltern krank sind und Pflege brauchen? 147 - Rat auf Draht ist der österreichische Notruf für Kinder, Jugendliche und deren Bezugspersonen. Du kannst wählen zwischen Telefonberatung rund um die Uhr, Online- oder Chat-Beratung.",
             "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
             "isPaidContent": false,
-            "lastUpdated": "2022-10-27T04:01:03.398Z",
+            "lastUpdated": "2022-11-03T03:50:28.777Z",
             "keywords": [
               "147",
               "147 - Rat auf Draht",
@@ -1407,7 +1319,7 @@
             "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
             "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
             "isPaidContent": false,
-            "lastUpdated": "2022-10-27T04:01:03.160Z",
+            "lastUpdated": "2022-11-03T03:50:28.460Z",
             "keywords": [
               "Alltag",
               "Angehörige",
@@ -1437,1132 +1349,6 @@
           }
         }
       ]
-    },
-    {
-      "question": "Wir brauchen Hilfe daheim",
-      "content": [
-        {
-          "type": "text",
-          "text": "Wenn es ohne Hilfe von außen nicht geht, dann kann man sich über Mobile Dienste Hilfe holen. Da kommt jemand ins Haus und hilft im Haushalt oder bei der Körperpflege. "
-        },
-        {
-          "type": "category",
-          "category": {
-            "name": "Dienstleistungen / Soziale Dienste",
-            "title": "Was sind soziale Dienste?",
-            "information": "Das **Ziel** der sozialen Dienste ist **Menschen mit Pflegebedarf oder Beeinträchtigungen** in verschiedenen Lebenssituationen zu unterstützen. Für Soziale Dienste sind die Bundesländer und Gemeinden zuständig. Auch **freie Wohlfahrtsträger** wie [Volkshilfe](https://www.volkshilfe.at), [Hilfswerk](https://www.hilfswerk.at/oesterreich/pflegekompass/), [Rotes Kreuz](https://www.roteskreuz.at/ich-brauche-hilfe), [Caritas](https://www.caritas-pflege.at/), [Diakonie](https://diakonie.at/) oder [Samariterbund](https://www.samariterbund.net/pflege-und-betreuung/) sowie in Wien der [Fonds Soziales Wien](https://www.fsw.at/p/pflege-betreuung), bieten diese Leistungen an.\r\n\r\nÜber das umfangreiche Angebot an Alten- und Pflegeheimen in ganz Österreich sowie Tagesbetreuung, Kurzzeitpflege, Wohngemeinschaften, Alltagsbegleitung sowie Entlastungsdienste kannst du dich beim [**Infoservice des Sozialministeriums**](https://www.infoservice.sozialministerium.at) informieren.",
-            "entries": [
-              {
-                "ownerName": "Burgenland",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.burgenland.at/themen/pflege/erste-schritte-so-finden-sie-die-passende-unterstuetzung/",
-                    "title": "Pflege Burgenland",
-                    "description": "Das Land Burgenland bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.955Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Burgenland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Gesundheit Österreich GmbH",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://cn-oesterreich.at/",
-                    "title": "Community Nursing",
-                    "description": "Community Nurses sind diplomierte Gesundheits- und Krankenpflegepersonen welche wohnortnah ihre Dienstleistung anbieten. Sie sollen z.B. dabei helfen, dass ältere Personen weiterhin zu Hause leben können. Es gibt zur Zeit 120 Pilotprojekte in ganz Österreich.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:02.857Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Infoservice des Sozialministeriums",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.infoservice.sozialministerium.at/willkommen",
-                    "title": "Infoservice soziale Dienste",
-                    "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.174Z",
-                    "keywords": [
-                      "Ausland",
-                      "Behinderung",
-                      "Beratung",
-                      "Betreuung",
-                      "Bildung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Großeltern",
-                      "Hilfe",
-                      "International",
-                      "Kurs",
-                      "Lernen",
-                      "Mama",
-                      "Ministerium",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Organisation",
-                      "Papa",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegeplattform",
-                      "Plattform",
-                      "Schulung",
-                      "Sozial",
-                      "Soziale Dienste",
-                      "Sozialministerium",
-                      "Unterricht",
-                      "Unterstützung",
-                      "Wissen",
-                      "Young Minds UK",
-                      "Zu Hause",
-                      "Zuhause"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Kärnten",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131",
-                    "title": "Pflege Kärnten",
-                    "description": "Das Land Kärten bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.948Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Kärnten",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Niederösterreich",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.noel.gv.at/noe/Pflege/Pflege.html",
-                    "title": "Pflege Niederösterreich",
-                    "description": "Das Land Niederösterreich bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.233Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Mama",
-                      "Mobil",
-                      "Niederösterreich",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Oberösterreich",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.land-oberoesterreich.gv.at/524.htm",
-                    "title": "Pflege Oberösterreich",
-                    "description": "Das Land Oberösterreich bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.941Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Mama",
-                      "Mobil",
-                      "Oberösterreich",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Salzburg",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.salzburg.gv.at/themen/soziales/pflege-und-betreuung",
-                    "title": "Pflege Salzburg",
-                    "description": "Das Land Salzburg bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.936Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Salzburg",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Sozialministerium",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.sozialministerium.at/Themen/Pflege/Dienstleistungen-Soziale-Dienste.html",
-                    "title": "Soziale Dienste erklärt",
-                    "description": "Soziale Dienste sind für Menschen mit Pflegebedarf und Menschen mit Behinderungen damit diese so betreut werden können wie sie das selbst möchten.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.532Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Beratung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Großeltern",
-                      "Hilfe",
-                      "Mama",
-                      "Ministerium",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegeplattform",
-                      "Plattform",
-                      "Sozial",
-                      "Soziale Dienste",
-                      "Sozialministerium",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Steiermark",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.gesundheit.steiermark.at/cms/ziel/142146817/DE/",
-                    "title": "Pflege Steiermark",
-                    "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.613Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Steiermark",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Tirol",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste-in-tirol/",
-                    "title": "Pflege Tirol",
-                    "description": "Hier werden Informationen zu Mobilen Diensten in Tirol angeboten.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.929Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Tirol",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Vorarlberg",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.vorarlberg.care/startseite/",
-                    "title": "Pflege Vorarlberg",
-                    "description": "Das Land Vorarlberg bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.060Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Vorarlberg",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Wien / Fonds Soziales Wien",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.fsw.at/p/pflege-betreuung",
-                    "title": "Pflege Wien",
-                    "description": "Hier bietet der Fonds Soziales Wien Informationen zu Pflegethemen an.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.922Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Wien",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "category",
-          "category": {
-            "name": "Lokale Angebote",
-            "title": "Wo finde ich mehr Informationen?",
-            "information": "Im Infoservice des Sozialministeriums findest du vielfältige Informationen über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen der öffentlichen und privaten Wohlfahrt. Suchen kannst du sowohl nach individuellen Suchbegriffen, aber auch nach Lebenssituationen sowie Themengruppen.",
-            "entries": [
-              {
-                "ownerName": "Infoservice des Sozialministeriums",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.infoservice.sozialministerium.at/willkommen",
-                    "title": "Infoservice soziale Dienste",
-                    "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.174Z",
-                    "keywords": [
-                      "Ausland",
-                      "Behinderung",
-                      "Beratung",
-                      "Betreuung",
-                      "Bildung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Großeltern",
-                      "Hilfe",
-                      "International",
-                      "Kurs",
-                      "Lernen",
-                      "Mama",
-                      "Ministerium",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Organisation",
-                      "Papa",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegeplattform",
-                      "Plattform",
-                      "Schulung",
-                      "Sozial",
-                      "Soziale Dienste",
-                      "Sozialministerium",
-                      "Unterricht",
-                      "Unterstützung",
-                      "Wissen",
-                      "Young Minds UK",
-                      "Zu Hause",
-                      "Zuhause"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "category",
-          "category": {
-            "name": "Unterstützung",
-            "title": "Infos über Unterstützung vom Sozialministerium",
-            "information": "Das Sozialministerium hat in den letzten Jahren verschiedene **Unterstützungsangebote für pflegende Angehörige** entwickelt, z.B. Information und Beratung zu Hause, das Angehörigengespräch, kostenlose Sozialversicherung und Möglichkeiten der beruflichen Auszeit sowie Zuwendungen für die Kosten der Urlaubspflege.\r\n\r\nDie Bundesländer bieten **soziale Dienste** an; das sind z.B. Wohn- und Pflegeheime, Tageszentren für Senior:innen sowie mobile Dienste. Außerdem informieren die Ämter der Landesregierungen zu Angeboten für pflegende Angehörige.",
-            "entries": [
-              {
-                "ownerName": "Broschürenservice des Sozialministeriums",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=331",
-                    "title": "Unterstützungen für pflegende Angehörige",
-                    "description": "Folder als Download",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.182Z",
-                    "keywords": [
-                      "Alltag",
-                      "Angehörige",
-                      "Anlaufstelle",
-                      "Behinderung",
-                      "Beratung",
-                      "Beratungsstelle",
-                      "Betreuung",
-                      "Bruder",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Finanzielles",
-                      "Geld",
-                      "Geschwister",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Großeltern",
-                      "Hilfe",
-                      "Hilfseinrichtung",
-                      "Kinder",
-                      "Lernen",
-                      "Mama",
-                      "Ministerium",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegende Angehörige",
-                      "Pflegeplattform",
-                      "Pflegetipps",
-                      "Plattform",
-                      "Rat",
-                      "Schwester",
-                      "Sozial",
-                      "Soziale Dienste",
-                      "Sozialministerium",
-                      "Tipps",
-                      "Unterstützung",
-                      "Wissen",
-                      "Young Carer",
-                      "Zu Hause",
-                      "Zugehörige",
-                      "Zuhause",
-                      "praktisch"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Burgenland",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.burgenland.at/themen/pflege/angebote-fuer-betreuende-und-pflegende-angehoerige/",
-                    "title": "Pflegende Angehörige Burgenland",
-                    "description": "Hier kannst du dich zu Angeboten für betreuende und pflegende Angehörige im Burgenland informieren.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.639Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Burgenland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Gesundheitsportal Österreichs",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.gesundheit.gv.at/leben/altern/wohnen-im-alter/pflegende-angehoerige-entlastungen-unterstuetzungen",
-                    "title": "Gesundheitsportal Österreichs",
-                    "description": "Wertvolle Informationen zur Entlastung und Unterstützung pflegender Angehöriger bietet ebenso das Gesundheitsportal Österreichs.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.474Z",
-                    "keywords": [
-                      "Anlaufstelle",
-                      "Diagnose",
-                      "Gesundheit",
-                      "Gesundheitsportal Österreichs",
-                      "GÖG",
-                      "Hilfe",
-                      "Info",
-                      "Infoplattform",
-                      "Infos",
-                      "Krankheit",
-                      "Selbsthilfe",
-                      "Wegweiser",
-                      "gesund"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Kärnten",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131&subthema=138",
-                    "title": "Pflegende Angehörige Kärnten",
-                    "description": "Das Land Kärnten bietet eigene Unterstützung für pflegende Angehörige.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.633Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Kärnten",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Niederösterreich",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.noel.gv.at/noe/Pflege/Urlaubsaktion_fuer_Pflegende_Angehoerige.html",
-                    "title": "Pflegende Angehörige Niederösterreich",
-                    "description": "Leistungen für Pflegende in Niederösterreich kannst du hier nachlesen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.249Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Niederösterreich",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Oberösterreich",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.land-oberoesterreich.gv.at/23885.htm",
-                    "title": "Pflegende Angehörige Oberösterreich",
-                    "description": "Zu Unterstützungsangebote für pflegende Angehörige in Oberösterreich wird unter diesem Link informiert.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.626Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Oberösterreich",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Salzburg",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.salzburg.gv.at/themen/soziales/pflege-und-betreuung/pflegende-angehoerige",
-                    "title": "Pflegende Angehörige Salzburg",
-                    "description": "Unterstützungsangebote für pflegende Angehörige in Salzburg kannst du hier nachlesen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.620Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Salzburg",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Sozialministerium",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html",
-                    "title": "Hilfe für betreuende und pflegende Angehörige",
-                    "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.425Z",
-                    "keywords": [
-                      "Angehörige",
-                      "Behinderung",
-                      "Beratung",
-                      "Betreuung",
-                      "Bruder",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Finanzielles",
-                      "Geld",
-                      "Geschwister",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Großeltern",
-                      "Hilfe",
-                      "Jugendliche",
-                      "Junge",
-                      "Kinder",
-                      "Mama",
-                      "Ministerium",
-                      "Mobil",
-                      "Mutter",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegende Angehörige",
-                      "Pflegeplattform",
-                      "Plattform",
-                      "Schwester",
-                      "Sozial",
-                      "Soziale Dienste",
-                      "Sozialministerium",
-                      "Unterstützung",
-                      "Vater",
-                      "Young Carer",
-                      "Young Carers",
-                      "Zu Hause",
-                      "Zugehörige",
-                      "Zuhause"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Steiermark",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.gesundheit.steiermark.at/cms/ziel/142146817/DE/",
-                    "title": "Pflege Steiermark",
-                    "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.613Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Steiermark",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Tirol",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste/",
-                    "title": "Pflegende Angehörige Tirol",
-                    "description": "Mobile Dienste in Tirol können hier abgefragt werden.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.293Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Tirol",
-                      "Unterstützung",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Vorarlberg",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://vorarlberg.at/-/finanzielle-entlastungs-und-unterstuetzungsangebote-2019",
-                    "title": "Pflegende Angehörige Vorarlberg",
-                    "description": "Die Broschüre \"Entlastungs- und Unterstützungsangebote 2021\" in Vorarlberg kannst du hier nachlesen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.388Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Vorarlberg",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Wien / Fonds Soziales Wien",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.fsw.at/p/pflegende-angehoerige",
-                    "title": "Pflegende Angehörige Wien",
-                    "description": "Der Fonds Soziales Wien informiert pflegende Angehörige unter diesem Link über bestehende Unterstüzungsangebote.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.607Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Betreuung",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Großeltern",
-                      "Hilfe",
-                      "Land",
-                      "Mama",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Soziale Dienste",
-                      "Unterstützung",
-                      "Wien",
-                      "Zu Hause",
-                      "Zuhause",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "category",
-          "category": {
-            "name": "24-Stunden-Betreuung",
-            "title": "24-Stunden-Betreuung",
-            "information": "Eine **24-Stunden-Betreuung** ist den ganzen Tag sowie die ganze Nacht da, um die pflegebedürftige Person zu betreuen. Dabei spielt die Qualität eine ganz wichtige Rolle und wird auch mit einem [Qualitätszertifikat für Vermittlungsagenturen](https://oeqz.at) ausgezeichnet.",
-            "entries": [
-              {
-                "ownerName": "ÖQZ-24",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://oeqz.at/",
-                    "title": "Gesicherte Qualität bei der 24-Stunden-Pflege",
-                    "description": "Für Agenturen der 24-Stunden-Betreuung gibt es ein freiwilliges Qualitätszertifikat.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.554Z",
-                    "keywords": [
-                      "24-Stunden",
-                      "Agentur",
-                      "Auszeichnung",
-                      "Betreuung",
-                      "Pflege",
-                      "Qualität",
-                      "Zertifikat",
-                      "ÖQZ-24"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Sozialministerium",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.sozialministerium.at/Themen/Pflege/24-Stunden-Betreuung.html",
-                    "title": "24-Stunden-Betreuung",
-                    "description": "Für betreuungsbedürftige Personen kann es notwendig sein, dass in privaten Haushalten Tag und Nacht eine Betreuungsperson anwesend sein muss. Dies erfolgt im Rahmen einer 24-Stunden-Betreuung. Um die wichtige Qualität sicherzustellen, wird für Vermittlungsagenturen ein Qualitätszertifikat verliehen.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.463Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Beratung",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Hilfe",
-                      "Ministerium",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegeplattform",
-                      "Plattform",
-                      "Sozial",
-                      "Sozialministerium",
-                      "Unterstützung"
-                    ]
-                  },
-                  {
-                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=175",
-                    "title": "24-Stunden-Betreuung",
-                    "description": "Broschüre \"24-Stunden-Betreuung zu Hause\" als Download",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-10-27T04:01:03.561Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Beratung",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Hilfe",
-                      "Ministerium",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegeplattform",
-                      "Plattform",
-                      "Sozial",
-                      "Sozialministerium",
-                      "Unterstützung"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ]
     }
   ],
   "abc": [
@@ -2581,7 +1367,7 @@
               "description": "Für Agenturen der 24-Stunden-Betreuung gibt es ein freiwilliges Qualitätszertifikat.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.554Z",
+              "lastUpdated": "2022-11-03T03:50:28.970Z",
               "keywords": [
                 "24-Stunden",
                 "Agentur",
@@ -2605,7 +1391,7 @@
               "description": "Für betreuungsbedürftige Personen kann es notwendig sein, dass in privaten Haushalten Tag und Nacht eine Betreuungsperson anwesend sein muss. Dies erfolgt im Rahmen einer 24-Stunden-Betreuung. Um die wichtige Qualität sicherzustellen, wird für Vermittlungsagenturen ein Qualitätszertifikat verliehen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.463Z",
+              "lastUpdated": "2022-11-03T03:50:28.864Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -2630,7 +1416,7 @@
               "description": "Broschüre \"24-Stunden-Betreuung zu Hause\" als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.561Z",
+              "lastUpdated": "2022-11-03T03:50:28.978Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -2668,7 +1454,7 @@
               "description": "Aktuelle Themen des Gesundheitsportal Österreichs",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.885Z",
+              "lastUpdated": "2022-11-03T03:50:28.193Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -2691,7 +1477,7 @@
               "description": "Die neuesten Informationen bzw. Themen zu Pflege und Gesundheit des Sozialministeriums",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.261Z",
+              "lastUpdated": "2022-11-03T03:50:28.562Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -2729,7 +1515,7 @@
               "description": "Folder \"Who cares? Young Carers!\" als Download.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.189Z",
+              "lastUpdated": "2022-11-03T03:50:28.488Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -2775,7 +1561,7 @@
               "description": "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.849Z",
+              "lastUpdated": "2022-11-03T03:50:29.316Z",
               "keywords": [
                 "Angehörige",
                 "Betreuung",
@@ -2811,7 +1597,7 @@
               "description": "Du kannst dich an die Interessensvertretung für pflegende und betreuende Angehörige in Vorarlberg wenden.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.210Z",
+              "lastUpdated": "2022-11-03T03:50:28.511Z",
               "keywords": [
                 "Angehörige",
                 "Betreuung",
@@ -2835,7 +1621,7 @@
               "description": "Video des Jugendrotkreuzes zum Thema Young Carers",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:04.010Z",
+              "lastUpdated": "2022-11-03T03:50:29.476Z",
               "keywords": [
                 "Angehörige",
                 "Beratung",
@@ -2877,7 +1663,7 @@
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.425Z",
+              "lastUpdated": "2022-11-03T03:50:28.819Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -2929,7 +1715,7 @@
               "description": "Die beiden Studien (2012, 2014) als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.469Z",
+              "lastUpdated": "2022-11-03T03:50:28.870Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -2969,7 +1755,7 @@
               "description": "Broschüre als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.491Z",
+              "lastUpdated": "2022-11-03T03:50:28.894Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -3015,7 +1801,7 @@
               "description": "Video der FH Gesundheit Innsbruck zum Thema Young Carers",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:04.017Z",
+              "lastUpdated": "2022-11-03T03:50:29.481Z",
               "keywords": [
                 "Angehörige",
                 "Bruder",
@@ -3049,7 +1835,7 @@
               "description": "feel-ok ist ein Netzwerk aus zahlreichen Institutionen in der Schweiz, in Österreich und in Deutschland. Sie bieten Informationen aus diversen Bereichen des Lebens von Kindern und Jugendlichen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.277Z",
+              "lastUpdated": "2022-11-03T03:50:28.585Z",
               "keywords": [
                 "Österreich"
               ]
@@ -3066,7 +1852,7 @@
               "description": "Auf dieser Seite findest du das Angebot von superhands (Informationen für MultiplikatorInnen).",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:04.004Z",
+              "lastUpdated": "2022-11-03T03:50:29.468Z",
               "keywords": [
                 "Angehörige",
                 "Anlaufstelle",
@@ -3115,7 +1901,7 @@
               "description": "Folder als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:04.024Z",
+              "lastUpdated": "2022-11-03T03:50:29.488Z",
               "keywords": [
                 "Anlaufstelle",
                 "Behinderung",
@@ -3150,7 +1936,7 @@
               "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.160Z",
+              "lastUpdated": "2022-11-03T03:50:28.460Z",
               "keywords": [
                 "Alltag",
                 "Angehörige",
@@ -3197,7 +1983,7 @@
               "description": "Folder als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.182Z",
+              "lastUpdated": "2022-11-03T03:50:28.481Z",
               "keywords": [
                 "Alltag",
                 "Angehörige",
@@ -3260,7 +2046,7 @@
               "description": "Es gibt über 400 Familienberatungsstellen in Österreich. Erfahre mehr über das Angebot.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.381Z",
+              "lastUpdated": "2022-11-03T03:50:28.754Z",
               "keywords": [
                 "Anlaufstelle",
                 "BKA",
@@ -3289,7 +2075,7 @@
               "description": "Hier gibts Infos aus dem Bereich Schulpsychologie und Bildungsberatung.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.132Z",
+              "lastUpdated": "2022-11-03T03:50:28.432Z",
               "keywords": [
                 "Anlaufstelle",
                 "BMBWF",
@@ -3321,7 +2107,7 @@
               "description": "Caritas Socialis hilft hier bei Trauerbegleitung für Kinder und Jugendliche weiter.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.992Z",
+              "lastUpdated": "2022-11-03T03:50:29.456Z",
               "keywords": [
                 "Anlaufstelle",
                 "Begleitung",
@@ -3366,7 +2152,7 @@
               "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.218Z",
+              "lastUpdated": "2022-11-03T03:50:28.517Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -3398,7 +2184,7 @@
               "description": "Hier geht's zu den Informationen der Beratungsstellen der Österreichischen Krebshilfe.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.986Z",
+              "lastUpdated": "2022-11-03T03:50:29.449Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -3429,7 +2215,7 @@
               "description": "275.000 Kinder und Jugendliche in Österreich haben eine psychisch erkrankte Mama oder einen psychisch erkrankten Papa. Das Projekt #visible will dieses Thema sichtbar machen und bietet Unterstützung.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.341Z",
+              "lastUpdated": "2022-11-03T03:50:28.699Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -3463,7 +2249,7 @@
               "description": "Rainbows hilft Kindern und Jugendlichen in stürmischen Zeiten – bei Trennung, Scheidung oder Tod naher Bezugspersonen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.376Z",
+              "lastUpdated": "2022-11-03T03:50:28.747Z",
               "keywords": [
                 "Anlaufstelle",
                 "Begleitung",
@@ -3503,7 +2289,7 @@
               "description": "Hier werden Information, Austausch und Beratung für Eltern und Bezugspersonen angeboten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.967Z",
+              "lastUpdated": "2022-11-03T03:50:29.432Z",
               "keywords": [
                 "147",
                 "147 - Rat auf Draht",
@@ -3532,7 +2318,7 @@
               "description": "Wenn's weh tut - wähle die Gesundheitsnummer.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.197Z",
+              "lastUpdated": "2022-11-03T03:50:28.494Z",
               "keywords": [
                 "1450",
                 "1450 - die Gesundheitsnummer",
@@ -3581,7 +2367,7 @@
               "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.160Z",
+              "lastUpdated": "2022-11-03T03:50:28.460Z",
               "keywords": [
                 "Alltag",
                 "Angehörige",
@@ -3621,7 +2407,7 @@
               "description": "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.204Z",
+              "lastUpdated": "2022-11-03T03:50:28.502Z",
               "keywords": [
                 "Alltag",
                 "Anlaufstelle",
@@ -3649,7 +2435,7 @@
               "description": "Wenn Kinder und Jugendliche pflegen...\nEin Handbuch für Fachkräfte und Lehrende  im Bildungs-, Gesundheits- und Sozialwesen",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:04.030Z",
+              "lastUpdated": "2022-11-03T03:50:28.606Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -3669,7 +2455,7 @@
               "description": "Hier findest du Informationen von superhands für Eltern und Interessierte.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.998Z",
+              "lastUpdated": "2022-11-03T03:50:29.461Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -3696,7 +2482,7 @@
               "description": "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.146Z",
+              "lastUpdated": "2022-11-03T03:50:28.445Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -3742,7 +2528,7 @@
               "description": "Die TelefonSeelsorge Österreich – Notruf 142 ist eine österreichweite Organisation mit neun TelefonSeelsorge-Stellen. Hilfe gibts telefonisch, per Sofortchat oder per Mail.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.828Z",
+              "lastUpdated": "2022-11-03T03:50:28.130Z",
               "keywords": [
                 "142",
                 "Anlaufstelle",
@@ -3779,7 +2565,7 @@
               "description": "Beratung für Kinder und Jugendliche jederzeit - anonym - kostenlos",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.973Z",
+              "lastUpdated": "2022-11-03T03:50:29.437Z",
               "keywords": [
                 "147",
                 "147 - Rat auf Draht",
@@ -3808,7 +2594,7 @@
               "description": "open2chat ist eine Möglichkeit für Jugendliche, online mit Gleichaltrigen über ihre Sorgen, Fragen und Probleme zu chatten. open2chat ist kostenlos und anonym.\nDiese Form der Unterstützung ersetzt keine psychotherapeutische oder ärztliche Behandlung.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.984Z",
+              "lastUpdated": "2022-11-03T03:50:28.297Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -3832,7 +2618,7 @@
               "description": "Du schreibst lieber als zu reden? superhands ist auch über die Online-Beratung erreichbar.  Vertraulich, anonym und kostenlos.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.980Z",
+              "lastUpdated": "2022-11-03T03:50:29.444Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -3859,7 +2645,7 @@
               "description": "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.146Z",
+              "lastUpdated": "2022-11-03T03:50:28.445Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -3905,7 +2691,7 @@
               "description": "Video zum Thema Coronavirus \"Was können Eltern tun um Kindern Ängste zu nehmen?\"",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.961Z",
+              "lastUpdated": "2022-11-03T03:50:29.425Z",
               "keywords": [
                 "Beratung",
                 "COVID-19",
@@ -3948,7 +2734,7 @@
               "description": "Wenn's weh tut - wähle die Gesundheitsnummer.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.197Z",
+              "lastUpdated": "2022-11-03T03:50:28.494Z",
               "keywords": [
                 "1450",
                 "1450 - die Gesundheitsnummer",
@@ -3991,7 +2777,7 @@
               "description": "Informationen und Aktuelles zum Coronavirus",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.299Z",
+              "lastUpdated": "2022-11-03T03:50:28.622Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -4025,7 +2811,7 @@
               "description": "Hier findest du viele Informationen über die Corona Schutzimpfung.\nACHTUNG: Ab dem 14. Geburtstag dürfen Kinder, die die erforderliche Entscheidungsfähigkeit besitzen, selbst in die Durchführung einer Impfung einwilligen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.304Z",
+              "lastUpdated": "2022-11-03T03:50:28.629Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -4065,7 +2851,7 @@
               "description": "Aktuelle Informationen zu Schutzmaßnahmen betreffend COVID-19",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.890Z",
+              "lastUpdated": "2022-11-03T03:50:28.200Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -4112,7 +2898,7 @@
               "description": "Bericht \"Demenzstrategie Gut leben mit Demenz\" als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.543Z",
+              "lastUpdated": "2022-11-03T03:50:28.956Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -4139,7 +2925,7 @@
               "description": "Folder \"Gut leben mit Demenz\" als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.548Z",
+              "lastUpdated": "2022-11-03T03:50:28.961Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -4170,7 +2956,7 @@
               "description": "Unter folgendem Link findest du umfassende Informationen zum Thema Demenz.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.267Z",
+              "lastUpdated": "2022-11-03T03:50:28.571Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -4203,7 +2989,7 @@
               "description": "Praxisbeispiele um Kindern das Thema Demenz näherzubringen",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.537Z",
+              "lastUpdated": "2022-11-03T03:50:28.949Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -4236,7 +3022,7 @@
               "description": "Die Online-Hilfe für Angehörige.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.053Z",
+              "lastUpdated": "2022-11-03T03:50:28.355Z",
               "keywords": [
                 "Angehörige",
                 "Bruder",
@@ -4277,7 +3063,7 @@
               "description": "Das Land Burgenland bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.955Z",
+              "lastUpdated": "2022-11-03T03:50:29.418Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4313,7 +3099,7 @@
               "description": "Community Nurses sind diplomierte Gesundheits- und Krankenpflegepersonen welche wohnortnah ihre Dienstleistung anbieten. Sie sollen z.B. dabei helfen, dass ältere Personen weiterhin zu Hause leben können. Es gibt zur Zeit 120 Pilotprojekte in ganz Österreich.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.857Z",
+              "lastUpdated": "2022-11-03T03:50:28.160Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4347,7 +3133,7 @@
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.174Z",
+              "lastUpdated": "2022-11-03T03:50:28.473Z",
               "keywords": [
                 "Ausland",
                 "Behinderung",
@@ -4402,7 +3188,7 @@
               "description": "Das Land Kärten bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.948Z",
+              "lastUpdated": "2022-11-03T03:50:29.413Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4438,7 +3224,7 @@
               "description": "Das Land Niederösterreich bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.233Z",
+              "lastUpdated": "2022-11-03T03:50:28.532Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4474,7 +3260,7 @@
               "description": "Das Land Oberösterreich bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.941Z",
+              "lastUpdated": "2022-11-03T03:50:29.406Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4510,7 +3296,7 @@
               "description": "Das Land Salzburg bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.936Z",
+              "lastUpdated": "2022-11-03T03:50:29.400Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4546,7 +3332,7 @@
               "description": "Soziale Dienste sind für Menschen mit Pflegebedarf und Menschen mit Behinderungen damit diese so betreut werden können wie sie das selbst möchten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.532Z",
+              "lastUpdated": "2022-11-03T03:50:28.944Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -4591,7 +3377,7 @@
               "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.613Z",
+              "lastUpdated": "2022-11-03T03:50:29.031Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4628,7 +3414,7 @@
               "description": "Hier werden Informationen zu Mobilen Diensten in Tirol angeboten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.929Z",
+              "lastUpdated": "2022-11-03T03:50:29.394Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4664,7 +3450,7 @@
               "description": "Das Land Vorarlberg bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.060Z",
+              "lastUpdated": "2022-11-03T03:50:28.361Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4700,7 +3486,7 @@
               "description": "Hier bietet der Fonds Soziales Wien Informationen zu Pflegethemen an.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.922Z",
+              "lastUpdated": "2022-11-03T03:50:29.388Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -4743,7 +3529,7 @@
               "description": "Unter dem nachstehenden Link findest du die Videoserie \"Die acht Schätze\" zur Entspannung.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.896Z",
+              "lastUpdated": "2022-11-03T03:50:28.205Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -4766,7 +3552,7 @@
               "description": "Wenn du diesen Link anklickst findest du Tipps für die seelische Balance.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.110Z",
+              "lastUpdated": "2022-11-03T03:50:28.412Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -4789,7 +3575,7 @@
               "description": "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.117Z",
+              "lastUpdated": "2022-11-03T03:50:28.418Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -4818,7 +3604,7 @@
               "description": "Hier bietet dir \"veRRückte Kindheit\" Selbsthilfetipps für zu Hause an.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.153Z",
+              "lastUpdated": "2022-11-03T03:50:28.453Z",
               "keywords": [
                 "Beratung",
                 "Chatten",
@@ -4859,7 +3645,7 @@
               "description": "Füttern, windeln, Medikamente geben und die Mobilität trainieren, das machen Eltern mit ihren Kindern. Doch in vielen Familien in Deutschland sind diese Rollen vertauscht.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.820Z",
+              "lastUpdated": "2022-11-03T03:50:28.121Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -4894,7 +3680,7 @@
               "description": "13-year-old Jameal is a carer for his mum - he describes the struggles and positives of being a young carer.Please subscribe HERE http://bit.ly/1rbfUog",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.909Z",
+              "lastUpdated": "2022-11-03T03:50:29.376Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -4933,7 +3719,7 @@
               "description": "Gewinne einen Einblick in das Leben von Young Carers in Australien. Sie nehmen dich in ihren Alltag mit.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.346Z",
+              "lastUpdated": "2022-11-03T03:50:28.705Z",
               "keywords": [
                 "Angehörige",
                 "Bruder",
@@ -4965,7 +3751,7 @@
               "description": "Ein Song anlässlich der CARERS WEEK",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.836Z",
+              "lastUpdated": "2022-11-03T03:50:28.137Z",
               "keywords": [
                 "Alzheimer",
                 "Angehörige",
@@ -5013,7 +3799,7 @@
               "description": "A Fixers campaign led by Julie Sivier: http://www.fixers.org.uk/news/16737-11208/life-as-a-young-carer.php Julie Sivier, 17, from Orkney, is helping to incre...",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.904Z",
+              "lastUpdated": "2022-11-03T03:50:29.371Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -5049,7 +3835,7 @@
               "description": "Lana Rebhan ist Young Carer. Sie kümmert sich um ihren kranken Papa, der an Nierenzysten leidet. Das heißt für die 15-Jährige: Haushalt und Pflege statt Schu...",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.916Z",
+              "lastUpdated": "2022-11-03T03:50:29.382Z",
               "keywords": [
                 "Ausland",
                 "Deutschland",
@@ -5069,7 +3855,7 @@
               "description": "Videointerviews mit Young Carers und Fachpersonen",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.892Z",
+              "lastUpdated": "2022-11-03T03:50:29.360Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -5107,7 +3893,7 @@
               "description": "Kostenpflichtiger Film über Geschwister von Menschen mit Behinderung",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.897Z",
+              "lastUpdated": "2022-11-03T03:50:29.365Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -5148,7 +3934,7 @@
               "description": "Wie geht es Young Carers in ihrer Situation? Welche Erfahrungen haben sie gemacht? Hier erzählen sie ihre Geschichten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.436Z",
+              "lastUpdated": "2022-11-03T03:50:28.833Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -5175,7 +3961,7 @@
               "description": "Website für Kinder, Jugendliche und junge Erwachsene, die ihre Eltern und / oder andere Angehörige pflegen – auch für Eltern, ehemals Betroffene und Fachkräfte!",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.017Z",
+              "lastUpdated": "2022-11-03T03:50:28.322Z",
               "keywords": [
                 "Ausland",
                 "Deutschland",
@@ -5201,7 +3987,7 @@
               "description": "Die Johanniter bieten Erste Hilfe Tipps an.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.873Z",
+              "lastUpdated": "2022-11-03T03:50:29.340Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -5227,7 +4013,7 @@
               "description": "Wer kümmert sich zuhause um den kranken Angehörigen?\nStecke eine Notfallkarte in dein Portemonnaie/zur E-Card: Darauf steht, dass du einen Angehörigen pflegst und wer im Notfall informiert werden soll (Schwester, guter Freund, Nachbarin).",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.813Z",
+              "lastUpdated": "2022-11-03T03:50:28.113Z",
               "keywords": [
                 "Angehörige",
                 "Betreuung",
@@ -5249,7 +4035,7 @@
               "description": "Um Erste Hilfe anschaulich zu vermitteln, bietet das Jugendrotkreuz die Videoreihe \"Erste Hilfe daham\".",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.885Z",
+              "lastUpdated": "2022-11-03T03:50:29.353Z",
               "keywords": [
                 "Beratung",
                 "Hilfe",
@@ -5276,7 +4062,7 @@
               "description": "Du möchtest dich weiterbilden? Unter folgendem Link findest du Erste Hilfe Kurse des Roten Kreuzes.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.309Z",
+              "lastUpdated": "2022-11-03T03:50:28.640Z",
               "keywords": [
                 "Beratung",
                 "Erste Hilfe",
@@ -5310,7 +4096,7 @@
               "description": "Jeder kann diese Information brauchen",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.874Z",
+              "lastUpdated": "2022-11-03T03:50:28.181Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -5333,7 +4119,7 @@
               "description": "Teste hier dein Wissen: Erste Hilfe Quiz",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.907Z",
+              "lastUpdated": "2022-11-03T03:50:28.217Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -5356,7 +4142,7 @@
               "description": "Hier sind alle wichtigen Telefonnummern zu Notruf, Hotlines, Vergiftungsinformationszentrale...",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.940Z",
+              "lastUpdated": "2022-11-03T03:50:28.256Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -5379,7 +4165,7 @@
               "description": "Hier wird es dir erklärt.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.521Z",
+              "lastUpdated": "2022-11-03T03:50:28.932Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -5402,7 +4188,7 @@
               "description": "Für den Ernstfall findest du hier Maßnahmen für Ersthelferinnen und -helfer.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.527Z",
+              "lastUpdated": "2022-11-03T03:50:28.937Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -5431,7 +4217,7 @@
               "description": "superhands bietet dir Erste Hilfe Tipps für den Notfall an.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.880Z",
+              "lastUpdated": "2022-11-03T03:50:29.347Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -5464,7 +4250,7 @@
               "description": "Finde die Familienberatungsstelle in deiner Region.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.868Z",
+              "lastUpdated": "2022-11-03T03:50:29.334Z",
               "keywords": [
                 "BKA",
                 "Bundeskanzleramt",
@@ -5484,7 +4270,7 @@
               "description": "Ehrenamtliche Patinnen und Paten unterstützen die Kinder, indem sie regelmäßig mit ihnen Zeit verbringen und eine tragfähige Beziehung zu ihnen aufbauen. Sie bieten auch eine Anlaufstelle für Familein in denen ein Elternteil psychisch belastet oder erkrankt ist.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.336Z",
+              "lastUpdated": "2022-11-03T03:50:28.693Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -5514,7 +4300,7 @@
               "description": "Bei Krisen und Problemen in der Familie findest du hier hilfreiche Ratschläge um diese zu bewältigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.912Z",
+              "lastUpdated": "2022-11-03T03:50:28.224Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -5543,7 +4329,7 @@
               "description": "Häusliche Gewalt ist Gewalt zwischen Menschen, die in einer partnerschaftlichen Beziehung leben. Hier erfährst du alles zu diesem Thema. Informiere dich darüber wo es Hilfe gibt oder wie du Anderen in solchen Situationen helfen kannst. Es gibt auch Tipps wie man mit negativen Gefühlen umgehen kann.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.356Z",
+              "lastUpdated": "2022-11-03T03:50:28.718Z",
               "keywords": [
                 "Angehörige",
                 "Bruder",
@@ -5582,7 +4368,7 @@
               "description": "Folder  als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.507Z",
+              "lastUpdated": "2022-11-03T03:50:28.913Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -5607,7 +4393,7 @@
               "description": "Broschüre  als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.512Z",
+              "lastUpdated": "2022-11-03T03:50:28.920Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -5632,7 +4418,7 @@
               "description": "Broschüre  als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.516Z",
+              "lastUpdated": "2022-11-03T03:50:28.925Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -5663,7 +4449,7 @@
               "description": "Folder als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.182Z",
+              "lastUpdated": "2022-11-03T03:50:28.481Z",
               "keywords": [
                 "Alltag",
                 "Angehörige",
@@ -5726,7 +4512,7 @@
               "description": "Das Familienportal bietet umfangreiche Infos zu finanziellen Themen rund um die Familie.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.045Z",
+              "lastUpdated": "2022-11-03T03:50:28.349Z",
               "keywords": [
                 "BKA",
                 "Bundeskanzleramt",
@@ -5746,7 +4532,7 @@
               "description": "Hier findest du sonstige Unterstützungen des Sozialministeriumservice.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.856Z",
+              "lastUpdated": "2022-11-03T03:50:29.322Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -5766,7 +4552,7 @@
               "description": "Hier kannst du dich über Unterstützungen des Sozialministeriumservice informieren.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.861Z",
+              "lastUpdated": "2022-11-03T03:50:29.328Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -5799,7 +4585,7 @@
               "description": "Austria4Kids hat Freizeittipps für Familien parat.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.845Z",
+              "lastUpdated": "2022-11-03T03:50:29.309Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -5825,7 +4611,7 @@
               "description": "Hier findest du kostenlose Freizeitangebote . Von sportlichen Kursen wie Basketball, über Kickboxen bis hin zu kreativen Kursen wie Street Art ist alles dabei.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.962Z",
+              "lastUpdated": "2022-11-03T03:50:28.276Z",
               "keywords": [
                 "Auszeit",
                 "Entspannung",
@@ -5847,7 +4633,7 @@
               "description": "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.849Z",
+              "lastUpdated": "2022-11-03T03:50:29.316Z",
               "keywords": [
                 "Angehörige",
                 "Betreuung",
@@ -5883,7 +4669,7 @@
               "description": "Get-social - Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.242Z",
+              "lastUpdated": "2022-11-03T03:50:28.540Z",
               "keywords": [
                 "Beratung",
                 "Hilfe",
@@ -5910,7 +4696,7 @@
               "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.168Z",
+              "lastUpdated": "2022-11-03T03:50:28.466Z",
               "keywords": [
                 "Alltag",
                 "Anlaufstelle",
@@ -5950,7 +4736,7 @@
               "description": "Der Wegweiser - \"Ich bin jung\" gibt Infos zu Schule, Beruf, Liebe, Verhütung und noch vielem mehr.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.917Z",
+              "lastUpdated": "2022-11-03T03:50:28.230Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -5988,7 +4774,7 @@
               "description": "Schützt vor Viren und Bakterien nicht nur in Zeiten von Corona.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.502Z",
+              "lastUpdated": "2022-11-03T03:50:28.906Z",
               "keywords": [
                 "Bildung",
                 "Bundesland",
@@ -6013,7 +4799,7 @@
               "description": "Sing mit! Händewaschen mit musikalischer Untermalung",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.840Z",
+              "lastUpdated": "2022-11-03T03:50:29.304Z",
               "keywords": [
                 "Beratung",
                 "Erste Hilfe",
@@ -6047,7 +4833,7 @@
               "description": "Wenig Aufwand, große Wirkung!",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.923Z",
+              "lastUpdated": "2022-11-03T03:50:28.237Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -6083,7 +4869,7 @@
               "description": "Hier werden kostenlos gespendete Hilfsmittel in einer Onlinebörse angeboten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.314Z",
+              "lastUpdated": "2022-11-03T03:50:28.652Z",
               "keywords": [
                 "Gehhilfe",
                 "Heilbehelfe",
@@ -6107,7 +4893,7 @@
               "description": "Du möchtest wissen wie man zu Hilfsmitteln und Heilbehelfen kommt? Hier wird dir weitergeholfen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.928Z",
+              "lastUpdated": "2022-11-03T03:50:28.244Z",
               "keywords": [
                 "Alltag",
                 "Anlaufstelle",
@@ -6162,7 +4948,7 @@
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.174Z",
+              "lastUpdated": "2022-11-03T03:50:28.473Z",
               "keywords": [
                 "Ausland",
                 "Behinderung",
@@ -6224,7 +5010,7 @@
               "description": "\"aha\" ist das Jugendinformationszentrum für Vorarlberg.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.808Z",
+              "lastUpdated": "2022-11-03T03:50:29.267Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -6251,7 +5037,7 @@
               "description": "Unter diesem Link erreichst du Salzburgs 1. Adresse für junge Leute.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.819Z",
+              "lastUpdated": "2022-11-03T03:50:29.280Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -6278,7 +5064,7 @@
               "description": "Bei der Bundes Jugendvertretung kannst du dich zu Themen wie Bildung und Arbeit, Gleichberechtigung, Jugend und Politik sowie aktuelle Themen die Kinder und Jugendliche interessieren, informieren.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.956Z",
+              "lastUpdated": "2022-11-03T03:50:28.269Z",
               "keywords": [
                 "Anwalt",
                 "Beratung",
@@ -6306,7 +5092,7 @@
               "description": "Auf dem Jugendportal findest du geprüfte Informationen über Corona, den Youth Reporter Blog, Themen-Infos und die Beteiligungsmöglichkeiten unter Mitmachen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.404Z",
+              "lastUpdated": "2022-11-03T03:50:28.788Z",
               "keywords": [
                 "Auszeit",
                 "Bundesnetzwerk Österreichische Jugendinfos",
@@ -6324,7 +5110,7 @@
               "description": "Österreichische Jugendinfostellen - alle Fragen sind erlaubt! Finde Informationen dazu unter folgendem Link.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.799Z",
+              "lastUpdated": "2022-11-03T03:50:29.252Z",
               "keywords": [
                 "Auszeit",
                 "Bundesnetzwerk Österreichische Jugendinfos",
@@ -6348,7 +5134,7 @@
               "description": "Das InfoEck für Jugend und Generationen in Tirol erreichst du hier.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.068Z",
+              "lastUpdated": "2022-11-03T03:50:28.368Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -6375,7 +5161,7 @@
               "description": "Jugend:info NÖ ist eine Anlaufstelle für junge Menschen in allen Lebenslagen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.824Z",
+              "lastUpdated": "2022-11-03T03:50:29.285Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -6402,7 +5188,7 @@
               "description": "Hier gibt es Informationen des Landesjugendreferates Burgenland.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.835Z",
+              "lastUpdated": "2022-11-03T03:50:29.298Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -6429,7 +5215,7 @@
               "description": "Unter diesem Link erreichst du die Info des Landesjugendreferates Kärnten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.829Z",
+              "lastUpdated": "2022-11-03T03:50:29.292Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -6456,7 +5242,7 @@
               "description": "Hier kommst du zur Info des Landesjugendreferates Oberösterreich.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.125Z",
+              "lastUpdated": "2022-11-03T03:50:28.425Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -6483,7 +5269,7 @@
               "description": "Besuche hier \"Logo\" das Jugendmanagement in der Steiermark.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.813Z",
+              "lastUpdated": "2022-11-03T03:50:29.273Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -6510,7 +5296,7 @@
               "description": "WIENXTRA bietet Info-, Beratungs- und Bildungsangebote rund um Kinder- und Jugendthemen in Wien.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.804Z",
+              "lastUpdated": "2022-11-03T03:50:29.261Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -6545,7 +5331,7 @@
               "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.430Z",
+              "lastUpdated": "2022-11-03T03:50:28.825Z",
               "keywords": [
                 "Ambulanz",
                 "Arzt",
@@ -6599,7 +5385,7 @@
               "description": "Kindern wird Demenz erklärt",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.777Z",
+              "lastUpdated": "2022-11-03T03:50:29.230Z",
               "keywords": [
                 "Alzheimer",
                 "Alzheimer Austria",
@@ -6621,7 +5407,7 @@
               "description": "Das Mini-Buch \"Anna ist die beste Oma der Welt\" kann das.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.788Z",
+              "lastUpdated": "2022-11-03T03:50:29.237Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -6649,7 +5435,7 @@
               "description": "Die Webinar-Reihe des Kardinal König Hauses beschäftigt sich mit dem Thema Demenz.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.772Z",
+              "lastUpdated": "2022-11-03T03:50:29.224Z",
               "keywords": [
                 "Alzheimer",
                 "Bildung",
@@ -6674,7 +5460,7 @@
               "description": "Es liefert gesicherte Informationen zu Krankheitsbildern, z.B. Demenz, Krebserkrankungen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.901Z",
+              "lastUpdated": "2022-11-03T03:50:28.212Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -6703,7 +5489,7 @@
               "description": "Hier sind die häufigsten Krankheiten zusammengefasst, die Kinder/Jugendliche zu Hause bei der Pflege betreffen können (mit Beschreibung, wie es dazu kommen kann und was man tun kann, um zu helfen).",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.793Z",
+              "lastUpdated": "2022-11-03T03:50:29.246Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -6736,7 +5522,7 @@
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.174Z",
+              "lastUpdated": "2022-11-03T03:50:28.473Z",
               "keywords": [
                 "Ausland",
                 "Behinderung",
@@ -6791,7 +5577,7 @@
               "description": "Das Jugendrotkreuz hat Informationen und Unterrichtsmaterialien für Pädagog/innen und Fachkräfte in der Jugendarbeit vorbereitet.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.760Z",
+              "lastUpdated": "2022-11-03T03:50:29.210Z",
               "keywords": [
                 "Beratung",
                 "Bildung",
@@ -6820,7 +5606,7 @@
               "description": "Das Jugendrotkreuz bietet für SchülerInnen und Schüler ab der 8. Schulstufe einen Kurs an.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.766Z",
+              "lastUpdated": "2022-11-03T03:50:29.217Z",
               "keywords": [
                 "Ausbildung",
                 "Beratung",
@@ -6855,7 +5641,7 @@
               "description": "In diesem Onlinekurs lernst du, wie du dich selbst schützen und wie du dein Leben organisieren kannst, wenn du einen erkrankten Angehörigen pflegen musst.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.076Z",
+              "lastUpdated": "2022-11-03T03:50:28.374Z",
               "keywords": [
                 "Ausbildung",
                 "Beratung",
@@ -6897,7 +5683,7 @@
               "description": "In diesem Kurs erhältst du praktische Anleitungen, wie pflegebedürftige Menschen betreut werden können. Dabei werden die Themen Hygiene, Krankenbeobachtung und Pflege behandelt.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.083Z",
+              "lastUpdated": "2022-11-03T03:50:28.381Z",
               "keywords": [
                 "Ausbildung",
                 "Beratung",
@@ -6939,7 +5725,7 @@
               "description": "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.204Z",
+              "lastUpdated": "2022-11-03T03:50:28.502Z",
               "keywords": [
                 "Alltag",
                 "Anlaufstelle",
@@ -6973,7 +5759,7 @@
               "description": "\"veRRückte Kindheit\" offeriert ein Seminar für Menschen die mit Jugendlichen arbeiten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.140Z",
+              "lastUpdated": "2022-11-03T03:50:28.438Z",
               "keywords": [
                 "Beratung",
                 "Bildung",
@@ -7019,7 +5805,7 @@
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.174Z",
+              "lastUpdated": "2022-11-03T03:50:28.473Z",
               "keywords": [
                 "Ausland",
                 "Behinderung",
@@ -7081,7 +5867,7 @@
               "description": "Hier sind Notrufe und Kontaktadressen für Kinder in Krisensituationen gesammelt.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.755Z",
+              "lastUpdated": "2022-11-03T03:50:29.204Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -7107,7 +5893,7 @@
               "description": "Der Kindernotruf hat ein offenes Ohr!",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.749Z",
+              "lastUpdated": "2022-11-03T03:50:29.196Z",
               "keywords": [
                 "Anrufen",
                 "E-Mail",
@@ -7141,7 +5927,7 @@
               "description": "Was tun mit den eigenen Bedürfnissen, wenn die Eltern oder Großeltern krank sind und Pflege brauchen? 147 - Rat auf Draht ist der österreichische Notruf für Kinder, Jugendliche und deren Bezugspersonen. Du kannst wählen zwischen Telefonberatung rund um die Uhr, Online- oder Chat-Beratung.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.398Z",
+              "lastUpdated": "2022-11-03T03:50:28.777Z",
               "keywords": [
                 "147",
                 "147 - Rat auf Draht",
@@ -7165,7 +5951,7 @@
               "description": "Hier triffst du Jugendliche in deinem Alter mit den gleichen Erfahrungen und Fragen zu Multipler Sklerose und kannst dich in der Gruppe austauschen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.718Z",
+              "lastUpdated": "2022-11-03T03:50:29.158Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7201,7 +5987,7 @@
               "description": "Unter folgendem Link kommst du zu elco/kiko. Hier bietet man Coaching und Beratung für Familien mit einem psychisch erkrankten Elternteil aus Oberösterreich an den Standorten Linz, Steyr und Wels.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.731Z",
+              "lastUpdated": "2022-11-03T03:50:29.174Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7234,7 +6020,7 @@
               "description": "JoJo (Salzburg) stellt verschiedene Angebote für Eltern, Schulen und Fachkräfte bereit. Für Kinder psychisch erkrankter Eltern und Geschwister gibt es Einzel- und Gruppenangebote. Solltest du nicht in eine JoJo-Regionalstelle kommen können, wird eine Online-Videoberatung angeboten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.949Z",
+              "lastUpdated": "2022-11-03T03:50:28.262Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7262,7 +6048,7 @@
               "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.224Z",
+              "lastUpdated": "2022-11-03T03:50:28.525Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7294,7 +6080,7 @@
               "description": "kids-line ist ein Beratungstelefon und eine Chat-Beratung für Kinder und Jugendliche. Kinder und Jugendliche rufen an oder chatten, wenn sie Fragen oder Probleme haben – oder einfach, weil sie jemanden zum Zuhören brauchen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.706Z",
+              "lastUpdated": "2022-11-03T03:50:29.143Z",
               "keywords": [
                 "Beratung",
                 "Beratungstelefon",
@@ -7316,7 +6102,7 @@
               "description": "Hier kommst du zum Projekt KIPKE der Caritas St. Pölten in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.744Z",
+              "lastUpdated": "2022-11-03T03:50:29.189Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7353,7 +6139,7 @@
               "description": "Hier kommst du zum Projekt KIPKE der Psychosozialen Zentren in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.737Z",
+              "lastUpdated": "2022-11-03T03:50:29.181Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7392,7 +6178,7 @@
               "description": "Das Beratungsteam der Österreichischen Krebshilfe bietet hier individuelle Hilfe für Erkrankte und deren Angehörige.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.724Z",
+              "lastUpdated": "2022-11-03T03:50:29.165Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7423,7 +6209,7 @@
               "description": "superhands ist eine Drehscheibe und Anlaufstelle für Kinder und Jugendliche, die sich um kranke Angehörige kümmern. Du kannst wählen zwischen Telefon- oder Onlineberatung.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.283Z",
+              "lastUpdated": "2022-11-03T03:50:28.592Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7450,7 +6236,7 @@
               "description": "Beratung für Jugendliche und ewachsene Angehörige in Familien mit einem psychisch erkrankten Elternteil. VeRRückte Kindheit bietet Beratung und Information, Online- und Chat-Beratung, Vorträge, und ein Online Forum zum Gedankenaustausch.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.273Z",
+              "lastUpdated": "2022-11-03T03:50:28.578Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7489,7 +6275,7 @@
               "description": "Jeden 2. Freitag des Monats können sich Young Carers oder Interessierte in Krems an der Donau von 15:30 bis 17:30 Uhr mit Mitarbeitern_innen des Teams an der Bezirksstelle des Roten Kreuzes austauschen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.712Z",
+              "lastUpdated": "2022-11-03T03:50:29.150Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -7535,7 +6321,7 @@
               "description": "Hier gibt es Informationen zum Pflegegeld wie z.B. Voraussetzungen, Antrag, Begutachtung, Höhe des Pflegegeldes, etc.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.700Z",
+              "lastUpdated": "2022-11-03T03:50:29.136Z",
               "keywords": [
                 "Amt",
                 "Anleitung",
@@ -7558,7 +6344,7 @@
               "description": "Broschüre als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.491Z",
+              "lastUpdated": "2022-11-03T03:50:28.894Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -7598,7 +6384,7 @@
               "description": "Broschüre  als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.497Z",
+              "lastUpdated": "2022-11-03T03:50:28.900Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -7636,7 +6422,7 @@
               "description": "Kinder und Jugendliche sollen in allen ihren Lebenswelten – Familie, Schule, Freizeit – gesund aufwachsen können. Gerade die Corona-Pandemie hat uns gezeigt, wie gefährdet manche Gruppen sind und wie wichtig es ist, die psychosoziale Gesundheit junger Menschen zu stärken.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.969Z",
+              "lastUpdated": "2022-11-03T03:50:28.282Z",
               "keywords": [
                 "Auszeit",
                 "Beratung",
@@ -7677,7 +6463,7 @@
               "description": "Prävention soll eine Erkrankung verhindern, verzögern bzw. Krankheitsfolgen vermeiden. Im Unterschied zur Prävention befasst sich die Gesundheitsförderung nicht mit konkreten Krankheitsrisiken, sondern mit der Erhaltung der Gesundheit. Wenn du dich z.B. psychisch belastet fühlst, hole dir Hilfe!",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.933Z",
+              "lastUpdated": "2022-11-03T03:50:28.249Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -7708,7 +6494,7 @@
               "description": "Du hast Angst, dass sich dein Freund oder deine Freundin etwas antut? In den Videos findest du viele Tipps, wie du helfen kannst.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.864Z",
+              "lastUpdated": "2022-11-03T03:50:28.166Z",
               "keywords": [
                 "Alltag",
                 "Beratung",
@@ -7741,7 +6527,7 @@
               "description": "Folder als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:04.024Z",
+              "lastUpdated": "2022-11-03T03:50:29.488Z",
               "keywords": [
                 "Anlaufstelle",
                 "Behinderung",
@@ -7776,7 +6562,7 @@
               "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.160Z",
+              "lastUpdated": "2022-11-03T03:50:28.460Z",
               "keywords": [
                 "Alltag",
                 "Angehörige",
@@ -7823,7 +6609,7 @@
               "description": "Das Info-Portal zur UN-Kinderrechtekonvention und das Bundesverfassungsgesetz über die Rechte von Kindern zeigen es dir.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.683Z",
+              "lastUpdated": "2022-11-03T03:50:29.115Z",
               "keywords": [
                 "Anwalt",
                 "Beratung",
@@ -7839,7 +6625,7 @@
               "description": "Folder  als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.688Z",
+              "lastUpdated": "2022-11-03T03:50:29.121Z",
               "keywords": [
                 "BKA",
                 "Bundeskanzleramt",
@@ -7859,7 +6645,7 @@
               "description": "Hier findest du die Patientenanwaltschaften in deinem Bundesland und deren Aufgaben.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.485Z",
+              "lastUpdated": "2022-11-03T03:50:28.888Z",
               "keywords": [
                 "Anlaufstelle",
                 "Anwalt",
@@ -7902,7 +6688,7 @@
               "description": "Was darf man eigentlich als Jugendlicher und wofür ist man noch zu jung? Die App bietet Infos über Jugendschutzbestimmungen in Österreich.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.325Z",
+              "lastUpdated": "2022-11-03T03:50:28.673Z",
               "keywords": [
                 "Anwalt",
                 "Beratung",
@@ -7929,7 +6715,7 @@
               "description": "Unter dem folgenden Link kommst du zu den Kinder- und Jugendanwaltschaften in Österreich.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.694Z",
+              "lastUpdated": "2022-11-03T03:50:29.128Z",
               "keywords": [
                 "Anlaufstelle",
                 "Anwalt",
@@ -7956,7 +6742,7 @@
               "description": "Informiere dich hier über das Angebot des Netzwerk Kinderrechte Österreich.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.024Z",
+              "lastUpdated": "2022-11-03T03:50:28.329Z",
               "keywords": [
                 "Anwalt",
                 "Beratung",
@@ -7990,7 +6776,7 @@
               "description": "Hier setzt man sich für dein Wohlbefinden ein. Mobbing an Schulen soll verhindert werden.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.977Z",
+              "lastUpdated": "2022-11-03T03:50:28.290Z",
               "keywords": [
                 "Beratung",
                 "Bildung",
@@ -8025,7 +6811,7 @@
               "description": "Die Schulpsychologie nimmt sich der Fragen und Probleme von Schüler/innen, Eltern und Lehrpersonen, die sich im schulischen Alltag ergeben, aus psychologischer Sicht an.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.677Z",
+              "lastUpdated": "2022-11-03T03:50:29.106Z",
               "keywords": [
                 "BMBWF",
                 "Bildung",
@@ -8050,7 +6836,7 @@
               "description": "Die Schulsozialarbeit kommt inner- und außerhalb der Schule zum Einsatz und umfasst den gesamten Sozialraum, in dem sich Schüler/innen bewegen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.672Z",
+              "lastUpdated": "2022-11-03T03:50:29.100Z",
               "keywords": [
                 "BMBWF",
                 "Beratung",
@@ -8098,7 +6884,7 @@
               "description": "Alateen ist eine Gemeinschaft von Kindern, Jugendlichen und Freunden von Alkoholikern. In der ganzen Welt treffen sich Kinder und junge Menschen in über 3.500 Alateen Gruppen um sich gegenseitig zu helfen, mit den Problemen fertig zu werden, die durch das Trinken eines Angehörigen entstanden sind.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.032Z",
+              "lastUpdated": "2022-11-03T03:50:28.337Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -8121,7 +6907,7 @@
               "description": "Hier kannst du nach Selbsthilfegruppen in den Bundesländern suchen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.479Z",
+              "lastUpdated": "2022-11-03T03:50:28.883Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -8150,7 +6936,7 @@
               "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.174Z",
+              "lastUpdated": "2022-11-03T03:50:28.473Z",
               "keywords": [
                 "Ausland",
                 "Behinderung",
@@ -8205,7 +6991,7 @@
               "description": "Hier findest du Stammtische und Treffen für pflegende Angehörige.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.666Z",
+              "lastUpdated": "2022-11-03T03:50:29.094Z",
               "keywords": [
                 "Angehörige",
                 "Austausch",
@@ -8241,7 +7027,7 @@
               "description": "Hier findest du ein Selbsthilfe-Programm für Jugendliche denen es gerade nicht so gut geht.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.329Z",
+              "lastUpdated": "2022-11-03T03:50:28.686Z",
               "keywords": [
                 "Bildung",
                 "Bundesland",
@@ -8266,7 +7052,7 @@
               "description": "Zeige Stärke, hol dir Hilfe! Psychische Belastungen und Probleme sind unsichtbar, sie liegen oft lange Zeit im Verborgenen. Gerade für junge Menschen, ist es wichtig mental fit zu sein, um den Alltag zu meistern.  Auf dieser Seite findest du Tipps und Anregungen die dir helfen können.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.367Z",
+              "lastUpdated": "2022-11-03T03:50:28.733Z",
               "keywords": [
                 "Alltag",
                 "Beratung",
@@ -8302,7 +7088,7 @@
               "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.168Z",
+              "lastUpdated": "2022-11-03T03:50:28.466Z",
               "keywords": [
                 "Alltag",
                 "Anlaufstelle",
@@ -8342,7 +7128,7 @@
               "description": "Folgender Link führt dich zum Service für Bürgerinnen und Bürger des Sozialministeriums.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.660Z",
+              "lastUpdated": "2022-11-03T03:50:29.088Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -8372,7 +7158,7 @@
               "description": "Get Social - Internetplattform des Jugendrotkreuzes auf facebook",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.649Z",
+              "lastUpdated": "2022-11-03T03:50:29.073Z",
               "keywords": [
                 "Beratung",
                 "FB",
@@ -8402,7 +7188,7 @@
               "description": "Folge superhands auf facebook",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.655Z",
+              "lastUpdated": "2022-11-03T03:50:29.081Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -8431,7 +7217,7 @@
               "description": "Verrückte Kindheit auf facebook",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.441Z",
+              "lastUpdated": "2022-11-03T03:50:28.840Z",
               "keywords": [
                 "Beratung",
                 "FB",
@@ -8468,7 +7254,7 @@
               "description": "Auf pflege.gv.at finden sich pflege- und betreuungsrelevante Informationen – leicht und verständlich erklärt. Dieses neue Informationsangebot richtet sich an jene, die selbst Pflege oder Betreuung brauchen oder jemanden pflegen. Es werden niederschwellig und unkompliziert wichtige Infos angeboten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.320Z",
+              "lastUpdated": "2022-11-03T03:50:28.662Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -8493,7 +7279,7 @@
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.425Z",
+              "lastUpdated": "2022-11-03T03:50:28.819Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -8558,7 +7344,7 @@
               "description": "Menschen, die Angehörige pflegen und deswegen ihre Berufstätigkeit reduzieren oder aufgeben, können sich kranken- und pensionsversichern. Die Beiträge werden vom Staat übernommen, sodass keine Kosten entstehen! Zuständig sind die Österreichische Gesundheitskasse und die Pensionsversicherungsanstalt.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.420Z",
+              "lastUpdated": "2022-11-03T03:50:28.808Z",
               "keywords": [
                 "Amt",
                 "Anleitung",
@@ -8588,7 +7374,7 @@
               "description": "Hier findest du Projekte für Kinder und Jugendliche in psychischen Krisen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.001Z",
+              "lastUpdated": "2022-11-03T03:50:28.309Z",
               "keywords": [
                 "Beratung",
                 "Hilfe",
@@ -8608,7 +7394,7 @@
               "description": "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.117Z",
+              "lastUpdated": "2022-11-03T03:50:28.418Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -8631,7 +7417,7 @@
               "description": "Er ist Bestandteil des Lebens und kann auch positiv sein. Zu viel davon macht uns aber krank. Verursacher können z.B. einschneidende Ereignisse, private oder schulische Probleme sein. Wichtig ist, wie wir damit umgehen. Es gibt hilfreiche Möglichkeiten, anspruchsvolle Situationen zu meistern.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.457Z",
+              "lastUpdated": "2022-11-03T03:50:28.858Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -8654,7 +7440,7 @@
               "description": "In der Schule ist bald wieder ein Test zu schreiben und du bist schon wieder im Stress? Strategien zu Lernen und Schulstress findest du hier zum Nachlesen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.644Z",
+              "lastUpdated": "2022-11-03T03:50:29.066Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratungsstelle",
@@ -8687,7 +7473,7 @@
               "description": "Nähere Auskünfte zu Verordnungen und Therapien erteilt die zuständige Krankenkasse bzw. der für die Patientin bzw. den Patienten zuständige Krankenversicherungsträger.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.452Z",
+              "lastUpdated": "2022-11-03T03:50:28.852Z",
               "keywords": [
                 "Anlaufstelle",
                 "Beratung",
@@ -8717,7 +7503,7 @@
               "description": "Folder als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.182Z",
+              "lastUpdated": "2022-11-03T03:50:28.481Z",
               "keywords": [
                 "Alltag",
                 "Angehörige",
@@ -8780,7 +7566,7 @@
               "description": "Hier kannst du dich zu Angeboten für betreuende und pflegende Angehörige im Burgenland informieren.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.639Z",
+              "lastUpdated": "2022-11-03T03:50:29.059Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -8817,7 +7603,7 @@
               "description": "Wertvolle Informationen zur Entlastung und Unterstützung pflegender Angehöriger bietet ebenso das Gesundheitsportal Österreichs.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.474Z",
+              "lastUpdated": "2022-11-03T03:50:28.877Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -8846,7 +7632,7 @@
               "description": "Das Land Kärnten bietet eigene Unterstützung für pflegende Angehörige.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.633Z",
+              "lastUpdated": "2022-11-03T03:50:29.052Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -8883,7 +7669,7 @@
               "description": "Leistungen für Pflegende in Niederösterreich kannst du hier nachlesen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.249Z",
+              "lastUpdated": "2022-11-03T03:50:28.546Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -8920,7 +7706,7 @@
               "description": "Zu Unterstützungsangebote für pflegende Angehörige in Oberösterreich wird unter diesem Link informiert.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.626Z",
+              "lastUpdated": "2022-11-03T03:50:29.045Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -8957,7 +7743,7 @@
               "description": "Unterstützungsangebote für pflegende Angehörige in Salzburg kannst du hier nachlesen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.620Z",
+              "lastUpdated": "2022-11-03T03:50:29.038Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -8994,7 +7780,7 @@
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.425Z",
+              "lastUpdated": "2022-11-03T03:50:28.819Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -9052,7 +7838,7 @@
               "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.613Z",
+              "lastUpdated": "2022-11-03T03:50:29.031Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -9089,7 +7875,7 @@
               "description": "Mobile Dienste in Tirol können hier abgefragt werden.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.293Z",
+              "lastUpdated": "2022-11-03T03:50:28.613Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -9126,7 +7912,7 @@
               "description": "Die Broschüre \"Entlastungs- und Unterstützungsangebote 2021\" in Vorarlberg kannst du hier nachlesen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.388Z",
+              "lastUpdated": "2022-11-03T03:50:28.763Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -9163,7 +7949,7 @@
               "description": "Der Fonds Soziales Wien informiert pflegende Angehörige unter diesem Link über bestehende Unterstüzungsangebote.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.607Z",
+              "lastUpdated": "2022-11-03T03:50:29.024Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -9207,7 +7993,7 @@
               "description": "Wir alle brauchen regelmäßig eine Auszeit. Das Juniorcamp des Jugendrotkreuzes bietet einen Erholungsaufenthalt für Kinder von Eltern mit schwerer Erkrankung. Durch den Austausch mit Gleichaltrigen lernen die Kinder und Jugendlichen, ihre Situation besser zu verstehen und besser damit umzugehen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.447Z",
+              "lastUpdated": "2022-11-03T03:50:28.845Z",
               "keywords": [
                 "Auszeit",
                 "Beratung",
@@ -9240,7 +8026,7 @@
               "description": "Das Jugendrotkreuz veranstaltet auch verschiedene Sommercamps für kids mit speziellen Bedürfnissen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.595Z",
+              "lastUpdated": "2022-11-03T03:50:29.017Z",
               "keywords": [
                 "Auszeit",
                 "Behinderung",
@@ -9278,7 +8064,7 @@
               "description": "Die Kinderburg Rapottenstein soll Erholung und Krafttanken für Familien mit chronisch oder schwerkranken Kindern oder Eltern ermöglichen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.089Z",
+              "lastUpdated": "2022-11-03T03:50:28.389Z",
               "keywords": [
                 "Auszeit",
                 "Behinderung",
@@ -9315,7 +8101,7 @@
               "description": "Die Idee besteht darin, die nationalen Bemühungen zur Sensibilisierung für die Belange von Pflegekräften im Rahmen einer gesamteuropäischen Struktur zu koordinieren und zu fördern. #WeAreCarers_EU #CarersDay_EU",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.371Z",
+              "lastUpdated": "2022-11-03T03:50:28.740Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -9351,7 +8137,7 @@
               "description": "Veranstaltungen und Online-Seminare zum Thema Demenz kannst du hier abfragen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.413Z",
+              "lastUpdated": "2022-11-03T03:50:28.801Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -9382,7 +8168,7 @@
               "description": "Laufend finden in ganz Österreich Veranstaltungen zum Thema Pflege und pflegende Angehörige statt. Hier findest du Termine für verschiedene Events, Stammtische und Treffen für pflegende Angehörige, die für dich interessant sein könnten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.409Z",
+              "lastUpdated": "2022-11-03T03:50:28.794Z",
               "keywords": [
                 "Angehörige",
                 "Austausch",
@@ -9418,7 +8204,7 @@
               "description": "Folder als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:04.024Z",
+              "lastUpdated": "2022-11-03T03:50:29.488Z",
               "keywords": [
                 "Anlaufstelle",
                 "Behinderung",
@@ -9453,7 +8239,7 @@
               "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.160Z",
+              "lastUpdated": "2022-11-03T03:50:28.460Z",
               "keywords": [
                 "Alltag",
                 "Angehörige",
@@ -9500,7 +8286,7 @@
               "description": "Wenn du und deine Familie praktische Pflegetipps und eine individuelle Beratung benötigt, kann ein kostenloser Hausbesuch durch eine diplomierte Gesundheits- und Krankenperson angefordert werden.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.589Z",
+              "lastUpdated": "2022-11-03T03:50:29.012Z",
               "keywords": [
                 "Angehörige",
                 "Angehörigengespräch",
@@ -9537,7 +8323,7 @@
               "description": "Das Village-Forschungsprojekt der Ludwig Boltzmann Gesellschaft und der Medizinischen Universität Innsbruck zielt darauf ab, ein besseres Verständnis dafür zu schaffen, wie Kinder psychisch kranker Eltern unterstützt werden können.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.796Z",
+              "lastUpdated": "2022-11-03T03:50:28.076Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -9596,7 +8382,7 @@
               "description": "Die beiden Studien (2012, 2014) als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.469Z",
+              "lastUpdated": "2022-11-03T03:50:28.870Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -9636,7 +8422,7 @@
               "description": "Studie als Download",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.584Z",
+              "lastUpdated": "2022-11-03T03:50:29.004Z",
               "keywords": [
                 "Angehörige",
                 "Bruder",
@@ -9668,7 +8454,7 @@
               "description": "Unter dem Wikipediaeintrag zu \"Young Carers\" finden sich umfassende Infos zur Situation pflegender Kinder und Jugendlicher in verschiedenen Ländern.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.039Z",
+              "lastUpdated": "2022-11-03T03:50:28.344Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -9707,7 +8493,7 @@
               "description": "**Young Carers in Graz** will erforschen, was Kinder und Jugendliche, die Angehörige zu Hause betreuen und pflegen brauchen, um ihren Alltag besser zu meistern bzw. sich besser unterstützt zu fühlen. Welche Chancen und Risiken ergeben sich durch den Einsatz digitaler Technologien?",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.361Z",
+              "lastUpdated": "2022-11-03T03:50:28.727Z",
               "keywords": [
                 "Angehörige",
                 "Bildung",
@@ -9754,7 +8540,7 @@
               "description": "2017 fand in Malmö die 2nd International Young Carers Conference \"Every Child has the right to ...\" statt. Hier findest du viele interessante Präsentationen und Vorträge von Expertinnen und Experten sowie Young Carers aus verschiedensten Ländern.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.880Z",
+              "lastUpdated": "2022-11-03T03:50:28.188Z",
               "keywords": [
                 "2nd International Young Carers Conference 2017",
                 "Angehörige",
@@ -9795,7 +8581,7 @@
               "description": "Die 3rd International Young Carers Conference \"Identify, Support and Listen to Young Carers\" fand online von 3. bis 6 Mai 2021 statt.\n**Bitte auf Translate im oberen rechten Bereich der Seite klicken**",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.009Z",
+              "lastUpdated": "2022-11-03T03:50:28.315Z",
               "keywords": [
                 "3rd International Young Carers Conference 2021",
                 "Angehörige",
@@ -9836,7 +8622,7 @@
               "description": "In der Schweiz haben Young Carers die Möglichkeit sich zu vernetzen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.842Z",
+              "lastUpdated": "2022-11-03T03:50:28.145Z",
               "keywords": [
                 "Ausland",
                 "Bruder",
@@ -9856,7 +8642,7 @@
               "description": "Online Unterstützungsangebot für Young Carers aus der Schweiz",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.869Z",
+              "lastUpdated": "2022-11-03T03:50:28.174Z",
               "keywords": [
                 "Ausland",
                 "Bruder",
@@ -9882,7 +8668,7 @@
               "description": "Hier findest du Informationen aus der Schweiz",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.573Z",
+              "lastUpdated": "2022-11-03T03:50:28.992Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -9921,7 +8707,7 @@
               "description": "Ein Song anlässlich der CARERS WEEK",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.836Z",
+              "lastUpdated": "2022-11-03T03:50:28.137Z",
               "keywords": [
                 "Alzheimer",
                 "Angehörige",
@@ -9969,7 +8755,7 @@
               "description": "Hier haben wir noch einen Link nach Deutschland für dich - Hilfe für minderjährige Kinder, welche ihre Eltern pflegen. Es gibt viel Interessantes zum Nachlesen, Filme und Ideen für Projekte.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.288Z",
+              "lastUpdated": "2022-11-03T03:50:28.598Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -10008,7 +8794,7 @@
               "description": "Ist ein deutsches Netzwerk von pflegenden Angehörigen und Pflege Akteuren. Gemeinsam wollen sie größere Aufmerksamkeit und Unterstützung für Tausende von Kindern und Jugendlichen erreichen, die schon in frühen Jahren große Pflegeverantwortung haben.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.993Z",
+              "lastUpdated": "2022-11-03T03:50:28.304Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -10043,7 +8829,7 @@
               "description": "Young Carers Deutschland ist ein Angebot für junge Pflegende unter 18 Jahren, die mit einem chronisch kranken oder beeinträchtigten Angehörigen zusammenleben.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.097Z",
+              "lastUpdated": "2022-11-03T03:50:28.399Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -10083,7 +8869,7 @@
               "description": "Little Dreamers als führende Organisation in Australien vermittelt dir einen Eindruck, was so in Down Under passiert.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.568Z",
+              "lastUpdated": "2022-11-03T03:50:28.985Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -10121,7 +8907,7 @@
               "description": "Pausentaste - Wer anderen hilft, braucht manchmal selbst Hilfe (Deutschland)",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.579Z",
+              "lastUpdated": "2022-11-03T03:50:28.997Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -10168,7 +8954,7 @@
               "description": "Hier gibt's eine Website und eine App für Young Carers aus der Schweiz.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:02.850Z",
+              "lastUpdated": "2022-11-03T03:50:28.153Z",
               "keywords": [
                 "Ausland",
                 "Bruder",
@@ -10192,7 +8978,7 @@
               "description": "The Children's Society in Großbritannien kümmert sich u.a. auch um den Support von Young Carers .",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.104Z",
+              "lastUpdated": "2022-11-03T03:50:28.405Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -10231,7 +9017,7 @@
               "description": "Manchmal kommen Geschwister von Kindern mit Krankheit oder Behinderung oft zu kurz. Der Verein \"Raum für Geschwister\" aus der Schweiz bemüht sich um dieses Thema.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.351Z",
+              "lastUpdated": "2022-11-03T03:50:28.712Z",
               "keywords": [
                 "Angehörige",
                 "Bruder",
@@ -10263,7 +9049,7 @@
               "description": "Hilfe für Kinder kranker Eltern (Deutschland) tritt für bessere Chancen von Young Carers auf einen guten Start ein.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.256Z",
+              "lastUpdated": "2022-11-03T03:50:28.554Z",
               "keywords": [
                 "Angehörige",
                 "Ausland",
@@ -10309,7 +9095,7 @@
               "description": "Jeder Mensch braucht Urlaub und Erholung. Wenn die Hauptpflegeperson ausfällt, können Zuwendungen für Kosten der Ersatzpflege gewährt werden. Voraussetzung ist Pflegegeld ab Stufe 3; bei Menschen mit Demenz und Minderjährigen reicht Stufe 1.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-10-27T04:01:03.393Z",
+              "lastUpdated": "2022-11-03T03:50:28.770Z",
               "keywords": [
                 "Behinderung",
                 "Beratung",
@@ -10376,5 +9162,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-10-27T10:04:34.781Z"
+  "timestamp": "2022-11-03T09:11:06.430Z"
 }
