@@ -7949,88 +7949,6 @@
       ]
     },
     {
-      "name": "Qualität",
-      "title": "Hausbesuche durch Pflegefachkräfte im Auftrag des Sozialministeriums",
-      "information": "Viele pflegende Angehörige wissen nicht Bescheid über passende Unterstützungsangebote. Hier kann eine **Beratung zu Hause** helfen. Auf Wunsch des hilfebedürftigen Menschen oder der Angehörigen machen diplomierte Gesundheits- und Krankenpflegepersonen einen Hausbesuch. Dabei informieren sie z.B. zu Pflegegeld, sozialen Diensten sowie Hilfsmittel. Außerdem gibt es **praktische Pflegetipps**, z.B. zur Lagerung und zum Positionswechsel. Dies kann die Pflegesituation zu Hause verbessern und somit die Lebensqualität aller Beteiligten verbessern. Dieses Angebot ist **kostenlos**.",
-      "entries": [
-        {
-          "ownerName": "Broschürenservice des Sozialministeriums",
-          "ownerUrl": "",
-          "references": [
-            {
-              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=667",
-              "title": "Infos über das Angehörigengespräch",
-              "description": "Folder als Download",
-              "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-              "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:29.488Z",
-              "keywords": [
-                "Anlaufstelle",
-                "Behinderung",
-                "Beratung",
-                "Beratungsstelle",
-                "Finanzielles",
-                "Geld",
-                "Gesundheit",
-                "Gesundheitsministerium",
-                "Hilfe",
-                "Hilfseinrichtung",
-                "Ministerium",
-                "Pflege",
-                "Pflegegeld",
-                "Pflegeplattform",
-                "Plattform",
-                "Rat",
-                "Sozial",
-                "Sozialministerium",
-                "Unterstützung"
-              ]
-            }
-          ]
-        },
-        {
-          "ownerName": "Sozialversicherungsanstalt der Selbständigen",
-          "ownerUrl": "",
-          "references": [
-            {
-              "url": "https://www.svs.at/cdscontent/?contentid=10007.816614&portal=svsportal",
-              "title": "Wie kommts zum Angehörigengespräch?",
-              "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
-              "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-              "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:28.460Z",
-              "keywords": [
-                "Alltag",
-                "Angehörige",
-                "Angehörigengespräch",
-                "Anlaufstelle",
-                "Beratung",
-                "Beratungsstelle",
-                "Daheim",
-                "Hausbesuch",
-                "Hilfe",
-                "Hilfseinrichtung",
-                "Kompetenz",
-                "Kompetenzzentrum",
-                "Lernen",
-                "Pflege",
-                "Pflegetipps",
-                "Rat",
-                "SVS",
-                "Tipps",
-                "Unterstützung",
-                "Wissen",
-                "Zentrum",
-                "Zu Hause",
-                "Zuhause",
-                "praktisch"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Recht",
       "title": "Kinderrechte und Rechte von Jugendlichen",
       "information": "Kinderrechte sind Menschenrechte, die auf der ganzen Welt für alle jungen Menschen bis 18 Jahre gelten. Die [**Kinder- und Jugendanwaltschaften Österreichs**](https://www.kija.at/) setzen sich für die Interessen von Kindern und Jugendlichen ein. Bei Fragen und Problemen kannst du dich vertraulich und kostenlos an deine zuständige Kinder- und Jugendanwaltschaft wenden.\r\n\r\nAuch Patient:innen bzw. pflegebedürftige Menschen haben Rechte. Für deren Interessen sind die [**Patientenanwaltschaften**](https://www.gesundheit.gv.at/gesundheitsleistungen/institutionen/patientenanwalt) in den Bundesländern zuständig.",
@@ -10598,5 +10516,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:48:55.518Z"
+  "timestamp": "2022-11-03T09:51:03.630Z"
 }
