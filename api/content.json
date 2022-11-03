@@ -1537,6 +1537,15 @@
           "text": "Morgens hat es Isabella immer eilig. Nach dem Aufstehen weckt sie ihre zwei kleinen Geschwister, zieht sie an und sorgt dafür, dass alle dieZähne putzen. Dann richtet sie das Frühstück her. Die Katze muss auch nochgefüttert werden. Bevor sie mit ihren Geschwistern das Haus verlässt, versorgt sie noch rasch ihre Mutter, bringt ihr den Kaffee und die Medikamente ans Bett.Nachdem Isabella die Kleinen im Kindergarten abgeliefert hat, hetzt sie in die Schule. Verdammt, heute ist sie schon wieder zu spät dran!"
         }
       ]
+    },
+    {
+      "question": "Den Haushalt schmeißen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Nach der Schule holt Paul seine kleinen Geschwister von der Schule ab. Dann ist die Wäsche zu erledigen, es müsste auch mal wieder jemand aufräumen und Staub saugen. Zwischendurch hilft Paul seinen Geschwistern beiden Hausaufgaben. Wenn Papa am Abend heimkommt, wird gemeinsam eine Kleinigkeit gekocht und der Abwasch erledigt. Nach dem Essen müssen die Kleinen noch ins Bett gebracht werden."
+        }
+      ]
     }
   ],
   "abc": [
@@ -9350,5 +9359,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:20:13.820Z"
+  "timestamp": "2022-11-03T09:21:04.138Z"
 }
