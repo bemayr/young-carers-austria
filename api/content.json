@@ -1546,6 +1546,15 @@
           "text": "Nach der Schule holt Paul seine kleinen Geschwister von der Schule ab. Dann ist die Wäsche zu erledigen, es müsste auch mal wieder jemand aufräumen und Staub saugen. Zwischendurch hilft Paul seinen Geschwistern bei den Hausaufgaben. Wenn Papa am Abend heimkommt, wird gemeinsam eine Kleinigkeit gekocht und der Abwasch erledigt. Nach dem Essen müssen die Kleinen noch ins Bett gebracht werden. "
         }
       ]
+    },
+    {
+      "question": "Besorgungen erledigen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Dadurch hat Mama die notwendige Zeit, sich um den kranken Papa zu kümmern."
+        }
+      ]
     }
   ],
   "abc": [
@@ -9359,5 +9368,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:23:14.107Z"
+  "timestamp": "2022-11-03T09:27:28.631Z"
 }
