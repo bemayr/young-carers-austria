@@ -1564,6 +1564,24 @@
           "text": "Manchmal schafft es Mario nicht, pünktlich in der Schule zu sein. Er hat in der Früh zu Hause einfach zu viel zu tun. In der Klasse ist er dann manchmal müde und hat Probleme dem Unterricht zu folgen. Es kann aber auch passieren, dass das Handy läutet und Mario muss schnell nach Hause, weil er dort dringend für die Betreuung seines Vaters gebraucht wird. Das führt dazu, dass er immer mehr Fehlstunden in der Schule hat. Seine Noten werden auch schlechter, weil er sich nicht genug auf Tests und Prüfungen vorbereiten kann."
         }
       ]
+    },
+    {
+      "question": "Zeit für Hobbies und Freizeit",
+      "content": [
+        {
+          "type": "text",
+          "text": "Eigentlich würde Bianca ihre Freundin Melanie gerne mit nach Hause nehmen. Aber Bianca ist die Situation daheim unangenehm und so gibt es keine Einladung. Überhaupt würde Bianca gerne mehr Zeit mit Freundinnen und Hobbies verbringen, aber die Hilfe für die demenzkranke Oma nimmt Bianca zu sehr in Anspruch."
+        }
+      ]
+    },
+    {
+      "question": "Unterstützung leisten",
+      "content": [
+        {
+          "type": "text",
+          "text": "Thomas übernimmt regelmäßig die Betreuung und Pflege für seinen kranken Bruder Max. Dann hilft Thomas bei der Körperpflege, beim An- und Ausziehen oder wenn Max auf die Toilette muss. Wenn er Hunger hat, bringt ihm sein Bruder was zum Essen und zum Trinken. Überhaupt gibt Thomas Acht auf Max und die Brüder verbringen viel Zeit miteinander."
+        }
+      ]
     }
   ],
   "abc": [
@@ -9377,5 +9395,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:28:25.270Z"
+  "timestamp": "2022-11-03T09:29:40.596Z"
 }
