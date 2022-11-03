@@ -6760,60 +6760,6 @@
       ]
     },
     {
-      "name": "Krankenhäuser und Spitäler",
-      "title": "Wo ist die nächste Klinik?",
-      "information": "Das Webportal [**Kliniksuche.at**](https://kliniksuche.at/) bietet einen Überblick über alle **Krankenhäuser in Österreich**. Gesucht werden kann nach dem passenden Spital anhand von Leistungen und Diagnosen, aber auch nach bestimmten Abteilungen und Ambulanzen.",
-      "entries": [
-        {
-          "ownerName": "Kliniksuche des BMSGPK",
-          "ownerUrl": "",
-          "references": [
-            {
-              "url": "https://kliniksuche.at/",
-              "title": "kliniksuche.at",
-              "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden.",
-              "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-              "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:28.825Z",
-              "keywords": [
-                "Ambulanz",
-                "Arzt",
-                "Behandlung",
-                "Behinderung",
-                "Beratung",
-                "Finanzielles",
-                "Geld",
-                "Gesundheit",
-                "Gesundheitsministerium",
-                "Hilfe",
-                "Klinik",
-                "Kliniksuche",
-                "Krankenhaus",
-                "Krankheit",
-                "Medizin",
-                "Ministerium",
-                "Notfall",
-                "Notruf",
-                "Pflege",
-                "Pflegegeld",
-                "Pflegeplattform",
-                "Plattform",
-                "Rettung",
-                "Sozial",
-                "Sozialministerium",
-                "Spital",
-                "Spitäler",
-                "Suche",
-                "Therapie",
-                "Unterstützung",
-                "Ärztin"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Krankheiten",
       "title": "Wo gibt es gesichertes Wissen zu Krankheitsbildern?",
       "information": "Die Diagnose einer Erkrankung löst bei vielen Menschen Angst aus. Besonders chronische Krankheiten beeinflussen das alltägliche Leben. Wissen hilft bei der Bewältigung. Es gibt viele unterschiedliche Krankheitsbilder – außerdem ist jeder Mensch anders und daher individuell zu behandeln. Es ist wichtig, dass du weißt **wo du dich über Gesundheit und Krankheit informieren kannst** und verlässliche Auskunft bekommst.\r\n\r\nAuf die Informationen im [**Gesundheitsportal Österreichs**](https://www.gesundheit.gv.at) kannst du dich verlassen. Wenn du mehr oder weiterführende Informationen brauchst, wende dich z.B. an deine Ärztin oder deinen Arzt.",
@@ -7349,6 +7295,53 @@
                 "Sorgen",
                 "Telefon",
                 "Verein Lichtblick"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Kliniksuche des BMSGPK",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://kliniksuche.at/",
+              "title": "kliniksuche.at ",
+              "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden. ",
+              "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-03T09:47:37.357Z",
+              "keywords": [
+                "Ambulanz",
+                "Arzt",
+                "Behandlung",
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Klinik",
+                "Kliniksuche",
+                "Krankenhaus",
+                "Krankheit",
+                "Medizin",
+                "Ministerium",
+                "Notfall",
+                "Notruf",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Rettung",
+                "Sozial",
+                "Sozialministerium",
+                "Spital",
+                "Spitäler",
+                "Suche",
+                "Therapie",
+                "Unterstützung",
+                "Ärztin"
               ]
             }
           ]
@@ -10605,5 +10598,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:46:05.472Z"
+  "timestamp": "2022-11-03T09:48:55.518Z"
 }
