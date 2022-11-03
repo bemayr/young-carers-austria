@@ -9437,6 +9437,32 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Sozialministeriumservice",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.sozialministeriumservice.at/Finanzielles/Pflegeunterstuetzungen/Pflegende_Angehoerige/Unterstuetzung_fuer_pflegende_Angehoerige.de.html",
+              "title": "Was tun wenn die Hauptpflegeperson mal Pause braucht? ",
+              "description": "Jeder Mensch braucht Urlaub und Erholung. Wenn die Hauptpflegeperson ausfällt, können Zuwendungen für Kosten der Ersatzpflege gewährt werden. Voraussetzung ist Pflegegeld ab Stufe 3; bei Menschen mit Demenz und Minderjährigen reicht Stufe 1. ",
+              "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-03T09:51:17.836Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Hilfe",
+                "Pflege",
+                "Sozial",
+                "Sozialministeriumservice",
+                "Unterstützung"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -10433,45 +10459,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "Zuwendung für Ersatzpflege",
-      "title": "Zuwendungen für Ersatzpflege",
-      "information": "Jeder Mensch braucht **Urlaub und Erholung**, dies gilt ganz besonders für pflegende Angehörige. Wenn die Hauptpflegeperson wegen z.B. Urlaub, Krankheit oder Kur ausfällt, können für maximal **28 Tage im Jahr** finanzielle Unterstützung für die Kosten der Ersatzpflege gewährt werden.\r\n\r\nVoraussetzung ist der Bezug von **Pflegegeld der Stufe 3**. Bei der Betreuung von Menschen mit demenziellen Beeinträchtigungen und von Minderjährigen reicht ein **Pflegegeld der Stufe 1**. Auch Young Carers können diese Leistung beantragen. Weiterführende Informationen zur Antragstellung erhältst du beim [**Sozialministeriumservice**](https://www.sozialministeriumservice.at/Finanzielles/Pflegeunterstuetzungen/Pflegende_Angehoerige/Unterstuetzung_fuer_pflegende_Angehoerige.de.html).",
-      "entries": [
-        {
-          "ownerName": "Sozialministeriumservice",
-          "ownerUrl": "",
-          "references": [
-            {
-              "url": "https://www.sozialministeriumservice.at/Finanzielles/Pflegeunterstuetzungen/Pflegende_Angehoerige/Unterstuetzung_fuer_pflegende_Angehoerige.de.html",
-              "title": "Was tun wenn die Hauptpflegeperson mal Pause braucht?",
-              "description": "Jeder Mensch braucht Urlaub und Erholung. Wenn die Hauptpflegeperson ausfällt, können Zuwendungen für Kosten der Ersatzpflege gewährt werden. Voraussetzung ist Pflegegeld ab Stufe 3; bei Menschen mit Demenz und Minderjährigen reicht Stufe 1.",
-              "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-              "isPaidContent": false,
-              "lastUpdated": "2022-11-03T03:50:28.770Z",
-              "keywords": [
-                "Behinderung",
-                "Beratung",
-                "Finanzielles",
-                "Geld",
-                "Gesundheit",
-                "Hilfe",
-                "Pflege",
-                "Sozial",
-                "Sozialministeriumservice",
-                "Unterstützung"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Zweck der App",
-      "title": "Unterstützung für dich",
-      "information": "Pflegst du jemanden? Mit dieser App wollen wir dich in deiner herausfordernden Lebenssituation unterstützen. **Ziel** ist, dir hier gebündelte Informationen anzubieten und dir bzw. deiner Familie einen Überblick über bestehende Hilfsangebote aufzuzeigen.\r\n\r\nEltern, Lehrer:innen oder andere interessierte Menschen sollen erfahren, was es bedeuten kann, ein Young Carer zu sein und wie sie diese unterstützen können.\r\n\r\nWenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können. Wir freuen uns!",
-      "entries": []
     }
   ],
   "metadata": [
@@ -10516,5 +10503,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:51:03.630Z"
+  "timestamp": "2022-11-03T09:52:31.603Z"
 }
