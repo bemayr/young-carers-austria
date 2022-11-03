@@ -433,347 +433,6 @@
   },
   "insights": [
     {
-      "question": "Testalltagsgeschichte zur Entwicklung",
-      "content": [
-        {
-          "type": "text",
-          "text": "Dieser Text ist **fett**,"
-        },
-        {
-          "type": "text",
-          "text": "\r\n1. beinhaltet\r\n1. eine\r\n1. nummerierte\r\n1. Aufzählung\r\n\r\n"
-        },
-        {
-          "type": "text",
-          "text": "und eine"
-        },
-        {
-          "type": "text",
-          "text": "\r\n* nicht\r\n* nummerierte\r\n* Aufzählung\r\n\r\n"
-        },
-        {
-          "type": "text",
-          "text": "sowie Verweise auf Kategorien"
-        },
-        {
-          "type": "category",
-          "category": {
-            "name": "Zweck der App",
-            "title": "Unterstützung für dich",
-            "information": "Pflegst du jemanden? Mit dieser App wollen wir dich in deiner herausfordernden Lebenssituation unterstützen. **Ziel** ist, dir hier gebündelte Informationen anzubieten und dir bzw. deiner Familie einen Überblick über bestehende Hilfsangebote aufzuzeigen.\r\n\r\nEltern, Lehrer:innen oder andere interessierte Menschen sollen erfahren, was es bedeuten kann, ein Young Carer zu sein und wie sie diese unterstützen können.\r\n\r\nWenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können. Wir freuen uns!",
-            "entries": []
-          }
-        },
-        {
-          "type": "category",
-          "category": {
-            "name": "Finanzielles",
-            "title": "Finanzielle Hilfen bei Pflege und Betreuung zu Hause",
-            "information": "Für betreuende Angehörige sowie für pflegebedürftige Personen gibt es **verschiedene Hilfeleistungen.** Zum Beispiel kann man Dinge/Dienstleistungen billiger oder gratis bekommen. Es gibt viele unterschiedliche Angebote von Hilfen.Finanzielle Unterstützung zu den **Kosten für die Ersatzpflege** soll dabei helfen wenn nahe Angehörigen während ihrer Abwesenheit (z.B. Urlaub oder Krankenstand) eine geeignete Ersatzpflege organisieren und bezahlen müssen. Eine **Förderung der 24-Stunden-Betreuung** kann man **ab Pflegestufe 3** bekommen, egal wieviel Vermögen man hat.\r\n\r\nDamit Job und Pflege gleichzeitig funktionieren gibt es die Pflegekarenz, die Pflegeteilzeit und die Familienhospizkarenz. Damit man während dieser Zeit trotzdem ein Einkommen hat, gibt es das **Pflegekarenzgeld**.\r\n\r\nPflegende Angehörige, welche wegen der Pflege weniger oder gar nicht arbeiten können oder wollen, haben die Möglichkeit, eine **kostenlose Weiter- oder Selbstversicherung in der Pensionsversicherung** in Anspruch zu nehmen. In der **Krankenversicherung** gibt es die Möglichkeit der Mitversicherung und der kostenlosen Selbstversicherung bei sozialer Schutzbedürftigkeit.",
-            "entries": [
-              {
-                "ownerName": "Broschürenservice",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=288",
-                    "title": "\"Das Pflegekarenzgeld\"",
-                    "description": "Folder  als Download",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:28.913Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Beratung",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Hilfe",
-                      "Ministerium",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegeplattform",
-                      "Plattform",
-                      "Sozial",
-                      "Sozialministerium",
-                      "Unterstützung"
-                    ]
-                  },
-                  {
-                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=359",
-                    "title": "\"EIN:BLICK 1 - Kindheit und Jugend\"",
-                    "description": "Broschüre  als Download",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:28.920Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Beratung",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Hilfe",
-                      "Ministerium",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegeplattform",
-                      "Plattform",
-                      "Sozial",
-                      "Sozialministerium",
-                      "Unterstützung"
-                    ]
-                  },
-                  {
-                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=433",
-                    "title": "\"EIN:BLICK 7 - Finanzielles\"",
-                    "description": "Broschüre  als Download",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:28.925Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Beratung",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Hilfe",
-                      "Ministerium",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegeplattform",
-                      "Plattform",
-                      "Sozial",
-                      "Sozialministerium",
-                      "Unterstützung"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Broschürenservice des Sozialministeriums",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=331",
-                    "title": "Unterstützungen für pflegende Angehörige",
-                    "description": "Folder als Download",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:28.481Z",
-                    "keywords": [
-                      "Alltag",
-                      "Angehörige",
-                      "Anlaufstelle",
-                      "Behinderung",
-                      "Beratung",
-                      "Beratungsstelle",
-                      "Betreuung",
-                      "Bruder",
-                      "Bundesland",
-                      "Daheim",
-                      "Eltern",
-                      "FSW",
-                      "Finanzielles",
-                      "Geld",
-                      "Geschwister",
-                      "Gesundheit",
-                      "Gesundheitsministerium",
-                      "Großeltern",
-                      "Hilfe",
-                      "Hilfseinrichtung",
-                      "Kinder",
-                      "Lernen",
-                      "Mama",
-                      "Ministerium",
-                      "Mobil",
-                      "Oma",
-                      "Opa",
-                      "Papa",
-                      "Pflege",
-                      "Pflegegeld",
-                      "Pflegende Angehörige",
-                      "Pflegeplattform",
-                      "Pflegetipps",
-                      "Plattform",
-                      "Rat",
-                      "Schwester",
-                      "Sozial",
-                      "Soziale Dienste",
-                      "Sozialministerium",
-                      "Tipps",
-                      "Unterstützung",
-                      "Wissen",
-                      "Young Carer",
-                      "Zu Hause",
-                      "Zugehörige",
-                      "Zuhause",
-                      "praktisch"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Bundeskanzleramt",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.bundeskanzleramt.gv.at/familienportal",
-                    "title": "Familienportal",
-                    "description": "Das Familienportal bietet umfangreiche Infos zu finanziellen Themen rund um die Familie.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:28.349Z",
-                    "keywords": [
-                      "BKA",
-                      "Bundeskanzleramt",
-                      "Kanzler",
-                      "Österreich"
-                    ]
-                  }
-                ]
-              },
-              {
-                "ownerName": "Sozialministeriumservice",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://www.sozialministeriumservice.at/Finanzielles/Finanzielle_Unterstuetzung/Sonstige_finanzielle_Vorteile/Sonstige_finanzielle_Vorteile_und_Unterstuetzungen.de.html",
-                    "title": "Finanzielle Hilfe",
-                    "description": "Hier findest du sonstige Unterstützungen des Sozialministeriumservice.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:29.322Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Beratung",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Hilfe",
-                      "Pflege",
-                      "Sozial",
-                      "Sozialministeriumservice",
-                      "Unterstützung"
-                    ]
-                  },
-                  {
-                    "url": "https://www.sozialministeriumservice.at/Finanzielles/Pflegeunterstuetzungen/Pflegeunterstuetzungen.de.html",
-                    "title": "Pflegeunterstützungen",
-                    "description": "Hier kannst du dich über Unterstützungen des Sozialministeriumservice informieren.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:29.328Z",
-                    "keywords": [
-                      "Behinderung",
-                      "Beratung",
-                      "Finanzielles",
-                      "Geld",
-                      "Gesundheit",
-                      "Hilfe",
-                      "Pflege",
-                      "Sozial",
-                      "Sozialministeriumservice",
-                      "Unterstützung"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "text": "und einzelne Beiträge"
-        },
-        {
-          "type": "reference",
-          "reference": {
-            "url": "https://village.lbg.ac.at/",
-            "title": "Village Projekt",
-            "description": "Das Village-Forschungsprojekt der Ludwig Boltzmann Gesellschaft und der Medizinischen Universität Innsbruck zielt darauf ab, ein besseres Verständnis dafür zu schaffen, wie Kinder psychisch kranker Eltern unterstützt werden können.",
-            "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-            "isPaidContent": false,
-            "lastUpdated": "2022-11-03T03:50:28.076Z",
-            "keywords": [
-              "Angehörige",
-              "Behinderung",
-              "Beratung",
-              "Bildung",
-              "Bruder",
-              "Bundesland",
-              "Eltern",
-              "Finanzielles",
-              "Forschung",
-              "Geld",
-              "Geschwister",
-              "Gesundheit",
-              "Gesundheitsministerium",
-              "Großeltern",
-              "Hilfe",
-              "Innsbruck",
-              "Jugendliche",
-              "Junge",
-              "Kinder",
-              "LBG Village",
-              "Ludwig Boltzmann Institut",
-              "Mama",
-              "Ministerium",
-              "Mutter",
-              "Oma",
-              "Opa",
-              "Papa",
-              "Pflege",
-              "Pflegegeld",
-              "Pflegeplattform",
-              "Plattform",
-              "Schwester",
-              "Sozial",
-              "Sozialministerium",
-              "Tirol",
-              "Universität",
-              "Unterstützung",
-              "Vater",
-              "Verständnis",
-              "Wissen",
-              "Young Carers",
-              "krank",
-              "psychisch"
-            ]
-          }
-        },
-        {
-          "type": "reference",
-          "reference": {
-            "url": "https://bittelebe.at/",
-            "title": "Bitte Lebe - Hilfe bei Suizidgedanken",
-            "description": "Du hast Angst, dass sich dein Freund oder deine Freundin etwas antut? In den Videos findest du viele Tipps, wie du helfen kannst.",
-            "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-            "isPaidContent": false,
-            "lastUpdated": "2022-11-03T03:50:28.166Z",
-            "keywords": [
-              "Alltag",
-              "Beratung",
-              "Hilfe",
-              "Lernen",
-              "Pflege",
-              "Rat",
-              "Tipps",
-              "Unterstützung",
-              "Wissen",
-              "praktisch"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "text": "sowie einen [Link 🌐](https://github.com/bemayr/young-carers-austria)Link 🌐, einen weiteren [Link ☎️](tel:1234567890)Link ☎️ und eine [Mail-Adresse ✉️](mailto:test@test.com)Mail-Adresse ✉️"
-        }
-      ]
-    },
-    {
       "question": "Für die Schule arbeiten und Helfen ist dir zu viel",
       "content": [
         {
@@ -1362,98 +1021,335 @@
           "text": "Vielleicht kommt dir eine der Alltags-Situationen so oder so ähnlich bekannt vor? Wenn du dich darin wiederfindest, kannst du mit jemanden über deine Gefühle sprechen. Das ist ganz wichtig für dich! Sich Hilfe holen, heißt Stärke zeigen."
         },
         {
+          "type": "reference",
+          "reference": {
+            "url": "https://www.rataufdraht.at/themenubersicht/tipps-info/pflegst-du-jemanden",
+            "title": "Rat auf Draht",
+            "description": "Was tun mit den eigenen Bedürfnissen, wenn die Eltern oder Großeltern krank sind und Pflege brauchen? 147 - Rat auf Draht ist der österreichische Notruf für Kinder, Jugendliche und deren Bezugspersonen. Du kannst wählen zwischen Telefonberatung rund um die Uhr, Online- oder Chat-Beratung.",
+            "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+            "isPaidContent": false,
+            "lastUpdated": "2022-11-03T03:50:28.777Z",
+            "keywords": [
+              "147",
+              "147 - Rat auf Draht",
+              "Beratung",
+              "Hilfe",
+              "Hotline",
+              "Mobbing",
+              "Rat auf Draht",
+              "Sorgen"
+            ]
+          }
+        },
+        {
+          "type": "reference",
+          "reference": {
+            "url": "https://www.superhands.at",
+            "title": "superhands",
+            "description": "superhands ist eine Drehscheibe und Anlaufstelle für Kinder und Jugendliche, die sich um kranke Angehörige kümmern. Du kannst wählen zwischen Telefon- oder Onlineberatung.",
+            "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+            "isPaidContent": false,
+            "lastUpdated": "2022-11-03T03:50:28.592Z",
+            "keywords": [
+              "Anlaufstelle",
+              "Beratung",
+              "Beratungsstelle",
+              "Hilfe",
+              "Hilfseinrichtung",
+              "Johanniter",
+              "Organisation",
+              "Rat",
+              "Rettung",
+              "Unterstützung",
+              "superhands"
+            ]
+          }
+        },
+        {
           "type": "category",
           "category": {
-            "name": "Chatten",
-            "title": "Chatten",
-            "information": "Es gibt verschiedene Anlaufstellen, welche eine Onlineberatung auch via Chat anbieten. Dabei kannst du auch anonym bleiben, wenn dir das wichtig ist. Eine anonyme Onlineberatung kannst du bei den &quot;superhands&quot; in Anspruch nehmen. Bei der &quot;Telefonseelsorge&quot; kannst du einen Sofortchat zur Kontaktaufnahme auswählen. Ebenso findest du bei &quot;veRRückte Kindheit&quot; oder &quot;147 - Rat auf Draht&quot; verschiedene Möglichkeiten der Onlineberatung.",
+            "name": "Organisationen",
+            "title": "Organisationen mit speziellen Angeboten für Young Carers",
+            "information": "In Österreich kümmern sich circa **42.700** pflegende Kinder und Jugendliche **regelmäßig** um ein krankes Familienmitglied, meist ein Elternteil, aber auch Geschwister oder Großeltern können Hilfe benötigen. Du bist also nicht allein! Wenn du dich über Unterstützungsangebote informieren oder vertraulich mit jemanden über deine Situation und Probleme sprechen möchtest, kannst du dich an Organisationen für Young Carers wenden.",
             "entries": [
-              {
-                "ownerName": "142 Telefonseelsorge",
-                "ownerUrl": "",
-                "references": [
-                  {
-                    "url": "https://chat.onlineberatung-telefonseelsorge.at/hc/de",
-                    "title": "Telefonseelsorge",
-                    "description": "Die TelefonSeelsorge Österreich – Notruf 142 ist eine österreichweite Organisation mit neun TelefonSeelsorge-Stellen. Hilfe gibts telefonisch, per Sofortchat oder per Mail.",
-                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
-                    "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:28.130Z",
-                    "keywords": [
-                      "142",
-                      "Anlaufstelle",
-                      "Beratung",
-                      "Beratungsstelle",
-                      "Chatten",
-                      "E-Mail",
-                      "Gespräch",
-                      "Gewalt",
-                      "Hilfe",
-                      "Hilfseinrichtung",
-                      "Mail",
-                      "Mobbing",
-                      "Notruf",
-                      "Organisation",
-                      "Pflege",
-                      "Rat",
-                      "Reden",
-                      "Sorgen",
-                      "Telefon",
-                      "Telefonseelsorge",
-                      "Unterstützung"
-                    ]
-                  }
-                ]
-              },
               {
                 "ownerName": "147 - Rat auf Draht",
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.rataufdraht.at/",
+                    "url": "https://www.rataufdraht.at/themenubersicht/tipps-info/pflegst-du-jemanden",
                     "title": "Rat auf Draht",
-                    "description": "Beratung für Kinder und Jugendliche jederzeit - anonym - kostenlos",
+                    "description": "Was tun mit den eigenen Bedürfnissen, wenn die Eltern oder Großeltern krank sind und Pflege brauchen? 147 - Rat auf Draht ist der österreichische Notruf für Kinder, Jugendliche und deren Bezugspersonen. Du kannst wählen zwischen Telefonberatung rund um die Uhr, Online- oder Chat-Beratung.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:29.437Z",
+                    "lastUpdated": "2022-11-03T03:50:28.777Z",
                     "keywords": [
                       "147",
                       "147 - Rat auf Draht",
-                      "Anlaufstelle",
                       "Beratung",
-                      "Beratungsstelle",
                       "Hilfe",
-                      "Hilfseinrichtung",
                       "Hotline",
                       "Mobbing",
-                      "Rat",
                       "Rat auf Draht",
-                      "Sorgen",
-                      "Unterstützung"
+                      "Sorgen"
                     ]
                   }
                 ]
               },
               {
-                "ownerName": "Caritas der Diözese St. Pölten",
+                "ownerName": "CS Caritas Socialis - Multiple Sklerose Betreuung",
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://open2chat.at/",
-                    "title": "open2chat",
-                    "description": "open2chat ist eine Möglichkeit für Jugendliche, online mit Gleichaltrigen über ihre Sorgen, Fragen und Probleme zu chatten. open2chat ist kostenlos und anonym.\nDiese Form der Unterstützung ersetzt keine psychotherapeutische oder ärztliche Behandlung.",
+                    "url": "https://www.cs.at/angebote/cs-multiple-sklerose-betreuung/coaching-fuer-kinder-und-jugendliche",
+                    "title": "CS Caritas Socialis - Multiple Sklerose Betreuung",
+                    "description": "Hier triffst du Jugendliche in deinem Alter mit den gleichen Erfahrungen und Fragen zu Multipler Sklerose und kannst dich in der Gruppe austauschen.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:28.297Z",
+                    "lastUpdated": "2022-11-03T03:50:29.158Z",
                     "keywords": [
                       "Anlaufstelle",
+                      "Beratung",
                       "Beratungsstelle",
+                      "Betreuung",
+                      "Bundesland",
+                      "CS",
+                      "CS Caritas Socialis",
                       "Caritas",
+                      "Caritas Socialis",
+                      "Coaching",
                       "Hilfe",
                       "Hilfseinrichtung",
+                      "Krankheit",
+                      "MS",
+                      "Multiple Sklerose",
                       "Organisation",
                       "Rat",
-                      "Unterstützung"
+                      "Unterstützung",
+                      "Wien",
+                      "krank"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "elco/kiko - pro mente OÖ",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.elco-pmooe.at/",
+                    "title": "elco/kiko",
+                    "description": "Unter folgendem Link kommst du zu elco/kiko. Hier bietet man Coaching und Beratung für Familien mit einem psychisch erkrankten Elternteil aus Oberösterreich an den Standorten Linz, Steyr und Wels.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-03T03:50:29.174Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Oberösterreich",
+                      "Organisation",
+                      "Psyche",
+                      "Rat",
+                      "Unterstützung",
+                      "elco",
+                      "kiko",
+                      "pro mente",
+                      "pro mente OÖ",
+                      "psychisch",
+                      "visible"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "JoJo Kindheit im Schatten",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.jojo.or.at/unsere-angebote/",
+                    "title": "JoJo Salzburg",
+                    "description": "JoJo (Salzburg) stellt verschiedene Angebote für Eltern, Schulen und Fachkräfte bereit. Für Kinder psychisch erkrankter Eltern und Geschwister gibt es Einzel- und Gruppenangebote. Solltest du nicht in eine JoJo-Regionalstelle kommen können, wird eine Online-Videoberatung angeboten.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-03T03:50:28.262Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "JoJo Kindheit im Schatten",
+                      "Organisation",
+                      "Rat",
+                      "Salzburg",
+                      "Unterstützung",
+                      "visible"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Jugendrotkreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.get-social.at/time4friends/",
+                    "title": "Get Social - Time4Friends",
+                    "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-03T03:50:28.525Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Jugendliche",
+                      "Jugendrotkreuz",
+                      "Juniorcamp",
+                      "Organisation",
+                      "Peer",
+                      "Rat",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "Unterstützung",
+                      "get social",
+                      "time4friends"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "kids-line - Rat für junge Leute",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.kids-line.at/",
+                    "title": "kids-line",
+                    "description": "kids-line ist ein Beratungstelefon und eine Chat-Beratung für Kinder und Jugendliche. Kinder und Jugendliche rufen an oder chatten, wenn sie Fragen oder Probleme haben – oder einfach, weil sie jemanden zum Zuhören brauchen.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-03T03:50:29.143Z",
+                    "keywords": [
+                      "Beratung",
+                      "Beratungstelefon",
+                      "Chat",
+                      "Chatten",
+                      "Telefon",
+                      "kids-line"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "KIPKE - Caritas St. Pölten",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.caritas-stpoelten.at/hilfe-angebote/menschen-mit-psychischen-erkrankungen/beratungsangebote/kipke/",
+                    "title": "KIPKE Caritas St. Pölten",
+                    "description": "Hier kommst du zum Projekt KIPKE der Caritas St. Pölten in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-03T03:50:29.189Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Caritas",
+                      "Eltern",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "KIPKE",
+                      "Krankheit",
+                      "Niederösterreich",
+                      "Organisation",
+                      "PSZ",
+                      "Rat",
+                      "St. Pölten",
+                      "Unterstützung",
+                      "Zentren",
+                      "Zentrum",
+                      "krank",
+                      "psychisch",
+                      "psychosozial"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "KIPKE - Psychosoziale Zentren",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.psz.co.at/beratung-behandlung/beratung-von-kindern-mit-psychisch-kranken-eltern-kipke/",
+                    "title": "KIPKE Psychosoziale Zentren NÖ",
+                    "description": "Hier kommst du zum Projekt KIPKE der Psychosozialen Zentren in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-03T03:50:29.181Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Caritas",
+                      "Eltern",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "KIPKE",
+                      "Kinder",
+                      "Krankheit",
+                      "Niederösterreich",
+                      "PSZ",
+                      "Psyche",
+                      "Psychosoziale Zentren",
+                      "Rat",
+                      "St. Pölten",
+                      "Unterstützung",
+                      "Zentren",
+                      "Zentrum",
+                      "krank",
+                      "psychisch",
+                      "psychosozial"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Mama/Papa hat Krebs (Wien)",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.krebshilfe.net/beratung-hilfe/leben-mit-krebs/mama/papa-hat-krebs",
+                    "title": "Beratungsteam der Österreichischen Krebshilfe",
+                    "description": "Das Beratungsteam der Österreichischen Krebshilfe bietet hier individuelle Hilfe für Erkrankte und deren Angehörige.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-03T03:50:29.165Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Eltern",
+                      "Gesundheit",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Krank",
+                      "Krankheit",
+                      "Krebs",
+                      "Rat",
+                      "Therapie",
+                      "Unterstützung",
+                      "Österreich",
+                      "Österreichische Krebshilfe-Krebsgesellschaft"
                     ]
                   }
                 ]
@@ -1463,12 +1359,12 @@
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.superhands.at/no_cache/reden/superhands-onlineberatung/",
-                    "title": "Onlineberatung Superhands",
-                    "description": "Du schreibst lieber als zu reden? superhands ist auch über die Online-Beratung erreichbar.  Vertraulich, anonym und kostenlos.",
+                    "url": "https://www.superhands.at",
+                    "title": "superhands",
+                    "description": "superhands ist eine Drehscheibe und Anlaufstelle für Kinder und Jugendliche, die sich um kranke Angehörige kümmern. Du kannst wählen zwischen Telefon- oder Onlineberatung.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:29.444Z",
+                    "lastUpdated": "2022-11-03T03:50:28.592Z",
                     "keywords": [
                       "Anlaufstelle",
                       "Beratung",
@@ -1490,12 +1386,12 @@
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.verrueckte-kindheit.at/de/angebote/beratung/",
-                    "title": "Onlineberatung veRRückte Kindheit",
-                    "description": "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung.",
+                    "url": "https://www.verrueckte-kindheit.at/de/",
+                    "title": "VeRRückte Kindheit",
+                    "description": "Beratung für Jugendliche und ewachsene Angehörige in Familien mit einem psychisch erkrankten Elternteil. VeRRückte Kindheit bietet Beratung und Information, Online- und Chat-Beratung, Vorträge, und ein Online Forum zum Gedankenaustausch.",
                     "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-03T03:50:28.445Z",
+                    "lastUpdated": "2022-11-03T03:50:28.578Z",
                     "keywords": [
                       "Anlaufstelle",
                       "Beratung",
@@ -1520,6 +1416,45 @@
                       "online",
                       "psychisch",
                       "visible"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Young Carers Beratungsstelle (Krems)",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.roteskreuz.at/niederoesterreich/krems/was-wir-machen/young-carers",
+                    "title": "Young Carers Beratungsstelle Krems",
+                    "description": "Jeden 2. Freitag des Monats können sich Young Carers oder Interessierte in Krems an der Donau von 15:30 bis 17:30 Uhr mit Mitarbeitern_innen des Teams an der Bezirksstelle des Roten Kreuzes austauschen.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:3c0e6acd-b52b-48c7-baae-b1b97065c162/Webbilder_YoungCarers-App_Bubble-closeup10.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-03T03:50:29.150Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Erste Hilfe",
+                      "Freizeit",
+                      "Get Social",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Infobox",
+                      "Jugendrotkreuz",
+                      "Juniorcamps",
+                      "Krems",
+                      "Kurz",
+                      "Notfall",
+                      "Pflege",
+                      "Rat",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "Sommercamps",
+                      "Sozialer Dienst",
+                      "Time4Friends",
+                      "Unterstützung",
+                      "Vernetzung"
                     ]
                   }
                 ]
@@ -11296,5 +11231,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\r\n\r\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-03T09:35:43.977Z"
+  "timestamp": "2022-11-03T09:37:46.617Z"
 }
