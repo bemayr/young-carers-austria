@@ -2,8 +2,7 @@ const path = require('path');
 const fs = require('fs');
 
 module.exports = async function () {
-  const previewImagesFolder = path.resolve(__dirname, '../images/preview');
+  const previewImagesFolder = path.resolve(__dirname, '../public/images/preview');
   const imageNames = await fs.promises.readdir(previewImagesFolder);
-  const imagePathes = imageNames.map(name => path.join(previewImagesFolder, name))
-  return imagePathes;
+  return imageNames;
 };
