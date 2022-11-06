@@ -2,6 +2,7 @@ const fs = require('fs');
 const { DateTime } = require('luxon');
 
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
+const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
 const slinkity = require('slinkity');
 
 module.exports = function (eleventyConfig) {
@@ -16,6 +17,10 @@ module.exports = function (eleventyConfig) {
       .setLocale('de-AT')
       .toLocaleString(DateTime.DATETIME_MED);
   });
+
+  // Configure the Directory Output Plugin
+  eleventyConfig.setQuietMode(true);
+  eleventyConfig.addPlugin(directoryOutputPlugin);
 
   // Static assets to pass through
   eleventyConfig.addPassthroughCopy('./src/images');
