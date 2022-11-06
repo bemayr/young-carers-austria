@@ -1,0 +1,30 @@
+.imagePreview-radio input[type="radio"] {
+  display: none;
+}
+
+.imagePreview-radio label {
+  cursor: pointer;
+  opacity: .5;
+
+  img {
+    padding: 0.2rem;
+    max-width: 25rem;
+    max-height: 25rem;
+    object-fit: cover;
+  }
+}
+
+.imagePreview-radio input[type="radio"]:checked + label {
+  opacity: 1;
+}
+
+.imagePreview-predefined {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    > div {
+        display: inline;
+        margin: auto 0;
+    }
+}

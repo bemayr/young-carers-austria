@@ -1,5 +1,6 @@
 import express from 'express';
 import payload from 'payload';
+import { opengraph } from './endpoints/opengraph';
 
 require('dotenv').config();
 const app = express();
@@ -26,5 +27,6 @@ payload.init({
 })
 
 // Add your own express routes here
+app.get("/opengraph/parse", opengraph.parse)
 
 app.listen(3000);

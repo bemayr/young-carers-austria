@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useField, useFormFields } from "payload/components/forms";
 
+import "./References.Extensions.scss"
+
 export const AddressField: React.FC = () => {
   const { value: address } = useField<string>({ path: "address" });
   const { setValue: setOGTitle } = useField<string>({
@@ -14,19 +16,28 @@ export const AddressField: React.FC = () => {
   });
 
   useEffect(() => {
-    setOGTitle(`Title: ${address}`);
-    setOGDescription(`Description: ${address}`);
-    setOGImageUrl(
-      `https://www.young-carers-austria.at/assets/logo.4f0eb610.png`
-    );
+    fetch(`/opengraph/parse?url=${address}`)
+      .then((response) => response.json())
+      .then(({ title, description, imageUrl }) => {
+        setOGTitle(title);
+        setOGDescription(description);
+        setOGImageUrl(imageUrl);
+      })
+      .catch(() => {
+        setOGTitle(undefined);
+        setOGDescription(undefined);
+        setOGImageUrl(undefined);
+      });
   }, [address]);
 
-  return (
-    <div>
-      {JSON.stringify({ address })}
-      {/* <input onChange={e => setValue(e.target.value)} value={value?.path} /> */}
-    </div>
-  );
+  return null;
+
+  // return (
+  //   <div>
+  //     {JSON.stringify({ address })}
+  //     {/* <input onChange={e => setValue(e.target.value)} value={value?.path} /> */}
+  //   </div>
+  // );
 };
 
 type OpenGraphDefaultActionProps = {
@@ -68,7 +79,7 @@ async function getPredefinedPreviewImageUrls() {
 type Props = { path: string };
 
 export const PreviewImageUrlField: React.FC<Props> = ({ path }) => {
-  const { value, setValue } = useField<Props>({ path });
+  const { value, setValue } = useField<string>({ path });
   const { value: ogImageUrl } = useField<string>({
     path: "opengraph.imageUrl",
   });
@@ -81,21 +92,52 @@ export const PreviewImageUrlField: React.FC<Props> = ({ path }) => {
   }, []);
 
   return (
-    <div className="field-type text">
-      <label htmlFor="field-title" className="field-label">
-        Titel<span className="required">*</span>
+    <div className="field-type radio" style={{marginBottom: "2rem"}}>
+      <label htmlFor="field-previewImageUrl" className="field-label">
+        Vorschaubild<span className="required">*</span>
       </label>
-      <input id="field-title" type="text" name="title" value="" />
+      <div className="imagePreview-radio">
       {ogImageUrl === undefined ? (
-        <p>Dieser Link bietet leider kein Vorschaubild</p>
+        <p>Dieser Link bietet leider kein Vorschaubild, bitte wählen Sie eines der folgenden aus.</p>
       ) : (
-        <img src={ogImageUrl} alt="Preview Image"></img>
+        <div>
+          <input
+            type="radio"
+            name="titleImage"
+            id={`titleImage(${ogImageUrl})`}
+            value={ogImageUrl}
+            onChange={(event) => setValue(event.target.value)}
+            checked={value === ogImageUrl}
+          />
+          <label htmlFor={`titleImage(${ogImageUrl})`}>
+            <img
+              src={ogImageUrl}
+              alt="Preview Image"
+            ></img>
+          </label>
+        </div>
       )}
-      <div>
-        {predefinedPreviewImageUrls.map((url) => (
-          <img src={url} alt="Preview Image" style={{ maxWidth: '300px', maxHeight: '300px' }}></img>
-        ))}
+      <div className="imagePreview-predefined">
+      {predefinedPreviewImageUrls.map((url) => (
+        <div key={url}>
+          <input
+            type="radio"
+            name="titleImage"
+            id={`titleImage(${url})`}
+            value={url}
+            onChange={(event) => setValue(event.target.value)}
+            checked={value === url}
+          />
+          <label htmlFor={`titleImage(${url})`}>
+            <img
+              src={url}
+              alt="Preview Image"
+            ></img>
+          </label>
+        </div>
+      ))}
       </div>
+    </div>
     </div>
   );
 };

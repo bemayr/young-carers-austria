@@ -35,7 +35,7 @@ import WebsiteImprint from './website/Imprint';
 export default buildConfig({
   serverURL: 'http://localhost:3000',
   admin: {
-    user: Users.slug,
+    user: Users.slug
   },
   collections: [
     // content
@@ -79,12 +79,6 @@ export default buildConfig({
       method: "get",
       root: true,
       handler: migrate
-    },
-    {
-      path: "/opengraph/parse",
-      method: "get",
-      root: true,
-      handler: opengraph.parse
     }
   ]
 });

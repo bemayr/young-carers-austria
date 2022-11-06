@@ -15,8 +15,10 @@
     "generate:graphQLSchema": "PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:graphQLSchema"
   },
   "dependencies": {
+    "@types/open-graph-scraper": "^4.8.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "open-graph-scraper": "^4.11.1",
     "payload": "^1.1.16"
   },
   "devDependencies": {

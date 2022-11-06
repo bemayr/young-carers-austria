@@ -81,7 +81,7 @@ const References: CollectionConfig = {
       }
     },
     {
-      name: "showOnLandingPage",
+      name: "containsPaidContent",
       type: "checkbox",
       label: "Diese Seite enthält kostenpflichtigen Inhalt ⚠️",
       required: true,
@@ -111,8 +111,8 @@ const References: CollectionConfig = {
       name: "opengraph",
       type: "group",
       admin: {
-        // hidden: true,
-        readOnly: true,
+        hidden: true,
+        // readOnly: true,
       },
       fields: [
         {
