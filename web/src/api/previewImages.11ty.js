@@ -21,7 +21,7 @@ module.exports = {
 
       return JSON.stringify(
         images.map(
-          (name) => `https://www.young-carers-austria.at/images/preview/${name}` // TODO: get rid of this static value
+          (image) => `https://www.young-carers-austria.at/images/preview/${image.png[0].filename}` // TODO: get rid of this static value
         ),
         null,
         2
