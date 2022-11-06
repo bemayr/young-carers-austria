@@ -4,5 +4,6 @@ const fs = require('fs');
 module.exports = async function () {
   const previewImagesFolder = path.resolve(__dirname, '../images/preview');
   const imageNames = await fs.promises.readdir(previewImagesFolder);
-  return imageNames;
+  const imagePathes = imageNames.map(name => path.join(previewImagesFolder, name))
+  return imagePathes;
 };
