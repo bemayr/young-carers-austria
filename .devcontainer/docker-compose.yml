@@ -33,7 +33,6 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.app-forward.rule=Host(`app.young-carers-austria.local`)"
       - "traefik.http.routers.app-forward.entrypoints=web"
-      # - traefik.port=80
     environment:
       - APPFORWARD_IOSURL
       - APPFORWARD_ANDROIDURL
@@ -48,6 +47,10 @@ services:
         # Append -bullseye or -buster to pin to an OS version.
         # Use -bullseye variants on local arm64/Apple Silicon.
         VARIANT: "18"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.app-forward.rule=Host(`redaktion.young-carers-austria.local`)"
+      - "traefik.http.routers.app-forward.entrypoints=web"
     volumes:
       - ..:/workspace:cached
       - cms-node_modules:/workspace/cms/node_modules
