@@ -1,4 +1,6 @@
 import { CollectionConfig } from 'payload/types';
+import React from 'react';
+import { AddressField, OpengraphDescription } from './References.Extensions';
 
 const References: CollectionConfig = {
   slug: 'references',
@@ -25,25 +27,47 @@ const References: CollectionConfig = {
   },
   fields: [
     {
-      name: 'address',
-      type: 'text',
-      label: "Adresse",
-      unique: true,
-      required: true,
+      type: 'row',
+      fields: [
+        {
+          name: 'address',
+          type: 'text',
+          label: "Adresse",
+          unique: true,
+          required: true,
+          admin: {
+            width: "90%",
+          }
+        },
+        {
+          name: 'address-status',
+          type: 'ui',
+          admin: {
+            width: "10%",
+            components: {
+              Field: AddressField
+            }
+          }
+        }
+      ]
     },
     {
       name: "title",
       type: "text",
       label: "Titel",
       required: true,
-      // todo: add take from link
+      admin: {
+        description: () => <OpengraphDescription ogProperty="title" property="title" hint={''} />
+      }
     },
     {
       name: "description",
       type: "textarea",
       label: "Beschreibung",
       required: true,
-      // todo: add take from link
+      admin: {
+        description: () => <OpengraphDescription ogProperty="description" property="description" hint={''} />
+      }
     },
     {
       name: "image",
@@ -87,10 +111,22 @@ const References: CollectionConfig = {
       name: "opengraph",
       type: "group",
       admin: {
-        hidden: true,
+        // hidden: true,
+        readOnly: true,
       },
       fields: [
-
+        {
+          name: "title",
+          type: "text",
+        },
+        {
+          name: "description",
+          type: "textarea",
+        },
+        {
+          name: "imageUrl",
+          type: "text",
+        },
       ]
     },
   ],

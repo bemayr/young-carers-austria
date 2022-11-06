@@ -1,5 +1,6 @@
-import { buildConfig } from 'payload/config';
+import { buildConfig, } from 'payload/config';
 import path from 'path';
+import { migrate } from "./_temp/migrate"
 
 // admin
 import Users from './collections/Users';
@@ -71,4 +72,12 @@ export default buildConfig({
   graphQL: {
     disable: true
   },
+  endpoints: [
+    {
+      path: "/data/migrate",
+      method: "get",
+      root: true,
+      handler: migrate
+    }
+  ]
 });
