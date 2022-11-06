@@ -1,6 +1,7 @@
 import { buildConfig } from 'payload/config';
 import path from 'path';
-import Examples from './collections/Examples';
+
+// admin
 import Users from './collections/Users';
 
 // app
@@ -35,16 +36,16 @@ export default buildConfig({
     user: Users.slug,
   },
   collections: [
-    Users,
-    Examples,
-    // chatbot
-    ChatbotEmojis,
-    ChatbotNames,
     // content
     Categories,
     References,
     Situations,
     Sources,
+    // chatbot
+    ChatbotEmojis,
+    ChatbotNames,
+    // admin
+    Users,
   ],
   globals: [
     // app
