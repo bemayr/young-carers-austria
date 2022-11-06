@@ -1,6 +1,7 @@
 import { buildConfig, } from 'payload/config';
 import path from 'path';
 import { migrate } from "./_temp/migrate"
+import { opengraph } from "./endpoints/opengraph"
 
 // admin
 import Users from './collections/Users';
@@ -78,6 +79,12 @@ export default buildConfig({
       method: "get",
       root: true,
       handler: migrate
+    },
+    {
+      path: "/opengraph/parse",
+      method: "get",
+      root: true,
+      handler: opengraph.parse
     }
   ]
 });

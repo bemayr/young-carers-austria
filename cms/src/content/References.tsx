@@ -1,6 +1,6 @@
 import { CollectionConfig } from 'payload/types';
 import React from 'react';
-import { AddressField, OpengraphDescription } from './References.Extensions';
+import { AddressField, OpengraphDescription, PreviewImageUrlField } from './References.Extensions';
 
 const References: CollectionConfig = {
   slug: 'references',
@@ -76,7 +76,7 @@ const References: CollectionConfig = {
       required: true,
       admin: {
         components: {
-          Field: undefined // todo: add this component with context
+          Field: PreviewImageUrlField
         }
       }
     },
