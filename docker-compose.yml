@@ -5,12 +5,16 @@ networks:
     external: true
   internal:
     external: false
+  cms:
+    external: false
 
 services:
   cms:
-    image: bemayr/young-carers-austria-cms:0.2.3
+    image: bemayr/young-carers-austria-cms:1.0.0
     container_name: cms
     restart: always
+    depends_on:
+      - cms-database
     labels:
       - traefik.http.routers.cms.rule=Host(`redaktion.young-carers-austria.at`)
       - traefik.http.routers.cms.tls=true
@@ -19,13 +23,26 @@ services:
     networks:
       - internal
       - web
+      - cms
+    env_file:
+      - cms.variables.env
+
+  cms-database:
+    image: mongo:6.0.2
+    container_name: cms-database
+    restart: unless-stopped
+    networks:
+      - cms
+    ports:
+      - '27017:27017'
     volumes:
-      - ./cms/database:/app/database:rw
-    environment:
-      - GITHUB_ACTIONS_TOKEN
-      - SESSION_SECRET
+      - ./data/cms-database/db:/data/db:rw
+      - ./data/cms-database/config:/data/configdb:rw
+    env_file:
+      - cms-database.variables.env
+
   app-forward:
-    image: bemayr/app-forward:1.0.0
+    image: bemayr/app-forward:1.0.1
     container_name: app-forward
     restart: always
     labels:
@@ -36,7 +53,5 @@ services:
     networks:
       - internal
       - web
-    environment:
-      - APPFORWARD_IOSURL
-      - APPFORWARD_ANDROIDURL
-      - APPFORWARD_FALLBACKURL
+    env_file:
+      - app-forward.variables.env
