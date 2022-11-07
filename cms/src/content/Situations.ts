@@ -1,7 +1,7 @@
 import { CollectionConfig } from 'payload/types';
 
-const Sources: CollectionConfig = {
-  slug: 'alltagssituationen',
+const Situations: CollectionConfig = {
+  slug: 'situations',
   labels: {
     singular: "Alltagssituation",
     plural: "Alltagssituationen"
@@ -43,4 +43,4 @@ const Sources: CollectionConfig = {
   ],
 }
 
-export default Sources;
+export default Situations;
