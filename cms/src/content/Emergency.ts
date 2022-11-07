@@ -17,6 +17,25 @@ const Emergency: GlobalConfig = {
   },
   fields: [
     {
+      name: "title",
+      type: "text",
+      label: "Titel",
+      required: true,
+      admin: {
+        description: "Titel der \"Im Notfall\"-Seite"
+      }
+    },
+    {
+      name: "description",
+      type: "richText",
+      label: "Beschreibung",
+      required: true,
+      admin: {
+        description: "Beschreibung der \"Im Notfall\"-Seite, wird unter dem Titel angezeigt",
+        leaves: ["bold"],
+      }
+    },
+    {
       name: 'numbers',
       type: 'array',
       label: "Notrufnummern",

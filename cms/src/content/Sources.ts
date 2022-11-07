@@ -1,4 +1,5 @@
 import { CollectionConfig } from 'payload/types';
+import { SourceReferenceCell, SourceReferenceField } from './Sources.Extensions';
 
 const Sources: CollectionConfig = {
   slug: 'sources',
@@ -39,6 +40,18 @@ const Sources: CollectionConfig = {
       type: 'text',
       label: "Homepage",
       unique: true,
+    },
+    {
+      name: 'references',
+      type: 'ui',
+      label: "Referenzen",
+      admin: {
+        position: 'sidebar',
+        components: {
+          Field: SourceReferenceField,
+          Cell: SourceReferenceCell,
+        }
+      }
     }
   ],
 }

@@ -1,7 +1,5 @@
 import { buildConfig, } from 'payload/config';
 import path from 'path';
-import { migrate } from "./_temp/migrate"
-import { opengraph } from "./endpoints/opengraph"
 
 // admin
 import Users from './collections/Users';
@@ -13,7 +11,7 @@ import AppDataProtectionDeclaration from './app/DataProtectionDeclaration';
 import AppImprint from './app/Imprint';
 import AppWelcomeMessage from './app/WelcomeMessage';
 
-// content
+// chatbot
 import ChatbotEmojis from './chatbot/Emojis';
 import ChatbotMessages from './chatbot/Messages';
 import ChatbotNames from './chatbot/Names';
@@ -25,12 +23,15 @@ import References from './content/References';
 import Situations from './content/Situations';
 import Sources from './content/Sources';
 import FAQ from './content/FAQ';
+import Infos from './content/Infos';
+import Help from './content/Help';
 
 // website
 import WebsiteAccessibilityDeclaration from './website/AccessibilityDeclaration';
 import WebsiteCopyright from './website/Copyright';
 import WebsiteDataProtectionDeclaration from './website/DataProtectionDeclaration';
 import WebsiteImprint from './website/Imprint';
+import LandingPage from './website/LandingPage';
 
 export default buildConfig({
   admin: {
@@ -59,12 +60,15 @@ export default buildConfig({
     ChatbotMessages,
     // content
     FAQ,
+    Help,
+    Infos,
     Emergency,
     // website
     WebsiteAccessibilityDeclaration,
     WebsiteCopyright,
     WebsiteDataProtectionDeclaration,
     WebsiteImprint,
+    LandingPage,
   ],
   typescript: {
     outputFile: path.resolve(__dirname, 'payload-types.ts'),
@@ -72,12 +76,4 @@ export default buildConfig({
   graphQL: {
     disable: true
   },
-  endpoints: [
-    {
-      path: "/data/migrate",
-      method: "get",
-      root: true,
-      handler: migrate
-    }
-  ]
 });
