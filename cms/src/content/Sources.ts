@@ -18,7 +18,7 @@ const Sources: CollectionConfig = {
   versions: {
     maxPerDoc: 5,
     retainDeleted: true,
-    drafts: 
+    drafts:
     {
       autosave: false
     }
@@ -39,7 +39,6 @@ const Sources: CollectionConfig = {
       type: 'text',
       label: "Homepage",
       unique: true,
-      required: true,
     }
   ],
 }
