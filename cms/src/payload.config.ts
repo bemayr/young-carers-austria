@@ -33,7 +33,6 @@ import WebsiteDataProtectionDeclaration from './website/DataProtectionDeclaratio
 import WebsiteImprint from './website/Imprint';
 
 export default buildConfig({
-  serverURL: 'http://localhost:3000',
   admin: {
     user: Users.slug
   },
