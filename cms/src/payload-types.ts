@@ -126,10 +126,36 @@ export interface FAQ {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "help".
+ */
+export interface Hilfe {
+  id: string;
+  title: string;
+  description: {
+    [k: string]: unknown;
+  }[];
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "infos".
+ */
+export interface Infos {
+  id: string;
+  title: string;
+  description: {
+    [k: string]: unknown;
+  }[];
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "emergency".
  */
 export interface ImNotfall {
   id: string;
+  title: string;
+  description: {
+    [k: string]: unknown;
+  }[];
   numbers: {
     label: string;
     number: string;
@@ -186,6 +212,48 @@ export interface Impressum1 {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "website-landing".
+ */
+export interface LandingPage {
+  id: string;
+  cards: {
+    infos: {
+      icon: string;
+      title: string;
+      description: string;
+    };
+    situations: {
+      icon: string;
+      title: string;
+      description: string;
+    };
+    emergency: {
+      icon: string;
+      title: string;
+      description: string;
+    };
+    chatbot: {
+      icon: string;
+      title: string;
+      description: string;
+    };
+    app: {
+      icon: string;
+      title: string;
+      description: string;
+    };
+  };
+  'app-quotes': {
+    text: string;
+    id?: string;
+  }[];
+  about: {
+    [k: string]: unknown;
+  }[];
+  _status?: 'draft' | 'published';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "categories".
  */
 export interface Kategorie {
@@ -210,11 +278,15 @@ export interface Referenz {
   title: string;
   description: string;
   image: string;
-  showOnLandingPage: boolean;
+  containsPaidContent: boolean;
   keywords?: string;
   source: string | Quelle;
   categories: string[] | Kategorie[];
-  opengraph: {};
+  opengraph: {
+    title?: string;
+    description?: string;
+    imageUrl?: string;
+  };
   _status?: 'draft' | 'published';
   createdAt: string;
   updatedAt: string;
@@ -226,14 +298,14 @@ export interface Referenz {
 export interface Quelle {
   id: string;
   name: string;
-  homepage: string;
+  homepage?: string;
   _status?: 'draft' | 'published';
   createdAt: string;
   updatedAt: string;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "alltagssituationen".
+ * via the `definition` "situations".
  */
 export interface Alltagssituation {
   id: string;

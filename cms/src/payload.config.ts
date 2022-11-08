@@ -33,6 +33,8 @@ import WebsiteDataProtectionDeclaration from './website/DataProtectionDeclaratio
 import WebsiteImprint from './website/Imprint';
 import LandingPage from './website/LandingPage';
 
+import { contentV1 } from "./api/content.v1";
+
 export default buildConfig({
   admin: {
     user: Users.slug
@@ -76,4 +78,12 @@ export default buildConfig({
   graphQL: {
     disable: true
   },
+  endpoints: [
+    {
+      path: "/api/content/v1",
+      method: "get",
+      root: true,
+      handler: contentV1
+    }
+  ]
 });
