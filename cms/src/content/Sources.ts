@@ -16,14 +16,6 @@ const Sources: CollectionConfig = {
   hooks: {
     // TODO: add the trigger CMS content changed hook
   },
-  versions: {
-    maxPerDoc: 5,
-    retainDeleted: true,
-    drafts:
-    {
-      autosave: false
-    }
-  },
   fields: [
     {
       name: 'name',
