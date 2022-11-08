@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useField, useFormFields } from "payload/components/forms";
 
-import "./References.Extensions.scss"
+import "./References.Extensions.scss";
 
 export const AddressField: React.FC = () => {
   const { value: address } = useField<string>({ path: "address" });
@@ -92,52 +92,53 @@ export const PreviewImageUrlField: React.FC<Props> = ({ path }) => {
   }, []);
 
   return (
-    <div className="field-type radio" style={{marginBottom: "2rem"}}>
+    <div className="field-type radio" style={{ marginBottom: "2rem" }}>
       <label htmlFor="field-previewImageUrl" className="field-label">
         Vorschaubild<span className="required">*</span>
       </label>
       <div className="imagePreview-radio">
-      {ogImageUrl === undefined ? (
-        <p>Dieser Link bietet leider kein Vorschaubild, bitte wählen Sie eines der folgenden aus.</p>
-      ) : (
-        <div>
-          <input
-            type="radio"
-            name="titleImage"
-            id={`titleImage(${ogImageUrl})`}
-            value={ogImageUrl}
-            onChange={(event) => setValue(event.target.value)}
-            checked={value === ogImageUrl}
-          />
-          <label htmlFor={`titleImage(${ogImageUrl})`}>
-            <img
-              src={ogImageUrl}
-              alt="Preview Image"
-            ></img>
-          </label>
+        {ogImageUrl === undefined ? (
+          <p>
+            Dieser Link bietet leider kein Vorschaubild, bitte wählen Sie eines
+            der folgenden aus.
+          </p>
+        ) : (
+          <div>
+            <input
+              type="radio"
+              name="titleImage"
+              id={`titleImage(${ogImageUrl})`}
+              value={ogImageUrl}
+              onChange={(event) => setValue(event.target.value)}
+              checked={value === ogImageUrl}
+            />
+            <label htmlFor={`titleImage(${ogImageUrl})`}>
+              <img src={ogImageUrl} alt="Preview Image"></img>
+            </label>
+          </div>
+        )}
+        <div className="imagePreview-predefined">
+          {predefinedPreviewImageUrls.map((url) => (
+            <div key={url}>
+              <input
+                type="radio"
+                name="titleImage"
+                id={`titleImage(${url})`}
+                value={url}
+                onChange={(event) => setValue(event.target.value)}
+                checked={value === url}
+              />
+              <label htmlFor={`titleImage(${url})`}>
+                <img src={url} alt="Preview Image"></img>
+              </label>
+            </div>
+          ))}
         </div>
-      )}
-      <div className="imagePreview-predefined">
-      {predefinedPreviewImageUrls.map((url) => (
-        <div key={url}>
-          <input
-            type="radio"
-            name="titleImage"
-            id={`titleImage(${url})`}
-            value={url}
-            onChange={(event) => setValue(event.target.value)}
-            checked={value === url}
-          />
-          <label htmlFor={`titleImage(${url})`}>
-            <img
-              src={url}
-              alt="Preview Image"
-            ></img>
-          </label>
-        </div>
-      ))}
       </div>
-    </div>
+      <div className="field-type text">
+        <label htmlFor="field-imageUrl-custom" className="field-label">Manueller Link zu einem Vorschaubild</label>
+        <input id="field-imageUrl-custom" type="text" onChange={e => setValue(e.target.value)} value={value} />
+      </div>
     </div>
   );
 };
