@@ -493,7 +493,7 @@
           "id": "63685043638c16809e4d0d1d",
           "name": "Notfall(nummern)",
           "title": "Welche Nummer wähle ich im Notfall?",
-          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)****\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
           "entries": [
             {
               "ownerName": "Kliniksuche des BMSGPK",
@@ -2791,7 +2791,7 @@
       "id": "63685043638c16809e4d0d1d",
       "name": "Notfall(nummern)",
       "title": "Welche Nummer wähle ich im Notfall?",
-      "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)****\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+      "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
       "entries": [
         {
           "ownerName": "Kliniksuche des BMSGPK",
@@ -3980,5 +3980,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-09T15:22:13.524Z"
+  "timestamp": "2022-11-09T15:33:42.416Z"
 }
