@@ -1,4 +1,5 @@
 import { GlobalConfig } from 'payload/types';
+import { notifyGitHub } from '../util/github-actions';
 
 const DataProtectionDeclaration: GlobalConfig = {
   slug: 'app-gdpr',
@@ -7,7 +8,7 @@ const DataProtectionDeclaration: GlobalConfig = {
     group: "App",
   },
   hooks: {
-    // TODO: add the trigger CMS content changed hook
+    afterChange: [ notifyGitHub ],
   },
   versions: {
     drafts: 

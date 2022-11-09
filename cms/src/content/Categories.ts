@@ -1,4 +1,5 @@
 import { CollectionConfig } from 'payload/types';
+import { notifyGitHub } from '../util/github-actions';
 
 const Categories: CollectionConfig = {
   slug: 'categories',
@@ -13,7 +14,8 @@ const Categories: CollectionConfig = {
     disableDuplicate: true,
   },
   hooks: {
-    // TODO: add the trigger CMS content changed hook
+    afterChange: [ notifyGitHub ],
+    afterDelete: [ notifyGitHub ],
   },
   versions: {
     maxPerDoc: 5,

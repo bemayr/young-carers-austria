@@ -1,5 +1,6 @@
 import { CollectionConfig } from 'payload/types';
 import React from 'react';
+import { notifyGitHub } from '../util/github-actions';
 import { AddressField, OpengraphDescription, PreviewImageUrlField } from './References.Extensions';
 
 const References: CollectionConfig = {
@@ -15,7 +16,8 @@ const References: CollectionConfig = {
     disableDuplicate: true,
   },
   hooks: {
-    // TODO: add the trigger CMS content changed hook
+    afterChange: [ notifyGitHub ],
+    afterDelete: [ notifyGitHub ],
   },
   versions: {
     maxPerDoc: 5,

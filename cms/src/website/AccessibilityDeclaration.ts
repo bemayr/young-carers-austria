@@ -1,4 +1,5 @@
 import { GlobalConfig } from 'payload/types';
+import { notifyGitHub } from '../util/github-actions';
 
 const GdprDeclaration: GlobalConfig = {
   slug: 'website-accessibility',
@@ -7,7 +8,7 @@ const GdprDeclaration: GlobalConfig = {
     group: "Webseite",
   },
   hooks: {
-    // TODO: add the trigger CMS content changed hook
+    afterChange: [ notifyGitHub ],
   },
   versions: {
     drafts: 

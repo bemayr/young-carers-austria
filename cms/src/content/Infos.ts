@@ -1,4 +1,5 @@
 import { GlobalConfig } from 'payload/types';
+import { notifyGitHub } from '../util/github-actions';
 
 const Infos: GlobalConfig = {
   slug: 'infos',
@@ -7,7 +8,7 @@ const Infos: GlobalConfig = {
     group: "Inhalte",
   },
   hooks: {
-    // TODO: add the trigger CMS content changed hook
+    afterChange: [ notifyGitHub ],
   },
   fields: [
         {

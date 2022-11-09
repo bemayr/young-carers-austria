@@ -12,11 +12,13 @@ const makeLookup = (array: Array<{id: unknown}>) =>
     } |
     { children: any[], type: string, relationTo: string, value: any }
 
-const transformExtendedRichText = (children: ExtendedRichText[]): any => {
+const transformExtendedRichText = (children: ExtendedRichText[], categoryLookup: Record<string, any>): any => {
     return children.reduce((result, node) => {
         if("type" in node && node.type === "relationship") {
             switch (node.relationTo) {
-                case "categories": return [...result, { type: "category", category: categories.transform(node.value) }];
+                case "categories":
+                    console.log({id: node.value.id, category: categoryLookup[node.value.id]})
+                    return [...result, { type: "category", category: categoryLookup[node.value.id] }];
                 case "references": return [...result, { type: "reference", reference: references.transform(node.value) }];
                 default: return result
             }
@@ -49,19 +51,19 @@ const faq = {
 }
 
 const emergency = {
-    transform: function(entry: ImNotfall) {
+    transform: function(entry: ImNotfall, categoryLookup: Record<string, any>) {
         return {
             title: entry.title,
             description: slateToMarkdown(entry.description)?.trim(),
             numbers: entry.numbers.map(({label, number}) => ({label, number})),
             contentOriginal: entry.content,
-            content: transformExtendedRichText(entry.content as ExtendedRichText[]),
+            content: transformExtendedRichText(entry.content as ExtendedRichText[], categoryLookup),
             state: "done" // TODO: get rid of this, exists only for iOS backwards compatibility
         }
     },
-    get: async (payload: Payload) => await payload
+    get: async (payload: Payload, categoryLookup: Record<string, any>) => await payload
         .findGlobal<ImNotfall>({ slug: "emergency" })
-        .then(emergency.transform)
+        .then(entry => emergency.transform(entry, categoryLookup))
 }
 
 const help = {
@@ -89,14 +91,14 @@ const infos = {
 }
 
 const situations = {
-    transform: function(entry: Alltagssituation) {
+    transform: function(entry: Alltagssituation, categoryLookup: Record<string, any>) {
         return {
             question: entry.name,
             contentOriginal: entry.content,
-            content: transformExtendedRichText(entry.content as ExtendedRichText[]),
+            content: transformExtendedRichText(entry.content as ExtendedRichText[], categoryLookup),
         }
     },
-    get: async (payload: Payload) => await payload.find<Alltagssituation>({
+    get: async (payload: Payload, categoryLookup: Record<string, any>) => await payload.find<Alltagssituation>({
         collection: "situations",
         depth: 1,
         limit: 1000,
@@ -108,7 +110,7 @@ const situations = {
         }
       })
       .then(result => result.docs)
-        .then(entries => entries.map(situations.transform))
+        .then(entries => entries.map(entry => situations.transform(entry, categoryLookup)))
 }
 
 const app = {
@@ -149,6 +151,7 @@ const app = {
 const categories = {
     transform: function(entry: Kategorie) {
         return {
+            id: entry.id,
             name: entry.name,
             title: entry.heading,
             information: slateToMarkdown(entry.description)?.trim(),
@@ -213,8 +216,6 @@ const references = {
 export const contentV1: PayloadHandler = async ({ payload }, res) => {
 
     // === content ===
-    //   const sourcesLookup = makeLookup(sources)
-
     const refsPayload = await references.get(payload)
 
     const refsFlattened = refsPayload.flatMap(reference => reference.categories.map(category => ({
@@ -246,8 +247,7 @@ export const contentV1: PayloadHandler = async ({ payload }, res) => {
 
     const refs = result.sort((a, b) => a.name.localeCompare(b.name));
 
-    // Object.fromEntries(refs.map(item => [item., item]));
-
+    const categoryLookup = makeLookup(refs)
 
     // === app ===
       const appWelcome = await app.welcome.get(payload)
@@ -263,11 +263,12 @@ export const contentV1: PayloadHandler = async ({ payload }, res) => {
     ]
 
     res.json({
+        categoryLookup,
         faqs: await faq.get(payload),
-        emergency: await emergency.get(payload),
+        emergency: await emergency.get(payload, categoryLookup),
         help: await help.get(payload),
         infos: await infos.get(payload),
-        insights: await situations.get(payload),
+        insights: await situations.get(payload, categoryLookup),
         abc: refs,
         metadata: appMetadata,
         timestamp: new Date().toISOString()

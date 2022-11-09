@@ -1,4 +1,5 @@
 import { CollectionConfig } from 'payload/types';
+import { notifyGitHub } from '../util/github-actions';
 
 const Situations: CollectionConfig = {
   slug: 'situations',
@@ -12,7 +13,8 @@ const Situations: CollectionConfig = {
     defaultColumns: ["name", "content"],
   },
   hooks: {
-    // TODO: add the trigger CMS content changed hook
+    afterChange: [ notifyGitHub ],
+    afterDelete: [ notifyGitHub ],
   },
   versions: {
     maxPerDoc: 5,
