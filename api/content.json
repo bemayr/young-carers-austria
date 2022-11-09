@@ -576,6 +576,190 @@
           ]
         },
         {
+          "type": "relationship",
+          "value": {
+            "id": "63684e07638c16809e4d0bea",
+            "name": "Dienstleistungen / Soziale Dienste",
+            "heading": "Was sind soziale Dienste?",
+            "description": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Das "
+                  },
+                  {
+                    "text": "Ziel",
+                    "bold": true
+                  },
+                  {
+                    "text": " der sozialen Dienste ist "
+                  },
+                  {
+                    "text": "Menschen mit Pflegebedarf oder Beeinträchtigungen",
+                    "bold": true
+                  },
+                  {
+                    "text": " in verschiedenen Lebenssituationen zu unterstützen. Für Soziale Dienste sind die Bundesländer und Gemeinden zuständig. Auch "
+                  },
+                  {
+                    "text": "freie Wohlfahrtsträger",
+                    "bold": true
+                  },
+                  {
+                    "text": " wie "
+                  },
+                  {
+                    "type": "link",
+                    "href": "https://www.volkshilfe.at",
+                    "children": [
+                      {
+                        "text": "Volkshilfe"
+                      }
+                    ],
+                    "url": "https://www.volkshilfe.at",
+                    "linkType": "custom"
+                  },
+                  {
+                    "text": ", "
+                  },
+                  {
+                    "type": "link",
+                    "href": "https://www.hilfswerk.at/oesterreich/pflegekompass/",
+                    "children": [
+                      {
+                        "text": "Hilfswerk"
+                      }
+                    ],
+                    "url": "https://www.hilfswerk.at/oesterreich/pflegekompass/",
+                    "linkType": "custom"
+                  },
+                  {
+                    "text": ", "
+                  },
+                  {
+                    "type": "link",
+                    "href": "https://www.roteskreuz.at/ich-brauche-hilfe",
+                    "children": [
+                      {
+                        "text": "Rotes Kreuz"
+                      }
+                    ],
+                    "url": "https://www.roteskreuz.at/ich-brauche-hilfe",
+                    "linkType": "custom"
+                  },
+                  {
+                    "text": ", "
+                  },
+                  {
+                    "type": "link",
+                    "href": "https://www.caritas-pflege.at/",
+                    "children": [
+                      {
+                        "text": "Caritas"
+                      }
+                    ],
+                    "url": "https://www.caritas-pflege.at/",
+                    "linkType": "custom"
+                  },
+                  {
+                    "text": ", "
+                  },
+                  {
+                    "type": "link",
+                    "href": "https://diakonie.at/",
+                    "children": [
+                      {
+                        "text": "Diakonie"
+                      }
+                    ],
+                    "url": "https://diakonie.at/",
+                    "linkType": "custom"
+                  },
+                  {
+                    "text": " oder "
+                  },
+                  {
+                    "type": "link",
+                    "href": "https://www.samariterbund.net/pflege-und-betreuung/",
+                    "children": [
+                      {
+                        "text": "Samariterbund"
+                      }
+                    ],
+                    "url": "https://www.samariterbund.net/pflege-und-betreuung/",
+                    "linkType": "custom"
+                  },
+                  {
+                    "text": " sowie in Wien der "
+                  },
+                  {
+                    "type": "link",
+                    "href": "https://www.fsw.at/p/pflege-betreuung",
+                    "children": [
+                      {
+                        "text": "Fonds Soziales Wien"
+                      }
+                    ],
+                    "url": "https://www.fsw.at/p/pflege-betreuung",
+                    "linkType": "custom"
+                  },
+                  {
+                    "text": ", bieten diese Leistungen an."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Über das umfangreiche Angebot an Alten- und Pflegeheimen in ganz Österreich sowie Tagesbetreuung, Kurzzeitpflege, Wohngemeinschaften, Alltagsbegleitung sowie Entlastungsdienste kannst du dich beim "
+                  },
+                  {
+                    "type": "link",
+                    "href": "https://www.infoservice.sozialministerium.at",
+                    "children": [
+                      {
+                        "text": "Infoservice des Sozialministeriums"
+                      }
+                    ],
+                    "url": "https://www.infoservice.sozialministerium.at",
+                    "linkType": "custom"
+                  },
+                  {
+                    "text": " informieren."
+                  }
+                ]
+              }
+            ],
+            "keywords": "Behinderung, Beratung, Betreuung, Bundesland, Community Nurses, Community Nursing, Daheim, Dienstleistungen / Soziale Dienste, Eltern, Essen auf Rädern, FSW, Finanzielles, Geld, Gesundheit, Gesundheitsministerium, Großeltern, Haushalt, Heimhilfe, Hilfe, Mama, Ministerium, Mobil, Oma, Opa, Papa, Pflege, Pflegegeld, Pflegeplattform, Pfleger, Pflegerin, Plattform, Putzen, Sozial, Soziale Dienste, Sozialministerium, Unterstützung, Zu Hause, Zuhause, mobil, nachhause",
+            "_status": "published",
+            "createdAt": "2022-11-07T00:15:03.497Z",
+            "updatedAt": "2022-11-07T00:15:03.497Z"
+          },
+          "relationTo": "categories",
+          "children": [
+            {
+              "text": " "
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
           "type": "paragraph",
           "children": [
             {
@@ -651,7 +835,212 @@
       "content": [
         {
           "type": "text",
-          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa zu kümmern.\n\n\n\n"
+          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa zu kümmern.\n\n"
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63684e07638c16809e4d0bea",
+            "name": "Dienstleistungen / Soziale Dienste",
+            "title": "Was sind soziale Dienste?",
+            "information": "Das **Ziel** der sozialen Dienste ist **Menschen mit Pflegebedarf oder Beeinträchtigungen** in verschiedenen Lebenssituationen zu unterstützen. Für Soziale Dienste sind die Bundesländer und Gemeinden zuständig. Auch **freie Wohlfahrtsträger** wie [Volkshilfe](https://www.volkshilfe.at), [Hilfswerk](https://www.hilfswerk.at/oesterreich/pflegekompass/), [Rotes Kreuz](https://www.roteskreuz.at/ich-brauche-hilfe), [Caritas](https://www.caritas-pflege.at/), [Diakonie](https://diakonie.at/) oder [Samariterbund](https://www.samariterbund.net/pflege-und-betreuung/) sowie in Wien der [Fonds Soziales Wien](https://www.fsw.at/p/pflege-betreuung), bieten diese Leistungen an.\n\nÜber das umfangreiche Angebot an Alten- und Pflegeheimen in ganz Österreich sowie Tagesbetreuung, Kurzzeitpflege, Wohngemeinschaften, Alltagsbegleitung sowie Entlastungsdienste kannst du dich beim [Infoservice des Sozialministeriums](https://www.infoservice.sozialministerium.at) informieren.",
+            "entries": [
+              {
+                "ownerName": "Oberösterreich",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.land-oberoesterreich.gv.at/524.htm",
+                    "title": "Pflege Oberösterreich",
+                    "description": "Das Land Oberösterreich bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.land-oberoesterreich.gv.at/files/ooe2015/cdneu/schema/schema_land_ooe_logo.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:04:51.977Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oberösterreich",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Sozialministerium",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.sozialministerium.at/Themen/Pflege/Dienstleistungen-Soziale-Dienste.html",
+                    "title": "Soziale Dienste erklärt",
+                    "description": "Soziale Dienste sind für Menschen mit Pflegebedarf und Menschen mit Behinderungen damit diese so betreut werden können wie sie das selbst möchten.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:8f3dc93a-ffe8-4940-90af-fb2ccc2997ee/BMSGPK_Logo_OpenGraph.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:28:39.770Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Beratung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Finanzielles",
+                      "Geld",
+                      "Gesundheit",
+                      "Gesundheitsministerium",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Ministerium",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Pflegegeld",
+                      "Pflegeplattform",
+                      "Plattform",
+                      "Sozial",
+                      "Soziale Dienste",
+                      "Sozialministerium",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Steiermark",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gesundheit.steiermark.at/cms/ziel/142146817/DE/",
+                    "title": "Pflege Steiermark",
+                    "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.gesundheit.steiermark.at/cms/bilder/861513/80/150/100/df7e405d/CCM.jpg?as_is=J\n",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:06:17.376Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Steiermark",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Vorarlberg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.vorarlberg.care/startseite/",
+                    "title": "Pflege Vorarlberg",
+                    "description": "Das Land Vorarlberg bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.vorarlberg.care/fileadmin/templates/Resources/Public/images/logo_betreuungsnetz-pflege-vorarlberg_facebook.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:07:34.083Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Vorarlberg",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Wien / Fonds Soziales Wien",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.fsw.at/p/pflege-betreuung",
+                    "title": "Pflege Wien",
+                    "description": "Hier bietet der Fonds Soziales Wien Informationen zu Pflegethemen an.",
+                    "previewImageUrl": "https://www.fsw.at/photos/E0/Pflege-und-Betreuung/_1200x630_crop_center-center_82_none/FSW-Mobile-Hauskrankenpflege.jpg?mtime=1571653597",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:08:09.304Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Wien",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "\n\n\n\n\n\n"
         },
         {
           "type": "category",
@@ -3595,5 +3984,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-09T13:35:49.981Z"
+  "timestamp": "2022-11-09T13:37:21.315Z"
 }
