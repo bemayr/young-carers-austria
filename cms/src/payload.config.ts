@@ -33,7 +33,8 @@ import WebsiteDataProtectionDeclaration from './website/DataProtectionDeclaratio
 import WebsiteImprint from './website/Imprint';
 import LandingPage from './website/LandingPage';
 
-import { contentV1 } from "./api/content.v1";
+import { contentV1 } from "./api/content.v2";
+import api_v1 from "./api/v1";
 
 const createGitHubActionsNotificationPath = path.resolve(__dirname, 'util/github-actions.js');
 const mockModulePath = path.resolve(__dirname, 'mocks/emptyObject.js');
@@ -97,6 +98,30 @@ export default buildConfig({
       method: "get",
       root: true,
       handler: contentV1
+    },
+    {
+      path: "/api/v1/app",
+      method: "get",
+      root: true,
+      handler: async ({payload}, res) => res.json(await api_v1.getAppData(payload))
+    },
+    {
+      path: "/api/v1/chatbot",
+      method: "get",
+      root: true,
+      handler: async function({payload}, res) { res.json(await api_v1.getChatbotData(payload)) }
+    },
+    {
+      path: "/api/v1/content",
+      method: "get",
+      root: true,
+      handler: async ({payload}, res) => res.json(await api_v1.getContent(payload))
+    },
+    {
+      path: "/api/v1/website",
+      method: "get",
+      root: true,
+      handler: async ({payload}, res) => res.json(await api_v1.getWebsiteData(payload))
     }
   ]
 });

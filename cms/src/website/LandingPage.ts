@@ -31,8 +31,6 @@ const LandingPage: GlobalConfig = {
               name: "icon",
               type: "text",
               label: "Icon",
-              minLength: 1,
-              maxLength: 1,
               required: true
             },
             {
@@ -58,8 +56,6 @@ const LandingPage: GlobalConfig = {
               name: "icon",
               type: "text",
               label: "Icon",
-              minLength: 1,
-              maxLength: 1,
               required: true
             },
             {
@@ -85,8 +81,6 @@ const LandingPage: GlobalConfig = {
               name: "icon",
               type: "text",
               label: "Icon",
-              minLength: 1,
-              maxLength: 1,
               required: true
             },
             {
@@ -112,8 +106,6 @@ const LandingPage: GlobalConfig = {
               name: "icon",
               type: "text",
               label: "Icon",
-              minLength: 1,
-              maxLength: 1,
               required: true
             },
             {
@@ -139,8 +131,6 @@ const LandingPage: GlobalConfig = {
               name: "icon",
               type: "text",
               label: "Icon",
-              minLength: 1,
-              maxLength: 1,
               required: true
             },
             {
@@ -173,7 +163,7 @@ const LandingPage: GlobalConfig = {
         {
           name: 'text',
           label: "Text",
-          type: 'text',
+          type: 'textarea',
           required: true,
         }
       ]

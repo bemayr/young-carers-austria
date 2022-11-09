@@ -10,6 +10,7 @@ export function slateToMarkdown(children: any[] | undefined, options: Options | 
     if (!children) return null
     return children.map(node => {
         if (Text.isText(node)) {
+            if (node.text === "") return null
             // @ts-ignore
             if (node.bold) return `**${node.text}**`
             // @ts-ignore
@@ -44,3 +45,7 @@ export function slateToMarkdown(children: any[] | undefined, options: Options | 
         }
     }).join("");
 }
+
+export const markdownify = (content: {
+    [k: string]: unknown;
+  }[]) => slateToMarkdown(content)?.trim()
