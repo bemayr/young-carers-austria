@@ -565,6 +565,162 @@
   },
   "insights": [
     {
+      "question": "Besorgungen erledigen",
+      "contentOriginal": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa zu kümmern."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "relationship",
+          "value": {
+            "id": "63684e84638c16809e4d0c2e",
+            "name": "Familie",
+            "heading": "Das Familienleben kann sehr turbulent sein!",
+            "description": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "In einer Familie kann es schon mal drunter und drüber gehen. Neben den ganzen schönen Momenten des Zusammenlebens gibt es aber natürlich auch "
+                  },
+                  {
+                    "text": "Alltagsprobleme.",
+                    "bold": true
+                  },
+                  {
+                    "text": " Damit alles klappt muss das Familienleben gut organisiert sein. Konflikte und schwierige Situationen gehören trotzdem dazu und den Umgang damit sollte man gelernt haben. Ein "
+                  },
+                  {
+                    "text": "gutes Miteinander",
+                    "bold": true
+                  },
+                  {
+                    "text": " ist das Wichtigste für eine angenehme Situation in der Familien."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Manchmal passiert es, dass Gewalt in der Familie auftritt, dann heißt es, "
+                  },
+                  {
+                    "text": "schnell Hilfe zu rufen",
+                    "bold": true
+                  },
+                  {
+                    "text": ". Zögere nicht, dir und deiner Familie helfen zu lassen!"
+                  }
+                ]
+              }
+            ],
+            "keywords": "Behinderung, Beratung, Bruder, Eltern, Familie, Familienberatung, Finanzielles, Geld, Geschwister, Gesundheit, Gesundheitsministerium, Gewalt, Großeltern, Hilfe, Mama, Ministerium, Mutter, Oma, Opa, Papa, Pflege, Pflegegeld, Pflegeplattform, Plattform, Problem, Schwester, Sozial, Sozialministerium, Unterstützung, Vater, daheim",
+            "_status": "published",
+            "createdAt": "2022-11-07T00:17:08.945Z",
+            "updatedAt": "2022-11-07T00:17:08.945Z"
+          },
+          "relationTo": "categories",
+          "children": [
+            {
+              "text": " "
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "type": "text",
+          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa zu kümmern.\n\n\n\n"
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63684e84638c16809e4d0c2e",
+            "name": "Familie",
+            "title": "Das Familienleben kann sehr turbulent sein!",
+            "information": "In einer Familie kann es schon mal drunter und drüber gehen. Neben den ganzen schönen Momenten des Zusammenlebens gibt es aber natürlich auch **Alltagsprobleme.** Damit alles klappt muss das Familienleben gut organisiert sein. Konflikte und schwierige Situationen gehören trotzdem dazu und den Umgang damit sollte man gelernt haben. Ein **gutes Miteinander** ist das Wichtigste für eine angenehme Situation in der Familien.\n\nManchmal passiert es, dass Gewalt in der Familie auftritt, dann heißt es, **schnell Hilfe zu rufen**. Zögere nicht, dir und deiner Familie helfen zu lassen!",
+            "entries": [
+              {
+                "ownerName": "Bundeskanzleramt",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.familienberatung.gv.at/",
+                    "title": "Familienberatung, aber wo?",
+                    "description": "Finde die Familienberatungsstelle in deiner Region.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T02:27:09.407Z",
+                    "keywords": [
+                      "BKA",
+                      "Bundeskanzleramt",
+                      "Kanzler",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "JoJo Salzburg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://gemeinsam-wachsen.at/",
+                    "title": "Gemeinsam wachsen",
+                    "description": "Ehrenamtliche Patinnen und Paten unterstützen die Kinder, indem sie regelmäßig mit ihnen Zeit verbringen und eine tragfähige Beziehung zu ihnen aufbauen. Sie bieten auch eine Anlaufstelle für Familein in denen ein Elternteil psychisch belastet oder erkrankt ist.",
+                    "previewImageUrl": "https://jojosalzburg.files.wordpress.com/2016/04/bub-mit-fahrrad.jpg?w=1200",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T02:31:14.321Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "JoJo Kindheit im Schatten",
+                      "Organisation",
+                      "Pflege",
+                      "Rat",
+                      "Salzburg",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "visible",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "\n\n"
+        }
+      ]
+    },
+    {
       "question": "Den Haushalt schmeißen",
       "contentOriginal": [
         {
@@ -3439,5 +3595,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-09T10:56:54.440Z"
+  "timestamp": "2022-11-09T13:35:49.981Z"
 }
