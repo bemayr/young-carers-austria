@@ -1348,19 +1348,6 @@
               ]
             }
           ]
-        },
-        {
-          "ownerUrl": "",
-          "references": [
-            {
-              "url": "https://github.com/dotnet/machinelearning/blob/main/docs/samples/Microsoft.ML.Samples/Dynamic/Transforms/Text/RemoveDefaultStopWords.cs",
-              "title": "machinelearning/RemoveDefaultStopWords.cs at main · dotnet/machinelearning",
-              "description": "ML.NET is an open source and cross-platform machine learning framework for .NET. - machinelearning/RemoveDefaultStopWords.cs at main · dotnet/machinelearning",
-              "previewImageUrl": "https://opengraph.githubassets.com/27dde31cbe87355299abcfc04ee6e44ee1d58caaf288940f1cce51089b05ff7b/dotnet/machinelearning",
-              "isPaidcontent": false,
-              "lastUpdated": "2022-11-07T14:39:40.684Z"
-            }
-          ]
         }
       ]
     },
@@ -2755,6 +2742,60 @@
       ]
     },
     {
+      "name": "Notfall(nummern)",
+      "title": "Welche Nummer wähle ich im Notfall?",
+      "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)****\n* **Polizei**: [133](tel:133)****\n* **Rettung**: [144](tel:144)****\n* **Ärztebereitschaftsdienst**: [141](tel:141)****\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+      "entries": [
+        {
+          "ownerName": "Kliniksuche des BMSGPK",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://kliniksuche.at/",
+              "title": "kliniksuche.at",
+              "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden.",
+              "previewImageUrl": "https://kliniksuche.at/images/LeistungenDiagnosen_small.jpg",
+              "isPaidcontent": false,
+              "lastUpdated": "2022-11-09T09:05:49.668Z",
+              "keywords": [
+                "Ambulanz",
+                "Arzt",
+                "Behandlung",
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Klinik",
+                "Kliniksuche",
+                "Krankenhaus",
+                "Krankheit",
+                "Medizin",
+                "Ministerium",
+                "Notfall",
+                "Notruf",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Rettung",
+                "Sozial",
+                "Sozialministerium",
+                "Spital",
+                "Spitäler",
+                "Suche",
+                "Therapie",
+                "Unterstützung",
+                "Ärztin"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Organisationen",
       "title": "Organisationen mit speziellen Angeboten für Young Carers",
       "information": "In Österreich kümmern sich circa **42.700** pflegende Kinder und Jugendliche **regelmäßig** um ein krankes Familienmitglied, meist ein Elternteil, aber auch Geschwister oder Großeltern können Hilfe benötigen. Du bist also nicht allein! Wenn du dich über Unterstützungsangebote informieren oder vertraulich mit jemanden über deine Situation und Probleme sprechen möchtest, kannst du dich an Organisationen für Young Carers wenden.",
@@ -3839,5 +3880,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-09T08:30:00.758Z"
+  "timestamp": "2022-11-09T09:06:26.240Z"
 }
