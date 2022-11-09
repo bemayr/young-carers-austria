@@ -929,7 +929,7 @@
                   "title": "kliniksuche.at",
                   "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden.",
                   "previewImageUrl": "https://kliniksuche.at/images/LeistungenDiagnosen_small.jpg",
-                  "isPaidcontent": false,
+                  "isPaidContent": false,
                   "lastUpdated": "2022-11-09T09:05:49.668Z",
                   "keywords": [
                     "Ambulanz",
@@ -972,7 +972,7 @@
       },
       {
         "type": "text",
-        "text": "\n\n"
+        "text": "und hier wird noch mehr Text kommen\n\n"
       }
     ],
     "title": "Im Notfall",
@@ -1093,7 +1093,7 @@
                     "title": "Familienberatung, aber wo?",
                     "description": "Finde die Familienberatungsstelle in deiner Region.",
                     "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
-                    "isPaidcontent": false,
+                    "isPaidContent": false,
                     "lastUpdated": "2022-11-07T02:27:09.407Z",
                     "keywords": [
                       "BKA",
@@ -1113,7 +1113,7 @@
                     "title": "Gemeinsam wachsen",
                     "description": "Ehrenamtliche Patinnen und Paten unterstützen die Kinder, indem sie regelmäßig mit ihnen Zeit verbringen und eine tragfähige Beziehung zu ihnen aufbauen. Sie bieten auch eine Anlaufstelle für Familein in denen ein Elternteil psychisch belastet oder erkrankt ist.",
                     "previewImageUrl": "https://jojosalzburg.files.wordpress.com/2016/04/bub-mit-fahrrad.jpg?w=1200",
-                    "isPaidcontent": false,
+                    "isPaidContent": false,
                     "lastUpdated": "2022-11-07T02:31:14.321Z",
                     "keywords": [
                       "Anlaufstelle",
@@ -1191,7 +1191,7 @@
               "title": "24-Stunden-Betreuung",
               "description": "Broschüre \"24-Stunden-Betreuung zu Hause\" als Download",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-807497968.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:58:07.019Z",
               "keywords": [
                 "Behinderung",
@@ -1216,7 +1216,7 @@
               "title": "24-Stunden-Betreuung",
               "description": "Für betreuungsbedürftige Personen kann es notwendig sein, dass in privaten Haushalten Tag und Nacht eine Betreuungsperson anwesend sein muss. Dies erfolgt im Rahmen einer 24-Stunden-Betreuung. Um die wichtige Qualität sicherzustellen, wird für Vermittlungsagenturen ein Qualitätszertifikat verliehen.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:8f3dc93a-ffe8-4940-90af-fb2ccc2997ee/BMSGPK_Logo_OpenGraph.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:57:12.805Z",
               "keywords": [
                 "Behinderung",
@@ -1255,7 +1255,7 @@
               "title": "Informationen vom Ministerium",
               "description": "Die neuesten Informationen bzw. Themen zu Pflege und Gesundheit des Sozialministeriums",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:8f3dc93a-ffe8-4940-90af-fb2ccc2997ee/BMSGPK_Logo_OpenGraph.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:47:02.768Z",
               "keywords": [
                 "Behinderung",
@@ -1294,7 +1294,7 @@
               "title": "Angebote und Hilfe für Young Carers",
               "description": "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_70381304_XXL.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:05:52.389Z",
               "keywords": [
                 "Angehörige",
@@ -1330,7 +1330,7 @@
               "title": "Hilfe für betreuende und pflegende Angehörige",
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:8f3dc93a-ffe8-4940-90af-fb2ccc2997ee/BMSGPK_Logo_OpenGraph.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:41:11.155Z",
               "keywords": [
                 "Angehörige",
@@ -1388,7 +1388,7 @@
               "title": "Familien und Gemeindenahepflege",
               "description": "Video der FH Gesundheit Innsbruck zum Thema Young Carers",
               "previewImageUrl": "https://i.ytimg.com/vi/AVV1eMiK91A/maxresdefault.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:25:58.535Z",
               "keywords": [
                 "Angehörige",
@@ -1437,7 +1437,7 @@
               "title": "Sorgen? Schulpsychologie hilft",
               "description": "Hier gibts Infos aus dem Bereich Schulpsychologie und Bildungsberatung.",
               "previewImageUrl": "https://www.schulpsychologie.at/fileadmin/_processed_/8/b/csm_Logo_34d3e28e95.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:27:53.465Z",
               "keywords": [
                 "Anlaufstelle",
@@ -1469,7 +1469,7 @@
               "title": "Get Social - Time4Friends",
               "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
               "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:37:03.180Z",
               "keywords": [
                 "Anlaufstelle",
@@ -1501,7 +1501,7 @@
               "title": "Österreichische Krebshilfe",
               "description": "Hier geht's zu den Informationen der Beratungsstellen der Österreichischen Krebshilfe.",
               "previewImageUrl": "https://www.krebshilfe.net/fileadmin/_processed_/9/f/csm_AdobeStock_244560176_2e49e54821.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T07:17:34.034Z",
               "keywords": [
                 "Anlaufstelle",
@@ -1532,7 +1532,7 @@
               "title": "#visible - Kinder psychisch erkrankter Eltern sichtbar machen",
               "description": "275.000 Kinder und Jugendliche in Österreich haben eine psychisch erkrankte Mama oder einen psychisch erkrankten Papa. Das Projekt #visible will dieses Thema sichtbar machen und bietet Unterstützung.",
               "previewImageUrl": "https://image.jimcdn.com/app/cms/image/transf/none/path/s238362f501c31729/backgroundarea/i83206771c4f5e077/version/1632730177/image.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:54:56.925Z",
               "keywords": [
                 "Anlaufstelle",
@@ -1566,7 +1566,7 @@
               "title": "Beratung/Coaching für Kinder und Jugendliche",
               "description": "Rainbows hilft Kindern und Jugendlichen in stürmischen Zeiten – bei Trennung, Scheidung oder Tod naher Bezugspersonen.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:08:02.331Z",
               "keywords": [
                 "Anlaufstelle",
@@ -1606,7 +1606,7 @@
               "title": "Rat auf Draht die Elternseite",
               "description": "Hier werden Information, Austausch und Beratung für Eltern und Bezugspersonen angeboten.",
               "previewImageUrl": "https://images.elternseite.at/NHnqQYIZx2dX_nTro8C1n3-Xt9o=/797x342:7089x3881/800x0/filters:quality(90)/https://cdn.elternseite.at/uploads/production//5f7189b809508d3337d7a0ad/relationship-parent-teenager-hugging-smiling-mother-daughter.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:20:53.014Z",
               "keywords": [
                 "147",
@@ -1643,7 +1643,7 @@
               "title": "open2chat",
               "description": "open2chat ist eine Möglichkeit für Jugendliche, online mit Gleichaltrigen über ihre Sorgen, Fragen und Probleme zu chatten. open2chat ist kostenlos und anonym.\nDiese Form der Unterstützung ersetzt keine psychotherapeutische oder ärztliche Behandlung.",
               "previewImageUrl": "https://open2chat.at/fileadmin/storage/_processed_/0/e/csm_AdobeStock_314958841_937dbbfab6.jpeg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T07:04:33.553Z",
               "keywords": [
                 "Anlaufstelle",
@@ -1675,7 +1675,7 @@
               "title": "Coronavirus - Kindern Ängste nehmen",
               "description": "Video zum Thema Coronavirus \"Was können Eltern tun um Kindern Ängste zu nehmen?\"",
               "previewImageUrl": "https://i.ytimg.com/vi/ynn_Z7Qy-_o/maxresdefault.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:15:55.360Z",
               "keywords": [
                 "Beratung",
@@ -1726,7 +1726,7 @@
               "title": "Demenz - was ist das?",
               "description": "Unter folgendem Link findest du umfassende Informationen zum Thema Demenz.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_70381304_XXL.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:18:44.119Z",
               "keywords": [
                 "Behinderung",
@@ -1767,7 +1767,7 @@
               "title": "Pflege Oberösterreich",
               "description": "Das Land Oberösterreich bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.land-oberoesterreich.gv.at/files/ooe2015/cdneu/schema/schema_land_ooe_logo.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:04:51.977Z",
               "keywords": [
                 "Behinderung",
@@ -1803,7 +1803,7 @@
               "title": "Soziale Dienste erklärt",
               "description": "Soziale Dienste sind für Menschen mit Pflegebedarf und Menschen mit Behinderungen damit diese so betreut werden können wie sie das selbst möchten.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:8f3dc93a-ffe8-4940-90af-fb2ccc2997ee/BMSGPK_Logo_OpenGraph.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:28:39.770Z",
               "keywords": [
                 "Behinderung",
@@ -1848,7 +1848,7 @@
               "title": "Pflege Steiermark",
               "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.gesundheit.steiermark.at/cms/bilder/861513/80/150/100/df7e405d/CCM.jpg?as_is=J\n",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:06:17.376Z",
               "keywords": [
                 "Behinderung",
@@ -1885,7 +1885,7 @@
               "title": "Pflege Vorarlberg",
               "description": "Das Land Vorarlberg bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.vorarlberg.care/fileadmin/templates/Resources/Public/images/logo_betreuungsnetz-pflege-vorarlberg_facebook.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:07:34.083Z",
               "keywords": [
                 "Behinderung",
@@ -1921,7 +1921,7 @@
               "title": "Pflege Wien",
               "description": "Hier bietet der Fonds Soziales Wien Informationen zu Pflegethemen an.",
               "previewImageUrl": "https://www.fsw.at/photos/E0/Pflege-und-Betreuung/_1200x630_crop_center-center_82_none/FSW-Mobile-Hauskrankenpflege.jpg?mtime=1571653597",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:08:09.304Z",
               "keywords": [
                 "Behinderung",
@@ -1965,7 +1965,7 @@
               "title": "Acht Schätze - nicht zum Essen, sondern zum Entspannen",
               "description": "Unter dem nachstehenden Link findest du die Videoserie \"Die acht Schätze\" zur Entspannung.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:01:38.065Z",
               "keywords": [
                 "Anlaufstelle",
@@ -2002,7 +2002,7 @@
               "title": "37 Grad - Große Last auf schmalen Schultern - Video aus dem Alltag",
               "description": "Füttern, windeln, Medikamente geben und die Mobilität trainieren, das machen Eltern mit ihren Kindern. Doch in vielen Familien in Deutschland sind diese Rollen vertauscht.",
               "previewImageUrl": "https://epg-image.zdf.de/fotobase-webdelivery/images/c8aa9c4d-9b40-4220-890f-9eff292bfee8?layout=1280x720",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:58:47.142Z",
               "keywords": [
                 "Angehörige",
@@ -2037,7 +2037,7 @@
               "title": "A day in the life of a young carer - BBC News",
               "description": "13-year-old Jameal is a carer for his mum - he describes the struggles and positives of being a young carer.",
               "previewImageUrl": "https://i.ytimg.com/vi/kdvd-R2b6YA/hqdefault.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:00:44.034Z",
               "keywords": [
                 "Angehörige",
@@ -2076,7 +2076,7 @@
               "title": "A Young Carer Song (Growing Up)",
               "description": "Ein Song anlässlich der CARERS WEEK",
               "previewImageUrl": "https://i.ytimg.com/vi/YMcu2a0Z0cQ/maxresdefault.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:59:42.692Z",
               "keywords": [
                 "Alzheimer",
@@ -2124,7 +2124,7 @@
               "title": "Orkney Young Carers",
               "description": "A Fixers campaign led by Julie Sivier: http://www.fixers.org.uk/news/16737-11208/life-as-a-young-carer.php Julie Sivier, 17, from Orkney, is helping to incre...",
               "previewImageUrl": "https://i.ytimg.com/vi/c7FBgHj2KoU/maxresdefault.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:00:52.417Z",
               "keywords": [
                 "Angehörige",
@@ -2160,7 +2160,7 @@
               "title": "Young Carer: Kleine Schultern, große Last - edit. Magazin",
               "description": "Lana Rebhan ist Young Carer. Sie kümmert sich um ihren kranken Papa, der an Nierenzysten leidet. Das heißt für die 15-Jährige: Haushalt und Pflege statt Schu...",
               "previewImageUrl": "https://i.ytimg.com/vi/oGOwXenkyt0/maxresdefault.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:53:20.578Z",
               "keywords": [
                 "Ausland",
@@ -2180,7 +2180,7 @@
               "title": "Sie haben etwas zu erzählen",
               "description": "Videointerviews mit Young Carers und Fachpersonen",
               "previewImageUrl": "https://www.kalaidos-fh.ch/-/media/KFH2019/Bilder/Forschung/Fachbereich-Gesundheit/Young-Carers/Header/Young-Carer-mit-kranker-Angehoeriger.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:26:34.258Z",
               "keywords": [
                 "Angehörige",
@@ -2226,7 +2226,7 @@
               "title": "Erste Hilfe. Ich werd´s wieder tun.",
               "description": "Zu 99% passiert nichts. Ein Erste-Hilfe-Kurs lohnt sich zu 100%. ",
               "previewImageUrl": "https://www.erstehilfe.at/img/linkpageposts/lpp_startseite.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:23:29.328Z",
               "keywords": [
                 "Beratung",
@@ -2268,7 +2268,7 @@
               "title": "Familienberatung, aber wo?",
               "description": "Finde die Familienberatungsstelle in deiner Region.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:27:09.407Z",
               "keywords": [
                 "BKA",
@@ -2288,7 +2288,7 @@
               "title": "Gemeinsam wachsen",
               "description": "Ehrenamtliche Patinnen und Paten unterstützen die Kinder, indem sie regelmäßig mit ihnen Zeit verbringen und eine tragfähige Beziehung zu ihnen aufbauen. Sie bieten auch eine Anlaufstelle für Familein in denen ein Elternteil psychisch belastet oder erkrankt ist.",
               "previewImageUrl": "https://jojosalzburg.files.wordpress.com/2016/04/bub-mit-fahrrad.jpg?w=1200",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:31:14.321Z",
               "keywords": [
                 "Anlaufstelle",
@@ -2326,7 +2326,7 @@
               "title": "Das Pflegekarenzgeld",
               "description": "Folder als Download",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:43:47.638Z",
               "keywords": [
                 "Behinderung",
@@ -2365,7 +2365,7 @@
               "title": "Angebote und Hilfe für Young Carers",
               "description": "Die Interessengemeinschaft pflegender Angehöriger hat hier Infos und Angebote zum Thema.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_70381304_XXL.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:05:52.389Z",
               "keywords": [
                 "Angehörige",
@@ -2416,7 +2416,7 @@
               "title": "Wie wasche ich die Hände richtig?",
               "description": "Schützt vor Viren und Bakterien nicht nur in Zeiten von Corona.",
               "previewImageUrl": "https://www.meduniwien.ac.at/web/typo3conf/ext/f_base/Resources/Public/IMG/LogoSM.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:47:21.942Z",
               "keywords": [
                 "Bildung",
@@ -2441,7 +2441,7 @@
               "title": "#Händewaschen",
               "description": "Sing mit! Händewaschen mit musikalischer Untermalung",
               "previewImageUrl": "https://i.ytimg.com/vi/Qa35TIWZY4w/maxresdefault.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:54:06.633Z",
               "keywords": [
                 "Beratung",
@@ -2483,7 +2483,7 @@
               "title": "selpers helpers - Hilfsmittelbörse",
               "description": "Hier werden kostenlos gespendete Hilfsmittel in einer Onlinebörse angeboten.",
               "previewImageUrl": "https://selpers.com/wp-content/uploads/2021/11/bigstock-Helping-Hand-Of-Heart-Donor-Fo-312048634-1024x681.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T07:05:07.850Z",
               "keywords": [
                 "Gehhilfe",
@@ -2515,7 +2515,7 @@
               "title": "Bundes Jugend Vertretung",
               "description": "Bei der Bundes Jugendvertretung kannst du dich zu Themen wie Bildung und Arbeit, Gleichberechtigung, Jugend und Politik sowie aktuelle Themen die Kinder und Jugendliche interessieren, informieren.",
               "previewImageUrl": "https://bjv.at/wp-content/uploads/2022/10/221016_BJV_Bild_3.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:11:58.649Z",
               "keywords": [
                 "Anwalt",
@@ -2543,7 +2543,7 @@
               "title": "Jugendliche Wien",
               "description": "WIENXTRA bietet Info-, Beratungs- und Bildungsangebote rund um Kinder- und Jugendthemen in Wien.",
               "previewImageUrl": "https://www.wienxtra.at/fileadmin/web/oea/Bilder/Open_Graph_Bilder/og_wienxtra_zentral.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T03:00:05.606Z",
               "keywords": [
                 "Auszeit",
@@ -2579,7 +2579,7 @@
               "title": "\"Was ist bloß mit Oma los?\" - Demenz",
               "description": "Kindern wird Demenz erklärt",
               "previewImageUrl": "https://www.alzheimer-selbsthilfe.at/wp-content/uploads/2017/07/merkimakidzlogo-web.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:53:13.564Z",
               "keywords": [
                 "Alzheimer",
@@ -2601,7 +2601,7 @@
               "title": "Demenz verstehen - von Kindesbeinen an",
               "description": "Die Webinar-Reihe des Kardinal König Hauses beschäftigt sich mit dem Thema Demenz.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_70381304_XXL.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:45:55.776Z",
               "keywords": [
                 "Alzheimer",
@@ -2634,7 +2634,7 @@
               "title": "Pflegefit - Betreuung und Pflege in der Familie",
               "description": "Das Jugendrotkreuz bietet für SchülerInnen und Schüler ab der 8. Schulstufe einen Kurs an.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:52:27.606Z",
               "keywords": [
                 "Ausbildung",
@@ -2684,7 +2684,7 @@
               "title": "kliniksuche.at",
               "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden.",
               "previewImageUrl": "https://kliniksuche.at/images/LeistungenDiagnosen_small.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-09T09:05:49.668Z",
               "keywords": [
                 "Ambulanz",
@@ -2739,7 +2739,7 @@
               "title": "elco/kiko",
               "description": "Unter folgendem Link kommst du zu elco/kiko. Hier bietet man Coaching und Beratung für Familien mit einem psychisch erkrankten Elternteil aus Oberösterreich an den Standorten Linz, Steyr und Wels.",
               "previewImageUrl": "https://image.jimcdn.com/app/cms/image/transf/none/path/sea09eeccbf437f7a/backgroundarea/i10fa52ac9813bc5e/version/1547046048/image.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T07:01:53.468Z",
               "keywords": [
                 "Anlaufstelle",
@@ -2772,7 +2772,7 @@
               "title": "JoJo Salzburg",
               "description": "JoJo (Salzburg) stellt verschiedene Angebote für Eltern, Schulen und Fachkräfte bereit. Für Kinder psychisch erkrankter Eltern und Geschwister gibt es Einzel- und Gruppenangebote. Solltest du nicht in eine JoJo-Regionalstelle kommen können, wird eine Online-Videoberatung angeboten.",
               "previewImageUrl": "https://www.jojo.or.at/fileadmin/_processed_/a/4/csm_1_Patin_mit_Patenkind_156f1bbaa4.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:52:34.429Z",
               "keywords": [
                 "Anlaufstelle",
@@ -2800,7 +2800,7 @@
               "title": "Get Social - Time4Friends",
               "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
               "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:37:03.180Z",
               "keywords": [
                 "Anlaufstelle",
@@ -2832,7 +2832,7 @@
               "title": "KIPKE Caritas St. Pölten",
               "description": "Hier kommst du zum Projekt KIPKE der Caritas St. Pölten in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
               "previewImageUrl": "https://www.caritas-stpoelten.at/fileadmin/storage/stpoelten/ELDI/Menschen_mit_psychischen_Erkankungen/KIPKE/KIPKE-Katze-2015.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T05:45:32.777Z",
               "keywords": [
                 "Anlaufstelle",
@@ -2869,7 +2869,7 @@
               "title": "VeRRückte Kindheit",
               "description": "Beratung für Jugendliche und ewachsene Angehörige in Familien mit einem psychisch erkrankten Elternteil. VeRRückte Kindheit bietet Beratung und Information, Online- und Chat-Beratung, Vorträge, und ein Online Forum zum Gedankenaustausch.",
               "previewImageUrl": "https://www.verrueckte-kindheit.at/fileadmin/_processed_/7/2/csm_verrueckte-kindheit-grafik_aeaffba49c.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:37:12.444Z",
               "keywords": [
                 "Anlaufstelle",
@@ -2908,7 +2908,7 @@
               "title": "Young Carers Beratungsstelle Krems",
               "description": "Jeden 2. Freitag des Monats können sich Young Carers oder Interessierte in Krems an der Donau von 15:30 bis 17:30 Uhr mit Mitarbeitern_innen des Teams an der Bezirksstelle des Roten Kreuzes austauschen.",
               "previewImageUrl": "https://www.roteskreuz.at/fileadmin/user_upload/LV/NO/BS/Krems/Fotos_Young_Carers/21-07-12-rotes-kreuz-krems-young-carers__49_.JPG",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:54:34.184Z",
               "keywords": [
                 "Anlaufstelle",
@@ -2955,7 +2955,7 @@
               "title": "Pflegegeld - wie kann man es beziehen?",
               "description": "Hier gibt es Informationen zum Pflegegeld wie z.B. Voraussetzungen, Antrag, Begutachtung, Höhe des Pflegegeldes, etc.",
               "previewImageUrl": "https://www.oesterreich.gv.at/dam/jcr:e5150ebb-2d91-4a0c-880c-05733560de34/221019_Oegvat_OG_1200x627.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:08:48.207Z",
               "keywords": [
                 "Amt",
@@ -2993,7 +2993,7 @@
               "title": "Die Rechte von Kindern und Jugendlichen",
               "description": "Folder als Download",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1328458841.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:20:54.619Z",
               "keywords": [
                 "BKA",
@@ -3035,7 +3035,7 @@
               "title": "Istokay.at",
               "description": "Hier findest du ein Selbsthilfe-Programm für Jugendliche denen es gerade nicht so gut geht.",
               "previewImageUrl": "https://www.istokay.at/wp-content/uploads/2021/11/Open-Graph.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:51:20.899Z",
               "keywords": [
                 "Bildung",
@@ -3060,7 +3060,7 @@
               "title": "FIT & STRONG: BETTER TOGETHER",
               "description": "Zeige Stärke, hol dir Hilfe! Psychische Belastungen und Probleme sind unsichtbar, sie liegen oft lange Zeit im Verborgenen. Gerade für junge Menschen, ist es wichtig mental fit zu sein, um den Alltag zu meistern.  Auf dieser Seite findest du Tipps und Anregungen die dir helfen können.",
               "previewImageUrl": "https://s3-eu-west-1.amazonaws.com/landingi-editor-uploads/JGqNq16Q/Kopie_von_Ohne_Titel.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:25:19.717Z",
               "keywords": [
                 "Alltag",
@@ -3104,7 +3104,7 @@
               "title": "Get Social",
               "description": "Get Social - Internetplattform des Jugendrotkreuzes auf facebook",
               "previewImageUrl": "https://scontent-vie1-1.xx.fbcdn.net/v/t31.18172-1/11034468_864799533582705_4278831193272846887_o.jpg?stp=c0.31.200.200a_dst-jpg_p200x200&_nc_cat=100&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=km6NJVKCYQ8AX_OFt72&_nc_ht=scontent-vie1-1.xx&oh=00_AfCokCVFwM0KlODce7gTR2IZK3X9uzWsLp4u9x06v1VFBg&oe=638FC74C",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:35:52.082Z",
               "keywords": [
                 "Beratung",
@@ -3134,7 +3134,7 @@
               "title": "Superhands",
               "description": "Folge superhands auf facebook",
               "previewImageUrl": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-1/294928416_712257500158281_2770698141274459683_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=d36de4&_nc_ohc=jvTHCokuvUcAX9s0V6a&_nc_ht=scontent-vie1-1.xx&oh=00_AfB5eOR9TfGWrerdLdUUsg1Y87OdJLOJIX5WlNn_FDgVmA&oe=636CC4E9",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:31:47.989Z",
               "keywords": [
                 "Anlaufstelle",
@@ -3163,7 +3163,7 @@
               "title": "VeRRückte Kindheit",
               "description": "Verrückte Kindheit auf facebook",
               "previewImageUrl": "https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-1/309151748_421659233435705_5635971663195559032_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=d36de4&_nc_ohc=bCyGIHGvQ7sAX8kfjl4&_nc_ht=scontent-vie1-1.xx&oh=00_AfBy9DhocemoYECQzUTLrwIpo80s-XvyV6amAxZtelRSVg&oe=636E8AF4",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:37:55.682Z",
               "keywords": [
                 "Beratung",
@@ -3201,7 +3201,7 @@
               "title": "Service für Bürgerinnen und Bürger",
               "description": "Folgender Link führt dich zum Service für Bürgerinnen und Bürger des Sozialministeriums.",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:1cf13b1c-6af3-40e8-8eed-89918675bb55/icon-bcms_service.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:25:49.057Z",
               "keywords": [
                 "Anlaufstelle",
@@ -3218,7 +3218,7 @@
               "title": "Hilfe für betreuende und pflegende Angehörige",
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:8f3dc93a-ffe8-4940-90af-fb2ccc2997ee/BMSGPK_Logo_OpenGraph.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:41:11.155Z",
               "keywords": [
                 "Angehörige",
@@ -3284,7 +3284,7 @@
               "title": "Sozialversicherung",
               "description": "Menschen, die Angehörige pflegen und deswegen ihre Berufstätigkeit reduzieren oder aufgeben, können sich kranken- und pensionsversichern. Die Beiträge werden vom Staat übernommen, sodass keine Kosten entstehen! Zuständig sind die Österreichische Gesundheitskasse und die Pensionsversicherungsanstalt.",
               "previewImageUrl": "https://www.oesterreich.gv.at/dam/jcr:e5150ebb-2d91-4a0c-880c-05733560de34/221019_Oegvat_OG_1200x627.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:29:41.678Z",
               "keywords": [
                 "Amt",
@@ -3315,7 +3315,7 @@
               "title": "Berufsverband Österreichischer Psycholog:innen (BÖP) - Projekte für Kinder und Jugendliche",
               "description": "Hier findest du Projekte für Kinder und Jugendliche in psychischen Krisen.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:10:04.186Z",
               "keywords": [
                 "Beratung",
@@ -3350,7 +3350,7 @@
               "title": "Pflegende Angehörige Oberösterreich",
               "description": "Zu Unterstützungsangebote für pflegende Angehörige in Oberösterreich wird unter diesem Link informiert.",
               "previewImageUrl": "https://www.land-oberoesterreich.gv.at/files/ooe2015/cdneu/schema/schema_land_ooe_logo.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:11:38.505Z",
               "keywords": [
                 "Behinderung",
@@ -3387,7 +3387,7 @@
               "title": "Hilfe für betreuende und pflegende Angehörige",
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
               "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:8f3dc93a-ffe8-4940-90af-fb2ccc2997ee/BMSGPK_Logo_OpenGraph.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:41:11.155Z",
               "keywords": [
                 "Angehörige",
@@ -3445,7 +3445,7 @@
               "title": "Pflege Steiermark",
               "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
               "previewImageUrl": "https://www.gesundheit.steiermark.at/cms/bilder/861513/80/150/100/df7e405d/CCM.jpg?as_is=J\n",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:06:17.376Z",
               "keywords": [
                 "Behinderung",
@@ -3482,7 +3482,7 @@
               "title": "Pflegende Angehörige Vorarlberg",
               "description": "Die Broschüre \"Entlastungs- und Unterstützungsangebote 2021\" in Vorarlberg kannst du hier nachlesen.",
               "previewImageUrl": "https://vorarlberg.at/o/vbg-73-theme/images/fallback.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:13:37.228Z",
               "keywords": [
                 "Behinderung",
@@ -3519,7 +3519,7 @@
               "title": "Pflegende Angehörige Wien",
               "description": "Der Fonds Soziales Wien informiert pflegende Angehörige unter diesem Link über bestehende Unterstützungsangebote.",
               "previewImageUrl": "https://www.fsw.at/photos/meta/_1200x630_crop_center-center_82_none/FSW_Logo-rund.png?mtime=1584551437",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:14:37.493Z",
               "keywords": [
                 "Behinderung",
@@ -3564,7 +3564,7 @@
               "title": "Kinderburg Rapottenstein",
               "description": "Die Kinderburg Rapottenstein soll Erholung und Krafttanken für Familien mit chronisch oder schwerkranken Kindern oder Eltern ermöglichen.",
               "previewImageUrl": "https://www.roteskreuz.at/typo3conf/ext/oerk_core/Resources/Public/Images/Defaults/default.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T05:51:21.641Z",
               "keywords": [
                 "Auszeit",
@@ -3616,7 +3616,7 @@
               "title": "Careum",
               "description": "Online Unterstützungsangebot für Young Carers aus der Schweiz",
               "previewImageUrl": "https://backend.careum.ch/sites/default/files/media/image/junger-mann-vor-laptop.png",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:13:34.486Z",
               "keywords": [
                 "Ausland",
@@ -3642,7 +3642,7 @@
               "title": "Young Carers in der Schweiz",
               "description": "Hier findest du Informationen aus der Schweiz",
               "previewImageUrl": "https://www.kalaidos-fh.ch/-/media/KFH2019/Bilder/Forschung/Fachbereich-Gesundheit/Young-Carers/Header/Enkelin-hilft-Grossmutter-in-Kueche.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:58:56.610Z",
               "keywords": [
                 "Angehörige",
@@ -3681,7 +3681,7 @@
               "title": "A Young Carer Song (Growing Up)",
               "description": "Ein Song anlässlich der CARERS WEEK",
               "previewImageUrl": "https://i.ytimg.com/vi/YMcu2a0Z0cQ/maxresdefault.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T01:59:42.692Z",
               "keywords": [
                 "Alzheimer",
@@ -3729,7 +3729,7 @@
               "title": "Hilfe für pflegende Kinder Deutschland",
               "description": "Hier haben wir noch einen Link nach Deutschland für dich - Hilfe für minderjährige Kinder, welche ihre Eltern pflegen. Es gibt viel Interessantes zum Nachlesen, Filme und Ideen für Projekte.",
               "previewImageUrl": "https://young-carers.de/wp-content/uploads/2018/06/hilfe-kinder-kranker-eltern-300x180.jpg",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T02:42:01.668Z",
               "keywords": [
                 "Angehörige",
@@ -3768,7 +3768,7 @@
               "title": "Young Carers Basel",
               "description": "Hier gibt's eine Website und eine App für Young Carers aus der Schweiz.",
               "previewImageUrl": "http://static1.squarespace.com/static/61aa3dc4b889d150bb202dca/t/61b07bb7d34f8271984da917/1638955959438/srk_basel_Logo.png?format=1500w",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:53:58.458Z",
               "keywords": [
                 "Ausland",
@@ -3792,7 +3792,7 @@
               "title": "Young Carers in Großbritannien",
               "description": "The Children's Society in Großbritannien kümmert sich u.a. auch um den Support von Young Carers .",
               "previewImageUrl": "https://www.childrenssociety.org.uk/sites/default/files/styles/16_9_media_large/public/2020-09/information%20for%20young%20people%20banner.jpg?h=95ffb99b&itok=Oz5fL6EA",
-              "isPaidcontent": false,
+              "isPaidContent": false,
               "lastUpdated": "2022-11-07T06:57:27.529Z",
               "keywords": [
                 "Angehörige",
@@ -3862,5 +3862,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-09T09:41:30.572Z"
+  "timestamp": "2022-11-09T09:52:06.570Z"
 }
