@@ -1,7 +1,7 @@
 import { Payload } from "payload";
 import { PayloadHandler } from "payload/dist/config/types";
-import { TypeWithVersion } from "payload/dist/versions/types";
-import {Alltagssituation, FAQ, ImNotfall, Kategorie, Quelle, Referenz} from "../payload-types"
+import { groupBy } from "../util/array";
+import {Alltagssituation, Barrierefreiheitserklarung, Copyright, Datenschutzerklarung, FAQ, Hilfe, ImNotfall, Impressum, Infos, Kategorie, Quelle, Referenz, Willkommensnachricht} from "../payload-types"
 import { slateToMarkdown } from "./markdown"
 
 const makeLookup = (array: Array<{id: unknown}>) =>
@@ -52,16 +52,40 @@ const emergency = {
     transform: function(entry: ImNotfall) {
         return {
             title: entry.title,
-            description: slateToMarkdown(entry.description),
+            description: slateToMarkdown(entry.description)?.trim(),
             numbers: entry.numbers.map(({label, number}) => ({label, number})),
             contentOriginal: entry.content,
             content: transformExtendedRichText(entry.content as ExtendedRichText[]),
-            state: "done" // TODO: get rid of this
+            state: "done" // TODO: get rid of this, exists only for iOS backwards compatibility
         }
     },
     get: async (payload: Payload) => await payload
         .findGlobal<ImNotfall>({ slug: "emergency" })
         .then(emergency.transform)
+}
+
+const help = {
+    transform: function(entry: Hilfe) {
+        return {
+            title: entry.title,
+            description: slateToMarkdown(entry.description)?.trim(),
+        }
+    },
+    get: async (payload: Payload) => await payload
+        .findGlobal<Hilfe>({ slug: "help" })
+        .then(help.transform)
+}
+
+const infos = {
+    transform: function(entry: Infos) {
+        return {
+            title: entry.title,
+            description: slateToMarkdown(entry.description)?.trim,
+        }
+    },
+    get: async (payload: Payload) => await payload
+        .findGlobal<Infos>({ slug: "infos" })
+        .then(infos.transform)
 }
 
 const situations = {
@@ -87,26 +111,50 @@ const situations = {
         .then(entries => entries.map(situations.transform))
 }
 
+const app = {
+    a11y: {
+        get: async (payload: Payload) => await payload
+            .findGlobal<Barrierefreiheitserklarung>({ slug: "app-accessibility" })
+            .then(result => slateToMarkdown(result.content)?.trim())
+    },
+    copyright: {
+        get: async (payload: Payload) => await payload
+            .findGlobal<Copyright>({ slug: "app-copyright" })
+            .then(result => slateToMarkdown(result.content)?.trim())
+    },
+    gdpr: {
+        get: async (payload: Payload) => await payload
+            .findGlobal<Datenschutzerklarung>({ slug: "app-gdpr" })
+            .then(result => slateToMarkdown(result.content)?.trim())
+    },
+    imprint: {
+        get: async (payload: Payload) => await payload
+            .findGlobal<Impressum>({ slug: "app-imprint" })
+            .then(result => slateToMarkdown(result.content)?.trim())
+    },
+    welcome: {
+        transform: function(entry: Willkommensnachricht) {
+            return {
+                hello: slateToMarkdown(entry.hello)?.trim(),
+                info: slateToMarkdown(entry.info)?.trim(),
+                feedback: slateToMarkdown(entry.feedback)?.trim(),
+            }
+        },
+        get: async (payload: Payload) => await payload
+            .findGlobal<Willkommensnachricht>({ slug: "app-welcome" })
+            .then(app.welcome.transform)
+    }
+}
+
 const categories = {
     transform: function(entry: Kategorie) {
         return {
-            ...entry
+            name: entry.name,
+            title: entry.heading,
+            information: slateToMarkdown(entry.description)?.trim(),
         }
     },
-}
-
-const references = {
-    transform: function(entry: Referenz) {
-        return {
-            ...entry
-        }
-    },
-}
-
-export const contentV1: PayloadHandler = async ({ payload }, res) => {
-
-
-    const categories = await payload.find<Kategorie>({
+    get: async (payload: Payload) => await payload.find<Kategorie>({
         collection: "categories",
         depth: 1,
         limit: 1000,
@@ -118,9 +166,38 @@ export const contentV1: PayloadHandler = async ({ payload }, res) => {
         }
       })
       .then(result => result.docs)
-      .then(categories => categories.map(category => ({...category, descriptionMarkdown: slateToMarkdown(category.description)})));
+      .then(entries => entries.map(categories.transform))
+}
 
-    const references = await payload.find<Referenz>({
+const sources = {
+    transform: function(entry: Quelle) {
+        return {
+            ownerName: entry.name,
+            ownerUrl: entry.homepage ?? "",
+        }
+    },
+    get: async (payload: Payload) => await payload.find<Quelle>({
+        collection: "sources",
+        depth: 0,
+        limit: 1000,
+      })
+      .then(result => result.docs)
+      .then(entries => entries.map(sources.transform))
+}
+
+const references = {
+    transform: function(entry: Referenz) {
+        return {
+            url: entry.address,
+            title: entry.title,
+            description: entry.description,
+            previewImageUrl: entry.image,
+            isPaidcontent: entry.containsPaidContent,
+            lastUpdated: entry.updatedAt,
+            keywords: entry.keywords?.split(",").map(keyword => keyword.trim())
+        }
+    },
+    get: async (payload: Payload) => await payload.find<Referenz>({
         collection: "references",
         depth: 1,
         limit: 1000,
@@ -129,21 +206,70 @@ export const contentV1: PayloadHandler = async ({ payload }, res) => {
                 equals: "published"
             }
         }
-      }).then(result => result.docs);
+      })
+      .then(result => result.docs)
+}
 
-      const sources = await payload.find<Quelle>({
-        collection: "sources",
-        depth: 0,
-        limit: 1000,
-      }).then(result => result.docs);
+export const contentV1: PayloadHandler = async ({ payload }, res) => {
 
-      const sourcesLookup = makeLookup(sources)
+    // === content ===
+    //   const sourcesLookup = makeLookup(sources)
+
+    const refsPayload = await references.get(payload)
+
+    const refsFlattened = refsPayload.flatMap(reference => reference.categories.map(category => ({
+        category: (category as Kategorie),
+        reference: reference,
+        source: (reference.source as Quelle)
+    })))
+
+    const refsGrouped = groupBy(refsFlattened, ref => ref.category.name)
+
+    const result =
+        Object.entries(refsGrouped)
+        .map(([_, itemLevel0]) => ({
+            ...categories.transform(itemLevel0[0].category),
+            entries:
+            Object.entries(
+                groupBy(
+                    itemLevel0.map(({source, reference}) => ({ source, reference})), ({source}) => source.id))
+                    .map(([_, itemLevel1]) => ({
+                        ...sources.transform(itemLevel1[0].source),
+                        references: itemLevel1
+                        .map(({ reference }) => reference)
+                        .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+                        .map(references.transform)
+                    }))
+                    .sort((a, b) => a.ownerName.localeCompare(b.ownerName))
+        }))
+
+
+    const refs = result.sort((a, b) => a.name.localeCompare(b.name));
+
+    // Object.fromEntries(refs.map(item => [item., item]));
+
+
+    // === app ===
+      const appWelcome = await app.welcome.get(payload)
+
+    const appMetadata = [
+        { key: "imprint", title: "Impressum", content: await app.imprint.get(payload) },
+        { key: "copyright", title: "Copyright", content: await app.copyright.get(payload) },
+        { key: "accessibility", title: "Datenschutzerklärung", content: await app.a11y.get(payload) },
+        { key: "gdpr", title: "Barrierefreiheitserklärung", content: await app.gdpr.get(payload) },
+        { key: "welcome-hello", title: "Kurzer Text auf der allerersten Seite der App", content: appWelcome.hello },
+        { key: "welcome-info", title: "Information zur App in der Welcoming Experience", content: appWelcome.info },
+        { key: "welcome-feedback", title: "Feedbackaufforderung in der Welcoming Experience", content: appWelcome.feedback },
+    ]
 
     res.json({
         faqs: await faq.get(payload),
         emergency: await emergency.get(payload),
+        help: await help.get(payload),
+        infos: await infos.get(payload),
         insights: await situations.get(payload),
-        abc: "todo",
+        abc: refs,
+        metadata: appMetadata,
         timestamp: new Date().toISOString()
     })
 }
