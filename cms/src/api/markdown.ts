@@ -6,7 +6,8 @@ type Options = {
     listDepth: number
 }
 
-export function slateToMarkdown(children: any[], options: Options | undefined = undefined): string | null {
+export function slateToMarkdown(children: any[] | undefined, options: Options | undefined = undefined): string | null {
+    if (!children) return null
     return children.map(node => {
         if (Text.isText(node)) {
             // @ts-ignore
@@ -25,7 +26,11 @@ export function slateToMarkdown(children: any[], options: Options | undefined = 
             case 'h4': return `#### ${slateToMarkdown(node.children)}\n\n`;
             case 'h5': return `##### ${slateToMarkdown(node.children)}\n\n`;
             case 'h6': return `###### ${slateToMarkdown(node.children)}\n\n`;
-            case 'paragraph': return `${slateToMarkdown(node.children)}\n\n`;
+            // todo: this sounds kind of suspiscious
+            case undefined:
+            case 'p':
+            case 'paragraph':
+                return `${slateToMarkdown(node.children)}\n\n`;
             case 'quote': return `> ${slateToMarkdown(node.children)}\n\n`;
             case 'ul': return `${slateToMarkdown(node.children, { listType: 'unordered', listDepth: (options?.listDepth ?? -1) + 1 })}\n`;
             case 'ol': return `${slateToMarkdown(node.children, { listType: 'ordered', listDepth: (options?.listDepth ?? -1) + 1 })}\n`;
