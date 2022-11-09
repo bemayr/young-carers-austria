@@ -915,9 +915,59 @@
       {
         "type": "category",
         "category": {
+          "id": "63685043638c16809e4d0d1d",
           "name": "Notfall(nummern)",
           "title": "Welche Nummer wähle ich im Notfall?",
-          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)****\n* **Polizei**: [133](tel:133)****\n* **Rettung**: [144](tel:144)****\n* **Ärztebereitschaftsdienst**: [141](tel:141)****\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden."
+          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)****\n* **Polizei**: [133](tel:133)****\n* **Rettung**: [144](tel:144)****\n* **Ärztebereitschaftsdienst**: [141](tel:141)****\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+          "entries": [
+            {
+              "ownerName": "Kliniksuche des BMSGPK",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "https://kliniksuche.at/",
+                  "title": "kliniksuche.at",
+                  "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden.",
+                  "previewImageUrl": "https://kliniksuche.at/images/LeistungenDiagnosen_small.jpg",
+                  "isPaidcontent": false,
+                  "lastUpdated": "2022-11-09T09:05:49.668Z",
+                  "keywords": [
+                    "Ambulanz",
+                    "Arzt",
+                    "Behandlung",
+                    "Behinderung",
+                    "Beratung",
+                    "Finanzielles",
+                    "Geld",
+                    "Gesundheit",
+                    "Gesundheitsministerium",
+                    "Hilfe",
+                    "Klinik",
+                    "Kliniksuche",
+                    "Krankenhaus",
+                    "Krankheit",
+                    "Medizin",
+                    "Ministerium",
+                    "Notfall",
+                    "Notruf",
+                    "Pflege",
+                    "Pflegegeld",
+                    "Pflegeplattform",
+                    "Plattform",
+                    "Rettung",
+                    "Sozial",
+                    "Sozialministerium",
+                    "Spital",
+                    "Spitäler",
+                    "Suche",
+                    "Therapie",
+                    "Unterstützung",
+                    "Ärztin"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       },
       {
@@ -925,223 +975,8 @@
         "text": "\n\n"
       }
     ],
-    "contentOriginal": [
-      {
-        "children": [
-          {
-            "text": "TODO",
-            "bold": true
-          },
-          {
-            "text": ": hier gehört noch einiges gemacht"
-          }
-        ]
-      },
-      {
-        "children": [
-          {
-            "text": ""
-          }
-        ],
-        "type": "relationship",
-        "value": {
-          "id": "63685043638c16809e4d0d1d",
-          "name": "Notfall(nummern)",
-          "heading": "Welche Nummer wähle ich im Notfall?",
-          "description": [
-            {
-              "type": "paragraph",
-              "children": [
-                {
-                  "text": "Für den Ernstfall:"
-                }
-              ]
-            },
-            {
-              "type": "ul",
-              "children": [
-                {
-                  "type": "li",
-                  "children": [
-                    {
-                      "text": "Feuerwehr",
-                      "bold": true
-                    },
-                    {
-                      "text": ": "
-                    },
-                    {
-                      "type": "link",
-                      "href": "tel:122",
-                      "children": [
-                        {
-                          "text": "122"
-                        }
-                      ],
-                      "url": "tel:122",
-                      "linkType": "custom"
-                    },
-                    {
-                      "text": "",
-                      "bold": true
-                    }
-                  ]
-                },
-                {
-                  "type": "li",
-                  "children": [
-                    {
-                      "bold": true,
-                      "text": "Polizei"
-                    },
-                    {
-                      "text": ": "
-                    },
-                    {
-                      "type": "link",
-                      "href": "tel:133",
-                      "children": [
-                        {
-                          "text": "133"
-                        }
-                      ],
-                      "url": "tel:133",
-                      "linkType": "custom"
-                    },
-                    {
-                      "text": "",
-                      "bold": true
-                    }
-                  ]
-                },
-                {
-                  "type": "li",
-                  "children": [
-                    {
-                      "bold": true,
-                      "text": "Rettung"
-                    },
-                    {
-                      "text": ": "
-                    },
-                    {
-                      "type": "link",
-                      "href": "tel:144",
-                      "children": [
-                        {
-                          "text": "144"
-                        }
-                      ],
-                      "url": "tel:144",
-                      "linkType": "custom"
-                    },
-                    {
-                      "text": "",
-                      "bold": true
-                    }
-                  ]
-                },
-                {
-                  "type": "li",
-                  "children": [
-                    {
-                      "bold": true,
-                      "text": "Ärztebereitschaftsdienst"
-                    },
-                    {
-                      "text": ": "
-                    },
-                    {
-                      "type": "link",
-                      "href": "tel:141",
-                      "children": [
-                        {
-                          "text": "141"
-                        }
-                      ],
-                      "url": "tel:141",
-                      "linkType": "custom"
-                    },
-                    {
-                      "text": "",
-                      "bold": true
-                    }
-                  ]
-                },
-                {
-                  "type": "li",
-                  "children": [
-                    {
-                      "bold": true,
-                      "text": "Vergiftungsinformationszentrale"
-                    },
-                    {
-                      "text": ": "
-                    },
-                    {
-                      "type": "link",
-                      "href": "tel:014064343",
-                      "children": [
-                        {
-                          "text": "01 406 43 43"
-                        }
-                      ],
-                      "url": "tel:014064343",
-                      "linkType": "custom"
-                    },
-                    {
-                      "text": ""
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "children": [
-                {
-                  "text": "Notrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden."
-                }
-              ]
-            },
-            {
-              "type": "paragraph",
-              "children": [
-                {
-                  "text": "Der Euro-Notruf "
-                },
-                {
-                  "type": "link",
-                  "href": "tel:112",
-                  "children": [
-                    {
-                      "text": "112"
-                    }
-                  ],
-                  "url": "tel:112",
-                  "linkType": "custom"
-                },
-                {
-                  "text": " kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden."
-                }
-              ]
-            }
-          ],
-          "keywords": "Behinderung, Beratung, Feuerwehr, Finanzielles, Geld, Gesundheit, Gesundheitsministerium, Hilfe, Ministerium, Notfall(nummern), Pflege, Pflegegeld, Pflegeplattform, Plattform, Polizei, Rettung, Sanitäter, Sozial, Sozialministerium, Spital, Unterstützung, Vergiftungszentrale (fehlt), Ärztenotdienst",
-          "_status": "published",
-          "createdAt": "2022-11-07T00:24:35.046Z",
-          "updatedAt": "2022-11-07T00:24:35.046Z"
-        },
-        "relationTo": "categories"
-      },
-      {
-        "children": [
-          {
-            "text": ""
-          }
-        ]
-      }
-    ],
+    "title": "Im Notfall",
+    "description": "Im Notfall muss es schnell gehen. Deshalb bietet dir diese Seite eine Übersicht über die relevanten Notrufnummern. Am besten auf Notfälle vorbereitet bist du allerdings, wenn du dich bereits im Vorherein darauf vorbereitest, deshalb haben wir hier für dich auch ein paar Informationen dazu gesammelt.",
     "state": "done"
   },
   "help": {
@@ -1244,9 +1079,62 @@
         {
           "type": "category",
           "category": {
+            "id": "63684e84638c16809e4d0c2e",
             "name": "Familie",
             "title": "Das Familienleben kann sehr turbulent sein!",
-            "information": "In einer Familie kann es schon mal drunter und drüber gehen. Neben den ganzen schönen Momenten des Zusammenlebens gibt es aber natürlich auch **Alltagsprobleme.** Damit alles klappt muss das Familienleben gut organisiert sein. Konflikte und schwierige Situationen gehören trotzdem dazu und den Umgang damit sollte man gelernt haben. Ein **gutes Miteinander** ist das Wichtigste für eine angenehme Situation in der Familien.\n\nManchmal passiert es, dass Gewalt in der Familie auftritt, dann heißt es, **schnell Hilfe zu rufen**. Zögere nicht, dir und deiner Familie helfen zu lassen!"
+            "information": "In einer Familie kann es schon mal drunter und drüber gehen. Neben den ganzen schönen Momenten des Zusammenlebens gibt es aber natürlich auch **Alltagsprobleme.** Damit alles klappt muss das Familienleben gut organisiert sein. Konflikte und schwierige Situationen gehören trotzdem dazu und den Umgang damit sollte man gelernt haben. Ein **gutes Miteinander** ist das Wichtigste für eine angenehme Situation in der Familien.\n\nManchmal passiert es, dass Gewalt in der Familie auftritt, dann heißt es, **schnell Hilfe zu rufen**. Zögere nicht, dir und deiner Familie helfen zu lassen!",
+            "entries": [
+              {
+                "ownerName": "Bundeskanzleramt",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.familienberatung.gv.at/",
+                    "title": "Familienberatung, aber wo?",
+                    "description": "Finde die Familienberatungsstelle in deiner Region.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidcontent": false,
+                    "lastUpdated": "2022-11-07T02:27:09.407Z",
+                    "keywords": [
+                      "BKA",
+                      "Bundeskanzleramt",
+                      "Kanzler",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "JoJo Salzburg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://gemeinsam-wachsen.at/",
+                    "title": "Gemeinsam wachsen",
+                    "description": "Ehrenamtliche Patinnen und Paten unterstützen die Kinder, indem sie regelmäßig mit ihnen Zeit verbringen und eine tragfähige Beziehung zu ihnen aufbauen. Sie bieten auch eine Anlaufstelle für Familein in denen ein Elternteil psychisch belastet oder erkrankt ist.",
+                    "previewImageUrl": "https://jojosalzburg.files.wordpress.com/2016/04/bub-mit-fahrrad.jpg?w=1200",
+                    "isPaidcontent": false,
+                    "lastUpdated": "2022-11-07T02:31:14.321Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "JoJo Kindheit im Schatten",
+                      "Organisation",
+                      "Pflege",
+                      "Rat",
+                      "Salzburg",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "visible",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -1289,6 +1177,7 @@
   ],
   "abc": [
     {
+      "id": "63684c81638c16809e4d0b62",
       "name": "24-Stunden-Betreuung",
       "title": "24-Stunden-Betreuung",
       "information": "Eine **24-Stunden-Betreuung** ist den ganzen Tag sowie die ganze Nacht da, um die pflegebedürftige Person zu betreuen. Dabei spielt die Qualität eine ganz wichtige Rolle und wird auch mit einem [Qualitätszertifikat für Vermittlungsagenturen](https://oeqz.at) ausgezeichnet.",
@@ -1352,6 +1241,7 @@
       ]
     },
     {
+      "id": "63684c97638c16809e4d0b73",
       "name": "Aktuelles",
       "title": "Aktuelles",
       "information": "Hier findest du die neuesten Informationen bzw. Themen zu Pflege, Betreuung und Gesundheit.",
@@ -1390,6 +1280,7 @@
       ]
     },
     {
+      "id": "63684cae638c16809e4d0b84",
       "name": "Allgemeines",
       "title": "Wer bzw. was ist ein Young Carer?",
       "information": "Young Carers sind Kinder und Jugendliche **unter 18 Jahren**. Sie pflegen regelmäßig ein anderes Familienmitglied (z. B. Eltern, Großeltern oder Geschwister) die eine körperliche oder psychische Erkrankung haben. Young Carers leisten sehr viel Arbeit. Sie kochen, putzen, helfen ihren (gesunden) Geschwistern oft bis zu fünf Stunden täglich. Manchmal arbeiten sie auch in der direkten Pflege der Angehörigen mit. Eine Unterstützung von außen, z.B. durch Freunde oder eine Pflegeperson, haben sie  nur selten.\n\nLaut einer österreichischen Studie aus 2012 gibt es rund **42.700** pflegende Kinder und Jugendliche im Alter bis 18 Jahren. Im Durchschnitt sind Young Carers **12,5 Jahre** alt und **70% sind Mädchen**. Als Kind oder Jugendlicher so eine pflegerische Verantwortung zu übernehmen ist eine sehr große Herausforderung!",
@@ -1525,6 +1416,14 @@
       ]
     },
     {
+      "id": "63684cde638c16809e4d0b95",
+      "name": "Angehörigengespräch",
+      "title": "Bei psychischer Belastung hilft das Angehörigengespräch",
+      "information": "Als pflegende Angehörige bzw. als pflegender Angehöriger ist man oft einer großen psychischen Belastung ausgesetzt und muss einem großen Druck standhalten. Um auch Young Carers zu unterstützen gibt es österreichweit das **Angehörigengespräch**. Das Gespräch wird von Psychologinnen und Psychologen geführt und ist **vertraulich**. Es kann zu Hause, an einem anderen Ort oder telefonisch erfolgen. Bis zu drei Termine können vereinbart werden.\n\nAuf Wunsch kann man das Angehörigengespräch unter [0508082087](tel:0508082087)** kostenlos** anfordern.",
+      "entries": []
+    },
+    {
+      "id": "63684d30638c16809e4d0ba6",
       "name": "Beratung und Pflegetipps",
       "title": "Daheim beraten werden",
       "information": "**Diplomierte Gesundheits- und Krankenpflegepersonen (DGKP)** machen einen Hausbesuch bei Bezieher*innen eines Pflegegeldes. Sie beraten zu praktischen Pflegetipps (z.B. richtiger Positionswechsel, Körperpflege), helfen aber auch mit speziellen Auskünften (z.B. Versorgung mit Hilfsmitteln) und informieren über das Angebot von mobilen Diensten. Bei den Hausbesuchen der **DGKP** soll es aber um eine zusätzliche Hilfe gehen und nicht um eine Überprüfung zur Einstufung des Pflegegeldes.\n\nAuf Wunsch kann man so einen Hausbesuch unter der [0508082087](tel:0508082087)** kostenlos** vereinbaren.",
@@ -1730,6 +1629,7 @@
       ]
     },
     {
+      "id": "63684d6d638c16809e4d0bc8",
       "name": "Chatten",
       "title": "Chatten",
       "information": "Es gibt verschiedene Anlaufstellen, welche eine Onlineberatung auch via Chat anbieten. Dabei kannst du auch anonym bleiben, wenn dir das wichtig ist. Eine anonyme Onlineberatung kannst du bei den \"superhands\" in Anspruch nehmen. Bei der \"Telefonseelsorge\" kannst du einen Sofortchat zur Kontaktaufnahme auswählen. Ebenso findest du bei \"veRRückte Kindheit\" oder \"147 - Rat auf Draht\" verschiedene Möglichkeiten der Onlineberatung.",
@@ -1761,6 +1661,7 @@
       ]
     },
     {
+      "id": "63684d55638c16809e4d0bb7",
       "name": "COVID-19 / Coronavirus",
       "title": "Informationen des Sozialministeriums zu Corona",
       "information": "Am 11.02.2020 verlautbarte die WHO (World Health Organisation) einen offiziellen Namen für die Erkrankung: **COVID-19** (coronavirus disease 2019, „Coronavirus-Krankheit 2019“). COVID-19 ist eine durch das Coronavirus SARS-CoV-2 verursachte Infektionskrankheit. Sie wurde erstmals 2019 in der Metropole **Wuhan** beschrieben; entwickelte sich im Januar 2020 in der Volksrepublik China zur **Epidemie** und breitete sich schließlich zur weltweiten **COVID-19-Pandemie** aus. Jede einzelne Person kann einen Beitrag zur Eindämmung des Virus leisten. Das [Sozialministerium](https://www.sozialministerium.at/) stellt kontinuierlich gesicherte und umfassende Informationen über Schutzmaßnahmen gegen das Coronavirus (zum Download) zur Verfügung.",
@@ -1811,6 +1712,7 @@
       ]
     },
     {
+      "id": "63684d97638c16809e4d0bd9",
       "name": "Demenz",
       "title": "Was ist unter Demenz und der Österreichischen Demenzstrategie zu verstehen?",
       "information": "Was genau ist Demenz? Je älter man wird, desto größer ist auch der Verlust an Gehirnzellen. Das ist ein ganz normaler Vorgang. Allerdings läuft das Absterben von Gehirnzellen bei einer Demenz **viel schneller** ab. Durch die zunehmende Vergesslichkeit und beeinträchtigte Gehirnfunktion, sowie durch **emotionale und soziale Verhaltensänderungen** macht sich dieser schnellere Verlust bemerkbar. Erkrankte können ihren Alltag immer weniger selbständig bewältigen.\n\nDie pflegende Person muss viel Einfühlungsvermögen, Geduld aber auch Wissen über diese Krankheit mitbringen, denn durch spezielle Pflege und Betreuung kann man den Verlauf verzögern und die Lebensqualität der betroffenen Person verbessern. Mehr als **130.000** Menschen leiden daran, die bekannteste Form ist die **Alzheimer-Krankheit**.\n\nDie Demenzstrategie **Gut leben mit Demenz** soll eine Unterstützung für Menschen und Organisationen bieten, die mit Demenzpatient:innen arbeiten, sie betreuen oder sich anderweitig mit dem Thema befassen. Das oberste Ziel der Strategie ist die **bestmögliche Lebensqualität** für Demenzerkrankte und deren Angehörige. Um das Ziel zu erreichen, wird mit Bund, Ländern, Gemeinden, Trägereinrichtungen sowie Expert:innen eng zusammengearbeitet. Auf der Website der [Demenzstrategie](https://www.demenzstrategie.at) befinden sich alle nützlichen Informationen, Praxisbeispiele und Materialien für Betroffene und Angehörige.",
@@ -1851,6 +1753,7 @@
       ]
     },
     {
+      "id": "63684e07638c16809e4d0bea",
       "name": "Dienstleistungen / Soziale Dienste",
       "title": "Was sind soziale Dienste?",
       "information": "Das **Ziel** der sozialen Dienste ist **Menschen mit Pflegebedarf oder Beeinträchtigungen** in verschiedenen Lebenssituationen zu unterstützen. Für Soziale Dienste sind die Bundesländer und Gemeinden zuständig. Auch **freie Wohlfahrtsträger** wie [Volkshilfe](https://www.volkshilfe.at), [Hilfswerk](https://www.hilfswerk.at/oesterreich/pflegekompass/), [Rotes Kreuz](https://www.roteskreuz.at/ich-brauche-hilfe), [Caritas](https://www.caritas-pflege.at/), [Diakonie](https://diakonie.at/) oder [Samariterbund](https://www.samariterbund.net/pflege-und-betreuung/) sowie in Wien der [Fonds Soziales Wien](https://www.fsw.at/p/pflege-betreuung), bieten diese Leistungen an.\n\nÜber das umfangreiche Angebot an Alten- und Pflegeheimen in ganz Österreich sowie Tagesbetreuung, Kurzzeitpflege, Wohngemeinschaften, Alltagsbegleitung sowie Entlastungsdienste kannst du dich beim [Infoservice des Sozialministeriums](https://www.infoservice.sozialministerium.at) informieren.",
@@ -2048,6 +1951,7 @@
       ]
     },
     {
+      "id": "63684e20638c16809e4d0bfb",
       "name": "Entspannungstipps",
       "title": "Chill mal!",
       "information": "**Ausreichend Entspannung** und Erholung ist wesentlich für Körper, Geist und Seele, um sich zu regenerieren. Jeder Mensch hat da seine eigenen Methoden um sich auszuruhen und Kraft zu tanken. Finde heraus was dir gut tut und baue kleine Zeitfenster in deinen Alltag ein, um wieder **neue Energie** zu tanken. Ein Nickerchen, Spaziergänge, Musik hören, den Gedanken freien Lauf zu lassen und einfach nur die Seele baumeln lassen, sind gute Möglichkeiten sich auszuruhen.",
@@ -2084,6 +1988,7 @@
       ]
     },
     {
+      "id": "63684e37638c16809e4d0c0c",
       "name": "Erfahrungsberichte",
       "title": "Welche Erfahrungen haben Young Carers gemacht?",
       "information": "Jede einzelne Pflegesituation ist einzigartig, weil auch die Gesundheits- und Lebenssituationen in den Familien verschieden sind. Young Carers erzählen über ihre eigenen **Erfahrungen und ihre Geschichten** - aus Österreich und aus anderen Ländern der Welt.",
@@ -2307,6 +2212,7 @@
       ]
     },
     {
+      "id": "63684e64638c16809e4d0c1d",
       "name": "Erste Hilfe",
       "title": "Erste Hilfe leisten - so geht's!",
       "information": "In Österreich sind volljährige Staatsbürger:innen im Notfall zur Leistung von Erster Hilfe **verpflichtet**. Doch haben viele Menschen Angst, dabei etwas falsch zu machen. In Wahrheit gibt es aber nur einen **einzigen Fehler: Nichts zu tun!** Kenntnisse über Erste Hilfe sind leicht erlernbar und sollten regelmäßig geübt werden. Es werden auch Online-Kurse angeboten. Außerdem gibt es Lehrvideos z.B. vom [Roten Kreuz](https://www.roteskreuz.at/ich-will-helfen/erste-hilfe), um dich für den Ernstfall vorzubereiten.",
@@ -2348,6 +2254,7 @@
       ]
     },
     {
+      "id": "63684e84638c16809e4d0c2e",
       "name": "Familie",
       "title": "Das Familienleben kann sehr turbulent sein!",
       "information": "In einer Familie kann es schon mal drunter und drüber gehen. Neben den ganzen schönen Momenten des Zusammenlebens gibt es aber natürlich auch **Alltagsprobleme.** Damit alles klappt muss das Familienleben gut organisiert sein. Konflikte und schwierige Situationen gehören trotzdem dazu und den Umgang damit sollte man gelernt haben. Ein **gutes Miteinander** ist das Wichtigste für eine angenehme Situation in der Familien.\n\nManchmal passiert es, dass Gewalt in der Familie auftritt, dann heißt es, **schnell Hilfe zu rufen**. Zögere nicht, dir und deiner Familie helfen zu lassen!",
@@ -2405,6 +2312,7 @@
       ]
     },
     {
+      "id": "63684ea4638c16809e4d0c3f",
       "name": "Finanzielles",
       "title": "Finanzielle Hilfen bei Pflege und Betreuung zu Hause",
       "information": "Für betreuende Angehörige sowie für pflegebedürftige Personen gibt es **verschiedene Hilfeleistungen.** Zum Beispiel kann man Dinge/Dienstleistungen billiger oder gratis bekommen. Es gibt viele unterschiedliche Angebote von Hilfen.Finanzielle Unterstützung zu den **Kosten für die Ersatzpflege** soll dabei helfen wenn nahe Angehörigen während ihrer Abwesenheit (z.B. Urlaub oder Krankenstand) eine geeignete Ersatzpflege organisieren und bezahlen müssen. Eine **Förderung der 24-Stunden-Betreuung** kann man **ab Pflegestufe 3** bekommen, egal wieviel Vermögen man hat.\n\nDamit Job und Pflege gleichzeitig funktionieren gibt es die Pflegekarenz, die Pflegeteilzeit und die Familienhospizkarenz. Damit man während dieser Zeit trotzdem ein Einkommen hat, gibt es das **Pflegekarenzgeld**.\n\nPflegende Angehörige, welche wegen der Pflege weniger oder gar nicht arbeiten können oder wollen, haben die Möglichkeit, eine **kostenlose Weiter- oder Selbstversicherung in der Pensionsversicherung** in Anspruch zu nehmen. In der **Krankenversicherung** gibt es die Möglichkeit der Mitversicherung und der kostenlosen Selbstversicherung bei sozialer Schutzbedürftigkeit.",
@@ -2443,6 +2351,7 @@
       ]
     },
     {
+      "id": "63684ebf638c16809e4d0c50",
       "name": "Freizeitangebote",
       "title": "Freizeitangebote",
       "information": "Freizeitangebote für **Young Carers** geben dir die Gelegenheit mit anderen in Kontakt zu treten, die in der gleichen Situation sind wie du. So könnt ihr euch über eure Erfahrungen, Ängste, Erfolge und ähnliches austauschen und Spaß haben. **Du bist in deiner Situation nicht alleine!**",
@@ -2486,6 +2395,14 @@
       ]
     },
     {
+      "id": "63684edd638c16809e4d0c61",
+      "name": "Gesundheitsportal Österreichs",
+      "title": "Gesundheitsportal Österreichs",
+      "information": "Das Öffentliche [Gesundheitsportal Österreichs](https://www.gesundheit.gv.at/) bietet **unabhängige, qualitätsgesicherte und serviceorientierte Informationen** rund um die Themen Gesundheit und Krankheit.",
+      "entries": []
+    },
+    {
+      "id": "63684f2f638c16809e4d0c83",
       "name": "Händehygiene",
       "title": "Händehygiene ist auch im Alltag wichtig",
       "information": "Wir wissen alle, dass Händewaschen uns vor gefährlichen Keimen und der Ansteckung mit Krankheiten schützt. Aber wie das **richtige Händewaschen** funktioniert ist schon ein bisschen schwieriger. Mit warmem Wasser und Seife solltest du zwischen **20 bis 30 Sekunden** die Hände gut reinigen.Nachdem nach Hause gekommen bist und vor allem, wenn du mit öffentlichen Verkehrsmitteln gefahren bist, nach den Toilettengang und vor dem Kochen und Essen ist es sehr sinnvoll. Im Krankenhaus zum Beispiel **desinfizieren** die Mitarbeiter:innen und Patient:innen regelmäßig ihre Hände. So schützen sie sich nicht nur selbst, sondern auch Andere vor gefährlichen Infektionen.",
@@ -2552,6 +2469,7 @@
       ]
     },
     {
+      "id": "63684f15638c16809e4d0c72",
       "name": "Heilbehelfe und Hilfsmittel",
       "title": "Information zu Hilfsmitteln und Heilbehelfen",
       "information": "Wie Medikamente müssen auch Heilbehelfe und Hilfsmittel von der Ärztin/vom Arzt **verordnet** werden, damit die **Sozialversicherung** die Kosten mitträgt. Man muss Heilbehelfe und Hilfsmittel jedoch nicht immer kaufen:\n\nDie Krankenkassen und verschiedene Anbieter mobiler Dienste verleihen auch bestimmte Produkte (z.B. Pflegebett). Heilbehelfe und Hilfsmittel sollen entweder einen Krankheitszustand **heilen** bzw. **lindern** oder **fehlende bzw. mangelhafte Körperfunktionen ersetzen**. Typische Heilbehelfe und Hilfsmittel sind beispielsweise **Krücken, Rollatoren, Blutzuckermessgeräte, Hörgeräte, Brillen, orthopädische Schuheinlagen oder Inkontinenzprodukte (Einlagen, \"Windeln\")**. Mit einer ärztlichen Verordnung erhält man einen Heilbehelf oder ein Hilfsmittel bei Fachbetrieben wie Bandagisten, Optikern oder Orthopädieschuhmachern. Wenn man versichert ist, muss man nur einen Teil der Kosten bezahlen.  Wieviel , legt die jeweilige Krankenkasse fest.\n\n**Übrigens:** Bei einem kostenlosen [Hausbesuch durch eine diplomierte Pflegefachkraft](https://www.svs.at/cdscontent/?contentid=10007.816614&amp;portal=svsportal), wird eine Beratung durchgeführt, aber auch praktische Pflegetipps, spezifisches Wissen rund um die Pflege oder etwa Infos über die Versorgung mit Hilfsmitteln weitergegeben.",
@@ -2583,6 +2501,7 @@
       ]
     },
     {
+      "id": "63684f5b638c16809e4d0c94",
       "name": "Jugend",
       "title": "Jugendportal und Jugendinfostellen",
       "information": "Das [Jugendportal](https://www.jugendportal.at) und die [Jugendinfostellen](https://www.jugendinfo.at/ueber-uns/jugendinfostellen) der Bundesländer helfen dir bei Fragen weiter und informieren dich zu vielen Themen und Projekten, die junge Menschen betreffen und interessieren.",
@@ -2646,6 +2565,7 @@
       ]
     },
     {
+      "id": "63684f7c638c16809e4d0ca5",
       "name": "Krankheiten",
       "title": "Wo gibt es gesichertes Wissen zu Krankheitsbildern?",
       "information": "Die Diagnose einer Erkrankung löst bei vielen Menschen Angst aus. Besonders chronische Krankheiten beeinflussen das alltägliche Leben. Wissen hilft bei der Bewältigung. Es gibt viele unterschiedliche Krankheitsbilder – außerdem ist jeder Mensch anders und daher individuell zu behandeln. Es ist wichtig, dass du weißt **wo du dich über Gesundheit und Krankheit informieren kannst** und verlässliche Auskunft bekommst.\n\nAuf die Informationen im [Gesundheitsportal Österreichs](https://www.gesundheit.gv.at) kannst du dich verlassen. Wenn du mehr oder weiterführende Informationen brauchst, wende dich z.B. an deine Ärztin oder deinen Arzt.",
@@ -2700,6 +2620,7 @@
       ]
     },
     {
+      "id": "63684f96638c16809e4d0cb6",
       "name": "Kurse",
       "title": "Pflegekurse vermitteln Basiswissen und praktische Tipps",
       "information": "In speziellen Schulungen und Kursen vermitteln die Anbieter von sozialen Diensten, z.B. Rotes Kreuz, Caritas, HIlfswerk und Volkshilfe durch Vorträge, fachliche Anleitung und praktische Übungen das nötige Know-how für die Pflege und Betreuung zu Hause. Die Schulungen befassen sich mit wichtigem Basiswissen sowie z.B. Sturzvermeidung, Umgang mit dementiellen Beeinträchtigungen, Medikamente und Wechelwirkungen, Essen, Trinken und Ausscheiden, Tipps zur Körperpflege, etc. Damit ist man gut für die Herausforderungen der Betreuung zu Hause gewappnet.",
@@ -2742,6 +2663,14 @@
       ]
     },
     {
+      "id": "63684fb4638c16809e4d0cc7",
+      "name": "Lokale Angebote",
+      "title": "Wo finde ich mehr Informationen?",
+      "information": "Im Infoservice des Sozialministeriums findest du vielfältige Informationen über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen der öffentlichen und privaten Wohlfahrt. Suchen kannst du sowohl nach individuellen Suchbegriffen, aber auch nach Lebenssituationen sowie Themengruppen.",
+      "entries": []
+    },
+    {
+      "id": "63685043638c16809e4d0d1d",
       "name": "Notfall(nummern)",
       "title": "Welche Nummer wähle ich im Notfall?",
       "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)****\n* **Polizei**: [133](tel:133)****\n* **Rettung**: [144](tel:144)****\n* **Ärztebereitschaftsdienst**: [141](tel:141)****\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
@@ -2796,6 +2725,7 @@
       ]
     },
     {
+      "id": "63685061638c16809e4d0d2e",
       "name": "Organisationen",
       "title": "Organisationen mit speziellen Angeboten für Young Carers",
       "information": "In Österreich kümmern sich circa **42.700** pflegende Kinder und Jugendliche **regelmäßig** um ein krankes Familienmitglied, meist ein Elternteil, aber auch Geschwister oder Großeltern können Hilfe benötigen. Du bist also nicht allein! Wenn du dich über Unterstützungsangebote informieren oder vertraulich mit jemanden über deine Situation und Probleme sprechen möchtest, kannst du dich an Organisationen für Young Carers wenden.",
@@ -3011,6 +2941,7 @@
       ]
     },
     {
+      "id": "63685084638c16809e4d0d3f",
       "name": "Pflegegeld",
       "title": "Das Pflegegeld soll ein möglichst selbstbestimmtes und bedürfnisorientiertes Leben ermöglichen.",
       "information": "Das Pflegegeld ist ein monatlicher Zuschuss zu den Pflegekosten. Es ist nicht dafür gedacht, dass man davon die gesamten Pflegekosten bezahlt. Wie hoch das Pflegegeld ist, hängt von der **Pflegestufe** ab. Je nach Pflegebedarf wird es in **7 Stufen** gewährt und muss in den meisten Fällen bei der [Pensionsversicherungsanstalt](https://www.pv.at/cdscontent/?contentid=10007.740756&amp;portal=pvaportal) beantragt werden.\n\nEine Ärztin bzw. ein Arzt oder eine diplomierte Gesundheits- und Krankenpflegeperson macht dann einen Hausbesuch und schätzt den Pflegebedarf ein. Alter und Einkommen des hilfebedürftigen Menschen und die Ursache des Pflegebedarfs spielen dabei keine Rolle.",
@@ -3041,6 +2972,14 @@
       ]
     },
     {
+      "id": "636850b0638c16809e4d0d50",
+      "name": "Prävention",
+      "title": "Was kann man im Vorfeld tun?",
+      "information": "Allgemein wird **Prävention** mit Vorbeugen gleichgesetzt. Es geht darum eine Erkrankung zu verhindern, zu verzögern oder die Krankheitsfolgen zu vermeiden. Die Prävention setzt also an konkreten **Gesundheitsrisiken** eines Menschen an.\n\nDie wichtigsten Punkte sind:\n\n1. Förderung der Gesundheit, um bestimmte Krankheiten zu vermeiden\n1. Früherkennung und\n1. Rehabilitation\n\n**In diesem Sinne:** Wenn du dich z.B. psychisch oder körperlich belastet fühlst, solltest du dir Unterstützung holen. Das ist keine Schande!",
+      "entries": []
+    },
+    {
+      "id": "636850e1638c16809e4d0d61",
       "name": "Recht",
       "title": "Kinderrechte und Rechte von Jugendlichen",
       "information": "Kinderrechte sind Menschenrechte, die auf der ganzen Welt für alle jungen Menschen bis 18 Jahre gelten. Die [Kinder- und Jugendanwaltschaften Österreichs](https://www.kija.at/) setzen sich für die Interessen von Kindern und Jugendlichen ein. Bei Fragen und Problemen kannst du dich vertraulich und kostenlos an deine zuständige Kinder- und Jugendanwaltschaft wenden.\n\nAuch Patient:innen bzw. pflegebedürftige Menschen haben Rechte. Für deren Interessen sind die [Patientenanwaltschaften](https://www.gesundheit.gv.at/gesundheitsleistungen/institutionen/patientenanwalt) in den Bundesländern zuständig.",
@@ -3068,6 +3007,21 @@
       ]
     },
     {
+      "id": "636850fb638c16809e4d0d72",
+      "name": "Schule",
+      "title": "Pflege und Schule unter einen Hut bringen?",
+      "information": "Für Young Carers ist die **Schule** ein gewohnter Ort an dem sie Hilfe suchen können. Denn die Pflege und Betreuung zu Hause kann sich negativ auf die Schule auswirken. Mitunter fehlt die Zeit und Konzentration, um Hausaufgaben zu machen oder sich auf Prüfungen vorzubereiten. Young Carers kommen häufig zu spät, sind nicht ausgeschlafen und haben Schwierigkeiten sich auf den Unterricht zu konzentrieren. \n\n**Gib nicht auf! **Wir alle kennen das Gefühl, wenn man zu viel zu tun hat.\n\nWende dich an eine Person, der du vertraust. Berichte über deine Situation und frage nach Hilfe. In der Schule kannst du mit deinen Lehrer:innen sprechen oder auch mit den Schulpsychologinnen/Schulpsychologen. In den Beiträgen findest du vielleicht Inspiration und Hilfe.",
+      "entries": []
+    },
+    {
+      "id": "6368511d638c16809e4d0d83",
+      "name": "Selbsthilfegruppen",
+      "title": "Wo kann ich andere treffen, denen es auch so geht?",
+      "information": "Die vielfältigen **Selbsthilfegruppen** haben eine wichtige Funktion bei der gesundheitlichen Versorgung und **Prävention**. Selbsthilfegruppen bieten Unterstützung für Menschen mit Behinderungen oder chronischen Krankheiten.\n\nDas [Infoservice des Sozialministeriums](https://www.infoservice.sozialministerium.at) verfügt über Informationen zu Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen, die im sozialen Feld tätig sind. Für pflegende Angehörige finden so genannte **Stammtische** statt.",
+      "entries": []
+    },
+    {
+      "id": "63685144638c16809e4d0db8",
       "name": "Selfcare",
       "title": "Viel Druck und hoher Stress",
       "information": "Jugendliche stehen oft unter großem Druck, da sind die Familie, Haustiere die versorgt werden müssen, die Berufsausbildung, die Schule oder Freund:innen. Zusätzlich kümmern sich Young Carers noch um hilfebedürftige Familienmitglieder. Es ist also besonders wichtig, dafür zu sorgen, dass es nicht nur den anderen, sondern **auch dir selbst gut geht**.",
@@ -3136,6 +3090,7 @@
       ]
     },
     {
+      "id": "6368515e638c16809e4d0dc9",
       "name": "Social Media",
       "title": "Social Media der Organisationen",
       "information": "Du findest zusätzliche/weiterführende Informationen bzw. Neuigkeiten über Young Carers auch in diversen Social Media Kanälen, z.B. auf Facebook.",
@@ -3232,6 +3187,7 @@
       ]
     },
     {
+      "id": "63685176638c16809e4d0dda",
       "name": "Sozialministerium",
       "title": "Sozialministerium",
       "information": "Das Sozialministerium beschäftigt sich unter anderem mit **Angeboten zur Unterstützung für pflegende Angehörige**. Auch die Herausforderungen, mit denen Young Carers konfrontiert sind, sind hier ein großes Thema. So wurden verschiedene Aktionen durchgeführt, um die Öffentlichkeit auf pflegende Kinder und Jugendliche - was sie tun und wieviel sie leisten - aufmerksam zu machen.\n\nAußerdem gibt es **verschiedene Hilfsangebote** für betreuende und pflegende Angehörige, z.B. kostenlose Kranken- und Pensionsversicherung, Pflegekarenz, Familienhospizkarenz, Pflegekarenzgeld, etc.",
@@ -3314,6 +3270,7 @@
       ]
     },
     {
+      "id": "636851a4638c16809e4d0deb",
       "name": "Sozialversicherung",
       "title": "Wo gibt es Infos zur Sozialversicherung?",
       "information": "Menschen, die eine nahe Angehörige oder einen nahen Angehörigen zu Hause pflegen und deswegen nicht mehr arbeiten können oder wollen, können sich freiwillig kranken- und pensionsversichern. Die Beiträge für die Versicherung werden vom Staat übernommen, sodass **keine Kosten** entstehen!\n\nZuständig ist in der Regel die [Österreichische Gesundheitskasse](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) (für die Krankenversicherung) und die [Pensionsversicherungsanstalt](https://www.pv.at/cdscontent/?contentid=10007.707551&amp;portal=pvaportal) (Freiwillige Pensionsversicherung für pflegende Angehörige).",
@@ -3344,6 +3301,7 @@
       ]
     },
     {
+      "id": "636851c5638c16809e4d0dfc",
       "name": "Stress",
       "title": "Wird es dir manchmal  zu viel?",
       "information": "Stress ist ein Bestandteil des Lebens und nicht immer nur negativ. Er fordert uns. Unter seinem Einfluss können wir auch sehr gute Leistungen vollbringen. Zu viel davon macht uns aber krank. Vieles im Leben kann Stress erzeugen. Stressverursacher nennt man **Stressoren**, dazu zählen z.B. einschneidende Ereignisse, private und/oder schulische Probleme oder auch Umwelteinflüsse. Stress bedeutet für jede bzw. für jeden etwas Anderes. Einen entscheidenden Einfluss hat auch das **Coping** (die Art der Bewältigung von Stress) sowie die sogenannte **Resilienz** (seelische Widerstandskraft).\n\n**Erholung und Entspannung** wirken dem Stress entgegen. Negative Auswirkungen von Stressfaktoren können somit rückgängig gemacht oder gemildert werden. Ist der Mensch erholt, fühlt er sich wohl und ist auch leistungsfähig. Es gibt hilfreiche Möglichkeiten, mit anspruchsvollen Situationen umzugehen. Informiere dich!",
@@ -3371,6 +3329,14 @@
       ]
     },
     {
+      "id": "636851f9638c16809e4d0e0d",
+      "name": "Therapie",
+      "title": "Was sind die häufigsten Therapieformen und wie kommt man dazu?",
+      "information": "Zu den anerkannten Therapieformen zählen u.a. **Physiotherapie** und **Ergotherapie** bei Behinderungen im Bewegungsablauf; **Logopädie** bei Behinderungen der Sprache und des Sprachverständnisses. Die Ärztin / Der Arzt stellt eine **Verordnung** aus. Erfolgt die Behandlung bei Vertragspartner:innen, ist keine Bewilligung durch die [Österreichische Gesundheitskasse](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) erforderlich. Wird die Behandlung von freiberuflichen Therapeut:innen, Wahlfachärztinnen und -ärzten oder von Wahl-Instituten durchgeführt, ist eine **Bewilligung** in einer Kundenservicestelle erforderlich.\n\nTherapeut:innen, Fachärztinnen und Fachärzte, sowie Institute die einen Vertrag mit der Krankenkasse haben, können die durchgeführten Behandlungen direkt mit der Kasse abrechnen. Es entstehen keine zusätzlichen Kosten. Dies gilt auch für Gesundheitseinrichtungen.Sucht man sich Therapeut:innen, Fachärztinnen und Fachärzte oder Institute die keinen Vertrag mit der [Österreichischen Gesundheitskasse](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) haben, muss man das Honorar für die Behandlungen zunächst selbst bezahlen. Dann kann man um **Kostenerstattung** ansuchen. Nähere Auskünfte erteilt die zuständige Krankenkasse.",
+      "entries": []
+    },
+    {
+      "id": "6368520f638c16809e4d0e1e",
       "name": "Unterstützung",
       "title": "Infos über Unterstützung vom Sozialministerium",
       "information": "Das Sozialministerium hat in den letzten Jahren verschiedene **Unterstützungsangebote für pflegende Angehörige** entwickelt, z.B. Information und Beratung zu Hause, das Angehörigengespräch, kostenlose Sozialversicherung und Möglichkeiten der beruflichen Auszeit sowie Zuwendungen für die Kosten der Urlaubspflege.\n\nDie Bundesländer bieten **soziale Dienste** an; das sind z.B. Wohn- und Pflegeheime, Tageszentren für Senior:innen sowie mobile Dienste. Außerdem informieren die Ämter der Landesregierungen zu Angeboten für pflegende Angehörige.",
@@ -3584,6 +3550,7 @@
       ]
     },
     {
+      "id": "6368522f638c16809e4d0e2f",
       "name": "Urlaub",
       "title": "Entspannung wäre schön",
       "information": "Jeder Mensch braucht Urlaub, Erholung und regelmäßige Freizeit. Dies gilt ganz besonders für pflegende Angehörige. Für Young Carers gibt es einige Urlaubs- und Freizeitangebote. So veranstaltet das [Österreichische Jugendrotkreuz](https://www.get-social.at) verschiedene Sommercamps für Kinder und Jugendliche mit speziellen Bedürfnissen. Dazu zählen rheumakranke, körperlich und geistig beeinträchtigte, übergewichtige Kinder und Jugendliche. Das **Juniorcamp** bietet einen Erholungsaufenthalt für Kinder von Eltern mit schwerer Erkrankung.",
@@ -3621,6 +3588,21 @@
       ]
     },
     {
+      "id": "63685258638c16809e4d0e40",
+      "name": "Veranstaltungen",
+      "title": "Wo ist was los?",
+      "information": "Die Veranstaltungskalender der [Interessengemeinschaft pflegender Angehöriger](https://www.ig-pflege.at) und der [Demenzstrategie](https://www.demenzstrategie.at) informieren über verschiedene Events, Stammtische und Treffen für pflegende Angehörige, die für dich interessant sein könnten.",
+      "entries": []
+    },
+    {
+      "id": "63685270638c16809e4d0e51",
+      "name": "Wissen",
+      "title": "Die Schule ist der beste Ort Young Carers zu erkennen",
+      "information": "Für Young Carers ist die Schule ein Ort, der ihnen Normalität vermittelt und an dem sie sich regelmäßig aufhalten. Eine niederschwellige **Identifizierung** von pflegenden Kindern kann deshalb am besten durch vertrauenswürdige Personen an Schulen erfolgen. Aber Zeichen wie häufige Müdigkeit und zu spät kommen, Konzentrationsstörungen, gesundheitliche Probleme wie z.B. Kreuzschmerzen, könnten - vor allem in Kombination mit dem Wissen um ein krankes Familienmitglied zu Hause - als Verdachtsanlässe gedeutet werden.\n\n**Empfehlungen für Personen im Schuldienst**: Anerkennen, dass sich die Pflegeverantwortung auf schulische Leistungen auswirken kann; sich selbst oder andere Personen als Gesprächspartner:in anbieten; Betroffene emotional unterstützen; Wissen, wohin oder an wen sich Young Carers wenden können.",
+      "entries": []
+    },
+    {
+      "id": "6368528f638c16809e4d0e62",
       "name": "Young Carers International",
       "title": "Beispiele internationaler Websites für Young Carers",
       "information": "**Weltweit** kümmern sich Young Carers **regelmäßig und über einen längeren Zeitraum** um ihre kranken und hilfebedürftigen Familienmitglieder. Oft passiert dies unsichtbar für die Umwelt. Aber es gibt auch Beispiele aus Ländern, in denen Young Carers selber an die Öffentlichkeit gehen oder vor politisch Verantwortlichen ihre Anliegen vertreten. Young Carers agieren als selbstbewusste junge Menschen, die anderen Mut machen, sich zu engagieren und aus dem Schatten zu treten.\n\nHier findest du spezifische Informationen sowie **internationale Projektbeispiele und Kontaktmöglichkeiten** aus Deutschland, Schweiz, Australien und Großbritannien. Die meisten Beispiele für Hilfsprojekte gibt es im Vereinten Königreich.",
@@ -3880,5 +3862,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-09T09:06:26.240Z"
+  "timestamp": "2022-11-09T09:41:30.572Z"
 }
