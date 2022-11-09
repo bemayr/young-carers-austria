@@ -462,10 +462,6 @@
         "number": "133"
       },
       {
-        "label": "Bergrettung",
-        "number": "140"
-      },
-      {
         "label": "Ärztedienst",
         "number": "141"
       },
@@ -3984,5 +3980,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-09T13:53:54.333Z"
+  "timestamp": "2022-11-09T13:55:25.176Z"
 }
