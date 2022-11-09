@@ -31,10 +31,6 @@ async function runWebsiteBuildIfProduction() {
 }
 
 export const notifyGitHub = ({ doc, req }: { doc: any, req: PayloadRequest<any> }) => {
-  console.log(doc._status)
-
-  console.info(`🛠️ notifyGitHub (env: ${process.env.NODE_ENV})`)
-
   if(isNotDraft(doc) && isNonBatchedChange(req.url))
     runWebsiteBuildIfProduction() // intentionally run sync because of fire-and-forget semantics
   if(doc) return doc
