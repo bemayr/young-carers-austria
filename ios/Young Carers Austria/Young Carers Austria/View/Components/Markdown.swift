@@ -1,4 +1,5 @@
 import SwiftUI
+import MarkdownUI
 
 struct Markdown: View {
     var markdown: String
@@ -8,8 +9,8 @@ struct Markdown: View {
     }
     
     var body: some View {
-        Text(try! AttributedString(
-            markdown: markdown,
-            options: AttributedString.MarkdownParsingOptions(interpretedSyntax: .inlineOnlyPreservingWhitespace)))
+        MarkdownUI.Markdown(
+            markdown.replacingOccurrences(of: "(?<=.)\n(?=.)", with: "  \n", options: [.regularExpression]))
+        .accentColor(.highlightColor)
     }
 }
