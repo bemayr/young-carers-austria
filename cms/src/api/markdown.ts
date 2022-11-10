@@ -6,15 +6,19 @@ type Options = {
     listDepth: number
 }
 
+function transformWhitespacePreserving(text: string, convert: (text: string) => string): string {
+    return text.replace(text.trim(), convert(text.trim()))
+}
+
 export function slateToMarkdown(children: any[] | undefined, options: Options | undefined = undefined): string | null {
     if (!children) return null
     return children.map(node => {
         if (Text.isText(node)) {
             if (node.text === "") return null
             // @ts-ignore
-            if (node.bold) return `**${node.text}**`
+            if (node.bold) return transformWhitespacePreserving(node.text, text => `**${text}**`)
             // @ts-ignore
-            if (node.italic) return `_${node.text}_`
+            if (node.italic) return transformWhitespacePreserving(node.text, text => `_${text}_`)
             return node.text
         }
 
