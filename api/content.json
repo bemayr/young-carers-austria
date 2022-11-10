@@ -547,7 +547,30 @@
       },
       {
         "type": "text",
-        "text": "und hier wird noch mehr Text kommen\n\n"
+        "text": "und hier wird noch mehr Text kommen\n\nbzw. vielleicht auch eine Referenz\n\n"
+      },
+      {
+        "type": "reference",
+        "reference": {
+          "url": "https://www.alzheimer-selbsthilfe.at/schulinitiative-merkima-demenz-kindern-erklaert/",
+          "title": "\"Was ist bloß mit Oma los?\" - Demenz",
+          "description": "Kindern wird Demenz erklärt",
+          "previewImageUrl": "https://www.alzheimer-selbsthilfe.at/wp-content/uploads/2017/07/merkimakidzlogo-web.png",
+          "isPaidContent": false,
+          "lastUpdated": "2022-11-07T01:53:13.564Z",
+          "keywords": [
+            "Alzheimer",
+            "Alzheimer Austria",
+            "Demenz",
+            "Vergessen",
+            "Vergesslichkeit",
+            "vergesslich"
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "text": "\n\n"
       }
     ],
     "state": "done"
@@ -557,7 +580,8 @@
     "description": "Hier bist du auf der Startseite der Young Carers Austria App gelandet. Vielleicht hast du ja eine der folgenden Fragen oder du erlebst auch gerade einer dieser Situationen?"
   },
   "infos": {
-    "title": "Infos"
+    "title": "Infos",
+    "description": "Hier haben wir alle Informationen für dich gesammelt und alphabetisch sortiert. Schau einfach mal ein bisschen durch oder frag den Chatbot wenn du Infos zu einem speziellen Thema haben möchtest."
   },
   "insights": [
     {
@@ -4018,5 +4042,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-10T08:45:58.092Z"
+  "timestamp": "2022-11-10T11:57:40.284Z"
 }
