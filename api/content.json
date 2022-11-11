@@ -2352,6 +2352,33 @@
           ]
         },
         {
+          "ownerName": "superhands",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.superhands.at/pflege/young-carer-erzaehlen/",
+              "title": "Young Carers und ihre Geschichten",
+              "description": "Wie geht es Young Carers in ihrer Situation? Welche Erfahrungen haben sie gemacht? Hier erzählen sie ihre Geschichten.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T10:07:06.685Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Johanniter",
+                "Organisation",
+                "Rat",
+                "Rettung",
+                "Unterstützung",
+                "superhands",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Young Helping Hands - Julika Stich",
           "ownerUrl": "",
           "references": [
@@ -4061,5 +4088,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T10:05:07.244Z"
+  "timestamp": "2022-11-11T10:07:31.991Z"
 }
