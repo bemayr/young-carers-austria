@@ -39,5 +39,5 @@ return children
       }
     }
   }, [] as any[])
-  .filter(({ type, text }) => !(type === "text" && text === "")); // filter empty entries
+  .filter(({ type, text }) => !(type === "text" && /\S/.test(text))); // filter empty entries
 };
