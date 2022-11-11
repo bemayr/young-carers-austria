@@ -114,7 +114,6 @@ const References: CollectionConfig = {
       type: "group",
       admin: {
         hidden: true,
-        // readOnly: true,
       },
       fields: [
         {
