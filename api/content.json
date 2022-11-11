@@ -3860,6 +3860,47 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Schulsozialarbeit BMBWF",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.bmbwf.gv.at/Themen/schule/beratung/psus/schulsozialarbeit.html",
+              "title": "Schulsozialarbeit",
+              "description": "Die Schulsozialarbeit kommt inner- und außerhalb der Schule zum Einsatz und umfasst den gesamten Sozialraum, in dem sich Schüler/innen bewegen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1367774758.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:24:49.982Z",
+              "keywords": [
+                "BMBWF",
+                "Beratung",
+                "Bildung",
+                "Bundesministerium für Bildung",
+                "Wissenschaft und Forschung",
+                "Eltern",
+                "Forschungsministerium",
+                "Fragen",
+                "Gewalt",
+                "Lehrer",
+                "Lernen",
+                "Mama",
+                "Mobbing",
+                "Mutter",
+                "Papa",
+                "Probleme",
+                "Prävention",
+                "Psyche",
+                "Schule",
+                "Schulpsychologie",
+                "Unterrichtsministerium",
+                "Vater",
+                "Wissen",
+                "Wissenschaftsministerium",
+                "Österreich"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5210,5 +5251,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:22:15.171Z"
+  "timestamp": "2022-11-11T12:25:26.555Z"
 }
