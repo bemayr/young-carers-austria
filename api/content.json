@@ -1627,6 +1627,48 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "superhands",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.superhands.at/multiplikatorinnen",
+              "title": "Superhands (Multiplikatorinnen)",
+              "description": "Auf dieser Seite findest du das Angebot von superhands (Informationen für Multiplikator:nnen).",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:05:50.856Z",
+              "keywords": [
+                "Angehörige",
+                "Anlaufstelle",
+                "Beratungsstelle",
+                "Bruder",
+                "Geschwister",
+                "Großeltern",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Johanniter",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Organisation",
+                "Papa",
+                "Pflege",
+                "Rat",
+                "Rettung",
+                "Schwester",
+                "Unterstützung",
+                "Vater",
+                "Young Carers",
+                "superhands"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5038,5 +5080,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:05:09.507Z"
+  "timestamp": "2022-11-11T12:06:22.476Z"
 }
