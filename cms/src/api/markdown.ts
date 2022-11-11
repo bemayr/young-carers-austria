@@ -47,7 +47,7 @@ export function slateToMarkdown(children: any[] | undefined, options: Options | 
             case 'link': return `[${slateToMarkdown(node.children)}](${escapeHtml(node.url)})`;
             default: return slateToMarkdown(node.children, options);
         }
-    }).join("");
+    }).join("").replace(/(?<=.)(?<!  )\n((?=.)|$)/g, "  \n");
 }
 
 export const markdownify = (content: {
