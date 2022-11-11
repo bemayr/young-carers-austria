@@ -3231,7 +3231,43 @@
       "name": "Schule",
       "title": "Pflege und Schule unter einen Hut bringen?",
       "information": "Für Young Carers ist die **Schule** ein gewohnter Ort an dem sie Hilfe suchen können. Denn die Pflege und Betreuung zu Hause kann sich negativ auf die Schule auswirken. Mitunter fehlt die Zeit und Konzentration, um Hausaufgaben zu machen oder sich auf Prüfungen vorzubereiten. Young Carers kommen häufig zu spät, sind nicht ausgeschlafen und haben Schwierigkeiten sich auf den Unterricht zu konzentrieren.\n\n**Gib nicht auf!**\n\nWende dich an eine Person, der du vertraust. Berichte über deine Situation und frage nach Hilfe. In der Schule kannst du mit deinen Lehrer:innen sprechen oder auch mit den Schulpsychologinnen/Schulpsychologen. In den Beiträgen findest du vielleicht Inspiration und Hilfe.",
-      "entries": []
+      "entries": [
+        {
+          "ownerName": "Fonds Gesundes Österreich",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://wohlfuehlzone-schule.at/",
+              "title": "Wohlfühlzone Schule",
+              "description": "Hier setzt man sich für dein Wohlbefinden ein. Mobbing an Schulen soll verhindert werden.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1367774758.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T10:45:52.410Z",
+              "keywords": [
+                "Beratung",
+                "Bildung",
+                "Eltern",
+                "Fragen",
+                "Gewalt",
+                "Lehrer",
+                "Lernen",
+                "Mama",
+                "Mobbing",
+                "Mutter",
+                "Papa",
+                "Probleme",
+                "Prävention",
+                "Psyche",
+                "Schule",
+                "Schulpsychologie",
+                "Unterrichtsministerium",
+                "Vater",
+                "Wissen"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "6368511d638c16809e4d0d83",
@@ -4240,5 +4276,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T10:45:23.721Z"
+  "timestamp": "2022-11-11T10:46:19.993Z"
 }
