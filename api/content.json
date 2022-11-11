@@ -3365,6 +3365,33 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Netzwerk Kinderrechte",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.kinderhabenrechte.at/kinderrechte-2/",
+              "title": "Wer setzt sich für meine Rechte ein?",
+              "description": "Informiere dich hier über das Angebot des Netzwerk Kinderrechte Österreich.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:11:39.168Z",
+              "keywords": [
+                "Anwalt",
+                "Beratung",
+                "Informationen",
+                "Infos",
+                "Jugendliche",
+                "Kinder",
+                "Kinder- und Jugendanwaltschaft",
+                "Konvention",
+                "Netzwerk",
+                "Netzwerk Kinderrechte",
+                "Rechte"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4490,5 +4517,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T11:09:30.241Z"
+  "timestamp": "2022-11-11T11:12:06.107Z"
 }
