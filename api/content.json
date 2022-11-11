@@ -3518,6 +3518,30 @@
       "information": "In Österreich kümmern sich circa **42.700** pflegende Kinder und Jugendliche **regelmäßig** um ein krankes Familienmitglied, meist ein Elternteil, aber auch Geschwister oder Großeltern können Hilfe benötigen. Du bist also nicht allein! Wenn du dich über Unterstützungsangebote informieren oder vertraulich mit jemanden über deine Situation und Probleme sprechen möchtest, kannst du dich an Organisationen für Young Carers wenden.",
       "entries": [
         {
+          "ownerName": "147 - Rat auf Draht",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.rataufdraht.at/themenubersicht/tipps-info/pflegst-du-jemanden",
+              "title": "Rat auf Draht - Pflegeinfos",
+              "description": "Was tun mit den eigenen Bedürfnissen, wenn die Eltern oder Großeltern krank sind und Pflege brauchen? 147 - Rat auf Draht ist der österreichische Notruf für Kinder, Jugendliche und deren Bezugspersonen. Du kannst wählen zwischen Telefonberatung rund um die Uhr, Online- oder Chat-Beratung.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-807497968.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:43:33.749Z",
+              "keywords": [
+                "147",
+                "147 - Rat auf Draht",
+                "Beratung",
+                "Hilfe",
+                "Hotline",
+                "Mobbing",
+                "Rat auf Draht",
+                "Sorgen"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "elco/kiko - pro mente OÖ",
           "ownerUrl": "",
           "references": [
@@ -5334,5 +5358,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:43:05.941Z"
+  "timestamp": "2022-11-11T12:44:01.788Z"
 }
