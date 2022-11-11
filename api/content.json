@@ -3828,6 +3828,37 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Gesundheitsportal Österreichs",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheit.gv.at/lexikon/P/praevention-hk.html",
+              "title": "Prävention",
+              "description": "Prävention soll eine Erkrankung verhindern, verzögern bzw. Krankheitsfolgen vermeiden. Im Unterschied zur Prävention befasst sich die Gesundheitsförderung nicht mit konkreten Krankheitsrisiken, sondern mit der Erhaltung der Gesundheit. Wenn du dich z.B. psychisch belastet fühlst, hole dir Hilfe!",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:44:50.775Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5358,5 +5389,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:44:01.788Z"
+  "timestamp": "2022-11-11T12:45:23.664Z"
 }
