@@ -3351,6 +3351,22 @@
           "ownerUrl": "",
           "references": [
             {
+              "url": "https://www.kinderrechte.gv.at/",
+              "title": "Welche Rechte habe ich?",
+              "description": "Das Info-Portal zur UN-Kinderrechtekonvention und das Bundesverfassungsgesetz über die Rechte von Kindern zeigen es dir.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1328458841.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:13:04.320Z",
+              "keywords": [
+                "Anwalt",
+                "Beratung",
+                "Beratungsstelle",
+                "Jugendliche",
+                "Kinder",
+                "Kinder- und Jugendanwaltschaft"
+              ]
+            },
+            {
               "url": "https://www.kinderrechte.gv.at/wp-content/uploads/2019/11/191107_Rechte-Kinder-Jugendliche_DINlang_BF.pdf",
               "title": "Die Rechte von Kindern und Jugendlichen",
               "description": "Folder als Download",
@@ -4517,5 +4533,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T11:12:06.107Z"
+  "timestamp": "2022-11-11T11:13:35.479Z"
 }
