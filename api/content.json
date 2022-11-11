@@ -3070,6 +3070,29 @@
                 "Wegweiser",
                 "gesund"
               ]
+            },
+            {
+              "url": "https://www.gesundheit.gv.at/krankheiten/erste-hilfe/notdienst/massnahmen",
+              "title": "Maßnahmen der Ersten Hilfe",
+              "description": "Für den Ernstfall findest du hier Maßnahmen für Ersthelferinnen und -helfer.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T14:46:08.679Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
+              ]
             }
           ]
         }
@@ -5819,5 +5842,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T14:45:53.563Z"
+  "timestamp": "2022-11-11T14:46:37.983Z"
 }
