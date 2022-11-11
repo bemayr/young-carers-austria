@@ -496,6 +496,33 @@
           "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
           "entries": [
             {
+              "ownerName": "Kindernotruf",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "http://www.verein-lichtblick.at/kindernotruf-3/",
+                  "title": "Wohin mit meinen Sorgen?",
+                  "description": "Der Kindernotruf hat ein offenes Ohr!",
+                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-11-11T11:00:07.536Z",
+                  "keywords": [
+                    "Anrufen",
+                    "E-Mail",
+                    "Hilfe",
+                    "Kinder",
+                    "Kindernotruf",
+                    "Lichtblick",
+                    "Mail",
+                    "Notruf",
+                    "Sorgen",
+                    "Telefon",
+                    "Verein Lichtblick"
+                  ]
+                }
+              ]
+            },
+            {
               "ownerName": "Kliniksuche des BMSGPK",
               "ownerUrl": "",
               "references": [
@@ -2896,6 +2923,33 @@
       "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
       "entries": [
         {
+          "ownerName": "Kindernotruf",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "http://www.verein-lichtblick.at/kindernotruf-3/",
+              "title": "Wohin mit meinen Sorgen?",
+              "description": "Der Kindernotruf hat ein offenes Ohr!",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:00:07.536Z",
+              "keywords": [
+                "Anrufen",
+                "E-Mail",
+                "Hilfe",
+                "Kinder",
+                "Kindernotruf",
+                "Lichtblick",
+                "Mail",
+                "Notruf",
+                "Sorgen",
+                "Telefon",
+                "Verein Lichtblick"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Kliniksuche des BMSGPK",
           "ownerUrl": "",
           "references": [
@@ -4350,5 +4404,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T10:59:07.053Z"
+  "timestamp": "2022-11-11T11:00:35.561Z"
 }
