@@ -68,7 +68,6 @@ const faq = {
   transform: function (entry: FAQ["entries"][number]) {
     return {
       question: entry.question,
-      originalAnswer: entry.answer,
       answer: slateToMarkdown(entry.answer),
       showOnLandingPage: entry.showOnLandingPage,
     };
@@ -113,7 +112,7 @@ const infos = {
   transform: function (entry: Infos) {
     return {
       title: entry.title,
-      description: slateToMarkdown(entry.description)?.trim,
+      description: slateToMarkdown(entry.description)?.trim(),
     };
   },
   get: async (payload: Payload) =>
@@ -127,7 +126,6 @@ const situations = {
   ) {
     return {
       question: entry.name,
-      contentOriginal: entry.content,
       content: transformExtendedRichText(
         entry.content as ExtendedRichText[],
         categoryLookup

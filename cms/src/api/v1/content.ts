@@ -125,6 +125,7 @@ const categories = {
 const sources = {
   transform: function (entry: Quelle) {
     return {
+      id: entry.id,
       ownerName: entry.name,
       ownerUrl: entry.homepage ?? "",
     };
@@ -143,6 +144,7 @@ const sources = {
 const references = {
   transform: function (entry: Referenz) {
     return {
+      id: entry.id,
       url: entry.address,
       title: entry.title,
       description: entry.description,
