@@ -3868,7 +3868,37 @@
       "name": "Selbsthilfegruppen",
       "title": "Wo kann ich andere treffen, denen es auch so geht?",
       "information": "Die vielfältigen **Selbsthilfegruppen** haben eine wichtige Funktion bei der gesundheitlichen Versorgung und **Prävention**. Selbsthilfegruppen bieten Unterstützung für Menschen mit Behinderungen oder chronischen Krankheiten.\n\nDas [Infoservice des Sozialministeriums](https://www.infoservice.sozialministerium.at) verfügt über Informationen zu Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen, die im sozialen Feld tätig sind. Für pflegende Angehörige finden so genannte **Stammtische** statt.",
-      "entries": []
+      "entries": [
+        {
+          "ownerName": "Gesundheitsportal Österreichs",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheit.gv.at/service/gesundheitssuche/selbsthilfegruppen",
+              "title": "Selbsthilfegruppen in den Bundesländern",
+              "description": "Hier kannst du nach Selbsthilfegruppen in den Bundesländern suchen.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:21:02.618Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "63685144638c16809e4d0db8",
@@ -4171,6 +4201,29 @@
                 "Beratung",
                 "Hilfe",
                 "Hilfe für pflegende Kinder",
+                "Unterstützung"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Sozialministerium",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheit.gv.at/leben/stress/was-ist-das",
+              "title": "Stress",
+              "description": "Er ist Bestandteil des Lebens und kann auch positiv sein. Zu viel davon macht uns aber krank. Verursacher können z.B. einschneidende Ereignisse, private oder schulische Probleme sein. Wichtig ist, wie wir damit umgehen. Es gibt hilfreiche Möglichkeiten, anspruchsvolle Situationen zu meistern.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:21:41.436Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Rat",
                 "Unterstützung"
               ]
             }
@@ -5157,5 +5210,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:20:53.519Z"
+  "timestamp": "2022-11-11T12:22:15.171Z"
 }
