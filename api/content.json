@@ -2909,6 +2909,32 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "superhands",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.superhands.at/wissen/krankheiten",
+              "title": "Welche Krankheiten gibt's bei Pflege daheim?",
+              "description": "Hier sind die häufigsten Krankheiten zusammengefasst, die Kinder/Jugendliche zu Hause bei der Pflege betreffen können (mit Beschreibung, wie es dazu kommen kann und was man tun kann, um zu helfen).",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:16:33.334Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Johanniter",
+                "Organisation",
+                "Rat",
+                "Rettung",
+                "Unterstützung",
+                "superhands"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4533,5 +4559,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T11:13:35.479Z"
+  "timestamp": "2022-11-11T11:17:00.951Z"
 }
