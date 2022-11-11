@@ -3008,6 +3008,32 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Sozialministeriumservice",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.sozialministeriumservice.at/Finanzielles/Pflegeunterstuetzungen/Pflegeunterstuetzungen.de.html",
+              "title": "Pflegeunterstützungen",
+              "description": "Hier kannst du dich über Unterstützungen des Sozialministeriumservice informieren.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1224670857.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T14:00:35.334Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Hilfe",
+                "Pflege",
+                "Sozial",
+                "Sozialministeriumservice",
+                "Unterstützung"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5429,5 +5455,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:47:35.464Z"
+  "timestamp": "2022-11-11T14:01:03.314Z"
 }
