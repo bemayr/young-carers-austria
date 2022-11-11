@@ -4051,6 +4051,32 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Sozialministeriumservice",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.sozialministeriumservice.at/Finanzielles/Pflegeunterstuetzungen/Pflegende_Angehoerige/Unterstuetzung_fuer_pflegende_Angehoerige.de.html",
+              "title": "Was tun wenn die Hauptpflegeperson mal Pause braucht? ",
+              "description": "Wir alle brauchen Urlaub und Erholung. Wenn die Hauptpflegeperson ausfällt, können Zuwendungen für Kosten der Ersatzpflege gewährt werden. Voraussetzung ist Pflegegeld ab Stufe 3; bei Menschen mit Demenz und Minderjährigen reicht Stufe 1.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-807497968.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:23:55.159Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Hilfe",
+                "Pflege",
+                "Sozial",
+                "Sozialministeriumservice",
+                "Unterstützung"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4559,5 +4585,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T11:17:00.951Z"
+  "timestamp": "2022-11-11T11:24:34.231Z"
 }
