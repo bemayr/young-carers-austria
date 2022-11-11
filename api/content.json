@@ -496,6 +496,32 @@
           "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
           "entries": [
             {
+              "ownerName": "austria4kids",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "http://www.austria4kids.at/notruf-hilfe-kinder.html",
+                  "title": "Notrufe und Hilfe für Kinder",
+                  "description": "Hier sind Notrufe und Kontaktadressen für Kinder in Krisensituationen gesammelt.",
+                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-11-11T14:37:23.633Z",
+                  "keywords": [
+                    "Anlaufstelle",
+                    "Beratungsstelle",
+                    "Freizeit",
+                    "Hilfe",
+                    "Hilfseinrichtung",
+                    "Organisation",
+                    "Rat",
+                    "Tipps",
+                    "Unterstützung",
+                    "austria4kids"
+                  ]
+                }
+              ]
+            },
+            {
               "ownerName": "Kindernotruf",
               "ownerUrl": "",
               "references": [
@@ -3639,6 +3665,32 @@
       "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
       "entries": [
         {
+          "ownerName": "austria4kids",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "http://www.austria4kids.at/notruf-hilfe-kinder.html",
+              "title": "Notrufe und Hilfe für Kinder",
+              "description": "Hier sind Notrufe und Kontaktadressen für Kinder in Krisensituationen gesammelt.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T14:37:23.633Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratungsstelle",
+                "Freizeit",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Organisation",
+                "Rat",
+                "Tipps",
+                "Unterstützung",
+                "austria4kids"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Kindernotruf",
           "ownerUrl": "",
           "references": [
@@ -5704,5 +5756,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T14:36:39.657Z"
+  "timestamp": "2022-11-11T14:37:56.443Z"
 }
