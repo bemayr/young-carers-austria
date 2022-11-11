@@ -2210,6 +2210,38 @@
           ]
         },
         {
+          "ownerName": "Carers Australia",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://youngcarersnetwork.com.au/stories/",
+              "title": "Young Carers Network - A Carers Australia Initiative",
+              "description": "Gewinne einen Einblick in das Leben von Young Carers in Australien. Sie nehmen dich in ihren Alltag mit.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1328458841.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T10:10:05.137Z",
+              "keywords": [
+                "Angehörige",
+                "Bruder",
+                "Geschwister",
+                "Großeltern",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Schwester",
+                "Vater",
+                "Young Carers"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Charlotte Foley",
           "ownerUrl": "",
           "references": [
@@ -4088,5 +4120,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T10:07:31.991Z"
+  "timestamp": "2022-11-11T10:10:31.201Z"
 }
