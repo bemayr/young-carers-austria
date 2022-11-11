@@ -502,10 +502,10 @@
                 {
                   "url": "https://kliniksuche.at/",
                   "title": "kliniksuche.at",
-                  "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden.",
-                  "previewImageUrl": "https://kliniksuche.at/images/LeistungenDiagnosen_small.jpg",
+                  "description": "Kliniksuche.at unterstützt dich dabei, ein geeignetes Krankenhaus zu finden.",
+                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
                   "isPaidContent": false,
-                  "lastUpdated": "2022-11-09T09:05:49.668Z",
+                  "lastUpdated": "2022-11-11T09:57:57.139Z",
                   "keywords": [
                     "Ambulanz",
                     "Arzt",
@@ -2824,10 +2824,10 @@
             {
               "url": "https://kliniksuche.at/",
               "title": "kliniksuche.at",
-              "description": "Kliniksuche.at unterstützt Sie dabei, ein geeignetes Krankenhaus zu finden.",
-              "previewImageUrl": "https://kliniksuche.at/images/LeistungenDiagnosen_small.jpg",
+              "description": "Kliniksuche.at unterstützt dich dabei, ein geeignetes Krankenhaus zu finden.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-09T09:05:49.668Z",
+              "lastUpdated": "2022-11-11T09:57:57.139Z",
               "keywords": [
                 "Ambulanz",
                 "Arzt",
@@ -4042,5 +4042,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T09:56:32.718Z"
+  "timestamp": "2022-11-11T09:58:23.030Z"
 }
