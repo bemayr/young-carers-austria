@@ -2239,6 +2239,29 @@
           "ownerUrl": "",
           "references": [
             {
+              "url": "https://www.gesundheit.gv.at/leben/psyche-seele/praevention/seelisches-gleichgewicht-bewahren",
+              "title": "Unausgeglichen?",
+              "description": "Wenn du diesen Link anklickst findest du Tipps für die seelische Balance.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:55:13.676Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
+              ]
+            },
+            {
               "url": "https://www.gesundheit.gv.at/service/videos/sport-entspannung/entspannung.html",
               "title": "Acht Schätze - nicht zum Essen, sondern zum Entspannen",
               "description": "Unter dem nachstehenden Link findest du die Videoserie \"Die acht Schätze\" zur Entspannung.",
@@ -4889,5 +4912,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T11:53:53.308Z"
+  "timestamp": "2022-11-11T11:55:39.428Z"
 }
