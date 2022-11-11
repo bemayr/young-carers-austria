@@ -1947,6 +1947,43 @@
       "information": "Es gibt verschiedene Anlaufstellen, welche eine Onlineberatung auch via Chat anbieten. Dabei kannst du auch anonym bleiben, wenn dir das wichtig ist. Eine anonyme Onlineberatung kannst du bei den \"superhands\" in Anspruch nehmen. Bei der \"Telefonseelsorge\" kannst du einen Sofortchat zur Kontaktaufnahme auswählen. Ebenso findest du bei \"veRRückte Kindheit\" oder \"147 - Rat auf Draht\" verschiedene Möglichkeiten der Onlineberatung.",
       "entries": [
         {
+          "ownerName": "142 Telefonseelsorge",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://chat.onlineberatung-telefonseelsorge.at/hc/de",
+              "title": "Telefonseelsorge",
+              "description": "Die TelefonSeelsorge Österreich – Notruf 142 ist eine österreichweite Organisation mit neun TelefonSeelsorge-Stellen. Hilfe gibt es telefonisch, per Sofortchat oder per E-Mail.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:02:14.542Z",
+              "keywords": [
+                "142",
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Chatten",
+                "E-Mail",
+                "Gespräch",
+                "Gewalt",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Mail",
+                "Mobbing",
+                "Notruf",
+                "Organisation",
+                "Pflege",
+                "Rat",
+                "Reden",
+                "Sorgen",
+                "Telefon",
+                "Telefonseelsorge",
+                "Unterstützung"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Caritas der Diözese St. Pölten",
           "ownerUrl": "",
           "references": [
@@ -4980,5 +5017,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T11:58:41.565Z"
+  "timestamp": "2022-11-11T12:02:42.438Z"
 }
