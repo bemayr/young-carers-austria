@@ -3404,6 +3404,48 @@
           ]
         },
         {
+          "ownerName": "Online Kurs Rotes Kreuz: Pflege zuhause",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://wissen.roteskreuz.at/pluginfile.php/12660/mod_resource/content/6/content/index.html",
+              "title": "Onlinekurs für Pflegende Angehörige",
+              "description": "In diesem Onlinekurs lernst du, wie du dich selbst schützen und wie du dein Leben organisieren kannst, wenn du einen erkrankten Angehörigen pflegen musst.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1130453486.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T14:33:10.508Z",
+              "keywords": [
+                "Ausbildung",
+                "Beratung",
+                "Bildung",
+                "Erste Hilfe",
+                "Freizeit",
+                "Get Social",
+                "Hilfe",
+                "Infobox",
+                "Jugendrotkreuz",
+                "Juniorcamps",
+                "Krems",
+                "Kurs",
+                "Kurz",
+                "Notfall",
+                "Onlinekurs",
+                "Pflege",
+                "Rettung",
+                "Rotes Kreuz",
+                "Schulung",
+                "Sommercamps",
+                "Sozialer Dienst",
+                "Superhands",
+                "Time4Friends",
+                "Vernetzung",
+                "Video",
+                "Wissen"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "superhands",
           "ownerUrl": "",
           "references": [
@@ -5557,5 +5599,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T14:27:56.388Z"
+  "timestamp": "2022-11-11T14:33:40.288Z"
 }
