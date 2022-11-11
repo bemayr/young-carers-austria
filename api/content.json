@@ -2350,6 +2350,25 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Young Helping Hands - Julika Stich",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://young-helping-hands.de/",
+              "title": "Young Helping Hands",
+              "description": "Website für Kinder, Jugendliche und junge Erwachsene, die ihre Eltern und / oder andere Angehörige pflegen – auch für Eltern, ehemals Betroffene und Fachkräfte!",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T10:04:39.223Z",
+              "keywords": [
+                "Ausland",
+                "Deutschland",
+                "International"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4042,5 +4061,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T09:58:23.030Z"
+  "timestamp": "2022-11-11T10:05:07.244Z"
 }
