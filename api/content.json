@@ -4967,6 +4967,46 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "YouDig",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://young-carers.uni-graz.at/de/",
+              "title": "Projekt YouDiG",
+              "description": "Das Projekt will erforschen, was Kinder und Jugendliche, die Angehörige zu Hause betreuen und pflegen brauchen, um ihren Alltag besser zu meistern bzw. sich besser unterstützt zu fühlen. Welche Chancen und Risiken ergeben sich durch den Einsatz digitaler Technologien?",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1198981647.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:47:13.047Z",
+              "keywords": [
+                "Angehörige",
+                "Bildung",
+                "Bruder",
+                "Bundesland",
+                "Forschung",
+                "Geschwister",
+                "Großeltern",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Schwester",
+                "Steiermark",
+                "Universität",
+                "Universität Graz",
+                "Vater",
+                "Wissen",
+                "Young Carers",
+                "Österreich"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5389,5 +5429,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:45:23.664Z"
+  "timestamp": "2022-11-11T12:47:35.464Z"
 }
