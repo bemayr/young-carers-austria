@@ -1455,6 +1455,52 @@
       "information": "Young Carers sind Kinder und Jugendliche **unter 18 Jahren**. Sie pflegen regelmäßig ein anderes Familienmitglied (z. B. Eltern, Großeltern oder Geschwister) die eine körperliche oder psychische Erkrankung haben. Young Carers leisten sehr viel Arbeit. Sie kochen, putzen, helfen ihren (gesunden) Geschwistern oft bis zu fünf Stunden täglich. Manchmal arbeiten sie auch in der direkten Pflege der Angehörigen mit. Eine Unterstützung von außen, z.B. durch Freunde oder eine Pflegeperson, haben sie  nur selten.\n\nLaut einer österreichischen Studie aus 2012 gibt es rund **42.700** pflegende Kinder und Jugendliche im Alter bis 18 Jahren. Im Durchschnitt sind Young Carers **12,5 Jahre** alt und **70% sind Mädchen**. Als Kind oder Jugendlicher so eine pflegerische Verantwortung zu übernehmen ist eine sehr große Herausforderung!",
       "entries": [
         {
+          "ownerName": "Broschürenservice des Sozialministeriums",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=430",
+              "title": "Who cares? Young Carers!",
+              "description": "Folder \"Who cares? Young Carers!\" als Download.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:09:03.528Z",
+              "keywords": [
+                "Angehörige",
+                "Behinderung",
+                "Beratung",
+                "Bruder",
+                "Finanzielles",
+                "Geld",
+                "Geschwister",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Großeltern",
+                "Hilfe",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Ministerium",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Schwester",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung",
+                "Vater",
+                "Young Carers"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Interessengemeinschaft pflegender Angehöriger",
           "ownerUrl": "",
           "references": [
@@ -4444,5 +4490,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T11:04:40.233Z"
+  "timestamp": "2022-11-11T11:09:30.241Z"
 }
