@@ -4329,6 +4329,31 @@
               ]
             },
             {
+              "url": "https://pflege.gv.at/",
+              "title": "Pflegeplattform",
+              "description": "Auf pflege.gv.at finden sich pflege- und betreuungsrelevante Informationen – leicht und verständlich erklärt. Dieses neue Informationsangebot richtet sich an jene, die selbst Pflege oder Betreuung brauchen oder jemanden pflegen. Es werden niederschwellig und unkompliziert wichtige Infos angeboten.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T14:12:43.074Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
+            },
+            {
               "url": "https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html",
               "title": "Hilfe für betreuende und pflegende Angehörige",
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
@@ -5485,5 +5510,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T14:02:27.180Z"
+  "timestamp": "2022-11-11T14:13:19.651Z"
 }
