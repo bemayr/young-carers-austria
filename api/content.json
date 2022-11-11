@@ -1903,6 +1903,40 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "superhands",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.superhands.at/pflege/taegliche-pflege/",
+              "title": "Tägliche Pflege",
+              "description": "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:58:07.910Z",
+              "keywords": [
+                "Alltag",
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Johanniter",
+                "Lernen",
+                "Organisation",
+                "Pflege",
+                "Pflegetipps",
+                "Rat",
+                "Rettung",
+                "Tipps",
+                "Unterstützung",
+                "Wissen",
+                "praktisch",
+                "superhands"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3151,6 +3185,40 @@
                 "pflegefit",
                 "praktisch",
                 "time4friends"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "superhands",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.superhands.at/pflege/taegliche-pflege/",
+              "title": "Tägliche Pflege",
+              "description": "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:58:07.910Z",
+              "keywords": [
+                "Alltag",
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Johanniter",
+                "Lernen",
+                "Organisation",
+                "Pflege",
+                "Pflegetipps",
+                "Rat",
+                "Rettung",
+                "Tipps",
+                "Unterstützung",
+                "Wissen",
+                "praktisch",
+                "superhands"
               ]
             }
           ]
@@ -4912,5 +4980,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T11:55:39.428Z"
+  "timestamp": "2022-11-11T11:58:41.565Z"
 }
