@@ -4160,6 +4160,45 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Young Carer Hilfe (Deutschland)",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://young-carer-hilfe.de/",
+              "title": "Young Carer Hilfe Deutschland",
+              "description": "Hilfe für Kinder kranker Eltern in Deutschland tritt für bessere Chancen von Young Carers auf einen guten Start ein.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1367774758.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T10:44:55.512Z",
+              "keywords": [
+                "Angehörige",
+                "Ausland",
+                "Bruder",
+                "Deutschland",
+                "Geschwister",
+                "Großeltern",
+                "International",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Lana",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Rebhan",
+                "Schwester",
+                "Vater",
+                "Young Carer",
+                "Young Carer Hilfe",
+                "Young Carers"
+              ]
+            }
+          ]
         }
       ]
     }
@@ -4201,5 +4240,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T10:20:08.624Z"
+  "timestamp": "2022-11-11T10:45:23.721Z"
 }
