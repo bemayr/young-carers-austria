@@ -3862,6 +3862,31 @@
           ]
         },
         {
+          "ownerName": "Schulpsychologischer Dienst BMBWF",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.bmbwf.gv.at/Themen/schule/beratung/psych.html",
+              "title": "Schulpsychologischer Dienst",
+              "description": "Die Schulpsychologie nimmt sich der Fragen und Probleme von Schüler:innen, Eltern und Lehrpersonen, die sich im schulischen Alltag ergeben, aus psychologischer Sicht an.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:25:49.634Z",
+              "keywords": [
+                "BMBWF",
+                "Bildung",
+                "Bundesministerium für Bildung",
+                "Wissenschaft und Forschung",
+                "Forschungsministerium",
+                "Schule",
+                "Unterrichtsministerium",
+                "Wissenschaftsministerium",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Schulsozialarbeit BMBWF",
           "ownerUrl": "",
           "references": [
@@ -5251,5 +5276,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:25:26.555Z"
+  "timestamp": "2022-11-11T12:26:16.860Z"
 }
