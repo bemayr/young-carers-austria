@@ -3980,6 +3980,46 @@
           ]
         },
         {
+          "ownerName": "Kinderschutzbund (Deutschland)",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.kinderschutzbund-se.de/kinderschutz-zentrum/",
+              "title": "Young Carers Deutschland",
+              "description": "Young Carers Deutschland ist ein Angebot für junge Pflegende unter 18 Jahren, die mit einem chronisch kranken oder beeinträchtigten Angehörigen zusammenleben.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1367774758.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T10:11:07.910Z",
+              "keywords": [
+                "Angehörige",
+                "Ausland",
+                "Beratung",
+                "Bruder",
+                "Deutschland",
+                "Geschwister",
+                "Gewalt",
+                "Großeltern",
+                "International",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Kinderschutzbund",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Schutz",
+                "Schwester",
+                "Vater",
+                "Young Carers",
+                "sexuell"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Little Dreamers (Australien)",
           "ownerUrl": "",
           "references": [
@@ -4120,5 +4160,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T10:10:31.201Z"
+  "timestamp": "2022-11-11T10:11:33.661Z"
 }
