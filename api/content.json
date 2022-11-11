@@ -2030,6 +2030,45 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "VeRRückte Kindheit",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.verrueckte-kindheit.at/de/angebote/beratung/",
+              "title": "Onlineberatung veRRückte Kindheit",
+              "description": "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1198981647.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T14:34:31.785Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Chatten",
+                "Eltern",
+                "Erkrankte",
+                "Forum",
+                "HPE",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Kurs",
+                "Mama",
+                "Mutter",
+                "Papa",
+                "Rat",
+                "Selbsthilfe",
+                "Seminar",
+                "Unterstützung",
+                "Vater",
+                "VeRRückte Kindheit",
+                "online",
+                "psychisch",
+                "visible"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2125,6 +2164,45 @@
                 "Organisation",
                 "Rat",
                 "Unterstützung"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "VeRRückte Kindheit",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.verrueckte-kindheit.at/de/angebote/beratung/",
+              "title": "Onlineberatung veRRückte Kindheit",
+              "description": "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1198981647.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T14:34:31.785Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Chatten",
+                "Eltern",
+                "Erkrankte",
+                "Forum",
+                "HPE",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Kurs",
+                "Mama",
+                "Mutter",
+                "Papa",
+                "Rat",
+                "Selbsthilfe",
+                "Seminar",
+                "Unterstützung",
+                "Vater",
+                "VeRRückte Kindheit",
+                "online",
+                "psychisch",
+                "visible"
               ]
             }
           ]
@@ -5599,5 +5677,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T14:33:40.288Z"
+  "timestamp": "2022-11-11T14:35:03.147Z"
 }
