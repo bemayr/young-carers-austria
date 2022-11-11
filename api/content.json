@@ -3848,7 +3848,39 @@
       "name": "Veranstaltungen",
       "title": "Wo ist was los?",
       "information": "Die Veranstaltungskalender der [Interessengemeinschaft pflegender Angehöriger](https://www.ig-pflege.at) und der [Demenzstrategie](https://www.demenzstrategie.at) informieren über verschiedene Events, Stammtische und Treffen für pflegende Angehörige, die für dich interessant sein könnten.",
-      "entries": []
+      "entries": [
+        {
+          "ownerName": "GÖG und Sozialministerium",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.demenzstrategie.at/de/Service/Veranstaltungen.htm",
+              "title": "Veranstaltungskalender Demenz",
+              "description": "Veranstaltungen und Online-Seminare zum Thema Demenz kannst du hier abfragen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-807497968.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T10:47:07.042Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "63685270638c16809e4d0e51",
@@ -4276,5 +4308,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T10:46:19.993Z"
+  "timestamp": "2022-11-11T10:47:32.180Z"
 }
