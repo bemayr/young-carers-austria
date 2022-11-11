@@ -2047,6 +2047,35 @@
           ]
         },
         {
+          "ownerName": "147 - Rat auf Draht",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.rataufdraht.at/",
+              "title": "Rat auf Draht",
+              "description": "Beratung für Kinder und Jugendliche jederzeit - anonym - kostenlos",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1224670857.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:42:40.217Z",
+              "keywords": [
+                "147",
+                "147 - Rat auf Draht",
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Hotline",
+                "Mobbing",
+                "Rat",
+                "Rat auf Draht",
+                "Sorgen",
+                "Unterstützung"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Caritas der Diözese St. Pölten",
           "ownerUrl": "",
           "references": [
@@ -5305,5 +5334,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:26:55.231Z"
+  "timestamp": "2022-11-11T12:43:05.941Z"
 }
