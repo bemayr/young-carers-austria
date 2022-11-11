@@ -3196,7 +3196,49 @@
       "name": "Prävention",
       "title": "Was kann man im Vorfeld tun?",
       "information": "Allgemein wird **Prävention** mit Vorbeugen gleichgesetzt. Es geht darum eine Erkrankung zu verhindern, zu verzögern oder die Krankheitsfolgen zu vermeiden. Die Prävention setzt also an konkreten **Gesundheitsrisiken** eines Menschen an.\n\nDie wichtigsten Punkte sind:\n\n1. Förderung der Gesundheit, um bestimmte Krankheiten zu vermeiden\n1. Früherkennung und\n1. Rehabilitation\n\n**In diesem Sinne:** Wenn du dich z.B. psychisch oder körperlich belastet fühlst, solltest du dir Unterstützung holen. Das ist keine Schande!",
-      "entries": []
+      "entries": [
+        {
+          "ownerName": "Fonds Gesundes Österreich",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.wohlfuehl-pool.at/",
+              "title": "WohlfühlPOOL",
+              "description": "Kinder und Jugendliche sollen in allen ihren Lebenswelten – Familie, Schule, Freizeit – gesund aufwachsen können. Gerade die Corona-Pandemie hat uns gezeigt, wie gefährdet manche Gruppen sind und wie wichtig es ist, die psychosoziale Gesundheit junger Menschen zu stärken.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T10:58:32.559Z",
+              "keywords": [
+                "Auszeit",
+                "Beratung",
+                "Bildung",
+                "Eltern",
+                "Entspannung",
+                "Fragen",
+                "Freizeit",
+                "Gewalt",
+                "Hobby",
+                "Lehrer",
+                "Lernen",
+                "Mama",
+                "Mobbing",
+                "Mutter",
+                "Papa",
+                "Probleme",
+                "Prävention",
+                "Psyche",
+                "Schule",
+                "Schulpsychologie",
+                "Sport",
+                "Unterrichtsministerium",
+                "Urlaub",
+                "Vater",
+                "Wissen"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "636850e1638c16809e4d0d61",
@@ -4308,5 +4350,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T10:47:32.180Z"
+  "timestamp": "2022-11-11T10:59:07.053Z"
 }
