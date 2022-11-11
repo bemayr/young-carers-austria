@@ -4430,6 +4430,44 @@
       "information": "Jeder Mensch braucht Urlaub, Erholung und regelmäßige Freizeit. Dies gilt ganz besonders für pflegende Angehörige. Für Young Carers gibt es einige Urlaubs- und Freizeitangebote. So veranstaltet das [Österreichische Jugendrotkreuz](https://www.get-social.at) verschiedene Sommercamps für Kinder und Jugendliche mit speziellen Bedürfnissen. Dazu zählen rheumakranke, körperlich und geistig beeinträchtigte, übergewichtige Kinder und Jugendliche. Das **Juniorcamp** bietet einen Erholungsaufenthalt für Kinder von Eltern mit schwerer Erkrankung.",
       "entries": [
         {
+          "ownerName": "Jugendrotkreuz - Sommercamps",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/sommercamps/",
+              "title": "Sommercamps",
+              "description": "Das Jugendrotkreuz veranstaltet auch verschiedene Sommercamps für kids mit speziellen Bedürfnissen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-527271693.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T12:14:01.612Z",
+              "keywords": [
+                "Auszeit",
+                "Behinderung",
+                "Beratung",
+                "Camp",
+                "Entspannung",
+                "Erholung",
+                "Freizeit",
+                "Hilfe",
+                "Hobby",
+                "Jugendliche",
+                "Jugendrotkreuz",
+                "Juniorcamp",
+                "Organisation",
+                "Peer",
+                "Rettung",
+                "Rotes Kreuz",
+                "Sommer",
+                "Sommercamps",
+                "Sport",
+                "Urlaub",
+                "get social",
+                "time4friends"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Kinderburg Rapottenstein",
           "ownerUrl": "",
           "references": [
@@ -5080,5 +5118,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T12:06:22.476Z"
+  "timestamp": "2022-11-11T12:14:49.381Z"
 }
