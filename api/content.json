@@ -2511,6 +2511,33 @@
       "information": "In Österreich sind volljährige Staatsbürger:innen im Notfall zur Leistung von Erster Hilfe **verpflichtet**. Doch haben viele Menschen Angst, dabei etwas falsch zu machen. In Wahrheit gibt es aber nur einen **einzigen Fehler: Nichts zu tun!** Kenntnisse über Erste Hilfe sind leicht erlernbar und sollten regelmäßig geübt werden. Es werden auch Online-Kurse angeboten. Außerdem gibt es Lehrvideos z.B. vom [Roten Kreuz](https://www.roteskreuz.at/ich-will-helfen/erste-hilfe), um dich für den Ernstfall vorzubereiten.",
       "entries": [
         {
+          "ownerName": "Jugendrotkreuz",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/erste-hilfe/erste-hilfe-online/",
+              "title": "Videoreihe \"Erste Hilfe daham\"",
+              "description": "Um Erste Hilfe anschaulich zu vermitteln, bietet das Jugendrotkreuz die Videoreihe \"Erste Hilfe daham\".",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T11:26:57.277Z",
+              "keywords": [
+                "Beratung",
+                "Hilfe",
+                "Jugendliche",
+                "Jugendrotkreuz",
+                "Juniorcamp",
+                "Organisation",
+                "Peer",
+                "Rettung",
+                "Rotes Kreuz",
+                "get social",
+                "time4friends"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Rotes Kreuz",
           "ownerUrl": "",
           "references": [
@@ -4644,5 +4671,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T11:26:09.518Z"
+  "timestamp": "2022-11-11T11:27:25.137Z"
 }
