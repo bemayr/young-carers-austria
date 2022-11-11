@@ -5369,6 +5369,53 @@
           ]
         },
         {
+          "ownerName": "Pausentaste - Angebot für Kinder und Jugendliche, die sich um ihre Familien kümmern (Deutschland)",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.pausentaste.de/",
+              "title": "Pausentaste Deutschland",
+              "description": "Pausentaste - Wer anderen hilft, braucht manchmal selbst Hilfe (Deutschland)",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-11T14:27:25.788Z",
+              "keywords": [
+                "Angehörige",
+                "Ausland",
+                "Auszeit",
+                "Behinderung",
+                "Beratung",
+                "Bruder",
+                "Deutschland",
+                "Erfahrung",
+                "Freizeit",
+                "Geschwister",
+                "Großeltern",
+                "Hilfe",
+                "International",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Organisation",
+                "Papa",
+                "Pausentaste",
+                "Pflege",
+                "Podcast",
+                "Schwester",
+                "Selfcare",
+                "Vater",
+                "Video",
+                "Young Carer",
+                "Young Carers"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Rotes Kreuz Basel",
           "ownerUrl": "",
           "references": [
@@ -5510,5 +5557,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T14:13:19.651Z"
+  "timestamp": "2022-11-11T14:27:56.388Z"
 }
