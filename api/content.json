@@ -2,446 +2,57 @@
   "faqs": [
     {
       "question": "Bin ich ein Young Carer?",
-      "originalAnswer": [
-        {
-          "type": "p",
-          "children": [
-            {
-              "text": "Pflegende Kinder und Jugendliche "
-            },
-            {
-              "text": "helfen regelmäßig und häufiger",
-              "bold": true
-            },
-            {
-              "text": " im Familienumfeld als ihre Altersgenossen ohne Pflegeverantwortung. Sie unterstützen im Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen Verantwortung. 23 Prozent der Kinder helfen in allen drei Bereichen überdurchschnittlich viel."
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "children": [
-            {
-              "text": "Young Carers verstehen sich selbst nicht als Pflegende und sprechen selten über ihre familiäre Situation. Daher werden sie auch in ihrem sozialen Umfeld und in der Öffentlichkeit kaum als pflegende Kinder wahrgenommen und sind oft mit ihren Sorgen und Ängsten allein."
-            }
-          ]
-        }
-      ],
-      "answer": "Pflegende Kinder und Jugendliche **helfen regelmäßig und häufiger** im Familienumfeld als ihre Altersgenossen ohne Pflegeverantwortung. Sie unterstützen im Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen Verantwortung. 23 Prozent der Kinder helfen in allen drei Bereichen überdurchschnittlich viel.\n\nYoung Carers verstehen sich selbst nicht als Pflegende und sprechen selten über ihre familiäre Situation. Daher werden sie auch in ihrem sozialen Umfeld und in der Öffentlichkeit kaum als pflegende Kinder wahrgenommen und sind oft mit ihren Sorgen und Ängsten allein.\n\n",
+      "answer": "Pflegende Kinder und Jugendliche **helfen regelmäßig und häufiger** im Familienumfeld als ihre Altersgenossen ohne Pflegeverantwortung. Sie unterstützen im Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen Verantwortung. 23 Prozent der Kinder helfen in allen drei Bereichen überdurchschnittlich viel.\n\nYoung Carers verstehen sich selbst nicht als Pflegende und sprechen selten über ihre familiäre Situation. Daher werden sie auch in ihrem sozialen Umfeld und in der Öffentlichkeit kaum als pflegende Kinder wahrgenommen und sind oft mit ihren Sorgen und Ängsten allein.",
       "showOnLandingPage": true
     },
     {
       "question": "Was macht ein Young Carer?",
-      "originalAnswer": [
-        {
-          "children": [
-            {
-              "text": "\nYoung Carers sind Kinder und Jugendliche unter 18 Jahren, die für Familienangehörige – ein Elternteil, Geschwister, Großeltern oder andere kranke Familienmitglieder – immer wieder regelmäßig Pflege oder Betreuung übernehmen."
-            }
-          ]
-        }
-      ],
-      "answer": "\nYoung Carers sind Kinder und Jugendliche unter 18 Jahren, die für Familienangehörige – ein Elternteil, Geschwister, Großeltern oder andere kranke Familienmitglieder – immer wieder regelmäßig Pflege oder Betreuung übernehmen.\n\n",
+      "answer": "Young Carers sind Kinder und Jugendliche unter 18 Jahren, die für Familienangehörige – ein Elternteil, Geschwister, Großeltern oder andere kranke Familienmitglieder – immer wieder regelmäßig Pflege oder Betreuung übernehmen.",
       "showOnLandingPage": true
     },
     {
       "question": "Wieviele Young Carer gibt es?",
-      "originalAnswer": [
-        {
-          "children": [
-            {
-              "text": "\nAuf Basis einer "
-            },
-            {
-              "type": "link",
-              "newTab": false,
-              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307",
-              "children": [
-                {
-                  "text": "Studie"
-                }
-              ]
-            },
-            {
-              "text": " des BMSGPK zum Thema pflegende Kinder und Jugendliche in Österreich wurde der Anteil von 3,5 Prozent pflegender Kindern und Jugendlichen hochgerechnet. So wurde eine Zahl von 42.700 pflegende Kindern und Jugendliche ermittelt."
-            }
-          ]
-        }
-      ],
-      "answer": "\nAuf Basis einer [Studie](https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307) des BMSGPK zum Thema pflegende Kinder und Jugendliche in Österreich wurde der Anteil von 3,5 Prozent pflegender Kindern und Jugendlichen hochgerechnet. So wurde eine Zahl von 42.700 pflegende Kindern und Jugendliche ermittelt.\n\n",
+      "answer": "Auf Basis einer [Studie](https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307) des BMSGPK zum Thema pflegende Kinder und Jugendliche in Österreich wurde der Anteil von 3,5 Prozent pflegender Kindern und Jugendlichen hochgerechnet. So wurde eine Zahl von 42.700 pflegende Kindern und Jugendliche ermittelt.",
       "showOnLandingPage": true
     },
     {
       "question": "Der:die typische Young Carer",
-      "originalAnswer": [
-        {
-          "type": "p",
-          "children": [
-            {
-              "text": "Aus einer "
-            },
-            {
-              "type": "link",
-              "newTab": false,
-              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307",
-              "children": [
-                {
-                  "text": "Studie"
-                }
-              ]
-            },
-            {
-              "text": " des BMSGPK zum Thema pflegende Kinder und Jugendliche in Österreich ergibt sich folgendes Bild:"
-            }
-          ]
-        },
-        {
-          "type": "ul",
-          "children": [
-            {
-              "type": "li",
-              "children": [
-                {
-                  "text": "Der Anteil pflegender Kinder in der Altersgruppe der 10- bis 14-Jährigen bzw. er fünften bis achten Schulstufen beträgt 4,5 %."
-                }
-              ]
-            },
-            {
-              "type": "li",
-              "children": [
-                {
-                  "text": "Pflegende Kinder sind im Durchschnitt 12,5 Jahre alt. 70 % der pflegenden Kinder sind weiblich."
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "answer": "Aus einer [Studie](https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307) des BMSGPK zum Thema pflegende Kinder und Jugendliche in Österreich ergibt sich folgendes Bild:\n\n* Der Anteil pflegender Kinder in der Altersgruppe der 10- bis 14-Jährigen bzw. er fünften bis achten Schulstufen beträgt 4,5 %.\n* Pflegende Kinder sind im Durchschnitt 12,5 Jahre alt. 70 % der pflegenden Kinder sind weiblich.\n\n",
+      "answer": "Aus einer [Studie](https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307) des BMSGPK zum Thema pflegende Kinder und Jugendliche in Österreich ergibt sich folgendes Bild:\n\n* Der Anteil pflegender Kinder in der Altersgruppe der 10- bis 14-Jährigen bzw. er fünften bis achten Schulstufen beträgt 4,5 %.  \n* Pflegende Kinder sind im Durchschnitt 12,5 Jahre alt. 70 % der pflegenden Kinder sind weiblich.",
       "showOnLandingPage": false
     },
     {
       "question": "Wen betreuen Young Carers?",
-      "originalAnswer": [
-        {
-          "type": "ul",
-          "children": [
-            {
-              "children": [
-                {
-                  "text": "37 % ein Elternteil"
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": "33 % ein Großelternteil"
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": "12 % Geschwister"
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": "18 % andere Familienmitglieder bzw. Verwandte"
-                }
-              ],
-              "type": "li"
-            }
-          ]
-        }
-      ],
-      "answer": "* 37 % ein Elternteil\n* 33 % ein Großelternteil\n* 12 % Geschwister\n* 18 % andere Familienmitglieder bzw. Verwandte\n\n",
+      "answer": "* 37 % ein Elternteil  \n* 33 % ein Großelternteil  \n* 12 % Geschwister  \n* 18 % andere Familienmitglieder bzw. Verwandte",
       "showOnLandingPage": true
     },
     {
       "question": "Wie wirkt sich die Übernahme der Betreuung auf pflegende Kinder, also Young Carers, aus?",
-      "originalAnswer": [
-        {
-          "children": [
-            {
-              "text": "\nYoung Carer zu sein hat Auswirkungen in vielen Bereichen. Pflegende Kinder geben deutlich öfter an, unter Müdigkeit, Schlafproblemen sowie Rücken- und Kopfschmerzen zu leiden."
-            }
-          ]
-        },
-        {
-          "children": [
-            {
-              "text": "Große Unterschiede zeigen sich auch in Bezug auf die psychische Verfassung der Kinder. Den Aussagen „Ich mache mir oft Sorgen“ und „Ich bin oft traurig“ stimmen pflegende Kinder deutlich öfter zu als nicht pflegende Kinder."
-            }
-          ]
-        },
-        {
-          "children": [
-            {
-              "text": "Allerdings fühlen sich pflegende Kinder gegenüber nicht pflegenden Kindern erwachsener und wissen auch, dass sie wertvolle Unterstützung leisten. Das macht deutlich, dass die Erfahrungen nicht ausschließlich negativ bewertet werden können."
-            }
-          ]
-        }
-      ],
-      "answer": "\nYoung Carer zu sein hat Auswirkungen in vielen Bereichen. Pflegende Kinder geben deutlich öfter an, unter Müdigkeit, Schlafproblemen sowie Rücken- und Kopfschmerzen zu leiden.\n\nGroße Unterschiede zeigen sich auch in Bezug auf die psychische Verfassung der Kinder. Den Aussagen „Ich mache mir oft Sorgen“ und „Ich bin oft traurig“ stimmen pflegende Kinder deutlich öfter zu als nicht pflegende Kinder.\n\nAllerdings fühlen sich pflegende Kinder gegenüber nicht pflegenden Kindern erwachsener und wissen auch, dass sie wertvolle Unterstützung leisten. Das macht deutlich, dass die Erfahrungen nicht ausschließlich negativ bewertet werden können.\n\n",
+      "answer": "Young Carer zu sein hat Auswirkungen in vielen Bereichen. Pflegende Kinder geben deutlich öfter an, unter Müdigkeit, Schlafproblemen sowie Rücken- und Kopfschmerzen zu leiden.\n\nGroße Unterschiede zeigen sich auch in Bezug auf die psychische Verfassung der Kinder. Den Aussagen „Ich mache mir oft Sorgen“ und „Ich bin oft traurig“ stimmen pflegende Kinder deutlich öfter zu als nicht pflegende Kinder.\n\nAllerdings fühlen sich pflegende Kinder gegenüber nicht pflegenden Kindern erwachsener und wissen auch, dass sie wertvolle Unterstützung leisten. Das macht deutlich, dass die Erfahrungen nicht ausschließlich negativ bewertet werden können.",
       "showOnLandingPage": false
     },
     {
       "question": "Warum sind Young Carers schwer zu erreichen?",
-      "originalAnswer": [
-        {
-          "children": [
-            {
-              "text": "Viele Familien sind der Meinung, dass man zusammenhalten und die Krankheit und damit einhergehende Herausforderungen und Krisen selbst lösen muss. Das Helfen innerhalb der Familien wird – auch von den pflegenden Kindern – als selbstverständlich betrachtet. Young Carers nehmen sich selbst daher oft nicht als pflegende Kinder wahr."
-            }
-          ]
-        }
-      ],
-      "answer": "Viele Familien sind der Meinung, dass man zusammenhalten und die Krankheit und damit einhergehende Herausforderungen und Krisen selbst lösen muss. Das Helfen innerhalb der Familien wird – auch von den pflegenden Kindern – als selbstverständlich betrachtet. Young Carers nehmen sich selbst daher oft nicht als pflegende Kinder wahr.\n\n",
+      "answer": "Viele Familien sind der Meinung, dass man zusammenhalten und die Krankheit und damit einhergehende Herausforderungen und Krisen selbst lösen muss. Das Helfen innerhalb der Familien wird – auch von den pflegenden Kindern – als selbstverständlich betrachtet. Young Carers nehmen sich selbst daher oft nicht als pflegende Kinder wahr.",
       "showOnLandingPage": true
     },
     {
       "question": "Wohin können sich Young Carers wenden um Hilfe zu erhalten?",
-      "originalAnswer": [
-        {
-          "children": [
-            {
-              "text": "Betroffene Kinder und Jugendliche können sich u.a. an folgende Stellen wenden:"
-            }
-          ]
-        },
-        {
-          "type": "ul",
-          "children": [
-            {
-              "children": [
-                {
-                  "text": "Superhands – Information und Beratung für Kinder und Jugendliche mit \nPflegeverantwortung sowie deren Angehörige und MultiplikatorInnen "
-                },
-                {
-                  "type": "link",
-                  "newTab": false,
-                  "url": "https://www.superhands.at/",
-                  "children": [
-                    {
-                      "text": "Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym."
-                    }
-                  ]
-                },
-                {
-                  "text": ""
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "type": "li",
-              "children": [
-                {
-                  "text": ""
-                },
-                {
-                  "type": "link",
-                  "newTab": false,
-                  "url": "https://www.jugendrotkreuz.at/",
-                  "children": [
-                    {
-                      "text": "Österreichisches Jugendrotkreuz"
-                    }
-                  ]
-                },
-                {
-                  "text": ""
-                }
-              ]
-            },
-            {
-              "type": "li",
-              "children": [
-                {
-                  "text": ""
-                },
-                {
-                  "type": "link",
-                  "newTab": false,
-                  "url": "https://www.rataufdraht.at/",
-                  "children": [
-                    {
-                      "text": "147 Rat auf Draht - Notrufnummer & Beratung"
-                    }
-                  ]
-                },
-                {
-                  "text": ""
-                }
-              ]
-            },
-            {
-              "type": "li",
-              "children": [
-                {
-                  "text": ""
-                },
-                {
-                  "type": "link",
-                  "newTab": false,
-                  "url": "https://www.ig-pflege.at/",
-                  "children": [
-                    {
-                      "text": "Interessengemeinschaft pflegender Angehöriger"
-                    }
-                  ]
-                },
-                {
-                  "text": ""
-                }
-              ]
-            },
-            {
-              "type": "li",
-              "children": [
-                {
-                  "text": "Angehörigengespräch "
-                },
-                {
-                  "type": "link",
-                  "newTab": false,
-                  "url": "https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html",
-                  "children": [
-                    {
-                      "text": "Betreuende und pflegende Angehörige (sozialministerium.at)"
-                    }
-                  ]
-                },
-                {
-                  "text": ""
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "answer": "Betroffene Kinder und Jugendliche können sich u.a. an folgende Stellen wenden:\n\n* Superhands – Information und Beratung für Kinder und Jugendliche mit \nPflegeverantwortung sowie deren Angehörige und MultiplikatorInnen [Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.](https://www.superhands.at/)\n* [Österreichisches Jugendrotkreuz](https://www.jugendrotkreuz.at/)\n* [147 Rat auf Draht - Notrufnummer & Beratung](https://www.rataufdraht.at/)\n* [Interessengemeinschaft pflegender Angehöriger](https://www.ig-pflege.at/)\n* Angehörigengespräch [Betreuende und pflegende Angehörige (sozialministerium.at)](https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html)\n\n",
+      "answer": "Betroffene Kinder und Jugendliche können sich u.a. an folgende Stellen wenden:\n\n* Superhands – Information und Beratung für Kinder und Jugendliche mit   \nPflegeverantwortung sowie deren Angehörige und MultiplikatorInnen [Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.](https://www.superhands.at/)  \n* [Österreichisches Jugendrotkreuz](https://www.jugendrotkreuz.at/)  \n* [147 Rat auf Draht - Notrufnummer & Beratung](https://www.rataufdraht.at/)  \n* [Interessengemeinschaft pflegender Angehöriger](https://www.ig-pflege.at/)  \n* Angehörigengespräch [Betreuende und pflegende Angehörige (sozialministerium.at)](https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html)",
       "showOnLandingPage": true
     },
     {
       "question": "Warum ist es wichtig sich als Young Carer Hilfe zu holen?",
-      "originalAnswer": [
-        {
-          "children": [
-            {
-              "text": "\nTypischerweise kümmern sich Young Carers über einen längeren Zeitraum regelmäßig um ein erkranktes oder hilfebedürftiges Familienmitglied. Das ist eine große Herausforderung, der sich die meisten Kinder und Jugendlichen nicht stellen müssen. Es ist keine Schande nicht alles alleine zu schaffen! Achtet darauf und holt euch rechtzeitig Informationen und Unterstützung."
-            }
-          ]
-        }
-      ],
-      "answer": "\nTypischerweise kümmern sich Young Carers über einen längeren Zeitraum regelmäßig um ein erkranktes oder hilfebedürftiges Familienmitglied. Das ist eine große Herausforderung, der sich die meisten Kinder und Jugendlichen nicht stellen müssen. Es ist keine Schande nicht alles alleine zu schaffen! Achtet darauf und holt euch rechtzeitig Informationen und Unterstützung.\n\n",
+      "answer": "Typischerweise kümmern sich Young Carers über einen längeren Zeitraum regelmäßig um ein erkranktes oder hilfebedürftiges Familienmitglied. Das ist eine große Herausforderung, der sich die meisten Kinder und Jugendlichen nicht stellen müssen. Es ist keine Schande nicht alles alleine zu schaffen! Achtet darauf und holt euch rechtzeitig Informationen und Unterstützung.",
       "showOnLandingPage": false
     },
     {
       "question": "Was können Erwachsene (Eltern, Pädagoginnen/Pädagogen, sowie zum Thema Interessierte) bei der Begegnung/im Umgang mit Young Carers tun?",
-      "originalAnswer": [
-        {
-          "type": "ul",
-          "children": [
-            {
-              "children": [
-                {
-                  "text": "Begegnung auf Augenhöhe und mit Wertschätzung – auch gegenüber seiner Rolle als pflegender Angehöriger."
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": "Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote aufmerksam machen"
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": "Regelmäßige Nachfrage wie es dem betroffenen Young Carer geht"
-                }
-              ],
-              "type": "li"
-            },
-            {
-              "children": [
-                {
-                  "text": "Austausch mit Expert:innen, z.B. "
-                },
-                {
-                  "type": "link",
-                  "newTab": false,
-                  "url": "https://www.young-carers-austria.at/faq/www.ig-pflege.at",
-                  "children": [
-                    {
-                      "text": "IG Pflegende Angehörige"
-                    }
-                  ]
-                },
-                {
-                  "text": ", "
-                },
-                {
-                  "type": "link",
-                  "newTab": false,
-                  "url": "https://www.superhands.at",
-                  "children": [
-                    {
-                      "text": "superhands"
-                    }
-                  ]
-                },
-                {
-                  "text": ", u.a.m"
-                }
-              ],
-              "type": "li"
-            }
-          ]
-        }
-      ],
-      "answer": "* Begegnung auf Augenhöhe und mit Wertschätzung – auch gegenüber seiner Rolle als pflegender Angehöriger.\n* Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote aufmerksam machen\n* Regelmäßige Nachfrage wie es dem betroffenen Young Carer geht\n* Austausch mit Expert:innen, z.B. [IG Pflegende Angehörige](https://www.young-carers-austria.at/faq/www.ig-pflege.at), [superhands](https://www.superhands.at), u.a.m\n\n",
+      "answer": "* Begegnung auf Augenhöhe und mit Wertschätzung – auch gegenüber seiner Rolle als pflegender Angehöriger.  \n* Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote aufmerksam machen  \n* Regelmäßige Nachfrage wie es dem betroffenen Young Carer geht  \n* Austausch mit Expert:innen, z.B. [IG Pflegende Angehörige](https://www.young-carers-austria.at/faq/www.ig-pflege.at), [superhands](https://www.superhands.at), u.a.m",
       "showOnLandingPage": false
     },
     {
       "question": "Welche unterstützenden Maßnahmen für Young Carers sind in Umsetzung?",
-      "originalAnswer": [
-        {
-          "type": "p",
-          "children": [
-            {
-              "text": "Im aktuellen Regierungsprogramm wird ein besonderer Fokus auf die bestmögliche Unterstützung von betreuungs- und pflegebedürftigen Menschen sowie ihrer An- und Zugehörigen und Pflegenden gelegt. Persönliche, gesundheitliche und finanzielle Auswirkungen für pflegende Kinder und Jugendliche sollen durch präventive Maßnahmen und maßgeschneiderte Unterstützungsangebote abgefedert werden."
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "children": [
-            {
-              "text": "Die "
-            },
-            {
-              "text": "„Young Carers Austria“ App",
-              "bold": true
-            },
-            {
-              "text": " des Sozialministeriums gibt individuelle Hilfestellung für pflegende Kinder, Jugendliche und deren Familien bzw. Interessierte. Geboten werden praktische Links und Kontakte, Informationsmaterialien, Anleitungen zur Pflege, ein ABC für Young Carers und vieles mehr."
-            }
-          ]
-        }
-      ],
-      "answer": "Im aktuellen Regierungsprogramm wird ein besonderer Fokus auf die bestmögliche Unterstützung von betreuungs- und pflegebedürftigen Menschen sowie ihrer An- und Zugehörigen und Pflegenden gelegt. Persönliche, gesundheitliche und finanzielle Auswirkungen für pflegende Kinder und Jugendliche sollen durch präventive Maßnahmen und maßgeschneiderte Unterstützungsangebote abgefedert werden.\n\nDie **„Young Carers Austria“ App** des Sozialministeriums gibt individuelle Hilfestellung für pflegende Kinder, Jugendliche und deren Familien bzw. Interessierte. Geboten werden praktische Links und Kontakte, Informationsmaterialien, Anleitungen zur Pflege, ein ABC für Young Carers und vieles mehr.\n\n",
+      "answer": "Im aktuellen Regierungsprogramm wird ein besonderer Fokus auf die bestmögliche Unterstützung von betreuungs- und pflegebedürftigen Menschen sowie ihrer An- und Zugehörigen und Pflegenden gelegt. Persönliche, gesundheitliche und finanzielle Auswirkungen für pflegende Kinder und Jugendliche sollen durch präventive Maßnahmen und maßgeschneiderte Unterstützungsangebote abgefedert werden.\n\nDie **„Young Carers Austria“ App** des Sozialministeriums gibt individuelle Hilfestellung für pflegende Kinder, Jugendliche und deren Familien bzw. Interessierte. Geboten werden praktische Links und Kontakte, Informationsmaterialien, Anleitungen zur Pflege, ein ABC für Young Carers und vieles mehr.",
       "showOnLandingPage": false
     }
   ],
@@ -485,7 +96,7 @@
     "content": [
       {
         "type": "text",
-        "text": "**TODO**: hier gehört noch einiges gemacht\n\n"
+        "text": "**TODO**: hier gehört noch einiges gemacht"
       },
       {
         "type": "category",
@@ -493,7 +104,7 @@
           "id": "63685043638c16809e4d0d1d",
           "name": "Notfall(nummern)",
           "title": "Welche Nummer wähle ich im Notfall?",
-          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Ärztebereitschaftsdienst**: [141](tel:141)  \n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
           "entries": [
             {
               "ownerName": "austria4kids",
@@ -600,7 +211,7 @@
       },
       {
         "type": "text",
-        "text": "und hier wird noch mehr Text kommen\n\nbzw. vielleicht auch eine Referenz\n\n"
+        "text": "und hier wird noch mehr Text kommenbzw. vielleicht auch eine Referenz"
       },
       {
         "type": "reference",
@@ -620,10 +231,6 @@
             "vergesslich"
           ]
         }
-      },
-      {
-        "type": "text",
-        "text": "\n\n"
       }
     ],
     "state": "done"
@@ -639,276 +246,10 @@
   "insights": [
     {
       "question": "Besorgungen erledigen",
-      "contentOriginal": [
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa zu kümmern."
-            }
-          ]
-        },
-        {
-          "type": "relationship",
-          "value": {
-            "id": "63684e07638c16809e4d0bea",
-            "name": "Dienstleistungen / Soziale Dienste",
-            "heading": "Was sind soziale Dienste?",
-            "description": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Das "
-                  },
-                  {
-                    "text": "Ziel",
-                    "bold": true
-                  },
-                  {
-                    "text": " der sozialen Dienste ist "
-                  },
-                  {
-                    "text": "Menschen mit Pflegebedarf oder Beeinträchtigungen",
-                    "bold": true
-                  },
-                  {
-                    "text": " in verschiedenen Lebenssituationen zu unterstützen. Für Soziale Dienste sind die Bundesländer und Gemeinden zuständig. Auch "
-                  },
-                  {
-                    "text": "freie Wohlfahrtsträger",
-                    "bold": true
-                  },
-                  {
-                    "text": " wie "
-                  },
-                  {
-                    "type": "link",
-                    "href": "https://www.volkshilfe.at",
-                    "children": [
-                      {
-                        "text": "Volkshilfe"
-                      }
-                    ],
-                    "url": "https://www.volkshilfe.at",
-                    "linkType": "custom"
-                  },
-                  {
-                    "text": ", "
-                  },
-                  {
-                    "type": "link",
-                    "href": "https://www.hilfswerk.at/oesterreich/pflegekompass/",
-                    "children": [
-                      {
-                        "text": "Hilfswerk"
-                      }
-                    ],
-                    "url": "https://www.hilfswerk.at/oesterreich/pflegekompass/",
-                    "linkType": "custom"
-                  },
-                  {
-                    "text": ", "
-                  },
-                  {
-                    "type": "link",
-                    "href": "https://www.roteskreuz.at/ich-brauche-hilfe",
-                    "children": [
-                      {
-                        "text": "Rotes Kreuz"
-                      }
-                    ],
-                    "url": "https://www.roteskreuz.at/ich-brauche-hilfe",
-                    "linkType": "custom"
-                  },
-                  {
-                    "text": ", "
-                  },
-                  {
-                    "type": "link",
-                    "href": "https://www.caritas-pflege.at/",
-                    "children": [
-                      {
-                        "text": "Caritas"
-                      }
-                    ],
-                    "url": "https://www.caritas-pflege.at/",
-                    "linkType": "custom"
-                  },
-                  {
-                    "text": ", "
-                  },
-                  {
-                    "type": "link",
-                    "href": "https://diakonie.at/",
-                    "children": [
-                      {
-                        "text": "Diakonie"
-                      }
-                    ],
-                    "url": "https://diakonie.at/",
-                    "linkType": "custom"
-                  },
-                  {
-                    "text": " oder "
-                  },
-                  {
-                    "type": "link",
-                    "href": "https://www.samariterbund.net/pflege-und-betreuung/",
-                    "children": [
-                      {
-                        "text": "Samariterbund"
-                      }
-                    ],
-                    "url": "https://www.samariterbund.net/pflege-und-betreuung/",
-                    "linkType": "custom"
-                  },
-                  {
-                    "text": " sowie in Wien der "
-                  },
-                  {
-                    "type": "link",
-                    "href": "https://www.fsw.at/p/pflege-betreuung",
-                    "children": [
-                      {
-                        "text": "Fonds Soziales Wien"
-                      }
-                    ],
-                    "url": "https://www.fsw.at/p/pflege-betreuung",
-                    "linkType": "custom"
-                  },
-                  {
-                    "text": ", bieten diese Leistungen an."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Über das umfangreiche Angebot an Alten- und Pflegeheimen in ganz Österreich sowie Tagesbetreuung, Kurzzeitpflege, Wohngemeinschaften, Alltagsbegleitung sowie Entlastungsdienste kannst du dich beim "
-                  },
-                  {
-                    "type": "link",
-                    "href": "https://www.infoservice.sozialministerium.at",
-                    "children": [
-                      {
-                        "text": "Infoservice des Sozialministeriums"
-                      }
-                    ],
-                    "url": "https://www.infoservice.sozialministerium.at",
-                    "linkType": "custom"
-                  },
-                  {
-                    "text": " informieren."
-                  }
-                ]
-              }
-            ],
-            "keywords": "Behinderung, Beratung, Betreuung, Bundesland, Community Nurses, Community Nursing, Daheim, Dienstleistungen / Soziale Dienste, Eltern, Essen auf Rädern, FSW, Finanzielles, Geld, Gesundheit, Gesundheitsministerium, Großeltern, Haushalt, Heimhilfe, Hilfe, Mama, Ministerium, Mobil, Oma, Opa, Papa, Pflege, Pflegegeld, Pflegeplattform, Pfleger, Pflegerin, Plattform, Putzen, Sozial, Soziale Dienste, Sozialministerium, Unterstützung, Zu Hause, Zuhause, mobil, nachhause",
-            "_status": "published",
-            "createdAt": "2022-11-07T00:15:03.497Z",
-            "updatedAt": "2022-11-07T00:15:03.497Z"
-          },
-          "relationTo": "categories",
-          "children": [
-            {
-              "text": " "
-            }
-          ]
-        },
-        {
-          "children": [
-            {
-              "text": ""
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": ""
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": ""
-            }
-          ]
-        },
-        {
-          "type": "relationship",
-          "value": {
-            "id": "63684e84638c16809e4d0c2e",
-            "name": "Familie",
-            "heading": "Das Familienleben kann sehr turbulent sein!",
-            "description": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "In einer Familie kann es schon mal drunter und drüber gehen. Neben den ganzen schönen Momenten des Zusammenlebens gibt es aber natürlich auch "
-                  },
-                  {
-                    "text": "Alltagsprobleme.",
-                    "bold": true
-                  },
-                  {
-                    "text": " Damit alles klappt muss das Familienleben gut organisiert sein. Konflikte und schwierige Situationen gehören trotzdem dazu und den Umgang damit sollte man gelernt haben. Ein "
-                  },
-                  {
-                    "text": "gutes Miteinander",
-                    "bold": true
-                  },
-                  {
-                    "text": " ist das Wichtigste für eine angenehme Situation in der Familien."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Manchmal passiert es, dass Gewalt in der Familie auftritt, dann heißt es, "
-                  },
-                  {
-                    "text": "schnell Hilfe zu rufen",
-                    "bold": true
-                  },
-                  {
-                    "text": ". Zögere nicht, dir und deiner Familie helfen zu lassen!"
-                  }
-                ]
-              }
-            ],
-            "keywords": "Behinderung, Beratung, Bruder, Eltern, Familie, Familienberatung, Finanzielles, Geld, Geschwister, Gesundheit, Gesundheitsministerium, Gewalt, Großeltern, Hilfe, Mama, Ministerium, Mutter, Oma, Opa, Papa, Pflege, Pflegegeld, Pflegeplattform, Plattform, Problem, Schwester, Sozial, Sozialministerium, Unterstützung, Vater, daheim",
-            "_status": "published",
-            "createdAt": "2022-11-07T00:17:08.945Z",
-            "updatedAt": "2022-11-07T00:17:08.945Z"
-          },
-          "relationTo": "categories",
-          "children": [
-            {
-              "text": " "
-            }
-          ]
-        },
-        {
-          "children": [
-            {
-              "text": ""
-            }
-          ]
-        }
-      ],
       "content": [
         {
           "type": "text",
-          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa zu kümmern.\n\n"
+          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa zu kümmern."
         },
         {
           "type": "category",
@@ -1112,10 +453,6 @@
           }
         },
         {
-          "type": "text",
-          "text": "\n\n\n\n\n\n"
-        },
-        {
           "type": "category",
           "category": {
             "id": "63684e84638c16809e4d0c2e",
@@ -1175,101 +512,15 @@
               }
             ]
           }
-        },
-        {
-          "type": "text",
-          "text": "\n\n"
         }
       ]
     },
     {
       "question": "Den Haushalt schmeißen",
-      "contentOriginal": [
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "Nach der Schule holt Paul seine kleinen Geschwister von der Schule ab. Dann ist die Wäsche zu erledigen, es müsste auch mal wieder jemand aufräumen und Staub saugen. Zwischendurch hilft Paul seinen Geschwistern bei den Hausaufgaben. Wenn Papa am Abend heimkommt, wird gemeinsam eine Kleinigkeit gekocht und der Abwasch erledigt. Nach dem Essen müssen die Kleinen noch ins Bett gebracht werden."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": ""
-            }
-          ]
-        },
-        {
-          "type": "relationship",
-          "value": {
-            "id": "63684e84638c16809e4d0c2e",
-            "name": "Familie",
-            "heading": "Das Familienleben kann sehr turbulent sein!",
-            "description": [
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "In einer Familie kann es schon mal drunter und drüber gehen. Neben den ganzen schönen Momenten des Zusammenlebens gibt es aber natürlich auch "
-                  },
-                  {
-                    "text": "Alltagsprobleme.",
-                    "bold": true
-                  },
-                  {
-                    "text": " Damit alles klappt muss das Familienleben gut organisiert sein. Konflikte und schwierige Situationen gehören trotzdem dazu und den Umgang damit sollte man gelernt haben. Ein "
-                  },
-                  {
-                    "text": "gutes Miteinander",
-                    "bold": true
-                  },
-                  {
-                    "text": " ist das Wichtigste für eine angenehme Situation in der Familien."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "children": [
-                  {
-                    "text": "Manchmal passiert es, dass Gewalt in der Familie auftritt, dann heißt es, "
-                  },
-                  {
-                    "text": "schnell Hilfe zu rufen",
-                    "bold": true
-                  },
-                  {
-                    "text": ". Zögere nicht, dir und deiner Familie helfen zu lassen!"
-                  }
-                ]
-              }
-            ],
-            "keywords": "Behinderung, Beratung, Bruder, Eltern, Familie, Familienberatung, Finanzielles, Geld, Geschwister, Gesundheit, Gesundheitsministerium, Gewalt, Großeltern, Hilfe, Mama, Ministerium, Mutter, Oma, Opa, Papa, Pflege, Pflegegeld, Pflegeplattform, Plattform, Problem, Schwester, Sozial, Sozialministerium, Unterstützung, Vater, daheim",
-            "_status": "published",
-            "createdAt": "2022-11-07T00:17:08.945Z",
-            "updatedAt": "2022-11-07T00:17:08.945Z"
-          },
-          "relationTo": "categories",
-          "children": [
-            {
-              "text": " "
-            }
-          ]
-        },
-        {
-          "children": [
-            {
-              "text": ""
-            }
-          ]
-        }
-      ],
       "content": [
         {
           "type": "text",
-          "text": "Nach der Schule holt Paul seine kleinen Geschwister von der Schule ab. Dann ist die Wäsche zu erledigen, es müsste auch mal wieder jemand aufräumen und Staub saugen. Zwischendurch hilft Paul seinen Geschwistern bei den Hausaufgaben. Wenn Papa am Abend heimkommt, wird gemeinsam eine Kleinigkeit gekocht und der Abwasch erledigt. Nach dem Essen müssen die Kleinen noch ins Bett gebracht werden.\n\n\n\n"
+          "text": "Nach der Schule holt Paul seine kleinen Geschwister von der Schule ab. Dann ist die Wäsche zu erledigen, es müsste auch mal wieder jemand aufräumen und Staub saugen. Zwischendurch hilft Paul seinen Geschwistern bei den Hausaufgaben. Wenn Papa am Abend heimkommt, wird gemeinsam eine Kleinigkeit gekocht und der Abwasch erledigt. Nach dem Essen müssen die Kleinen noch ins Bett gebracht werden."
         },
         {
           "type": "category",
@@ -1331,41 +582,15 @@
               }
             ]
           }
-        },
-        {
-          "type": "text",
-          "text": "\n\n"
         }
       ]
     },
     {
       "question": "Für die Schule arbeiten und Helfen ist dir zu viel",
-      "contentOriginal": [
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "Gib nicht auf!",
-              "bold": true
-            },
-            {
-              "text": " Wir alle kennen das Gefühl, wenn man zu viel zu tun hat."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "Wende dich an eine Person, der du vertraust. Berichte über deine Situation und frage nach Hilfe. In der Schule kannst du mit deinen Lehrer:innen sprechen oder auch mit den Schulpsychologinnen/Schulpsychologen. In den Beiträgen findest du vielleicht Inspiration und Hilfe."
-            }
-          ]
-        }
-      ],
       "content": [
         {
           "type": "text",
-          "text": "**Gib nicht auf!** Wir alle kennen das Gefühl, wenn man zu viel zu tun hat.\n\nWende dich an eine Person, der du vertraust. Berichte über deine Situation und frage nach Hilfe. In der Schule kannst du mit deinen Lehrer:innen sprechen oder auch mit den Schulpsychologinnen/Schulpsychologen. In den Beiträgen findest du vielleicht Inspiration und Hilfe.\n\n"
+          "text": "**Gib nicht auf!** Wir alle kennen das Gefühl, wenn man zu viel zu tun hat.Wende dich an eine Person, der du vertraust. Berichte über deine Situation und frage nach Hilfe. In der Schule kannst du mit deinen Lehrer:innen sprechen oder auch mit den Schulpsychologinnen/Schulpsychologen. In den Beiträgen findest du vielleicht Inspiration und Hilfe."
         }
       ]
     }
@@ -3748,7 +2973,7 @@
       "id": "63685043638c16809e4d0d1d",
       "name": "Notfall(nummern)",
       "title": "Welche Nummer wähle ich im Notfall?",
-      "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)\n* **Polizei**: [133](tel:133)\n* **Rettung**: [144](tel:144)\n* **Ärztebereitschaftsdienst**: [141](tel:141)\n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+      "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Ärztebereitschaftsdienst**: [141](tel:141)  \n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
       "entries": [
         {
           "ownerName": "austria4kids",
@@ -4127,7 +3352,7 @@
       "id": "636850b0638c16809e4d0d50",
       "name": "Prävention",
       "title": "Was kann man im Vorfeld tun?",
-      "information": "Allgemein wird **Prävention** mit Vorbeugen gleichgesetzt. Es geht darum eine Erkrankung zu verhindern, zu verzögern oder die Krankheitsfolgen zu vermeiden. Die Prävention setzt also an konkreten **Gesundheitsrisiken** eines Menschen an.\n\nDie wichtigsten Punkte sind:\n\n1. Förderung der Gesundheit, um bestimmte Krankheiten zu vermeiden\n1. Früherkennung und\n1. Rehabilitation\n\n**In diesem Sinne:** Wenn du dich z.B. psychisch oder körperlich belastet fühlst, solltest du dir Unterstützung holen. Das ist keine Schande!",
+      "information": "Allgemein wird **Prävention** mit Vorbeugen gleichgesetzt. Es geht darum eine Erkrankung zu verhindern, zu verzögern oder die Krankheitsfolgen zu vermeiden. Die Prävention setzt also an konkreten **Gesundheitsrisiken** eines Menschen an.\n\nDie wichtigsten Punkte sind:\n\n1. Förderung der Gesundheit, um bestimmte Krankheiten zu vermeiden  \n1. Früherkennung und  \n1. Rehabilitation\n\n**In diesem Sinne:** Wenn du dich z.B. psychisch oder körperlich belastet fühlst, solltest du dir Unterstützung holen. Das ist keine Schande!",
       "entries": [
         {
           "ownerName": "Fonds Gesundes Österreich",
@@ -5809,22 +5034,22 @@
     {
       "key": "imprint",
       "title": "Impressum",
-      "content": "Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz\nStubenring 1, 1010 Wien\nTelefon: [+43 1 711 00 – 0\n](tel:+431711000)E-Mail: [post@sozialministerium.at](mailto:post@sozialministerium.at)\n\n**Für die Inhalte zuständig:** Für die Inhalte der verlinkten Seiten, sind die jeweiligen Seiteninhaber:innen verantwortlich. Die Auswahl der Inhalte erfolgte durch die Fachabteilung im Sozialministerium. Sollten Sie selbst Seiteninhaber:in sein und möchten Ihre Inhalte abgebildet sehen, bitte wenden Sie sich per E-Mail an [yc-support@sozialministerium.at](mailto:yc-support@sozialministerium.at) ."
+      "content": "Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz  \nStubenring 1, 1010 Wien  \nTelefon: [+43 1 711 00 – 0  \n](tel:+431711000)E-Mail: [post@sozialministerium.at](mailto:post@sozialministerium.at)\n\n**Für die Inhalte zuständig:** Für die Inhalte der verlinkten Seiten, sind die jeweiligen Seiteninhaber:innen verantwortlich. Die Auswahl der Inhalte erfolgte durch die Fachabteilung im Sozialministerium. Sollten Sie selbst Seiteninhaber:in sein und möchten Ihre Inhalte abgebildet sehen, bitte wenden Sie sich per E-Mail an [yc-support@sozialministerium.at](mailto:yc-support@sozialministerium.at) ."
     },
     {
       "key": "copyright",
       "title": "Copyright",
-      "content": "Die Urheber- und Nutzungsrechte der direkt in der App zur Verfügung gestellten Information sowie alle sonstigen damit zusammenhängende Schutzrechte, liegen beim Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz.\n\nDie in dieser App veröffentlichten Beiträge sind urheberrechtlich geschützt. Alle Rechte bleiben vorbehalten. Das Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz kann für die Inhalte der App keine Haftung übernehmen. Wir bemühen uns um Qualität, Aktualität, Vollständigkeit und Richtigkeit der Informationen. Fehler und Irrtümer können aber nicht ausgeschlossen werden; Rückmeldungen werden gerne entgegengenommen.\n\nDie Vervielfältigung von Texten und Daten einschließlich der (digitalen) Speicherung und Nutzung auf optischen und elektronischen Datenträgern darf nur mit vorheriger schriftlicher Zustimmung durch das Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz erfolgen.Die Verwendung der Texte und Daten einschließlich Einspeisung in Online-Dienste, Datenbanken oder Websites durch unberechtigte Dritte sowie die Veränderung oder Verfälschung von Informationen ist untersagt. Der Download sowie der Ausdruck zum persönlichen, nicht kommerziellen Gebrauch ist jedoch gestattet.\n\nFür sämtliche Inhalte, die über einen Link aus der App heraus geöffnet werden, kann keine Haftung übernommen werden. Die Urheber- und Nutzungsrechte dieser Inhalte liegen bei den jeweiligen Betreibern der Websites.\n\n**Ansprechpersonen**\n\nFür den direkten Inhalt der App verantwortlich:\n\nBundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz, Abteilung Kommunikation und Service\nStubenring 11010 Wien\n[E-Mail](mailto:yc-support@sozialministerium.at)"
+      "content": "Die Urheber- und Nutzungsrechte der direkt in der App zur Verfügung gestellten Information sowie alle sonstigen damit zusammenhängende Schutzrechte, liegen beim Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz.\n\nDie in dieser App veröffentlichten Beiträge sind urheberrechtlich geschützt. Alle Rechte bleiben vorbehalten. Das Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz kann für die Inhalte der App keine Haftung übernehmen. Wir bemühen uns um Qualität, Aktualität, Vollständigkeit und Richtigkeit der Informationen. Fehler und Irrtümer können aber nicht ausgeschlossen werden; Rückmeldungen werden gerne entgegengenommen.\n\nDie Vervielfältigung von Texten und Daten einschließlich der (digitalen) Speicherung und Nutzung auf optischen und elektronischen Datenträgern darf nur mit vorheriger schriftlicher Zustimmung durch das Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz erfolgen.Die Verwendung der Texte und Daten einschließlich Einspeisung in Online-Dienste, Datenbanken oder Websites durch unberechtigte Dritte sowie die Veränderung oder Verfälschung von Informationen ist untersagt. Der Download sowie der Ausdruck zum persönlichen, nicht kommerziellen Gebrauch ist jedoch gestattet.\n\nFür sämtliche Inhalte, die über einen Link aus der App heraus geöffnet werden, kann keine Haftung übernommen werden. Die Urheber- und Nutzungsrechte dieser Inhalte liegen bei den jeweiligen Betreibern der Websites.\n\n**Ansprechpersonen**\n\nFür den direkten Inhalt der App verantwortlich:\n\nBundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz, Abteilung Kommunikation und Service  \nStubenring 11010 Wien  \n[E-Mail](mailto:yc-support@sozialministerium.at)"
     },
     {
       "key": "accessibility",
       "title": "Datenschutzerklärung",
-      "content": "Angaben gemäß Web-Zugänglichkeits-Gesetz (WZG)\n\n## Erklärung zur Barrierefreiheit\n\nDas Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz (Sozialministerium) ist bemüht, sowohl seine Websites, als auch seine mobilen Anwendungen im Einklang mit dem [Web-Zugänglichkeits-Gesetz (WZG) idgF](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20010727) zur Umsetzung der [Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen (Amtsblatt L 327 vom 2.12.2016, S. 1)](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016L2102) barrierefrei zugänglich zu machen.\n\nDiese Erklärung zur Barrierefreiheit gilt für die mobile App YoungCarers Austria.\n\n## Stand der Vereinbarkeit mit den Anforderungen\n\nDiese Anwendung ist mit **Konformitätsstufe AA der \"Richtlinien für barrierefreie Webinhalte Web –** [**WCAG 2.1**](undefined)**\"** beziehungsweise mit dem geltenden Europäischen Standard EN 301 549 V2.1.2 (2018-08) geprüft und vereinbar.\n\n## Nicht barrierefreie Inhalte\n\nDa die Anwendung vorwiegend auf externe Inhalte verlinkt und die Möglichkeit der einfacheren Auffindbarkeit dieser bietet, liegt die Barrierefreiheit fremder Inhalte nicht in der Kompetenz des Sozialministeriums. Für verlinkte Inhalte von Dritten, beispielsweise Videos oder Infomaterialien von externen Organisationen, die nicht im Einflussbereich des Sozialministeriums liegen, kann bezüglich Vereinbarkeit mit Barrierefreiheitsbestimmungen keine Aussage getroffen werden.\n\n## Erstellung dieser Erklärung zur Barrierefreiheit\n\nDiese Erklärung wurde am 04. November 2021 erstellt.\n\nDie Bewertung der Vereinbarkeit der Website mit dem WZG zur Umsetzung der Anforderungen der Richtlinie (EU) 2016/2102 erfolgte in Form eines Selbsttests nach WCAG 2.1 im Konformitätslevel AA im November 2021 sowie einer externen Überprüfung durch die Hilfsgemeinschaft der Blinden und Sehschwachen Österreichs. Überprüft (für mobile OS: Apple IOS und Google Android) wurden die Startseite, mehrere Kategorienseiten, mehrere Texteinträge, die Krankenhaussuche, die Suche und das Suchergebnis.\n\n## Feedback und Kontaktangaben\n\nDie Angebote und Services  dieser Anwendung werden laufend verbessert, ausgetauscht und ausgebaut. Dabei ist uns die Bedienbarkeit und Zugänglichkeit ein großes Anliegen.\n\nWenn Ihnen Barrieren auffallen, die Sie an der Benutzung unserer Anwendung behindern – Probleme, die in dieser Erklärung nicht beschrieben sind, Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen – so bitten wir Sie, uns diese per E Mail mitzuteilen. Wir werden Ihre Anfrage prüfen und Sie ehestmöglich kontaktieren.\n\nSämtliche Mitteilungen und Anregungen senden Sie bitte an die [Supportadresse](mailto:yc-support@sozialministerium.at) mit dem Betreff \"Meldung einer Barriere in der Young Carers App\". Bitte beschreiben Sie das Problem und wo es auftritt (inkl. Gerät, Betriebssystemversion, eingesetzte Hilfsmittel, besondere Einstellungen).\n\n## Durchsetzungsverfahren\n\nBei nicht zufriedenstellenden Antworten aus oben genannter Kontaktmöglichkeit können Sie sich mittels Beschwerde an die Österreichische Forschungsförderungsgesellschaft mit beschränkter Haftung (FFG) wenden. Die FFG nimmt über das Kontaktformular Beschwerden auf elektronischem Weg entgegen.\n\n[Kontaktformular der Beschwerdestelle](https://www.ffg.at/form/kontaktformular-beschwerdestelle)\n\nDie Beschwerden werden von der FFG dahingehend geprüft, ob sie sich auf Verstöße gegen die Vorgaben des Web-Zugänglichkeits-Gesetzes, insbesondere Mängel bei der Einhaltung der Barrierefreiheitsanforderungen, durch den Bund oder einer ihm zuordenbaren Einrichtung beziehen.Sofern die Beschwerde berechtigt ist, hat die FFG dem Bund oder den betroffenen Rechtsträgern Handlungsempfehlungen auszusprechen und Maßnahmen vorzuschlagen, die der Beseitigung der vorliegenden Mängel dienen.\n\n[Weitere Informationen zum Beschwerdeverfahren](https://www.ffg.at/digitale-barrierefreiheit/digitales-zugaenglich-machen/beschwerdestelle)\n\n## Fakultative Inhalte: Zusatzinformationen\n\nDie Anwendung YoungCarers Austria wurde im Jahr 2021 entwickelt.\n\nDas Sozialministerium ist um eine möglichst barrierefreie Zugänglichkeit zu seinen Internet-Angeboten bemüht. Dabei orientieren wir uns seit dem Jahr 2008 in Übereinstimmung mit den nationalen Rechtsvorschriften \"E-Government-Gesetz 2004\" und den geltenden einschlägigen Anti-Diskriminierungsbestimmungen an den Richtlinien für barrierefreie Inhalte WCAG 2.0/2.1. Eine Überprüfung nach allen A- und AA-Kriterien der WCAG 2.1 ist für diese Anwendung vor der Veröffentlichung erfolgt.\n\nLetzte Aktualisierung: 05. November 2021"
+      "content": "Angaben gemäß Web-Zugänglichkeits-Gesetz (WZG)\n\n### Erklärung zur Barrierefreiheit\n\nDas Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz (Sozialministerium) ist bemüht, sowohl seine Websites, als auch seine mobilen Anwendungen im Einklang mit dem [Web-Zugänglichkeits-Gesetz (WZG) idgF](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20010727) zur Umsetzung der [Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen (Amtsblatt L 327 vom 2.12.2016, S. 1)](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016L2102) barrierefrei zugänglich zu machen.\n\nDiese Erklärung zur Barrierefreiheit gilt für die mobile App YoungCarers Austria.\n\n### Stand der Vereinbarkeit mit den Anforderungen\n\nDiese Anwendung ist mit **Konformitätsstufe AA der \"Richtlinien für barrierefreie Webinhalte Web –** [**WCAG 2.1**](undefined)**\"** beziehungsweise mit dem geltenden Europäischen Standard EN 301 549 V2.1.2 (2018-08) geprüft und vereinbar.\n\n### Nicht barrierefreie Inhalte\n\nDa die Anwendung vorwiegend auf externe Inhalte verlinkt und die Möglichkeit der einfacheren Auffindbarkeit dieser bietet, liegt die Barrierefreiheit fremder Inhalte nicht in der Kompetenz des Sozialministeriums. Für verlinkte Inhalte von Dritten, beispielsweise Videos oder Infomaterialien von externen Organisationen, die nicht im Einflussbereich des Sozialministeriums liegen, kann bezüglich Vereinbarkeit mit Barrierefreiheitsbestimmungen keine Aussage getroffen werden.\n\n### Erstellung dieser Erklärung zur Barrierefreiheit\n\nDiese Erklärung wurde am 04. November 2021 erstellt.\n\nDie Bewertung der Vereinbarkeit der Website mit dem WZG zur Umsetzung der Anforderungen der Richtlinie (EU) 2016/2102 erfolgte in Form eines Selbsttests nach WCAG 2.1 im Konformitätslevel AA im November 2021 sowie einer externen Überprüfung durch die Hilfsgemeinschaft der Blinden und Sehschwachen Österreichs. Überprüft (für mobile OS: Apple IOS und Google Android) wurden die Startseite, mehrere Kategorienseiten, mehrere Texteinträge, die Krankenhaussuche, die Suche und das Suchergebnis.\n\n### Feedback und Kontaktangaben\n\nDie Angebote und Services  dieser Anwendung werden laufend verbessert, ausgetauscht und ausgebaut. Dabei ist uns die Bedienbarkeit und Zugänglichkeit ein großes Anliegen.\n\nWenn Ihnen Barrieren auffallen, die Sie an der Benutzung unserer Anwendung behindern – Probleme, die in dieser Erklärung nicht beschrieben sind, Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen – so bitten wir Sie, uns diese per E Mail mitzuteilen. Wir werden Ihre Anfrage prüfen und Sie ehestmöglich kontaktieren.\n\nSämtliche Mitteilungen und Anregungen senden Sie bitte an die [Supportadresse](mailto:yc-support@sozialministerium.at) mit dem Betreff \"Meldung einer Barriere in der Young Carers App\". Bitte beschreiben Sie das Problem und wo es auftritt (inkl. Gerät, Betriebssystemversion, eingesetzte Hilfsmittel, besondere Einstellungen).\n\n### Durchsetzungsverfahren\n\nBei nicht zufriedenstellenden Antworten aus oben genannter Kontaktmöglichkeit können Sie sich mittels Beschwerde an die Österreichische Forschungsförderungsgesellschaft mit beschränkter Haftung (FFG) wenden. Die FFG nimmt über das Kontaktformular Beschwerden auf elektronischem Weg entgegen.\n\n[Kontaktformular der Beschwerdestelle](https://www.ffg.at/form/kontaktformular-beschwerdestelle)\n\nDie Beschwerden werden von der FFG dahingehend geprüft, ob sie sich auf Verstöße gegen die Vorgaben des Web-Zugänglichkeits-Gesetzes, insbesondere Mängel bei der Einhaltung der Barrierefreiheitsanforderungen, durch den Bund oder einer ihm zuordenbaren Einrichtung beziehen.Sofern die Beschwerde berechtigt ist, hat die FFG dem Bund oder den betroffenen Rechtsträgern Handlungsempfehlungen auszusprechen und Maßnahmen vorzuschlagen, die der Beseitigung der vorliegenden Mängel dienen.\n\n[Weitere Informationen zum Beschwerdeverfahren](https://www.ffg.at/digitale-barrierefreiheit/digitales-zugaenglich-machen/beschwerdestelle)\n\n### Fakultative Inhalte: Zusatzinformationen\n\nDie Anwendung YoungCarers Austria wurde im Jahr 2021 entwickelt.\n\nDas Sozialministerium ist um eine möglichst barrierefreie Zugänglichkeit zu seinen Internet-Angeboten bemüht. Dabei orientieren wir uns seit dem Jahr 2008 in Übereinstimmung mit den nationalen Rechtsvorschriften \"E-Government-Gesetz 2004\" und den geltenden einschlägigen Anti-Diskriminierungsbestimmungen an den Richtlinien für barrierefreie Inhalte WCAG 2.0/2.1. Eine Überprüfung nach allen A- und AA-Kriterien der WCAG 2.1 ist für diese Anwendung vor der Veröffentlichung erfolgt.\n\nLetzte Aktualisierung: 05. November 2021"
     },
     {
       "key": "gdpr",
       "title": "Barrierefreiheitserklärung",
-      "content": "## Verantwortlicher\n\n[](mailto:yc-support@sozialministerium.at)Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz\nStubenring 1, 1010 Wien\n[yc-support@sozialministerium.at](mailto:yc-support@sozialministerium.at)\n\n## Auftragsverarbeiter (technische Umsetzung)\n\nBundesrechenzentrum GmbH\nHintere Zollamtsstraße 4, 1030 Wien\nDatenschutzbeauftragter: Mag. Florian Reininger\nStubenring 1, 1010 Wien\n[florian.reininger@sozialministerium.at](mailto:florian.reininger@sozialministerium.at)\n\nDie App verfolgt den Zweck der umfassenden Information der Bürgerinnen und Bürger zum Thema Young Carers in Österreich und den bestehenden Unterstützungsangeboten auf Grundlage des § 33e Bundespflegegeldgesetz – BPGG. Wenn Sie die App im App Store (z.B. Google Play Store oder Apple App Store) downloaden, werden Sie dort Daten angeben müssen (z.B. Nutzername, E-Mail-Adresse). Diese werden zusammen mit anderen Infos wie z.B. der Kundennummer Ihres Accounts, dem Zeitpunkt des Downloads sowie die individuelle Gerätekennziffer an den App Store übermittelt und verarbeitet. Die Verarbeitung dieser Daten erfolgt ausschließlich durch den jeweiligen App Store und liegt außerhalb unseres Einflussbereiches und wir sind somit für diese Verarbeitung nicht die verantwortliche Stelle. Datenschutzinformationen sind direkt bei [Google](https://policies.google.com/privacy) bzw. [Apple](https://support.apple.com/de-at/HT210584) zu finden. In der App selbst werden grundsätzlich keine personenbezogenen Daten gespeichert, bzw. geteilt. Die persönlichen Präferenzen (Inhalt, Kalender, Kategorien), die die Benutzer:innen vornehmen können, liegen lediglich lokal auf dem Gerät und werden nicht synchronisiert. Außerdem sind sie nicht mit dem Benutzerkonto des Gerätes verknüpft. Beim Löschen der App werden diese automatisch mitentfernt.Eine Datenverarbeitung Ihrer persönlichen Daten erfolgt auf Grund Ihrer Einwilligung und lediglich dann, wenn Sie über die integrierte Supportfunktion mithilfe des Kontaktformulars mit uns in Kontakt treten. Die von Ihnen freiwillig bereitgestellten Daten wie z.B. E-Mail werden ausschließlich dem BRZ als Auftragsverarbeiter für die technische Umsetzung weitergegeben. Ohne Angabe dieser Daten können weder Fragen bzw. Anliegen an uns herangetragen werden, noch können wir darauf reagieren.Ihre Daten werden nach Wegfall des Verarbeitungszwecks gelöscht. Ihnen kommen die Rechte aus der DSGVO und dem DSG zu, d.h. Sie haben das Recht auf Auskunft, Löschung, Berichtigung, Einschränkung der Verarbeitung und das Recht auf Widerruf. Sie haben das Recht auf Beschwerde bei der Österreichischen Datenschutzbehörde ([dsb@dsb.gv.at](mailto:dsb@dsb.gv.at); Barichgasse 40 bis 42, 1030 Wien), wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO oder gegen § 1 oder Artikel 2 1. Hauptstück des DSG verstößt."
+      "content": "### Verantwortlicher\n\n[](mailto:yc-support@sozialministerium.at)Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz  \nStubenring 1, 1010 Wien  \n[yc-support@sozialministerium.at](mailto:yc-support@sozialministerium.at)\n\n### Auftragsverarbeiter (technische Umsetzung)\n\nBundesrechenzentrum GmbH  \nHintere Zollamtsstraße 4, 1030 Wien  \nDatenschutzbeauftragter: Mag. Florian Reininger  \nStubenring 1, 1010 Wien  \n[florian.reininger@sozialministerium.at](mailto:florian.reininger@sozialministerium.at)\n\nDie App verfolgt den Zweck der umfassenden Information der Bürgerinnen und Bürger zum Thema Young Carers in Österreich und den bestehenden Unterstützungsangeboten auf Grundlage des § 33e Bundespflegegeldgesetz – BPGG. Wenn Sie die App im App Store (z.B. Google Play Store oder Apple App Store) downloaden, werden Sie dort Daten angeben müssen (z.B. Nutzername, E-Mail-Adresse). Diese werden zusammen mit anderen Infos wie z.B. der Kundennummer Ihres Accounts, dem Zeitpunkt des Downloads sowie die individuelle Gerätekennziffer an den App Store übermittelt und verarbeitet. Die Verarbeitung dieser Daten erfolgt ausschließlich durch den jeweiligen App Store und liegt außerhalb unseres Einflussbereiches und wir sind somit für diese Verarbeitung nicht die verantwortliche Stelle. Datenschutzinformationen sind direkt bei [Google](https://policies.google.com/privacy) bzw. [Apple](https://support.apple.com/de-at/HT210584) zu finden. In der App selbst werden grundsätzlich keine personenbezogenen Daten gespeichert, bzw. geteilt. Die persönlichen Präferenzen (Inhalt, Kalender, Kategorien), die die Benutzer:innen vornehmen können, liegen lediglich lokal auf dem Gerät und werden nicht synchronisiert. Außerdem sind sie nicht mit dem Benutzerkonto des Gerätes verknüpft. Beim Löschen der App werden diese automatisch mitentfernt.Eine Datenverarbeitung Ihrer persönlichen Daten erfolgt auf Grund Ihrer Einwilligung und lediglich dann, wenn Sie über die integrierte Supportfunktion mithilfe des Kontaktformulars mit uns in Kontakt treten. Die von Ihnen freiwillig bereitgestellten Daten wie z.B. E-Mail werden ausschließlich dem BRZ als Auftragsverarbeiter für die technische Umsetzung weitergegeben. Ohne Angabe dieser Daten können weder Fragen bzw. Anliegen an uns herangetragen werden, noch können wir darauf reagieren.Ihre Daten werden nach Wegfall des Verarbeitungszwecks gelöscht. Ihnen kommen die Rechte aus der DSGVO und dem DSG zu, d.h. Sie haben das Recht auf Auskunft, Löschung, Berichtigung, Einschränkung der Verarbeitung und das Recht auf Widerruf. Sie haben das Recht auf Beschwerde bei der Österreichischen Datenschutzbehörde ([dsb@dsb.gv.at](mailto:dsb@dsb.gv.at); Barichgasse 40 bis 42, 1030 Wien), wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO oder gegen § 1 oder Artikel 2 1. Hauptstück des DSG verstößt."
     },
     {
       "key": "welcome-hello",
@@ -5842,5 +5067,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-11T14:46:37.983Z"
+  "timestamp": "2022-11-13T09:29:37.038Z"
 }
