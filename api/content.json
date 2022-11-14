@@ -2866,6 +2866,33 @@
           ]
         },
         {
+          "ownerName": "LOGO! Jugendmanagement Steiermark",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.logo.at",
+              "title": "Jugendliche Steiermark",
+              "description": "Besuche hier \"Logo\" das Jugendmanagement in der Steiermark.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-steiermark.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T08:55:27.681Z",
+              "keywords": [
+                "Auszeit",
+                "Bundesland",
+                "Entspannung",
+                "Freizeit",
+                "Hobby",
+                "Pflege",
+                "Soziale Dienste",
+                "Sport",
+                "Steiermark",
+                "Urlaub",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "wienXtra-jugendinfo",
           "ownerUrl": "",
           "references": [
@@ -5373,5 +5400,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T08:55:11.489Z"
+  "timestamp": "2022-11-14T08:55:49.223Z"
 }
