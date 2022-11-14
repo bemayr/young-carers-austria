@@ -2862,6 +2862,24 @@
                 "Sport",
                 "Urlaub"
               ]
+            },
+            {
+              "url": "https://www.jugendinfo.at/",
+              "title": "Jugendinfo Österreich",
+              "description": "Österreichische Jugendinfostellen - alle Fragen sind erlaubt! Finde Informationen dazu unter folgendem Link.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-österreich.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:01:14.056Z",
+              "keywords": [
+                "Auszeit",
+                "Bundesnetzwerk Österreichische Jugendinfos",
+                "Entspannung",
+                "Freizeit",
+                "Hobby",
+                "Jugendinfo",
+                "Sport",
+                "Urlaub"
+              ]
             }
           ]
         },
@@ -5535,5 +5553,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:00:53.148Z"
+  "timestamp": "2022-11-14T09:01:42.256Z"
 }
