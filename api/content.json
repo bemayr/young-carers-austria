@@ -3012,6 +3012,32 @@
       "information": "In Österreich sind volljährige Staatsbürger:innen im Notfall zur Leistung von Erster Hilfe **verpflichtet**. Doch haben viele Menschen Angst, dabei etwas falsch zu machen. In Wahrheit gibt es aber nur einen **einzigen Fehler: Nichts zu tun!** Kenntnisse über Erste Hilfe sind leicht erlernbar und sollten regelmäßig geübt werden. Es werden auch Online-Kurse angeboten. Außerdem gibt es Lehrvideos z.B. vom [Roten Kreuz](https://www.roteskreuz.at/ich-will-helfen/erste-hilfe), um dich für den Ernstfall vorzubereiten.",
       "entries": [
         {
+          "ownerName": "Die Johanniter",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.johanniter.at/erstehilfetipps/",
+              "title": "Erste Hilfe - Damit du gewappnet bist",
+              "description": "Die Johanniter bieten Erste Hilfe Tipps an.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T11:51:56.039Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratungsstelle",
+                "Die Johanniter",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Organisation",
+                "Rat",
+                "Rettung",
+                "Superhands",
+                "Unterstützung"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "IG Pflege",
           "ownerUrl": "",
           "references": [
@@ -7157,5 +7183,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T11:43:14.109Z"
+  "timestamp": "2022-11-14T11:52:30.404Z"
 }
