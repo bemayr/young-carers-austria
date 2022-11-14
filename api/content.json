@@ -2896,6 +2896,35 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Sozialministerium",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheit.gv.at/news/aktuelles/archiv-2014/aktuell-haendehygiene2014.html",
+              "title": "Händehygiene",
+              "description": "Wenig Aufwand, große Wirkung!",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:23:12.760Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6026,5 +6055,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:22:26.192Z"
+  "timestamp": "2022-11-14T09:23:45.073Z"
 }
