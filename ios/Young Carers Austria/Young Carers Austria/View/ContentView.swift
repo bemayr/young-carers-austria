@@ -38,22 +38,25 @@ struct ContentView: View {
 
     var body: some View {
         if let content = viewModel.content {
-            WelcomePage(metadata: content.metadata)
-            
-//            TabView(selection: $selection) {
-//                TabViewItem(.insights, label: "Hilfe", icon: "alert_fragezeichen") {
-//                    InsightsPage(help: content.help, insights: content.insights, faqs: content.faqs, refreshContent: refreshContent)
-//                }
-//                TabViewItem(.categories, label: "Infos", icon: "alert_tipp") {
-//                    CategoriesPage(infos: content.infos, categories: content.abc)
-//                }
-//                TabViewItem(.emergency, label: "Im Notfall", icon: "themen_gesundheit_notfaelle") {
-//                    EmergencyPage(emergency: content.emergency)
-//                }
-//                TabViewItem(.about, label: "Über", icon: "more") {
-//                    AboutPage(metadata: content.metadata, contentTimestamp: content.timestamp)
-//                }
-//            }
+            if (viewModel.showLaunchScreen ?? true) {
+                WelcomePage(metadata: content.metadata, dismiss: viewModel.completeWelcomeScreen)
+            }
+            else {
+                TabView(selection: $selection) {
+                    TabViewItem(.insights, label: "Hilfe", icon: "alert_fragezeichen") {
+                        InsightsPage(help: content.help, insights: content.insights, faqs: content.faqs, refreshContent: refreshContent)
+                    }
+                    TabViewItem(.categories, label: "Infos", icon: "alert_tipp") {
+                        CategoriesPage(infos: content.infos, categories: content.abc)
+                    }
+                    TabViewItem(.emergency, label: "Im Notfall", icon: "themen_gesundheit_notfaelle") {
+                        EmergencyPage(emergency: content.emergency)
+                    }
+                    TabViewItem(.about, label: "Über", icon: "more") {
+                        AboutPage(metadata: content.metadata, contentTimestamp: content.timestamp)
+                    }
+                }
+            }
         }
         else {
             VStack {

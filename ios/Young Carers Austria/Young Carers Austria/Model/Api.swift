@@ -63,4 +63,12 @@ actor Model {
         }
         return Data(content.utf8)
     }
+    
+    func hasBeenLaunched() -> Bool {
+        return UserDefaults.standard.bool(forKey: "didLaunchBefore")
+    }
+    
+    func markAsLaunched() {
+        UserDefaults.standard.set(true, forKey: "didLaunchBefore")
+    }
 }

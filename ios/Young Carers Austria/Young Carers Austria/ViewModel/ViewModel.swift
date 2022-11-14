@@ -3,8 +3,12 @@ import Foundation
 @MainActor
 final class ViewModel: ObservableObject {
     @Published var content: Content? = nil
+    @Published var showLaunchScreen: Bool? = nil
     
     func loadContent() async {
+        // set the launch screen
+        showLaunchScreen = await !Model.shared.hasBeenLaunched()
+        
         if await (!Model.shared.hasBeenCached()) {
             // if the following operations fail, the app should fail, they always have to work because they are integrated into the build
             let data = try! await Model.shared.loadContentFromBundle()
@@ -30,5 +34,10 @@ final class ViewModel: ObservableObject {
         catch {
             // intentionally do nothing, fall back to local data
         }
+    }
+    
+    func completeWelcomeScreen() async {
+        await Model.shared.markAsLaunched()
+        showLaunchScreen = await !Model.shared.hasBeenLaunched()
     }
 }
