@@ -3425,6 +3425,31 @@
               ]
             },
             {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=359",
+              "title": "EIN:BLICK 1 - Kindheit und Jugend",
+              "description": "Broschüre als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-541838144.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T13:02:36.790Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
+            },
+            {
               "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=288",
               "title": "Das Pflegekarenzgeld",
               "description": "Folder als Download",
@@ -7460,5 +7485,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T13:02:12.673Z"
+  "timestamp": "2022-11-14T13:03:03.855Z"
 }
