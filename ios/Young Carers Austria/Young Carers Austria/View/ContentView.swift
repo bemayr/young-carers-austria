@@ -2,6 +2,8 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var viewModel: ViewModel
+    @EnvironmentObject var chatbotViewModel: ChatbotViewModel
+    
     @State private var selection: Tab = .insights
     @State private var showChatbot = false
     
@@ -59,12 +61,17 @@ struct ContentView: View {
                     }
                 }
                 .overlay {
-                    ChatbotButton(action: {
+                    chatbotViewModel.character != nil
+                    ? ChatbotButton(character: chatbotViewModel.character!, action: {
                         showChatbot = true
                     })
+                    .task {
+                        await chatbotViewModel.initialize()
+                    }
+                    : nil
                 }
                 .sheet(isPresented: $showChatbot, content: {
-                    Text("Hello World from Chatbot!")
+                    Chatbot()
                 })
             }
         }

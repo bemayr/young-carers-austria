@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ChatbotButton: View {
+    var character: Character
     var action: () -> Void
     
     @State private var dragAmount: CGPoint?
@@ -15,7 +16,7 @@ struct ChatbotButton: View {
         GeometryReader { gp in // just to center initial position
             ZStack(alignment: .bottomTrailing) {
                 Button(action: action) {
-                    Text("🤖")
+                    Text(character.emoji)
                         .padding()
                         .font(.title)
                         .background(Color.accentColor)

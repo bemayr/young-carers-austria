@@ -152,3 +152,62 @@ struct Infos: Decodable {
 struct MetadataEntry: Decodable {
     let key, title, content: String
 }
+
+struct Character: Decodable {
+    let emoji, name: String
+}
+
+enum Response: Decodable {
+    case notFound(messages: [String])
+    case found(messages: [String], results: [Result])
+    
+    enum Result: Decodable {
+        case reference(id: String, reference: Reference)
+        
+        enum CodingKeys: String, CodingKey {
+            case type, id, reference
+        }
+        
+        init(from decoder: Decoder) throws {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            let type = try container.decode(String.self, forKey: .type)
+            switch type {
+            case "reference":
+                self = .reference(
+                    id: try container.decode(String.self, forKey: .id),
+                    reference: try container.decode(Reference.self, forKey: .reference))
+                return
+            default:
+                throw DecodingError.dataCorruptedError(
+                    forKey: CodingKeys.type,
+                    in: container,
+                    debugDescription: "Unexpected type, can't handle this")
+            }
+        }
+    }
+    
+    enum CodingKeys: String, CodingKey {
+        case type, messages, results
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let type = try container.decode(String.self, forKey: .type)
+        switch type {
+        case "not-found":
+            self = .notFound(
+                messages: try container.decode([String].self, forKey: .messages))
+            return
+        case "found":
+            self = .found(
+                messages: try container.decode([String].self, forKey: .messages),
+                results: try container.decode([Result].self, forKey: .results))
+            return
+        default:
+            throw DecodingError.dataCorruptedError(
+                forKey: CodingKeys.type,
+                in: container,
+                debugDescription: "Unexpected type, can't handle this")
+        }
+    }
+}
