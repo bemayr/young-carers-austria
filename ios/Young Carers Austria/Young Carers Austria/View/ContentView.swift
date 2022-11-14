@@ -33,25 +33,27 @@ struct ContentView: View {
     }
     
     func refreshContent() async {
-        try? await viewModel.loadContent()
+        await viewModel.loadContent()
     }
 
     var body: some View {
         if let content = viewModel.content {
-            TabView(selection: $selection) {
-                TabViewItem(.insights, label: "Hilfe", icon: "alert_fragezeichen") {
-                    InsightsPage(help: content.help, insights: content.insights, faqs: content.faqs, refreshContent: refreshContent)
-                }
-                TabViewItem(.categories, label: "Infos", icon: "alert_tipp") {
-                    CategoriesPage(infos: content.infos, categories: content.abc)
-                }
-                TabViewItem(.emergency, label: "Im Notfall", icon: "themen_gesundheit_notfaelle") {
-                    EmergencyPage(emergency: content.emergency)
-                }
-                TabViewItem(.about, label: "Über", icon: "more") {
-                    AboutPage(metadata: content.metadata, contentTimestamp: content.timestamp)
-                }
-            }
+            WelcomePage(metadata: content.metadata)
+            
+//            TabView(selection: $selection) {
+//                TabViewItem(.insights, label: "Hilfe", icon: "alert_fragezeichen") {
+//                    InsightsPage(help: content.help, insights: content.insights, faqs: content.faqs, refreshContent: refreshContent)
+//                }
+//                TabViewItem(.categories, label: "Infos", icon: "alert_tipp") {
+//                    CategoriesPage(infos: content.infos, categories: content.abc)
+//                }
+//                TabViewItem(.emergency, label: "Im Notfall", icon: "themen_gesundheit_notfaelle") {
+//                    EmergencyPage(emergency: content.emergency)
+//                }
+//                TabViewItem(.about, label: "Über", icon: "more") {
+//                    AboutPage(metadata: content.metadata, contentTimestamp: content.timestamp)
+//                }
+//            }
         }
         else {
             VStack {
