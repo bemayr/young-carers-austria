@@ -5137,6 +5137,43 @@
           ]
         },
         {
+          "ownerName": "Kärnten",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131&subthema=138",
+              "title": "Pflegende Angehörige Kärnten",
+              "description": "Das Land Kärnten bietet eigene Unterstützung für pflegende Angehörige.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:51:36.637Z",
+              "keywords": [
+                "Behinderung",
+                "Betreuung",
+                "Bundesland",
+                "Daheim",
+                "Eltern",
+                "FSW",
+                "Großeltern",
+                "Hilfe",
+                "Kärnten",
+                "Land",
+                "Mama",
+                "Mobil",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Soziale Dienste",
+                "Unterstützung",
+                "Zu Hause",
+                "Zuhause",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Niederösterreich",
           "ownerUrl": "",
           "references": [
@@ -6392,5 +6429,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:50:58.897Z"
+  "timestamp": "2022-11-14T09:52:01.964Z"
 }
