@@ -6679,6 +6679,32 @@
                 "Vater",
                 "Young Carers"
               ]
+            },
+            {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=664",
+              "title": "Angehörigenpflege in Österreich",
+              "description": "Studie aus 2018 als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T12:26:27.190Z",
+              "keywords": [
+                "Angehörige",
+                "Bruder",
+                "Geschwister",
+                "Großeltern",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Schwester",
+                "Vater",
+                "Young Carers"
+              ]
             }
           ]
         },
@@ -7337,5 +7363,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T12:24:35.398Z"
+  "timestamp": "2022-11-14T12:26:54.163Z"
 }
