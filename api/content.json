@@ -2760,6 +2760,33 @@
       "information": "Das [Jugendportal](https://www.jugendportal.at) und die [Jugendinfostellen](https://www.jugendinfo.at/ueber-uns/jugendinfostellen) der Bundesländer helfen dir bei Fragen weiter und informieren dich zu vielen Themen und Projekten, die junge Menschen betreffen und interessieren.",
       "entries": [
         {
+          "ownerName": "aha - Jugendinfo Vorarlberg",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.aha.or.at/",
+              "title": "Jugendliche Vorarlberg",
+              "description": "\"aha\" ist das Jugendinformationszentrum für Vorarlberg.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-vorarlberg.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T08:53:50.148Z",
+              "keywords": [
+                "Auszeit",
+                "Bundesland",
+                "Entspannung",
+                "Freizeit",
+                "Hobby",
+                "Pflege",
+                "Soziale Dienste",
+                "Sport",
+                "Urlaub",
+                "Vorarlberg",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Bundes Jugend Vertretung",
           "ownerUrl": "",
           "references": [
@@ -5319,5 +5346,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T08:44:27.167Z"
+  "timestamp": "2022-11-14T08:54:21.115Z"
 }
