@@ -18,7 +18,7 @@ struct TypingIndicator: View {
                     .frame(width: self.ballSize, height: (self.numberOfTheAnimationgBall == i) ? self.ballSize/3 : self.ballSize)
             }
         }
-        .animation(.spring(response: 0.5, dampingFraction: 0.7, blendDuration: 0.1).speed(2))
+//        .animation(.spring(response: 0.5, dampingFraction: 0.7, blendDuration: 0.1).speed(2))
         .onAppear {
             Timer.scheduledTimer(withTimeInterval: self.speed, repeats: true) { _ in
                 var randomNumb: Int
