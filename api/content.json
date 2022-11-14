@@ -5047,6 +5047,407 @@
           }
         }
       ]
+    },
+    {
+      "question": "Gehörst du zu den Young Carers?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Wenn mal ein Familienmitglied krank ist, dann ist es ganz normal, dass alle zusammen helfen. Es gibt aber auch Familien, in denen jemand eine langwierige Erkrankung oder Behinderung hat und daher auf Dauer viel Betreuung braucht. Dann kann es sein, dass du regelmäßig hilfst oder jemanden pflegst. Wenn du viel Verantwortung tragen musst und das für dich zum Problem wird, solltestdu dir Hilfe holen.Vielleicht kommt dir eine der Alltags-Situationen so oder so ähnlich bekannt vor? Wenn du dich darin wiederfindest, kannst du mit jemanden über deine Gefühle sprechen. Das ist ganz wichtig für dich! Sich Hilfe holen, heißt Stärke zeigen.Speziell für  Young Carers gibt es Anlaufstellen, wo man weiß, wie es ist ein Young Carer zu sein und was du alles leistet. Wenn du jemanden zum Reden oder Hilfe brauchst, kannst du dich an der nachfolgenden Stellen wenden.147 - Rat auf Draht - Beratung füpr Kinder und Jugendliche - jederzeit, anonmy und kostenlos"
+        },
+        {
+          "type": "reference",
+          "reference": {
+            "url": "https://www.rataufdraht.at/themenubersicht/tipps-info/pflegst-du-jemanden",
+            "title": "Rat auf Draht - Pflegeinfos",
+            "description": "Was tun mit den eigenen Bedürfnissen, wenn die Eltern oder Großeltern krank sind und Pflege brauchen? 147 - Rat auf Draht ist der österreichische Notruf für Kinder, Jugendliche und deren Bezugspersonen. Du kannst wählen zwischen Telefonberatung rund um die Uhr, Online- oder Chat-Beratung.",
+            "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-807497968.jpg",
+            "isPaidContent": false,
+            "lastUpdated": "2022-11-11T12:43:33.749Z",
+            "keywords": [
+              "147",
+              "147 - Rat auf Draht",
+              "Beratung",
+              "Hilfe",
+              "Hotline",
+              "Mobbing",
+              "Rat auf Draht",
+              "Sorgen"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "superhands bietet dir Rat und Hilfe - kostenlos, anonym, telefonisch und online"
+        },
+        {
+          "type": "reference",
+          "reference": {
+            "url": "https://www.superhands.at",
+            "title": "superhands",
+            "description": "superhands ist eine Drehscheibe und Anlaufstelle für Kinder und Jugendliche, die sich um kranke Angehörige kümmern. Du kannst wählen zwischen Telefon- oder Onlineberatung.",
+            "isPaidContent": false,
+            "lastUpdated": "2022-11-07T07:05:59.073Z",
+            "keywords": [
+              "Anlaufstelle",
+              "Beratung",
+              "Beratungsstelle",
+              "Hilfe",
+              "Hilfseinrichtung",
+              "Johanniter",
+              "Organisation",
+              "Rat",
+              "Rettung",
+              "Unterstützung",
+              "superhands"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "Und hier noch weitere Angebote für dich ..."
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63685061638c16809e4d0d2e",
+            "name": "Organisationen",
+            "title": "Organisationen mit speziellen Angeboten für Young Carers",
+            "information": "In Österreich kümmern sich circa **42.700** pflegende Kinder und Jugendliche **regelmäßig** um ein krankes Familienmitglied, meist ein Elternteil, aber auch Geschwister oder Großeltern können Hilfe benötigen. Du bist also nicht allein! Wenn du dich über Unterstützungsangebote informieren oder vertraulich mit jemanden über deine Situation und Probleme sprechen möchtest, kannst du dich an Organisationen für Young Carers wenden.",
+            "entries": [
+              {
+                "ownerName": "147 - Rat auf Draht",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.rataufdraht.at/themenubersicht/tipps-info/pflegst-du-jemanden",
+                    "title": "Rat auf Draht - Pflegeinfos",
+                    "description": "Was tun mit den eigenen Bedürfnissen, wenn die Eltern oder Großeltern krank sind und Pflege brauchen? 147 - Rat auf Draht ist der österreichische Notruf für Kinder, Jugendliche und deren Bezugspersonen. Du kannst wählen zwischen Telefonberatung rund um die Uhr, Online- oder Chat-Beratung.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-807497968.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T12:43:33.749Z",
+                    "keywords": [
+                      "147",
+                      "147 - Rat auf Draht",
+                      "Beratung",
+                      "Hilfe",
+                      "Hotline",
+                      "Mobbing",
+                      "Rat auf Draht",
+                      "Sorgen"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "CS Caritas Socialis - Multiple Sklerose Betreuung",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.cs.at/angebote/cs-multiple-sklerose-betreuung/coaching-fuer-kinder-und-jugendliche",
+                    "title": "CS Caritas Socialis - Multiple Sklerose Betreuung",
+                    "description": "Hier triffst du Jugendliche in deinem Alter mit den gleichen Erfahrungen und Fragen zu Multipler Sklerose und kannst dich in der Gruppe austauschen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-wien.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T12:00:17.920Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Betreuung",
+                      "Bundesland",
+                      "CS",
+                      "CS Caritas Socialis",
+                      "Caritas",
+                      "Caritas Socialis",
+                      "Coaching",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Krankheit",
+                      "MS",
+                      "Multiple Sklerose",
+                      "Organisation",
+                      "Rat",
+                      "Unterstützung",
+                      "Wien",
+                      "krank"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "elco/kiko - pro mente OÖ",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.elco-pmooe.at/",
+                    "title": "elco/kiko",
+                    "description": "Unter folgendem Link kommst du zu elco/kiko. Hier bietet man Coaching und Beratung für Familien mit einem psychisch erkrankten Elternteil aus Oberösterreich an den Standorten Linz, Steyr und Wels.",
+                    "previewImageUrl": "https://image.jimcdn.com/app/cms/image/transf/none/path/sea09eeccbf437f7a/backgroundarea/i10fa52ac9813bc5e/version/1547046048/image.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T07:01:53.468Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Oberösterreich",
+                      "Organisation",
+                      "Psyche",
+                      "Rat",
+                      "Unterstützung",
+                      "elco",
+                      "kiko",
+                      "pro mente",
+                      "pro mente OÖ",
+                      "psychisch",
+                      "visible"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "JoJo Kindheit im Schatten",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.jojo.or.at/unsere-angebote/",
+                    "title": "JoJo Salzburg",
+                    "description": "JoJo (Salzburg) stellt verschiedene Angebote für Eltern, Schulen und Fachkräfte bereit. Für Kinder psychisch erkrankter Eltern und Geschwister gibt es Einzel- und Gruppenangebote. Solltest du nicht in eine JoJo-Regionalstelle kommen können, wird eine Online-Videoberatung angeboten.",
+                    "previewImageUrl": "https://www.jojo.or.at/fileadmin/_processed_/a/4/csm_1_Patin_mit_Patenkind_156f1bbaa4.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T02:52:34.429Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "JoJo Kindheit im Schatten",
+                      "Organisation",
+                      "Rat",
+                      "Salzburg",
+                      "Unterstützung",
+                      "visible"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Jugendrotkreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.get-social.at/time4friends",
+                    "title": "Get Social - Time4Friends",
+                    "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
+                    "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T02:37:03.180Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Jugendliche",
+                      "Jugendrotkreuz",
+                      "Juniorcamp",
+                      "Organisation",
+                      "Peer",
+                      "Rat",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "Unterstützung",
+                      "get social",
+                      "time4friends"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "KIPKE - Caritas St. Pölten",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.caritas-stpoelten.at/hilfe-angebote/menschen-mit-psychischen-erkrankungen/beratungsangebote/kipke/",
+                    "title": "KIPKE Caritas St. Pölten",
+                    "description": "Hier kommst du zum Projekt KIPKE der Caritas St. Pölten in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
+                    "previewImageUrl": "https://www.caritas-stpoelten.at/fileadmin/storage/stpoelten/ELDI/Menschen_mit_psychischen_Erkankungen/KIPKE/KIPKE-Katze-2015.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T05:45:32.777Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Caritas",
+                      "Eltern",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "KIPKE",
+                      "Krankheit",
+                      "Niederösterreich",
+                      "Organisation",
+                      "PSZ",
+                      "Rat",
+                      "St. Pölten",
+                      "Unterstützung",
+                      "Zentren",
+                      "Zentrum",
+                      "krank",
+                      "psychisch",
+                      "psychosozial"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Mama/Papa hat Krebs (Wien)",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.krebshilfe.net/beratung-hilfe/leben-mit-krebs/mama/papa-hat-krebs",
+                    "title": "Beratungsteam der Österreichischen Krebshilfe",
+                    "description": "Das Beratungsteam der Österreichischen Krebshilfe bietet hier individuelle Hilfe für Erkrankte und deren Angehörige.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-wien.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T12:06:46.099Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Eltern",
+                      "Gesundheit",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Krank",
+                      "Krankheit",
+                      "Krebs",
+                      "Rat",
+                      "Therapie",
+                      "Unterstützung",
+                      "Österreich",
+                      "Österreichische Krebshilfe-Krebsgesellschaft"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "VeRRückte Kindheit",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.verrueckte-kindheit.at/",
+                    "title": "VeRRückte Kindheit",
+                    "description": "Beratung für Jugendliche und ewachsene Angehörige in Familien mit einem psychisch erkrankten Elternteil. VeRRückte Kindheit bietet Beratung und Information, Online- und Chat-Beratung, Vorträge, und ein Online Forum zum Gedankenaustausch.",
+                    "previewImageUrl": "https://www.verrueckte-kindheit.at/fileadmin/_processed_/7/2/csm_verrueckte-kindheit-grafik_aeaffba49c.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:37:12.444Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Chatten",
+                      "Eltern",
+                      "Erkrankte",
+                      "Forum",
+                      "HPE",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Kurs",
+                      "Mama",
+                      "Mutter",
+                      "Papa",
+                      "Rat",
+                      "Selbsthilfe",
+                      "Seminar",
+                      "Unterstützung",
+                      "Vater",
+                      "VeRRückte Kindheit",
+                      "online",
+                      "psychisch",
+                      "visible"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Vorarlberg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=bXdqYjGE_t0",
+                    "title": "Kolibris - kleine Held:innen",
+                    "description": "Das Projekt unterstützt Kinder, die unter der psychischen Erkrankung ihrer Eltern leiden, damit sie nicht selbst krank werden. Beratungsstellen für betroffene Familien gibt es in Vorarlberg in Bregenz, Dornbirn, Hohenems, Feldkirch, Bludenz, Egg und Lichtenau.",
+                    "previewImageUrl": "https://i.ytimg.com/vi/bXdqYjGE_t0/maxresdefault.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T13:29:54.974Z",
+                    "keywords": [
+                      "Kolibri",
+                      "Eltern",
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Vorarlberg",
+                      "Organisation",
+                      "Psyche",
+                      "Rat",
+                      "Unterstützung",
+                      "psychisch"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Young Carers Beratungsstelle (Krems)",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.roteskreuz.at/niederoesterreich/krems/was-wir-machen/young-carers",
+                    "title": "Young Carers Beratungsstelle Krems",
+                    "description": "Jeden 2. Freitag des Monats können sich Young Carers oder Interessierte in Krems an der Donau von 15:30 bis 17:30 Uhr mit Mitarbeitern:innen des Teams an der Bezirksstelle des Roten Kreuzes austauschen.",
+                    "previewImageUrl": "https://www.roteskreuz.at/fileadmin/user_upload/LV/NO/BS/Krems/Fotos_Young_Carers/21-07-12-rotes-kreuz-krems-young-carers__49_.JPG",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T10:19:44.876Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Erste Hilfe",
+                      "Freizeit",
+                      "Get Social",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Infobox",
+                      "Jugendrotkreuz",
+                      "Juniorcamps",
+                      "Krems",
+                      "Kurz",
+                      "Notfall",
+                      "Pflege",
+                      "Rat",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "Sommercamps",
+                      "Sozialer Dienst",
+                      "Time4Friends",
+                      "Unterstützung",
+                      "Vernetzung"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "abc": [
@@ -11820,5 +12221,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T16:42:05.725Z"
+  "timestamp": "2022-11-14T16:51:43.781Z"
 }
