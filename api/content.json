@@ -2720,15 +2720,6 @@
           }
         }
       ]
-    },
-    {
-      "question": "Für die Schule arbeiten und Helfen ist dir zu viel",
-      "content": [
-        {
-          "type": "text",
-          "text": "**Gib nicht auf!** Wir alle kennen das Gefühl, wenn man zu viel zu tun hat.Wende dich an eine Person, der du vertraust. Berichte über deine Situation und frage nach Hilfe. In der Schule kannst du mit deinen Lehrer:innen sprechen oder auch mit den Schulpsychologinnen/Schulpsychologen. In den Beiträgen findest du vielleicht Inspiration und Hilfe."
-        }
-      ]
     }
   ],
   "abc": [
@@ -9502,5 +9493,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T15:25:43.270Z"
+  "timestamp": "2022-11-14T15:26:32.760Z"
 }
