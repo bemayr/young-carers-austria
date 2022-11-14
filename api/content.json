@@ -2109,6 +2109,40 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Initiative DEMENZ UND ICH",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.demenzundich.at",
+              "title": "Demenz und Ich",
+              "description": "Die Online-Hilfe für Angehörige.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1130453486.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T11:42:43.748Z",
+              "keywords": [
+                "Angehörige",
+                "Bruder",
+                "Daheim",
+                "Eltern",
+                "Geschwister",
+                "Großeltern",
+                "Kinder",
+                "Mama",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Pflegende Angehörige",
+                "Schwester",
+                "Young Carer",
+                "Zu Hause",
+                "Zugehörige",
+                "Zuhause"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7123,5 +7157,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T11:41:44.698Z"
+  "timestamp": "2022-11-14T11:43:14.109Z"
 }
