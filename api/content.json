@@ -3400,6 +3400,31 @@
           "ownerUrl": "",
           "references": [
             {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=433",
+              "title": "EIN:BLICK 7 - Finanzielles",
+              "description": "Broschüre als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1328458841.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T13:01:44.964Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
+            },
+            {
               "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=288",
               "title": "Das Pflegekarenzgeld",
               "description": "Folder als Download",
@@ -7435,5 +7460,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T13:00:47.267Z"
+  "timestamp": "2022-11-14T13:02:12.673Z"
 }
