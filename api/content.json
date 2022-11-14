@@ -4829,6 +4829,32 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "superhands",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.superhands.at/fuer-dich/schule/lernen-schulstress/",
+              "title": "Hilfe in Schulangelegenheiten",
+              "description": "In der Schule ist bald wieder ein Test zu schreiben und du bist schon wieder im Stress? Strategien zu Lernen und Schulstress findest du hier zum Nachlesen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1367774758.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:29:19.076Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Johanniter",
+                "Organisation",
+                "Rat",
+                "Rettung",
+                "Unterstützung",
+                "superhands"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6077,5 +6103,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:26:10.159Z"
+  "timestamp": "2022-11-14T09:29:45.655Z"
 }
