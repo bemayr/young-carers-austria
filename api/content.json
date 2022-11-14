@@ -2019,6 +2019,33 @@
                 "Sozialministerium",
                 "Unterstützung"
               ]
+            },
+            {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=325",
+              "title": "Demenzstrategie - Gut leben mit Demenz",
+              "description": "Bericht \"Demenzstrategie Gut leben mit Demenz\" als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T11:41:20.258Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheit Österreich GmbH",
+                "Gesundheitsministerium",
+                "GÖG",
+                "Hilfe",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
             }
           ]
         },
@@ -7096,5 +7123,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T11:37:44.368Z"
+  "timestamp": "2022-11-14T11:41:44.698Z"
 }
