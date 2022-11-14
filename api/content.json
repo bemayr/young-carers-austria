@@ -5068,6 +5068,31 @@
                 "Vater",
                 "Young Carers"
               ]
+            },
+            {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=181",
+              "title": "Informationen zum Pflegegeld - erklärt in leichter Sprache",
+              "description": "Broschüre als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T13:00:10.673Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
             }
           ]
         }
@@ -7410,5 +7435,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T12:58:23.133Z"
+  "timestamp": "2022-11-14T13:00:47.267Z"
 }
