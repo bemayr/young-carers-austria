@@ -15,7 +15,7 @@ struct YoungCarersAustriaApp: App {
             ContentView()
                 .environmentObject(viewModel)
                 .task {
-                    try! await viewModel.loadContent() // intentionally fail here if this function throws
+                    await viewModel.loadContent()
                 }
         }
     }

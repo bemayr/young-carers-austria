@@ -13,14 +13,14 @@ actor Model {
         return data
     }
     
-    func loadContentFromBundle() throws -> Data? {
+    func loadContentFromBundle() throws -> Data {
         print("loadContentFromBundle")
-        return try loadContentFromURL(Bundle.main.url(forResource: "content", withExtension: "json"))
+        return try loadContentFromURL(Bundle.main.url(forResource: "content", withExtension: "json"))! // intentionally fail if this data is not available, it **must** have been integrated into the build
     }
     
     func loadContentFromCache() throws -> Data? {
         print("loadContentFromCache")
-        return try loadContentFromURL(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("content.json"))
+        return try loadContentFromURL(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("content.json"))! // intentionally fail if this data is not available, it **must** have been been cached once
     }
     
     func cacheContent(content: Data) throws {
