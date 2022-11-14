@@ -1925,7 +1925,42 @@
       "content": [
         {
           "type": "text",
-          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa zu kümmern."
+          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa im Rollstuhl zu kümmern."
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63684f15638c16809e4d0c72",
+            "name": "Heilbehelfe und Hilfsmittel",
+            "title": "Information zu Hilfsmitteln und Heilbehelfen",
+            "information": "Wie Medikamente müssen auch Heilbehelfe und Hilfsmittel von der Ärztin/vom Arzt **verordnet** werden, damit die **Sozialversicherung** die Kosten mitträgt. Man muss Heilbehelfe und Hilfsmittel jedoch nicht immer kaufen:\n\nDie Krankenkassen und verschiedene Anbieter mobiler Dienste verleihen auch bestimmte Produkte (z.B. Pflegebett). Heilbehelfe und Hilfsmittel sollen entweder einen Krankheitszustand **heilen** bzw. **lindern** oder **fehlende bzw. mangelhafte Körperfunktionen ersetzen**. Typische Heilbehelfe und Hilfsmittel sind beispielsweise **Krücken, Rollatoren, Blutzuckermessgeräte, Hörgeräte, Brillen, orthopädische Schuheinlagen oder Inkontinenzprodukte (Einlagen, \"Windeln\")**. Mit einer ärztlichen Verordnung erhält man einen Heilbehelf oder ein Hilfsmittel bei Fachbetrieben wie Bandagisten, Optikern oder Orthopädieschuhmachern. Wenn man versichert ist, muss man nur einen Teil der Kosten bezahlen.  Wieviel , legt die jeweilige Krankenkasse fest.\n\n**Übrigens:** Bei einem kostenlosen [Hausbesuch durch eine diplomierte Pflegefachkraft](https://www.svs.at/cdscontent/?contentid=10007.816614&amp;portal=svsportal), wird eine Beratung durchgeführt, aber auch praktische Pflegetipps, spezifisches Wissen rund um die Pflege oder etwa Infos über die Versorgung mit Hilfsmitteln weitergegeben.",
+            "entries": [
+              {
+                "ownerName": "selpers helpers",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://selpers.com/helpers/",
+                    "title": "selpers helpers - Hilfsmittelbörse",
+                    "description": "Hier werden gespendete Hilfsmittel kostenlos in einer Onlinebörse angeboten.",
+                    "previewImageUrl": "https://selpers.com/wp-content/uploads/2021/11/bigstock-Helping-Hand-Of-Heart-Donor-Fo-312048634-1024x681.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T09:56:05.155Z",
+                    "keywords": [
+                      "Gehhilfe",
+                      "Heilbehelfe",
+                      "Hilfsmittel",
+                      "Lift",
+                      "Pflege",
+                      "Pflegebett",
+                      "Rollator",
+                      "Rollstuhl"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "type": "category",
@@ -9361,5 +9396,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T14:22:58.506Z"
+  "timestamp": "2022-11-14T14:54:35.605Z"
 }
