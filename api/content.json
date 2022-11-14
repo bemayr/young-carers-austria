@@ -838,6 +838,30 @@
       "information": "Eine **24-Stunden-Betreuung** ist den ganzen Tag sowie die ganze Nacht da, um die pflegebedürftige Person zu betreuen. Dabei spielt die Qualität eine ganz wichtige Rolle und wird auch mit einem [Qualitätszertifikat für Vermittlungsagenturen](https://oeqz.at) ausgezeichnet.",
       "entries": [
         {
+          "ownerName": "ÖQZ-24",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://oeqz.at/",
+              "title": "Gesicherte Qualität bei der 24-Stunden-Betreuung",
+              "description": "Für Agenturen der 24-Stunden-Betreuung gibt es ein freiwilliges Qualitätszertifikat.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1130453486.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T10:36:47.260Z",
+              "keywords": [
+                "24-Stunden",
+                "Agentur",
+                "Auszeichnung",
+                "Betreuung",
+                "Pflege",
+                "Qualität",
+                "Zertifikat",
+                "ÖQZ-24"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Sozialministerium",
           "ownerUrl": "",
           "references": [
@@ -6826,5 +6850,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:58:23.127Z"
+  "timestamp": "2022-11-14T10:37:15.527Z"
 }
