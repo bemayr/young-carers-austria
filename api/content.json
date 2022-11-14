@@ -2225,6 +2225,31 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Kardinal König Haus",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.demenzfreundlich.at/kinder/",
+              "title": "Demenz verstehen - von Kindesbeinen an",
+              "description": "Die Webinar-Reihe des Kardinal König Hauses beschäftigt sich mit dem Thema Demenz.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T13:04:28.277Z",
+              "keywords": [
+                "Alzheimer",
+                "Bildung",
+                "Demenz",
+                "Kardinal König Haus",
+                "Seminar",
+                "Vergessen",
+                "Vergesslichkeit",
+                "Webinar",
+                "vergesslich"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4252,9 +4277,9 @@
               "url": "https://www.demenzfreundlich.at/kinder/",
               "title": "Demenz verstehen - von Kindesbeinen an",
               "description": "Die Webinar-Reihe des Kardinal König Hauses beschäftigt sich mit dem Thema Demenz.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_70381304_XXL.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-07T01:45:55.776Z",
+              "lastUpdated": "2022-11-14T13:04:28.277Z",
               "keywords": [
                 "Alzheimer",
                 "Bildung",
@@ -4447,6 +4472,31 @@
                 "pflegefit",
                 "praktisch",
                 "time4friends"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Kardinal König Haus",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.demenzfreundlich.at/kinder/",
+              "title": "Demenz verstehen - von Kindesbeinen an",
+              "description": "Die Webinar-Reihe des Kardinal König Hauses beschäftigt sich mit dem Thema Demenz.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T13:04:28.277Z",
+              "keywords": [
+                "Alzheimer",
+                "Bildung",
+                "Demenz",
+                "Kardinal König Haus",
+                "Seminar",
+                "Vergessen",
+                "Vergesslichkeit",
+                "Webinar",
+                "vergesslich"
               ]
             }
           ]
@@ -7485,5 +7535,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T13:03:03.855Z"
+  "timestamp": "2022-11-14T13:04:54.962Z"
 }
