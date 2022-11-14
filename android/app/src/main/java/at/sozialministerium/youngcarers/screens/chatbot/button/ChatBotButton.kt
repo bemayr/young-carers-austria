@@ -53,14 +53,15 @@ fun ShimmerItem(
         colors = ButtonDefaults.buttonColors(backgroundColor = Color.Transparent),
         shape = CircleShape,
         modifier = Modifier
-            .background(brush = brush),
+            .background(brush = brush)
+            .size(60.dp),
         contentPadding = PaddingValues(0.dp),
     ) {
         Icon(
             painter = painterResource(id = R.drawable.ic_bot_icon),
             contentDescription = null,
-            modifier = Modifier.size(60.dp),
-            tint = Color.White
+            modifier = Modifier.size(36.dp),
+            tint = Color.White,
         )
     }
 }
