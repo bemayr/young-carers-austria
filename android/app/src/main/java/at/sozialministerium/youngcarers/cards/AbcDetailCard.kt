@@ -33,10 +33,9 @@ fun AbcDetailCard(
     data: Abc,
     onClick: (questionIndex: String) -> Unit
 ) {
-
-    var viewTitle = data.name
-
-    val errorHandling = "/"
+    //values for error handling, when string "url" with "/" comes in
+    val oldValue = "/"
+    val newValue = "%2F"
 
     Row(
         modifier = Modifier
@@ -47,32 +46,32 @@ fun AbcDetailCard(
             backgroundColor = Color.White,
             modifier = Modifier.fillMaxWidth(),
             onClick = {
-
+                if (data.name.contains("/")) {
+                    val dataName = data.name.replace(oldValue, newValue)
+                    onClick(dataName)
+                } else {
                     onClick(data.name)
-
-
+                }
             }
         ) {
             Row(
                 horizontalArrangement = Arrangement.SpaceBetween,
-                modifier = Modifier
-                    .fillMaxWidth()
-
+                modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
-                    data.name, style = TextStyle(
+                    data.name,
+                    style = TextStyle(
                         color = Color.Black,
                         fontSize = 20.sp,
                         textAlign = TextAlign.Left
-                    ), modifier = Modifier.padding(16.dp)
+                    ),
+                    modifier = Modifier.padding(16.dp)
                 )
-
                 Icon(
                     imageVector = Icons.Filled.KeyboardArrowRight,
                     contentDescription = R.string.contentDescription.toString(),
                     modifier = Modifier.padding(end = 10.dp, top = 16.dp)
                 )
-
             }
         }
     }
@@ -81,7 +80,7 @@ fun AbcDetailCard(
 @Preview
 @Composable
 fun AbcDetailCardPreview() {
-    val data = Abc(emptyList(), "ABC Info...", "ABC Name", "ABC Title")
+    val data = Abc(emptyList(), "ABC Id","ABC Info...", "ABC Name", "ABC Title")
     AbcDetailCard(
         data = data,
         onClick = {}

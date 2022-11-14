@@ -35,24 +35,32 @@ fun CategoryDetailCard(
     category: Category,
     navController: NavHostController
 ) {
+    val oldValue = "/"
+    val newValue = "%2F"
+
     androidx.compose.material.Card(
         backgroundColor = Color.White,
         modifier = Modifier.fillMaxWidth(),
         onClick = {
-            navController.navigate(NavRoutes.Detail.route + "/${category.name}")
+            if (category.name.contains("/")) {
+                val categoryName = category.name.replace(oldValue, newValue)
+                navController.navigate(NavRoutes.Detail.route + "/${categoryName}")
+            } else {
+                navController.navigate(NavRoutes.Detail.route + "/${category.name}")
+            }
         }
     ) {
         Row(
             horizontalArrangement = Arrangement.SpaceBetween,
-            modifier = Modifier
-                .fillMaxWidth()
+            modifier = Modifier.fillMaxWidth()
         ) {
             Text(
                 category.name, style = TextStyle(
                     color = Color.Black,
                     fontSize = 20.sp,
                     textAlign = TextAlign.Left
-                ), modifier = Modifier.padding(16.dp)
+                ),
+                modifier = Modifier.padding(16.dp)
             )
             Icon(
                 imageVector = Icons.Filled.KeyboardArrowRight,
@@ -66,6 +74,9 @@ fun CategoryDetailCard(
 @Preview
 @Composable
 fun CategoryDetailCardPreview() {
-    val category = Category(emptyList(), "Info...", "Category Name", "Category Title")
-    CategoryDetailCard(category = category, navController = rememberNavController(navigators = emptyArray()))
+    val category = Category(emptyList(), "id","Info...", "Category Name", "Category Title")
+    CategoryDetailCard(
+        category = category,
+        navController = rememberNavController(navigators = emptyArray())
+    )
 }

@@ -95,14 +95,12 @@ dependencies {
     testImplementation "io.insert-koin:koin-test-junit4:$koin_version"
 
     testImplementation "org.mockito.kotlin:mockito-kotlin:4.0.0"
-
     implementation "io.coil-kt:coil-compose:2.0.0-rc01"
 
     // accompanist
     def accompanist_version = '0.15.0'
     implementation "com.google.accompanist:accompanist-pager:$accompanist_version"
     implementation "com.google.accompanist:accompanist-pager-indicators:$accompanist_version"
-
 
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.1'
     implementation "com.google.accompanist:accompanist-pager:0.20.0"
@@ -137,15 +135,9 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
 
-
-    //implementation 'com.google.accompanist:accompanist-pager:0.24.13-rc'
     implementation "androidx.compose.runtime:runtime-livedata:1.2.0-beta02"
 
     //markdown
-    //implementation("com.mikepenz:multiplatform-markdown-renderer:0.6.1")
-    // implementation "org.jetbrains:markdown-js:0.2.0.pre-55"
-    //implementation 'com.github.jeziellago:compose-markdown:0.3.0'
-
     final def markwon_version = '4.6.2'
 
     implementation"io.noties.markwon:core:$markwon_version"

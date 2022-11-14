@@ -2,8 +2,8 @@ package at.sozialministerium.youngcarers.screens.detail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import at.sozialministerium.youngcarers.DataRepository
 import at.sozialministerium.youngcarers.data.api.models.Abc
+import at.sozialministerium.youngcarers.data.store.DataRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 

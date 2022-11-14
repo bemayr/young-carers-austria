@@ -1,8 +1,12 @@
 package at.sozialministerium.youngcarers
 
 import at.sozialministerium.youngcarers.data.api.service.APIService
+import at.sozialministerium.youngcarers.data.store.DataRepository
+import at.sozialministerium.youngcarers.data.store.DataRepositoryImpl
 import at.sozialministerium.youngcarers.screens.abc.AbcViewModel
 import at.sozialministerium.youngcarers.screens.about.AboutViewModel
+import at.sozialministerium.youngcarers.screens.chatbot.ChatBotViewModel
+import at.sozialministerium.youngcarers.screens.chatbot.api.service.ChatBotAPI
 import at.sozialministerium.youngcarers.screens.detail.DetailViewModel
 import at.sozialministerium.youngcarers.screens.emergency.EmergencyViewModel
 import at.sozialministerium.youngcarers.screens.help.HelpScreenViewModel
@@ -15,11 +19,11 @@ import org.koin.dsl.module
  */
 
 val appModule = module {
-//    single { APIService.getInstance() }
 
-    // single instance of HelloRepository
+    // single instance
     single<DataRepository> {
-        DataRepositoryImpl(APIService.getInstance())
+        DataRepositoryImpl(APIService.getInstance(), ChatBotAPI.getBotInstance())
+
     }
 
     // MyViewModel ViewModel
@@ -29,4 +33,6 @@ val appModule = module {
     viewModel { DetailViewModel(get()) }
     viewModel { EmergencyViewModel(get()) }
     viewModel { InsightsDetailViewModel(get()) }
+    viewModel { ChatBotViewModel(get()) }
+
 }

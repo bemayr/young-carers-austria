@@ -23,44 +23,50 @@ import at.sozialministerium.youngcarers.R
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun EmergencyNumberCard(name: String, number: String) {
+fun EmergencyNumberCard(
+    name: String,
+    number: String
+) {
 
-            GreetingView(name = name, number = number) {
-
-            }
-
-
+    GreetingView(name = name, number = number) {}
 }
 
 @Composable
 private fun GreetingView(name: String, number: String, onClick: (msg: String) -> Unit) {
-    val name = "$name"
-    val number = "$number"
+
     val context = LocalContext.current
+
     Card(
         backgroundColor = Color.White,
         modifier = Modifier
             .padding(horizontal = 8.dp, vertical = 2.dp)
-            .clickable( onClick = {
-                val u = Uri.parse("tel:" + number)
-                val i = Intent(Intent.ACTION_DIAL, u)
+            .clickable(onClick = {
+                val uri = Uri.parse("tel:$number")
+                val intent = Intent(Intent.ACTION_DIAL, uri)
                 try {
-                    context.startActivity(i)
-                }catch (s: SecurityException){
-                    Toast.makeText(context, "An error occurred", Toast.LENGTH_LONG)
+                    context.startActivity(intent)
+                } catch (s: SecurityException) {
+                    Toast
+                        .makeText(context, "An error occurred", Toast.LENGTH_LONG)
                         .show()
                 }
-
-
-            } )
+            })
     ) {
-        Row(modifier = Modifier
-            .padding(12.dp)
-            .fillMaxWidth()
-           ) {
-            Text(text = name, color = colorResource(id = R.color.yc_red_dark))
+        Row(
+            modifier = Modifier
+                .padding(12.dp)
+                .fillMaxWidth()
+        ) {
+            Text(
+                text = name,
+                color = colorResource(id = R.color.yc_red_dark)
+            )
             Spacer(modifier = Modifier.weight(1f))
-            Text(text = number, color = colorResource(id = R.color.yc_red_dark), fontWeight = FontWeight.Bold)
+            Text(
+                text = number,
+                color = colorResource(id = R.color.yc_red_dark),
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }
