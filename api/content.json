@@ -4839,6 +4839,37 @@
           ]
         },
         {
+          "ownerName": "Mama/Papa hat Krebs (Wien)",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.krebshilfe.net/beratung-hilfe/leben-mit-krebs/mama/papa-hat-krebs",
+              "title": "Beratungsteam der Österreichischen Krebshilfe",
+              "description": "Das Beratungsteam der Österreichischen Krebshilfe bietet hier individuelle Hilfe für Erkrankte und deren Angehörige.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-wien.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T12:06:46.099Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Eltern",
+                "Gesundheit",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Krank",
+                "Krankheit",
+                "Krebs",
+                "Rat",
+                "Therapie",
+                "Unterstützung",
+                "Österreich",
+                "Österreichische Krebshilfe-Krebsgesellschaft"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "VeRRückte Kindheit",
           "ownerUrl": "",
           "references": [
@@ -7306,5 +7337,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T12:03:21.063Z"
+  "timestamp": "2022-11-14T12:07:10.280Z"
 }
