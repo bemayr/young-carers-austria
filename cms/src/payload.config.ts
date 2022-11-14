@@ -12,9 +12,8 @@ import AppImprint from './app/Imprint';
 import AppWelcomeMessage from './app/WelcomeMessage';
 
 // chatbot
-import ChatbotEmojis from './chatbot/Emojis';
+import ChatbotCharacters from './chatbot/Characters';
 import ChatbotMessages from './chatbot/Messages';
-import ChatbotNames from './chatbot/Names';
 
 // content
 import Categories from './content/Categories';
@@ -60,8 +59,7 @@ export default buildConfig({
     Situations,
     Sources,
     // chatbot
-    ChatbotEmojis,
-    ChatbotNames,
+    ChatbotCharacters,
     // admin
     Users,
   ],

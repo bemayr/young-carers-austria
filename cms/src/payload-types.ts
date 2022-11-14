@@ -299,7 +299,6 @@ export interface Quelle {
   id: string;
   name: string;
   homepage?: string;
-  _status?: 'draft' | 'published';
   createdAt: string;
   updatedAt: string;
 }
@@ -319,21 +318,12 @@ export interface Alltagssituation {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "chatbot-emojis".
+ * via the `definition` "chatbot-characters".
  */
-export interface Emoji {
-  id: string;
-  emoji: string;
-  createdAt: string;
-  updatedAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "chatbot-names".
- */
-export interface Name {
+export interface Charakter {
   id: string;
   name: string;
+  emoji: string;
   createdAt: string;
   updatedAt: string;
 }

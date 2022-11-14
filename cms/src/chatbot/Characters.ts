@@ -1,21 +1,28 @@
 import { CollectionConfig } from 'payload/types';
 
-const Emojis: CollectionConfig = {
-  slug: 'chatbot-emojis',
+const Characters: CollectionConfig = {
+  slug: 'chatbot-characters',
   labels: {
-    singular: "Emoji",
-    plural: "Emojis"
+    singular: "Charakter",
+    plural: "Charaktere"
   },
   admin: {
     group: "Chatbot",
-    useAsTitle: 'emoji',
-    defaultColumns: ["emoji"],
+    useAsTitle: 'name',
+    defaultColumns: ["name", "emoji"],
     disableDuplicate: true,
   },
   hooks: {
     // TODO: add the trigger CMS content changed hook
   },
   fields: [
+    {
+      name: 'name',
+      type: 'text',
+      label: "Name",
+      unique: true,
+      required: true,
+    },
     {
       name: 'emoji',
       type: 'text',
@@ -26,4 +33,4 @@ const Emojis: CollectionConfig = {
   ],
 }
 
-export default Emojis;
+export default Characters;

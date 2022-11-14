@@ -1,42 +1,24 @@
 import { Payload } from "payload";
 import {
-  Emoji,
+  Charakter,
   Nachrichten,
-  Name,
 } from "../../payload-types";
 import { markdownify } from "../markdown";
 
-const emojis = {
+const characters = {
   transform: function (
-    entry: Emoji  ) {
-    return entry.emoji;
+    { name, emoji }: Charakter ) {
+    return ({ name, emoji });
   },
   get: async (payload: Payload) =>
     await payload
-      .find<Emoji>({
-        collection: "chatbot-emojis",
+      .find<Charakter>({
+        collection: "chatbot-characters",
         limit: 1000,
       })
       .then((result) => result.docs)
       .then((entries) =>
-        entries.map(emojis.transform)
-      ),
-};
-
-const names = {
-  transform: function (
-    entry: Name  ) {
-    return entry.name;
-  },
-  get: async (payload: Payload) =>
-    await payload
-      .find<Name>({
-        collection: "chatbot-names",
-        limit: 1000,
-      })
-      .then((result) => result.docs)
-      .then((entries) =>
-        entries.map(names.transform)
+        entries.map(characters.transform)
       ),
 };
 
@@ -55,7 +37,6 @@ const messages = {
 }
 
 export const getChatbotData = async (payload: Payload) => ({
-  emojis: await emojis.get(payload),
-  names: await names.get(payload),
+  characters: await characters.get(payload),
   messages: await messages.get(payload)
 });
