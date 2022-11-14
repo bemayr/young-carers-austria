@@ -2704,7 +2704,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Manchmal schafft es Mario nicht, pünktlich in der Schule zu sein. Er hat in der Früh zu Hause einfach zu viel zu tun. In der Klasse ist er dann manchmal müde und hat Probleme dem Unterricht zu folgen. Es kann aber auch passieren, dass das Handy läutet und Mario muss schnell nach Hause, weil er dort dringend für die Betreuung seines Vaters gebraucht wird. Das führt dazu, dass er immer mehr Fehlstunden in der Schule hat. Seine Noten werden auch schlechter, weil er sich nicht genug auf Tests und Prüfungen vorbereiten kann.**Gib nicht auf!** Wir alle kennen das Gefühl, wenn es zu viel wird.Wende dich an eine Person, der du vertraust. Berichte über deine Situation und frage nach Hilfe. In der Schule kannst du mit deinen Lehrer:innen sprechen oder auch mit den Schulpsychologinnen/Schulpsychologen. In den Beiträgen findest du vielleicht Inspiration und Hilfe."
+          "text": "Manchmal schafft es Mario nicht, pünktlich in der Schule zu sein. Er hat in der Früh zu Hause einfach zu viel zu tun. In der Klasse ist er dann manchmal müde und hat Probleme dem Unterricht zu folgen. Es kann aber auch passieren, dass das Handy läutet und Mario muss schnell nach Hause, weil er dort dringend für die Betreuung seines Vaters gebraucht wird. Das führt dazu, dass er immer mehr Fehlstunden in der Schule hat. Seine Noten werden auch schlechter, weil er sich nicht genug auf Tests und Prüfungen vorbereiten kann.**Gib nicht auf!** Wir alle kennen das Gefühl, wenn es zu viel wird. In den Beiträgen findest du vielleicht Inspiration und Beistand."
         },
         {
           "type": "category",
@@ -2777,6 +2777,10 @@
               }
             ]
           }
+        },
+        {
+          "type": "text",
+          "text": "Wende dich an eine Person, der du vertraust. Berichte über deine Situation und frage nach Hilfe."
         },
         {
           "type": "category",
@@ -3252,6 +3256,10 @@
               }
             ]
           }
+        },
+        {
+          "type": "text",
+          "text": "In der Schule kannst du mit Lehrer:innen deines Vertrauens sprechen oder auch mit den Schulpsychologinnen/Schulpsychologen."
         },
         {
           "type": "category",
@@ -10876,5 +10884,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T16:12:08.838Z"
+  "timestamp": "2022-11-14T16:18:06.800Z"
 }
