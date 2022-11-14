@@ -1696,6 +1696,37 @@
       "information": "Was genau ist Demenz? Je älter man wird, desto größer ist auch der Verlust an Gehirnzellen. Das ist ein ganz normaler Vorgang. Allerdings läuft das Absterben von Gehirnzellen bei einer Demenz **viel schneller** ab. Durch die zunehmende Vergesslichkeit und beeinträchtigte Gehirnfunktion, sowie durch **emotionale und soziale Verhaltensänderungen** macht sich dieser schnellere Verlust bemerkbar. Erkrankte können ihren Alltag immer weniger selbständig bewältigen.\n\nDie pflegende Person muss viel Einfühlungsvermögen, Geduld aber auch Wissen über diese Krankheit mitbringen, denn durch spezielle Pflege und Betreuung kann man den Verlauf verzögern und die Lebensqualität der betroffenen Person verbessern. Mehr als **130.000** Menschen leiden daran, die bekannteste Form ist die **Alzheimer-Krankheit**.\n\nDie Demenzstrategie **Gut leben mit Demenz** soll eine Unterstützung für Menschen und Organisationen bieten, die mit Demenzpatient:innen arbeiten, sie betreuen oder sich anderweitig mit dem Thema befassen. Das oberste Ziel der Strategie ist die **bestmögliche Lebensqualität** für Demenzerkrankte und deren Angehörige. Um das Ziel zu erreichen, wird mit Bund, Ländern, Gemeinden, Trägereinrichtungen sowie Expert:innen eng zusammengearbeitet. Auf der Website der [Demenzstrategie](https://www.demenzstrategie.at) befinden sich alle nützlichen Informationen, Praxisbeispiele und Materialien für Betroffene und Angehörige.",
       "entries": [
         {
+          "ownerName": "Broschürenservice",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=357",
+              "title": "Gut leben mit Demenz",
+              "description": "Folder \"Gut leben mit Demenz\" als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:31:41.048Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "CS Caritas Socialis",
           "ownerUrl": "",
           "references": [
@@ -6123,5 +6154,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:31:10.993Z"
+  "timestamp": "2022-11-14T09:32:06.859Z"
 }
