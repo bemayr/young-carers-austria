@@ -120,9 +120,11 @@ struct Chatbot: View {
     }
     
     func sendMessage() async {
-        let tempMessage = self.message
-        self.message = ""
-        await chatbotViewModel.requestAnswer(message: tempMessage)
-        messageIsFocused = false
+        if !self.message.trimmingCharacters(in: .whitespaces).isEmpty {
+            let tempMessage = self.message
+            self.message = ""
+            await chatbotViewModel.requestAnswer(message: tempMessage)
+            messageIsFocused = false
+        }
     }
 }
