@@ -78,6 +78,7 @@ struct ContentView: View {
         else {
             VStack {
                 ProgressView()
+                    .padding()
                 Text("Daten werden geladen...")
             }
         }
