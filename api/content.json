@@ -433,6 +433,42 @@
                 ]
               },
               {
+                "ownerName": "Tirol",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste-in-tirol/",
+                    "title": "Pflege Tirol",
+                    "description": "Hier werden Informationen zu Mobilen Diensten in Tirol angeboten.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:53:19.173Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Tirol",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
                 "ownerName": "Vorarlberg",
                 "ownerUrl": "",
                 "references": [
@@ -1983,6 +2019,42 @@
                 "Pflege",
                 "Soziale Dienste",
                 "Steiermark",
+                "Unterstützung",
+                "Zu Hause",
+                "Zuhause",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Tirol",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste-in-tirol/",
+              "title": "Pflege Tirol",
+              "description": "Hier werden Informationen zu Mobilen Diensten in Tirol angeboten.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:53:19.173Z",
+              "keywords": [
+                "Behinderung",
+                "Betreuung",
+                "Bundesland",
+                "Daheim",
+                "Eltern",
+                "FSW",
+                "Großeltern",
+                "Hilfe",
+                "Mama",
+                "Mobil",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Soziale Dienste",
+                "Tirol",
                 "Unterstützung",
                 "Zu Hause",
                 "Zuhause",
@@ -6466,5 +6538,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:52:56.752Z"
+  "timestamp": "2022-11-14T09:53:44.740Z"
 }
