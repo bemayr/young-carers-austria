@@ -4551,6 +4551,502 @@
           }
         }
       ]
+    },
+    {
+      "question": "Hektik am Morgen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Morgens hat es Isabella immer eilig. Nach dem Aufstehen weckt sie ihre zwei kleinen Geschwister, zieht sie an und sorgt dafür, dass alle dieZähne putzen. Dann richtet sie das Frühstück her. Die Katze muss auch noch gefüttert werden. Bevor sie mit ihren Geschwistern das Haus verlässt, versorgt sie noch rasch ihre Mutter, bringt ihr den Kaffee und die Medikamente ans Bett. Nachdem Isabella die Kleinen im Kindergarten abgeliefert hat, hetzt sie in die Schule. Verdammt, heute ist sie schon wieder zu spät dran!So wie Isabella geht es vielen Teenagern. Es gibt eine Menge Erzählungen und Berichte von Young Carers, die von ihrem Alltag und Problemen erzählen. Bist du neugierig geworden?"
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63684e37638c16809e4d0c0c",
+            "name": "Erfahrungsberichte",
+            "title": "Welche Erfahrungen haben Young Carers gemacht?",
+            "information": "Jede einzelne Pflegesituation ist einzigartig, weil auch die Gesundheits- und Lebenssituationen in den Familien verschieden sind. Young Carers erzählen über ihre eigenen **Erfahrungen und ihre Geschichten** - aus Österreich und aus anderen Ländern der Welt.",
+            "entries": [
+              {
+                "ownerName": "37 Grad ZDF",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.zdf.de/dokumentation/37-grad/37-grosse-last-auf-schmalen-schultern-100.html",
+                    "title": "37 Grad - Große Last auf schmalen Schultern - Video aus dem Alltag",
+                    "description": "Füttern, wiickeln, Medikamente geben und die Mobilität trainieren, das machen Eltern mit ihren Kindern. Doch in vielen Familien in Deutschland sind diese Rollen vertauscht.",
+                    "previewImageUrl": "https://epg-image.zdf.de/fotobase-webdelivery/images/c8aa9c4d-9b40-4220-890f-9eff292bfee8?layout=1280x720",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T12:50:18.251Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Ausland",
+                      "Bruder",
+                      "Deutschland",
+                      "Geschwister",
+                      "Großeltern",
+                      "International",
+                      "Jugendliche",
+                      "Junge",
+                      "Kinder",
+                      "Mama",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Schwester",
+                      "Vater",
+                      "Young Carers"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "BBC News",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=kdvd-R2b6YA",
+                    "title": "A day in the life of a young carer - BBC News",
+                    "description": "Der 13jährige Jameal pflegt seine Mutter - er beschreibt die Anstrengungen, aber auch die positiven Seiten eines Young Carers.",
+                    "previewImageUrl": "https://i.ytimg.com/vi/kdvd-R2b6YA/hqdefault.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T12:34:52.325Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Ausland",
+                      "BBC News",
+                      "Bruder",
+                      "England",
+                      "Fernsehen",
+                      "Geschwister",
+                      "Großbritannien",
+                      "Großeltern",
+                      "International",
+                      "Jugendliche",
+                      "Junge",
+                      "Kinder",
+                      "Mama",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Schwester",
+                      "TV",
+                      "Vater",
+                      "Young Carers"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Carers Australia",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://youngcarersnetwork.com.au/stories/",
+                    "title": "Young Carers Network - A Carers Australia Initiative",
+                    "description": "Gewinne einen Einblick in das Leben von Young Carers in Australien. Sie nehmen dich in ihren Alltag mit.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1328458841.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T10:10:05.137Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Bruder",
+                      "Geschwister",
+                      "Großeltern",
+                      "Jugendliche",
+                      "Junge",
+                      "Kinder",
+                      "Mama",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Schwester",
+                      "Vater",
+                      "Young Carers"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Charlotte Foley",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=YMcu2a0Z0cQ",
+                    "title": "A Young Carer Song (Growing Up)",
+                    "description": "Ein Song anlässlich der CARERS WEEK",
+                    "previewImageUrl": "https://i.ytimg.com/vi/YMcu2a0Z0cQ/maxresdefault.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T01:59:42.692Z",
+                    "keywords": [
+                      "Alzheimer",
+                      "Angehörige",
+                      "Ausland",
+                      "Betroffene",
+                      "Bruder",
+                      "Charlotte Foley",
+                      "Demenz",
+                      "England",
+                      "Geschwister",
+                      "Growing Up",
+                      "Großbritannien",
+                      "Großeltern",
+                      "International",
+                      "Jugendliche",
+                      "Junge",
+                      "Kinder",
+                      "Mama",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Schwester",
+                      "Song",
+                      "Vater",
+                      "Vereinigtes Königreich",
+                      "Vergessen",
+                      "Video",
+                      "Young Carer",
+                      "Young Carers",
+                      "Youtube",
+                      "song Growing up"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Fixers UK",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=c7FBgHj2KoU",
+                    "title": "Orkney Young Carers",
+                    "description": "A Fixers campaign led by Julie Sivier: http://www.fixers.org.uk/news/16737-11208/life-as-a-young-carer.php Julie Sivier, 17, from Orkney, is helping to incre...",
+                    "previewImageUrl": "https://i.ytimg.com/vi/c7FBgHj2KoU/maxresdefault.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:00:52.417Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Ausland",
+                      "Bruder",
+                      "Fixers UK",
+                      "Geschwister",
+                      "Großeltern",
+                      "International",
+                      "Jugendliche",
+                      "Junge",
+                      "Kinder",
+                      "Mama",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Organisation",
+                      "Papa",
+                      "Pflege",
+                      "Schwester",
+                      "Vater",
+                      "Young Carers"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Hochschule der Medien edit.Magazin",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=oGOwXenkyt0",
+                    "title": "Young Carer: Kleine Schultern, große Last - edit. Magazin",
+                    "description": "Lana Rebhan ist Young Carer. Sie kümmert sich um ihren kranken Papa, der an Nierenzysten leidet. Das heißt für die 15-Jährige: Haushalt und Pflege statt Schu...",
+                    "previewImageUrl": "https://i.ytimg.com/vi/oGOwXenkyt0/maxresdefault.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:53:20.578Z",
+                    "keywords": [
+                      "Ausland",
+                      "Deutschland",
+                      "Hochschule der Medien edit.Magazin",
+                      "International"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Kalaidos Fachhochschule AG",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.kalaidos-fh.ch/de-CH/Forschung/Fachbereich-Gesundheit/Young-Carers/Videos",
+                    "title": "Sie haben etwas zu erzählen",
+                    "description": "Videointerviews mit Young Carers und Fachpersonen",
+                    "previewImageUrl": "https://www.kalaidos-fh.ch/-/media/KFH2019/Bilder/Forschung/Fachbereich-Gesundheit/Young-Carers/Header/Young-Carer-mit-kranker-Angehoeriger.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:26:34.258Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Ausland",
+                      "Bruder",
+                      "Geschwister",
+                      "Großeltern",
+                      "International",
+                      "Jugendliche",
+                      "Junge",
+                      "Kalaidos Fachhochschule AG",
+                      "Kinder",
+                      "Mama",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Schweiz",
+                      "Schwester",
+                      "Universität",
+                      "Vater",
+                      "Young Carers",
+                      "careum"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Medienprojekt Wuppertal",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.medienprojekt-wuppertal.de/mich-gibts-auch-noch",
+                    "title": "Mich gibt’s auch noch",
+                    "description": "Kostenpflichtiger Film über Geschwister von Menschen mit Behinderung",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-541838144.jpg",
+                    "isPaidContent": true,
+                    "lastUpdated": "2022-11-11T14:45:17.732Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Ausland",
+                      "Behinderung",
+                      "Bruder",
+                      "Deutschland",
+                      "Eltern",
+                      "Erfahrungsbericht",
+                      "Geschwister",
+                      "Großeltern",
+                      "International",
+                      "Jugendliche",
+                      "Junge",
+                      "Kinder",
+                      "Kostenpflichtig",
+                      "Mama",
+                      "Medienprojekt Wuppertal",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Schwester",
+                      "Vater",
+                      "Video",
+                      "Young Carers"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "pro mente OÖ",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.visible.co.at/blog/",
+                    "title": "Blog von #visible",
+                    "description": "Viele Kinder, Jugendliche und auch Erwachsene haben Mütter oder Väter die psychisch krank sind. Vielleicht helfen dir die Erfahrungen und Berichte anderer in diesem Blog.",
+                    "previewImageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=4000x3000:format=jpg/path/s238362f501c31729/image/i67e0661c23437ba4/version/1652684425/lasse-ich-meine-mama-im-stich-wenn-ich-hilfe-hole.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T15:14:28.162Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "JoJo Kindheit im Schatten",
+                      "Oberösterreich",
+                      "Organisation",
+                      "Psyche",
+                      "Rat",
+                      "Salzburg",
+                      "Unterstützung",
+                      "elco",
+                      "kiko",
+                      "pro mente OÖ",
+                      "psychisch",
+                      "visible"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "superhands",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.superhands.at/pflege/young-carer-erzaehlen/",
+                    "title": "Young Carers und ihre Geschichten",
+                    "description": "Wie geht es Young Carers in ihrer Situation? Welche Erfahrungen haben sie gemacht? Hier erzählen sie ihre Geschichten.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T10:07:06.685Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Organisation",
+                      "Rat",
+                      "Rettung",
+                      "Unterstützung",
+                      "superhands",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Young Helping Hands - Julika Stich",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://young-helping-hands.de/",
+                    "title": "Young Helping Hands",
+                    "description": "Website für Kinder, Jugendliche und junge Erwachsene, die ihre Eltern und / oder andere Angehörige pflegen – auch für Eltern, ehemals Betroffene und Fachkräfte!",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T10:04:39.223Z",
+                    "keywords": [
+                      "Ausland",
+                      "Deutschland",
+                      "International"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "Es gibt auch positiven Stress, der uns fördern kann. negativer Stress macht uns krank und traurig. Lass es nicht so weit kommen. Erfahre was du dagegen tun kannst!"
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "636851c5638c16809e4d0dfc",
+            "name": "Stress",
+            "title": "Wird es dir manchmal  zu viel?",
+            "information": "Stress ist ein Bestandteil des Lebens und nicht immer nur negativ. Er fordert uns. Unter seinem Einfluss können wir auch sehr gute Leistungen vollbringen. Zu viel davon macht uns aber krank. Vieles im Leben kann Stress erzeugen. Stressverursacher nennt man **Stressoren**, dazu zählen z.B. einschneidende Ereignisse, private und/oder schulische Probleme oder auch Umwelteinflüsse. Stress bedeutet für jede bzw. für jeden etwas Anderes. Einen entscheidenden Einfluss hat auch das **Coping** (die Art der Bewältigung von Stress) sowie die sogenannte **Resilienz** (seelische Widerstandskraft).\n\n**Erholung und Entspannung** wirken dem Stress entgegen. Negative Auswirkungen von Stressfaktoren können somit rückgängig gemacht oder gemildert werden. Ist der Mensch erholt, fühlt er sich wohl und ist auch leistungsfähig. Es gibt hilfreiche Möglichkeiten, mit anspruchsvollen Situationen umzugehen. Informiere dich!",
+            "entries": [
+              {
+                "ownerName": "BÖP",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.boep.or.at/psychologische-behandlung/projekte",
+                    "title": "Berufsverband Österreichischer Psycholog:innen (BÖP) - Projekte für Kinder und Jugendliche",
+                    "description": "Hier findest du Projekte für Kinder und Jugendliche in psychischen Krisen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T02:10:04.186Z",
+                    "keywords": [
+                      "Beratung",
+                      "Hilfe",
+                      "Hilfe für pflegende Kinder",
+                      "Unterstützung"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Sozialministerium",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gesundheit.gv.at/leben/stress/was-ist-das",
+                    "title": "Stress",
+                    "description": "Er ist Bestandteil des Lebens und kann auch positiv sein. Zu viel davon macht uns aber krank. Verursacher können z.B. einschneidende Ereignisse, private oder schulische Probleme sein. Wichtig ist, wie wir damit umgehen. Es gibt hilfreiche Möglichkeiten, anspruchsvolle Situationen zu meistern.",
+                    "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T12:21:41.436Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Rat",
+                      "Unterstützung"
+                    ]
+                  },
+                  {
+                    "url": "https://www.gesundheit.gv.at/leben/stress/entspannt-bleiben",
+                    "title": "Gesundheitsportal Österreich - Entspannt bleiben",
+                    "description": "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
+                    "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:41:38.487Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Diagnose",
+                      "Gesundheit",
+                      "Gesundheitsportal Österreichs",
+                      "GÖG",
+                      "Hilfe",
+                      "Info",
+                      "Infoplattform",
+                      "Infos",
+                      "Krankheit",
+                      "Selbsthilfe",
+                      "Wegweiser",
+                      "gesund"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "superhands",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.superhands.at/fuer-dich/schule/lernen-schulstress/",
+                    "title": "Hilfe in Schulangelegenheiten",
+                    "description": "In der Schule ist bald wieder ein Test zu schreiben und du bist schon wieder im Stress? Strategien zu Lernen und Schulstress findest du hier zum Nachlesen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1367774758.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:29:19.076Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Organisation",
+                      "Rat",
+                      "Rettung",
+                      "Unterstützung",
+                      "superhands"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "abc": [
@@ -11324,5 +11820,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T16:36:27.857Z"
+  "timestamp": "2022-11-14T16:42:05.725Z"
 }
