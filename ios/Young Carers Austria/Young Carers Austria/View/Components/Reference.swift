@@ -39,7 +39,7 @@ struct ReferenceView {
                                 .foregroundColor(.primary)
                                 .multilineTextAlignment(.leading)
                                 .padding([.bottom], 1)
-                            Markdown(reference.description)
+                            Text(reference.description)
                                 .font(.footnote)
                                 .foregroundColor(.secondary)
                                 .multilineTextAlignment(.leading)
