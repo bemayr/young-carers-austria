@@ -1,6 +1,5 @@
 package at.sozialministerium.youngcarers.data.api.models
 
-
 import com.google.gson.annotations.SerializedName
 
 /**

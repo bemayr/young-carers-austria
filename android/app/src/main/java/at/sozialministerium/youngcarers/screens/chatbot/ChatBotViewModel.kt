@@ -1,9 +1,10 @@
 package at.sozialministerium.youngcarers.screens.chatbot
 
+import androidx.compose.runtime.toMutableStateList
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import at.sozialministerium.youngcarers.DataRepository
-import at.sozialministerium.youngcarers.data.api.models.Abc
+import at.sozialministerium.youngcarers.data.store.DataRepository
+import at.sozialministerium.youngcarers.screens.chatbot.api.model.Character
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 
@@ -12,17 +13,36 @@ import kotlinx.coroutines.launch
  */
 
 class ChatBotViewModel (
-    private val repository: DataRepository
+    private val dataRepository: DataRepository
 ) : ViewModel() {
 
-    val articles = MutableStateFlow<List<Abc>>(emptyList())
+    val character = MutableStateFlow<Character?>(null)
+    private val _messages = emptyList<Message>().toMutableStateList()
+    val messages: List<Message>
+        get() = _messages
 
     init {
         viewModelScope.launch {
-            repository.loadContent()?.let {
-                articles.emit(it.abc)
+            dataRepository.loadChatBotContent()?.let {
+                character.emit(it.character)
+                _messages.addAll(it.welcomeMessages.map { text ->
+                    Message.Text(text, Author.Bot)
+                })
             }
         }
     }
-
+    fun sendMessage(message: String){
+        _messages.add(Message.Text(message,Author.User))
+        viewModelScope.launch {
+            val result = dataRepository.getChatBotAnswer(message)!!
+            _messages.addAll(result.messages.map { text ->
+                Message.Text(text, Author.Bot)
+            })
+            result.results?.let {  results ->
+                _messages.addAll(results.map { result ->
+                    Message.Reference(result.reference!!, Author.Bot)
+                })
+            }
+        }
+    }
 }

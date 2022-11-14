@@ -5,162 +5,179 @@ import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.*
 import androidx.compose.ui.text.font.FontWeight
 
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
+import at.sozialministerium.youngcarers.MarkdownText
 import at.sozialministerium.youngcarers.R
+import at.sozialministerium.youngcarers.cards.AbcDetailSideCard
 import at.sozialministerium.youngcarers.ui.theme.colorDarkRed
+import com.google.accompanist.pager.ExperimentalPagerApi
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.launch
+import org.koin.androidx.compose.getViewModel
 import java.text.SimpleDateFormat
 import java.util.*
-
-
-
 
 /**
  * Generate the ChatBot page
  */
-val message = mutableStateOf("")
-val BotChatBubbleShape = RoundedCornerShape(0.dp,8.dp,8.dp,8.dp)
-val AutnorChatBubbleShape = RoundedCornerShape(8.dp,0.dp,8.dp,8.dp)
+val BotBubbleShape = RoundedCornerShape(0.dp, 8.dp, 8.dp, 8.dp)
+val UserBubbleShape = RoundedCornerShape(8.dp, 0.dp, 8.dp, 8.dp)
+var messageCount = 0
 
-var message_dummy = listOf(
-   /* Message(
-        text = "OK, hier wäre ein Link für dich\n"  ,
-        recipient_id = "bot",
-        isOut = false
-    ),
-    Message(
-        text = "hebe fragen zu finanziellen unterstüzungen ",
-        recipient_id = "user",
-        isOut = true
-    ),*/
-    Message(
-        text = "Schreib mir einfach eine Nachricht und ich werde dir sofort antworten.",
-        recipient_id = "bot",
-        isOut = false
-    ),
-    Message(
-        text = "Ich bin ein intelligenter Chatbot.\nDer dir dabei hilft, deine Fragen zu gewissen Themen, schneller zu finden.",
-        recipient_id = "bot",
-        isOut = false
-    ),
-    Message(
-        text = "Willkommen! Bei Young Carers Austria.",
-        recipient_id = "bot",
-        isOut = false
-    )
-)
-
+@OptIn(ExperimentalPagerApi::class)
 @Composable
-fun ChatBotScreen() {
+fun ChatBotScreen(navController: NavHostController) {
 
-    val _noteList = remember { MutableStateFlow(listOf<String>()) }
+    val listState = rememberLazyListState()
+    val viewModel = getViewModel<ChatBotViewModel>()
+    val character by viewModel.character.collectAsState()
 
-    val context = LocalContext.current
-    Column (modifier = Modifier.fillMaxSize(),
-    verticalArrangement = Arrangement.SpaceBetween
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.SpaceBetween
     ) {
-        TopBarSection(
-            username = "ChatBot",
-            profile= painterResource(id = R.drawable.ic_bot_icon),
-            isOnline = true
-        )
-        ChatSection(Modifier.weight(1f))
-        MessageSection()
-
+        character?.let {
+            TopBarSection(
+                username = character!!.name,
+                emoji = character!!.emoji,
+                isOnline = true,
+                navController = navController,
+            )
+        }
+        ChatSection(viewModel, Modifier.weight(1f), listState)
+        MessageSection(viewModel)
     }
 }
-
 
 @Composable
 fun TopBarSection(
     username: String,
-    profile: Painter,
-    isOnline: Boolean = false
-){
-    Card (
+    emoji: String,
+    isOnline: Boolean = false,
+    navController: NavHostController,
+) {
+    Card(
         modifier = Modifier
             .fillMaxWidth()
             .height(60.dp),
         backgroundColor = Color(0xFFFAFAFA),
         elevation = 4.dp
-            ) {
-        Row (
+    ) {
+        Row(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(horizontal = 8.dp),
             verticalAlignment = Alignment.CenterVertically
-                ){
-androidx.compose.foundation.Image(painter = profile, contentDescription = null, modifier = Modifier
-    .size(42.dp)
-    .clip(
-        CircleShape
-    ))
+        ) {
+            Text(
+                text = emoji,
+                fontSize = 28.sp
+            )
             Spacer(modifier = Modifier.width(8.dp))
-            
             Column {
-                Text(text = username, fontWeight = FontWeight.SemiBold)
-                Text(text = if (isOnline) "Online" else "Offline",
-                fontSize = 12.sp)
+                Text(
+                    text = username,
+                    fontWeight = FontWeight.SemiBold
+                )
+                Text(
+                    text = if (isOnline) "Online" else "Offline",
+                    fontSize = 12.sp
+                )
             }
         }
-
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 8.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.End
+        ) {
+            IconButton(onClick = navController::navigateUp) {
+                Icon(
+                    imageVector = Icons.Default.Close,
+                    tint = colorResource(id = R.color.yc_red_dark),
+                    modifier = Modifier.size(40.dp),
+                    contentDescription = "leave chatbot"
+                )
+                messageCount = 0
+            }
+        }
     }
 }
 
 @Composable
 fun ChatSection(
+    viewModel: ChatBotViewModel,
     modifier: Modifier = Modifier,
-){
-    val simpleDataFormat = SimpleDateFormat("h:mm a", Locale.GERMANY)
+    listState: LazyListState,
+) {
+    val coroutineScope = rememberCoroutineScope()
+
     LazyColumn(
+        state = listState,
         modifier = modifier
             .fillMaxSize()
+            .background(colorResource(id = R.color.yc_background))
             .padding(16.dp),
-        reverseLayout = true
-    ){
-        items(message_dummy) { chat ->
-            MessageItem(
-                messageText = chat.text,
-                //time = simpleDataFormat.format(chat.time),
-                isOut = chat.isOut
-            )
+    ) {
+        items(viewModel.messages) { message ->
+            MessageItem(message)
             Spacer(modifier = Modifier.height(8.dp))
+            messageCount++
+        }
+        //follow messages to bottom
+        coroutineScope.launch {
+            listState.animateScrollToItem(messageCount)
         }
     }
 }
 
 @Composable
 fun MessageItem(
-    messageText: String?,
-    //time: String,
-    isOut: Boolean
-){
+    message: Message,
+) {
     Column(
         modifier = Modifier.fillMaxWidth(),
-        horizontalAlignment = if (isOut) Alignment.End else Alignment.Start
-    ){
-        if (messageText != null){
-            if(messageText != ""){
+        horizontalAlignment = when (message.author) {
+            is Author.Bot -> Alignment.Start
+            is Author.User -> Alignment.End
+        }
+    ) {
+        when (message) {
+            is Message.Text ->
                 Box(
                     modifier = Modifier
                         .background(
-                            if (isOut) MaterialTheme.colors.primary else at.sozialministerium.youngcarers.ui.theme.colorDarkRed,//Color(0xFF616161),
-                            shape = if (isOut) AutnorChatBubbleShape else BotChatBubbleShape
+                            when (message.author) {
+                                is Author.Bot -> Color.Gray
+                                is Author.User -> colorDarkRed
+                            },
+                            shape = when (message.author) {
+                                is Author.Bot -> BotBubbleShape
+                                is Author.User -> UserBubbleShape
+                            }
                         )
                         .padding(
                             top = 8.dp,
@@ -168,73 +185,74 @@ fun MessageItem(
                             start = 16.dp,
                             end = 16.dp
                         )
-
-                ){
-                 Text(text = messageText, color = Color.White)
-
+                ) {
+                    MarkdownText(markdown = message.text, color = Color.White)
                 }
-            }
+            is Message.Reference -> AbcDetailSideCard(
+                header = message.reference.title,
+                description = message.reference.description,
+                image = message.reference.previewImageUrl,
+                url = message.reference.url,
+                paidContent = message.reference.isPaidContent
+            )
         }
-       // Text(text = time, fontSize = 12.sp, modifier = Modifier.padding(start = 8.dp))
     }
 }
 
-
-
+@OptIn(ExperimentalComposeUiApi::class)
 @Composable
-fun MessageSection(modifier: Modifier = Modifier,){
-    val context = LocalContext.current
-    Card (
+fun MessageSection(
+    viewModel: ChatBotViewModel,
+    ) {
+    val focusManager = LocalFocusManager.current
+    var message by remember { mutableStateOf("") }
+    Card(
         modifier = Modifier
             .fillMaxWidth()
             .padding(bottom = 60.dp),
         backgroundColor = Color.White,
         elevation = 10.dp
-            ) {
+    ) {
         OutlinedTextField(
             colors = TextFieldDefaults.outlinedTextFieldColors(
                 focusedBorderColor = colorDarkRed,
-                unfocusedBorderColor = colorDarkRed),
+                unfocusedBorderColor = colorDarkRed
+            ),
             placeholder = {
-                //TextView
                 TextView()
             },
-            value = message.value,
+            value = message,
             onValueChange = { value ->
-                message.value = value //it
+                message = value
             },
             shape = RoundedCornerShape(25.dp),
             trailingIcon = {
                 IconButton(onClick = {
-                    Toast.makeText(context, "press " + message.value, Toast.LENGTH_SHORT).show()
-                    val input = Message(message.value, "user", true)
-                    message_dummy = message_dummy + input
-                    message.value = ""
-
-                }
-                )
+                    viewModel.sendMessage(message)
+                    message = ""
+                    //close keyboard after press send button
+                    focusManager.clearFocus()
+                })
                 {
-
-
-                Icon(
-                    painter = painterResource(id = R.drawable.ic_send_f),
-                    contentDescription = null,
-                    tint = colorDarkRed,
-                    modifier = Modifier
-                        .size(50.dp)
-
-                )}
+                    Icon(
+                        painter = painterResource(id = R.drawable.ic_send_f),
+                        contentDescription = null,
+                        tint = colorDarkRed,
+                        modifier = Modifier
+                            .size(50.dp)
+                    )
+                }
             },
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(10.dp),
-                )
-        
+        )
     }
 }
+
 @Composable
 fun TextView() {
     Text(
-        text = "Message...."
+        text = "Frag mich was"
     )
 }

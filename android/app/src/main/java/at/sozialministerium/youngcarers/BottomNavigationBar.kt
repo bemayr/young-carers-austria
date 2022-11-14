@@ -13,7 +13,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import at.sozialministerium.youngcarers.ui.theme.colorGrayToolbar
-import at.sozialministerium.youngcarers.R
 
 /**
  * Generate the bottom navigation bar, with the given items help, abc ,emergency and about
@@ -26,55 +25,47 @@ fun BottomNavigationBar(navController: NavHostController) {
         NavigationItem.ABC,
         NavigationItem.Emergency,
         NavigationItem.About,
-        /**
-         * ChatBot
-         */
-        //NavigationItem.Bot
-
     )
+    BottomNavigation(
+        backgroundColor = colorGrayToolbar,
+        contentColor = Color.White,
+    ) {
+        val navBackStackEntry by navController.currentBackStackEntryAsState()
+        val currentRoute = navBackStackEntry?.destination?.route
 
-
-        BottomNavigation(
-            backgroundColor = colorGrayToolbar,
-            contentColor = Color.White,
-        ) {
-            val navBackStackEntry by navController.currentBackStackEntryAsState()
-            val currentRoute = navBackStackEntry?.destination?.route
-
-
-            items.forEach { screen ->
-                BottomNavigationItem(
-                    icon = {
-                        Icon(
-                            painterResource(id = screen.icon),
-                            contentDescription = screen.title
-                        )
-                    },
-                    label = { Text(text = screen.title) },
-                    selectedContentColor = colorResource(R.color.yc_red_dark),
-                    unselectedContentColor = Color.DarkGray.copy(0.4f),
-                    alwaysShowLabel = true,
-                    selected = currentRoute == screen.route,
-                    onClick = {
-                        navController.navigate(screen.route) {
-                            // Pop up to the start destination of the graph to
-                            // avoid building up a large stack of destinations
-                            // on the back stack as users select items
-                            navController.graph.startDestinationRoute?.let { route ->
-                                popUpTo(route) {
-                                    saveState = true
-                                }
+        items.forEach { screen ->
+            BottomNavigationItem(
+                icon = {
+                    Icon(
+                        painterResource(id = screen.icon),
+                        contentDescription = screen.title
+                    )
+                },
+                label = { Text(text = screen.title) },
+                selectedContentColor = colorResource(R.color.yc_red_dark),
+                unselectedContentColor = Color.DarkGray.copy(0.4f),
+                alwaysShowLabel = true,
+                selected = currentRoute == screen.route,
+                onClick = {
+                    navController.navigate(screen.route) {
+                        // Pop up to the start destination of the graph to
+                        // avoid building up a large stack of destinations
+                        // on the back stack as users select items
+                        navController.graph.startDestinationRoute?.let { route ->
+                            popUpTo(route) {
+                                saveState = true
                             }
-                            // Avoid multiple copies of the same destination when
-                            // reselecting the same item
-                            launchSingleTop = true
-                            // Restore state when reselecting a previously selected item
-                            restoreState = true
                         }
+                        // Avoid multiple copies of the same destination when
+                        // reselecting the same item
+                        launchSingleTop = true
+                        // Restore state when reselecting a previously selected item
+                        restoreState = true
                     }
-                )
-            }
+                }
+            )
         }
+    }
 
 }
 

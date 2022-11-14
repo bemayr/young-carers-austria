@@ -15,6 +15,8 @@ import com.google.gson.annotations.SerializedName
 data class Abc(
     @SerializedName("entries")
     val entries: List<Entry>,
+    @SerializedName("id")
+    val id: String,
     @SerializedName("information")
     val information: String,
     @SerializedName("name")

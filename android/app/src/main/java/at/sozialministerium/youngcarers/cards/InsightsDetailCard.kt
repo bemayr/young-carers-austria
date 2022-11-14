@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import at.sozialministerium.youngcarers.MarkdownText
 import coil.compose.rememberAsyncImagePainter
 import at.sozialministerium.youngcarers.NavRoutes
 import at.sozialministerium.youngcarers.R
@@ -42,10 +43,7 @@ fun InsightsDetailCard(
     url: String,
     index: Int
 ) {
-
     val uriHandler = LocalUriHandler.current
-
-
 
     Card(
         modifier = Modifier
@@ -64,19 +62,16 @@ fun InsightsDetailCard(
         shape = MaterialTheme.shapes.medium,
         elevation = 5.dp,
         backgroundColor = MaterialTheme.colors.surface
-
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-
             Row(
                 Modifier.padding(8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                if(image != "help"){
+                if (image != "help") {
                     Image(
-
                         painter = rememberAsyncImagePainter(image),
                         contentDescription = null,
                         modifier = Modifier
@@ -84,13 +79,9 @@ fun InsightsDetailCard(
                             .padding(8.dp)
                             .clip(RoundedCornerShape(15.dp)),
                         contentScale = ContentScale.Fit,
-
-                        )
-                }
-                else
-                {
+                    )
+                } else {
                     Image(
-
                         painter = painterResource(id = R.drawable.question),
                         contentDescription = null,
                         modifier = Modifier
@@ -98,10 +89,8 @@ fun InsightsDetailCard(
                             .padding(8.dp)
                             .clip(RoundedCornerShape(15.dp)),
                         contentScale = ContentScale.Fit,
-
-                        )
+                    )
                 }
-
                 Text(
                     text = header,
                     fontSize = 20.sp,
@@ -109,10 +98,10 @@ fun InsightsDetailCard(
                     modifier = Modifier
                         .padding(8.dp)
                         .fillMaxWidth(),
-                    )
+                )
             }
-            Text(
-                text = description,
+            MarkdownText(
+                markdown = description,
                 style = MaterialTheme.typography.body2,
                 modifier = Modifier.padding(start = 30.dp, bottom = 15.dp, end = 30.dp)
             )

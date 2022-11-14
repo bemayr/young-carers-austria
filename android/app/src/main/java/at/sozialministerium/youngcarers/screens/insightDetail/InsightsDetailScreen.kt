@@ -1,4 +1,4 @@
-package at.sozialministerium.youngcarers.screens
+package at.sozialministerium.youngcarers.screens.insightDetail
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -51,7 +51,6 @@ fun InsightsDetailScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    //*Error without txt ?*//
                     insight?.question
                 },
                 navigationIcon = {
@@ -69,47 +68,50 @@ fun InsightsDetailScreen(
             )
         },
         backgroundColor = colorResource(id = R.color.yc_background),
-        modifier = Modifier.padding(bottom = 55.dp)
+        modifier = Modifier
+            .padding(bottom = 55.dp)
             .testTag("insightsDetailScreen")
     ) {
         Column(
             modifier = Modifier
                 .verticalScroll(rememberScrollState())
         ) {
-
-            if (insight != null) {
-                Text(
-                    text = insight.question,
-                    color = colorResource(id = R.color.yc_red_dark),
-                    fontSize = 25.sp,
-                    fontWeight = FontWeight.Bold,
-                    modifier = Modifier.padding(start = 20.dp, top = 60.dp)
-                )
-            }
-
-            // render parts based on their type
-            if (insight != null) {
-                insight.content.forEach { part ->
-                    when (part.type) {
-                        "text" -> MarkdownText(
-                            markdown = part.text,
-                            modifier = Modifier.padding(
-                                start = 20.dp,
-                                top = 10.dp,
-                                end = 20.dp,
-                                bottom = 10.dp
-                            )
-                        )
-                        "reference" -> InsightsDetailCard(
-                            header = part.reference.title,
-                            description = part.reference.description,
-                            image = part.reference.previewImageUrl,
-                            navController,
-                            url = part.reference.url,
-                            index = 0
-                        ) // Todo: Replace with real image URL once provided by the backend
-                        "category" -> CategoryDetailCard(part.category, navController)
-                        else -> throw IllegalArgumentException("part.type ${part.type} not allowed, please provide either text, reference or category")
+            if (insights.isEmpty()) {
+                CircularProgressIndicator(color = colorResource(id = R.color.yc_red_dark))
+            } else {
+                if (insight != null) {
+                    Text(
+                        text = insight.question,
+                        color = colorResource(id = R.color.yc_red_dark),
+                        fontSize = 25.sp,
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier.padding(start = 20.dp, top = 60.dp)
+                    )
+                    // render parts based on their type
+                    if (insight != null) {
+                        insight.content.forEach { part ->
+                            when (part.type) {
+                                "text" -> MarkdownText(
+                                    markdown = part.text,
+                                    modifier = Modifier.padding(
+                                        start = 20.dp,
+                                        top = 10.dp,
+                                        end = 20.dp,
+                                        bottom = 10.dp
+                                    )
+                                )
+                                "reference" -> InsightsDetailCard(
+                                    header = part.reference.title,
+                                    description = part.reference.description,
+                                    image = part.reference.previewImageUrl,
+                                    navController,
+                                    url = part.reference.url,
+                                    index = 0
+                                )
+                                "category" -> CategoryDetailCard(part.category, navController)
+                                else -> throw IllegalArgumentException("part.type ${part.type} not allowed, please provide either text, reference or category")
+                            }
+                        }
                     }
                 }
             }

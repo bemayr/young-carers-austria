@@ -1,10 +1,11 @@
-package at.sozialministerium.youngcarers
+package at.sozialministerium.youngcarers.screens.about
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -18,10 +19,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import at.sozialministerium.youngcarers.data.api.models.Metadata
-import at.sozialministerium.youngcarers.screens.about.AboutViewModel
 import org.koin.androidx.compose.getViewModel
+import java.sql.Timestamp
+import java.text.DateFormat
+import java.text.SimpleDateFormat
+import java.util.*
+import at.sozialministerium.youngcarers.MarkdownText
+import at.sozialministerium.youngcarers.data.api.models.Metadata
 import at.sozialministerium.youngcarers.R
+
 
 /**
  * Generate the about page with title, body and metadata information
@@ -39,81 +45,81 @@ fun AboutScreen() {
             .fillMaxSize()
             .background(colorResource(id = R.color.yc_background))
             .verticalScroll(rememberScrollState())
-            .padding(bottom = 80.dp)
-
+            .padding(bottom = 140.dp)
     ) {
-
-        Text(
-            stringResource(R.string.about_title),
-            color = colorResource(id = R.color.yc_red_dark),
-            fontSize = 35.sp,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(start = 20.dp, top = 60.dp)
-        ) //TODO: backend api
-
-
-        metadata.forEach { part ->
-            when (part.key) {
-                "imprint" -> txt(part.title, part.content, timestamp)
-                "copyright" -> txt(part.title, part.content,timestamp)
-                "accessibility" -> txt(part.title, part.content,timestamp)
-                "gdpr" -> txt(part.title, part.content,timestamp)
+        if (metadata.isEmpty()) {
+            CircularProgressIndicator(color = colorResource(id = R.color.yc_red_dark))
+        } else {
+            Text(
+                stringResource(R.string.about_title),
+                color = colorResource(id = R.color.yc_red_dark),
+                fontSize = 35.sp,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(start = 20.dp, top = 60.dp)
+            )
+            metadata.forEach { part ->
+                when (part.key) {
+                    "imprint" -> SetPartText(part.title, part.content, timestamp)
+                    "copyright" -> SetPartText(part.title, part.content, timestamp)
+                    "accessibility" -> SetPartText(part.title, part.content, timestamp)
+                    "gdpr" -> SetPartText(part.title, part.content, timestamp)
+                }
             }
-
         }
     }
 }
 
 @Composable
-fun SetLogos(timestamp: String){
+fun SetImages(timestamp: String) {
 
-    Image(painter = painterResource(id = R.drawable.ic_bmsgpk_light), contentDescription = "Logo Bundesministerium",
+    Image(
+        painter = painterResource(id = R.drawable.ic_bmsgpk_light),
+        contentDescription = "Logo Bundesministerium",
         modifier = Modifier.padding(start = 20.dp, end = 20.dp)
     )
     Row() {
-
-        Image(painter = painterResource(id = R.drawable.ic_pflegende_angeh_rige), contentDescription = "Logo Plfegende Angehoerige",
+        Image(
+            painter = painterResource(id = R.drawable.ic_pflegende_angeh_rige),
+            contentDescription = "Logo Plfegende Angehoerige",
             modifier = Modifier
                 .padding(start = 20.dp)
                 .size(160.dp)
         )
         Spacer(modifier = Modifier.weight(1f))
-        Image(painter = painterResource(id = R.drawable.ic_fhooe__light), contentDescription = "Logo FH",
+        Image(
+            painter = painterResource(id = R.drawable.ic_fhooe__light),
+            contentDescription = "Logo FH",
             modifier = Modifier.padding(end = 20.dp)
         )
     }
-    Text(
-        text = timestamp,
-        modifier = Modifier.padding(start = 20.dp, end = 20.dp), textAlign = TextAlign.Center, color = Color.Black
-    )
 
+    val inputFormat: DateFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSX", Locale.GERMANY)
+    val date: Date = inputFormat.parse(timestamp)
+    val diff: Long = Timestamp(System.currentTimeMillis()).getTime() - date.getTime()
+    val days: Long = ((diff / 1000) / 86400)
+
+    Text(
+        text = "Letztes Update vor " + days + " Tagen",
+        modifier = Modifier.padding(start = 20.dp, end = 20.dp),
+        textAlign = TextAlign.Center,
+        color = Color.Black
+    )
 }
 
 @Composable
-fun txt(title: String, content: String, timestamp: String) {
-
+fun SetPartText(title: String, content: String, timestamp: String) {
     Text(
         text = title,
         color = colorResource(id = R.color.yc_red_dark),
         fontSize = 26.sp,
         modifier = Modifier.padding(start = 20.dp, top = 10.dp, end = 20.dp)
     )
-    /*
-    Text(
-        text = content,
+    MarkdownText(
+        markdown = content,
         modifier = Modifier.padding(start = 20.dp, end = 20.dp)
-    )*/
-
-    MarkdownText(markdown = content, modifier = Modifier.padding(start = 20.dp, end = 20.dp))
-
-    if (title == "Impressum"){SetLogos(timestamp = timestamp)}
-
+    )
+    if (title == "Impressum") {
+        SetImages(timestamp = timestamp)
+    }
 }
-/*
-@Preview(showBackground = true)
-@Composable
-fun AboutScreenPreview() {
-    About_Screen()
-}
-*/
 

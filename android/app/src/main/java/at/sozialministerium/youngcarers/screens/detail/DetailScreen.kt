@@ -1,4 +1,4 @@
-package at.sozialministerium.youngcarers.screens
+package at.sozialministerium.youngcarers.screens.detail
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
@@ -19,11 +19,9 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import at.sozialministerium.youngcarers.MarkdownText
 import at.sozialministerium.youngcarers.R
-import at.sozialministerium.youngcarers.core.*
 import at.sozialministerium.youngcarers.data.api.models.Abc
 import at.sozialministerium.youngcarers.cards.AbcDetailSideCard
 import at.sozialministerium.youngcarers.screens.detail.DetailViewModel
-import at.sozialministerium.youngcarers.ui.theme.*
 import org.koin.androidx.compose.getViewModel
 
 /**
@@ -38,9 +36,6 @@ fun DetailScreen(
     navController: NavHostController,
     viewTitle: String?
 ) {
-
-    val text = remember { mutableStateOf("") }
-
     val viewModel = getViewModel<DetailViewModel>()
     val articles: List<Abc> by viewModel.articles.collectAsState(initial = emptyList())
 
@@ -49,7 +44,6 @@ fun DetailScreen(
             TopAppBar(
                 title = {
                     //*Error without txt ?*//
-                    ""
                 },
                 navigationIcon = {
                     IconButton(
@@ -73,47 +67,33 @@ fun DetailScreen(
             Modifier.fillMaxWidth(),
             contentPadding = PaddingValues(16.dp),
         ) {
-            item {
-
-                articles.forEach { part ->
-                    //Todo error handling
-                    if (part.name == viewTitle) {
-
-
-                        if (viewTitle != null) {
-                            Text(
-                                "$viewTitle",
-                                color = colorResource(id = R.color.yc_red_dark),
-                                fontSize = 35.sp,
-                                fontWeight = FontWeight.Bold,
-                                modifier = Modifier.padding(start = 20.dp, top = 60.dp)
-                            )
-                        } else {
-                            Text(
-                                stringResource(R.string.detail_title),
-                                color = colorResource(id = R.color.yc_red_dark),
-                                fontSize = 35.sp,
-                                fontWeight = FontWeight.Bold,
-                                modifier = Modifier.padding(start = 20.dp, top = 60.dp)
-                            )
-                        }
-
-                        MarkdownText(
-                            markdown = part.information,
-                            modifier = Modifier.padding(
-                                start = 20.dp,
-                                top = 10.dp,
-                                end = 20.dp,
-                                bottom = 10.dp
-                            )
-                        )
-
-                        part.entries.forEach { entry ->
-
+            if (articles.isEmpty()) {
+                item {
+                    CircularProgressIndicator(color = colorResource(id = R.color.yc_red_dark))
+                }
+            } else {
+                item {
+                    articles.forEach { part ->
+                        if (part.name == viewTitle) {
+                            if (viewTitle != null) {
+                                Text(
+                                    "$viewTitle",
+                                    color = colorResource(id = R.color.yc_red_dark),
+                                    fontSize = 35.sp,
+                                    fontWeight = FontWeight.Bold,
+                                    modifier = Modifier.padding(start = 20.dp, top = 60.dp)
+                                )
+                            } else {
+                                Text(
+                                    stringResource(R.string.detail_title),
+                                    color = colorResource(id = R.color.yc_red_dark),
+                                    fontSize = 35.sp,
+                                    fontWeight = FontWeight.Bold,
+                                    modifier = Modifier.padding(start = 20.dp, top = 60.dp)
+                                )
+                            }
                             MarkdownText(
-                                markdown = entry.ownerName,
-                                fontSize = 15.sp,
-                                //fontWeight = FontWeight.Bold,
+                                markdown = part.information,
                                 modifier = Modifier.padding(
                                     start = 20.dp,
                                     top = 10.dp,
@@ -121,28 +101,38 @@ fun DetailScreen(
                                     bottom = 10.dp
                                 )
                             )
-
-
-                            Row(
-                                modifier = Modifier
-                                    .horizontalScroll(rememberScrollState())
-                                    .fillMaxWidth()
-                            ) {
-                                entry.references.forEach { ref ->
-                                    AbcDetailSideCard(
-                                        ref.title,
-                                        ref.description,
-                                        ref.previewImageUrl,
-                                        ref.url
+                            part.entries.forEach { entry ->
+                                MarkdownText(
+                                    markdown = entry.ownerName,
+                                    fontSize = 15.sp,
+                                    modifier = Modifier.padding(
+                                        start = 20.dp,
+                                        top = 10.dp,
+                                        end = 20.dp,
+                                        bottom = 10.dp
                                     )
-                                }//TODO: image
+                                )
+                                Row(
+                                    modifier = Modifier
+                                        .horizontalScroll(rememberScrollState())
+                                        .fillMaxWidth()
+                                ) {
+                                    entry.references.forEach { ref ->
+                                        AbcDetailSideCard(
+                                            ref.title,
+                                            ref.description,
+                                            ref.previewImageUrl,
+                                            ref.url,
+                                            ref.isPaidContent
+                                        )
+                                    }
+                                }
                             }
-
-
                         }
-
                     }
+                    Spacer(modifier = Modifier.padding(bottom = 55.dp))
                 }
+
             }
         }
     }
@@ -152,8 +142,5 @@ fun DetailScreen(
 @Preview(showBackground = true)
 @Composable
 fun DetailScreenPreview() {
-/* Detail_Screen(
-     navController = NavHostController(context = LocalContext.current),
-     viewTitle = "D"
- )*/
+
 }

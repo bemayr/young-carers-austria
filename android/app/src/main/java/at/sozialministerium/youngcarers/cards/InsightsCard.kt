@@ -29,7 +29,6 @@ fun InsightsCard(
     index: Int
 ) {
 
-
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -44,24 +43,19 @@ fun InsightsCard(
         ) {
             Row(
                 horizontalArrangement = Arrangement.SpaceBetween,
-                modifier = Modifier
-                    .fillMaxWidth()
-
+                modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
                     data.question, style = TextStyle(
                         color = Color.Black,
-                        //fontSize = 20.sp,
                         textAlign = TextAlign.Left
                     ), modifier = Modifier.padding(10.dp)
                 )
-
                 Icon(
                     imageVector = Icons.Filled.KeyboardArrowRight,
                     contentDescription = R.string.contentDescription.toString(),
                     modifier = Modifier.padding(end = 10.dp, top = 10.dp)
                 )
-
             }
         }
     }
