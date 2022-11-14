@@ -4866,6 +4866,40 @@
           ]
         },
         {
+          "ownerName": "pro mente OÖ",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.visible.co.at/blog/",
+              "title": "Blog von #visible",
+              "description": "Viele Kinder, Jugendliche und auch Erwachsene haben Mütter oder Väter die psychisch krank sind. Vielleicht helfen dir die Erfahrungen und Berichte anderer in diesem Blog.",
+              "previewImageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=4000x3000:format=jpg/path/s238362f501c31729/image/i67e0661c23437ba4/version/1652684425/lasse-ich-meine-mama-im-stich-wenn-ich-hilfe-hole.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T15:14:28.162Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Bundesland",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "JoJo Kindheit im Schatten",
+                "Oberösterreich",
+                "Organisation",
+                "Psyche",
+                "Rat",
+                "Salzburg",
+                "Unterstützung",
+                "elco",
+                "kiko",
+                "pro mente OÖ",
+                "psychisch",
+                "visible"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "superhands",
           "ownerUrl": "",
           "references": [
@@ -9396,5 +9430,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T14:54:35.605Z"
+  "timestamp": "2022-11-14T15:15:20.827Z"
 }
