@@ -3396,6 +3396,35 @@
           "ownerUrl": "",
           "references": [
             {
+              "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/pflegefit/young-carers/infobox-young-carers/?L=648",
+              "title": "Infobox Young Carers",
+              "description": "Das Jugendrotkreuz hat Informationen und Unterrichtsmaterialien für Pädagog:innen und Fachkräfte in der Jugendarbeit vorbereitet.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-österreich.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:20:39.223Z",
+              "keywords": [
+                "Beratung",
+                "Bildung",
+                "Hilfe",
+                "Jugendliche",
+                "Jugendrotkreuz",
+                "Juniorcamp",
+                "Klasse",
+                "Lehrer",
+                "Lehrerin",
+                "Lernen",
+                "Organisation",
+                "Peer",
+                "Rettung",
+                "Rotes Kreuz",
+                "Schule",
+                "Unterricht",
+                "Wissen",
+                "get social",
+                "time4friends"
+              ]
+            },
+            {
               "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/pflegefit/pflegefit-kurs/",
               "title": "Pflegefit - Betreuung und Pflege in der Familie",
               "description": "Das Jugendrotkreuz bietet für SchülerInnen und Schüler ab der 8. Schulstufe einen Kurs an.",
@@ -5965,5 +5994,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:19:07.914Z"
+  "timestamp": "2022-11-14T09:21:13.766Z"
 }
