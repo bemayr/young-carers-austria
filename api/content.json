@@ -6986,6 +6986,38 @@
           ]
         },
         {
+          "ownerName": "Verein Raum für Geschwister",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.geschwisterkinder.ch/de/index.html",
+              "title": "Du bist dran! Verein Raum für Geschwister",
+              "description": "Manchmal kommen Geschwister von Kindern mit Krankheit oder Behinderung oft zu kurz. Der Verein \"Raum für Geschwister\" aus der Schweiz bemüht sich um dieses Thema.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-541838144.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T11:37:15.826Z",
+              "keywords": [
+                "Angehörige",
+                "Bruder",
+                "Geschwister",
+                "Großeltern",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Schwester",
+                "Vater",
+                "Young Carers"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Young Carer Hilfe (Deutschland)",
           "ownerUrl": "",
           "references": [
@@ -7064,5 +7096,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T11:36:41.338Z"
+  "timestamp": "2022-11-14T11:37:44.368Z"
 }
