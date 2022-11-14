@@ -5287,6 +5287,41 @@
           ]
         },
         {
+          "ownerName": "JUMP",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.wir-pflegen.net/interessenvertretung/junge-menschen-mit-pflegeverantwortung",
+              "title": "JUMP – Junge Menschen mit Pflegeverantwortung",
+              "description": "JUMP ist ein deutsches Netzwerk von pflegenden Angehörigen und Pflege Akteuren. Gemeinsam wollen sie größere Aufmerksamkeit und Unterstützung für Tausende von Kindern und Jugendlichen erreichen, die schon in frühen Jahren große Pflegeverantwortung haben.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1130453486.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:12:10.498Z",
+              "keywords": [
+                "Angehörige",
+                "Ausland",
+                "Bruder",
+                "Deutschland",
+                "Geschwister",
+                "Großeltern",
+                "International",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Schwester",
+                "Vater",
+                "Young Carers"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Kinderschutzbund (Deutschland)",
           "ownerUrl": "",
           "references": [
@@ -5553,5 +5588,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:01:42.256Z"
+  "timestamp": "2022-11-14T09:12:43.185Z"
 }
