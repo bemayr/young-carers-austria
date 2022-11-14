@@ -3200,6 +3200,26 @@
           ]
         },
         {
+          "ownerName": "Bundeskanzleramt",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.bundeskanzleramt.gv.at/familienportal",
+              "title": "Familienportal",
+              "description": "Das Familienportal bietet umfangreiche Infos zu finanziellen Themen rund um die Familie.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T10:57:29.418Z",
+              "keywords": [
+                "BKA",
+                "Bundeskanzleramt",
+                "Kanzler",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Sozialministeriumservice",
           "ownerUrl": "",
           "references": [
@@ -6893,5 +6913,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T10:55:39.086Z"
+  "timestamp": "2022-11-14T10:57:57.372Z"
 }
