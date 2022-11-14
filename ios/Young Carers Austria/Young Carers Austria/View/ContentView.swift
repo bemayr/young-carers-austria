@@ -3,6 +3,7 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var viewModel: ViewModel
     @State private var selection: Tab = .insights
+    @State private var showChatbot = false
     
     enum Tab {
         case insights, categories, emergency, about
@@ -37,6 +38,7 @@ struct ContentView: View {
     }
 
     var body: some View {
+        
         if let content = viewModel.content {
             if (viewModel.showLaunchScreen ?? true) {
                 WelcomePage(metadata: content.metadata, dismiss: viewModel.completeWelcomeScreen)
@@ -56,6 +58,14 @@ struct ContentView: View {
                         AboutPage(metadata: content.metadata, contentTimestamp: content.timestamp)
                     }
                 }
+                .overlay {
+                    ChatbotButton(action: {
+                        showChatbot = true
+                    })
+                }
+                .sheet(isPresented: $showChatbot, content: {
+                    Text("Hello World from Chatbot!")
+                })
             }
         }
         else {

@@ -24,7 +24,6 @@ struct WelcomePage: View {
                     Markdown(welcomeFeedback!.content)
                     
                     VStack(alignment: .center) {
-//                        Spacer()
                         Button(action: {
                             Task.init {
                                 await dismiss()
@@ -45,7 +44,6 @@ struct WelcomePage: View {
                 .resizable()
                 .scaledToFit()
         }
-//        .background(Color(.secondarySystemBackground))
         .ignoresSafeArea(.all, edges: .bottom)
     }
 }
