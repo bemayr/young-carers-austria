@@ -5269,6 +5269,43 @@
           ]
         },
         {
+          "ownerName": "Tirol",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste/",
+              "title": "Pflegende Angehörige Tirol",
+              "description": "Mobile Dienste in Tirol können hier abgefragt werden.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:47:06.513Z",
+              "keywords": [
+                "Behinderung",
+                "Betreuung",
+                "Bundesland",
+                "Daheim",
+                "Eltern",
+                "FSW",
+                "Großeltern",
+                "Hilfe",
+                "Land",
+                "Mama",
+                "Mobil",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Soziale Dienste",
+                "Tirol",
+                "Unterstützung",
+                "Zu Hause",
+                "Zuhause",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Vorarlberg",
           "ownerUrl": "",
           "references": [
@@ -6281,5 +6318,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:42:30.280Z"
+  "timestamp": "2022-11-14T09:47:38.077Z"
 }
