@@ -4725,7 +4725,31 @@
       "name": "Therapie",
       "title": "Was sind die häufigsten Therapieformen und wie kommt man dazu?",
       "information": "Zu den anerkannten Therapieformen zählen u.a. **Physiotherapie** und **Ergotherapie** bei Behinderungen im Bewegungsablauf; **Logopädie** bei Behinderungen der Sprache und des Sprachverständnisses. Die Ärztin / Der Arzt stellt eine **Verordnung** aus. Erfolgt die Behandlung bei Vertragspartner:innen, ist keine Bewilligung durch die [Österreichische Gesundheitskasse](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) erforderlich. Wird die Behandlung von freiberuflichen Therapeut:innen, Wahlfachärztinnen und -ärzten oder von Wahl-Instituten durchgeführt, ist eine **Bewilligung** in einer Kundenservicestelle erforderlich.\n\nTherapeut:innen, Fachärztinnen und Fachärzte, sowie Institute die einen Vertrag mit der Krankenkasse haben, können die durchgeführten Behandlungen direkt mit der Kasse abrechnen. Es entstehen keine zusätzlichen Kosten. Dies gilt auch für Gesundheitseinrichtungen.Sucht man sich Therapeut:innen, Fachärztinnen und Fachärzte oder Institute die keinen Vertrag mit der [Österreichischen Gesundheitskasse](https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&amp;portal=oegkportal) haben, muss man das Honorar für die Behandlungen zunächst selbst bezahlen. Dann kann man um **Kostenerstattung** ansuchen. Nähere Auskünfte erteilt die zuständige Krankenkasse.",
-      "entries": []
+      "entries": [
+        {
+          "ownerName": "Österreichische Gesundheitskasse",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheitskasse.at/cdscontent/?contentid=10007.813892&portal=oegkportal",
+              "title": "Infos der Gesundheitskasse",
+              "description": "Nähere Auskünfte zu Verordnungen und Therapien erteilt die zuständige Krankenkasse bzw. der für die Patientin bzw. den Patienten zuständige Krankenversicherungsträger.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:18:35.570Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Rat",
+                "Unterstützung"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "6368520f638c16809e4d0e1e",
@@ -5941,5 +5965,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:18:10.523Z"
+  "timestamp": "2022-11-14T09:19:07.914Z"
 }
