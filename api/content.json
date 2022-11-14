@@ -3340,7 +3340,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa im Rollstuhl zu kümmern."
+          "text": "Tina erledigt alle Besorgungen, die in der Familie anfallen. Sie ist zuständig für alle Einkäufe und kümmert sich darum, dass immer genug Hundefutter zu Hause ist. Außerdem geht sie regelmäßig zum Hausarzt, um die Rezepte für die Medikamente abzuholen. Der nächste Weg führt Tina dann gleich in die Apotheke. Tina hilft ihrer Mama zuliebe. Dadurch hat sie die notwendige Zeit, sich um den kranken Papa im Rollstuhl zu kümmern. Durch ihre Hilfe sorgt Tina dafür, dass der Alltag der Familie klappt.Pflegehilfsmittel sind wichtig, sie erleichtern die Pflege. Wie man dazu kommt, erfährst du hier."
         },
         {
           "type": "category",
@@ -3376,6 +3376,10 @@
               }
             ]
           }
+        },
+        {
+          "type": "text",
+          "text": "Wenn sich deine Familie dazu entschließt, einen mobilen Dienst zur Untersützung zu engagieren, so gibt es viele Angebote verschiedener Organisationen."
         },
         {
           "type": "category",
@@ -3812,6 +3816,10 @@
               }
             ]
           }
+        },
+        {
+          "type": "text",
+          "text": "Manchmal brauchen auch Eltern oder die ganze Familie Beratung und Unterstützung, die findest du hier."
         },
         {
           "type": "category",
@@ -10836,5 +10844,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T15:35:51.470Z"
+  "timestamp": "2022-11-14T15:50:03.059Z"
 }
