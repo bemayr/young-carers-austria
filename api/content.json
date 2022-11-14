@@ -6147,6 +6147,42 @@
       "information": "Die Veranstaltungskalender der [Interessengemeinschaft pflegender Angehöriger](https://www.ig-pflege.at) und der [Demenzstrategie](https://www.demenzstrategie.at) informieren über verschiedene Events, Stammtische und Treffen für pflegende Angehörige, die für dich interessant sein könnten.",
       "entries": [
         {
+          "ownerName": "Eurocarers",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "http://ecd.me-we.eu/",
+              "title": "Eurocarers - European Carers Day 6. Oktober",
+              "description": "Die Idee besteht darin, die nationalen Bemühungen zur Sensibilisierung für die Belange von Pflegekräften im Rahmen einer gesamteuropäischen Struktur zu koordinieren und zu fördern. #WeAreCarers_EU #CarersDay_EU",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-österreich.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T11:34:13.715Z",
+              "keywords": [
+                "Angehörige",
+                "Ausland",
+                "Bruder",
+                "Eurocarers",
+                "Geschwister",
+                "Großeltern",
+                "International",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Organisation",
+                "Papa",
+                "Pflege",
+                "Schwester",
+                "Vater",
+                "Young Carers"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "GÖG und Sozialministerium",
           "ownerUrl": "",
           "references": [
@@ -6942,5 +6978,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T11:33:38.662Z"
+  "timestamp": "2022-11-14T11:34:41.651Z"
 }
