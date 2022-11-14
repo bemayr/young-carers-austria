@@ -23,7 +23,7 @@ const DataProtectionDeclaration: GlobalConfig = {
       label: "Inhalt",
       required: true,
       admin: {
-        elements: ["h2", "h3", "link", "ol", "ul"],
+        elements: ["h3", "link", "ol", "ul"],
         leaves: ["bold"]
       }
     },
