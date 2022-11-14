@@ -2920,6 +2920,33 @@
           ]
         },
         {
+          "ownerName": "Jugendinfo Kärnten",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://jugend.ktn.gv.at/",
+              "title": "Jugendliche Kärnten",
+              "description": "Unter diesem Link erreichst du die Info des Landesjugendreferates Kärnten.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T08:59:18.278Z",
+              "keywords": [
+                "Auszeit",
+                "Bundesland",
+                "Entspannung",
+                "Freizeit",
+                "Hobby",
+                "Kärnten",
+                "Pflege",
+                "Soziale Dienste",
+                "Sport",
+                "Urlaub",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "JugendService OÖ",
           "ownerUrl": "",
           "references": [
@@ -5481,5 +5508,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T08:59:00.846Z"
+  "timestamp": "2022-11-14T08:59:53.671Z"
 }
