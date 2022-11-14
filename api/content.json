@@ -1907,7 +1907,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Eigentlich würde Bianca ihre Freundin Melanie gerne mit nach Hause nehmen. Aber Bianca ist die Situation daheim unangenehm und so gibt es keine Einladung. Überhaupt würde Bianca gerne mehr Zeit mit Freundinnen und Hobbies verbringen, aber die Hilfe für die demenzkranke Oma nimmt Bianca zu sehr in Anspruch.Wir alle brauchen mal eine Auszeit - und du auch! Nimm dir bewusst Zeit für deine Hobbies, Freunde und Aktivitäten. Es gibt andere Young Carers so wie du - wie wär's mit einem Chat?"
+          "text": "Eigentlich würde Bianca ihre Freundin Melanie gerne mit nach Hause nehmen. Aber Bianca ist die Situation daheim unangenehm und so gibt es keine Einladung. Überhaupt würde Bianca gerne mehr Zeit mit Freundinnen und Hobbies verbringen, aber die Hilfe für die demenzkranke Oma nimmt Bianca zu sehr in Anspruch.Wir alle brauchen mal eine Auszeit - und du auch! Nimm dir bewusst Zeit für deine Hobbies, Freunde und Aktivitäten."
         },
         {
           "type": "category",
@@ -2235,6 +2235,10 @@
           }
         },
         {
+          "type": "text",
+          "text": "Es gibt andere Young Carers so wie du - wie wär's mit einem Chat?"
+        },
+        {
           "type": "category",
           "category": {
             "id": "63684d6d638c16809e4d0bc8",
@@ -2402,6 +2406,10 @@
           }
         },
         {
+          "type": "text",
+          "text": "Wenn du deine Freizeit sinnvoll gestalten willst - hier könntest du fündig werden!"
+        },
+        {
           "type": "category",
           "category": {
             "id": "63684ebf638c16809e4d0c50",
@@ -2495,6 +2503,10 @@
               }
             ]
           }
+        },
+        {
+          "type": "text",
+          "text": "Demenz betrifft immer mehr Menschen. Wenn du etwas über diese Beeinträchtigung wissen möchtest, hier findest du passende Informationen."
         },
         {
           "type": "category",
@@ -10864,5 +10876,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T16:04:53.230Z"
+  "timestamp": "2022-11-14T16:12:08.838Z"
 }
