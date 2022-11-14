@@ -552,6 +552,779 @@
       ]
     },
     {
+      "question": "Unterstützung leisten",
+      "content": [
+        {
+          "type": "text",
+          "text": "Thomas übernimmt regelmäßig die Betreuung und Pflege für seinen kranken Bruder Max. Dann hilft Thomas bei der Körperpflege, beim An- und Ausziehen oder wenn Max auf die Toilette muss. Wenn er Hunger hat, bringt ihm sein Bruder was zum Essen und zum Trinken. Überhaupt gibt Thomas Acht auf Max und die Brüder verbringen viel Zeit miteinander.Praktisches Wissen kannst du lernen, bei Kursen für pflegende Angehörige - in Präsenz oder online.Die Länder haben eigene Angebote zur Unterstützung pflegender Angehöriger, lies  in deinem Bundesland nach."
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63684f96638c16809e4d0cb6",
+            "name": "Kurse",
+            "title": "Pflegekurse vermitteln Basiswissen und praktische Tipps",
+            "information": "In speziellen Schulungen und Kursen vermitteln die Anbieter von sozialen Diensten, z.B. Rotes Kreuz, Caritas, HIlfswerk und Volkshilfe durch Vorträge, fachliche Anleitung und praktische Übungen das nötige Know-how für die Pflege und Betreuung zu Hause. Die Schulungen befassen sich mit wichtigem Basiswissen sowie z.B. Sturzvermeidung, Umgang mit dementiellen Beeinträchtigungen, Medikamente und Wechelwirkungen, Essen, Trinken und Ausscheiden, Tipps zur Körperpflege, etc. Damit ist man gut für die Herausforderungen der Betreuung zu Hause gewappnet.",
+            "entries": [
+              {
+                "ownerName": "Infoservice des Sozialministeriums",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.infoservice.sozialministerium.at/willkommen",
+                    "title": "Infoservice soziale Dienste",
+                    "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1130453486.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:15:50.465Z",
+                    "keywords": [
+                      "Ausland",
+                      "Behinderung",
+                      "Beratung",
+                      "Betreuung",
+                      "Bildung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Finanzielles",
+                      "Geld",
+                      "Gesundheit",
+                      "Gesundheitsministerium",
+                      "Großeltern",
+                      "Hilfe",
+                      "International",
+                      "Kurs",
+                      "Lernen",
+                      "Mama",
+                      "Ministerium",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Organisation",
+                      "Papa",
+                      "Pflege",
+                      "Pflegegeld",
+                      "Pflegeplattform",
+                      "Plattform",
+                      "Schulung",
+                      "Sozial",
+                      "Soziale Dienste",
+                      "Sozialministerium",
+                      "Unterricht",
+                      "Unterstützung",
+                      "Wissen",
+                      "Young Minds UK",
+                      "Zu Hause",
+                      "Zuhause"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Jugendrotkreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/pflegefit/young-carers/infobox-young-carers/?L=648",
+                    "title": "Infobox Young Carers",
+                    "description": "Das Jugendrotkreuz hat Informationen und Unterrichtsmaterialien für Pädagog:innen und Fachkräfte in der Jugendarbeit vorbereitet.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-österreich.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:20:39.223Z",
+                    "keywords": [
+                      "Beratung",
+                      "Bildung",
+                      "Hilfe",
+                      "Jugendliche",
+                      "Jugendrotkreuz",
+                      "Juniorcamp",
+                      "Klasse",
+                      "Lehrer",
+                      "Lehrerin",
+                      "Lernen",
+                      "Organisation",
+                      "Peer",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "Schule",
+                      "Unterricht",
+                      "Wissen",
+                      "get social",
+                      "time4friends"
+                    ]
+                  },
+                  {
+                    "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/pflegefit/pflegefit-kurs/",
+                    "title": "Pflegefit - Betreuung und Pflege in der Familie",
+                    "description": "Das Jugendrotkreuz bietet für Schüler:innen  ab der 8. Schulstufe einen Kurs an.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T12:57:53.949Z",
+                    "keywords": [
+                      "Ausbildung",
+                      "Beratung",
+                      "Hilfe",
+                      "Jugendliche",
+                      "Jugendrotkreuz",
+                      "Juniorcamp",
+                      "Kurs",
+                      "Lernen",
+                      "Organisation",
+                      "Peer",
+                      "Pflege",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "Schule",
+                      "Wissen",
+                      "get social",
+                      "pflegefit",
+                      "praktisch",
+                      "time4friends"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Kardinal König Haus",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.demenzfreundlich.at/kinder/",
+                    "title": "Demenz verstehen - von Kindesbeinen an",
+                    "description": "Die Webinar-Reihe des Kardinal König Hauses beschäftigt sich mit dem Thema Demenz.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T13:04:28.277Z",
+                    "keywords": [
+                      "Alzheimer",
+                      "Bildung",
+                      "Demenz",
+                      "Kardinal König Haus",
+                      "Seminar",
+                      "Vergessen",
+                      "Vergesslichkeit",
+                      "Webinar",
+                      "vergesslich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Online Kurs Rotes Kreuz: Pflege zuhause",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://wissen.roteskreuz.at/pluginfile.php/12660/mod_resource/content/6/content/index.html",
+                    "title": "Onlinekurs für Pflegende Angehörige",
+                    "description": "In diesem Onlinekurs lernst du, wie du dich selbst schützen und wie du dein Leben organisieren kannst, wenn du einen erkrankten Angehörigen pflegen musst.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1130453486.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T14:33:10.508Z",
+                    "keywords": [
+                      "Ausbildung",
+                      "Beratung",
+                      "Bildung",
+                      "Erste Hilfe",
+                      "Freizeit",
+                      "Get Social",
+                      "Hilfe",
+                      "Infobox",
+                      "Jugendrotkreuz",
+                      "Juniorcamps",
+                      "Krems",
+                      "Kurs",
+                      "Kurz",
+                      "Notfall",
+                      "Onlinekurs",
+                      "Pflege",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "Schulung",
+                      "Sommercamps",
+                      "Sozialer Dienst",
+                      "Superhands",
+                      "Time4Friends",
+                      "Vernetzung",
+                      "Video",
+                      "Wissen"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "superhands",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.superhands.at/pflege/taegliche-pflege/",
+                    "title": "Tägliche Pflege",
+                    "description": "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T11:58:07.910Z",
+                    "keywords": [
+                      "Alltag",
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Lernen",
+                      "Organisation",
+                      "Pflege",
+                      "Pflegetipps",
+                      "Rat",
+                      "Rettung",
+                      "Tipps",
+                      "Unterstützung",
+                      "Wissen",
+                      "praktisch",
+                      "superhands"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "VeRRückte Kindheit",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.verrueckte-kindheit.at/de/angebote/seminare/",
+                    "title": "Seminar für professionell Tätige",
+                    "description": "\"veRRückte Kindheit\" offeriert ein Seminar für Menschen die mit Jugendlichen arbeiten.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T12:20:15.664Z",
+                    "keywords": [
+                      "Beratung",
+                      "Bildung",
+                      "Chatten",
+                      "Eltern",
+                      "Erkrankte",
+                      "Forum",
+                      "HPE",
+                      "Hilfe",
+                      "Kurs",
+                      "Lernen",
+                      "Mama",
+                      "Mutter",
+                      "Papa",
+                      "Schulung",
+                      "Selbsthilfe",
+                      "Seminar",
+                      "Unterricht",
+                      "Vater",
+                      "VeRRückte Kindheit",
+                      "Wissen",
+                      "online",
+                      "psychisch",
+                      "visible"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "6368520f638c16809e4d0e1e",
+            "name": "Unterstützung",
+            "title": "Infos über Unterstützung vom Sozialministerium",
+            "information": "Das Sozialministerium hat in den letzten Jahren verschiedene **Unterstützungsangebote für pflegende Angehörige** entwickelt, z.B. Information und Beratung zu Hause, das Angehörigengespräch, kostenlose Sozialversicherung und Möglichkeiten der beruflichen Auszeit sowie Zuwendungen für die Kosten der Urlaubspflege.\n\nDie Bundesländer bieten **soziale Dienste** an; das sind z.B. Wohn- und Pflegeheime, Tageszentren für Senior:innen sowie mobile Dienste. Außerdem informieren die Ämter der Landesregierungen zu Angeboten für pflegende Angehörige.",
+            "entries": [
+              {
+                "ownerName": "Broschürenservice des Sozialministeriums",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=331",
+                    "title": "Unterstützungen für pflegende Angehörige",
+                    "description": "Folder als Download",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T11:53:27.795Z",
+                    "keywords": [
+                      "Alltag",
+                      "Angehörige",
+                      "Anlaufstelle",
+                      "Behinderung",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Betreuung",
+                      "Bruder",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Finanzielles",
+                      "Geld",
+                      "Geschwister",
+                      "Gesundheit",
+                      "Gesundheitsministerium",
+                      "Großeltern",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Kinder",
+                      "Lernen",
+                      "Mama",
+                      "Ministerium",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Pflegegeld",
+                      "Pflegende Angehörige",
+                      "Pflegeplattform",
+                      "Pflegetipps",
+                      "Plattform",
+                      "Rat",
+                      "Schwester",
+                      "Sozial",
+                      "Soziale Dienste",
+                      "Sozialministerium",
+                      "Tipps",
+                      "Unterstützung",
+                      "Wissen",
+                      "Young Carer",
+                      "Zu Hause",
+                      "Zugehörige",
+                      "Zuhause",
+                      "praktisch"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Burgenland",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.burgenland.at/themen/pflege/angebote-fuer-betreuende-und-pflegende-angehoerige/",
+                    "title": "Pflegende Angehörige Burgenland",
+                    "description": "Hier kannst du dich zu Angeboten für betreuende und pflegende Angehörige im Burgenland informieren.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-burgenland.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:52:15.883Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Burgenland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Gesundheitsportal Österreichs",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gesundheit.gv.at/leben/altern/wohnen-im-alter/pflegende-angehoerige-entlastungen-unterstuetzungen",
+                    "title": "Gesundheitsportal Österreichs",
+                    "description": "Wertvolle Informationen zur Entlastung und Unterstützung pflegender Angehöriger bietet ebenso das Gesundheitsportal Österreichs.",
+                    "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:40:23.680Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Diagnose",
+                      "Gesundheit",
+                      "Gesundheitsportal Österreichs",
+                      "GÖG",
+                      "Hilfe",
+                      "Info",
+                      "Infoplattform",
+                      "Infos",
+                      "Krankheit",
+                      "Selbsthilfe",
+                      "Wegweiser",
+                      "gesund"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Kärnten",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131&subthema=138",
+                    "title": "Pflegende Angehörige Kärnten",
+                    "description": "Das Land Kärnten bietet eigene Unterstützung für pflegende Angehörige.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:51:36.637Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Kärnten",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Niederösterreich",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.noel.gv.at/noe/Pflege/Urlaubsaktion_fuer_Pflegende_Angehoerige.html",
+                    "title": "Pflegende Angehörige Niederösterreich",
+                    "description": "Leistungen für Pflegende in Niederösterreich kannst du hier nachlesen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:50:33.111Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Niederösterreich",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Oberösterreich",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.land-oberoesterreich.gv.at/23885.htm",
+                    "title": "Pflegende Angehörige Oberösterreich",
+                    "description": "Zu Unterstützungsangebote für pflegende Angehörige in Oberösterreich wird unter diesem Link informiert.",
+                    "previewImageUrl": "https://www.land-oberoesterreich.gv.at/files/ooe2015/cdneu/schema/schema_land_ooe_logo.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:11:38.505Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oberösterreich",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Salzburg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.salzburg.gv.at/themen/soziales/pflege-und-betreuung/pflegende-angehoerige",
+                    "title": "Pflegende Angehörige Salzburg",
+                    "description": "Unterstützungsangebote für pflegende Angehörige in Salzburg kannst du hier nachlesen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-salzburg.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:47:51.562Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Salzburg",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Sozialministerium",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html",
+                    "title": "Hilfe für betreuende und pflegende Angehörige",
+                    "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:8f3dc93a-ffe8-4940-90af-fb2ccc2997ee/BMSGPK_Logo_OpenGraph.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T02:41:11.155Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Behinderung",
+                      "Beratung",
+                      "Betreuung",
+                      "Bruder",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Finanzielles",
+                      "Geld",
+                      "Geschwister",
+                      "Gesundheit",
+                      "Gesundheitsministerium",
+                      "Großeltern",
+                      "Hilfe",
+                      "Jugendliche",
+                      "Junge",
+                      "Kinder",
+                      "Mama",
+                      "Ministerium",
+                      "Mobil",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Pflegegeld",
+                      "Pflegende Angehörige",
+                      "Pflegeplattform",
+                      "Plattform",
+                      "Schwester",
+                      "Sozial",
+                      "Soziale Dienste",
+                      "Sozialministerium",
+                      "Unterstützung",
+                      "Vater",
+                      "Young Carer",
+                      "Young Carers",
+                      "Zu Hause",
+                      "Zugehörige",
+                      "Zuhause"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Steiermark",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gesundheit.steiermark.at/cms/ziel/142146817/DE/",
+                    "title": "Pflege Steiermark",
+                    "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.gesundheit.steiermark.at/cms/bilder/861513/80/150/100/df7e405d/CCM.jpg?as_is=J\n",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:54:51.239Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Steiermark",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Tirol",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste/",
+                    "title": "Pflegende Angehörige Tirol",
+                    "description": "Mobile Dienste in Tirol können hier abgefragt werden.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:47:06.513Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Tirol",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Vorarlberg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://vorarlberg.at/-/finanzielle-entlastungs-und-unterstuetzungsangebote-2019",
+                    "title": "Pflegende Angehörige Vorarlberg",
+                    "description": "Die Broschüre \"Entlastungs- und Unterstützungsangebote 2021\" in Vorarlberg kannst du hier nachlesen.",
+                    "previewImageUrl": "https://vorarlberg.at/o/vbg-73-theme/images/fallback.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:13:37.228Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Vorarlberg",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Wien / Fonds Soziales Wien",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.fsw.at/p/pflegende-angehoerige",
+                    "title": "Pflegende Angehörige Wien",
+                    "description": "Der Fonds Soziales Wien informiert pflegende Angehörige unter diesem Link über bestehende Unterstützungsangebote.",
+                    "previewImageUrl": "https://www.fsw.at/photos/meta/_1200x630_crop_center-center_82_none/FSW_Logo-rund.png?mtime=1584551437",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:14:37.493Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Wien",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "question": "Besorgungen erledigen",
       "content": [
         {
@@ -7992,5 +8765,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T14:00:22.299Z"
+  "timestamp": "2022-11-14T14:10:14.983Z"
 }
