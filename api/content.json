@@ -4673,6 +4673,42 @@
           ]
         },
         {
+          "ownerName": "CS Caritas Socialis - Multiple Sklerose Betreuung",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.cs.at/angebote/cs-multiple-sklerose-betreuung/coaching-fuer-kinder-und-jugendliche",
+              "title": "CS Caritas Socialis - Multiple Sklerose Betreuung",
+              "description": "Hier triffst du Jugendliche in deinem Alter mit den gleichen Erfahrungen und Fragen zu Multipler Sklerose und kannst dich in der Gruppe austauschen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-wien.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T12:00:17.920Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Betreuung",
+                "Bundesland",
+                "CS",
+                "CS Caritas Socialis",
+                "Caritas",
+                "Caritas Socialis",
+                "Coaching",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Krankheit",
+                "MS",
+                "Multiple Sklerose",
+                "Organisation",
+                "Rat",
+                "Unterstützung",
+                "Wien",
+                "krank"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "elco/kiko - pro mente OÖ",
           "ownerUrl": "",
           "references": [
@@ -7270,5 +7306,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T11:53:10.643Z"
+  "timestamp": "2022-11-14T12:00:51.286Z"
 }
