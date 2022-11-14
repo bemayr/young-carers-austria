@@ -351,6 +351,42 @@
                 ]
               },
               {
+                "ownerName": "Salzburg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.salzburg.gv.at/themen/soziales/pflege-und-betreuung",
+                    "title": "Pflege Salzburg",
+                    "description": "Das Land Salzburg bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-salzburg.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:55:51.604Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Salzburg",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
                 "ownerName": "Sozialministerium",
                 "ownerUrl": "",
                 "references": [
@@ -1936,6 +1972,42 @@
                 "Opa",
                 "Papa",
                 "Pflege",
+                "Soziale Dienste",
+                "Unterstützung",
+                "Zu Hause",
+                "Zuhause",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Salzburg",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.salzburg.gv.at/themen/soziales/pflege-und-betreuung",
+              "title": "Pflege Salzburg",
+              "description": "Das Land Salzburg bietet hier Informationen zu Pflegethemen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-salzburg.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:55:51.604Z",
+              "keywords": [
+                "Behinderung",
+                "Betreuung",
+                "Bundesland",
+                "Daheim",
+                "Eltern",
+                "FSW",
+                "Großeltern",
+                "Hilfe",
+                "Mama",
+                "Mobil",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Salzburg",
                 "Soziale Dienste",
                 "Unterstützung",
                 "Zu Hause",
@@ -6538,5 +6610,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:55:13.793Z"
+  "timestamp": "2022-11-14T09:56:18.347Z"
 }
