@@ -245,6 +245,313 @@
   },
   "insights": [
     {
+      "question": "Sich hilflos fühlen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Bettinas Mama ist wieder einmal gestürzt und kann ohne fremde Hilfe nicht aufstehen. In solchen Momenten ist Bettina sehr unsicher, denn sie weiß nicht genau, warum diese Stürze passieren. Sie weiß auch nicht, wie sie sich dann am besten verhalten soll. Das macht Bettina große Angst und Sorgen. Durch ihre Erkrankung bekommt die Mutter immer die aufmerksamkeit der ganzen Familie.In einer solchen Situation ist es wichtig, dass du Informationen einholst und dich zu Krankheitsbildern schlau machst. Eine Möglichkeit zu einer vertraulichen Aussprache bietet das Angehörigengespräch."
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63684f7c638c16809e4d0ca5",
+            "name": "Krankheiten",
+            "title": "Wo gibt es gesichertes Wissen zu Krankheitsbildern?",
+            "information": "Die Diagnose einer Erkrankung löst bei vielen Menschen Angst aus. Besonders chronische Krankheiten beeinflussen das alltägliche Leben. Wissen hilft bei der Bewältigung. Es gibt viele unterschiedliche Krankheitsbilder – außerdem ist jeder Mensch anders und daher individuell zu behandeln. Es ist wichtig, dass du weißt **wo du dich über Gesundheit und Krankheit informieren kannst** und verlässliche Auskunft bekommst.\n\nAuf die Informationen im [Gesundheitsportal Österreichs](https://www.gesundheit.gv.at) kannst du dich verlassen. Wenn du mehr oder weiterführende Informationen brauchst, wende dich z.B. an deine Ärztin oder deinen Arzt.",
+            "entries": [
+              {
+                "ownerName": "Alzheimer Austria",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.alzheimer-selbsthilfe.at/schulinitiative-merkima-demenz-kindern-erklaert/",
+                    "title": "Was ist bloß mit Oma los? - Demenz",
+                    "description": "Kindern wird Demenz erklärt",
+                    "previewImageUrl": "https://www.alzheimer-selbsthilfe.at/wp-content/uploads/2017/07/merkimakidzlogo-web.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T12:56:34.611Z",
+                    "keywords": [
+                      "Alzheimer",
+                      "Alzheimer Austria",
+                      "Demenz",
+                      "Vergessen",
+                      "Vergesslichkeit",
+                      "vergesslich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "CS Caritas Socialis",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.cs.at/landingpages/oma",
+                    "title": "Demenz kindgerecht erklärt",
+                    "description": "Das Mini-Buch \"Anna ist die beste Oma der Welt\" kann das.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_70381304_XXL.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:37:29.070Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "CS Caritas Socialis",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "MS",
+                      "Multiple Sklerose",
+                      "Organisation",
+                      "Rat",
+                      "Unterstützung",
+                      "Wien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Kardinal König Haus",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.demenzfreundlich.at/kinder/",
+                    "title": "Demenz verstehen - von Kindesbeinen an",
+                    "description": "Die Webinar-Reihe des Kardinal König Hauses beschäftigt sich mit dem Thema Demenz.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T13:04:28.277Z",
+                    "keywords": [
+                      "Alzheimer",
+                      "Bildung",
+                      "Demenz",
+                      "Kardinal König Haus",
+                      "Seminar",
+                      "Vergessen",
+                      "Vergesslichkeit",
+                      "Webinar",
+                      "vergesslich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Sozialministerium",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gesundheit.gv.at/krankheiten.html",
+                    "title": "Gesundheitsportal Österreichs",
+                    "description": "Es liefert gesicherte Informationen zu Krankheitsbildern, z.B. Demenz, Krebserkrankungen.",
+                    "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:40:59.594Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Diagnose",
+                      "Gesundheit",
+                      "Gesundheitsportal Österreichs",
+                      "GÖG",
+                      "Hilfe",
+                      "Info",
+                      "Infoplattform",
+                      "Infos",
+                      "Krankheit",
+                      "Selbsthilfe",
+                      "Wegweiser",
+                      "gesund"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "superhands",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.superhands.at/wissen/krankheiten",
+                    "title": "Welche Krankheiten gibt's bei Pflege daheim?",
+                    "description": "Hier sind die häufigsten Krankheiten zusammengefasst, die Kinder/Jugendliche zu Hause bei der Pflege betreffen können (mit Beschreibung, wie es dazu kommen kann und was man tun kann, um zu helfen).",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T11:16:33.334Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Organisation",
+                      "Rat",
+                      "Rettung",
+                      "Unterstützung",
+                      "superhands"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63685043638c16809e4d0d1d",
+            "name": "Notfall(nummern)",
+            "title": "Welche Nummer wähle ich im Notfall?",
+            "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Ärztebereitschaftsdienst**: [141](tel:141)  \n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+            "entries": [
+              {
+                "ownerName": "austria4kids",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "http://www.austria4kids.at/notruf-hilfe-kinder.html",
+                    "title": "Notrufe und Hilfe für Kinder",
+                    "description": "Hier sind Notrufe und Kontaktadressen für Kinder in Krisensituationen gesammelt.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T14:37:23.633Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratungsstelle",
+                      "Freizeit",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Organisation",
+                      "Rat",
+                      "Tipps",
+                      "Unterstützung",
+                      "austria4kids"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Kindernotruf",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "http://www.verein-lichtblick.at/kindernotruf-3/",
+                    "title": "Wohin mit meinen Sorgen?",
+                    "description": "Der Kindernotruf hat ein offenes Ohr!",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T11:00:07.536Z",
+                    "keywords": [
+                      "Anrufen",
+                      "E-Mail",
+                      "Hilfe",
+                      "Kinder",
+                      "Kindernotruf",
+                      "Lichtblick",
+                      "Mail",
+                      "Notruf",
+                      "Sorgen",
+                      "Telefon",
+                      "Verein Lichtblick"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Kliniksuche des BMSGPK",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://kliniksuche.at/",
+                    "title": "kliniksuche.at",
+                    "description": "Kliniksuche.at unterstützt dich dabei, ein geeignetes Krankenhaus zu finden.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T09:57:57.139Z",
+                    "keywords": [
+                      "Ambulanz",
+                      "Arzt",
+                      "Behandlung",
+                      "Behinderung",
+                      "Beratung",
+                      "Finanzielles",
+                      "Geld",
+                      "Gesundheit",
+                      "Gesundheitsministerium",
+                      "Hilfe",
+                      "Klinik",
+                      "Kliniksuche",
+                      "Krankenhaus",
+                      "Krankheit",
+                      "Medizin",
+                      "Ministerium",
+                      "Notfall",
+                      "Notruf",
+                      "Pflege",
+                      "Pflegegeld",
+                      "Pflegeplattform",
+                      "Plattform",
+                      "Rettung",
+                      "Sozial",
+                      "Sozialministerium",
+                      "Spital",
+                      "Spitäler",
+                      "Suche",
+                      "Therapie",
+                      "Unterstützung",
+                      "Ärztin"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63684cde638c16809e4d0b95",
+            "name": "Angehörigengespräch",
+            "title": "Bei psychischer Belastung hilft das Angehörigengespräch",
+            "information": "Als pflegende Angehörige bzw. als pflegender Angehöriger ist man oft einer großen psychischen Belastung ausgesetzt und muss einem großen Druck standhalten. Um auch Young Carers zu unterstützen gibt es österreichweit das **Angehörigengespräch**. Das Gespräch wird von Psychologinnen und Psychologen geführt und ist **vertraulich**. Es kann zu Hause, an einem anderen Ort, telefonisch oder online erfolgen. Bis zu drei Termine können vereinbart werden.\n\nAuf Wunsch kann man das Angehörigengespräch unter [0508082087](tel:0508082087) **kostenlos** anfordern.",
+            "entries": [
+              {
+                "ownerName": "Broschürenservice",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=667",
+                    "title": "Infos über das Angehörigengespräch",
+                    "description": "Folder als Download",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:17:32.783Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Behinderung",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Finanzielles",
+                      "Geld",
+                      "Gesundheit",
+                      "Gesundheitsministerium",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Ministerium",
+                      "Pflege",
+                      "Pflegegeld",
+                      "Pflegeplattform",
+                      "Plattform",
+                      "Rat",
+                      "Sozial",
+                      "Sozialministerium",
+                      "Unterstützung"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "question": "Besorgungen erledigen",
       "content": [
         {
@@ -7685,5 +7992,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T13:30:29.614Z"
+  "timestamp": "2022-11-14T14:00:22.299Z"
 }
