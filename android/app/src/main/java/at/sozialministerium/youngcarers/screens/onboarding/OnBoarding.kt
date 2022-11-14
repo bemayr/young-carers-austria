@@ -137,7 +137,7 @@ fun BottomSection(size: Int, index: Int, onNextClick: () -> Unit) {
         // Indicators
         Indicators(size, index)
 
-        val buttonText = if (size == index + 1) "start" else "next"
+        val buttonText = if (size == index + 1) "   Informiere dich   " else "   Weiter   "
 
         FloatingActionButton(
             onClick = onNextClick,
