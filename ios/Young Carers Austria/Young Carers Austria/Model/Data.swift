@@ -113,6 +113,18 @@ struct Reference: Decodable, Identifiable {
     let lastUpdated: Date
 }
 
+struct ReferenceNew: Decodable, Identifiable {
+    var id: URL {
+        url
+    }
+    
+    let title: String
+    let description: String
+    let previewImageUrl: String // using String here deliberately, because if the URL is ill-formatted the Decoder simply crashes
+    let url: URL
+    let containsPaidContent: Bool
+}
+
 struct Emergency: Decodable {
     let title: String
     let description: String
@@ -162,7 +174,7 @@ enum Response: Decodable {
     case found(messages: [String], results: [Result])
     
     enum Result: Decodable {
-        case reference(id: String, reference: Reference)
+        case reference(id: String, reference: ReferenceNew)
         
         enum CodingKeys: String, CodingKey {
             case type, id, reference
@@ -175,7 +187,7 @@ enum Response: Decodable {
             case "reference":
                 self = .reference(
                     id: try container.decode(String.self, forKey: .id),
-                    reference: try container.decode(Reference.self, forKey: .reference))
+                    reference: try container.decode(ReferenceNew.self, forKey: .reference))
                 return
             default:
                 throw DecodingError.dataCorruptedError(
@@ -194,11 +206,11 @@ enum Response: Decodable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         let type = try container.decode(String.self, forKey: .type)
         switch type {
-        case "not-found":
+        case "no-result-found":
             self = .notFound(
                 messages: try container.decode([String].self, forKey: .messages))
             return
-        case "found":
+        case "result-found":
             self = .found(
                 messages: try container.decode([String].self, forKey: .messages),
                 results: try container.decode([Result].self, forKey: .results))

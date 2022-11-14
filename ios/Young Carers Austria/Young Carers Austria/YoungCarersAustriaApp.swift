@@ -9,6 +9,9 @@ struct YoungCarersAustriaApp: App {
         // Set the Navigation Bar Title Color (not yet available in SwiftUI)
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(Color.accentColor)]
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(Color.accentColor)]
+        
+        // Automatically hide the keyboard while scrolling
+        UIScrollView.appearance().keyboardDismissMode = .onDrag
     }
     
     var body: some Scene {

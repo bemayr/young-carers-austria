@@ -71,7 +71,7 @@ struct ContentView: View {
                     : nil
                 }
                 .sheet(isPresented: $showChatbot, content: {
-                    Chatbot()
+                    Chatbot(closeChatbot: { showChatbot = false })
                 })
             }
         }

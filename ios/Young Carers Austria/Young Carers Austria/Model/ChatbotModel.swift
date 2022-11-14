@@ -53,19 +53,16 @@ actor ChatbotModel {
     }
     
     func requestAnswer(message: String) async -> Response? {
-        var components = URLComponents()
-            components.scheme = "https"
-            components.host = "chatbot.young-carers-austria.at"
-            components.path = "answer"
-            components.queryItems = [
-                URLQueryItem(name: "message", value: message)
-            ]
+        var answerURLComponents = URLComponents(string: "https://chatbot.young-carers-austria.at/answer")!
+        answerURLComponents.queryItems = [
+            URLQueryItem(name: "message", value: message)
+        ]
         
-        var request = URLRequest(url: components.url!)
+        var request = URLRequest(url: answerURLComponents.url!)
         request.allHTTPHeaderFields = ["Accept": "application/json"]
         do {
             let (data, _) = try await URLSession.shared.data(for: request)
-            return try JSONDecoder().decode(Response.self, from: data)
+            return try! JSONDecoder().decode(Response.self, from: data)
         }
         catch {
             return nil

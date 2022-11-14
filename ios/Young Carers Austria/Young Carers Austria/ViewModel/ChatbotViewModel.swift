@@ -32,7 +32,7 @@ final class ChatbotViewModel: ObservableObject {
     func initialize() async {
         botIsTyping = true
         let welcomeMessages = await ChatbotModel.shared.loadWelcomeMessages()
-        messages = welcomeMessages.map { .text(sender: .user, content: $0) }
+        messages = welcomeMessages.map { .text(sender: .bot, content: $0) }
         botIsTyping = false
     }
     
@@ -51,7 +51,7 @@ final class ChatbotViewModel: ObservableObject {
                     results.map { result in
                     switch result {
                     case let .reference(id, reference):
-                        return Message.reference(id: id, content: reference)
+                        return Message.reference(id: id, content: Reference(title: reference.title, description: reference.description, previewImageUrl: reference.previewImageUrl, url: reference.url, isPaidContent: reference.containsPaidContent, lastUpdated: Date.now))
                     }
                 })
             }
