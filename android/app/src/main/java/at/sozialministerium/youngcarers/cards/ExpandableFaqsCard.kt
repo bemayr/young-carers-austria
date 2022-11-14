@@ -63,8 +63,7 @@ fun ExpandedFaqsCard(data: Faq) {
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .background(Color.LightGray)
-                    .padding(16.dp)
+                    .padding(horizontal = 24.dp, vertical = 16.dp)
             ) {
                 MarkdownText(
                     markdown = data.answer
