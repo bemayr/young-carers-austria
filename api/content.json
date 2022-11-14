@@ -1128,6 +1128,30 @@
           ]
         },
         {
+          "ownerName": "Interessensvertretung für pflegende und betreuende Angehörige",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://pflegedaheim.info",
+              "title": "Angebote in Vorarlberg",
+              "description": "Du kannst dich an die Interessensvertretung für pflegende und betreuende Angehörige in Vorarlberg wenden.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-vorarlberg.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T12:28:53.595Z",
+              "keywords": [
+                "Angehörige",
+                "Betreuung",
+                "Bundesland",
+                "IG",
+                "IG Pflege",
+                "Interessensvertretung für pflegende und betreuende Angehörige",
+                "Pflege",
+                "Vorarlberg"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Sozialministerium",
           "ownerUrl": "",
           "references": [
@@ -7363,5 +7387,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T12:28:14.721Z"
+  "timestamp": "2022-11-14T12:29:21.071Z"
 }
