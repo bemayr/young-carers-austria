@@ -749,6 +749,29 @@
                 "Sozialministerium",
                 "Unterstützung"
               ]
+            },
+            {
+              "url": "https://www.gesundheit.gv.at/news/aktuelles.html",
+              "title": "Gesundheitsportal",
+              "description": "Aktuelle Themen des Gesundheitsportal Österreichs",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:42:01.559Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
+              ]
             }
           ]
         }
@@ -2059,6 +2082,29 @@
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
               "isPaidContent": false,
               "lastUpdated": "2022-11-11T11:55:13.676Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
+              ]
+            },
+            {
+              "url": "https://www.gesundheit.gv.at/leben/stress/entspannt-bleiben",
+              "title": "Gesundheitsportal Österreich - Entspannt bleiben",
+              "description": "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:41:38.487Z",
               "keywords": [
                 "Anlaufstelle",
                 "Diagnose",
@@ -3432,6 +3478,35 @@
                 "Vergesslichkeit",
                 "Webinar",
                 "vergesslich"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Sozialministerium",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheit.gv.at/krankheiten.html",
+              "title": "Gesundheitsportal Österreichs",
+              "description": "Es liefert gesicherte Informationen zu Krankheitsbildern, z.B. Demenz, Krebserkrankungen.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:40:59.594Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
               ]
             }
           ]
@@ -4878,6 +4953,29 @@
                 "Rat",
                 "Unterstützung"
               ]
+            },
+            {
+              "url": "https://www.gesundheit.gv.at/leben/stress/entspannt-bleiben",
+              "title": "Gesundheitsportal Österreich - Entspannt bleiben",
+              "description": "Das Gesundheitsportal Österreichs berichtet über Stressmanagement und Strategien zur Bewältigung von psychischem Druck.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:41:38.487Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
+              ]
             }
           ]
         },
@@ -5005,6 +5103,35 @@
                 "Zugehörige",
                 "Zuhause",
                 "praktisch"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Gesundheitsportal Österreichs",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheit.gv.at/leben/altern/wohnen-im-alter/pflegende-angehoerige-entlastungen-unterstuetzungen",
+              "title": "Gesundheitsportal Österreichs",
+              "description": "Wertvolle Informationen zur Entlastung und Unterstützung pflegender Angehöriger bietet ebenso das Gesundheitsportal Österreichs.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:40:23.680Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
               ]
             }
           ]
@@ -6154,5 +6281,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:40:16.146Z"
+  "timestamp": "2022-11-14T09:42:30.280Z"
 }
