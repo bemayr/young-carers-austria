@@ -3013,6 +3013,29 @@
                 "Wegweiser",
                 "gesund"
               ]
+            },
+            {
+              "url": "https://www.gesundheit.gv.at/service/notruf.html",
+              "title": "Für alle Fälle - Hilfe und Notrufe",
+              "description": "Hier sind alle wichtigen Telefonnummern zu Notruf, Hotlines, Vergiftungsinformationszentrale...",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T10:38:27.360Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
+              ]
             }
           ]
         }
@@ -6850,5 +6873,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T10:37:15.527Z"
+  "timestamp": "2022-11-14T10:38:56.168Z"
 }
