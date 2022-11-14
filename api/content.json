@@ -1023,7 +1023,43 @@
       "name": "Angehörigengespräch",
       "title": "Bei psychischer Belastung hilft das Angehörigengespräch",
       "information": "Als pflegende Angehörige bzw. als pflegender Angehöriger ist man oft einer großen psychischen Belastung ausgesetzt und muss einem großen Druck standhalten. Um auch Young Carers zu unterstützen gibt es österreichweit das **Angehörigengespräch**. Das Gespräch wird von Psychologinnen und Psychologen geführt und ist **vertraulich**. Es kann zu Hause, an einem anderen Ort, telefonisch oder online erfolgen. Bis zu drei Termine können vereinbart werden.\n\nAuf Wunsch kann man das Angehörigengespräch unter [0508082087](tel:0508082087) **kostenlos** anfordern.",
-      "entries": []
+      "entries": [
+        {
+          "ownerName": "Broschürenservice",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=667",
+              "title": "Infos über das Angehörigengespräch",
+              "description": "Folder als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:17:32.783Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Behinderung",
+                "Beratung",
+                "Beratungsstelle",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Rat",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "63684d30638c16809e4d0ba6",
@@ -5905,5 +5941,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:16:25.558Z"
+  "timestamp": "2022-11-14T09:18:10.523Z"
 }
