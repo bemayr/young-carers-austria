@@ -5084,10 +5084,11 @@
           "type": "reference",
           "reference": {
             "url": "https://www.superhands.at",
-            "title": "superhands",
-            "description": "superhands ist eine Drehscheibe und Anlaufstelle für Kinder und Jugendliche, die sich um kranke Angehörige kümmern. Du kannst wählen zwischen Telefon- oder Onlineberatung.",
+            "title": "Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.",
+            "description": "superhands bietet Hilfe und Rat für Kinder und Jugendliche, die zu Hause Angehörige pflegen.",
+            "previewImageUrl": "https://www.superhands.at/fileadmin/templates/img/superhands_logo.png",
             "isPaidContent": false,
-            "lastUpdated": "2022-11-07T07:05:59.073Z",
+            "lastUpdated": "2022-11-14T19:27:02.062Z",
             "keywords": [
               "Anlaufstelle",
               "Beratung",
@@ -5332,6 +5333,33 @@
                       "Unterstützung",
                       "Österreich",
                       "Österreichische Krebshilfe-Krebsgesellschaft"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "superhands",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.superhands.at",
+                    "title": "Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.",
+                    "description": "superhands bietet Hilfe und Rat für Kinder und Jugendliche, die zu Hause Angehörige pflegen.",
+                    "previewImageUrl": "https://www.superhands.at/fileadmin/templates/img/superhands_logo.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T19:27:02.062Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Organisation",
+                      "Rat",
+                      "Rettung",
+                      "Unterstützung",
+                      "superhands"
                     ]
                   }
                 ]
@@ -9673,6 +9701,33 @@
           ]
         },
         {
+          "ownerName": "superhands",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.superhands.at",
+              "title": "Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.",
+              "description": "superhands bietet Hilfe und Rat für Kinder und Jugendliche, die zu Hause Angehörige pflegen.",
+              "previewImageUrl": "https://www.superhands.at/fileadmin/templates/img/superhands_logo.png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T19:27:02.062Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Johanniter",
+                "Organisation",
+                "Rat",
+                "Rettung",
+                "Unterstützung",
+                "superhands"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "VeRRückte Kindheit",
           "ownerUrl": "",
           "references": [
@@ -12221,5 +12276,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T16:53:42.421Z"
+  "timestamp": "2022-11-14T19:27:38.884Z"
 }
