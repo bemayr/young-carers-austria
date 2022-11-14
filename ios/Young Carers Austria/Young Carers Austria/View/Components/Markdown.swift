@@ -9,8 +9,9 @@ struct Markdown: View {
     }
     
     var body: some View {
-        MarkdownUI.Markdown(
+        MarkdownUI.Markdown(markdown)
+        /*MarkdownUI.Markdown(
             markdown.replacingOccurrences(of: "(?<=.)\n(?=.)", with: "  \n", options: [.regularExpression]))
-        .accentColor(.highlightColor)
+        .accentColor(.highlightColor)*/
     }
 }

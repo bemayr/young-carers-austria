@@ -3,9 +3,12 @@
 import Foundation
 
 struct Content: Decodable {
+    let faqs: [FAQ]
+    let emergency: Emergency
+    let help: Help
+    let infos: Infos
     let insights: [Insight]
     let abc: [Category]
-    let emergency: Emergency
     let metadata: [MetadataEntry]
     let timestamp: Date
 }
@@ -108,11 +111,42 @@ struct Reference: Decodable, Identifiable {
     let url: URL
     let isPaidContent: Bool
     let lastUpdated: Date
-    let keywords: [String]
 }
 
 struct Emergency: Decodable {
-    let state: String
+    let title: String
+    let description: String
+    let numbers: [Number]
+    let content: [Insight.Part]
+    
+    struct Number: Codable, Identifiable {
+        var id: String {
+            number
+        }
+        
+        let label: String
+        let number: String
+    }
+}
+
+struct FAQ: Decodable, Identifiable {
+    var id: String {
+        question
+    }
+    
+    let question: String
+    let answer: String
+    let showOnLandingPage: Bool
+}
+
+struct Help: Decodable {
+    let title: String
+    let description: String
+}
+
+struct Infos: Decodable {
+    let title: String
+    let description: String
 }
 
 struct MetadataEntry: Decodable {

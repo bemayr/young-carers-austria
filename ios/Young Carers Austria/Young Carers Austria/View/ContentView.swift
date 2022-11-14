@@ -31,15 +31,19 @@ struct ContentView: View {
             .tag(tab)
         }
     }
+    
+    func refreshContent() async {
+        try? await viewModel.loadContent()
+    }
 
     var body: some View {
         if let content = viewModel.content {
             TabView(selection: $selection) {
                 TabViewItem(.insights, label: "Hilfe", icon: "alert_fragezeichen") {
-                    InsightsPage(insights: content.insights)
+                    InsightsPage(help: content.help, insights: content.insights, faqs: content.faqs, refreshContent: refreshContent)
                 }
                 TabViewItem(.categories, label: "Infos", icon: "alert_tipp") {
-                    CategoriesPage(categories: content.abc)
+                    CategoriesPage(infos: content.infos, categories: content.abc)
                 }
                 TabViewItem(.emergency, label: "Im Notfall", icon: "themen_gesundheit_notfaelle") {
                     EmergencyPage(emergency: content.emergency)

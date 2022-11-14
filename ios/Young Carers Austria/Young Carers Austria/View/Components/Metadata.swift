@@ -11,7 +11,7 @@ struct MetadaView : View {
         if let metadata = metadata {
             Text(metadata.title)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .font(.title2)
+                .font(.title2.weight(.bold))
                 .padding([.bottom], 1)
                 .padding([.top], 6)
             Markdown(metadata.content)
