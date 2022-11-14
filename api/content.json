@@ -5108,6 +5108,43 @@
           ]
         },
         {
+          "ownerName": "Burgenland",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.burgenland.at/themen/pflege/angebote-fuer-betreuende-und-pflegende-angehoerige/",
+              "title": "Pflegende Angehörige Burgenland",
+              "description": "Hier kannst du dich zu Angeboten für betreuende und pflegende Angehörige im Burgenland informieren.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-burgenland.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:52:15.883Z",
+              "keywords": [
+                "Behinderung",
+                "Betreuung",
+                "Bundesland",
+                "Burgenland",
+                "Daheim",
+                "Eltern",
+                "FSW",
+                "Großeltern",
+                "Hilfe",
+                "Land",
+                "Mama",
+                "Mobil",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Soziale Dienste",
+                "Unterstützung",
+                "Zu Hause",
+                "Zuhause",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Gesundheitsportal Österreichs",
           "ownerUrl": "",
           "references": [
@@ -6429,5 +6466,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:52:01.964Z"
+  "timestamp": "2022-11-14T09:52:56.752Z"
 }
