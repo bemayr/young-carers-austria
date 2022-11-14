@@ -2893,6 +2893,33 @@
           ]
         },
         {
+          "ownerName": "Jugend:info NÖ",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.jugendinfo-noe.at/",
+              "title": "Jugendliche Niederösterreich",
+              "description": "Jugend:info NÖ ist eine Anlaufstelle für junge Menschen in allen Lebenslagen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T08:58:32.208Z",
+              "keywords": [
+                "Auszeit",
+                "Bundesland",
+                "Entspannung",
+                "Freizeit",
+                "Hobby",
+                "Niederösterreich",
+                "Pflege",
+                "Soziale Dienste",
+                "Sport",
+                "Urlaub",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "JugendService OÖ",
           "ownerUrl": "",
           "references": [
@@ -5454,5 +5481,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T08:58:10.045Z"
+  "timestamp": "2022-11-14T08:59:00.846Z"
 }
