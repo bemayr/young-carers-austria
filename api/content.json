@@ -3988,7 +3988,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Nach der Schule holt Paul seine kleinen Geschwister von der Schule ab. Dann ist die Wäsche zu erledigen, es müsste auch mal wieder jemand aufräumen und Staub saugen. Zwischendurch hilft Paul seinen Geschwistern bei den Hausaufgaben. Wenn Papa am Abend heimkommt, wird gemeinsam eine Kleinigkeit gekocht und der Abwasch erledigt. Nach dem Essen müssen die Kleinen noch ins Bett gebracht werden."
+          "text": "Nach der Schule holt Paul seine kleinen Geschwister von der Schule ab. Dann ist die Wäsche zu erledigen, es müsste auch mal wieder jemand aufräumen und Staub saugen. Zwischendurch hilft Paul seinen Geschwistern bei den Hausaufgaben. Wenn Papa am Abend heimkommt, wird gemeinsam eine Kleinigkeit gekocht und der Abwasch erledigt. Nach dem Essen müssen die Kleinen noch ins Bett gebracht werden.Jede Familiensituation ist anders und muss individuell berachtet werden. Das Wichtigste aber, ist einharmonisches Miteinander und dass es allen gut geht. Sollte es aber Probleme im Alltag geben, können sich betroffene Familien Beratung und Unterstützung holen."
         },
         {
           "type": "category",
@@ -4103,6 +4103,446 @@
                       "Rat",
                       "Unterstützung",
                       "psychisch"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "Unterstützung von außen für die Pflege und Betreuung zu Hause bieten Organisationen der Freien Wohlfahrt. Auch die Bundesländer haben eigene Informationen dazu für ihre Bewohner:innen."
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63684e07638c16809e4d0bea",
+            "name": "Dienstleistungen / Soziale Dienste",
+            "title": "Was sind soziale Dienste?",
+            "information": "Das **Ziel** der sozialen Dienste ist **Menschen mit Pflegebedarf oder Beeinträchtigungen** in verschiedenen Lebenssituationen zu unterstützen. Für Soziale Dienste sind die Bundesländer und Gemeinden zuständig. Auch **freie Wohlfahrtsträger** wie [Volkshilfe](https://www.volkshilfe.at), [Hilfswerk](https://www.hilfswerk.at/oesterreich/pflegekompass/), [Rotes Kreuz](https://www.roteskreuz.at/ich-brauche-hilfe), [Caritas](https://www.caritas-pflege.at/), [Diakonie](https://diakonie.at/) oder [Samariterbund](https://www.samariterbund.net/pflege-und-betreuung/) sowie in Wien der [Fonds Soziales Wien](https://www.fsw.at/p/pflege-betreuung), bieten diese Leistungen an.\n\nÜber das umfangreiche Angebot an Alten- und Pflegeheimen in ganz Österreich sowie Tagesbetreuung, Kurzzeitpflege, Wohngemeinschaften, Alltagsbegleitung sowie Entlastungsdienste kannst du dich beim [Infoservice des Sozialministeriums](https://www.infoservice.sozialministerium.at) informieren.",
+            "entries": [
+              {
+                "ownerName": "Burgenland",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.burgenland.at/themen/pflege/erste-schritte-so-finden-sie-die-passende-unterstuetzung/",
+                    "title": "Pflege Burgenland",
+                    "description": "Das Land Burgenland bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-burgenland.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:57:38.535Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Burgenland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Infoservice des Sozialministeriums",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.infoservice.sozialministerium.at/willkommen",
+                    "title": "Infoservice soziale Dienste",
+                    "description": "Über Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen kannst du dich beim Infoservice des Sozialministeriums erkundigen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1130453486.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:15:50.465Z",
+                    "keywords": [
+                      "Ausland",
+                      "Behinderung",
+                      "Beratung",
+                      "Betreuung",
+                      "Bildung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Finanzielles",
+                      "Geld",
+                      "Gesundheit",
+                      "Gesundheitsministerium",
+                      "Großeltern",
+                      "Hilfe",
+                      "International",
+                      "Kurs",
+                      "Lernen",
+                      "Mama",
+                      "Ministerium",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Organisation",
+                      "Papa",
+                      "Pflege",
+                      "Pflegegeld",
+                      "Pflegeplattform",
+                      "Plattform",
+                      "Schulung",
+                      "Sozial",
+                      "Soziale Dienste",
+                      "Sozialministerium",
+                      "Unterricht",
+                      "Unterstützung",
+                      "Wissen",
+                      "Young Minds UK",
+                      "Zu Hause",
+                      "Zuhause"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Kärnten",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131",
+                    "title": "Pflege Kärnten",
+                    "description": "Das Land Kärten bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:57:06.309Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Kärnten",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Niederösterreich",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.noel.gv.at/noe/Pflege/Pflege.html",
+                    "title": "Pflege Niederösterreich",
+                    "description": "Das Land Niederösterreich bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:56:40.622Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Niederösterreich",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Oberösterreich",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.land-oberoesterreich.gv.at/524.htm",
+                    "title": "Pflege Oberösterreich",
+                    "description": "Das Land Oberösterreich bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.land-oberoesterreich.gv.at/files/ooe2015/cdneu/schema/schema_land_ooe_logo.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:04:51.977Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oberösterreich",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Salzburg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.salzburg.gv.at/themen/soziales/pflege-und-betreuung",
+                    "title": "Pflege Salzburg",
+                    "description": "Das Land Salzburg bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-salzburg.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:55:51.604Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Salzburg",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Sozialministerium",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.sozialministerium.at/Themen/Pflege/Dienstleistungen-Soziale-Dienste.html",
+                    "title": "Soziale Dienste erklärt",
+                    "description": "Soziale Dienste sind für Menschen mit Pflegebedarf und Menschen mit Behinderungen damit diese so betreut werden können wie sie das selbst möchten.",
+                    "previewImageUrl": "https://www.sozialministerium.at/dam/jcr:8f3dc93a-ffe8-4940-90af-fb2ccc2997ee/BMSGPK_Logo_OpenGraph.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:28:39.770Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Beratung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Finanzielles",
+                      "Geld",
+                      "Gesundheit",
+                      "Gesundheitsministerium",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Ministerium",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Pflegegeld",
+                      "Pflegeplattform",
+                      "Plattform",
+                      "Sozial",
+                      "Soziale Dienste",
+                      "Sozialministerium",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Steiermark",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gesundheit.steiermark.at/cms/ziel/142146817/DE/",
+                    "title": "Pflege Steiermark",
+                    "description": "Das Land Steiermark bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.gesundheit.steiermark.at/cms/bilder/861513/80/150/100/df7e405d/CCM.jpg?as_is=J\n",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:54:51.239Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Land",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Steiermark",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Tirol",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste-in-tirol/",
+                    "title": "Pflege Tirol",
+                    "description": "Hier werden Informationen zu Mobilen Diensten in Tirol angeboten.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:53:19.173Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Tirol",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Vorarlberg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.vorarlberg.care/startseite/",
+                    "title": "Pflege Vorarlberg",
+                    "description": "Das Land Vorarlberg bietet hier Informationen zu Pflegethemen.",
+                    "previewImageUrl": "https://www.vorarlberg.care/fileadmin/templates/Resources/Public/images/logo_betreuungsnetz-pflege-vorarlberg_facebook.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:07:34.083Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Vorarlberg",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Wien / Fonds Soziales Wien",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.fsw.at/p/pflege-betreuung",
+                    "title": "Pflege Wien",
+                    "description": "Hier bietet der Fonds Soziales Wien Informationen zu Pflegethemen an.",
+                    "previewImageUrl": "https://www.fsw.at/photos/E0/Pflege-und-Betreuung/_1200x630_crop_center-center_82_none/FSW-Mobile-Hauskrankenpflege.jpg?mtime=1571653597",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:08:09.304Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Wien",
+                      "Zu Hause",
+                      "Zuhause",
+                      "Österreich"
                     ]
                   }
                 ]
@@ -10884,5 +11324,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T16:19:01.601Z"
+  "timestamp": "2022-11-14T16:34:08.256Z"
 }
