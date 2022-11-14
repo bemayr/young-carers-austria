@@ -651,7 +651,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Thomas übernimmt regelmäßig die Betreuung und Pflege für seinen kranken Bruder Max. Dann hilft Thomas bei der Körperpflege, beim An- und Ausziehen oder wenn Max auf die Toilette muss. Wenn er Hunger hat, bringt ihm sein Bruder was zum Essen und zum Trinken. Überhaupt gibt Thomas Acht auf Max und die Brüder verbringen viel Zeit miteinander.Praktisches Wissen kannst du lernen, bei Kursen für pflegende Angehörige - in Präsenz oder online.Die Länder haben eigene Angebote zur Unterstützung pflegender Angehöriger, lies  in deinem Bundesland nach."
+          "text": "Thomas übernimmt regelmäßig die Betreuung und Pflege für seinen kranken Bruder Max. Dann hilft Thomas bei der Körperpflege, beim An- und Ausziehen oder wenn Max auf die Toilette muss. Wenn er Hunger hat, bringt ihm sein Bruder was zum Essen und zum Trinken. Überhaupt gibt Thomas Acht auf Max und die Brüder verbringen viel Zeit miteinander.Es gibt viele Beratungsangebote, auch kostenlose Hausbesuche von Pflegeprofis, die dir den einen oder anderen Kniff zeigen können."
         },
         {
           "type": "category",
@@ -1129,6 +1129,10 @@
           }
         },
         {
+          "type": "text",
+          "text": "Praktisches Wissen kannst du lernen, bei Kursen für pflegende Angehörige - in Präsenz oder online."
+        },
+        {
           "type": "category",
           "category": {
             "id": "63684f96638c16809e4d0cb6",
@@ -1397,6 +1401,10 @@
               }
             ]
           }
+        },
+        {
+          "type": "text",
+          "text": "Die Länder haben eigene Angebote zur Unterstützung pflegender Angehöriger, lies  in deinem Bundesland nach."
         },
         {
           "type": "category",
@@ -10856,5 +10864,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T15:59:09.887Z"
+  "timestamp": "2022-11-14T16:04:53.230Z"
 }
