@@ -3274,6 +3274,29 @@
                 "Wegweiser",
                 "gesund"
               ]
+            },
+            {
+              "url": "https://www.gesundheit.gv.at/krankheiten/erste-hilfe/notdienst.html",
+              "title": "1 x 1 der Ersten Hilfe",
+              "description": "Jede und jeder kann diese Information brauchen.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T12:53:05.739Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
+              ]
             }
           ]
         }
@@ -7387,5 +7410,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T12:52:24.344Z"
+  "timestamp": "2022-11-14T12:53:36.941Z"
 }
