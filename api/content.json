@@ -2839,6 +2839,33 @@
           ]
         },
         {
+          "ownerName": "InfoEck - Jugendinfo Tirol",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.infoeck.at/jugendinfo",
+              "title": "Jugendliche Tirol",
+              "description": "Das InfoEck für Jugend und Generationen in Tirol erreichst du hier.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T08:54:42.916Z",
+              "keywords": [
+                "Auszeit",
+                "Bundesland",
+                "Entspannung",
+                "Freizeit",
+                "Hobby",
+                "Pflege",
+                "Soziale Dienste",
+                "Sport",
+                "Tirol",
+                "Urlaub",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "wienXtra-jugendinfo",
           "ownerUrl": "",
           "references": [
@@ -5346,5 +5373,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T08:54:21.115Z"
+  "timestamp": "2022-11-14T08:55:11.489Z"
 }
