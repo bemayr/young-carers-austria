@@ -3222,6 +3222,26 @@
                 "Sozialministeriumservice",
                 "Unterstützung"
               ]
+            },
+            {
+              "url": "https://www.sozialministeriumservice.at/Finanzielles/Finanzielle_Unterstuetzung/Sonstige_finanzielle_Vorteile/Sonstige_finanzielle_Vorteile_und_Unterstuetzungen.de.html",
+              "title": "Finanzielle Hilfe",
+              "description": "Hier findest du sonstige Unterstützungen des Sozialministeriumservice.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-österreich.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T10:55:14.939Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Hilfe",
+                "Pflege",
+                "Sozial",
+                "Sozialministeriumservice",
+                "Unterstützung"
+              ]
             }
           ]
         }
@@ -6873,5 +6893,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T10:38:56.168Z"
+  "timestamp": "2022-11-14T10:55:39.086Z"
 }
