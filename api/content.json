@@ -792,6 +792,46 @@
           "ownerUrl": "",
           "references": [
             {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307",
+              "title": "Kinder und Jugendliche als pflegende Angehörige",
+              "description": "Die beiden Studien (2012, 2014) als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T08:16:48.440Z",
+              "keywords": [
+                "Angehörige",
+                "Behinderung",
+                "Beratung",
+                "Bruder",
+                "Finanzielles",
+                "Geld",
+                "Geschwister",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Großeltern",
+                "Hilfe",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Ministerium",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Schwester",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung",
+                "Vater",
+                "Young Carers"
+              ]
+            },
+            {
               "url": "https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html",
               "title": "Hilfe für betreuende und pflegende Angehörige",
               "description": "Hier findest du eine kompakte Zusammenstellung der Unterstützungsangebote für betreuende und pflegende Angehörige des Sozialministeriums",
@@ -4630,6 +4670,52 @@
           ]
         },
         {
+          "ownerName": "Sozialministerium",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307",
+              "title": "Kinder und Jugendliche als pflegende Angehörige",
+              "description": "Die beiden Studien (2012, 2014) als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T08:16:48.440Z",
+              "keywords": [
+                "Angehörige",
+                "Behinderung",
+                "Beratung",
+                "Bruder",
+                "Finanzielles",
+                "Geld",
+                "Geschwister",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Großeltern",
+                "Hilfe",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Ministerium",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Schwester",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung",
+                "Vater",
+                "Young Carers"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Wikipedia Autorenschaft (siehe Artikel)",
           "ownerUrl": "",
           "references": [
@@ -5176,5 +5262,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T08:15:21.293Z"
+  "timestamp": "2022-11-14T08:17:15.123Z"
 }
