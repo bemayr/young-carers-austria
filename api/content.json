@@ -1325,6 +1325,602 @@
       ]
     },
     {
+      "question": "Stress in der Schule",
+      "content": [
+        {
+          "type": "text",
+          "text": "Manchmal schafft es Mario nicht, pünktlich in der Schule zu sein. Er hat in der Früh zu Hause einfach zu viel zu tun. In der Klasse ist er dann manchmal müde und hat Probleme dem Unterricht zu folgen. Es kann aber auch passieren, dass das Handy läutet und Mario muss schnell nach Hause, weil er dort dringend für die Betreuung seines Vaters gebraucht wird. Das führt dazu, dass er immer mehr Fehlstunden in der Schule hat. Seine Noten werden auch schlechter, weil er sich nicht genug auf Tests und Prüfungen vorbereiten kann.Bei Problemen in der Schule kannst dich an eine Lehrkraft deines Vertrauens, an die Schulsozialarbeit oder an die Schulpsychologie wenden."
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "63684d30638c16809e4d0ba6",
+            "name": "Beratung und Pflegetipps",
+            "title": "Daheim beraten werden",
+            "information": "**Diplomierte Gesundheits- und Krankenpflegepersonen (DGKP)** machen einen Hausbesuch bei Bezieher*innen eines Pflegegeldes. Sie beraten zu praktischen Pflegetipps (z.B. richtiger Positionswechsel, Körperpflege), helfen aber auch mit speziellen Auskünften (z.B. Versorgung mit Hilfsmitteln) und informieren über das Angebot von mobilen Diensten. Bei den Hausbesuchen der **DGKP** soll es aber um eine zusätzliche Hilfe gehen und nicht um eine Überprüfung zur Einstufung des Pflegegeldes.\n\nAuf Wunsch kann man so einen Hausbesuch unter der [0508082087](tel:0508082087) **kostenlos** vereinbaren.",
+            "entries": [
+              {
+                "ownerName": "Broschürenservice des Sozialministeriums",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=331",
+                    "title": "Unterstützungen für pflegende Angehörige",
+                    "description": "Folder als Download",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T11:53:27.795Z",
+                    "keywords": [
+                      "Alltag",
+                      "Angehörige",
+                      "Anlaufstelle",
+                      "Behinderung",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Betreuung",
+                      "Bruder",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Finanzielles",
+                      "Geld",
+                      "Geschwister",
+                      "Gesundheit",
+                      "Gesundheitsministerium",
+                      "Großeltern",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Kinder",
+                      "Lernen",
+                      "Mama",
+                      "Ministerium",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Pflegegeld",
+                      "Pflegende Angehörige",
+                      "Pflegeplattform",
+                      "Pflegetipps",
+                      "Plattform",
+                      "Rat",
+                      "Schwester",
+                      "Sozial",
+                      "Soziale Dienste",
+                      "Sozialministerium",
+                      "Tipps",
+                      "Unterstützung",
+                      "Wissen",
+                      "Young Carer",
+                      "Zu Hause",
+                      "Zugehörige",
+                      "Zuhause",
+                      "praktisch"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Bundeskanzleramt",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.familienberatung.gv.at/beratungsstellen/",
+                    "title": "Familienberatungsstellen",
+                    "description": "Es gibt über 400 Familienberatungsstellen in Österreich. Erfahre mehr über das Angebot.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T11:25:53.611Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "BKA",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundeskanzleramt",
+                      "Familie",
+                      "Familienberatung",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Kanzler",
+                      "Rat",
+                      "Unterstützung",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Bundesministerium für Bildung, Wissenschaft und Forschung",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.schulpsychologie.at/hotline",
+                    "title": "Sorgen? Schulpsychologie hilft",
+                    "description": "Hier gibts Infos aus dem Bereich Schulpsychologie und Bildungsberatung.",
+                    "previewImageUrl": "https://www.schulpsychologie.at/fileadmin/_processed_/8/b/csm_Logo_34d3e28e95.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:27:53.465Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "BMBWF",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bildung",
+                      "Bundesministerium für Bildung",
+                      "Wissenschaft und Forschung",
+                      "Forschungsministerium",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Rat",
+                      "Schule",
+                      "Unterrichtsministerium",
+                      "Unterstützung",
+                      "Wissenschaftsministerium",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Jugendrotkreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.get-social.at/time4friends",
+                    "title": "Get Social - Time4Friends",
+                    "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
+                    "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T02:37:03.180Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Jugendliche",
+                      "Jugendrotkreuz",
+                      "Juniorcamp",
+                      "Organisation",
+                      "Peer",
+                      "Rat",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "Unterstützung",
+                      "get social",
+                      "time4friends"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Österreichische Krebshilfe-Krebsgesellschaft",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.krebshilfe.net/beratung-hilfe/beratungsstellen/infos-zu-den-beratungsstellen",
+                    "title": "Österreichische Krebshilfe",
+                    "description": "Hier geht's zu den Informationen der Beratungsstellen der Österreichischen Krebshilfe.",
+                    "previewImageUrl": "https://www.krebshilfe.net/fileadmin/_processed_/9/f/csm_AdobeStock_244560176_2e49e54821.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T07:17:34.034Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Eltern",
+                      "Gesundheit",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Krank",
+                      "Krankheit",
+                      "Krebs",
+                      "Rat",
+                      "Therapie",
+                      "Unterstützung",
+                      "Österreich",
+                      "Österreichische Krebshilfe-Krebsgesellschaft"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "pro mente OÖ",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.visible.co.at/",
+                    "title": "#visible - Kinder psychisch erkrankter Eltern sichtbar machen",
+                    "description": "275.000 Kinder und Jugendliche in Österreich haben eine psychisch erkrankte Mama oder einen psychisch erkrankten Papa. Das Projekt #visible will dieses Thema sichtbar machen und bietet Unterstützung.",
+                    "previewImageUrl": "https://image.jimcdn.com/app/cms/image/transf/none/path/s238362f501c31729/backgroundarea/i83206771c4f5e077/version/1632730177/image.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T01:54:56.925Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "JoJo Kindheit im Schatten",
+                      "Oberösterreich",
+                      "Organisation",
+                      "Psyche",
+                      "Rat",
+                      "Salzburg",
+                      "Unterstützung",
+                      "elco",
+                      "kiko",
+                      "pro mente OÖ",
+                      "psychisch",
+                      "visible"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Rainbows für Kinder in stürmischen Zeiten",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.rainbows.at/angebote/",
+                    "title": "Beratung/Coaching für Kinder und Jugendliche",
+                    "description": "Rainbows hilft Kindern und Jugendlichen in stürmischen Zeiten – bei Trennung, Scheidung oder Tod naher Bezugspersonen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-österreich.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T12:24:01.572Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Begleitung",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bezugsperson",
+                      "Coaching",
+                      "Eltern",
+                      "Großeltern",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Jugendliche",
+                      "Kinder",
+                      "Mama",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Rainbows",
+                      "Rat",
+                      "Scheidung",
+                      "Tod",
+                      "Trauerbegleitung",
+                      "Trennung",
+                      "Unterstützung",
+                      "sterben"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Rat auf Draht - Elternseite",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://elternseite.at/de/home",
+                    "title": "Rat auf Draht die Elternseite",
+                    "description": "Hier werden Information, Austausch und Beratung für Eltern und Bezugspersonen angeboten.",
+                    "previewImageUrl": "https://images.elternseite.at/NHnqQYIZx2dX_nTro8C1n3-Xt9o=/797x342:7089x3881/800x0/filters:quality(90)/https://cdn.elternseite.at/uploads/production//5f7189b809508d3337d7a0ad/relationship-parent-teenager-hugging-smiling-mother-daughter.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-07T06:20:53.014Z",
+                    "keywords": [
+                      "147",
+                      "147 - Rat auf Draht",
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Hotline",
+                      "Mobbing",
+                      "Rat",
+                      "Rat auf Draht",
+                      "Sorgen",
+                      "Unterstützung"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "superhands",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.superhands.at/pflege/taegliche-pflege/",
+                    "title": "Tägliche Pflege",
+                    "description": "superhands bietet hier Hilfe und Anleitung für die tägliche Pflege.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T11:58:07.910Z",
+                    "keywords": [
+                      "Alltag",
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Lernen",
+                      "Organisation",
+                      "Pflege",
+                      "Pflegetipps",
+                      "Rat",
+                      "Rettung",
+                      "Tipps",
+                      "Unterstützung",
+                      "Wissen",
+                      "praktisch",
+                      "superhands"
+                    ]
+                  },
+                  {
+                    "url": "https://www.superhands.at/multiplikatorinnen/",
+                    "title": "Superhands informieren Erwachsene",
+                    "description": "Hier finden Eltern und Interessierte Informationen von superhands.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T12:04:40.442Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Organisation",
+                      "Rat",
+                      "Rettung",
+                      "Unterstützung",
+                      "superhands"
+                    ]
+                  },
+                  {
+                    "url": "https://www.superhands.at/fileadmin/content/files/superhands_Handbuch_MultiplikatorInnen_2022_web.pdf",
+                    "title": "Handbuch und Hintergrundinformationen über Young Carers in Österreich",
+                    "description": "Wenn Kinder und Jugendliche pflegen...\nEin Handbuch für Fachkräfte und Lehrende im Bildungs-, Gesundheits- und Sozialwesen",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T09:30:35.304Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Organisation",
+                      "Rat",
+                      "Rettung",
+                      "Unterstützung",
+                      "superhands"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "SVS",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.sozialversicherung.at/cdscontent/",
+                    "title": "Pflegetipps per Hausbesuch ",
+                    "description": "Wenn du und deine Familie praktische Pflegetipps und eine individuelle Beratung benötigt, kann ein kostenloser Hausbesuch durch eine diplomierte Gesundheits- und Krankenperson angefordert werden.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T14:01:52.412Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Angehörigengespräch",
+                      "Beratung",
+                      "Daheim",
+                      "Hausbesuch",
+                      "Hilfe",
+                      "Kompetenz",
+                      "Kompetenzzentrum",
+                      "Pflege",
+                      "SVS",
+                      "Unterstützung",
+                      "Zentrum",
+                      "Zu Hause",
+                      "Zuhause"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "VeRRückte Kindheit",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.verrueckte-kindheit.at/de/angebote/beratung/",
+                    "title": "Onlineberatung veRRückte Kindheit",
+                    "description": "Bei \"veRRückte Kindheit\" gibt es verschiedene Möglichkeiten der Onlineberatung.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1198981647.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T14:34:31.785Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Chatten",
+                      "Eltern",
+                      "Erkrankte",
+                      "Forum",
+                      "HPE",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Kurs",
+                      "Mama",
+                      "Mutter",
+                      "Papa",
+                      "Rat",
+                      "Selbsthilfe",
+                      "Seminar",
+                      "Unterstützung",
+                      "Vater",
+                      "VeRRückte Kindheit",
+                      "online",
+                      "psychisch",
+                      "visible"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Vorarlberg",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=bXdqYjGE_t0",
+                    "title": "Kolibris - kleine Held:innen",
+                    "description": "Das Projekt unterstützt Kinder, die unter der psychischen Erkrankung ihrer Eltern leiden, damit sie nicht selbst krank werden. Beratungsstellen für betroffene Familien gibt es in Vorarlberg in Bregenz, Dornbirn, Hohenems, Feldkirch, Bludenz, Egg und Lichtenau.",
+                    "previewImageUrl": "https://i.ytimg.com/vi/bXdqYjGE_t0/maxresdefault.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T13:29:54.974Z",
+                    "keywords": [
+                      "Kolibri",
+                      "Eltern",
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Vorarlberg",
+                      "Organisation",
+                      "Psyche",
+                      "Rat",
+                      "Unterstützung",
+                      "psychisch"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "category",
+          "category": {
+            "id": "636850fb638c16809e4d0d72",
+            "name": "Schule",
+            "title": "Pflege und Schule unter einen Hut bringen?",
+            "information": "Für Young Carers ist die **Schule** ein gewohnter Ort an dem sie Hilfe suchen können. Denn die Pflege und Betreuung zu Hause kann sich negativ auf die Schule auswirken. Mitunter fehlt die Zeit und Konzentration, um Hausaufgaben zu machen oder sich auf Prüfungen vorzubereiten. Young Carers kommen häufig zu spät, sind nicht ausgeschlafen und haben Schwierigkeiten sich auf den Unterricht zu konzentrieren.\n\n**Gib nicht auf!**\n\nWende dich an eine Person, der du vertraust. Berichte über deine Situation und frage nach Hilfe. In der Schule kannst du mit deinen Lehrer:innen sprechen oder auch mit den Schulpsychologinnen/Schulpsychologen. In den Beiträgen findest du vielleicht Inspiration und Hilfe.",
+            "entries": [
+              {
+                "ownerName": "Fonds Gesundes Österreich",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://wohlfuehlzone-schule.at/",
+                    "title": "Wohlfühlzone Schule",
+                    "description": "Hier setzt man sich für dein Wohlbefinden ein. Mobbing an Schulen soll verhindert werden.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1367774758.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T10:45:52.410Z",
+                    "keywords": [
+                      "Beratung",
+                      "Bildung",
+                      "Eltern",
+                      "Fragen",
+                      "Gewalt",
+                      "Lehrer",
+                      "Lernen",
+                      "Mama",
+                      "Mobbing",
+                      "Mutter",
+                      "Papa",
+                      "Probleme",
+                      "Prävention",
+                      "Psyche",
+                      "Schule",
+                      "Schulpsychologie",
+                      "Unterrichtsministerium",
+                      "Vater",
+                      "Wissen"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Schulpsychologischer Dienst BMBWF",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.bmbwf.gv.at/Themen/schule/beratung/psych.html",
+                    "title": "Schulpsychologischer Dienst",
+                    "description": "Die Schulpsychologie nimmt sich der Fragen und Probleme von Schüler:innen, Eltern und Lehrpersonen, die sich im schulischen Alltag ergeben, aus psychologischer Sicht an.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T12:25:49.634Z",
+                    "keywords": [
+                      "BMBWF",
+                      "Bildung",
+                      "Bundesministerium für Bildung",
+                      "Wissenschaft und Forschung",
+                      "Forschungsministerium",
+                      "Schule",
+                      "Unterrichtsministerium",
+                      "Wissenschaftsministerium",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Schulsozialarbeit BMBWF",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.bmbwf.gv.at/Themen/schule/beratung/psus/schulsozialarbeit.html",
+                    "title": "Schulsozialarbeit",
+                    "description": "Die Schulsozialarbeit kommt inner- und außerhalb der Schule zum Einsatz und umfasst den gesamten Sozialraum, in dem sich Schüler/innen bewegen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1367774758.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-11T12:24:49.982Z",
+                    "keywords": [
+                      "BMBWF",
+                      "Beratung",
+                      "Bildung",
+                      "Bundesministerium für Bildung",
+                      "Wissenschaft und Forschung",
+                      "Eltern",
+                      "Forschungsministerium",
+                      "Fragen",
+                      "Gewalt",
+                      "Lehrer",
+                      "Lernen",
+                      "Mama",
+                      "Mobbing",
+                      "Mutter",
+                      "Papa",
+                      "Probleme",
+                      "Prävention",
+                      "Psyche",
+                      "Schule",
+                      "Schulpsychologie",
+                      "Unterrichtsministerium",
+                      "Vater",
+                      "Wissen",
+                      "Wissenschaftsministerium",
+                      "Österreich"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "question": "Besorgungen erledigen",
       "content": [
         {
@@ -8765,5 +9361,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T14:10:14.983Z"
+  "timestamp": "2022-11-14T14:22:58.506Z"
 }
