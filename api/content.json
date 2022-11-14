@@ -744,6 +744,35 @@
                     ]
                   }
                 ]
+              },
+              {
+                "ownerName": "Sozialministerium",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gesundheit.gv.at/leben/lebenswelt/familie/familienprobleme.html",
+                    "title": "Daheim gibts Probleme",
+                    "description": "Bei Krisen und Problemen in der Familie findest du hier hilfreiche Ratschläge um diese zu bewältigen.",
+                    "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T11:52:44.631Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Diagnose",
+                      "Gesundheit",
+                      "Gesundheitsportal Österreichs",
+                      "GÖG",
+                      "Hilfe",
+                      "Info",
+                      "Infoplattform",
+                      "Infos",
+                      "Krankheit",
+                      "Selbsthilfe",
+                      "Wegweiser",
+                      "gesund"
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -811,6 +840,35 @@
                       "Unterstützung",
                       "visible",
                       "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Sozialministerium",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gesundheit.gv.at/leben/lebenswelt/familie/familienprobleme.html",
+                    "title": "Daheim gibts Probleme",
+                    "description": "Bei Krisen und Problemen in der Familie findest du hier hilfreiche Ratschläge um diese zu bewältigen.",
+                    "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-14T11:52:44.631Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Diagnose",
+                      "Gesundheit",
+                      "Gesundheitsportal Österreichs",
+                      "GÖG",
+                      "Hilfe",
+                      "Info",
+                      "Infoplattform",
+                      "Infos",
+                      "Krankheit",
+                      "Selbsthilfe",
+                      "Wegweiser",
+                      "gesund"
                     ]
                   }
                 ]
@@ -3249,6 +3307,35 @@
                 "Unterstützung",
                 "visible",
                 "Österreich"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Sozialministerium",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheit.gv.at/leben/lebenswelt/familie/familienprobleme.html",
+              "title": "Daheim gibts Probleme",
+              "description": "Bei Krisen und Problemen in der Familie findest du hier hilfreiche Ratschläge um diese zu bewältigen.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T11:52:44.631Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Diagnose",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Selbsthilfe",
+                "Wegweiser",
+                "gesund"
               ]
             }
           ]
@@ -7183,5 +7270,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T11:52:30.404Z"
+  "timestamp": "2022-11-14T11:53:10.643Z"
 }
