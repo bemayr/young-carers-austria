@@ -2798,7 +2798,39 @@
       "name": "Gesundheitsportal Österreichs",
       "title": "Gesundheitsportal Österreichs",
       "information": "Das Öffentliche [Gesundheitsportal Österreichs](https://www.gesundheit.gv.at/) bietet **unabhängige, qualitätsgesicherte und serviceorientierte Informationen** rund um die Themen Gesundheit und Krankheit.",
-      "entries": []
+      "entries": [
+        {
+          "ownerName": "Sozialministerium",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheit.gv.at/lebenslagen/teenager",
+              "title": "In deinem Leben ist was los",
+              "description": "Der Wegweiser - \"Ich bin jung\" gibt Infos zu Schule, Beruf, Liebe, Verhütung und noch vielem mehr.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:21:59.081Z",
+              "keywords": [
+                "Behinderung",
+                "Beratung",
+                "Finanzielles",
+                "Geld",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Hilfe",
+                "Ministerium",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "63684f2f638c16809e4d0c83",
@@ -5994,5 +6026,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T09:21:13.766Z"
+  "timestamp": "2022-11-14T09:22:26.192Z"
 }
