@@ -2893,6 +2893,33 @@
           ]
         },
         {
+          "ownerName": "JugendService OÖ",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.jugendservice.at/leben",
+              "title": "Jugendliche Oberösterreich",
+              "description": "Hier kommst du zur Info des Landesjugendreferates Oberösterreich.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-oberösterreich.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T08:57:41.499Z",
+              "keywords": [
+                "Auszeit",
+                "Bundesland",
+                "Entspannung",
+                "Freizeit",
+                "Hobby",
+                "Oberösterreich",
+                "Pflege",
+                "Soziale Dienste",
+                "Sport",
+                "Urlaub",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "LOGO! Jugendmanagement Steiermark",
           "ownerUrl": "",
           "references": [
@@ -5427,5 +5454,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T08:56:40.342Z"
+  "timestamp": "2022-11-14T08:58:10.045Z"
 }
