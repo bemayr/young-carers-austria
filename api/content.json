@@ -1358,6 +1358,35 @@
           ]
         },
         {
+          "ownerName": "Bundeskanzleramt",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.familienberatung.gv.at/beratungsstellen/",
+              "title": "Familienberatungsstellen",
+              "description": "Es gibt über 400 Familienberatungsstellen in Österreich. Erfahre mehr über das Angebot.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T11:25:53.611Z",
+              "keywords": [
+                "Anlaufstelle",
+                "BKA",
+                "Beratung",
+                "Beratungsstelle",
+                "Bundeskanzleramt",
+                "Familie",
+                "Familienberatung",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Kanzler",
+                "Rat",
+                "Unterstützung",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Bundesministerium für Bildung, Wissenschaft und Forschung",
           "ownerUrl": "",
           "references": [
@@ -6913,5 +6942,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T10:57:57.372Z"
+  "timestamp": "2022-11-14T11:26:22.711Z"
 }
