@@ -2866,6 +2866,33 @@
           ]
         },
         {
+          "ownerName": "Burgenland",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.ljr.at/",
+              "title": "Jugendliche Burgenland",
+              "description": "Hier gibt es Informationen des Landesjugendreferates Burgenland.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-burgenland.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T09:00:16.921Z",
+              "keywords": [
+                "Auszeit",
+                "Bundesland",
+                "Burgenland",
+                "Entspannung",
+                "Freizeit",
+                "Hobby",
+                "Pflege",
+                "Soziale Dienste",
+                "Sport",
+                "Urlaub",
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "InfoEck - Jugendinfo Tirol",
           "ownerUrl": "",
           "references": [
@@ -5508,5 +5535,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T08:59:53.671Z"
+  "timestamp": "2022-11-14T09:00:53.148Z"
 }
