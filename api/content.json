@@ -2516,6 +2516,32 @@
       "information": "Freizeitangebote für **Young Carers** geben dir die Gelegenheit mit anderen in Kontakt zu treten, die in der gleichen Situation sind wie du. So könnt ihr euch über eure Erfahrungen, Ängste, Erfolge und ähnliches austauschen und Spaß haben. **Du bist in deiner Situation nicht alleine!**",
       "entries": [
         {
+          "ownerName": "austria4kids",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "http://www.austria4kids.at/freizeit.php",
+              "title": "Langeweile?",
+              "description": "Austria4Kids hat Freizeittipps für Familien parat.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-527271693.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T07:59:02.176Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratungsstelle",
+                "Freizeit",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Organisation",
+                "Rat",
+                "Tipps",
+                "Unterstützung",
+                "austria4kids"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Interessengemeinschaft pflegender Angehöriger",
           "ownerUrl": "",
           "references": [
@@ -5067,5 +5093,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-13T09:29:37.038Z"
+  "timestamp": "2022-11-14T07:59:32.371Z"
 }
