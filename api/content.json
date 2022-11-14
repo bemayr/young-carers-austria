@@ -3553,6 +3553,33 @@
           ]
         },
         {
+          "ownerName": "Kinder- und Jugendanwaltschaften",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.kija.at/",
+              "title": "Kinder- und Jugendanwaltschaft",
+              "description": "Unter dem folgenden Link kommst du zu den Kinder- und Jugendanwaltschaften in Österreich.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-14T08:12:03.084Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Anwalt",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Jugendliche",
+                "Kinder",
+                "Kinder- und Jugendanwaltschaft",
+                "Rat",
+                "Unterstützung"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Netzwerk Kinderrechte",
           "ownerUrl": "",
           "references": [
@@ -5149,5 +5176,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-14T08:10:31.731Z"
+  "timestamp": "2022-11-14T08:12:30.203Z"
 }
