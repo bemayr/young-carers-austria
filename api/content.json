@@ -5270,6 +5270,28 @@
                 ]
               },
               {
+                "ownerName": "kids-line - Rat für junge Leute",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.kids-line.at/",
+                    "title": "kids-line: Rat für junge Leute",
+                    "description": "kids-line ist ein Beratungstelefon und eine Chat-Beratung für Kinder und Jugendliche. Kinder und Jugendliche rufen an oder chatten, wenn sie Fragen oder Probleme haben – oder einfach, weil sie jemanden zum Zuhören brauchen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T08:48:54.433Z",
+                    "keywords": [
+                      "Beratung",
+                      "Beratungstelefon",
+                      "Chat",
+                      "Chatten",
+                      "Telefon",
+                      "kids-line"
+                    ]
+                  }
+                ]
+              },
+              {
                 "ownerName": "KIPKE - Caritas St. Pölten",
                 "ownerUrl": "",
                 "references": [
@@ -9633,6 +9655,28 @@
           ]
         },
         {
+          "ownerName": "kids-line - Rat für junge Leute",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.kids-line.at/",
+              "title": "kids-line: Rat für junge Leute",
+              "description": "kids-line ist ein Beratungstelefon und eine Chat-Beratung für Kinder und Jugendliche. Kinder und Jugendliche rufen an oder chatten, wenn sie Fragen oder Probleme haben – oder einfach, weil sie jemanden zum Zuhören brauchen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T08:48:54.433Z",
+              "keywords": [
+                "Beratung",
+                "Beratungstelefon",
+                "Chat",
+                "Chatten",
+                "Telefon",
+                "kids-line"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "KIPKE - Caritas St. Pölten",
           "ownerUrl": "",
           "references": [
@@ -12276,5 +12320,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T08:48:31.162Z"
+  "timestamp": "2022-11-15T08:49:20.119Z"
 }
