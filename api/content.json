@@ -2157,9 +2157,9 @@
                     "url": "https://www.jugendservice.at/leben",
                     "title": "Jugendliche Oberösterreich",
                     "description": "Hier kommst du zur Info des Landesjugendreferates Oberösterreich.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-oberösterreich.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-ober%C3%B6sterreich.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T08:57:41.499Z",
+                    "lastUpdated": "2022-11-15T09:07:46.493Z",
                     "keywords": [
                       "Auszeit",
                       "Bundesland",
@@ -8902,9 +8902,9 @@
               "url": "https://www.jugendservice.at/leben",
               "title": "Jugendliche Oberösterreich",
               "description": "Hier kommst du zur Info des Landesjugendreferates Oberösterreich.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-oberösterreich.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-ober%C3%B6sterreich.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-14T08:57:41.499Z",
+              "lastUpdated": "2022-11-15T09:07:46.493Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -12379,5 +12379,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T09:07:18.872Z"
+  "timestamp": "2022-11-15T09:08:15.694Z"
 }
