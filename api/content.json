@@ -790,27 +790,22 @@
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.get-social.at",
-                    "title": "Get Social - Time4Friends",
-                    "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
+                    "url": "https://www.get-social.at/",
+                    "title": "Get Social - Vernetzung beim Roten Kreuz",
+                    "description": "Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
                     "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-15T08:55:18.569Z",
+                    "lastUpdated": "2022-11-15T09:30:27.779Z",
                     "keywords": [
-                      "Anlaufstelle",
                       "Beratung",
-                      "Beratungsstelle",
                       "Hilfe",
-                      "Hilfseinrichtung",
                       "Jugendliche",
                       "Jugendrotkreuz",
                       "Juniorcamp",
                       "Organisation",
                       "Peer",
-                      "Rat",
                       "Rettung",
                       "Rotes Kreuz",
-                      "Unterstützung",
                       "get social",
                       "time4friends"
                     ]
@@ -2500,6 +2495,33 @@
                     ]
                   }
                 ]
+              },
+              {
+                "ownerName": "Jugendrotkreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.get-social.at/",
+                    "title": "Get Social - Vernetzung beim Roten Kreuz",
+                    "description": "Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
+                    "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:30:27.779Z",
+                    "keywords": [
+                      "Beratung",
+                      "Hilfe",
+                      "Jugendliche",
+                      "Jugendrotkreuz",
+                      "Juniorcamp",
+                      "Organisation",
+                      "Peer",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "get social",
+                      "time4friends"
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -2919,27 +2941,22 @@
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.get-social.at",
-                    "title": "Get Social - Time4Friends",
-                    "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
+                    "url": "https://www.get-social.at/",
+                    "title": "Get Social - Vernetzung beim Roten Kreuz",
+                    "description": "Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
                     "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-15T08:55:18.569Z",
+                    "lastUpdated": "2022-11-15T09:30:27.779Z",
                     "keywords": [
-                      "Anlaufstelle",
                       "Beratung",
-                      "Beratungsstelle",
                       "Hilfe",
-                      "Hilfseinrichtung",
                       "Jugendliche",
                       "Jugendrotkreuz",
                       "Juniorcamp",
                       "Organisation",
                       "Peer",
-                      "Rat",
                       "Rettung",
                       "Rotes Kreuz",
-                      "Unterstützung",
                       "get social",
                       "time4friends"
                     ]
@@ -5242,27 +5259,22 @@
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.get-social.at",
-                    "title": "Get Social - Time4Friends",
-                    "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
+                    "url": "https://www.get-social.at/",
+                    "title": "Get Social - Vernetzung beim Roten Kreuz",
+                    "description": "Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
                     "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-15T08:55:18.569Z",
+                    "lastUpdated": "2022-11-15T09:30:27.779Z",
                     "keywords": [
-                      "Anlaufstelle",
                       "Beratung",
-                      "Beratungsstelle",
                       "Hilfe",
-                      "Hilfseinrichtung",
                       "Jugendliche",
                       "Jugendrotkreuz",
                       "Juniorcamp",
                       "Organisation",
                       "Peer",
-                      "Rat",
                       "Rettung",
                       "Rotes Kreuz",
-                      "Unterstützung",
                       "get social",
                       "time4friends"
                     ]
@@ -6216,27 +6228,22 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.get-social.at",
-              "title": "Get Social - Time4Friends",
-              "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
+              "url": "https://www.get-social.at/",
+              "title": "Get Social - Vernetzung beim Roten Kreuz",
+              "description": "Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
               "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-15T08:55:18.569Z",
+              "lastUpdated": "2022-11-15T09:30:27.779Z",
               "keywords": [
-                "Anlaufstelle",
                 "Beratung",
-                "Beratungsstelle",
                 "Hilfe",
-                "Hilfseinrichtung",
                 "Jugendliche",
                 "Jugendrotkreuz",
                 "Juniorcamp",
                 "Organisation",
                 "Peer",
-                "Rat",
                 "Rettung",
                 "Rotes Kreuz",
-                "Unterstützung",
                 "get social",
                 "time4friends"
               ]
@@ -8486,6 +8493,33 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Jugendrotkreuz",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.get-social.at/",
+              "title": "Get Social - Vernetzung beim Roten Kreuz",
+              "description": "Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
+              "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:30:27.779Z",
+              "keywords": [
+                "Beratung",
+                "Hilfe",
+                "Jugendliche",
+                "Jugendrotkreuz",
+                "Juniorcamp",
+                "Organisation",
+                "Peer",
+                "Rettung",
+                "Rotes Kreuz",
+                "get social",
+                "time4friends"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -9686,27 +9720,22 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.get-social.at",
-              "title": "Get Social - Time4Friends",
-              "description": "Hier kommst du zu Time4Friends. Es ist eine Peer-Beratung des ÖJRK auf WhatsApp. Jugendliche aus ganz Österreich haben ein offenes Ohr für deine Anliegen. Das Team gibt sein Bestmögliches um dich zu unterstützen und versuchen mit dir gemeinsam eine Lösung zu finden.",
+              "url": "https://www.get-social.at/",
+              "title": "Get Social - Vernetzung beim Roten Kreuz",
+              "description": "Informiere dich über die Angebote des Jugendportals des Roten Kreuzes.",
               "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-15T08:55:18.569Z",
+              "lastUpdated": "2022-11-15T09:30:27.779Z",
               "keywords": [
-                "Anlaufstelle",
                 "Beratung",
-                "Beratungsstelle",
                 "Hilfe",
-                "Hilfseinrichtung",
                 "Jugendliche",
                 "Jugendrotkreuz",
                 "Juniorcamp",
                 "Organisation",
                 "Peer",
-                "Rat",
                 "Rettung",
                 "Rotes Kreuz",
-                "Unterstützung",
                 "get social",
                 "time4friends"
               ]
@@ -12379,5 +12408,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T09:17:20.183Z"
+  "timestamp": "2022-11-15T09:31:30.454Z"
 }
