@@ -10473,6 +10473,35 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "Stammtische für pflegende Angehörige",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.ig-pflege.at/veranstaltungen/stammtische.php",
+              "title": "Stammtische und Treffen für pflegende Angehörige",
+              "description": "Hier findest du Stammtische und Treffen für pflegende Angehörige.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1044764224.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:39:54.543Z",
+              "keywords": [
+                "Angehörige",
+                "Austausch",
+                "Betreuung",
+                "IG",
+                "IG Pflege",
+                "Interessengemeinschaft pflegender Angehöriger",
+                "Netzwerk",
+                "Pflege",
+                "Selbsthilfe",
+                "Selfcare",
+                "Stammtisch",
+                "Treffen",
+                "Vernetzung"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -12434,5 +12463,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T09:39:40.177Z"
+  "timestamp": "2022-11-15T09:40:28.269Z"
 }
