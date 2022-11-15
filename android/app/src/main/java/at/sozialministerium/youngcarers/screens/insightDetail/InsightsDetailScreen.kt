@@ -1,6 +1,7 @@
 package at.sozialministerium.youngcarers.screens.insightDetail
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -74,7 +75,7 @@ fun InsightsDetailScreen(
     ) {
         Column(
             modifier = Modifier
-                .verticalScroll(rememberScrollState())
+                .verticalScroll(rememberScrollState()).padding(bottom = 100.dp)
         ) {
             if (insights.isEmpty()) {
                 CircularProgressIndicator(color = colorResource(id = R.color.yc_red_dark))
