@@ -10408,6 +10408,27 @@
                 "Rat",
                 "Unterstützung"
               ]
+            },
+            {
+              "url": "https://www.kija.at/kija/12-kinderrechte/kinderrechte-app",
+              "title": "Kija App für Kinderrechte",
+              "description": "Was darf man eigentlich als Jugendlicher und wofür ist man noch zu jung? Die App bietet Infos über Jugendschutzbestimmungen in Österreich.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-541838144.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:46:55.947Z",
+              "keywords": [
+                "Anwalt",
+                "Beratung",
+                "Informationen",
+                "Infos",
+                "Jugendliche",
+                "Kinder",
+                "Kinder- und Jugendanwaltschaft",
+                "Kinderrechte",
+                "Konvention",
+                "Netzwerk",
+                "Rechte"
+              ]
             }
           ]
         },
@@ -12661,5 +12682,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T09:46:43.933Z"
+  "timestamp": "2022-11-15T09:47:23.318Z"
 }
