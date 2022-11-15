@@ -2522,6 +2522,39 @@
                     ]
                   }
                 ]
+              },
+              {
+                "ownerName": "superhands",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.superhands.at/fuer-dich/",
+                    "title": "Nicht gut drauf?",
+                    "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
+                    "previewImageUrl": "https://www.superhands.at/fileadmin/templates/img/superhands_logo.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:45:21.564Z",
+                    "keywords": [
+                      "Alltag",
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Lernen",
+                      "Organisation",
+                      "Pflege",
+                      "Rat",
+                      "Rettung",
+                      "Tipps",
+                      "Unterstützung",
+                      "Wissen",
+                      "praktisch",
+                      "superhands"
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -2793,6 +2826,39 @@
                       "praktisch",
                       "ÖGK",
                       "Österreichische Gesundheitskasse"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "superhands",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.superhands.at/fuer-dich/",
+                    "title": "Nicht gut drauf?",
+                    "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
+                    "previewImageUrl": "https://www.superhands.at/fileadmin/templates/img/superhands_logo.png",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:45:21.564Z",
+                    "keywords": [
+                      "Alltag",
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "Johanniter",
+                      "Lernen",
+                      "Organisation",
+                      "Pflege",
+                      "Rat",
+                      "Rettung",
+                      "Tipps",
+                      "Unterstützung",
+                      "Wissen",
+                      "praktisch",
+                      "superhands"
                     ]
                   }
                 ]
@@ -8546,6 +8612,39 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "superhands",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.superhands.at/fuer-dich/",
+              "title": "Nicht gut drauf?",
+              "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
+              "previewImageUrl": "https://www.superhands.at/fileadmin/templates/img/superhands_logo.png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:45:21.564Z",
+              "keywords": [
+                "Alltag",
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Johanniter",
+                "Lernen",
+                "Organisation",
+                "Pflege",
+                "Rat",
+                "Rettung",
+                "Tipps",
+                "Unterstützung",
+                "Wissen",
+                "praktisch",
+                "superhands"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -10571,6 +10670,39 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "superhands",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.superhands.at/fuer-dich/",
+              "title": "Nicht gut drauf?",
+              "description": "Was du tun kannst, damit es DIR gut geht verraten dir die superhands.",
+              "previewImageUrl": "https://www.superhands.at/fileadmin/templates/img/superhands_logo.png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:45:21.564Z",
+              "keywords": [
+                "Alltag",
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Johanniter",
+                "Lernen",
+                "Organisation",
+                "Pflege",
+                "Rat",
+                "Rettung",
+                "Tipps",
+                "Unterstützung",
+                "Wissen",
+                "praktisch",
+                "superhands"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -12463,5 +12595,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T09:43:27.356Z"
+  "timestamp": "2022-11-15T09:45:53.815Z"
 }
