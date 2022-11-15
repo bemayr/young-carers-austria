@@ -5936,6 +5936,23 @@
           ]
         },
         {
+          "ownerName": "Styria vitalis",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.feel-ok.at/de_AT/jugendliche/jugendliche.cfm",
+              "title": "feel-ok.at",
+              "description": "feel-ok ist ein Netzwerk aus zahlreichen Institutionen in der Schweiz, in Österreich und in Deutschland. Sie bieten Informationen aus diversen Bereichen des Lebens von Kindern und Jugendlichen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T08:49:26.398Z",
+              "keywords": [
+                "Österreich"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "superhands",
           "ownerUrl": "",
           "references": [
@@ -12320,5 +12337,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T08:49:20.119Z"
+  "timestamp": "2022-11-15T08:49:51.761Z"
 }
