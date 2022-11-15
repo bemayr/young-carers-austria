@@ -4163,6 +4163,38 @@
                 ]
               },
               {
+                "ownerName": "Verein Autonome Österreichische Frauenhäuser (AÖF)",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gewalt-ist-nie-ok.at",
+                    "title": "Gewalt ist nie ok!",
+                    "description": "Häusliche Gewalt ist Gewalt zwischen Menschen, die in einer partnerschaftlichen Beziehung leben. Hier erfährst du alles zu diesem Thema. Informiere dich, wo es Hilfe gibt.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:50:17.157Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Bruder",
+                      "Geschwister",
+                      "Großeltern",
+                      "Jugendliche",
+                      "Junge",
+                      "Kinder",
+                      "Mama",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Schwester",
+                      "Vater",
+                      "Young Carers"
+                    ]
+                  }
+                ]
+              },
+              {
                 "ownerName": "Vorarlberg",
                 "ownerUrl": "",
                 "references": [
@@ -4287,6 +4319,38 @@
                       "Selbsthilfe",
                       "Wegweiser",
                       "gesund"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Verein Autonome Österreichische Frauenhäuser (AÖF)",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.gewalt-ist-nie-ok.at",
+                    "title": "Gewalt ist nie ok!",
+                    "description": "Häusliche Gewalt ist Gewalt zwischen Menschen, die in einer partnerschaftlichen Beziehung leben. Hier erfährst du alles zu diesem Thema. Informiere dich, wo es Hilfe gibt.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:50:17.157Z",
+                    "keywords": [
+                      "Angehörige",
+                      "Bruder",
+                      "Geschwister",
+                      "Großeltern",
+                      "Jugendliche",
+                      "Junge",
+                      "Kinder",
+                      "Mama",
+                      "Mutter",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Schwester",
+                      "Vater",
+                      "Young Carers"
                     ]
                   }
                 ]
@@ -8504,6 +8568,38 @@
                 "Selbsthilfe",
                 "Wegweiser",
                 "gesund"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Verein Autonome Österreichische Frauenhäuser (AÖF)",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gewalt-ist-nie-ok.at",
+              "title": "Gewalt ist nie ok!",
+              "description": "Häusliche Gewalt ist Gewalt zwischen Menschen, die in einer partnerschaftlichen Beziehung leben. Hier erfährst du alles zu diesem Thema. Informiere dich, wo es Hilfe gibt.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:50:17.157Z",
+              "keywords": [
+                "Angehörige",
+                "Bruder",
+                "Geschwister",
+                "Großeltern",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Schwester",
+                "Vater",
+                "Young Carers"
               ]
             }
           ]
@@ -12878,5 +12974,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T09:48:45.051Z"
+  "timestamp": "2022-11-15T09:50:45.697Z"
 }
