@@ -1393,6 +1393,42 @@
                       "Video",
                       "Wissen"
                     ]
+                  },
+                  {
+                    "url": "https://wissen.roteskreuz.at/pluginfile.php/12667/mod_resource/content/2/content/index.html",
+                    "title": "Onlinekurs Pflege",
+                    "description": "In diesem Kurs erhältst du praktische Anleitungen, wie pflegebedürftige Menschen betreut werden können. Dabei werden die Themen Hygiene, Krankenbeobachtung und Pflege behandelt.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:59:41.825Z",
+                    "keywords": [
+                      "Ausbildung",
+                      "Beratung",
+                      "Bildung",
+                      "Erste Hilfe",
+                      "Freizeit",
+                      "Get Social",
+                      "Hilfe",
+                      "Infobox",
+                      "Jugendrotkreuz",
+                      "Juniorcamps",
+                      "Krems",
+                      "Kurs",
+                      "Kurz",
+                      "Notfall",
+                      "Onlinekurs",
+                      "Pflege",
+                      "Rettung",
+                      "Rotes Kreuz",
+                      "Schulung",
+                      "Sommercamps",
+                      "Sozialer Dienst",
+                      "Superhands",
+                      "Time4Friends",
+                      "Vernetzung",
+                      "Video",
+                      "Wissen"
+                    ]
                   }
                 ]
               },
@@ -5696,6 +5732,45 @@
                 ]
               },
               {
+                "ownerName": "KIPKE - Psychosoziale Zentren",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.psz.co.at/beratung-behandlung/beratung-von-kindern-mit-psychisch-kranken-eltern-kipke/",
+                    "title": "KIPKE Psychosoziale Zentren NÖ",
+                    "description": "Hier kommst du zum Projekt KIPKE der Psychosozialen Zentren in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-nieder%C3%B6sterreich.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:59:16.716Z",
+                    "keywords": [
+                      "Anlaufstelle",
+                      "Beratung",
+                      "Beratungsstelle",
+                      "Bundesland",
+                      "Caritas",
+                      "Eltern",
+                      "Hilfe",
+                      "Hilfseinrichtung",
+                      "KIPKE",
+                      "Kinder",
+                      "Krankheit",
+                      "Niederösterreich",
+                      "PSZ",
+                      "Psyche",
+                      "Psychosoziale Zentren",
+                      "Rat",
+                      "St. Pölten",
+                      "Unterstützung",
+                      "Zentren",
+                      "Zentrum",
+                      "krank",
+                      "psychisch",
+                      "psychosozial"
+                    ]
+                  }
+                ]
+              },
+              {
                 "ownerName": "Mama/Papa hat Krebs (Wien)",
                 "ownerUrl": "",
                 "references": [
@@ -9950,6 +10025,42 @@
                 "Video",
                 "Wissen"
               ]
+            },
+            {
+              "url": "https://wissen.roteskreuz.at/pluginfile.php/12667/mod_resource/content/2/content/index.html",
+              "title": "Onlinekurs Pflege",
+              "description": "In diesem Kurs erhältst du praktische Anleitungen, wie pflegebedürftige Menschen betreut werden können. Dabei werden die Themen Hygiene, Krankenbeobachtung und Pflege behandelt.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:59:41.825Z",
+              "keywords": [
+                "Ausbildung",
+                "Beratung",
+                "Bildung",
+                "Erste Hilfe",
+                "Freizeit",
+                "Get Social",
+                "Hilfe",
+                "Infobox",
+                "Jugendrotkreuz",
+                "Juniorcamps",
+                "Krems",
+                "Kurs",
+                "Kurz",
+                "Notfall",
+                "Onlinekurs",
+                "Pflege",
+                "Rettung",
+                "Rotes Kreuz",
+                "Schulung",
+                "Sommercamps",
+                "Sozialer Dienst",
+                "Superhands",
+                "Time4Friends",
+                "Vernetzung",
+                "Video",
+                "Wissen"
+              ]
             }
           ]
         },
@@ -10413,6 +10524,45 @@
           ]
         },
         {
+          "ownerName": "KIPKE - Psychosoziale Zentren",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.psz.co.at/beratung-behandlung/beratung-von-kindern-mit-psychisch-kranken-eltern-kipke/",
+              "title": "KIPKE Psychosoziale Zentren NÖ",
+              "description": "Hier kommst du zum Projekt KIPKE der Psychosozialen Zentren in Niederösterreich. Ziel ist, für Kinder mit psychisch kranken Eltern(teilen) bestmöglich zu unterstützen.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-nieder%C3%B6sterreich.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:59:16.716Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Bundesland",
+                "Caritas",
+                "Eltern",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "KIPKE",
+                "Kinder",
+                "Krankheit",
+                "Niederösterreich",
+                "PSZ",
+                "Psyche",
+                "Psychosoziale Zentren",
+                "Rat",
+                "St. Pölten",
+                "Unterstützung",
+                "Zentren",
+                "Zentrum",
+                "krank",
+                "psychisch",
+                "psychosozial"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Mama/Papa hat Krebs (Wien)",
           "ownerUrl": "",
           "references": [
@@ -10826,6 +10976,49 @@
                 "Bundeskanzleramt",
                 "Kanzler",
                 "Österreich"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Gesundheitsportal Österreichs",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/institutionen/patientenanwalt",
+              "title": "Patientenanwaltschaft",
+              "description": "Hier findest du die Patientenanwaltschaften in deinem Bundesland und deren Aufgaben.",
+              "previewImageUrl": "https://www.gesundheit.gv.at/dam/jcr:88ead326-91df-4fa9-b615-adf5ca365e39/logo-gesundheit%20(1).png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:59:54.842Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Anwalt",
+                "Arzt",
+                "Behandlung",
+                "Beratung",
+                "Diagnose",
+                "Fehler",
+                "Gesundheit",
+                "Gesundheitsportal Österreichs",
+                "GÖG",
+                "Hilfe",
+                "Info",
+                "Infoplattform",
+                "Infos",
+                "Krankheit",
+                "Kunstfehler",
+                "Patient",
+                "Patientenanwaltschaft",
+                "Praxis",
+                "Recht",
+                "Selbsthilfe",
+                "Spital",
+                "Untersuchung",
+                "Wegweiser",
+                "gesund",
+                "krank",
+                "Ärztin"
               ]
             }
           ]
@@ -13151,5 +13344,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T09:57:32.252Z"
+  "timestamp": "2022-11-15T10:00:25.597Z"
 }
