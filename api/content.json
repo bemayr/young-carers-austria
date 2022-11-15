@@ -1546,9 +1546,9 @@
                     "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131&subthema=138",
                     "title": "Pflegende Angehörige Kärnten",
                     "description": "Das Land Kärnten bietet eigene Unterstützung für pflegende Angehörige.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-k%C3%A4rnten.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T09:51:36.637Z",
+                    "lastUpdated": "2022-11-15T09:41:41.427Z",
                     "keywords": [
                       "Behinderung",
                       "Betreuung",
@@ -1583,9 +1583,9 @@
                     "url": "https://www.noel.gv.at/noe/Pflege/Urlaubsaktion_fuer_Pflegende_Angehoerige.html",
                     "title": "Pflegende Angehörige Niederösterreich",
                     "description": "Leistungen für Pflegende in Niederösterreich kannst du hier nachlesen.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-nieder%C3%B6sterreich.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T09:50:33.111Z",
+                    "lastUpdated": "2022-11-15T09:41:03.141Z",
                     "keywords": [
                       "Behinderung",
                       "Betreuung",
@@ -2098,9 +2098,9 @@
                     "url": "https://www.jugendinfo-noe.at/",
                     "title": "Jugendliche Niederösterreich",
                     "description": "Jugend:info NÖ ist eine Anlaufstelle für junge Menschen in allen Lebenslagen.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-nieder%C3%B6sterreich.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T08:58:32.208Z",
+                    "lastUpdated": "2022-11-15T09:42:53.125Z",
                     "keywords": [
                       "Auszeit",
                       "Bundesland",
@@ -2123,11 +2123,11 @@
                 "references": [
                   {
                     "url": "https://jugend.ktn.gv.at/",
-                    "title": "Jugendliche Kärnten",
+                    "title": "\n      Jugendreferat Kärnten\n    ",
                     "description": "Unter diesem Link erreichst du die Info des Landesjugendreferates Kärnten.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-k%C3%A4rnten.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T08:59:18.278Z",
+                    "lastUpdated": "2022-11-15T09:42:17.704Z",
                     "keywords": [
                       "Auszeit",
                       "Bundesland",
@@ -3545,9 +3545,9 @@
                     "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131",
                     "title": "Pflege Kärnten",
                     "description": "Das Land Kärten bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-k%C3%A4rnten.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T09:57:06.309Z",
+                    "lastUpdated": "2022-11-15T09:41:57.630Z",
                     "keywords": [
                       "Behinderung",
                       "Betreuung",
@@ -3581,9 +3581,9 @@
                     "url": "https://www.noel.gv.at/noe/Pflege/Pflege.html",
                     "title": "Pflege Niederösterreich",
                     "description": "Das Land Niederösterreich bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-nieder%C3%B6sterreich.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T09:56:40.622Z",
+                    "lastUpdated": "2022-11-15T09:41:20.494Z",
                     "keywords": [
                       "Behinderung",
                       "Betreuung",
@@ -4238,9 +4238,9 @@
                     "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131",
                     "title": "Pflege Kärnten",
                     "description": "Das Land Kärten bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-k%C3%A4rnten.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T09:57:06.309Z",
+                    "lastUpdated": "2022-11-15T09:41:57.630Z",
                     "keywords": [
                       "Behinderung",
                       "Betreuung",
@@ -4274,9 +4274,9 @@
                     "url": "https://www.noel.gv.at/noe/Pflege/Pflege.html",
                     "title": "Pflege Niederösterreich",
                     "description": "Das Land Niederösterreich bietet hier Informationen zu Pflegethemen.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-nieder%C3%B6sterreich.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T09:56:40.622Z",
+                    "lastUpdated": "2022-11-15T09:41:20.494Z",
                     "keywords": [
                       "Behinderung",
                       "Betreuung",
@@ -7066,9 +7066,9 @@
               "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131",
               "title": "Pflege Kärnten",
               "description": "Das Land Kärten bietet hier Informationen zu Pflegethemen.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-k%C3%A4rnten.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-14T09:57:06.309Z",
+              "lastUpdated": "2022-11-15T09:41:57.630Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -7102,9 +7102,9 @@
               "url": "https://www.noel.gv.at/noe/Pflege/Pflege.html",
               "title": "Pflege Niederösterreich",
               "description": "Das Land Niederösterreich bietet hier Informationen zu Pflegethemen.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-nieder%C3%B6sterreich.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-14T09:56:40.622Z",
+              "lastUpdated": "2022-11-15T09:41:20.494Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -8908,9 +8908,9 @@
               "url": "https://www.jugendinfo-noe.at/",
               "title": "Jugendliche Niederösterreich",
               "description": "Jugend:info NÖ ist eine Anlaufstelle für junge Menschen in allen Lebenslagen.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-nieder%C3%B6sterreich.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-14T08:58:32.208Z",
+              "lastUpdated": "2022-11-15T09:42:53.125Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -8933,11 +8933,11 @@
           "references": [
             {
               "url": "https://jugend.ktn.gv.at/",
-              "title": "Jugendliche Kärnten",
+              "title": "\n      Jugendreferat Kärnten\n    ",
               "description": "Unter diesem Link erreichst du die Info des Landesjugendreferates Kärnten.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-k%C3%A4rnten.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-14T08:59:18.278Z",
+              "lastUpdated": "2022-11-15T09:42:17.704Z",
               "keywords": [
                 "Auszeit",
                 "Bundesland",
@@ -11084,9 +11084,9 @@
               "url": "https://www.ktn.gv.at/Themen-AZ/Uebersicht?thema=131&subthema=138",
               "title": "Pflegende Angehörige Kärnten",
               "description": "Das Land Kärnten bietet eigene Unterstützung für pflegende Angehörige.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-kärnten.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-k%C3%A4rnten.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-14T09:51:36.637Z",
+              "lastUpdated": "2022-11-15T09:41:41.427Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -11121,9 +11121,9 @@
               "url": "https://www.noel.gv.at/noe/Pflege/Urlaubsaktion_fuer_Pflegende_Angehoerige.html",
               "title": "Pflegende Angehörige Niederösterreich",
               "description": "Leistungen für Pflegende in Niederösterreich kannst du hier nachlesen.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-niederösterreich.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-nieder%C3%B6sterreich.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-14T09:50:33.111Z",
+              "lastUpdated": "2022-11-15T09:41:03.141Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -12463,5 +12463,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T09:40:28.269Z"
+  "timestamp": "2022-11-15T09:43:27.356Z"
 }
