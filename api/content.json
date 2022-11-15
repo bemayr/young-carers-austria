@@ -58,7 +58,7 @@
   ],
   "emergency": {
     "title": "Im Notfall",
-    "description": "Im Notfall muss es schnell gehen. Deshalb bietet dir diese Seite eine Übersicht über die relevanten Notrufnummern. Am besten auf Notfälle vorbereitet bist du allerdings, wenn du dich bereits im Vorherein darauf vorbereitest, deshalb haben wir hier für dich auch ein paar Informationen dazu gesammelt.",
+    "description": "Im Notfall muss es schnell gehen. Deshalb bietet dir diese Seite eine Übersicht über die relevanten Notrufnummern. Am besten auf Notfälle vorbereitet bist du allerdings, wenn du dich bereits im Vorherein darauf vorbereitest. Deshalb haben wir hier für dich auch ein paar Informationen dazu gesammelt.",
     "numbers": [
       {
         "label": "Euro-Notruf",
@@ -94,10 +94,6 @@
       }
     ],
     "content": [
-      {
-        "type": "text",
-        "text": "**TODO**: hier gehört noch einiges gemacht"
-      },
       {
         "type": "category",
         "category": {
@@ -206,29 +202,6 @@
                 }
               ]
             }
-          ]
-        }
-      },
-      {
-        "type": "text",
-        "text": "und hier wird noch mehr Text kommenbzw. vielleicht auch eine Referenz"
-      },
-      {
-        "type": "reference",
-        "reference": {
-          "url": "https://www.alzheimer-selbsthilfe.at/schulinitiative-merkima-demenz-kindern-erklaert/",
-          "title": "Was ist bloß mit Oma los? - Demenz",
-          "description": "Kindern wird Demenz erklärt",
-          "previewImageUrl": "https://www.alzheimer-selbsthilfe.at/wp-content/uploads/2017/07/merkimakidzlogo-web.png",
-          "isPaidContent": false,
-          "lastUpdated": "2022-11-14T12:56:34.611Z",
-          "keywords": [
-            "Alzheimer",
-            "Alzheimer Austria",
-            "Demenz",
-            "Vergessen",
-            "Vergesslichkeit",
-            "vergesslich"
           ]
         }
       }
@@ -13858,5 +13831,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T10:03:57.293Z"
+  "timestamp": "2022-11-15T10:06:45.745Z"
 }
