@@ -5764,6 +5764,48 @@
           ]
         },
         {
+          "ownerName": "Jugendrotkreuz",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.youtube.com/watch?v=0MJmlGt8X5A",
+              "title": " - YouTube",
+              "description": "Video des Jugendrotkreuzes zum Thema Young Carers",
+              "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T08:50:40.913Z",
+              "keywords": [
+                "Angehörige",
+                "Beratung",
+                "Bruder",
+                "Geschwister",
+                "Großeltern",
+                "Hilfe",
+                "Jugendliche",
+                "Jugendrotkreuz",
+                "Junge",
+                "Juniorcamp",
+                "Kinder",
+                "Mama",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Organisation",
+                "Papa",
+                "Peer",
+                "Pflege",
+                "Rettung",
+                "Rotes Kreuz",
+                "Schwester",
+                "Vater",
+                "Young Carers",
+                "get social",
+                "time4friends"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Sozialministerium",
           "ownerUrl": "",
           "references": [
@@ -12337,5 +12379,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T08:49:51.761Z"
+  "timestamp": "2022-11-15T08:51:08.646Z"
 }
