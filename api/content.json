@@ -330,6 +330,32 @@
                     ]
                   }
                 ]
+              },
+              {
+                "ownerName": "SUPRO - Gesundheitsförderung und Prävention",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://bittelebe.at/",
+                    "title": "Bitte Lebe - Hilfe bei Suizidgedanken",
+                    "description": "Du hast Angst, dass sich dein Freund oder deine Freundin etwas antut? In den Videos findest du viele Tipps, wie du helfen kannst.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:53:16.630Z",
+                    "keywords": [
+                      "Alltag",
+                      "Beratung",
+                      "Hilfe",
+                      "Lernen",
+                      "Pflege",
+                      "Rat",
+                      "Tipps",
+                      "Unterstützung",
+                      "Wissen",
+                      "praktisch"
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -3680,6 +3706,40 @@
                 ]
               },
               {
+                "ownerName": "Gesundheit Österreich GmbH",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://cn-oesterreich.at/",
+                    "title": "Community Nursing",
+                    "description": "Community Nurses sind diplomierte Gesundheits- und Krankenpflegepersonen welche wohnortnah ihre Dienstleistung anbieten. Sie sollen z.B. dabei helfen, dass ältere Personen weiterhin zu Hause leben können. Es gibt zur Zeit 120 Pilotprojekte in ganz Österreich.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:52:47.452Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause"
+                    ]
+                  }
+                ]
+              },
+              {
                 "ownerName": "Infoservice des Sozialministeriums",
                 "ownerUrl": "",
                 "references": [
@@ -4432,6 +4492,40 @@
                       "Zu Hause",
                       "Zuhause",
                       "Österreich"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Gesundheit Österreich GmbH",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://cn-oesterreich.at/",
+                    "title": "Community Nursing",
+                    "description": "Community Nurses sind diplomierte Gesundheits- und Krankenpflegepersonen welche wohnortnah ihre Dienstleistung anbieten. Sie sollen z.B. dabei helfen, dass ältere Personen weiterhin zu Hause leben können. Es gibt zur Zeit 120 Pilotprojekte in ganz Österreich.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-15T09:52:47.452Z",
+                    "keywords": [
+                      "Behinderung",
+                      "Betreuung",
+                      "Bundesland",
+                      "Daheim",
+                      "Eltern",
+                      "FSW",
+                      "Großeltern",
+                      "Hilfe",
+                      "Mama",
+                      "Mobil",
+                      "Oma",
+                      "Opa",
+                      "Papa",
+                      "Pflege",
+                      "Soziale Dienste",
+                      "Unterstützung",
+                      "Zu Hause",
+                      "Zuhause"
                     ]
                   }
                 ]
@@ -7391,6 +7485,40 @@
                 "Zu Hause",
                 "Zuhause",
                 "Österreich"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Gesundheit Österreich GmbH",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://cn-oesterreich.at/",
+              "title": "Community Nursing",
+              "description": "Community Nurses sind diplomierte Gesundheits- und Krankenpflegepersonen welche wohnortnah ihre Dienstleistung anbieten. Sie sollen z.B. dabei helfen, dass ältere Personen weiterhin zu Hause leben können. Es gibt zur Zeit 120 Pilotprojekte in ganz Österreich.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:52:47.452Z",
+              "keywords": [
+                "Behinderung",
+                "Betreuung",
+                "Bundesland",
+                "Daheim",
+                "Eltern",
+                "FSW",
+                "Großeltern",
+                "Hilfe",
+                "Mama",
+                "Mobil",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Soziale Dienste",
+                "Unterstützung",
+                "Zu Hause",
+                "Zuhause"
               ]
             }
           ]
@@ -10631,6 +10759,32 @@
               ]
             }
           ]
+        },
+        {
+          "ownerName": "SUPRO - Gesundheitsförderung und Prävention",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://bittelebe.at/",
+              "title": "Bitte Lebe - Hilfe bei Suizidgedanken",
+              "description": "Du hast Angst, dass sich dein Freund oder deine Freundin etwas antut? In den Videos findest du viele Tipps, wie du helfen kannst.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:53:16.630Z",
+              "keywords": [
+                "Alltag",
+                "Beratung",
+                "Hilfe",
+                "Lernen",
+                "Pflege",
+                "Rat",
+                "Tipps",
+                "Unterstützung",
+                "Wissen",
+                "praktisch"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -10868,6 +11022,29 @@
       "title": "Wo kann ich andere treffen, denen es auch so geht?",
       "information": "Die vielfältigen **Selbsthilfegruppen** haben eine wichtige Funktion bei der gesundheitlichen Versorgung und **Prävention**. Selbsthilfegruppen bieten Unterstützung für Menschen mit Behinderungen oder chronischen Krankheiten.\n\nDas [Infoservice des Sozialministeriums](https://www.infoservice.sozialministerium.at) verfügt über Informationen zu Einrichtungen, Organisationen, Vereine und Selbsthilfegruppen, die im sozialen Feld tätig sind. Für pflegende Angehörige finden so genannte **Stammtische** statt.",
       "entries": [
+        {
+          "ownerName": "Al-Anon Familiengruppen, Al-Anon Erwachsene Kinder und Alateen - Dienstbüro für Österreich",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.al-anon.at/ueber-alateen",
+              "title": "Alateen - Die AL-Anon TEENagergroup",
+              "description": "Alateen ist eine Gemeinschaft von Kindern, Jugendlichen und Freunden von Alkoholikern. In der ganzen Welt treffen sich Kinder und junge Menschen in über 3.500 Alateen Gruppen um sich gegenseitig zu helfen, mit den Problemen fertig zu werden, die durch das Trinken eines Angehörigen entstanden sind.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-15T09:53:54.509Z",
+              "keywords": [
+                "Anlaufstelle",
+                "Beratung",
+                "Beratungsstelle",
+                "Hilfe",
+                "Hilfseinrichtung",
+                "Rat",
+                "Unterstützung"
+              ]
+            }
+          ]
+        },
         {
           "ownerName": "Gesundheitsportal Österreichs",
           "ownerUrl": "",
@@ -12974,5 +13151,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-15T09:50:45.697Z"
+  "timestamp": "2022-11-15T09:54:48.626Z"
 }
