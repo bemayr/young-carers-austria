@@ -47,12 +47,12 @@
     },
     {
       "question": "Was können Erwachsene (Eltern, Pädagoginnen/Pädagogen, sowie zum Thema Interessierte) bei der Begegnung/im Umgang mit Young Carers tun?",
-      "answer": "* Begegnung auf Augenhöhe und mit Wertschätzung – besonders wegen der Pflegetätigkeit  \n* Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote aufmerksam machen  \n* Regelmäßige Nachfrage wie es dem betroffenen Young Carer geht  \n* Austausch mit Expert:innen, z.B. [IG Pflegende Angehörige](https://www.young-carers-austria.at/faq/www.ig-pflege.at), [superhands](https://www.superhands.at), u.a.m",
+      "answer": "* Begegnung auf Augenhöhe und mit Wertschätzung – besonders wegen der Pflegetätigkeit  \n* Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote aufmerksam machen  \n* Regelmäßige Nachfrage wie es dem betroffenen Young Carer geht  \n* Austausch mit Expert:innen, z.B. [superhands, ](https://www.superhands.at)[IG Pflegende Angehörige](https://www.young-carers-austria.at/faq/www.ig-pflege.at), [147 Rat auf Draht](https://www.superhands.at), u.a.m",
       "showOnLandingPage": false
     },
     {
       "question": "Welche unterstützenden Maßnahmen für Young Carers sind in Umsetzung?",
-      "answer": "Im aktuellen Regierungsprogramm wird ein besonderer Fokus auf die bestmögliche Unterstützung von betreuungs- und pflegebedürftigen Menschen sowie ihrer An- und Zugehörigen und Pflegenden gelegt. Persönliche, gesundheitliche und finanzielle Auswirkungen für pflegende Kinder und Jugendliche sollen durch präventive Maßnahmen und maßgeschneiderte Unterstützungsangebote abgefedert werden.\n\nDie **„Young Carers Austria“ App** des Sozialministeriums gibt individuelle Hilfestellung für pflegende Kinder, Jugendliche und deren Familien bzw. Interessierte. Geboten werden praktische Links und Kontakte, Informationsmaterialien, Anleitungen zur Pflege, ein ABC für Young Carers und vieles mehr.",
+      "answer": "Im aktuellen Regierungsprogramm wird ein besonderer Fokus auf die bestmögliche Unterstützung von betreuungs- und pflegebedürftigen Menschen sowie ihrer An- und Zugehörigen gelegt. Persönliche, gesundheitliche und finanzielle Auswirkungen für pflegende Kinder und Jugendliche sollen durch präventive Maßnahmen und maßgeschneiderte Unterstützungsangebote abgefedert werden.\n\nDie **„Young Carers Austria“ App** des Sozialministeriums gibt individuelle Hilfestellung für pflegende Kinder, Jugendliche und deren Familien bzw. Interessierte. Geboten werden praktische Links und Kontakte, Informationsmaterialien, Anleitungen zur Pflege, ein ABC für Young Carers und vieles mehr.",
       "showOnLandingPage": false
     }
   ],
@@ -13356,26 +13356,6 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.young-carers.ch",
-              "title": "Unterstützung finden in der Schweiz",
-              "description": "Hier finden Young Carers Unterstützungsangebote und die Möglichkeit Fachpersonen zu kontaktieren",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-614959570.jpg",
-              "isPaidContent": false,
-              "lastUpdated": "2022-11-16T14:08:05.250Z",
-              "keywords": [
-                "Ausland",
-                "Bruder",
-                "Careum",
-                "Geschwister",
-                "International",
-                "Kalaidos",
-                "Schweiz",
-                "Schwester",
-                "Uni",
-                "Universität"
-              ]
-            },
-            {
               "url": "https://www.kalaidos-fh.ch/de-CH/Forschung/Fachbereich-Gesundheit/Young-Carers",
               "title": "Young Carers in der Schweiz",
               "description": "Hier findest du Informationen zu Young Carers-Projekten in der Schweiz.",
@@ -13831,5 +13811,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-16T14:08:43.164Z"
+  "timestamp": "2022-11-16T14:21:51.609Z"
 }
