@@ -27,7 +27,6 @@ const Characters: CollectionConfig = {
       name: 'emoji',
       type: 'text',
       label: "Emoji",
-      unique: true,
       required: true,
     },
   ],
