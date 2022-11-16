@@ -1,5 +1,5 @@
 import { CollectionConfig } from 'payload/types';
-import { notifyGitHub } from '../util/github-actions';
+import { notifyGitHub } from '../util/hooks';
 import { SourceReferenceCell, SourceReferenceField } from './Sources.Extensions';
 
 const Sources: CollectionConfig = {

@@ -30,8 +30,28 @@ async function runWebsiteBuildIfProduction() {
     );
 }
 
+async function refreshChatbotIndexIfProduction() {
+  const isProduction = process.env.NODE_ENV === "production";
+
+  console.info(`🤖 Refresh Chatbot Index (env: ${process.env.NODE_ENV})`)
+
+  if (isProduction)
+    await fetch(
+      "https://redaktion.young-carers-austria.at/api/v1/index/rebuild",
+      {
+        method: "POST"
+      }
+    );
+}
+
 export const notifyGitHub = ({ doc, req }: { doc: any, req: PayloadRequest<any> }) => {
   if(isNotDraft(doc) && isNonBatchedChange(req.url))
     runWebsiteBuildIfProduction() // intentionally run sync because of fire-and-forget semantics
+  if(doc) return doc
+}
+
+export const notifyChatbot = ({ doc, req }: { doc: any, req: PayloadRequest<any> }) => {
+  if(isNotDraft(doc) && isNonBatchedChange(req.url))
+    refreshChatbotIndexIfProduction() // intentionally run sync because of fire-and-forget semantics
   if(doc) return doc
 }

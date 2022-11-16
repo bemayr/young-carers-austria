@@ -1,5 +1,5 @@
 import { GlobalConfig } from 'payload/types';
-import { notifyGitHub } from '../util/github-actions';
+import { notifyGitHub } from '../util/hooks';
 
 const DataProtectionDeclaration: GlobalConfig = {
   slug: 'app-gdpr',

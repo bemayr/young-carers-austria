@@ -1,5 +1,5 @@
 import { CollectionConfig } from 'payload/types';
-import { notifyGitHub } from '../util/github-actions';
+import { notifyGitHub } from '../util/hooks';
 
 const Situations: CollectionConfig = {
   slug: 'situations',

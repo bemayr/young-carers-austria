@@ -1,4 +1,5 @@
 import { GlobalConfig } from 'payload/types';
+import { notifyChatbot } from '../util/hooks';
 
 const Messages: GlobalConfig = {
   slug: 'chatbot-messages',
@@ -7,7 +8,7 @@ const Messages: GlobalConfig = {
     group: "Chatbot",
   },
   hooks: {
-    // TODO: add the trigger CMS content changed hook
+    afterChange: [ notifyChatbot ],
   },
   versions: {
     drafts: 

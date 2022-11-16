@@ -1,6 +1,6 @@
 import { CollectionConfig } from 'payload/types';
 import React from 'react';
-import { notifyGitHub } from '../util/github-actions';
+import { notifyGitHub, notifyChatbot } from '../util/hooks';
 import { AddressField, OpengraphDescription, PreviewImageUrlField } from './References.Extensions';
 
 const References: CollectionConfig = {
@@ -16,8 +16,8 @@ const References: CollectionConfig = {
     disableDuplicate: true,
   },
   hooks: {
-    afterChange: [ notifyGitHub ],
-    afterDelete: [ notifyGitHub ],
+    afterChange: [ notifyGitHub, notifyChatbot ],
+    afterDelete: [ notifyGitHub, notifyChatbot ],
   },
   versions: {
     maxPerDoc: 5,

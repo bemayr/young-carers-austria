@@ -1,5 +1,5 @@
 import { GlobalConfig } from 'payload/types';
-import { notifyGitHub } from '../util/github-actions';
+import { notifyGitHub } from '../util/hooks';
 
 const GdprDeclaration: GlobalConfig = {
   slug: 'website-accessibility',

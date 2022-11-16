@@ -1,4 +1,5 @@
 import { CollectionConfig } from 'payload/types';
+import { notifyChatbot } from '../util/hooks';
 
 const Characters: CollectionConfig = {
   slug: 'chatbot-characters',
@@ -13,7 +14,8 @@ const Characters: CollectionConfig = {
     disableDuplicate: true,
   },
   hooks: {
-    // TODO: add the trigger CMS content changed hook
+    afterChange: [ notifyChatbot ],
+    afterDelete: [ notifyChatbot ],
   },
   fields: [
     {
