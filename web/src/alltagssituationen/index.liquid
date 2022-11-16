@@ -26,11 +26,17 @@ title: 'Alltagssituationen'
         <a href="/infos/{{ part.category.name | slugify }}">{{ part.category.title }}</a>
         {% endif %}
         {% if part.type == "reference" %}
-        {{ part.reference.url }}
-        {{ part.reference.title }}
-        {{ part.reference.description }}
-        {{ part.reference.previewImageUrl }}
-        {{ part.reference.isPaidContent }}
+        <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm p-0 m-0">
+            <a class="no-underline" href="{{ part.reference.url }}">
+            <img class="p-0 m-0 rounded-t-lg" src="{{ part.reference.previewImageUrl }}" alt="" />
+            <div class="p-5">
+                <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2">{{ part.reference.title }}
+                </h3>
+                <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent">{{ part.reference.description }}
+                </p>
+            </div>
+            </a>
+        </div>
         {% endif %}
         {% endfor %}
     </div>
