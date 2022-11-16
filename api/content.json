@@ -2211,9 +2211,9 @@
                     "url": "https://www.jugendportal.at/",
                     "title": "Jugendportal Österreich",
                     "description": "Auf dem Jugendportal findest du geprüfte Informationen über Corona, den Youth Reporter Blog, Themen-Infos und die Beteiligungsmöglichkeiten unter Mitmachen.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-%C3%B6sterreich.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-15T09:55:32.238Z",
+                    "lastUpdated": "2022-11-16T15:30:50.466Z",
                     "keywords": [
                       "Auszeit",
                       "Bundesnetzwerk Österreichische Jugendinfos",
@@ -9939,9 +9939,9 @@
               "url": "https://www.jugendportal.at/",
               "title": "Jugendportal Österreich",
               "description": "Auf dem Jugendportal findest du geprüfte Informationen über Corona, den Youth Reporter Blog, Themen-Infos und die Beteiligungsmöglichkeiten unter Mitmachen.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-%C3%B6sterreich.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1368894688.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-15T09:55:32.238Z",
+              "lastUpdated": "2022-11-16T15:30:50.466Z",
               "keywords": [
                 "Auszeit",
                 "Bundesnetzwerk Österreichische Jugendinfos",
@@ -13811,5 +13811,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-16T15:29:23.160Z"
+  "timestamp": "2022-11-16T15:31:18.269Z"
 }
