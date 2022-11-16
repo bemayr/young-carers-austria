@@ -10,6 +10,8 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
@@ -24,6 +26,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.*
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
 
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -206,6 +209,14 @@ fun MessageSection(
     ) {
     val focusManager = LocalFocusManager.current
     var message by remember { mutableStateOf("") }
+
+    fun sendMessage() {
+        viewModel.sendMessage(message)
+        message = ""
+        //close keyboard after press send button
+        focusManager.clearFocus()
+    }
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -225,14 +236,12 @@ fun MessageSection(
             onValueChange = { value ->
                 message = value
             },
+            singleLine = true,
+            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Send),
+            keyboardActions = KeyboardActions(onSend = { sendMessage() }),
             shape = RoundedCornerShape(25.dp),
             trailingIcon = {
-                IconButton(onClick = {
-                    viewModel.sendMessage(message)
-                    message = ""
-                    //close keyboard after press send button
-                    focusManager.clearFocus()
-                })
+                IconButton(onClick = { sendMessage() })
                 {
                     Icon(
                         painter = painterResource(id = R.drawable.ic_send_f),
