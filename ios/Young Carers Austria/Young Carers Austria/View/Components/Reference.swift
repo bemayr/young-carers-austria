@@ -31,22 +31,24 @@ struct ReferenceView {
                             .indicator(.activity)
                             .transition(.fade(duration: 0.5))
                             .aspectRatio(contentMode: .fit)
+                            .frame(maxWidth: .infinity)
                         
                         VStack(alignment: .leading) {
                             Text(reference.title)
                                 .font(.title3)
                                 .fontWeight(.semibold)
+                                .fixedSize(horizontal: false, vertical: true)
                                 .foregroundColor(.primary)
                                 .multilineTextAlignment(.leading)
                                 .padding([.bottom], 1)
-                            Markdown(reference.description)
+                            Text(reference.description)
                                 .font(.footnote)
+                                .fixedSize(horizontal: false, vertical: true)
                                 .foregroundColor(.secondary)
                                 .multilineTextAlignment(.leading)
                         }
                         .frame(maxWidth: .infinity, alignment: .bottomLeading)
                         .padding()
-                        .background(.background)
                     }
                     
                     if(reference.isPaidContent) {
@@ -61,6 +63,7 @@ struct ReferenceView {
                         .padding(6)
                     }
                 }
+                .background(.background)
                 .cornerRadius(18, antialiased: true)
             }
             .confirmationDialog("Link wirklich öffnen", isPresented: $presentingConfirmationDialog) {

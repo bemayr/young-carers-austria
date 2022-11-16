@@ -2,7 +2,10 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var viewModel: ViewModel
+    @EnvironmentObject var chatbotViewModel: ChatbotViewModel
+    
     @State private var selection: Tab = .insights
+    @State private var showChatbot = false
     
     enum Tab {
         case insights, categories, emergency, about
@@ -31,27 +34,51 @@ struct ContentView: View {
             .tag(tab)
         }
     }
+    
+    func refreshContent() async {
+        await viewModel.loadContent()
+    }
 
     var body: some View {
+        
         if let content = viewModel.content {
-            TabView(selection: $selection) {
-                TabViewItem(.insights, label: "Hilfe", icon: "alert_fragezeichen") {
-                    InsightsPage(insights: content.insights)
+            if (viewModel.showLaunchScreen ?? true) {
+                WelcomePage(metadata: content.metadata, dismiss: viewModel.completeWelcomeScreen)
+            }
+            else {
+                TabView(selection: $selection) {
+                    TabViewItem(.insights, label: "Hilfe", icon: "alert_fragezeichen") {
+                        InsightsPage(help: content.help, insights: content.insights, faqs: content.faqs, refreshContent: refreshContent)
+                    }
+                    TabViewItem(.categories, label: "Infos", icon: "alert_tipp") {
+                        CategoriesPage(infos: content.infos, categories: content.abc)
+                    }
+                    TabViewItem(.emergency, label: "Im Notfall", icon: "themen_gesundheit_notfaelle") {
+                        EmergencyPage(emergency: content.emergency)
+                    }
+                    TabViewItem(.about, label: "Über", icon: "more") {
+                        AboutPage(metadata: content.metadata, contentTimestamp: content.timestamp)
+                    }
                 }
-                TabViewItem(.categories, label: "Infos", icon: "alert_tipp") {
-                    CategoriesPage(categories: content.abc)
+                .overlay {
+                    chatbotViewModel.character != nil
+                    ? ChatbotButton(character: chatbotViewModel.character!, action: {
+                        showChatbot = true
+                    })
+                    .task {
+                        await chatbotViewModel.initialize()
+                    }
+                    : nil
                 }
-                TabViewItem(.emergency, label: "Im Notfall", icon: "themen_gesundheit_notfaelle") {
-                    EmergencyPage(emergency: content.emergency)
-                }
-                TabViewItem(.about, label: "Über", icon: "more") {
-                    AboutPage(metadata: content.metadata, contentTimestamp: content.timestamp)
-                }
+                .sheet(isPresented: $showChatbot, content: {
+                    Chatbot(closeChatbot: { showChatbot = false })
+                })
             }
         }
         else {
             VStack {
                 ProgressView()
+                    .padding()
                 Text("Daten werden geladen...")
             }
         }

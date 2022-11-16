@@ -1,27 +1,11 @@
 import SwiftUI
 
-struct EmergencyNumber {
-    let name: String
-    let number: String
-}
-
 struct EmergencyPage: View {
     var emergency: Emergency
-    let numbers: [EmergencyNumber] = [
-        EmergencyNumber(name: "Euro-Notruf", number: "112"),
-        EmergencyNumber(name: "Feuerwehr", number: "122"),
-        EmergencyNumber(name: "Polizei", number: "133"),
-        EmergencyNumber(name: "Bergrettung", number: "140"),
-        EmergencyNumber(name: "Ärztenotdienst", number: "141"),
-        EmergencyNumber(name: "Telefonseelsorge", number: "142"),
-        EmergencyNumber(name: "Rettung", number: "144"),
-        EmergencyNumber(name: "Notrufdienst für Kinder und Jugendliche", number: "147")
-    ]
     
     var body: some View {
         List {
-            Section(header:
-                        Text("Im Notfall muss es schnell gehen. Deshalb bietet dir diese Seite eine Übersicht über die relevanten Notrufnummern. Am besten auf Notfälle vorbereitet bist du allerdings, wenn du dich bereits im Vorherein darauf vorbereitest, deshalb haben wir hier für dich auch ein paar Informationen dazu gesammelt.")
+            Section(header: Text(emergency.description)
                 .font(.body)
                 .listRowBackground(Color(.secondarySystemBackground))
                 .padding([.vertical])
@@ -34,33 +18,50 @@ struct EmergencyPage: View {
                     .frame(maxWidth: .infinity, alignment: .center)
                     .multilineTextAlignment(.center)
             }) {
-                ForEach(numbers, id: \.number) { entry in
+                ForEach(emergency.numbers) { entry in
                     Button(action: { callNumber(phoneNumber: entry.number) })
                     {
                         HStack {
-                            Text(entry.name)
+                            Text(entry.label)
                             Spacer()
                             Text(entry.number)
                                 .bold()
+                                .padding(.leading, 24)
                         }
                     }
                 }
             }
             
-            Section(header:
-                        Text("Schau mal rein...")
-                .font(.body)
-                .listRowBackground(Color(.secondarySystemBackground))
-                .padding([.vertical])
-                .listRowInsets(EdgeInsets())
-                .foregroundColor(Color.primary)
-                .textCase(nil))
-            {
-                Text(emergency.state)
+            // todo: refactor this for reusability
+            ForEach(emergency.content){ part in
+                switch part {
+                case .text(let markdown):
+                    Markdown(markdown)
+                        .multilineTextAlignment(.leading)
+                case .reference(let reference):
+                    ReferenceView.Entry(reference: reference)
+                        .padding([.vertical])
+                case .category(let category):
+                    Text(category.name)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color(.systemBackground))
+                        .cornerRadius(12)
+                        .padding([.vertical])
+                        .background(
+                            NavigationLink(
+                                destination: CategoryDetailPage(category: category),
+                                label: {})
+                            .opacity(0))
+                }
             }
+            .listRowSeparator(.hidden)
+            .listRowInsets(EdgeInsets())
+            .listRowBackground(Color(.secondarySystemBackground))
+            .listStyle(.plain)
         }
         .listStyle(InsetGroupedListStyle())
-        .navigationTitle("Im Notfall")
+        .navigationTitle(emergency.title)
     }
     
     private func callNumber(phoneNumber: String) {

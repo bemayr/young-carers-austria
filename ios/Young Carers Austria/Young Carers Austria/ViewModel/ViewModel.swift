@@ -3,15 +3,20 @@ import Foundation
 @MainActor
 final class ViewModel: ObservableObject {
     @Published var content: Content? = nil
+    @Published var showLaunchScreen: Bool? = nil
     
-    func loadContent() async throws {
+    func loadContent() async {
+        // set the launch screen
+        showLaunchScreen = await !Model.shared.hasBeenLaunched()
+        
         if await (!Model.shared.hasBeenCached()) {
-            let data = try await Model.shared.loadContentFromBundle()
-            content = try await Model.shared.parseContent(data!)
+            // if the following operations fail, the app should fail, they always have to work because they are integrated into the build
+            let data = try! await Model.shared.loadContentFromBundle()
+            content = try! await Model.shared.parseContent(data)
         }
         else {
-            let data = try await Model.shared.loadContentFromCache()
             do {
+                let data = try await Model.shared.loadContentFromCache()
                 content = try await Model.shared.parseContent(data!)
             }
             catch {
@@ -20,9 +25,19 @@ final class ViewModel: ObservableObject {
             }
         }
         
-        // refresh the data
-        let data = try await Model.shared.loadContentFromNetwork()
-        content = try await Model.shared.parseContent(data)
-        try await Model.shared.cacheContent(content: data)
+        // try to refresh the data
+        do {
+            let data = try await Model.shared.loadContentFromNetwork()
+            content = try await Model.shared.parseContent(data)
+            try await Model.shared.cacheContent(content: data)
+        }
+        catch {
+            // intentionally do nothing, fall back to local data
+        }
+    }
+    
+    func completeWelcomeScreen() async {
+        await Model.shared.markAsLaunched()
+        showLaunchScreen = await !Model.shared.hasBeenLaunched()
     }
 }

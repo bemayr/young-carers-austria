@@ -3,9 +3,12 @@
 import Foundation
 
 struct Content: Decodable {
+    let faqs: [FAQ]
+    let emergency: Emergency
+    let help: Help
+    let infos: Infos
     let insights: [Insight]
     let abc: [Category]
-    let emergency: Emergency
     let metadata: [MetadataEntry]
     let timestamp: Date
 }
@@ -108,13 +111,115 @@ struct Reference: Decodable, Identifiable {
     let url: URL
     let isPaidContent: Bool
     let lastUpdated: Date
-    let keywords: [String]
+}
+
+struct ReferenceNew: Decodable, Identifiable {
+    var id: URL {
+        url
+    }
+    
+    let title: String
+    let description: String
+    let previewImageUrl: String // using String here deliberately, because if the URL is ill-formatted the Decoder simply crashes
+    let url: URL
+    let containsPaidContent: Bool
 }
 
 struct Emergency: Decodable {
-    let state: String
+    let title: String
+    let description: String
+    let numbers: [Number]
+    let content: [Insight.Part]
+    
+    struct Number: Codable, Identifiable {
+        var id: String {
+            number
+        }
+        
+        let label: String
+        let number: String
+    }
+}
+
+struct FAQ: Decodable, Identifiable {
+    var id: String {
+        question
+    }
+    
+    let question: String
+    let answer: String
+    let showOnLandingPage: Bool
+}
+
+struct Help: Decodable {
+    let title: String
+    let description: String
+}
+
+struct Infos: Decodable {
+    let title: String
+    let description: String
 }
 
 struct MetadataEntry: Decodable {
     let key, title, content: String
+}
+
+struct Character: Decodable {
+    let emoji, name: String
+}
+
+enum Response: Decodable {
+    case notFound(messages: [String])
+    case found(messages: [String], results: [Result])
+    
+    enum Result: Decodable {
+        case reference(id: String, reference: ReferenceNew)
+        
+        enum CodingKeys: String, CodingKey {
+            case type, id, reference
+        }
+        
+        init(from decoder: Decoder) throws {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            let type = try container.decode(String.self, forKey: .type)
+            switch type {
+            case "reference":
+                self = .reference(
+                    id: try container.decode(String.self, forKey: .id),
+                    reference: try container.decode(ReferenceNew.self, forKey: .reference))
+                return
+            default:
+                throw DecodingError.dataCorruptedError(
+                    forKey: CodingKeys.type,
+                    in: container,
+                    debugDescription: "Unexpected type, can't handle this")
+            }
+        }
+    }
+    
+    enum CodingKeys: String, CodingKey {
+        case type, messages, results
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let type = try container.decode(String.self, forKey: .type)
+        switch type {
+        case "no-result-found":
+            self = .notFound(
+                messages: try container.decode([String].self, forKey: .messages))
+            return
+        case "result-found":
+            self = .found(
+                messages: try container.decode([String].self, forKey: .messages),
+                results: try container.decode([Result].self, forKey: .results))
+            return
+        default:
+            throw DecodingError.dataCorruptedError(
+                forKey: CodingKeys.type,
+                in: container,
+                debugDescription: "Unexpected type, can't handle this")
+        }
+    }
 }

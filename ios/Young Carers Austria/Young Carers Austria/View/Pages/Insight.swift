@@ -10,27 +10,7 @@ struct InsightDetailPage: View {
                     .font(.title)
                     .fontWeight(.bold)
                 Spacer()
-                ForEach(insight.parts){ part in
-                    switch part {
-                    case .text(let markdown):
-                        Markdown(markdown)
-                            .multilineTextAlignment(.leading)
-                    case .reference(let reference):
-                        ReferenceView.Entry(reference: reference)
-                            .padding([.vertical])
-                    case .category(let category):
-                        NavigationLink {
-                            CategoryDetailPage(category: category)
-                        } label: {
-                            Text(category.name)
-                                .padding()
-                                .frame(maxWidth: .infinity)
-                                .background(Color(.systemBackground))
-                                .cornerRadius(12)
-                                .padding([.vertical])
-                        }
-                    }
-                }
+                ExtendedMarkdown(content: insight.parts)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding()
