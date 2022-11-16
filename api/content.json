@@ -13356,6 +13356,18 @@
           "ownerUrl": "",
           "references": [
             {
+              "url": "https://www.young-carers.ch/",
+              "title": "Unterstützung finden in der Schweiz",
+              "description": "Hier finden Young Carers Unterstützungsangebote und die Möglichkeit Fachpersonen zu kontaktieren",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-614959570.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-16T14:02:15.359Z",
+              "keywords": [
+                "Schweiz",
+                "Careum"
+              ]
+            },
+            {
               "url": "https://www.kalaidos-fh.ch/de-CH/Forschung/Fachbereich-Gesundheit/Young-Carers",
               "title": "Young Carers in der Schweiz",
               "description": "Hier findest du Informationen aus der Schweiz",
@@ -13811,5 +13823,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-16T13:49:26.361Z"
+  "timestamp": "2022-11-16T14:02:56.278Z"
 }
