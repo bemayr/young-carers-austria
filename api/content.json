@@ -13330,26 +13330,6 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.young-carers.ch/",
-              "title": "Young Carers in der Schweiz",
-              "description": "In der Schweiz haben Young Carers die Möglichkeit sich zu vernetzen.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1367774758.jpg",
-              "isPaidContent": false,
-              "lastUpdated": "2022-11-15T10:01:16.320Z",
-              "keywords": [
-                "Ausland",
-                "Bruder",
-                "Careum",
-                "Geschwister",
-                "International",
-                "Kalaidos",
-                "Schweiz",
-                "Schwester",
-                "Uni",
-                "Universität"
-              ]
-            },
-            {
               "url": "https://careum.ch/de/aktuell/young-carers-unterstuetzungsangebote",
               "title": "Careum",
               "description": "Online Unterstützungsangebot für Young Carers aus der Schweiz",
@@ -13831,5 +13811,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-16T13:46:20.100Z"
+  "timestamp": "2022-11-16T13:47:45.913Z"
 }
