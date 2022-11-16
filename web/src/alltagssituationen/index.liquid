@@ -11,19 +11,13 @@ title: 'Alltagssituationen'
 
 {% for insight in cms._legacy.insights %}
 {%- assign insight_id = insight.question | slugify -%}
-<div class="mt-8 mb-4">
-    <input class="hidden peer" type="checkbox" id="{{ insight_id }}" name="insights">
-    {%- comment -%} not expanded {%- endcomment -%}
-    <label for="{{ insight_id }}" class="peer-checked:hidden cursor-pointer">
+<details class="group mt-8 mb-4">
+    <summary class="cursor-pointer list-none">
         <h2 class="text-darkBlue underline decoration-sky-800">{{ insight.question }}</h2>
-        <p>{% excerpt insight.content %}</p>
-    </label>
-    {%- comment -%} expanded {%- endcomment -%}
-    <label for="{{ insight_id }}" class="hidden peer-checked:block cursor-pointer">
-        <h2 class="text-darkBlue">{{ insight.question }}</h2>
-    </label>
+        <p class="group-open:hidden">{% excerpt insight.content %}</p>
+    </summary>
 
-    <div class="hidden peer-checked:block">
+    <div>
         {% for part in insight.content %}
         {% if part.type == "text" %}
         {% renderTemplate "liquid,md", part %} {{ text }} {% endrenderTemplate %}
@@ -40,5 +34,5 @@ title: 'Alltagssituationen'
         {% endif %}
         {% endfor %}
     </div>
-</div>
+</details>
 {% endfor %}
