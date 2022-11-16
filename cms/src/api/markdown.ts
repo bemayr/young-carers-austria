@@ -50,7 +50,7 @@ export function slateToMarkdown(children: any[] | undefined): string | undefined
             }
         }).join("")
     }
-    return nodeToMarkdown(children)?.trim().replace(/(?<=.)\n((?=.)|$)/g, "  \n");
+    return nodeToMarkdown(children)?.replace(/(?<=.)\n((?=.)|$)/g, "  \n");
 }
 
 export const markdownify = (content: {

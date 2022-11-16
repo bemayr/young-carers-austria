@@ -61,6 +61,7 @@ const transformExtendedRichText = (
         }
       }
     }, [] as any[])
+    .map(entry => entry.type === "text" ? { ...entry, text: entry.text.trim() } : entry) // trim text entries
     .filter(({ type, text }) => !(type === "text" && text === "")); // filter empty entries
 };
 

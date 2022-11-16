@@ -39,5 +39,6 @@ return children
       }
     }
   }, [] as any[])
+  .map(entry => entry.type === "text" ? { ...entry, text: entry.text.trim(), processed: true } : entry) // trim text entries
   .filter(({ type, text }) => !(type === "text" && /\S/.test(text))); // filter empty entries
 };
