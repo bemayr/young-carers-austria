@@ -62,17 +62,6 @@ namespace YoungCarersAustria.Chatbot.Search
 
         public IEnumerable<Result>? Find(string message)
         {
-            // todo: keywords, sentence
-
-            // original version
-            //var queryParser = new QueryParser(LuceneVersion.LUCENE_48, "title", germanAnalyzer);
-            //var query = queryParser.Parse(message);
-
-            // MultiFieldQueryParser
-            //var queryParser = new MultiFieldQueryParser(LuceneVersion.LUCENE_48, new[] { "title", /*"description,"*/ /*"keyword"*/ }, germanAnalyzer) { DefaultOperator = Operator.OR,  };
-            //var query = queryParser.Parse(message);
-
-            // final query
             BooleanQuery query = new();
             foreach (var token in GetTokens(message))
             {
