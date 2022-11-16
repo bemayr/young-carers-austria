@@ -2229,9 +2229,9 @@
                     "url": "https://www.jugendinfo.at/",
                     "title": "Jugendinfo Österreich",
                     "description": "Österreichische Jugendinfostellen - alle Fragen sind erlaubt! Finde Informationen dazu unter folgendem Link.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-%C3%B6sterreich.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-15T09:55:48.640Z",
+                    "lastUpdated": "2022-11-16T15:31:25.981Z",
                     "keywords": [
                       "Auszeit",
                       "Bundesnetzwerk Österreichische Jugendinfos",
@@ -9957,9 +9957,9 @@
               "url": "https://www.jugendinfo.at/",
               "title": "Jugendinfo Österreich",
               "description": "Österreichische Jugendinfostellen - alle Fragen sind erlaubt! Finde Informationen dazu unter folgendem Link.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-%C3%B6sterreich.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-15T09:55:48.640Z",
+              "lastUpdated": "2022-11-16T15:31:25.981Z",
               "keywords": [
                 "Auszeit",
                 "Bundesnetzwerk Österreichische Jugendinfos",
@@ -13811,5 +13811,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-16T15:31:18.269Z"
+  "timestamp": "2022-11-16T15:32:03.300Z"
 }
