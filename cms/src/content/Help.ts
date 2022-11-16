@@ -27,6 +27,7 @@ const Help: GlobalConfig = {
           required: true,
           admin: {
             description: "Beschreibung der Hilfeseite, wird unter dem Titel angezeigt",
+            elements: ["link"],
             leaves: ["bold"],
           }
         },

@@ -33,6 +33,7 @@ const Emergency: GlobalConfig = {
       required: true,
       admin: {
         description: "Beschreibung der \"Im Notfall\"-Seite, wird unter dem Titel angezeigt",
+        elements: ["link"],
         leaves: ["bold"],
       }
     },

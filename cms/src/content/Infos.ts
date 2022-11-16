@@ -27,6 +27,7 @@ const Infos: GlobalConfig = {
           required: true,
           admin: {
             description: "Beschreibung der Infoseite, wird unter dem Titel angezeigt",
+            elements: ["link"],
             leaves: ["bold"],
           }
         },
