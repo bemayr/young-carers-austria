@@ -37,7 +37,7 @@ async function refreshChatbotIndexIfProduction() {
 
   if (isProduction)
     await fetch(
-      "https://redaktion.young-carers-austria.at/api/v1/index/rebuild",
+      "https://chatbot.young-carers-austria.at/index/rebuild",
       {
         method: "POST"
       }
