@@ -3,5 +3,6 @@ module.exports = {
     // this is needed so that vite integrates that into the bundle: https://vitejs.dev/guide/assets.html#the-public-directory
     permalink: (data) => `public/api/${data.page.fileSlug}.json`,
   },
-  render: (data) => JSON.stringify(data.cms._legacy, null, 2),
+  render: (data) =>
+    JSON.stringify({ ...data.cms.app, content: data.cms.content, cms: data.cms }, null, 2),
 };

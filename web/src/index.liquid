@@ -28,36 +28,35 @@ können sich auf der Plattform informieren.'
 
 
 <div class="flex flex-row flex-wrap py-12 justify-center">
-  <a href="/infos/"
+  <a href="/alltagssituationen/"
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-98 -rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
     <div class="flex flex-row w-96 px-6 py-5">
       <div class="border-r border-transparent my-auto text-4xl pr-2">
-        ℹ️
+          {{ cms.website.landingpage.cards.situations.icon }}
       </div>
       <div class="flex flex-col pl-3 font-normal">
         <h3 class="my-0 pb-1 text-darkBlue">
-          Infos
+          {{ cms.website.landingpage.cards.situations.title }}
         </h3>
         <p class="mb-0 text-gray-500">
-          In den Infos haben wir die wichtigsten Informationen für dich gesammelt und sortiert damit du sie bestmöglich
-          findest.
+          {{ cms.website.landingpage.cards.situations.description }}
         </p>
       </div>
     </div>
   </a>
 
-  <a href="/alltagssituationen/"
+  <a href="/infos/"
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-95 rotate-6 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
     <div class="flex flex-row w-96 px-6 py-5">
       <div class="border-r border-transparent my-auto text-4xl pr-2">
-        📆
+          {{ cms.website.landingpage.cards.infos.icon }}
       </div>
       <div class="flex flex-col pl-3 font-normal">
         <h3 class="my-0 pb-1 text-darkBlue">
-          Alltagssituationen
+          {{ cms.website.landingpage.cards.infos.title }}
         </h3>
         <p class="mb-0 text-gray-500">
-          Vielleicht kennst auch eine dieser Situationen und kannst von den Erlebnissen anderer profitieren.
+          {{ cms.website.landingpage.cards.infos.description }}
         </p>
       </div>
     </div>
@@ -67,15 +66,14 @@ können sich auf der Plattform informieren.'
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-97 -rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
     <div class="flex flex-row w-96 px-6 py-5">
       <div class="border-r border-transparent my-auto text-4xl pr-2">
-        🚑
+        {{ cms.website.landingpage.cards.emergency.icon }}
       </div>
       <div class="flex flex-col pl-3 font-normal">
         <h3 class="my-0 pb-1 text-darkBlue">
-          Im Notfall
+          {{ cms.website.landingpage.cards.emergency.title }}
         </h3>
         <p class="mb-0 text-gray-500">
-          Vorbereitung ist alles - besonders in einer Notfallsituation, finde hier die wichtigsten Infos die du dafür
-          brauchst.
+          {{ cms.website.landingpage.cards.emergency.description }}
         </p>
       </div>
     </div>
@@ -85,16 +83,14 @@ können sich auf der Plattform informieren.'
     class="drop-shadow-2xl rounded-3xl text-left sm:w-96 bg-white rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
     <div class="flex flex-row px-6 py-5">
       <div class="border-r border-transparent my-auto text-4xl pr-2">
-        🤖
+        {{ cms.website.landingpage.cards.chatbot.icon }}
       </div>
       <div class="flex flex-col pl-3 font-normal">
         <h3 class="my-0 pb-1 text-darkBlue">
-          Chatbot
+          {{ cms.website.landingpage.cards.chatbot.title }}
         </h3>
         <p class="mb-0 text-gray-500">
-          Du suchst nach etwas ganz Bestimmtem? Dann frag doch einfach unseren Chatbot, er versucht dir bestmöglich
-          zu
-          helfen!
+          {{ cms.website.landingpage.cards.chatbot.description }}
         </p>
       </div>
     </div>
@@ -104,14 +100,14 @@ können sich auf der Plattform informieren.'
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
     <div class="flex flex-row px-6 py-5">
       <div class="border-r border-transparent my-auto text-4xl pr-2">
-        📱
+        {{ cms.website.landingpage.cards.app.icon }}
       </div>
       <div class="flex flex-col pl-3 font-normal">
         <h3 class="my-0 pb-1 text-darkBlue">
-          App
+          {{ cms.website.landingpage.cards.app.title }}
         </h3>
         <p class="mb-0 text-gray-500">
-          Du möchtest die Infos lieber als App haben, dann wechsle hier zur Young Carers Austria App.
+          {{ cms.website.landingpage.cards.app.description }}
         </p>
       </div>
     </div>
@@ -121,7 +117,7 @@ können sich auf der Plattform informieren.'
 <section class="max-w-5xl mx-auto my-12">
   <h2 class="text-center text-darkBlue">Häufig gestellte Fragen</h2>
    
-  {% assign relevant_faqs = cms.faqs | where: 'showOnLandingPage' %}
+  {% assign relevant_faqs = cms._legacy.faqs | where: 'showOnLandingPage' %}
 
   {%- comment -%} show as details element on mobile {%- endcomment -%}
   <div class="sm:hidden">
@@ -163,24 +159,16 @@ können sich auf der Plattform informieren.'
     </div>
     <div class="w-3/5 pl-10 flex flex-col items-center">
 
-      <div class="bg-white rounded-xl shadow-2xl relative w-4/5 p-5">
+      {% for quote in cms.website.landingpage.quotes %}
+      <div class="bg-white rounded-xl shadow-2xl relative w-4/5 p-5 mb-12">
         <div class="absolute font-extrabold text-8xl text-darkBlue italic font-serif">"</div>
         <p class="ml-16 mt-8 mb-4">
-
-          Eine wirklich gelungene und ansprechende App für Kinder,
-          Jugendliche, aber auch
-          für Eltern, Großeltern.
+          {{ quote }}
         </p>
       </div>
+      {% endfor %}
 
-      <div class="bg-white rounded-xl shadow-2xl relative w-4/5 p-5 mt-12">
-        <div class="absolute font-extrabold text-8xl text-darkBlue italic font-serif">"</div>
-        <p class="ml-16 mt-8 mb-4">
-          Die App ist übersichtlich gestaltet und Informationen für zB Notfallsituationen sind schnell und einfach
-          abrufbar.
-        </p>
-      </div>
-      <a class="rounded-full text-center mt-12 bg-red text-white py-2 px-5 no-underline w-32" href="/app/">Zur App</a>
+      <a class="rounded-full text-center bg-red text-white py-2 px-5 no-underline w-32" href="/app/">Zur App</a>
     </div>
   </div>
 </section>
@@ -191,17 +179,8 @@ können sich auf der Plattform informieren.'
   <h2 class="text-center text-darkBlue">Über Young Carers Austria</h2>
   <div class="flex flex-row">
     <div class="w-3/5 pr-10">
-      <p>Mit der neuen App &quot;YoungCarers Austria&quot; gibt es eine Informationsquelle die Betroffenen und deren
-        Familien
-        einen Überblick zu bestehenden (Hilfs-)Angeboten bietet. Aber auch Eltern, Lehrpersonen oder sonstige
-        Wegbegleiter:innen können sich auf der Plattform informieren.</p>
-      <p>Für die Vollständigkeit der Inhalte kann nicht garantiert werden. Ergänzende Hinweise, Tipps oder Anregungen
-        gerne an
-        <a href="mailto:yc-support@sozialministerium.at">yc-support@sozialministerium.at</a>
-        senden.
-      </p>
-      <p>Für die Umsetzung der App ist die Fachhochschule Oberösterreich/Campus Hagenberg verantwortlich.
-        Betroffene Jugendliche waren von Beginn an eingebunden. Die App ist <b>kostenlos und barrierefrei</b>.</p>
+      {% renderTemplate "liquid,md", cms.website.landingpage %} {{ about }} {% endrenderTemplate
+          %}
     </div>
     <div class="w-2/5 h-auto">
       <img src="/images/sujets/yc-sujet-%C3%B6sterreich.jpg" alt="/images/sujets/yc-sujet-österreich.jpg">

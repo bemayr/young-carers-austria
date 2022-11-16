@@ -1,0 +1,45 @@
+---
+layout: 'layouts/textcontent'
+key: My Key
+eleventyComputed:
+  title: "{{ cms.content.emergency.title }}"
+  data: cms.content.emergency
+---
+
+<h1 class="text-darkBlue">{{ title }}</h1>
+
+{% renderTemplate "liquid,md", cms.content.emergency %} {{ description }} {% endrenderTemplate %}
+
+<section class="max-w-5xl mx-auto">
+    <table class="table-auto">
+    {% for entry in cms.content.emergency.numbers.entries %}
+    <tr class="even:bg-gray-100">
+        <td class="px-3">{{ entry.label }}</td>
+        <td class="px-3"><a href="tel:{{ entry.number }}">{{ entry.number }}</a></td>
+    </tr>
+    {% endfor %}
+    </table>
+    <p>
+        {%- comment -%} <a href="{{ cms.content.emergency.numbers.infoUrl }}">{{ cms.content.emergency.numbers.infoText }}</a> {%- endcomment -%}
+        Mehr Info zu den Notrufnummern findest du auf <a href="https://www.oesterreich.gv.at/themen/gesundheit_und_notfaelle/notrufnummern.html">www.oesterreich.gv.at</a>.
+    </p>
+</section>
+
+
+<p>
+    {% for part in cms._legacy.emergency.content %}
+    {% if part.type == "text" %}
+        {% renderTemplate "liquid,md", part %} {{ text }} {% endrenderTemplate %}
+    {% endif %}
+    {% if part.type == "category" %}
+        <a href="/infos/{{ part.category.name | slugify }}">{{ part.category.title }}</a>
+    {% endif %}
+    {% if part.type == "reference" %}
+        {{ part.reference.url }}
+        {{ part.reference.title }}
+        {{ part.reference.description }}
+        {{ part.reference.previewImageUrl }}
+        {{ part.reference.isPaidContent }}
+    {% endif %}
+    {% endfor %}
+</p>

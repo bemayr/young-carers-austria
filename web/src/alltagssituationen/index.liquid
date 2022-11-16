@@ -1,0 +1,44 @@
+---
+layout: 'layouts/textcontent'
+title: 'Alltagssituationen'
+---
+
+<h1 class="text-darkBlue">{{ title }}</h1>
+
+<p>
+    Vielleicht stellst du dir ja eine der folgenden Fragen oder erlebst auch gerade einer dieser Situationen?
+</p>
+
+{% for insight in cms._legacy.insights %}
+{%- assign insight_id = insight.question | slugify -%}
+<div class="mt-8 mb-4">
+    <input class="hidden peer" type="checkbox" id="{{ insight_id }}" name="insights">
+    {%- comment -%} not expanded {%- endcomment -%}
+    <label for="{{ insight_id }}" class="peer-checked:hidden cursor-pointer">
+        <h2 class="text-darkBlue underline decoration-sky-800">{{ insight.question }}</h2>
+        <p>{% excerpt insight.content %}</p>
+    </label>
+    {%- comment -%} expanded {%- endcomment -%}
+    <label for="{{ insight_id }}" class="hidden peer-checked:block cursor-pointer">
+        <h2 class="text-darkBlue">{{ insight.question }}</h2>
+    </label>
+
+    <div class="hidden peer-checked:block">
+        {% for part in insight.content %}
+        {% if part.type == "text" %}
+        {% renderTemplate "liquid,md", part %} {{ text }} {% endrenderTemplate %}
+        {% endif %}
+        {% if part.type == "category" %}
+        <a href="/infos/{{ part.category.name | slugify }}">{{ part.category.title }}</a>
+        {% endif %}
+        {% if part.type == "reference" %}
+        {{ part.reference.url }}
+        {{ part.reference.title }}
+        {{ part.reference.description }}
+        {{ part.reference.previewImageUrl }}
+        {{ part.reference.isPaidContent }}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}

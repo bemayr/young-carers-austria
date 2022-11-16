@@ -1,0 +1,10 @@
+---
+layout: 'layouts/textcontent'
+title: 'Barrierefreiheitserklärung'
+---
+
+<h1>{{ title }}</h1>
+<p class="text-xl">
+  {% renderTemplate "liquid,md", cms.app %} {{ a11y }} {% endrenderTemplate
+  %}
+</p>

@@ -2,8 +2,10 @@ const fs = require('fs');
 const { DateTime } = require('luxon');
 
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
-const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
+const directoryOutputPlugin = require('@11ty/eleventy-plugin-directory-output');
 const slinkity = require('slinkity');
+
+const extractExcerpt = require('./excerpt');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
@@ -34,6 +36,10 @@ module.exports = function (eleventyConfig) {
       // optional: use slinkity.defineConfig
       // for some handy autocomplete in your editor
     }),
+  );
+
+  eleventyConfig.addShortcode('excerpt', (extendedRichtext) =>
+    extractExcerpt(extendedRichtext),
   );
 
   return {

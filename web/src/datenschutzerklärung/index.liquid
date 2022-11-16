@@ -1,0 +1,10 @@
+---
+layout: 'layouts/textcontent'
+title: 'Datenschutzerklärung'
+---
+
+<h1>{{ title }}</h1>
+<p class="text-xl">
+  {% renderTemplate "liquid,md", cms.website %} {{ gdpr }} {% endrenderTemplate
+  %}
+</p>

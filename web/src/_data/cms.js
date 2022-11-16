@@ -3,15 +3,13 @@
 const EleventyFetch = require('@11ty/eleventy-fetch');
 
 module.exports = async function () {
-  let url = process.env.ELEVENTY_PRODUCTION
-    ? 'https://redaktion.young-carers-austria.at/api/v2'
-    : 'https://redaktion.young-carers-austria.at/api/v2';
+  const baseUrl = 'https://redaktion.young-carers-austria.at/api/v1/';
+  const endpoint = (path) => new URL(path, baseUrl).href;
+  const options = { duration: '15min', type: 'json' };
 
-  /* This returns a promise */
-  const response = await EleventyFetch(url, {
-    duration: '15min', // save for 4 hours
-    type: 'json', // we’ll parse JSON for you
-  });
+  const content = await EleventyFetch(endpoint('content'), options);
+  const app = await EleventyFetch(endpoint('app'), options);
+  const website = await EleventyFetch(endpoint('website'), options);
 
-  return response;
+  return { content, app, website };
 };
