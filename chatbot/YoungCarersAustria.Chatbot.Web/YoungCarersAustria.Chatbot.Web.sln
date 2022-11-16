@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoungCarersAustria.Chatbot.Web", "YoungCarersAustria.Chatbot.Web.csproj", "{5286E7BF-15D6-425B-B759-35EBF8C3FA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoungCarersAustria.Chatbot.Web", "YoungCarersAustria.Chatbot.Web.csproj", "{5286E7BF-15D6-425B-B759-35EBF8C3FA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoungCarersAustria.Chatbot.Search", "..\YoungCarersAustria.Chatbot.Search\YoungCarersAustria.Chatbot.Search.csproj", "{C92FE75F-FD3A-435F-8177-1FA597A6C1BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoungCarersAustria.Chatbot.Data", "..\YoungCarersAustria.Chatbot.Data\YoungCarersAustria.Chatbot.Data.csproj", "{8A875A0A-FABF-4BD1-BBFE-8D59893250D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoungCarersAustria.Chatbot.Console", "..\YoungCarersAustria.Chatbot.Console\YoungCarersAustria.Chatbot.Console.csproj", "{EFA75247-8EE5-4E4A-A291-73B96F09CD65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{5286E7BF-15D6-425B-B759-35EBF8C3FA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5286E7BF-15D6-425B-B759-35EBF8C3FA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5286E7BF-15D6-425B-B759-35EBF8C3FA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92FE75F-FD3A-435F-8177-1FA597A6C1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92FE75F-FD3A-435F-8177-1FA597A6C1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92FE75F-FD3A-435F-8177-1FA597A6C1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92FE75F-FD3A-435F-8177-1FA597A6C1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A875A0A-FABF-4BD1-BBFE-8D59893250D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A875A0A-FABF-4BD1-BBFE-8D59893250D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A875A0A-FABF-4BD1-BBFE-8D59893250D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A875A0A-FABF-4BD1-BBFE-8D59893250D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA75247-8EE5-4E4A-A291-73B96F09CD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA75247-8EE5-4E4A-A291-73B96F09CD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA75247-8EE5-4E4A-A291-73B96F09CD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA75247-8EE5-4E4A-A291-73B96F09CD65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

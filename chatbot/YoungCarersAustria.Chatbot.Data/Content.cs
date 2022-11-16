@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace YoungCarersAustria.Chatbot.Web.Model.CMS
+namespace YoungCarersAustria.Chatbot.Data
 {
     public record Reference(
         [property: JsonPropertyName("id")] string Id,

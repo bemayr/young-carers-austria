@@ -1,123 +1,49 @@
-﻿using Lucene.Net.Analysis;
-using Lucene.Net.Analysis.Standard;
-using Lucene.Net.Documents;
-using Lucene.Net.Index;
-using Lucene.Net.QueryParsers.Classic;
-using Lucene.Net.Search;
-using Lucene.Net.Store;
-using Lucene.Net.Util;
-using System.Text.Json.Serialization;
-using YoungCarersAustria.Chatbot.Web.Model.CMS;
+﻿using YoungCarersAustria.Chatbot.Web.Extensions;
+using YoungCarersAustria.Chatbot.Data;
+using YoungCarersAustria.Chatbot.Search;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-var random = new Random();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+Configuration configuration = null!;
+Searcher searcher = new();
 
-Chatbot chatbotData = new(
-    Characters: new[] { new Character("🤖", "Robert") },
-    Messages: new(
-        Welcome: new[] { new[] { "Willkommen" }.ToList() },
-        Found: new[] { new[] { "Gefunden" }.ToList() },
-        Notfound: new[] { new[] { "Nicht gefunden" }.ToList() }));
-Content content;
-
-using (HttpClient httpClient = new())
+async Task RefreshContent()
 {
-    chatbotData = await httpClient.GetFromJsonAsync<Chatbot>("https://redaktion.young-carers-austria.at/api/v1/chatbot") ?? throw new Exception("Chatbot Data could not be loaded from CMS");
-    content = await httpClient.GetFromJsonAsync<Content>("https://redaktion.young-carers-austria.at/api/v1/content") ?? throw new Exception("Content could not be loaded from CMS");
+    var data = await DataGetter.Load();
+
+    configuration = data.configuration;
+    searcher.Index(data.content);
+
+    app.Logger.LogInformation("Content Refreshed {0}", new
+    {
+        characters = configuration.Characters.Count,
+        welcome = configuration.Messages.Welcome.Count,
+        found = configuration.Messages.Found.Count,
+        notfound = configuration.Messages.NotFound.Count,
+        references = data.content.References.Count
+    });
 }
 
-var referenceLookup = content.References.ToDictionary(reference => reference.Id);
+await RefreshContent();
 
+app.MapPost("/index/rebuild", async () => await RefreshContent());
 
+app.MapGet("/character", () => configuration.Characters.RandomElement());
 
-
-// Specify the compatibility version we want
-const LuceneVersion luceneVersion = LuceneVersion.LUCENE_48;
-
-//Open the Directory using a Lucene Directory class
-using RAMDirectory indexDir = new();
-
-// Create an analyzer to process the text 
-Analyzer standardAnalyzer = new StandardAnalyzer(luceneVersion);
-
-//Create an index writer
-IndexWriterConfig indexConfig = new IndexWriterConfig(luceneVersion, standardAnalyzer);
-indexConfig.OpenMode = OpenMode.CREATE;                             // create/overwrite index
-IndexWriter writer = new IndexWriter(indexDir, indexConfig);
-
-var documents = content.References.Select(reference =>
-    new Document()
-    {
-        new StoredField(name: "id", reference.Id),
-        new StringField(name: "url", reference.Url, Field.Store.YES),
-        new TextField(name: "title", reference.Title, Field.Store.YES),
-        new TextField(name: "description", reference.Description, Field.Store.NO),
-        new StringField(name: "keywords", string.Join(", ", reference.Keywords), Field.Store.NO)
-    });
-
-writer.AddDocuments(documents);
-writer.Commit();
-
-using DirectoryReader reader = writer.GetReader(applyAllDeletes: true);
-IndexSearcher searcher = new IndexSearcher(reader);
-
-QueryParser parser = new QueryParser(luceneVersion, "title", standardAnalyzer);
-
-
-
-
-app.MapGet("/character", () =>
-{
-    var character = chatbotData.Characters.ElementAt(random.Next(chatbotData.Characters.Count));
-    return new
-    {
-        name = character.Name,
-        emoji = character.Emoji,
-    };
-});
-
-app.MapGet("/welcome", () =>
-{
-    return chatbotData.Messages.Welcome.ElementAt(random.Next(chatbotData.Messages.Welcome.Count));
-});
+app.MapGet("/welcome", () => configuration.Messages.Welcome.RandomElement());
 
 app.MapGet("/answer", (string message) =>
 {
-    Query query = parser.Parse(message);
-    TopDocs searchResult = searcher.Search(query, n: 5);
+    var searchResult = searcher.Find(message);
 
-    var results = searchResult.ScoreDocs.Select(hit =>
-        new Result.Reference(referenceLookup[searcher.Doc(hit.Doc).Get("id")]));
-
-    return searchResult.ScoreDocs.Any()
+    return searchResult != null
         ? new Answer.Found(
-            Messages: chatbotData.Messages.Found.ElementAt(random.Next(chatbotData.Messages.Found.Count)),
-            Results: results.ToList()) as Answer
+            Messages: configuration.Messages.Found.RandomElement(),
+            Results: searchResult.ToList()) as Answer
         : new Answer.NotFound(
-            Messages: chatbotData.Messages.Notfound.ElementAt(random.Next(chatbotData.Messages.Found.Count))) as Answer;
+            Messages: configuration.Messages.NotFound.RandomElement()) as Answer;
 });
 
 app.Run();
-
-abstract record Answer(
-    [property: JsonPropertyName("type")] string Type,
-    [property: JsonPropertyName("messages")] IReadOnlyList<string> Messages)
-{
-    public record NotFound(IReadOnlyList<string> Messages) : Answer("no-result-found", Messages);
-    public record Found(
-        IReadOnlyList<string> Messages,
-        [property: JsonPropertyName("results")] IReadOnlyList<object> Results) : Answer("result-found", Messages);
-}
-
-abstract record Result(
-    [property: JsonPropertyName("type")] string Type,
-    [property: JsonPropertyName("id")] string Id)
-{
-    public record Reference(YoungCarersAustria.Chatbot.Web.Model.CMS.Reference reference) : Result("reference", reference.Id);
-}
