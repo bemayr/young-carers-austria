@@ -42,7 +42,8 @@ import dagger.hilt.android.HiltAndroidApp
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
-import org.koin.core.context.GlobalContext.startKoin
+import org.koin.core.context.startKoin
+import org.koin.core.context.stopKoin
 import javax.inject.Inject
 
 
@@ -59,6 +60,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         // need for the chat bot section, the keyboard fits into the app and does not slide over the text field
         window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
+        stopKoin()
         startKoin {
             androidLogger()
             androidContext(this@MainActivity)

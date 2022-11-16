@@ -13,7 +13,7 @@ android {
         applicationId "at.sozialministerium.youngcarers"
         minSdk 21
         targetSdk 31
-        versionCode 4
+        versionCode 6
         versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

@@ -32,6 +32,9 @@ class ChatBotViewModel (
         }
     }
     fun sendMessage(message: String){
+        // disable empty messages
+        if (message.isNullOrEmpty()) return
+
         _messages.add(Message.Text(message,Author.User))
         viewModelScope.launch {
             val result = dataRepository.getChatBotAnswer(message)!!

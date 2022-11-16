@@ -202,7 +202,9 @@ fun OnBoardingItem(
             contentDescription = "Image1",
             modifier = Modifier.padding(start = 50.dp, end = 50.dp)
         )
+
         Spacer(modifier = Modifier.height(25.dp))
+
         MarkdownText(
             markdown = title,
             color = MaterialTheme.colors.onBackground,
