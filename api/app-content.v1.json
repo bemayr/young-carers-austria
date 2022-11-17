@@ -113,9 +113,12 @@
           "reference": "63689de0edafca3f7d63326c"
         },
         {
-          "type": "text",
-          "text": "",
-          "processed": true
+          "type": "reference",
+          "reference": "63686c21edafca3f7d631f28"
+        },
+        {
+          "type": "category",
+          "category": "63684e64638c16809e4d0c1d"
         },
         {
           "type": "reference",
@@ -133,15 +136,6 @@
         {
           "type": "category",
           "category": "63685043638c16809e4d0d1d"
-        },
-        {
-          "type": "text",
-          "text": "",
-          "processed": true
-        },
-        {
-          "type": "category",
-          "category": "63684e64638c16809e4d0c1d"
         },
         {
           "type": "text",

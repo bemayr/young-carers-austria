@@ -95,6 +95,10 @@
     ],
     "content": [
       {
+        "type": "text",
+        "text": "Eine gute kleine Vorbereitung für Notfälle ist eine **Notfallkarte die du bei dir trägst**. Hier gibt es noch ein paar Infos dazu:"
+      },
+      {
         "type": "reference",
         "reference": {
           "url": "https://ig-pflege.at/news/2022/09/notfallkarte.php",
@@ -114,210 +118,43 @@
         }
       },
       {
-        "type": "reference",
-        "reference": {
-          "url": "https://www.aerztekammer.at/arztsuche",
-          "title": "Arztsuche",
-          "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
-          "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
-          "isPaidContent": false,
-          "lastUpdated": "2022-11-17T08:51:54.701Z",
-          "keywords": [
-            "Krankheit",
-            "Gesundheit",
-            "Arzt",
-            "Ärztin",
-            "Hilfe",
-            "Ärztekammer",
-            "Bundesland",
-            "Suche",
-            "Finden"
-          ]
-        }
+        "type": "text",
+        "text": "## Erste Hilfe\n\n**Ein Erste Hilfe-Kurs kann Leben retten**, falls du in der Schule (noch) keinen hattest, oder dieser schon lange aus ist, dann schau mal hier:"
       },
       {
         "type": "reference",
         "reference": {
-          "url": "https://kliniksuche.at/",
-          "title": "kliniksuche.at",
-          "description": "Kliniksuche.at unterstützt dich dabei, ein geeignetes Krankenhaus zu finden.",
-          "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+          "url": "https://www.erstehilfe.at/",
+          "title": "Erste Hilfe. Ich werd´s wieder tun.",
+          "description": "Zu 99% passiert nichts. Ein Erste-Hilfe-Kurs lohnt sich zu 100%. ",
+          "previewImageUrl": "https://www.erstehilfe.at/img/linkpageposts/lpp_startseite.png",
           "isPaidContent": false,
-          "lastUpdated": "2022-11-11T09:57:57.139Z",
+          "lastUpdated": "2022-11-07T02:23:29.328Z",
           "keywords": [
-            "Ambulanz",
-            "Arzt",
-            "Behandlung",
-            "Behinderung",
             "Beratung",
-            "Finanzielles",
-            "Geld",
-            "Gesundheit",
-            "Gesundheitsministerium",
+            "Erste Hilfe",
+            "Freizeit",
+            "Get Social",
             "Hilfe",
-            "Klinik",
-            "Kliniksuche",
-            "Krankenhaus",
-            "Krankheit",
-            "Medizin",
-            "Ministerium",
+            "Infobox",
+            "Jugendrotkreuz",
+            "Juniorcamps",
+            "Krems",
+            "Kurz",
             "Notfall",
-            "Notruf",
             "Pflege",
-            "Pflegegeld",
-            "Pflegeplattform",
-            "Plattform",
             "Rettung",
-            "Sozial",
-            "Sozialministerium",
-            "Spital",
-            "Spitäler",
-            "Suche",
-            "Therapie",
-            "Unterstützung",
-            "Ärztin"
+            "Rotes Kreuz",
+            "Sommercamps",
+            "Sozialer Dienst",
+            "Time4Friends",
+            "Vernetzung"
           ]
         }
       },
       {
         "type": "text",
-        "text": "Falls du dich auf Notfälle vorbereiten möchtest, kannst du dir hier die Notfallnummern nochmal genau ansehen oder dich auch über Erste Hilfe informieren."
-      },
-      {
-        "type": "category",
-        "category": {
-          "id": "63685043638c16809e4d0d1d",
-          "name": "Notfall(nummern)",
-          "title": "Welche Nummer wähle ich im Notfall?",
-          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Ärztebereitschaftsdienst**: [141](tel:141)  \n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
-          "entries": [
-            {
-              "ownerName": "austria4kids",
-              "ownerUrl": "",
-              "references": [
-                {
-                  "url": "http://www.austria4kids.at/notruf-hilfe-kinder.html",
-                  "title": "Notrufe und Hilfe für Kinder",
-                  "description": "Hier sind Notrufe und Kontaktadressen für Kinder in Krisensituationen gesammelt.",
-                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock_000004250579Large.jpg",
-                  "isPaidContent": false,
-                  "lastUpdated": "2022-11-16T13:43:39.592Z",
-                  "keywords": [
-                    "Anlaufstelle",
-                    "Beratungsstelle",
-                    "Freizeit",
-                    "Hilfe",
-                    "Hilfseinrichtung",
-                    "Organisation",
-                    "Rat",
-                    "Tipps",
-                    "Unterstützung",
-                    "austria4kids"
-                  ]
-                }
-              ]
-            },
-            {
-              "ownerName": "Kindernotruf",
-              "ownerUrl": "",
-              "references": [
-                {
-                  "url": "http://www.verein-lichtblick.at/kindernotruf-3/",
-                  "title": "Wohin mit meinen Sorgen?",
-                  "description": "Der Kindernotruf hat ein offenes Ohr!",
-                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
-                  "isPaidContent": false,
-                  "lastUpdated": "2022-11-16T13:44:36.219Z",
-                  "keywords": [
-                    "Anrufen",
-                    "E-Mail",
-                    "Hilfe",
-                    "Kinder",
-                    "Kindernotruf",
-                    "Lichtblick",
-                    "Mail",
-                    "Notruf",
-                    "Sorgen",
-                    "Telefon",
-                    "Verein Lichtblick"
-                  ]
-                }
-              ]
-            },
-            {
-              "ownerName": "Kliniksuche des BMSGPK",
-              "ownerUrl": "",
-              "references": [
-                {
-                  "url": "https://kliniksuche.at/",
-                  "title": "kliniksuche.at",
-                  "description": "Kliniksuche.at unterstützt dich dabei, ein geeignetes Krankenhaus zu finden.",
-                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
-                  "isPaidContent": false,
-                  "lastUpdated": "2022-11-11T09:57:57.139Z",
-                  "keywords": [
-                    "Ambulanz",
-                    "Arzt",
-                    "Behandlung",
-                    "Behinderung",
-                    "Beratung",
-                    "Finanzielles",
-                    "Geld",
-                    "Gesundheit",
-                    "Gesundheitsministerium",
-                    "Hilfe",
-                    "Klinik",
-                    "Kliniksuche",
-                    "Krankenhaus",
-                    "Krankheit",
-                    "Medizin",
-                    "Ministerium",
-                    "Notfall",
-                    "Notruf",
-                    "Pflege",
-                    "Pflegegeld",
-                    "Pflegeplattform",
-                    "Plattform",
-                    "Rettung",
-                    "Sozial",
-                    "Sozialministerium",
-                    "Spital",
-                    "Spitäler",
-                    "Suche",
-                    "Therapie",
-                    "Unterstützung",
-                    "Ärztin"
-                  ]
-                }
-              ]
-            },
-            {
-              "ownerName": "Österreichische Ärztekammer",
-              "ownerUrl": "https://www.aerztekammer.at/",
-              "references": [
-                {
-                  "url": "https://www.aerztekammer.at/arztsuche",
-                  "title": "Arztsuche",
-                  "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
-                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
-                  "isPaidContent": false,
-                  "lastUpdated": "2022-11-17T08:51:54.701Z",
-                  "keywords": [
-                    "Krankheit",
-                    "Gesundheit",
-                    "Arzt",
-                    "Ärztin",
-                    "Hilfe",
-                    "Ärztekammer",
-                    "Bundesland",
-                    "Suche",
-                    "Finden"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+        "text": "Weitere Informationen bzgl. **Erste Hilfe** wie diese findest du hier:"
       },
       {
         "type": "category",
@@ -579,6 +416,216 @@
                     "Rettung",
                     "Unterstützung",
                     "superhands"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "text": "Nicht nur in einer Notfallsituation ist es sinnvoll einen kleinen Überblick darüber zu haben welche Ärzte und Ärztinnen bzw. Krankenhäuser es in deiner Umgebung gibt, hier wirst du fündig:"
+      },
+      {
+        "type": "reference",
+        "reference": {
+          "url": "https://www.aerztekammer.at/arztsuche",
+          "title": "Arztsuche",
+          "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
+          "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+          "isPaidContent": false,
+          "lastUpdated": "2022-11-17T08:51:54.701Z",
+          "keywords": [
+            "Krankheit",
+            "Gesundheit",
+            "Arzt",
+            "Ärztin",
+            "Hilfe",
+            "Ärztekammer",
+            "Bundesland",
+            "Suche",
+            "Finden"
+          ]
+        }
+      },
+      {
+        "type": "reference",
+        "reference": {
+          "url": "https://kliniksuche.at/",
+          "title": "kliniksuche.at",
+          "description": "Kliniksuche.at unterstützt dich dabei, ein geeignetes Krankenhaus zu finden.",
+          "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+          "isPaidContent": false,
+          "lastUpdated": "2022-11-11T09:57:57.139Z",
+          "keywords": [
+            "Ambulanz",
+            "Arzt",
+            "Behandlung",
+            "Behinderung",
+            "Beratung",
+            "Finanzielles",
+            "Geld",
+            "Gesundheit",
+            "Gesundheitsministerium",
+            "Hilfe",
+            "Klinik",
+            "Kliniksuche",
+            "Krankenhaus",
+            "Krankheit",
+            "Medizin",
+            "Ministerium",
+            "Notfall",
+            "Notruf",
+            "Pflege",
+            "Pflegegeld",
+            "Pflegeplattform",
+            "Plattform",
+            "Rettung",
+            "Sozial",
+            "Sozialministerium",
+            "Spital",
+            "Spitäler",
+            "Suche",
+            "Therapie",
+            "Unterstützung",
+            "Ärztin"
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "text": "Und wenn du noch mehr über die **Notfallnummern** erfahren möchtest, dann haben wir hier noch ein paar Links für dich gesammelt:"
+      },
+      {
+        "type": "category",
+        "category": {
+          "id": "63685043638c16809e4d0d1d",
+          "name": "Notfall(nummern)",
+          "title": "Welche Nummer wähle ich im Notfall?",
+          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Ärztebereitschaftsdienst**: [141](tel:141)  \n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+          "entries": [
+            {
+              "ownerName": "austria4kids",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "http://www.austria4kids.at/notruf-hilfe-kinder.html",
+                  "title": "Notrufe und Hilfe für Kinder",
+                  "description": "Hier sind Notrufe und Kontaktadressen für Kinder in Krisensituationen gesammelt.",
+                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock_000004250579Large.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-11-16T13:43:39.592Z",
+                  "keywords": [
+                    "Anlaufstelle",
+                    "Beratungsstelle",
+                    "Freizeit",
+                    "Hilfe",
+                    "Hilfseinrichtung",
+                    "Organisation",
+                    "Rat",
+                    "Tipps",
+                    "Unterstützung",
+                    "austria4kids"
+                  ]
+                }
+              ]
+            },
+            {
+              "ownerName": "Kindernotruf",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "http://www.verein-lichtblick.at/kindernotruf-3/",
+                  "title": "Wohin mit meinen Sorgen?",
+                  "description": "Der Kindernotruf hat ein offenes Ohr!",
+                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-11-16T13:44:36.219Z",
+                  "keywords": [
+                    "Anrufen",
+                    "E-Mail",
+                    "Hilfe",
+                    "Kinder",
+                    "Kindernotruf",
+                    "Lichtblick",
+                    "Mail",
+                    "Notruf",
+                    "Sorgen",
+                    "Telefon",
+                    "Verein Lichtblick"
+                  ]
+                }
+              ]
+            },
+            {
+              "ownerName": "Kliniksuche des BMSGPK",
+              "ownerUrl": "",
+              "references": [
+                {
+                  "url": "https://kliniksuche.at/",
+                  "title": "kliniksuche.at",
+                  "description": "Kliniksuche.at unterstützt dich dabei, ein geeignetes Krankenhaus zu finden.",
+                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-11-11T09:57:57.139Z",
+                  "keywords": [
+                    "Ambulanz",
+                    "Arzt",
+                    "Behandlung",
+                    "Behinderung",
+                    "Beratung",
+                    "Finanzielles",
+                    "Geld",
+                    "Gesundheit",
+                    "Gesundheitsministerium",
+                    "Hilfe",
+                    "Klinik",
+                    "Kliniksuche",
+                    "Krankenhaus",
+                    "Krankheit",
+                    "Medizin",
+                    "Ministerium",
+                    "Notfall",
+                    "Notruf",
+                    "Pflege",
+                    "Pflegegeld",
+                    "Pflegeplattform",
+                    "Plattform",
+                    "Rettung",
+                    "Sozial",
+                    "Sozialministerium",
+                    "Spital",
+                    "Spitäler",
+                    "Suche",
+                    "Therapie",
+                    "Unterstützung",
+                    "Ärztin"
+                  ]
+                }
+              ]
+            },
+            {
+              "ownerName": "Österreichische Ärztekammer",
+              "ownerUrl": "https://www.aerztekammer.at/",
+              "references": [
+                {
+                  "url": "https://www.aerztekammer.at/arztsuche",
+                  "title": "Arztsuche",
+                  "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
+                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-11-17T08:51:54.701Z",
+                  "keywords": [
+                    "Krankheit",
+                    "Gesundheit",
+                    "Arzt",
+                    "Ärztin",
+                    "Hilfe",
+                    "Ärztekammer",
+                    "Bundesland",
+                    "Suche",
+                    "Finden"
                   ]
                 }
               ]
@@ -14292,5 +14339,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-17T09:02:48.452Z"
+  "timestamp": "2022-11-17T09:16:22.714Z"
 }
