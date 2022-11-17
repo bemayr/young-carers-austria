@@ -8,7 +8,7 @@ können sich auf der Plattform informieren.'
 ---
 <div class="mx-auto max-w-4xl flex flex-col sm:flex-row">
   <h1
-    class=" text-center text-3xl text-darkBlue basis-2/5 sm:text-right sm:text-7xl justify-center self-center mb-0 sm:mr-12 -mt-12">
+    class=" text-center text-5xl text-darkBlue basis-2/5 sm:text-right sm:text-7xl justify-center self-center mb-0 sm:mr-12 -mt-4 md:-mt-12">
     Young Carers
     Austria
   </h1>
@@ -28,7 +28,7 @@ können sich auf der Plattform informieren.'
 <div class="flex flex-row flex-wrap py-12 justify-center items-center">
   <a href="/alltagssituationen/"
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-98 -rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
-    <div class="flex flex-row w-96 px-6 py-5">
+    <div class="flex flex-row px-6 py-5">
       <div class="border-r border-transparent my-auto text-4xl pr-2">
           {{ cms.website.landingpage.cards.situations.icon }}
       </div>
@@ -45,7 +45,7 @@ können sich auf der Plattform informieren.'
 
   <a href="{{ collections.infos[0].url }}"
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-95 rotate-6 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
-    <div class="flex flex-row w-96 px-6 py-5">
+    <div class="flex flex-row px-6 py-5">
       <div class="border-r border-transparent my-auto text-4xl pr-2">
           {{ cms.website.landingpage.cards.infos.icon }}
       </div>
@@ -62,7 +62,7 @@ können sich auf der Plattform informieren.'
 
   <a href="/im-notfall/"
     class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-97 -rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
-    <div class="flex flex-row w-96 px-6 py-5">
+    <div class="flex flex-row px-6 py-5">
       <div class="border-r border-transparent my-auto text-4xl pr-2">
         {{ cms.website.landingpage.cards.emergency.icon }}
       </div>
@@ -118,10 +118,10 @@ können sich auf der Plattform informieren.'
   {% assign relevant_faqs = cms_legacy.faqs | where: 'showOnLandingPage' %}
 
   {%- comment -%} show as details element on mobile {%- endcomment -%}
-  <div class="sm:hidden">
+  <div class="md:hidden">
     {% for faq in relevant_faqs %}
     <details>
-      <summary>{{ faq.question }}</summary>
+      <summary class="cursor-pointer">{{ faq.question }}</summary>
       <div>
         {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate
         %}
@@ -129,7 +129,7 @@ können sich auf der Plattform informieren.'
     </details>
     {% endfor %}
   </div>
-  <div class="hidden sm:block relative">
+  <div class="hidden md:block relative">
     <ul class="list-none relative">
       {% for faq in relevant_faqs %}
       <li>
@@ -151,16 +151,16 @@ können sich auf der Plattform informieren.'
 
 <section class="max-w-5xl mx-auto">
   <h2 class="text-center text-darkBlue">Die Young Carers Austria App</h2>
-  <div class="flex flex-row items-center">
-    <div class="w-2/5 h-auto -rotate-2">
+  <div class="flex flex-col md:flex-row items-center">
+    <div class="md:w-2/5 h-auto -rotate-2 mx-[15%] md:mx-0">
       <img src="/images/yc-app.ios.png" alt="Young Carers Austria App">
     </div>
-    <div class="w-3/5 pl-10 flex flex-col items-center">
+    <div class="md:w-3/5 md:pl-10 flex flex-col items-center">
 
       {% for quote in cms.website.landingpage.quotes %}
-      <div class="bg-white rounded-xl shadow-2xl relative w-4/5 p-5 mb-12">
-        <div class="absolute font-extrabold text-8xl text-darkBlue italic font-serif">"</div>
-        <p class="ml-16 mt-8 mb-4">
+      <div class="bg-white rounded-xl shadow-2xl relative w-5/6 md:w-4/5 p-5 mb-12">
+        <div class="absolute font-extrabold text-6xl sm:text-8xl text-darkBlue italic font-serif">"</div>
+        <p class="ml-10 mt-6 mb-2 sm:ml-16 sm:mt-8 sm:mb-4">
           {{ quote }}
         </p>
       </div>
@@ -175,12 +175,12 @@ können sich auf der Plattform informieren.'
 
 <section class="max-w-5xl mx-auto">
   <h2 class="text-center text-darkBlue">Über Young Carers Austria</h2>
-  <div class="flex flex-row">
-    <div class="w-3/5 pr-10">
+  <div class="flex flex-col-reverse md:flex-row">
+    <div class="md:w-3/5 pr-10">
       {% renderTemplate "liquid,md", cms.website.landingpage %} {{ about }} {% endrenderTemplate
           %}
     </div>
-    <div class="w-2/5 h-auto">
+    <div class="md:w-2/5 h-auto">
       <img src="/images/sujets/yc-sujet-%C3%B6sterreich.jpg" alt="/images/sujets/yc-sujet-österreich.jpg">
     </div>
   </div>
