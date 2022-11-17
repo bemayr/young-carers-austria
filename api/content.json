@@ -96,7 +96,7 @@
     "content": [
       {
         "type": "text",
-        "text": "Eine gute kleine Vorbereitung für Notfälle ist eine **Notfallkarte die du bei dir trägst**. Hier gibt es noch ein paar Infos dazu:"
+        "text": "## Zur Vorbereitung\n\nEine gute kleine Vorbereitung für Notfälle ist eine **Notfallkarte die du bei dir trägst**. Hier gibt es noch ein paar Infos dazu:"
       },
       {
         "type": "reference",
@@ -119,7 +119,7 @@
       },
       {
         "type": "text",
-        "text": "## Erste Hilfe\n\n**Ein Erste Hilfe-Kurs kann Leben retten**, falls du in der Schule (noch) keinen hattest, oder dieser schon lange aus ist, dann schau mal hier:"
+        "text": "### Erste Hilfe\n\n**Ein Erste Hilfe-Kurs kann Leben retten**, falls du in der Schule (noch) keinen hattest, oder dieser schon lange aus ist, dann schau mal hier:"
       },
       {
         "type": "reference",
@@ -425,7 +425,7 @@
       },
       {
         "type": "text",
-        "text": "Nicht nur in einer Notfallsituation ist es sinnvoll einen kleinen Überblick darüber zu haben welche Ärzte und Ärztinnen bzw. Krankenhäuser es in deiner Umgebung gibt, hier wirst du fündig:"
+        "text": "### Ärzte und Ärztinnen bzw. Krankenhäuser\n\nNicht nur in einer Notfallsituation ist es sinnvoll einen kleinen Überblick darüber zu haben welche Ärzte und Ärztinnen bzw. Krankenhäuser es in deiner Umgebung gibt, hier wirst du fündig:"
       },
       {
         "type": "reference",
@@ -495,7 +495,7 @@
       },
       {
         "type": "text",
-        "text": "Und wenn du noch mehr über die **Notfallnummern** erfahren möchtest, dann haben wir hier noch ein paar Links für dich gesammelt:"
+        "text": "Und wenn du noch mehr über die **Notfallnummern** erfahren möchtest, dann haben wir hier noch ein paar mehr Links für dich gesammelt:"
       },
       {
         "type": "category",
@@ -14339,5 +14339,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-17T09:16:22.714Z"
+  "timestamp": "2022-11-17T09:18:46.860Z"
 }
