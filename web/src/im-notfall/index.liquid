@@ -34,7 +34,7 @@ eleventyComputed:
         <a class="block" href="/infos/{{ part.category.name | slugify }}">{{ part.category.title }}</a>
     {% endif %}
     {% if part.type == "reference" %}
-      <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm p-0 m-0">
+      <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm p-0 m-0 my-4">
         <a class="no-underline" href="{{ part.reference.url }}">
         <img class="p-0 m-0 rounded-t-lg" src="{{ part.reference.previewImageUrl }}" alt="" />
         <div class="p-5">

@@ -13,5 +13,9 @@ module.exports = async function () {
     type: 'json', // we’ll parse JSON for you
   });
 
+  // todo: get rid of this hack when new CMS gets deployed
+  response.metadata[2].title = "Barrierefreiheitserklärung"
+  response.metadata[3].title = "Datenschutzerklärung"
+
   return response;
 };
