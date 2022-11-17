@@ -1,18 +1,17 @@
 ---
 layout: 'layouts/textcontent'
-title: 'FAQ'
+title: 'Häufig gestellte Fragen'
 eleventyNavigation:
   key: FAQ
   order: 50
 ---
-<h1 class="text-darkBlue">Häufig gestellte Fragen</h1>
+<h1 class="text-darkBlue">{{ meta.title }}</h1>
 
 {% for faq in cms.content.faqs %}
 
 <h2 class="text-darkBlue break-words">{{ faq.question }}</h2>
 <div class="mb-4">
-  {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate
-  %}
+  {% renderTemplate "liquid,md", faq %} {{ answer }} {% endrenderTemplate %}
 </div>
 
 {% endfor %}
