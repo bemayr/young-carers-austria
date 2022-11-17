@@ -1,23 +1,40 @@
-<header>
+<header x-data="{ menuOpen: false }">
   <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex h-24 items-center justify-between">
-      <a href="/">
-        <figure class="flex flex-shrink-0 items-center space-x-1">
-          <img alt="Young Carers Logo" class="h-16 w-auto" src="/images/logo.png" />
+      <a href="/" aria-label="Young Carers Austria Startseite">
+        <figure class="flex flex-shrink-0 items-center space-x-1 mr-16 sm:mr-0">
+          <img alt="Young Carers Logo" class="max-h-16 w-auto" src="/images/logo.png" />
         </figure>
       </a>
 
-      <nav class="hidden sm:block" aria-label="Navigation">
-        {% assign navPages = collections.all | eleventyNavigation %}
-        <ul class="flex space-x-4">
+      {% assign navPages = collections.all | eleventyNavigation %}
+      <ul class="hidden md:flex space-x-4 list-none">
+      {%- for entry in navPages %}
+        <li class="text-darkBlue no-underline hover:underline {% if entry.url == page.url %} font-bold{% endif %}">
+          <a href="{{ entry.url }}">{{ entry.title }}</a>
+        </li>
+      {%- endfor %}
+      </ul>
+
+      <div id="nav-list" x-show="menuOpen" class="absolute right-0 w-auto mt-64 mr-4 bg-gray-100 rounded-xl shadow-xl">
+        <ul class="flex flex-col space-y-3 list-none p-6 py-8">
         {%- for entry in navPages %}
           <li class="text-darkBlue no-underline hover:underline {% if entry.url == page.url %} font-bold{% endif %}">
             <a href="{{ entry.url }}">{{ entry.title }}</a>
           </li>
         {%- endfor %}
         </ul>
-      </nav>
-      
+      </div>
+
+      <div class="flex items-center md:hidden">
+          <button
+              class="text-darkBlue text-3xl font-bold opacity-70 hover:opacity-100 duration-300"
+              @click="menuOpen = !menuOpen"
+              aria-controls="nav-list">
+              &#9776;
+          </button>
+      </div>
+
     </div>
   </nav>
 </header>
