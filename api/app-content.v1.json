@@ -594,6 +594,25 @@
     ],
     "references": [
       {
+        "id": "6375f62aa2804a951687d355",
+        "url": "https://www.aerztekammer.at/arztsuche",
+        "title": "Arztsuche",
+        "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
+        "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+        "containsPaidContent": false,
+        "keywords": [
+          "Krankheit",
+          "Gesundheit",
+          "Arzt",
+          "Ärztin",
+          "Hilfe",
+          "Ärztekammer",
+          "Bundesland",
+          "Suche",
+          "Finden"
+        ]
+      },
+      {
         "id": "63725acfdb827574dbbf82cd",
         "url": "https://www.visible.co.at/blog/",
         "title": "Blog von #visible",

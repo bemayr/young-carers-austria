@@ -201,6 +201,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "ownerName": "Österreichische Ärztekammer",
+              "ownerUrl": "https://www.aerztekammer.at/",
+              "references": [
+                {
+                  "url": "https://www.aerztekammer.at/arztsuche",
+                  "title": "Arztsuche",
+                  "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
+                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2022-11-17T08:51:54.701Z",
+                  "keywords": [
+                    "Krankheit",
+                    "Gesundheit",
+                    "Arzt",
+                    "Ärztin",
+                    "Hilfe",
+                    "Ärztekammer",
+                    "Bundesland",
+                    "Suche",
+                    "Finden"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -421,6 +446,31 @@
                 ]
               },
               {
+                "ownerName": "Österreichische Ärztekammer",
+                "ownerUrl": "https://www.aerztekammer.at/",
+                "references": [
+                  {
+                    "url": "https://www.aerztekammer.at/arztsuche",
+                    "title": "Arztsuche",
+                    "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-17T08:51:54.701Z",
+                    "keywords": [
+                      "Krankheit",
+                      "Gesundheit",
+                      "Arzt",
+                      "Ärztin",
+                      "Hilfe",
+                      "Ärztekammer",
+                      "Bundesland",
+                      "Suche",
+                      "Finden"
+                    ]
+                  }
+                ]
+              },
+              {
                 "ownerName": "Sozialministerium",
                 "ownerUrl": "",
                 "references": [
@@ -586,6 +636,31 @@
                       "Therapie",
                       "Unterstützung",
                       "Ärztin"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Österreichische Ärztekammer",
+                "ownerUrl": "https://www.aerztekammer.at/",
+                "references": [
+                  {
+                    "url": "https://www.aerztekammer.at/arztsuche",
+                    "title": "Arztsuche",
+                    "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2022-11-17T08:51:54.701Z",
+                    "keywords": [
+                      "Krankheit",
+                      "Gesundheit",
+                      "Arzt",
+                      "Ärztin",
+                      "Hilfe",
+                      "Ärztekammer",
+                      "Bundesland",
+                      "Suche",
+                      "Finden"
                     ]
                   }
                 ]
@@ -10247,6 +10322,31 @@
           ]
         },
         {
+          "ownerName": "Österreichische Ärztekammer",
+          "ownerUrl": "https://www.aerztekammer.at/",
+          "references": [
+            {
+              "url": "https://www.aerztekammer.at/arztsuche",
+              "title": "Arztsuche",
+              "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-17T08:51:54.701Z",
+              "keywords": [
+                "Krankheit",
+                "Gesundheit",
+                "Arzt",
+                "Ärztin",
+                "Hilfe",
+                "Ärztekammer",
+                "Bundesland",
+                "Suche",
+                "Finden"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Sozialministerium",
           "ownerUrl": "",
           "references": [
@@ -10771,6 +10871,31 @@
                 "Therapie",
                 "Unterstützung",
                 "Ärztin"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Österreichische Ärztekammer",
+          "ownerUrl": "https://www.aerztekammer.at/",
+          "references": [
+            {
+              "url": "https://www.aerztekammer.at/arztsuche",
+              "title": "Arztsuche",
+              "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-11-17T08:51:54.701Z",
+              "keywords": [
+                "Krankheit",
+                "Gesundheit",
+                "Arzt",
+                "Ärztin",
+                "Hilfe",
+                "Ärztekammer",
+                "Bundesland",
+                "Suche",
+                "Finden"
               ]
             }
           ]
@@ -13811,5 +13936,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-17T01:39:14.054Z"
+  "timestamp": "2022-11-17T08:52:46.333Z"
 }
