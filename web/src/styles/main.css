@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* summary arrow fix */
+details > summary.no-arrow {
+    list-style: none;
+}
+
+details > summary.no-arrow::marker, /* Latest Chrome, Edge, Firefox */ 
+details > summary.no-arrow::-webkit-details-marker /* Safari */ {
+    display: none;
+}

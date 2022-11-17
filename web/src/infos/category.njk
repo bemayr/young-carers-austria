@@ -12,7 +12,7 @@ eleventyNavigation:
 eleventyComputed:
   title: '{{ category.name }}'
 ---
-<div class="container flex flex-col md:flex-row m-auto md:w-5/6 -mt-10">
+<div class="container flex flex-col md:flex-row m-auto md:w-5/6 -mt-4">
 
   <nav class="hidden md:block w-1/3 pr-7" aria-labelledby="infos-pagination">
     <h3 id="infos-pagination" class="text-base uppercase text-darkBlue">Kategorien</h3>
@@ -26,7 +26,7 @@ eleventyComputed:
   </nav>
 
   <details class="md:hidden mb-8">
-    <summary class="cursor-pointer list-none text-darkBlue text-right"><span class="text-darkBlue">Kategorie:</span> <span class="italic">{{ category.name }}</span> <span class="text-sm">▼</span> </summary>
+    <summary class="cursor-pointer list-none text-darkBlue text-left"><span class="text-darkBlue">Kategorie:</span> <span class="italic">{{ category.name }}</span></summary>
         <ol class="list-none p-0">
     {%- for pageEntry in pagination.pages %}
         <li class="pl-0 ">

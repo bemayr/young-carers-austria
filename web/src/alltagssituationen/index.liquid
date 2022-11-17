@@ -15,7 +15,7 @@ eleventyNavigation:
 {% for insight in cms_legacy.insights %}
 {%- assign insight_id = insight.question | slugify -%}
 <details class="group mt-8 mb-4">
-    <summary class="cursor-pointer list-none">
+    <summary class="cursor-pointer list-none no-arrow">
         <h2 class="text-darkBlue underline decoration-sky-800">{{ insight.question }}</h2>
         <p class="group-open:hidden">{% excerpt insight.content %}</p>
     </summary>
