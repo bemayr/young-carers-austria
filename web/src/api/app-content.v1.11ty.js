@@ -4,5 +4,5 @@ module.exports = {
     permalink: (data) => `public/api/${data.page.fileSlug}.json`,
   },
   render: (data) =>
-    JSON.stringify({ ...data.cms.app, content: data.cms.content, cms: data.cms }, null, 2),
+    JSON.stringify({ ...data.cms.app, content: data.cms.content }, null, 2),
 };

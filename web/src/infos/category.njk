@@ -4,18 +4,24 @@ pagination:
   data: cms._legacy.abc
   size: 1
   alias: category
+tags: infos
 permalink: "infos/{{ category.name | slugify }}/"
 eleventyComputed:
   title: '{{ category.name }}'
 ---
-<div class="container flex flex-row">
-  <ul class="w-1/3 list-none p-0 mt-0 pr-7">
-    {% for category in cms._legacy.abc %}
-      <li class="pl-0">
-      {{ category.name }}
-      </li>
-    {% endfor %}
-  </ul>
+<div class="container flex flex-row m-auto w-5/6">
+
+    <nav class="w-1/3 pr-7" aria-labelledby="infos-pagination">
+      <h3 id="infos-pagination" class="text-base uppercase text-darkBlue">Kategorien</h3>
+      <ol class="list-none p-0">
+    {%- for pageEntry in pagination.pages %}
+        <li class="pl-0 ">
+          <a class="font-normal text-darkBlue no-underline hover:underline {% if page.url == pagination.hrefs[ loop.index0 ] %}font-bold{% endif %}" href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>{{ pageEntry.name }}</a>
+        </li>
+    {%- endfor %}
+      </ol>
+    </nav>
+
   <div class="w-2/3">
     <h1 class="text-darkBlue">{{ category.title }}</h1>
     {% renderTemplate "liquid,md", category %} {{ information }} {% endrenderTemplate %}

@@ -6,13 +6,30 @@ intro:
   desc: 'Diese Website existiert auch als App'
 ---
 
-<img src="/images/app-qr.svg" alt="QR Code to Download the App" />
+<h1 class="text-center text-darkBlue">Die Young Carers Austria App</h1>
 
-<img src="/images/appstore.jpg" alt="Apple App Store Link" />
+<div class="flex flex-row items-center not-prose">
+  <div class="md:w-3/5 h-auto -rotate-2">
+    <img class="-ml-16" src="/images/yc-app.ios.png" alt="Young Carers Austria App">
+  </div>
+  <div class="md:w-2/5 flex flex-col items-center">
 
-<img src="/images/playstore.jpg" alt="Google Playstore Link" />
+    <img class="max-w-[15rem] pb-6" src="/images/app-qr.svg" alt="QR Code to Download the App" />
 
-<a href="impressum">Impressum</a>
-<a href="datenschutzerklärung">Datenschutzerklärung</a>
-<a href="barrierefreiheitserklärung">Barrierefreiheitserklärung</a>
-<a href="copyright">Copyright</a>
+    <a href="https://apps.apple.com/us/app/young-carers-austria/id1594317016">
+      <img src="/images/appstore.png" alt="Apple App Store Link" />
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=at.sozialministerium.youngcarers">
+      <img src="/images/playstore.png" alt="Google Playstore Link" />
+    </a>
+
+  </div>
+</div>
+
+{% renderTemplate "liquid,md", cms.website.landingpage %} {{ about }} {% endrenderTemplate %}
+
+
+{%- comment -%} <a href="impressum">Impressum</a> ▪
+<a href="datenschutzerklärung">Datenschutzerklärung</a> ▪
+<a href="barrierefreiheitserklärung">Barrierefreiheitserklärung</a> ▪
+<a href="copyright">Copyright</a> {%- endcomment -%}
