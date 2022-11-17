@@ -6,59 +6,18 @@
           <img alt="Young Carers Logo" class="h-16 w-auto" src="/images/logo.png" />
         </figure>
       </a>
-      <ul class="hidden sm:flex space-x-4">
-        {%- comment -%}
-        {% for item in navigation.items %}
-        {% if item.url == page.url %}
-        {%
-        assign highlight = 'cursor-default' %}
-        {% assign current =
-        'aria-current="page"' %}
-        {% else %}
-        {% assign highlight = 'underline' %}
-        {% assign current = '' %}
-        {% endif %}
-        <li>
-          <a href="{{ item.url }}" class="text-base font-bold {{ highlight }}" {{ current }}>
-            {{ item.text }}
-          </a>
-        </li>
-        {% endfor %}
-        {%- endcomment -%}
-        <li>
-          <a href="/alltagssituationen/" class="text-base text-darkBlue no-underline hover:underline {{ highlight }}" {{ current }}>
-            Alltagssituationen
-          </a>
-        </li>
-        <li>
-          <a href="{{ collections.infos[0].url }}" class="text-base text-darkBlue no-underline hover:underline {{ highlight }}" {{ current }}>
-            Infos
-          </a>
-        </li>
-        <li>
-          <a href="/im-notfall/" class="text-base text-darkBlue no-underline hover:underline {{ highlight }}" {{ current }}>
-            Im Notfall
-          </a>
-        </li>
-        <li>
-          <a href="/app/" class="text-base text-darkBlue no-underline hover:underline {{ highlight }}" {{ current }}>
-            App
-          </a>
-        </li>
-        <li>
-          <a href="/faq/" class="text-base text-darkBlue no-underline hover:underline {{ highlight }}" {{ current }}>
-            FAQ
-          </a>
-        </li>
-        {%- comment -%}
-        <li>
-          <a href="https://github.com/stefanfrede/11st-starter-kit/"
-            class="text-base font-bold underline hover:text-green-900">
-            GitHub
-          </a>
-        </li>
-        {%- endcomment -%}
-      </ul>
+
+      <nav class="hidden sm:block" aria-label="Navigation">
+        {% assign navPages = collections.all | eleventyNavigation %}
+        <ul class="flex space-x-4">
+        {%- for entry in navPages %}
+          <li class="text-darkBlue no-underline hover:underline {% if entry.url == page.url %} font-bold{% endif %}">
+            <a href="{{ entry.url }}">{{ entry.title }}</a>
+          </li>
+        {%- endfor %}
+        </ul>
+      </nav>
+      
     </div>
   </nav>
 </header>

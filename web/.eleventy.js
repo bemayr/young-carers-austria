@@ -3,6 +3,7 @@ const { DateTime } = require('luxon');
 
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const directoryOutputPlugin = require('@11ty/eleventy-plugin-directory-output');
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const slinkity = require('slinkity');
 
 const extractExcerpt = require('./excerpt');
@@ -37,6 +38,8 @@ module.exports = function (eleventyConfig) {
       // for some handy autocomplete in your editor
     }),
   );
+
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addShortcode('excerpt', (extendedRichtext) =>
     extractExcerpt(extendedRichtext),

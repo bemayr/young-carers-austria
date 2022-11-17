@@ -6,6 +6,9 @@ pagination:
   alias: category
 tags: infos
 permalink: "infos/{{ category.name | slugify }}/"
+eleventyNavigation:
+  key: Infos
+  order: 20
 eleventyComputed:
   title: '{{ category.name }}'
 ---
