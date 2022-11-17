@@ -1,7 +1,7 @@
 {
   "name": "@young-carers-austria/website",
   "description": "Information Website for Young Carers in Austria",
-  "version": "1.0.0-prerelease",
+  "version": "1.0.0",
   "private": true,
   "engines": {
     "node": "16.x.x",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://www.young-carers-austria.at",
   "scripts": {
-    "clean": "del-cli _site",
+    "clean": "del-cli _site .cache",
     "start": "npx @11ty/eleventy --serve --incremental --quiet",
     "build": "npx @11ty/eleventy",
     "build:debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",

@@ -26,7 +26,7 @@ eleventyComputed:
 
 
 <section>
-    {% for part in cms._legacy.emergency.content %}
+    {% for part in cms_legacy.emergency.content %}
     {% if part.type == "text" %}
         {% renderTemplate "liquid,md", part %} {{ text }} {% endrenderTemplate %}
     {% endif %}

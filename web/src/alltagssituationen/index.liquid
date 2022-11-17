@@ -9,7 +9,7 @@ title: 'Alltagssituationen'
     Vielleicht stellst du dir ja eine der folgenden Fragen oder erlebst auch gerade einer dieser Situationen?
 </p>
 
-{% for insight in cms._legacy.insights %}
+{% for insight in cms_legacy.insights %}
 {%- assign insight_id = insight.question | slugify -%}
 <details class="group mt-8 mb-4">
     <summary class="cursor-pointer list-none">

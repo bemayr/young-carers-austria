@@ -115,7 +115,7 @@ können sich auf der Plattform informieren.'
 <section class="max-w-5xl mx-auto my-12">
   <h2 class="text-center text-darkBlue">Häufig gestellte Fragen</h2>
    
-  {% assign relevant_faqs = cms._legacy.faqs | where: 'showOnLandingPage' %}
+  {% assign relevant_faqs = cms_legacy.faqs | where: 'showOnLandingPage' %}
 
   {%- comment -%} show as details element on mobile {%- endcomment -%}
   <div class="sm:hidden">
