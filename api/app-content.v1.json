@@ -13,17 +13,17 @@
       {
         "question": "Bin ich ein Young Carer?",
         "answer": "Pflegende Kinder und Jugendliche **helfen regelmäßig und häufiger** im Familienumfeld als ihre Altersgenossen ohne Pflegeverantwortung. Sie unterstützen im Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen Verantwortung. 23 Prozent der Kinder helfen in allen drei Bereichen überdurchschnittlich viel.\n\nYoung Carers verstehen sich selbst nicht als Pflegende und sprechen selten über ihre familiäre Situation. Daher werden sie auch in ihrem sozialen Umfeld und in der Öffentlichkeit kaum als pflegende Kinder wahrgenommen und sind oft mit ihren Sorgen und Ängsten allein.\n\n",
-        "showOnLandingPage": true
+        "showOnLandingPage": false
       },
       {
         "question": "Was macht ein Young Carer?",
         "answer": "\nYoung Carers sind Kinder und Jugendliche unter 18 Jahren, die für Familienangehörige – ein Elternteil, Geschwister, Großeltern oder andere kranke Familienmitglieder – immer wieder regelmäßig Pflege oder Betreuung übernehmen.\n\n",
-        "showOnLandingPage": true
+        "showOnLandingPage": false
       },
       {
         "question": "Wieviele Young Carer gibt es?",
         "answer": "\nAuf Basis einer [Studie](https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=307) des BMSGPK zum Thema pflegende Kinder und Jugendliche in Österreich wurde der Anteil von 3,5 Prozent pflegender Kindern und Jugendlichen hochgerechnet. So wurde eine Zahl von 42.700 pflegende Kindern und Jugendliche ermittelt.\n\n",
-        "showOnLandingPage": true
+        "showOnLandingPage": false
       },
       {
         "question": "Der:die typische Young Carer",
@@ -33,7 +33,7 @@
       {
         "question": "Wen betreuen Young Carers?",
         "answer": "* 37 % ein Elternteil  \n* 33 % ein Großelternteil  \n* 12 % Geschwister  \n* 18 % andere Familienmitglieder bzw. Verwandte\n\n",
-        "showOnLandingPage": true
+        "showOnLandingPage": false
       },
       {
         "question": "Wie wirkt sich die Übernahme der Betreuung auf pflegende Kinder, also Young Carers, aus?",
@@ -48,17 +48,17 @@
       {
         "question": "Wohin können sich Young Carers wenden um Hilfe zu erhalten?",
         "answer": "Betroffene Kinder und Jugendliche können sich u.a. an folgende Stellen wenden:\n\n* Superhands – Information und Beratung für Kinder und Jugendliche mit   \nPflegeverantwortung sowie deren Angehörige und MultiplikatorInnen [Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.](https://www.superhands.at/)  \n* [Österreichisches Jugendrotkreuz](https://www.jugendrotkreuz.at/)  \n* [147 Rat auf Draht - Notrufnummer & Beratung](https://www.rataufdraht.at/)  \n* [Interessengemeinschaft pflegender Angehöriger](https://www.ig-pflege.at/)  \n* Angehörigengespräch [Betreuende und pflegende Angehörige (sozialministerium.at)](https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html)\n\n",
-        "showOnLandingPage": true
+        "showOnLandingPage": false
       },
       {
         "question": "Warum ist es wichtig sich als Young Carer Hilfe zu holen?",
         "answer": "\nTypischerweise kümmern sich Young Carers über einen längeren Zeitraum regelmäßig um ein erkranktes oder hilfebedürftiges Familienmitglied. Das ist eine große Herausforderung, der sich die meisten Kinder und Jugendlichen nicht stellen müssen. Es ist keine Schande nicht alles alleine zu schaffen! Achtet darauf und holt euch rechtzeitig Informationen und Unterstützung.\n\n",
-        "showOnLandingPage": false
+        "showOnLandingPage": true
       },
       {
         "question": "Was können Erwachsene (Eltern, Pädagoginnen/Pädagogen, sowie zum Thema Interessierte) bei der Begegnung/im Umgang mit Young Carers tun?",
         "answer": "* Begegnung auf Augenhöhe und mit Wertschätzung – besonders wegen der Pflegetätigkeit  \n* Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote aufmerksam machen  \n* Regelmäßige Nachfrage wie es dem betroffenen Young Carer geht  \n* Austausch mit Expert:innen, z.B. [superhands, ](https://www.superhands.at)[IG Pflegende Angehörige](https://www.young-carers-austria.at/faq/www.ig-pflege.at), [147 Rat auf Draht](https://www.superhands.at), u.a.m\n\n",
-        "showOnLandingPage": false
+        "showOnLandingPage": true
       },
       {
         "question": "Welche unterstützenden Maßnahmen für Young Carers sind in Umsetzung?",
