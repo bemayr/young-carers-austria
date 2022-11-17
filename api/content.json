@@ -114,6 +114,76 @@
         }
       },
       {
+        "type": "reference",
+        "reference": {
+          "url": "https://www.aerztekammer.at/arztsuche",
+          "title": "Arztsuche",
+          "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
+          "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+          "isPaidContent": false,
+          "lastUpdated": "2022-11-17T08:51:54.701Z",
+          "keywords": [
+            "Krankheit",
+            "Gesundheit",
+            "Arzt",
+            "Ärztin",
+            "Hilfe",
+            "Ärztekammer",
+            "Bundesland",
+            "Suche",
+            "Finden"
+          ]
+        }
+      },
+      {
+        "type": "reference",
+        "reference": {
+          "url": "https://kliniksuche.at/",
+          "title": "kliniksuche.at",
+          "description": "Kliniksuche.at unterstützt dich dabei, ein geeignetes Krankenhaus zu finden.",
+          "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+          "isPaidContent": false,
+          "lastUpdated": "2022-11-11T09:57:57.139Z",
+          "keywords": [
+            "Ambulanz",
+            "Arzt",
+            "Behandlung",
+            "Behinderung",
+            "Beratung",
+            "Finanzielles",
+            "Geld",
+            "Gesundheit",
+            "Gesundheitsministerium",
+            "Hilfe",
+            "Klinik",
+            "Kliniksuche",
+            "Krankenhaus",
+            "Krankheit",
+            "Medizin",
+            "Ministerium",
+            "Notfall",
+            "Notruf",
+            "Pflege",
+            "Pflegegeld",
+            "Pflegeplattform",
+            "Plattform",
+            "Rettung",
+            "Sozial",
+            "Sozialministerium",
+            "Spital",
+            "Spitäler",
+            "Suche",
+            "Therapie",
+            "Unterstützung",
+            "Ärztin"
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "text": "Falls du dich auf Notfälle vorbereiten möchtest, kannst du dir hier die Notfallnummern nochmal genau ansehen oder dich auch über Erste Hilfe informieren."
+      },
+      {
         "type": "category",
         "category": {
           "id": "63685043638c16809e4d0d1d",
@@ -513,72 +583,6 @@
                 }
               ]
             }
-          ]
-        }
-      },
-      {
-        "type": "reference",
-        "reference": {
-          "url": "https://www.aerztekammer.at/arztsuche",
-          "title": "Arztsuche",
-          "description": "Finde Ärztinnen und Ärzte in deiner Nähe.",
-          "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
-          "isPaidContent": false,
-          "lastUpdated": "2022-11-17T08:51:54.701Z",
-          "keywords": [
-            "Krankheit",
-            "Gesundheit",
-            "Arzt",
-            "Ärztin",
-            "Hilfe",
-            "Ärztekammer",
-            "Bundesland",
-            "Suche",
-            "Finden"
-          ]
-        }
-      },
-      {
-        "type": "reference",
-        "reference": {
-          "url": "https://kliniksuche.at/",
-          "title": "kliniksuche.at",
-          "description": "Kliniksuche.at unterstützt dich dabei, ein geeignetes Krankenhaus zu finden.",
-          "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
-          "isPaidContent": false,
-          "lastUpdated": "2022-11-11T09:57:57.139Z",
-          "keywords": [
-            "Ambulanz",
-            "Arzt",
-            "Behandlung",
-            "Behinderung",
-            "Beratung",
-            "Finanzielles",
-            "Geld",
-            "Gesundheit",
-            "Gesundheitsministerium",
-            "Hilfe",
-            "Klinik",
-            "Kliniksuche",
-            "Krankenhaus",
-            "Krankheit",
-            "Medizin",
-            "Ministerium",
-            "Notfall",
-            "Notruf",
-            "Pflege",
-            "Pflegegeld",
-            "Pflegeplattform",
-            "Plattform",
-            "Rettung",
-            "Sozial",
-            "Sozialministerium",
-            "Spital",
-            "Spitäler",
-            "Suche",
-            "Therapie",
-            "Unterstützung",
-            "Ärztin"
           ]
         }
       }
@@ -14288,5 +14292,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-11-17T08:58:20.727Z"
+  "timestamp": "2022-11-17T09:02:48.452Z"
 }

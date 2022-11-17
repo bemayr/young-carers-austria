@@ -118,24 +118,6 @@
           "processed": true
         },
         {
-          "type": "category",
-          "category": "63685043638c16809e4d0d1d"
-        },
-        {
-          "type": "text",
-          "text": "",
-          "processed": true
-        },
-        {
-          "type": "category",
-          "category": "63684e64638c16809e4d0c1d"
-        },
-        {
-          "type": "text",
-          "text": "",
-          "processed": true
-        },
-        {
           "type": "reference",
           "reference": "6375f62aa2804a951687d355"
         },
@@ -147,6 +129,19 @@
         {
           "type": "reference",
           "reference": "6368addfedafca3f7d634ede"
+        },
+        {
+          "type": "category",
+          "category": "63685043638c16809e4d0d1d"
+        },
+        {
+          "type": "text",
+          "text": "",
+          "processed": true
+        },
+        {
+          "type": "category",
+          "category": "63684e64638c16809e4d0c1d"
         },
         {
           "type": "text",
