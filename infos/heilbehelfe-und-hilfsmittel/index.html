@@ -50,44 +50,68 @@
   onload="this.media='all'; this.onload=null;" />
 
   <script type="module" crossorigin src="/assets/main.fe3f1502.js"></script>
-  <link rel="stylesheet" href="/assets/main.37d6af81.css">
+  <link rel="stylesheet" href="/assets/main.fa29b3f0.css">
 </head>
 
 <body class="min-h-screen bg-gray-50" data-env="" x-data="{ chatbotOpen: false }"
   x-init="() => { setTimeout(() => { chatbotOpen = false }, 1500); }">
-  <header>
+  <header x-data="{ menuOpen: false }">
   <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex h-24 items-center justify-between">
-      <a href="/">
-        <figure class="flex flex-shrink-0 items-center space-x-1">
-          <img alt="Young Carers Logo" class="h-16 w-auto" src="/assets/logo.4f0eb610.png" />
+      <a href="/" aria-label="Young Carers Austria Startseite">
+        <figure class="flex flex-shrink-0 items-center space-x-1 mr-16 sm:mr-0">
+          <img alt="Young Carers Logo" class="max-h-16 w-auto" src="/assets/logo.4f0eb610.png" />
         </figure>
       </a>
-      <ul class="hidden sm:flex space-x-4"><li>
-          <a href="/alltagssituationen/" class="text-base text-darkBlue no-underline hover:underline " >
-            Alltagssituationen
-          </a>
+
+      
+      <ul class="hidden md:flex space-x-4 list-none">
+        <li class="text-darkBlue no-underline hover:underline ">
+          <a href="/alltagssituationen/">Alltagssituationen</a>
         </li>
-        <li>
-          <a href="/infos/24-stunden-betreuung/" class="text-base text-darkBlue no-underline hover:underline " >
-            Infos
-          </a>
+        <li class="text-darkBlue no-underline hover:underline ">
+          <a href="/infos/24-stunden-betreuung/">Infos</a>
         </li>
-        <li>
-          <a href="/im-notfall/" class="text-base text-darkBlue no-underline hover:underline " >
-            Im Notfall
-          </a>
+        <li class="text-darkBlue no-underline hover:underline ">
+          <a href="/im-notfall/">Im Notfall</a>
         </li>
-        <li>
-          <a href="/app/" class="text-base text-darkBlue no-underline hover:underline " >
-            App
-          </a>
+        <li class="text-darkBlue no-underline hover:underline ">
+          <a href="/app/">App</a>
         </li>
-        <li>
-          <a href="/faq/" class="text-base text-darkBlue no-underline hover:underline " >
-            FAQ
-          </a>
-        </li></ul>
+        <li class="text-darkBlue no-underline hover:underline ">
+          <a href="/faq/">FAQ</a>
+        </li>
+      </ul>
+
+      <div id="nav-list" x-show="menuOpen" class="absolute right-0 w-auto mt-64 mr-4 bg-gray-100 rounded-xl shadow-xl">
+        <ul class="flex flex-col space-y-3 list-none p-6 py-8">
+          <li class="text-darkBlue no-underline hover:underline ">
+            <a href="/alltagssituationen/">Alltagssituationen</a>
+          </li>
+          <li class="text-darkBlue no-underline hover:underline ">
+            <a href="/infos/24-stunden-betreuung/">Infos</a>
+          </li>
+          <li class="text-darkBlue no-underline hover:underline ">
+            <a href="/im-notfall/">Im Notfall</a>
+          </li>
+          <li class="text-darkBlue no-underline hover:underline ">
+            <a href="/app/">App</a>
+          </li>
+          <li class="text-darkBlue no-underline hover:underline ">
+            <a href="/faq/">FAQ</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex items-center md:hidden">
+          <button
+              class="text-darkBlue text-3xl font-bold opacity-70 hover:opacity-100 duration-300"
+              @click="menuOpen = !menuOpen"
+              aria-controls="nav-list">
+              &#9776;
+          </button>
+      </div>
+
     </div>
   </nav>
 </header>
@@ -97,11 +121,137 @@
 <main id="main-content" tabindex="-1">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="prose prose-lg prose-gray max-w-none text-gray-500">
-      <div class="container flex flex-row m-auto w-5/6">
+      <div class="container flex flex-col md:flex-row m-auto md:w-5/6 -mt-10">
 
-    <nav class="w-1/3 pr-7" aria-labelledby="infos-pagination">
-      <h3 id="infos-pagination" class="text-base uppercase text-darkBlue">Kategorien</h3>
-      <ol class="list-none p-0">
+  <nav class="hidden md:block w-1/3 pr-7" aria-labelledby="infos-pagination">
+    <h3 id="infos-pagination" class="text-base uppercase text-darkBlue">Kategorien</h3>
+    <ol class="list-none p-0">
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/24-stunden-betreuung/">24-Stunden-Betreuung</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/aktuelles/">Aktuelles</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/allgemeines/">Allgemeines</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/angehoerigengespraech/">Angehörigengespräch</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/beratung-und-pflegetipps/">Beratung und Pflegetipps</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/chatten/">Chatten</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/covid-19-coronavirus/">COVID-19 / Coronavirus</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/demenz/">Demenz</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/dienstleistungen-soziale-dienste/">Dienstleistungen / Soziale Dienste</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/entspannungstipps/">Entspannungstipps</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/erfahrungsberichte/">Erfahrungsberichte</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/erste-hilfe/">Erste Hilfe</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/familie/">Familie</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/finanzielles/">Finanzielles</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/freizeitangebote/">Freizeitangebote</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/gesundheitsportal-oesterreichs/">Gesundheitsportal Österreichs</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/haendehygiene/">Händehygiene</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline font-bold" href="/infos/heilbehelfe-und-hilfsmittel/" aria-current="page">Heilbehelfe und Hilfsmittel</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/jugend/">Jugend</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/krankheiten/">Krankheiten</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/kurse/">Kurse</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/lokale-angebote/">Lokale Angebote</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/notfall-nummern/">Notfall(nummern)</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/organisationen/">Organisationen</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/pflegegeld/">Pflegegeld</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/praevention/">Prävention</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/recht/">Recht</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/schule/">Schule</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/selbsthilfegruppen/">Selbsthilfegruppen</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/selfcare/">Selfcare</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/social-media/">Social Media</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/sozialministerium/">Sozialministerium</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/sozialversicherung/">Sozialversicherung</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/stress/">Stress</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/therapie/">Therapie</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/unterstuetzung/">Unterstützung</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/urlaub/">Urlaub</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/veranstaltungen/">Veranstaltungen</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/wissen/">Wissen</a>
+      </li>
+      <li class="pl-0 ">
+        <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/young-carers-international/">Young Carers International</a>
+      </li>
+    </ol>
+  </nav>
+
+  <details class="md:hidden mb-8">
+    <summary class="cursor-pointer list-none text-darkBlue text-right"><span class="text-darkBlue">Kategorie:</span> <span class="italic">Heilbehelfe und Hilfsmittel</span> <span class="text-sm">▼</span> </summary>
+        <ol class="list-none p-0">
         <li class="pl-0 ">
           <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/24-stunden-betreuung/">24-Stunden-Betreuung</a>
         </li>
@@ -222,11 +372,12 @@
         <li class="pl-0 ">
           <a class="font-normal text-darkBlue no-underline hover:underline " href="/infos/young-carers-international/">Young Carers International</a>
         </li>
-      </ol>
-    </nav>
+        </ol>
+  </details> 
 
-  <div class="w-2/3">
-    <h1 class="text-darkBlue">Information zu Hilfsmitteln und Heilbehelfen</h1>
+
+  <div class="md:w-2/3">
+    <h1 class="text-darkBlue break-words mb-2 text-3xl md:text-5xl">Information zu Hilfsmitteln und Heilbehelfen</h1>
     <p>Wie Medikamente müssen auch Heilbehelfe und Hilfsmittel von der Ärztin/vom Arzt <strong>verordnet</strong> werden, damit die <strong>Sozialversicherung</strong> die Kosten mitträgt. Man muss Heilbehelfe und Hilfsmittel jedoch nicht immer kaufen:</p>
 <p>Die Krankenkassen und verschiedene Anbieter mobiler Dienste verleihen auch bestimmte Produkte (z.B. Pflegebett). Heilbehelfe und Hilfsmittel sollen entweder einen Krankheitszustand <strong>heilen</strong> bzw. <strong>lindern</strong> oder <strong>fehlende bzw. mangelhafte Körperfunktionen ersetzen</strong>. Typische Heilbehelfe und Hilfsmittel sind beispielsweise <strong>Krücken, Rollatoren, Blutzuckermessgeräte, Hörgeräte, Brillen, orthopädische Schuheinlagen oder Inkontinenzprodukte (Einlagen, &quot;Windeln&quot;)</strong>. Mit einer ärztlichen Verordnung erhält man einen Heilbehelf oder ein Hilfsmittel bei Fachbetrieben wie Bandagisten, Optikern oder Orthopädieschuhmachern. Wenn man versichert ist, muss man nur einen Teil der Kosten bezahlen.  Wieviel , legt die jeweilige Krankenkasse fest.</p>
 <p><strong>Übrigens:</strong> Bei einem kostenlosen <a href="https://www.svs.at/cdscontent/?contentid=10007.816614&amp;portal=svsportal">Hausbesuch durch eine diplomierte Pflegefachkraft</a>, wird eine Beratung durchgeführt, aber auch praktische Pflegetipps, spezifisches Wissen rund um die Pflege oder etwa Infos über die Versorgung mit Hilfsmitteln weitergegeben.</p>
@@ -239,7 +390,7 @@
           <h2 class="text-base uppercase text-gray-500">selpers helpers</h2>
         
       </li>
-      <ul class="list-none p-0 m-0 pr-2 pb-2 flex flex-row flex-wrap gap-6 items-start">
+      <ul class="list-none p-0 m-0 md:pr-2 md:pb-2 flex flex-row flex-wrap gap-6 items-start">
       
         <li class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm p-0 m-0">
           <a class="no-underline" href="https://selpers.com/helpers/">
@@ -260,7 +411,7 @@
           <h2 class="text-base uppercase text-gray-500">Sozialministerium</h2>
         
       </li>
-      <ul class="list-none p-0 m-0 pr-2 pb-2 flex flex-row flex-wrap gap-6 items-start">
+      <ul class="list-none p-0 m-0 md:pr-2 md:pb-2 flex flex-row flex-wrap gap-6 items-start">
       
         <li class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm p-0 m-0">
           <a class="no-underline" href="https://www.gesundheit.gv.at/gesundheitsleistungen/kur-reha/heilbehelfe-hilfsmittel1.html">
@@ -284,12 +435,12 @@
   </div>
 </main>
 </div><footer class="bg-darkBlue text-white p-10 dark:prose-invert">
-  <div class="flex flex-col sm:flex-row justify-between">
+  <div class="flex flex-col-reverse md:flex-row justify-between">
     <a href="https://www.sozialministerium.at/">
       <img class="w-96" src="/assets/BMSGPK_Logo_weiss.986fa647.svg" alt="Logo des österreichischen Sozialministeriums">
     </a>
 
-    <nav class="flex flex-col underline text-right self-center">
+    <nav class="flex flex-wrap justify-center flex-row md:space-x-0 md:flex-col mb-8 md:mb-0 gap-x-3 gap-y-2 md:gap-0 text-right self-center font-light md:gap-y-1">
       <a href="/impressum/">Impressum</a>
       <a href="/datenschutzerklärung/">Datenschutzerklärung</a>
       <a href="/barrierefreiheitserklärung/">Barrierefreiheitserklärung</a>

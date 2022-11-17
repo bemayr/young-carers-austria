@@ -50,44 +50,68 @@
   onload="this.media='all'; this.onload=null;" />
 
   <script type="module" crossorigin src="/assets/main.fe3f1502.js"></script>
-  <link rel="stylesheet" href="/assets/main.37d6af81.css">
+  <link rel="stylesheet" href="/assets/main.fa29b3f0.css">
 </head>
 
 <body class="min-h-screen bg-gray-50" data-env="" x-data="{ chatbotOpen: false }"
   x-init="() => { setTimeout(() => { chatbotOpen = false }, 1500); }">
-  <header>
+  <header x-data="{ menuOpen: false }">
   <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex h-24 items-center justify-between">
-      <a href="/">
-        <figure class="flex flex-shrink-0 items-center space-x-1">
-          <img alt="Young Carers Logo" class="h-16 w-auto" src="/assets/logo.4f0eb610.png" />
+      <a href="/" aria-label="Young Carers Austria Startseite">
+        <figure class="flex flex-shrink-0 items-center space-x-1 mr-16 sm:mr-0">
+          <img alt="Young Carers Logo" class="max-h-16 w-auto" src="/assets/logo.4f0eb610.png" />
         </figure>
       </a>
-      <ul class="hidden sm:flex space-x-4"><li>
-          <a href="/alltagssituationen/" class="text-base text-darkBlue no-underline hover:underline " >
-            Alltagssituationen
-          </a>
+
+      
+      <ul class="hidden md:flex space-x-4 list-none">
+        <li class="text-darkBlue no-underline hover:underline ">
+          <a href="/alltagssituationen/">Alltagssituationen</a>
         </li>
-        <li>
-          <a href="/infos/24-stunden-betreuung/" class="text-base text-darkBlue no-underline hover:underline " >
-            Infos
-          </a>
+        <li class="text-darkBlue no-underline hover:underline ">
+          <a href="/infos/24-stunden-betreuung/">Infos</a>
         </li>
-        <li>
-          <a href="/im-notfall/" class="text-base text-darkBlue no-underline hover:underline " >
-            Im Notfall
-          </a>
+        <li class="text-darkBlue no-underline hover:underline ">
+          <a href="/im-notfall/">Im Notfall</a>
         </li>
-        <li>
-          <a href="/app/" class="text-base text-darkBlue no-underline hover:underline " >
-            App
-          </a>
+        <li class="text-darkBlue no-underline hover:underline  font-bold">
+          <a href="/app/">App</a>
         </li>
-        <li>
-          <a href="/faq/" class="text-base text-darkBlue no-underline hover:underline " >
-            FAQ
-          </a>
-        </li></ul>
+        <li class="text-darkBlue no-underline hover:underline ">
+          <a href="/faq/">FAQ</a>
+        </li>
+      </ul>
+
+      <div id="nav-list" x-show="menuOpen" class="absolute right-0 w-auto mt-64 mr-4 bg-gray-100 rounded-xl shadow-xl">
+        <ul class="flex flex-col space-y-3 list-none p-6 py-8">
+          <li class="text-darkBlue no-underline hover:underline ">
+            <a href="/alltagssituationen/">Alltagssituationen</a>
+          </li>
+          <li class="text-darkBlue no-underline hover:underline ">
+            <a href="/infos/24-stunden-betreuung/">Infos</a>
+          </li>
+          <li class="text-darkBlue no-underline hover:underline ">
+            <a href="/im-notfall/">Im Notfall</a>
+          </li>
+          <li class="text-darkBlue no-underline hover:underline  font-bold">
+            <a href="/app/">App</a>
+          </li>
+          <li class="text-darkBlue no-underline hover:underline ">
+            <a href="/faq/">FAQ</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex items-center md:hidden">
+          <button
+              class="text-darkBlue text-3xl font-bold opacity-70 hover:opacity-100 duration-300"
+              @click="menuOpen = !menuOpen"
+              aria-controls="nav-list">
+              &#9776;
+          </button>
+      </div>
+
     </div>
   </nav>
 </header>
@@ -99,13 +123,13 @@
     
 <h1 class="text-center text-darkBlue">Die Young Carers Austria App</h1>
 
-<div class="flex flex-row items-center not-prose">
-  <div class="md:w-3/5 h-auto -rotate-2">
-    <img class="-ml-16" src="/assets/yc-app.ios.21aa154c.png" alt="Young Carers Austria App">
+<div class="flex flex-col sm:flex-row items-center not-prose">
+  <div class="sm:w-3/5 h-auto -rotate-2">
+    <img class="sm:-ml-16" src="/assets/yc-app.ios.21aa154c.png" alt="Young Carers Austria App">
   </div>
-  <div class="md:w-2/5 flex flex-col items-center">
+  <div class="w-4/5 sm:w-2/5 flex flex-col items-center">
 
-    <img class="max-w-[15rem] pb-6" src="/assets/app-qr.80e7d2df.svg" alt="QR Code to Download the App" />
+    <img class="max-w-[15rem] mt-7 sm:mt-0 pb-6 order-last sm:order-none" src="/assets/app-qr.80e7d2df.svg" alt="QR Code to Download the App" />
 
     <a href="https://apps.apple.com/us/app/young-carers-austria/id1594317016">
       <img src="/assets/appstore.7801543d.png" alt="Apple App Store Link" />
@@ -124,12 +148,12 @@
   </div>
 </main>
 </div><footer class="bg-darkBlue text-white p-10 dark:prose-invert">
-  <div class="flex flex-col sm:flex-row justify-between">
+  <div class="flex flex-col-reverse md:flex-row justify-between">
     <a href="https://www.sozialministerium.at/">
       <img class="w-96" src="/assets/BMSGPK_Logo_weiss.986fa647.svg" alt="Logo des österreichischen Sozialministeriums">
     </a>
 
-    <nav class="flex flex-col underline text-right self-center">
+    <nav class="flex flex-wrap justify-center flex-row md:space-x-0 md:flex-col mb-8 md:mb-0 gap-x-3 gap-y-2 md:gap-0 text-right self-center font-light md:gap-y-1">
       <a href="/impressum/">Impressum</a>
       <a href="/datenschutzerklärung/">Datenschutzerklärung</a>
       <a href="/barrierefreiheitserklärung/">Barrierefreiheitserklärung</a>
