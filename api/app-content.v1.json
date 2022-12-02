@@ -614,6 +614,22 @@
     ],
     "references": [
       {
+        "id": "6389bb53a2804a9516884379",
+        "url": "https://www.caremanagement-tirol.at/page.cfm?vpath=informationen-fuer-angehoerige/young-carers",
+        "title": "LIV CareManagement Tirol",
+        "description": "Das CareManagement Tirol hat ein Pilotprojekt für die Bezirke Imst und Tirol gestartet. Angeboten werden Beratung und Hilfe für Kinder und junge Menschen unter 18 Jahren, die für ein Familienmitglied regelmäßige Betreuung übernehmen.",
+        "previewImageUrl": "https://www.caremanagement-tirol.at/data.cfm?vpath=ma-wartbare-inhalte/ma-teaser/pexels-pixabay-262075-420x236&dimensions=1200x630&cropmode=crop&noenlargement=true&horizontal=center&vertikal=center",
+        "containsPaidContent": false,
+        "keywords": [
+          "LIV CareManagement",
+          "Care Management",
+          "Imst",
+          "Landeck",
+          "Eltern",
+          ""
+        ]
+      },
+      {
         "id": "6375f62aa2804a951687d355",
         "url": "https://www.aerztekammer.at/arztsuche",
         "title": "Arztsuche",
