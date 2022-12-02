@@ -614,6 +614,25 @@
     ],
     "references": [
       {
+        "id": "6389be5da2804a9516884447",
+        "url": "https://healthhacks.at/",
+        "title": "#healthhacks",
+        "description": "Hier kannst du dich zu Themen wie Bewegung, Ernährung und Gesundheit, die dich interessieren, informieren und Tipps holen. Schau dir einfach die Videos an!",
+        "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1191509927.jpg",
+        "containsPaidContent": false,
+        "keywords": [
+          "Prävention",
+          "Bewegung",
+          "Ernährung",
+          "Gesundheit",
+          "Jugend",
+          "Selfcare; Krankheiten",
+          "Krankheit",
+          "Sport",
+          "Freizeit"
+        ]
+      },
+      {
         "id": "6389bb53a2804a9516884379",
         "url": "https://www.caremanagement-tirol.at/page.cfm?vpath=informationen-fuer-angehoerige/young-carers",
         "title": "LIV CareManagement Tirol",
