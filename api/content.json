@@ -7012,7 +7012,7 @@
               "description": "Folder als Download",
               "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-12-15T13:15:58.090Z",
+              "lastUpdated": "2022-12-15T13:17:07.822Z",
               "keywords": [
                 "Angehörige",
                 "Behinderung",
@@ -13881,6 +13881,52 @@
       "information": "Für Young Carers ist die Schule ein Ort, der ihnen Normalität vermittelt und an dem sie sich regelmäßig aufhalten. Eine niederschwellige **Identifizierung** von pflegenden Kindern kann deshalb am besten durch vertrauenswürdige Personen an Schulen erfolgen. Aber Zeichen wie häufige Müdigkeit und zu spät kommen, Konzentrationsstörungen, gesundheitliche Probleme wie z.B. Kreuzschmerzen, könnten - vor allem in Kombination mit dem Wissen um ein krankes Familienmitglied zu Hause - als Verdachtsanlässe gedeutet werden.\n\n**Empfehlungen für Personen im Schuldienst**: Anerkennen, dass sich die Pflegeverantwortung auf schulische Leistungen auswirken kann; sich selbst oder andere Personen als Gesprächspartner:in anbieten; Betroffene emotional unterstützen; Wissen, wohin oder an wen sich Young Carers wenden können.",
       "entries": [
         {
+          "ownerName": "Broschürenservice des Sozialministeriums",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://broschuerenservice.sozialministerium.at/Home/Download?publicationId=430",
+              "title": "Young Carers - Wenn Kinder Angehörige pflegen ",
+              "description": "Folder als Download",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1077782310.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2022-12-15T13:17:07.822Z",
+              "keywords": [
+                "Angehörige",
+                "Behinderung",
+                "Beratung",
+                "Bruder",
+                "Finanzielles",
+                "Geld",
+                "Geschwister",
+                "Gesundheit",
+                "Gesundheitsministerium",
+                "Großeltern",
+                "Hilfe",
+                "Jugendliche",
+                "Junge",
+                "Kinder",
+                "Mama",
+                "Ministerium",
+                "Mutter",
+                "Oma",
+                "Opa",
+                "Papa",
+                "Pflege",
+                "Pflegegeld",
+                "Pflegeplattform",
+                "Plattform",
+                "Schwester",
+                "Sozial",
+                "Sozialministerium",
+                "Unterstützung",
+                "Vater",
+                "Young Carers"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "LBG Village",
           "ownerUrl": "",
           "references": [
@@ -14666,5 +14712,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2022-12-15T13:16:32.412Z"
+  "timestamp": "2022-12-15T13:17:39.596Z"
 }
