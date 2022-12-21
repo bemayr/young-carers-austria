@@ -43,28 +43,28 @@ eleventyComputed:
 
     <ul class="list-none p-0">
     {% for entry in category.entries %}
-      <li>
+      <li class="pl-0">
         {% if entry.ownerUrl == "" %}
-          <h2 class="text-base uppercase text-gray-500">{{ entry.ownerName }}</h2>
+          <h2 class="text-base uppercase text-gray-500 pl-2">{{ entry.ownerName }}</h2>
         {% else %}
           <a href="{{ entry.ownerUrl }}"><h2>{{ entry.ownerName }}</h2></a>
         {% endif %}
+        <ul class="list-none p-0 m-0 md:pr-2 md:pb-2 flex flex-row flex-wrap gap-6 items-start">
+        {% for reference in entry.references %}
+          <li class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm p-0 m-0">
+            <a class="no-underline" href="{{ reference.url }}">
+              <img class="p-0 m-0 rounded-t-lg" src="{{ reference.previewImageUrl }}" alt="" />
+              <div class="p-5">
+                  <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2">{{ reference.title }}
+                  </h3>
+                <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent">{{ reference.description }}
+                </p>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+        </ul>
       </li>
-      <ul class="list-none p-0 m-0 md:pr-2 md:pb-2 flex flex-row flex-wrap gap-6 items-start">
-      {% for reference in entry.references %}
-        <li class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm p-0 m-0">
-          <a class="no-underline" href="{{ reference.url }}">
-            <img class="p-0 m-0 rounded-t-lg" src="{{ reference.previewImageUrl }}" alt="" />
-            <div class="p-5">
-                <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2">{{ reference.title }}
-                </h3>
-              <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent">{{ reference.description }}
-              </p>
-            </div>
-          </a>
-        </li>
-      {% endfor %}
-      </ul>
     {% endfor %}
     </ul>
   </div>

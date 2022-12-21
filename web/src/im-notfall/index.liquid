@@ -15,7 +15,7 @@ eleventyComputed:
 <section class="max-w-5xl mx-auto">
     <table class="table-auto">
     {% for entry in cms.content.emergency.numbers.entries %}
-    <tr class="even:bg-gray-100">
+    <tr class="even:bg-gray-100 text-gray-600">
         <td class="px-3">{{ entry.label }}</td>
         <td class="px-3 text-right"><a href="tel:{{ entry.number }}">{{ entry.number }}</a></td>
     </tr>
