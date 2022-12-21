@@ -22,9 +22,9 @@
   "homepage": "https://www.young-carers-austria.at",
   "scripts": {
     "clean": "del-cli _site .cache",
-    "start": "npx @11ty/eleventy --serve --incremental --quiet",
-    "build": "npx @11ty/eleventy",
-    "build:debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
+    "start": "cross-env NODE_ENV=development npx @11ty/eleventy --serve --incremental --quiet",
+    "build": "cross-env NODE_ENV=production npx @11ty/eleventy",
+    "build:debug": "cross-env NODE_ENV=development;DEBUG=Eleventy* npx @11ty/eleventy",
     "preview": "npx @11ty/eleventy-dev-server --input=_site",
     "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1",

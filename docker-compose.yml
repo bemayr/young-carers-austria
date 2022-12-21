@@ -7,12 +7,14 @@ networks:
     external: false
   cms:
     external: false
+  matomo:
+    external: false
 
 services:
   cms:
-    image: bemayr/young-carers-austria-cms:1.0.0
+    image: bemayr/young-carers-austria-cms:1.0.8
     container_name: cms
-    restart: always
+    restart: unless-stopped
     depends_on:
       - cms-database
     labels:
@@ -41,6 +43,19 @@ services:
     env_file:
       - cms-database.variables.env
 
+  chatbot:
+    image: bemayr/young-carers-austria-chatbot:1.0.0
+    container_name: chatbot
+    restart: always
+    labels:
+      - traefik.http.routers.chatbot.rule=Host(`chatbot.young-carers-austria.at`)
+      - traefik.http.routers.chatbot.tls=true
+      - traefik.http.routers.chatbot.tls.certresolver=lets-encrypt
+      - traefik.port=80
+    networks:
+      - internal
+      - web
+
   app-forward:
     image: bemayr/app-forward:1.0.1
     container_name: app-forward
@@ -55,3 +70,37 @@ services:
       - web
     env_file:
       - app-forward.variables.env
+
+  insights:
+    image: matomo
+    container_name: insights
+    restart: always
+    depends_on:
+      - insights-database
+    labels:
+      - traefik.http.routers.insights.rule=Host(`insights.young-carers-austria.at`)
+      - traefik.http.routers.insights.tls=true
+      - traefik.http.routers.insights.tls.certresolver=lets-encrypt
+      - traefik.port=80
+    volumes:
+      - ./data/insights/config:/var/www/html/config
+      - ./data/insights/logs:/var/www/html/logs
+      - ./data/insights/matomo:/var/www/html
+    networks:
+      - matomo
+      - internal
+      - web
+    env_file:
+      - ./insights.variables.env
+
+  insights-database:
+    image: mariadb
+    container_name: insights-database
+    command: --max-allowed-packet=64MB
+    restart: unless-stopped
+    volumes:
+      - ./data/insights-database/db:/data/db:rw
+    networks:
+      - matomo
+    env_file:
+      - ./insights.variables.env
