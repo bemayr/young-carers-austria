@@ -49,13 +49,32 @@
 
 <!-- https://www.filamentgroup.com/lab/load-css-simpler/ -->
 <link crossorigin="anonymous" rel="stylesheet" href="https://rsms.me/inter/inter.css" media="print"
-  onload="this.media='all'; this.onload=null;" />
+onload="this.media='all'; this.onload=null;" />
+
+<!-- Add the Matomo Tracking Code if we are in Production -->
+
+<!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//insights.young-carers-austria.at/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Matomo Code -->
+
 
   <script type="module" crossorigin src="/assets/main.fe3f1502.js"></script>
   <link rel="stylesheet" href="/assets/main.5280f0e4.css">
 </head>
 
-<body class="min-h-screen bg-gray-50" data-env="" x-data="{ chatbotOpen: false }"
+<body class="min-h-screen bg-gray-50" data-env="production" x-data="{ chatbotOpen: false }"
   x-init="() => { setTimeout(() => { chatbotOpen = false }, 1500); }">
   <header x-data="{ menuOpen: false }">
   <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
