@@ -614,6 +614,24 @@
     ],
     "references": [
       {
+        "id": "63a41f2c9a065c9ae7429810",
+        "url": "https://www.get-social.at/time4friends ",
+        "title": "time4friends",
+        "description": "Bei time4friends beraten Jugendliche (Peers)  andere Jugendliche auf WhatsApp. ",
+        "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
+        "containsPaidContent": false,
+        "keywords": [
+          "Chat",
+          "chatten",
+          "Beratung",
+          "Peer",
+          "Peers",
+          "whatsapp",
+          "reden",
+          "Jugendrotkreuz"
+        ]
+      },
+      {
         "id": "63a1d0c2d744ac2d96c3d28e",
         "url": "https://www.instagram.com/projekt.visible/ ",
         "title": "#visible - Kinder psychisch erkrankter Eltern sichtbar machen",
