@@ -587,7 +587,7 @@
         "id": "63684cde638c16809e4d0b95",
         "name": "Angehörigengespräch",
         "title": "Bei psychischer Belastung hilft das Angehörigengespräch",
-        "information": "Als pflegende Angehörige bzw. als pflegender Angehöriger ist man oft einer großen psychischen Belastung ausgesetzt und muss einem großen Druck standhalten. Um auch Young Carers zu unterstützen gibt es österreichweit das **Angehörigengespräch**. Das Gespräch wird von Psychologinnen und Psychologen geführt und ist **vertraulich**. Es kann zu Hause, an einem anderen Ort, telefonisch oder online erfolgen. Bis zu drei Termine können vereinbart werden.\n\nAuf Wunsch kann man das Angehörigengespräch unter [0508082087](tel:0508082087) **kostenlos** anfordern.",
+        "information": "Als pflegende Angehörige bzw. als pflegender Angehöriger ist man oft einer großen psychischen Belastung ausgesetzt und muss einem großen Druck standhalten. Um auch Young Carers zu unterstützen gibt es österreichweit das **Angehörigengespräch**. Das Gespräch wird von Psychologinnen und Psychologen geführt und ist **vertraulich**. Es kann zu Hause, an einem anderen Ort, telefonisch oder online erfolgen. Bis zu fünf Termine können vereinbart werden.\n\nAuf Wunsch kann man das Angehörigengespräch unter [0508082087](tel:0508082087) **kostenlos** anfordern.",
         "entries": []
       },
       {
@@ -613,6 +613,26 @@
       }
     ],
     "references": [
+      {
+        "id": "63c027119a065c9ae7429a6d",
+        "url": "https://www.sozialministeriumservice.at/Finanzielles/Pflegeunterstuetzungen/Pflegende_Angehoerige/Unterstuetzung_fuer_pflegende_Angehoerige.de.html ",
+        "title": "Finanzielle Unterstützung für Pflegekurse ",
+        "description": "Wenn du einen Kurs besucht, indem du lernst, wie man jemanden pflegt und betreut, kannst du einen Zuschuss zu den Schulungskosten bekommen. Das gilt auch für online-Kurse.",
+        "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-614959570.jpg",
+        "containsPaidContent": false,
+        "keywords": [
+          "Kurse",
+          "Kurs",
+          "Schulung",
+          "Zuwendung",
+          "Unterstützung",
+          "lernen",
+          "Familie",
+          "pflegen",
+          "Hilfe",
+          "Sozialministeriumservice"
+        ]
+      },
       {
         "id": "63a41f2c9a065c9ae7429810",
         "url": "https://www.get-social.at/time4friends ",
@@ -817,7 +837,7 @@
         "id": "6368aefbedafca3f7d6350d8",
         "url": "https://www.svs.at/cdscontent/?contentid=10007.816614&portal=svsportal",
         "title": "Wie kommts zum Angehörigengespräch?",
-        "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort oder telefonisch stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
+        "description": "Keine Angst! Es ist kostenlos, vertraulich und kann je nach Wunsch entweder zu Hause, an einem anderen Ort, telefonisch oder online stattfinden. Termine werden per Telefon oder E-Mail vereinbart.",
         "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1191509927.jpg",
         "containsPaidContent": false,
         "keywords": [
