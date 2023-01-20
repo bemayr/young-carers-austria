@@ -614,6 +614,22 @@
     ],
     "references": [
       {
+        "id": "63ca951c022e9d31342ca7d1",
+        "url": "https://www.rataufdraht.at/peerberatung ",
+        "title": "Peerberatung - Jugendliche beraten Jugendliche",
+        "description": "Bei Rat auf Draht hast du die Möglichkeit, mit jemandem zu chatten und Erfahrungen auszutauschen, der/die so alt ist wie du. ",
+        "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-517134664.jpg",
+        "containsPaidContent": false,
+        "keywords": [
+          "Rat auf Draht",
+          "Beratung",
+          "chatten",
+          "reden",
+          "Erfahrung",
+          "Jugendliche"
+        ]
+      },
+      {
         "id": "63c027119a065c9ae7429a6d",
         "url": "https://www.sozialministeriumservice.at/Finanzielles/Pflegeunterstuetzungen/Pflegende_Angehoerige/Unterstuetzung_fuer_pflegende_Angehoerige.de.html ",
         "title": "Finanzielle Unterstützung für Pflegekurse ",
