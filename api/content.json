@@ -4596,6 +4596,29 @@
                 ]
               },
               {
+                "ownerName": "Rotes Kreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://www.roteskreuz.at/ich-brauche-hilfe/lernhaus",
+                    "title": "Lernhaus",
+                    "description": "Wenn Kinder und Jugendliche Hilfe beim Lernen brauchen, unterstützt das Rote Kreuz. In Kleingruppen werden deine Kompetenzen mit Unterstützung von Pädagoginnen und Pädagogen sowie freiwilligen Helfer:innen gestärkt.",
+                    "previewImageUrl": "https://www.roteskreuz.at/fileadmin/Read_Only/Migration/Projekte_Migration/RS18795_190122_OeRK_Lernhaus_Imagebilder-2592-lpr.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2023-02-02T13:19:33.645Z",
+                    "keywords": [
+                      "Lernen",
+                      "Schule",
+                      "Unterricht",
+                      "Hilfe",
+                      "Schüler",
+                      "Schülerin",
+                      "Note"
+                    ]
+                  }
+                ]
+              },
+              {
                 "ownerName": "Schulpsychologischer Dienst BMBWF",
                 "ownerUrl": "",
                 "references": [
@@ -12907,6 +12930,29 @@
           ]
         },
         {
+          "ownerName": "Rotes Kreuz",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://www.roteskreuz.at/ich-brauche-hilfe/lernhaus",
+              "title": "Lernhaus",
+              "description": "Wenn Kinder und Jugendliche Hilfe beim Lernen brauchen, unterstützt das Rote Kreuz. In Kleingruppen werden deine Kompetenzen mit Unterstützung von Pädagoginnen und Pädagogen sowie freiwilligen Helfer:innen gestärkt.",
+              "previewImageUrl": "https://www.roteskreuz.at/fileadmin/Read_Only/Migration/Projekte_Migration/RS18795_190122_OeRK_Lernhaus_Imagebilder-2592-lpr.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-02-02T13:19:33.645Z",
+              "keywords": [
+                "Lernen",
+                "Schule",
+                "Unterricht",
+                "Hilfe",
+                "Schüler",
+                "Schülerin",
+                "Note"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Schulpsychologischer Dienst BMBWF",
           "ownerUrl": "",
           "references": [
@@ -15225,5 +15271,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-02-02T13:12:02.573Z"
+  "timestamp": "2023-02-02T13:20:03.900Z"
 }

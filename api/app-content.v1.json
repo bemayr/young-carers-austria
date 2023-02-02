@@ -614,6 +614,23 @@
     ],
     "references": [
       {
+        "id": "63dbb86536b42728c720b2e1",
+        "url": "https://www.roteskreuz.at/ich-brauche-hilfe/lernhaus",
+        "title": "Lernhaus",
+        "description": "Wenn Kinder und Jugendliche Hilfe beim Lernen brauchen, unterstützt das Rote Kreuz. In Kleingruppen werden deine Kompetenzen mit Unterstützung von Pädagoginnen und Pädagogen sowie freiwilligen Helfer:innen gestärkt.",
+        "previewImageUrl": "https://www.roteskreuz.at/fileadmin/Read_Only/Migration/Projekte_Migration/RS18795_190122_OeRK_Lernhaus_Imagebilder-2592-lpr.jpg",
+        "containsPaidContent": false,
+        "keywords": [
+          "Lernen",
+          "Schule",
+          "Unterricht",
+          "Hilfe",
+          "Schüler",
+          "Schülerin",
+          "Note"
+        ]
+      },
+      {
         "id": "63dbb68336b42728c720b1f4",
         "url": "https://www.verein-blumenwiese.at/",
         "title": "Verein Blumenwiese ... weil nicht jede Blume gleich ist",
