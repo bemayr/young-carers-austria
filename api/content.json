@@ -15035,6 +15035,33 @@
           ]
         },
         {
+          "ownerName": "Ernst Freiberger-Stiftung",
+          "ownerUrl": "https://ernst-freiberger-stiftung.de/",
+          "references": [
+            {
+              "url": "https://ernst-freiberger-stiftung.de/young-carer/",
+              "title": "Windschatten Berlin",
+              "description": "Das Young Carers Zentrum Windschatten ist eine Anlaufstelle für Kinder und Jugendliche mit schwer kranken Familienmitgliedern in Berlin.",
+              "previewImageUrl": "https://ernst-freiberger-stiftung.de/wp-content/uploads/2021/04/EFA-Museum-Young-Carer-1024x683.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-03-01T10:54:32.852Z",
+              "keywords": [
+                "Windschatten",
+                "Ernst Freiberger-Stiftung",
+                "Young Carers",
+                "Eltern",
+                "Familie",
+                "Beratung",
+                "Angebot",
+                "Hilfe",
+                "Berlin",
+                "Deutschland",
+                "Jugendzentrum"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Hilfe für pflegende Kinder (Deutschland)",
           "ownerUrl": "",
           "references": [
@@ -15474,5 +15501,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-03-01T10:49:49.817Z"
+  "timestamp": "2023-03-01T10:55:01.989Z"
 }
