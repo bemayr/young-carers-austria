@@ -614,6 +614,22 @@
     ],
     "references": [
       {
+        "id": "6400c0743cba57b636935f5a",
+        "url": "https://familycarers.ie/carer-supports/young-carers",
+        "title": "Family Carers Ireland",
+        "description": "Und hier ein Beispiel aus Irland. Family Carers Ireland informiert zu verschiedenen Unterstützungsangeboten für Young Carers auf der \"Grünen Insel\".",
+        "previewImageUrl": "https://familycarers.ie/media/1728/carer-supports_young-carers-blue-1-44082.png",
+        "containsPaidContent": false,
+        "keywords": [
+          "Familie",
+          "Young Carers",
+          "Irland",
+          "Ireland",
+          "Eltern",
+          "Geschwister"
+        ]
+      },
+      {
         "id": "63ff2ee83cba57b636935c5f",
         "url": "https://ernst-freiberger-stiftung.de/young-carer/",
         "title": "Windschatten Berlin",

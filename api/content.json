@@ -15062,6 +15062,28 @@
           ]
         },
         {
+          "ownerName": "Family Carers Ireland",
+          "ownerUrl": "https://familycarers.ie/",
+          "references": [
+            {
+              "url": "https://familycarers.ie/carer-supports/young-carers",
+              "title": "Family Carers Ireland",
+              "description": "Und hier ein Beispiel aus Irland. Family Carers Ireland informiert zu verschiedenen Unterstützungsangeboten für Young Carers auf der \"Grünen Insel\".",
+              "previewImageUrl": "https://familycarers.ie/media/1728/carer-supports_young-carers-blue-1-44082.png",
+              "isPaidContent": false,
+              "lastUpdated": "2023-03-02T15:27:48.097Z",
+              "keywords": [
+                "Familie",
+                "Young Carers",
+                "Irland",
+                "Ireland",
+                "Eltern",
+                "Geschwister"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Hilfe für pflegende Kinder (Deutschland)",
           "ownerUrl": "",
           "references": [
@@ -15501,5 +15523,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-03-02T15:20:20.659Z"
+  "timestamp": "2023-03-02T15:28:33.491Z"
 }
