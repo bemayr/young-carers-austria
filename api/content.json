@@ -13516,6 +13516,29 @@
       "information": "Das Sozialministerium beschäftigt sich unter anderem mit **Angeboten zur Unterstützung für pflegende Angehörige**. Auch die Herausforderungen, mit denen Young Carers konfrontiert sind, sind hier ein großes Thema. So wurden verschiedene Aktionen durchgeführt, um die Öffentlichkeit auf pflegende Kinder und Jugendliche - was sie tun und wieviel sie leisten - aufmerksam zu machen.\n\nAußerdem gibt es **verschiedene Hilfsangebote** für betreuende und pflegende Angehörige, z.B. kostenlose Kranken- und Pensionsversicherung, Pflegekarenz, Familienhospizkarenz, Pflegekarenzgeld, etc.",
       "entries": [
         {
+          "ownerName": "GIVE - Servicestelle für Gesundheitsförderung an Österreichs Schulen",
+          "ownerUrl": "https://www.give.or.at/",
+          "references": [
+            {
+              "url": "https://www.give.or.at/",
+              "title": "GIVE - Servicestelle für Gesundheitsförderung an Österreichs Schulen",
+              "description": "Als Informations- und Dokumentationsdrehscheibe unterstützt GIVE Lehrer:innen und Schulärztinnen / Schulärzte bei allen Aktivitäten und Maßnahmen im Bereich Gesundheit und Gesundheitsförderung.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-03-08T12:25:55.994Z",
+              "keywords": [
+                "Give",
+                "Schule",
+                "Gesundheitsförderung",
+                "Lehrer",
+                "Sozialministerium",
+                "Jugendrotkreuz",
+                "Information"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Sozialministerium",
           "ownerUrl": "",
           "references": [
@@ -14582,6 +14605,29 @@
           ]
         },
         {
+          "ownerName": "GIVE - Servicestelle für Gesundheitsförderung an Österreichs Schulen",
+          "ownerUrl": "https://www.give.or.at/",
+          "references": [
+            {
+              "url": "https://www.give.or.at/",
+              "title": "GIVE - Servicestelle für Gesundheitsförderung an Österreichs Schulen",
+              "description": "Als Informations- und Dokumentationsdrehscheibe unterstützt GIVE Lehrer:innen und Schulärztinnen / Schulärzte bei allen Aktivitäten und Maßnahmen im Bereich Gesundheit und Gesundheitsförderung.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-03-08T12:25:55.994Z",
+              "keywords": [
+                "Give",
+                "Schule",
+                "Gesundheitsförderung",
+                "Lehrer",
+                "Sozialministerium",
+                "Jugendrotkreuz",
+                "Information"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "LBG Village",
           "ownerUrl": "",
           "references": [
@@ -15523,5 +15569,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-03-08T11:40:40.678Z"
+  "timestamp": "2023-03-08T12:26:36.292Z"
 }
