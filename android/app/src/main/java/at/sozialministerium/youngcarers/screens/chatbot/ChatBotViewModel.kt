@@ -42,7 +42,9 @@ class ChatBotViewModel (
                 Message.Text(text, Author.Bot)
             })
             result.results?.let {  results ->
-                _messages.addAll(results.map { result ->
+                _messages.addAll(results.filter {
+                    message -> message.type == "reference"
+                }.map { result ->
                     Message.Reference(result.reference!!, Author.Bot)
                 })
             }
