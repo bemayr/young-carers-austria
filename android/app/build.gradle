@@ -13,7 +13,7 @@ android {
     defaultConfig {
         applicationId "at.sozialministerium.youngcarers"
         minSdk 21
-        targetSdk 33
+        targetSdk 31
         versionCode 6
         versionName "2.0"
 
