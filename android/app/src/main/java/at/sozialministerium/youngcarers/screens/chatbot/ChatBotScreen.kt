@@ -201,8 +201,7 @@ fun MessageSection(
     ) {
     val focusManager = LocalFocusManager.current
     var message by remember { mutableStateOf("") }
-
-
+    
     fun sendMessage() {
         viewModel.sendMessage(message)
         message = ""
