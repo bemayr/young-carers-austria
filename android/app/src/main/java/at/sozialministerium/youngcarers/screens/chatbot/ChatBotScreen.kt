@@ -36,6 +36,7 @@ import at.sozialministerium.youngcarers.R
 import at.sozialministerium.youngcarers.cards.AbcDetailSideCard
 import at.sozialministerium.youngcarers.ui.theme.colorDarkRed
 import com.google.accompanist.pager.ExperimentalPagerApi
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 import org.koin.androidx.compose.getViewModel
@@ -209,6 +210,7 @@ fun MessageSection(
     ) {
     val focusManager = LocalFocusManager.current
     var message by remember { mutableStateOf("") }
+
 
     fun sendMessage() {
         viewModel.sendMessage(message)

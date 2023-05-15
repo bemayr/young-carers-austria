@@ -1,10 +1,14 @@
 package at.sozialministerium.youngcarers.screens.chatbot
 
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.toMutableStateList
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import at.sozialministerium.youngcarers.data.store.DataRepository
 import at.sozialministerium.youngcarers.screens.chatbot.api.model.Character
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 
@@ -42,7 +46,9 @@ class ChatBotViewModel (
                 Message.Text(text, Author.Bot)
             })
             result.results?.let {  results ->
-                _messages.addAll(results.map { result ->
+                _messages.addAll(results.filter {
+                    message -> message.type == "reference"
+                }.map { result ->
                     Message.Reference(result.reference!!, Author.Bot)
                 })
             }
