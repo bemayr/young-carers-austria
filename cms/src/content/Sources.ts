@@ -8,6 +8,9 @@ const Sources: CollectionConfig = {
     singular: "Quelle",
     plural: "Quellen"
   },
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Inhalte",
     useAsTitle: 'name',

@@ -4,6 +4,9 @@ import { notifyChatbot } from '../util/hooks';
 const Messages: GlobalConfig = {
   slug: 'chatbot-messages',
   label: "Nachrichten",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Chatbot",
   },

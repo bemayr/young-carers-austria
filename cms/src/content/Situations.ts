@@ -7,6 +7,9 @@ const Situations: CollectionConfig = {
     singular: "Alltagssituation",
     plural: "Alltagssituationen"
   },
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Inhalte",
     useAsTitle: 'name',

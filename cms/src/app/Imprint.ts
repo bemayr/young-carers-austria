@@ -4,6 +4,9 @@ import { notifyGitHub } from '../util/hooks';
 const Imprint: GlobalConfig = {
   slug: 'app-imprint',
   label: "Impressum",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "App",
   },

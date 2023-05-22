@@ -7,6 +7,9 @@ const Categories: CollectionConfig = {
     singular: "Kategorie",
     plural: "Kategorien"
   },
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Inhalte",
     useAsTitle: 'name',

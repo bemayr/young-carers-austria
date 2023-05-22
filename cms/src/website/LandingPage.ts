@@ -4,6 +4,9 @@ import { notifyGitHub } from '../util/hooks';
 const LandingPage: GlobalConfig = {
   slug: 'website-landing',
   label: "Landing Page",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Webseite",
   },

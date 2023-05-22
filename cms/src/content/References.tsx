@@ -9,6 +9,9 @@ const References: CollectionConfig = {
     singular: "Referenz",
     plural: "Referenzen"
   },
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Inhalte",
     useAsTitle: 'title',

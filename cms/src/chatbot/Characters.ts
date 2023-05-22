@@ -7,6 +7,9 @@ const Characters: CollectionConfig = {
     singular: "Charakter",
     plural: "Charaktere"
   },
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Chatbot",
     useAsTitle: 'name',
