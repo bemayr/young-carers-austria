@@ -28,7 +28,7 @@ The tasks we are currently working on look like this:
 
 ## Platform Architecture
 
-![Young Carers Austria Architecture Diagram](./yc%20app%20architecture.png)
+![Young Carers Austria Architecture Diagram](./assets/yc%20app%20architecture.png)
 
 ### Website
 
@@ -40,7 +40,7 @@ The tasks we are currently working on look like this:
 
 ### App Forwarding
 
-<img src="./app-qr.svg" alt="https://app.young-carers-austria.at" title="Young Carers Austria App QR Code" style="width: 250px;">
+<img src="./assets/app-qr.svg" alt="https://app.young-carers-austria.at" title="Young Carers Austria App QR Code" style="width: 250px;">
 
 `// TODO`
 
