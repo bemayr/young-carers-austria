@@ -1,4 +1,4 @@
-version: "3"
+version: "3.8"
 
 networks:
   web:
@@ -11,6 +11,33 @@ networks:
     external: false
 
 services:
+  # reverse proxy for service lookup
+  traefik:
+    restart: always
+    image: traefik:v2.9
+    command:
+      - --api.dashboard=true
+      - --providers.docker=true
+      - --providers.docker.exposedbydefault=false
+      - --entrypoints.websecure.address=:443
+      - --certificatesresolvers.lets-encrypt.acme.tlschallenge=true
+      - --certificatesresolvers.lets-encrypt.acme.email=${POSTMASTER}
+      - --certificatesresolvers.lets-encrypt.acme.storage=/letsencrypt/acme.json
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dashboard.rule=Host(`monitor.young-carers-austria.local`) && (PathPrefix(`/api`) || PathPrefix(`/dashboard`))"
+      - "traefik.http.routers.dashboard.service=api@internal"
+      - "traefik.http.routers.dashboard.middlewares=auth"
+      - "traefik.http.middlewares.auth.digestauth.users=${TRAEFIK_USER}:traefik:${TRAEFIK_PASSWORD}"
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./letsencrypt:/letsencrypt
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    env_file:
+      - variables.reverse-proxy.env
+
   cms:
     image: bemayr/young-carers-austria-cms:1.0.8
     container_name: cms
@@ -27,7 +54,7 @@ services:
       - web
       - cms
     env_file:
-      - cms.variables.env
+      - variables.cms.env
 
   cms-database:
     image: mongo:6.0.2
@@ -41,10 +68,10 @@ services:
       - ./data/cms-database/db:/data/db:rw
       - ./data/cms-database/config:/data/configdb:rw
     env_file:
-      - cms-database.variables.env
+      - variables.cms-database.env
 
   chatbot:
-    image: bemayr/young-carers-austria-chatbot:1.0.0
+    image: bemayr/young-carers-austria-chatbot:1.0.5
     container_name: chatbot
     restart: always
     labels:
@@ -68,8 +95,10 @@ services:
     networks:
       - internal
       - web
-    env_file:
-      - app-forward.variables.env
+    environment:
+      APPFORWARD_IOSURL=https://apps.apple.com/us/app/young-carers-austria/id1594317016
+      APPFORWARD_ANDROIDURL=https://play.google.com/store/apps/details?id=at.sozialministerium.youngcarers
+      APPFORWARD_FALLBACKURL=https://www.young-carers-austria.at/app/
 
   insights:
     image: matomo
@@ -91,7 +120,7 @@ services:
       - internal
       - web
     env_file:
-      - ./insights.variables.env
+      - variables.insights.env
 
   insights-database:
     image: mariadb
@@ -103,4 +132,4 @@ services:
     networks:
       - matomo
     env_file:
-      - ./insights.variables.env
+      - variables.insights.env
