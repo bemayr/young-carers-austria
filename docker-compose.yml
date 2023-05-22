@@ -62,13 +62,17 @@ services:
     restart: unless-stopped
     networks:
       - cms
-    ports:
-      - '27017:27017'
     volumes:
       - ./data/cms-database/db:/data/db:rw
       - ./data/cms-database/config:/data/configdb:rw
     env_file:
       - variables.cms-database.env
+
+  linkchecker:
+    image: bemayr/lychee2http:latest
+    command: "-form -cgi -no-index -500 -port=80 /check 'echo $$v_content | /usr/local/bin/lychee - --format=json --no-progress --verbose | xargs -0 printf \"Content-Type: application/json\n\n%s\"'"
+    networks:
+      - cms
 
   chatbot:
     image: bemayr/young-carers-austria-chatbot:1.0.5
