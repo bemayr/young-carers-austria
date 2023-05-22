@@ -8,7 +8,7 @@
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
     "build:payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload build",
     "build:server": "tsc",
-    "build": "yarn copyfiles && yarn build:payload && yarn build:server",
+    "build": "pnpm copyfiles && pnpm build:payload && pnpm build:server",
     "serve": "cross-env PAYLOAD_CONFIG_PATH=dist/payload.config.js NODE_ENV=production node dist/server.js",
     "copyfiles": "copyfiles -u 1 \"src/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png}\" dist/",
     "generate:types": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:types",
@@ -17,9 +17,13 @@
   "dependencies": {
     "@types/open-graph-scraper": "^4.8.2",
     "dotenv": "^8.2.0",
+    "escape-html": "^1.0.3",
     "express": "^4.17.1",
     "open-graph-scraper": "^4.11.1",
-    "payload": "^1.1.16"
+    "payload": "^1.1.16",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "slate": "^0.94.1"
   },
   "devDependencies": {
     "@types/escape-html": "^1.0.2",
