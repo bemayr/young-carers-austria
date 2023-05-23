@@ -42,6 +42,9 @@ const References: CollectionConfig = {
           required: true,
           admin: {
             width: "90%",
+          },
+          hooks: {
+            beforeValidate: [(args) => (args.value as string).trim()]
           }
         },
         {
