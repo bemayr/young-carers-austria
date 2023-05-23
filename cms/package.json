@@ -20,7 +20,7 @@
     "escape-html": "^1.0.3",
     "express": "^4.17.1",
     "open-graph-scraper": "^4.11.1",
-    "payload": "^1.1.16",
+    "payload": "^1.1.22",
     "qs": "^6.11.2",
     "react": "^18.2.0",
     "slate": "^0.94.1"
