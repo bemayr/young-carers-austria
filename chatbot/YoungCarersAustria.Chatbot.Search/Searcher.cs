@@ -23,6 +23,8 @@ namespace YoungCarersAustria.Chatbot.Search
         private IndexWriter writer;
         private DirectoryReader reader;
         private IndexSearcher searcher;
+        private Dictionary<string, Insight> insightsLookup = new() { };
+        private Dictionary<string, Category> categoryLookup = new() { };
         private Dictionary<string, Reference> referenceLookup = new() { };
 
         public Searcher()
@@ -34,12 +36,51 @@ namespace YoungCarersAustria.Chatbot.Search
         {
             writer.DeleteAll();
 
-            var documents = content.References.Select(reference => {
+            #region Insights
+            var insights = content.Insights.Select(insight => {
+                var parts = insight.Parts.Where(part => part.Type == "text").Select(part => part.Text);
+
+                // create document
+                Document document = new()
+                {
+                    new StoredField(name: "id", insight.Question),
+                    new StoredField(name: "type", "insight"),
+                    new TextField(name: "name", insight.Question, Field.Store.NO) { Boost = 2.5f },
+                    new TextField(name: "description", string.Join(Environment.NewLine, parts), Field.Store.NO) { Boost = 1f },
+                };
+
+                return document;
+            });
+            writer.AddDocuments(insights); // TODO: enable this
+            #endregion
+            #region Categories
+            var categories = content.Categories.Select(category => {
+                // create document
+                Document document = new()
+                {
+                    new StoredField(name: "id", category.Id),
+                    new StoredField(name: "type", "category"),
+                    new TextField(name: "name", category.Name, Field.Store.NO) { Boost = 3f },
+                    new TextField(name: "title", category.Title, Field.Store.NO) { Boost = 1.5f },
+                    new TextField(name: "description", category.Information, Field.Store.NO) { Boost = 1f },
+                };
+
+                //// add keywords
+                //foreach (string keyword in category.Keywords)
+                //    document.Add(new TextField(name: "keyword", keyword, Field.Store.NO) { Boost = .5f });
+
+                return document;
+            });
+            writer.AddDocuments(categories); // TODO: enable this // Hole.TemporarilyDisabled(writer.AddDocuments(categories), "this breaks the current iOS Chatbot");
+            #endregion
+            #region References
+            var references = content.References.Select(reference => {
                 // create document
                 Document document = new()
                 {
                     new StoredField(name: "id", reference.Id),
-                    new TextField(name: "title", reference.Title, Field.Store.NO),
+                    new StoredField(name: "type", "reference"),
+                    new TextField(name: "title", reference.Title, Field.Store.NO) { Boost = 2f },
                     new TextField(name: "description", reference.Description, Field.Store.NO),
                 };
 
@@ -49,14 +90,18 @@ namespace YoungCarersAustria.Chatbot.Search
 
                 return document;
             });
+            writer.AddDocuments(references);
+            #endregion
 
-            writer.AddDocuments(documents);
+
             writer.Commit();
 
             reader = writer.GetReader(applyAllDeletes: true);
             searcher = new IndexSearcher(reader);
 
-            // create the reference lookup
+            // create the lookups
+            insightsLookup = content.Insights.ToDictionary(category => category.Question);
+            categoryLookup = content.Categories.ToDictionary(category => category.Id);
             referenceLookup = content.References.ToDictionary(reference => reference.Id);
         }
 
@@ -65,6 +110,7 @@ namespace YoungCarersAustria.Chatbot.Search
             BooleanQuery query = new();
             foreach (var token in GetTokens(message))
             {
+                query.Add(new TermQuery(new Term("name", token)), Occur.SHOULD);
                 query.Add(new TermQuery(new Term("title", token)), Occur.SHOULD);
                 query.Add(new TermQuery(new Term("description", token)), Occur.SHOULD);
                 query.Add(new FuzzyQuery(new Term("keyword", token), maxEdits: 1), Occur.SHOULD);
@@ -72,8 +118,14 @@ namespace YoungCarersAustria.Chatbot.Search
 
             TopDocs searchResult = searcher.Search(query, n: 5);
 
-            var results = searchResult.ScoreDocs.Select(hit =>
-                new Result.Reference(referenceLookup[searcher.Doc(hit.Doc).Get("id")]));
+            var results = searchResult.ScoreDocs.Select<ScoreDoc, Result>(hit =>
+                searcher.Doc(hit.Doc).Get("type") switch
+                {
+                    "insight" => new Result.Insight(insightsLookup[searcher.Doc(hit.Doc).Get("id")]),
+                    "category" => new Result.Category(categoryLookup[searcher.Doc(hit.Doc).Get("id")]),
+                    "reference" => new Result.Reference(referenceLookup[searcher.Doc(hit.Doc).Get("id")]),
+                    _ => throw new NotImplementedException(),
+                });
 
             return results.Any()
                 ? results
@@ -89,6 +141,7 @@ namespace YoungCarersAustria.Chatbot.Search
                 yield return tokenStream.GetAttribute<ICharTermAttribute>().ToString();
             }
             tokenStream.End();
+            tokenStream.Dispose();
         }
 
         public void Dispose()
