@@ -24,7 +24,6 @@ const References: CollectionConfig = {
   },
   versions: {
     maxPerDoc: 5,
-    retainDeleted: true,
     drafts: 
     {
       autosave: false

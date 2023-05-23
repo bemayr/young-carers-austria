@@ -51,6 +51,9 @@ export default buildConfig({
       }
     })
   },
+  i18n: {
+    lng: "de-AT"
+  },
   collections: [
     // content
     Categories,
