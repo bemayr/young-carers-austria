@@ -1,9 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
 using YoungCarersAustria.Chatbot.Data;
+using YoungCarersAustria.Chatbot.Data.App;
 using YoungCarersAustria.Chatbot.Search;
 
 var data = await DataGetter.Load();
-var searcher = new Searcher();
+var searcher = new WebSearcher();
 searcher.Index(data.content);
 
 void TestTokenization(string phrase)

@@ -1,5 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 
+namespace YoungCarersAustria.Chatbot.Data.App;
+
 public abstract record Answer(
     [property: JsonPropertyName("type")] string Type,
     [property: JsonPropertyName("messages")] IReadOnlyList<string> Messages)
