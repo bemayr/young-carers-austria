@@ -1,5 +1,6 @@
 import { GlobalConfig } from 'payload/types';
 import { notifyGitHub } from '../util/hooks';
+import { virtualPlainRichtextField } from '../util/fields';
 
 const FAQ: GlobalConfig = {
   slug: 'faq',
@@ -47,6 +48,7 @@ const FAQ: GlobalConfig = {
             leaves: ["bold"]
           }
         },
+        virtualPlainRichtextField("answer"),
         {
           name: "showOnLandingPage",
           type: "checkbox",

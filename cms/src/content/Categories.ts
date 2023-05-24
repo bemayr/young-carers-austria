@@ -1,5 +1,6 @@
 import { CollectionConfig } from 'payload/types';
 import { notifyGitHub } from '../util/hooks';
+import { virtualPlainRichtextField } from '../util/fields';
 
 const Categories: CollectionConfig = {
   slug: 'categories',
@@ -51,6 +52,7 @@ const Categories: CollectionConfig = {
         leaves: ["bold"]
       }
     },
+    virtualPlainRichtextField("description"),
     {
       name: 'keywords',
       type: 'textarea',

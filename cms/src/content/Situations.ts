@@ -1,5 +1,6 @@
 import { CollectionConfig } from 'payload/types';
 import { notifyGitHub } from '../util/hooks';
+import { virtualPlainRichtextField } from '../util/fields';
 
 const Situations: CollectionConfig = {
   slug: 'situations',
@@ -44,6 +45,7 @@ const Situations: CollectionConfig = {
         leaves: ["bold"]
       }
     },
+    virtualPlainRichtextField("content"),
   ],
 }
 
