@@ -5,14 +5,17 @@
   {% include "partials/site-head" %}
 </head>
 
-<body class="min-h-screen bg-gray-50" data-env="{{ node.env }}" x-data="{ chatbotOpen: false }"
-  x-init="() => { setTimeout(() => { chatbotOpen = false }, 1500); }">
+<body
+  class="min-h-screen bg-gray-50"
+  data-env="{{ node.env }}"
+  x-data="{ chatbotOpen: false }"
+  :class="chatbotOpen?'overflow-hidden':'overflow-auto'">
   {% include "partials/site-header" %}
 
   <div class="py-10">{% block content %}{% endblock %}</div>
 
   {%- comment -%} {% include "partials/banner.html" %} {%- endcomment -%}
-  {%- comment -%} {% include "partials/chatbot" %} {%- endcomment -%}
+  {% include "partials/chatbot" %}
 
   {% include "partials/site-footer" %}
   <script type="module" src="/main.js"></script>
