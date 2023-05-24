@@ -31,25 +31,21 @@ app.MapPost("/index/rebuild", async () => await RefreshContent());
 
 app.MapGet("/character", () => configuration.Characters.RandomElement());
 
-app.MapGet("/welcome", () => configuration.Messages.Welcome.RandomElement());
+app.MapGet("/welcome", GetWelcomeMessage);
 
-app.MapGet("/keywords", (string text) => searcher.GetTokens(text));
+app.MapGet("/keywords", searcher.GetTokens);
 
-app.MapGet("/answer", async (string message, HttpContext context) => await GetAnswer(message, context));
+app.MapGet("/answer", GetAnswer);
+
+object GetWelcomeMessage(HttpContext context) => GetPlatform(context) switch
+{
+    Platform.iOS => configuration.Messages.Welcome.RandomElement(),
+    Platform.Android => configuration.Messages.Welcome.RandomElement(),
+    Platform.Web => configuration.Messages.Welcome.RandomElement().Select(text => new Message(text)),
+    _ => throw new NotImplementedException(),
+};
 
 async Task<object> GetAnswer(string message, HttpContext context) {
-    Platform GetPlatform(HttpContext context)
-    {
-        var userAgent = context.Request.Headers["User-Agent"];
-        var clientInfo = Parser.GetDefault().Parse(userAgent);
-        var platform = clientInfo.UA.Family switch
-        {
-            "Young%20Carers%20Austria" => Platform.iOS,  // User-Agent of the iOS-App is "Young%20Carers%20Austria 6" (ref: https://stackoverflow.com/questions/36379347/does-nsurlsession-send-user-agent-automatically)
-            "okhttp" => Platform.Android, // User-Agent of the Android-App is "okhttp"
-            _ => Platform.Web
-        };
-        return platform;
-    }
     async Task Trace(Platform platform, string message, int resultCount)
     {
         var platformString = platform switch
@@ -119,4 +115,16 @@ async Task<object> GetAnswer(string message, HttpContext context) {
 
 app.Run();
 
+Platform GetPlatform(HttpContext context)
+{
+    var userAgent = context.Request.Headers["User-Agent"];
+    var clientInfo = Parser.GetDefault().Parse(userAgent);
+    var platform = clientInfo.UA.Family switch
+    {
+        "Young%20Carers%20Austria" => Platform.iOS,  // User-Agent of the iOS-App is "Young%20Carers%20Austria 6" (ref: https://stackoverflow.com/questions/36379347/does-nsurlsession-send-user-agent-automatically)
+        "okhttp" => Platform.Android, // User-Agent of the Android-App is "okhttp"
+        _ => Platform.Web
+    };
+    return platform;
+}
 enum Platform { iOS, Android, Web }
