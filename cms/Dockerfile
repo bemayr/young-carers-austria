@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 # Install app dependencies
-RUN npm ci && npm run build
+RUN pnpm install && pnpm run build
 
 FROM node:18-alpine
 
