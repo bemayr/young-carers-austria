@@ -21,9 +21,9 @@ WORKDIR /app
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/build ./build
 COPY --from=builder /app/package.json ./
-COPY --from=builder /app/package-lock.json ./
+COPY --from=builder /app/pnpm-lock.yaml ./
 
-RUN npm install --production
+RUN pnpm install --production
 
 ENV PAYLOAD_CONFIG_PATH="/app/dist/payload.config.js"
 ENV NODE_ENV="production"
