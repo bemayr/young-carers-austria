@@ -5,56 +5,128 @@
  * and re-run `payload generate:types` to regenerate this file.
  */
 
-export interface Config {}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "app-accessibility".
- */
-export interface Barrierefreiheitserklarung {
+export interface Config {
+  collections: {
+    categories: Category;
+    references: Reference;
+    situations: Situation;
+    sources: Source;
+    'chatbot-characters': ChatbotCharacter;
+    users: User;
+  };
+  globals: {
+    'app-accessibility': AppAccessibility;
+    'app-copyright': AppCopyright;
+    'app-gdpr': AppGdpr;
+    'app-imprint': AppImprint;
+    'app-welcome': AppWelcome;
+    'chatbot-messages': ChatbotMessage;
+    faq: Faq;
+    help: Help;
+    infos: Info;
+    emergency: Emergency;
+    'website-accessibility': WebsiteAccessibility;
+    'website-copyright': WebsiteCopyright;
+    'website-gdpr': WebsiteGdpr;
+    'website-imprint': WebsiteImprint;
+    'website-landing': WebsiteLanding;
+  };
+}
+export interface Category {
+  id: string;
+  name: string;
+  heading: string;
+  description: {
+    [k: string]: unknown;
+  }[];
+  keywords?: string;
+  updatedAt: string;
+  createdAt: string;
+  _status?: 'draft' | 'published';
+}
+export interface Reference {
+  id: string;
+  address: string;
+  title: string;
+  description: string;
+  image: string;
+  containsPaidContent: boolean;
+  keywords?: string;
+  source: string | Source;
+  categories: string[] | Category[];
+  opengraph?: {
+    title?: string;
+    description?: string;
+    imageUrl?: string;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: 'draft' | 'published';
+}
+export interface Source {
+  id: string;
+  name: string;
+  homepage?: string;
+  updatedAt: string;
+  createdAt: string;
+}
+export interface Situation {
+  id: string;
+  name: string;
+  content: {
+    [k: string]: unknown;
+  }[];
+  updatedAt: string;
+  createdAt: string;
+  _status?: 'draft' | 'published';
+}
+export interface ChatbotCharacter {
+  id: string;
+  name: string;
+  emoji: string;
+  updatedAt: string;
+  createdAt: string;
+}
+export interface User {
+  id: string;
+  updatedAt: string;
+  createdAt: string;
+  email?: string;
+  resetPasswordToken?: string;
+  resetPasswordExpiration?: string;
+  loginAttempts?: number;
+  lockUntil?: string;
+  password?: string;
+}
+export interface AppAccessibility {
   id: string;
   content: {
     [k: string]: unknown;
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "app-copyright".
- */
-export interface Copyright {
+export interface AppCopyright {
   id: string;
   content: {
     [k: string]: unknown;
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "app-gdpr".
- */
-export interface Datenschutzerklarung {
+export interface AppGdpr {
   id: string;
   content: {
     [k: string]: unknown;
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "app-imprint".
- */
-export interface Impressum {
+export interface AppImprint {
   id: string;
   content: {
     [k: string]: unknown;
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "app-welcome".
- */
-export interface Willkommensnachricht {
+export interface AppWelcome {
   id: string;
   hello: {
     [k: string]: unknown;
@@ -67,11 +139,7 @@ export interface Willkommensnachricht {
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "chatbot-messages".
- */
-export interface Nachrichten {
+export interface ChatbotMessage {
   id: string;
   welcome: {
     choices: {
@@ -106,13 +174,20 @@ export interface Nachrichten {
       id?: string;
     }[];
   };
+  feedback: {
+    choices: {
+      messages: {
+        message: {
+          [k: string]: unknown;
+        }[];
+        id?: string;
+      }[];
+      id?: string;
+    }[];
+  };
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "faq".
- */
-export interface FAQ {
+export interface Faq {
   id: string;
   entries: {
     question: string;
@@ -124,33 +199,21 @@ export interface FAQ {
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "help".
- */
-export interface Hilfe {
+export interface Help {
   id: string;
   title: string;
   description: {
     [k: string]: unknown;
   }[];
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "infos".
- */
-export interface Infos {
+export interface Info {
   id: string;
   title: string;
   description: {
     [k: string]: unknown;
   }[];
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "emergency".
- */
-export interface ImNotfall {
+export interface Emergency {
   id: string;
   title: string;
   description: {
@@ -166,55 +229,35 @@ export interface ImNotfall {
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "website-accessibility".
- */
-export interface Barrierefreiheitserklarung1 {
+export interface WebsiteAccessibility {
   id: string;
   content: {
     [k: string]: unknown;
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "website-copyright".
- */
-export interface Copyright1 {
+export interface WebsiteCopyright {
   id: string;
   content: {
     [k: string]: unknown;
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "website-gdpr".
- */
-export interface Datenschutzerklarung1 {
+export interface WebsiteGdpr {
   id: string;
   content: {
     [k: string]: unknown;
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "website-imprint".
- */
-export interface Impressum1 {
+export interface WebsiteImprint {
   id: string;
   content: {
     [k: string]: unknown;
   }[];
   _status?: 'draft' | 'published';
 }
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "website-landing".
- */
-export interface LandingPage {
+export interface WebsiteLanding {
   id: string;
   cards: {
     infos: {
@@ -251,93 +294,4 @@ export interface LandingPage {
     [k: string]: unknown;
   }[];
   _status?: 'draft' | 'published';
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "categories".
- */
-export interface Kategorie {
-  id: string;
-  name: string;
-  heading: string;
-  description: {
-    [k: string]: unknown;
-  }[];
-  keywords?: string;
-  _status?: 'draft' | 'published';
-  createdAt: string;
-  updatedAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "references".
- */
-export interface Referenz {
-  id: string;
-  address: string;
-  title: string;
-  description: string;
-  image: string;
-  containsPaidContent: boolean;
-  keywords?: string;
-  source: string | Quelle;
-  categories: string[] | Kategorie[];
-  opengraph: {
-    title?: string;
-    description?: string;
-    imageUrl?: string;
-  };
-  _status?: 'draft' | 'published';
-  createdAt: string;
-  updatedAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "sources".
- */
-export interface Quelle {
-  id: string;
-  name: string;
-  homepage?: string;
-  createdAt: string;
-  updatedAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "situations".
- */
-export interface Alltagssituation {
-  id: string;
-  name: string;
-  content: {
-    [k: string]: unknown;
-  }[];
-  _status?: 'draft' | 'published';
-  createdAt: string;
-  updatedAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "chatbot-characters".
- */
-export interface Charakter {
-  id: string;
-  name: string;
-  emoji: string;
-  createdAt: string;
-  updatedAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "users".
- */
-export interface User {
-  id: string;
-  email?: string;
-  resetPasswordToken?: string;
-  resetPasswordExpiration?: string;
-  loginAttempts?: number;
-  lockUntil?: string;
-  createdAt: string;
-  updatedAt: string;
 }

@@ -1,6 +1,6 @@
 {
-  "name": "payload-starter-typescript",
-  "description": "Blank template - no collections",
+  "name": "young-carers-austria-cms",
+  "description": "CMS for the Young Carers Austria Platform",
   "version": "1.0.0",
   "main": "dist/server.js",
   "license": "MIT",
@@ -8,18 +8,22 @@
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
     "build:payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload build",
     "build:server": "tsc",
-    "build": "yarn copyfiles && yarn build:payload && yarn build:server",
+    "build": "pnpm copyfiles && pnpm build:payload && pnpm build:server",
     "serve": "cross-env PAYLOAD_CONFIG_PATH=dist/payload.config.js NODE_ENV=production node dist/server.js",
     "copyfiles": "copyfiles -u 1 \"src/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png}\" dist/",
     "generate:types": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:types",
-    "generate:graphQLSchema": "PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:graphQLSchema"
+    "migrateVersions": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts ts-node -T migrateVersions.ts"
   },
   "dependencies": {
     "@types/open-graph-scraper": "^4.8.2",
     "dotenv": "^8.2.0",
+    "escape-html": "^1.0.3",
     "express": "^4.17.1",
     "open-graph-scraper": "^4.11.1",
-    "payload": "^1.1.16"
+    "payload": "^1.8.2",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "slate": "^0.94.1"
   },
   "devDependencies": {
     "@types/escape-html": "^1.0.2",
@@ -28,6 +32,6 @@
     "cross-env": "^7.0.3",
     "nodemon": "^2.0.6",
     "ts-node": "^9.1.1",
-    "typescript": "^4.1.3"
+    "typescript": "^4.8.4"
   }
 }

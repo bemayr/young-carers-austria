@@ -4,6 +4,9 @@ import { notifyGitHub } from "../util/hooks"
 const GdprDeclaration: GlobalConfig = {
   slug: 'app-accessibility',
   label: "Barrierefreiheitserklärung",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "App",
   },

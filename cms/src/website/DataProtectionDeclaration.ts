@@ -4,6 +4,9 @@ import { notifyGitHub } from '../util/hooks';
 const DataProtectionDeclaration: GlobalConfig = {
   slug: 'website-gdpr',
   label: "Datenschutzerklärung",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Webseite",
   },

@@ -45,7 +45,7 @@ export function slateToMarkdown(children: any[] | undefined): string | undefined
                         case "unordered": return `${" ".repeat(options.listDepth * 2)}* ${nodeToMarkdown(node.children)}\n`;
                         case "ordered": return `${" ".repeat(options.listDepth * 2)}1. ${nodeToMarkdown(node.children)}\n`;
                     }
-                case 'link': return `[${nodeToMarkdown(node.children)}](${escapeHtml(node.url)})`;
+                case 'link': return `[${nodeToMarkdown(node.children)}](${node.url})`;
                 default: return nodeToMarkdown(node.children, options);
             }
         }).join("")

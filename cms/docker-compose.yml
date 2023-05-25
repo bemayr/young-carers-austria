@@ -1,0 +1,13 @@
+version: "3.8"
+
+volumes:
+  cms-db-data: null
+
+services:
+  cms-db:
+    image: mongo:latest
+    restart: unless-stopped
+    volumes:
+      - cms-db-data:/data/db
+    ports:
+      - 27017:27017

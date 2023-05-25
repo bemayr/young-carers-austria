@@ -1,11 +1,15 @@
 import { CollectionConfig } from 'payload/types';
 import { notifyGitHub } from '../util/hooks';
+import { virtualPlainRichtextField } from '../util/fields';
 
 const Situations: CollectionConfig = {
   slug: 'situations',
   labels: {
     singular: "Alltagssituation",
     plural: "Alltagssituationen"
+  },
+  access: {
+    read: () => true
   },
   admin: {
     group: "Inhalte",
@@ -18,7 +22,6 @@ const Situations: CollectionConfig = {
   },
   versions: {
     maxPerDoc: 5,
-    retainDeleted: true,
     drafts: 
     {
       autosave: false
@@ -42,6 +45,7 @@ const Situations: CollectionConfig = {
         leaves: ["bold"]
       }
     },
+    virtualPlainRichtextField("content"),
   ],
 }
 

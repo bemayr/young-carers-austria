@@ -4,6 +4,9 @@ import { notifyGitHub } from '../util/hooks';
 const Emergency: GlobalConfig = {
   slug: 'emergency',
   label: "Im Notfall",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Inhalte",
   },

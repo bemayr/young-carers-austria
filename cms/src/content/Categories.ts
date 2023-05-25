@@ -1,11 +1,15 @@
 import { CollectionConfig } from 'payload/types';
 import { notifyGitHub } from '../util/hooks';
+import { virtualPlainRichtextField } from '../util/fields';
 
 const Categories: CollectionConfig = {
   slug: 'categories',
   labels: {
     singular: "Kategorie",
     plural: "Kategorien"
+  },
+  access: {
+    read: () => true
   },
   admin: {
     group: "Inhalte",
@@ -19,7 +23,6 @@ const Categories: CollectionConfig = {
   },
   versions: {
     maxPerDoc: 5,
-    retainDeleted: true,
     drafts: 
     {
       autosave: false
@@ -49,6 +52,7 @@ const Categories: CollectionConfig = {
         leaves: ["bold"]
       }
     },
+    virtualPlainRichtextField("description"),
     {
       name: 'keywords',
       type: 'textarea',

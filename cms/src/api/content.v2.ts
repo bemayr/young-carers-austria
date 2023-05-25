@@ -1,22 +1,8 @@
 import { Payload } from "payload";
 import { PayloadHandler } from "payload/dist/config/types";
 import { groupBy } from "../util/array";
-import {
-  Alltagssituation,
-  Barrierefreiheitserklarung,
-  Copyright,
-  Datenschutzerklarung,
-  FAQ,
-  Hilfe,
-  ImNotfall,
-  Impressum,
-  Infos,
-  Kategorie,
-  Quelle,
-  Referenz,
-  Willkommensnachricht,
-} from "../payload-types";
 import { slateToMarkdown } from "./markdown";
+import { AppWelcome, Category, Emergency, Help, Info, Reference, Situation, Source } from "payload/generated-types";
 
 const makeLookup = (array: Array<{ id: unknown }>) =>
   Object.fromEntries(array.map((item) => [item.id, item]));
@@ -80,7 +66,7 @@ const faq = {
 };
 
 const emergency = {
-  transform: function (entry: ImNotfall, categoryLookup: Record<string, any>) {
+  transform: function (entry: Emergency, categoryLookup: Record<string, any>) {
     return {
       title: entry.title,
       description: slateToMarkdown(entry.description)?.trim(),
@@ -94,35 +80,35 @@ const emergency = {
   },
   get: async (payload: Payload, categoryLookup: Record<string, any>) =>
     await payload
-      .findGlobal<ImNotfall>({ slug: "emergency" })
+      .findGlobal({ slug: "emergency" })
       .then((entry) => emergency.transform(entry, categoryLookup)),
 };
 
 const help = {
-  transform: function (entry: Hilfe) {
+  transform: function (entry: Help) {
     return {
       title: entry.title,
       description: slateToMarkdown(entry.description)?.trim(),
     };
   },
   get: async (payload: Payload) =>
-    await payload.findGlobal<Hilfe>({ slug: "help" }).then(help.transform),
+    await payload.findGlobal({ slug: "help" }).then(help.transform),
 };
 
 const infos = {
-  transform: function (entry: Infos) {
+  transform: function (entry: Info) {
     return {
       title: entry.title,
       description: slateToMarkdown(entry.description)?.trim(),
     };
   },
   get: async (payload: Payload) =>
-    await payload.findGlobal<Infos>({ slug: "infos" }).then(infos.transform),
+    await payload.findGlobal({ slug: "infos" }).then(infos.transform),
 };
 
 const situations = {
   transform: function (
-    entry: Alltagssituation,
+    entry: Situation,
     categoryLookup: Record<string, any>
   ) {
     return {
@@ -135,7 +121,7 @@ const situations = {
   },
   get: async (payload: Payload, categoryLookup: Record<string, any>) =>
     await payload
-      .find<Alltagssituation>({
+      .find({
         collection: "situations",
         depth: 1,
         limit: 1000,
@@ -156,29 +142,29 @@ const app = {
   a11y: {
     get: async (payload: Payload) =>
       await payload
-        .findGlobal<Barrierefreiheitserklarung>({ slug: "app-accessibility" })
+        .findGlobal({ slug: "app-accessibility" })
         .then((result) => slateToMarkdown(result.content)?.trim()),
   },
   copyright: {
     get: async (payload: Payload) =>
       await payload
-        .findGlobal<Copyright>({ slug: "app-copyright" })
+        .findGlobal({ slug: "app-copyright" })
         .then((result) => slateToMarkdown(result.content)?.trim()),
   },
   gdpr: {
     get: async (payload: Payload) =>
       await payload
-        .findGlobal<Datenschutzerklarung>({ slug: "app-gdpr" })
+        .findGlobal({ slug: "app-gdpr" })
         .then((result) => slateToMarkdown(result.content)?.trim()),
   },
   imprint: {
     get: async (payload: Payload) =>
       await payload
-        .findGlobal<Impressum>({ slug: "app-imprint" })
+        .findGlobal({ slug: "app-imprint" })
         .then((result) => slateToMarkdown(result.content)?.trim()),
   },
   welcome: {
-    transform: function (entry: Willkommensnachricht) {
+    transform: function (entry: AppWelcome) {
       return {
         hello: slateToMarkdown(entry.hello)?.trim(),
         info: slateToMarkdown(entry.info)?.trim(),
@@ -187,13 +173,13 @@ const app = {
     },
     get: async (payload: Payload) =>
       await payload
-        .findGlobal<Willkommensnachricht>({ slug: "app-welcome" })
+        .findGlobal({ slug: "app-welcome" })
         .then(app.welcome.transform),
   },
 };
 
 const categories = {
-  transform: function (entry: Kategorie) {
+  transform: function (entry: Category) {
     return {
       id: entry.id,
       name: entry.name,
@@ -204,7 +190,7 @@ const categories = {
   },
   get: async (payload: Payload) =>
     await payload
-      .find<Kategorie>({
+      .find({
         collection: "categories",
         depth: 1,
         limit: 1000,
@@ -220,7 +206,7 @@ const categories = {
 };
 
 const sources = {
-  transform: function (entry: Quelle) {
+  transform: function (entry: Source) {
     return {
       ownerName: entry.name,
       ownerUrl: entry.homepage ?? "",
@@ -228,7 +214,7 @@ const sources = {
   },
   get: async (payload: Payload) =>
     await payload
-      .find<Quelle>({
+      .find({
         collection: "sources",
         depth: 0,
         limit: 1000,
@@ -238,7 +224,7 @@ const sources = {
 };
 
 const references = {
-  transform: function (entry: Referenz) {
+  transform: function (entry: Reference) {
     return {
       url: entry.address,
       title: entry.title,
@@ -251,7 +237,7 @@ const references = {
   },
   get: async (payload: Payload) =>
     await payload
-      .find<Referenz>({
+      .find({
         collection: "references",
         depth: 1,
         limit: 1000,
@@ -270,9 +256,9 @@ export const contentV1: PayloadHandler = async ({ payload }, res) => {
 
   const refsFlattened = refsPayload.flatMap((reference) =>
     reference.categories.map((category) => ({
-      category: category as Kategorie,
+      category: category as Category,
       reference: reference,
-      source: reference.source as Quelle,
+      source: reference.source as Source,
     }))
   );
 
