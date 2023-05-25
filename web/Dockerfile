@@ -11,5 +11,6 @@ RUN cp -r /usr/src/app /usr/src/writable-app/ && cd /usr/src/writable-app && ech
 
 # Build the actial (really small) image
 FROM lipanski/docker-static-website:2.1.0
+COPY httpd.conf .
 
 COPY --from=builder /usr/src/writable-app/_site .
