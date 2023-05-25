@@ -8,8 +8,7 @@
 <body
   class="min-h-screen bg-gray-50"
   data-env="{{ node.env }}"
-  x-data="{ chatbotOpen: false }"
-  :class="chatbotOpen?'overflow-hidden':'overflow-auto'">
+  x-data="{ chatbotOpen: false }">
   {% include "partials/site-header" %}
 
   <div class="py-10">{% block content %}{% endblock %}</div>

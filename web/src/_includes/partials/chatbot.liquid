@@ -1,4 +1,4 @@
-<div x-show="chatbotOpen" x-description="Banner, show/hide based on modal state."
+<div x-show="chatbotOpen" x-description="Chatbot, kann auf- und eingeklappt werden."
   x-data="chatBot()"
   x-init="initializeChatbot()"
   x-transition:enter="ease-out duration-300"
@@ -6,9 +6,9 @@
   x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200"
   x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
   x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-  class="fixed inset-x-0 bottom-0" style="display: none">
+  class="fixed right-0 bottom-0" style="display: none">
 
-    <div class="flex-1 p:2 sm:p-6 justify-between flex flex-col h-screen bg-slate-200 rounded-lg shadow-lg m-4">
+    <div class="flex-1 p-1 sm:p-6 justify-between flex flex-col max-h-[90vh] lg:max-h-[65vh] bg-gray-200 rounded-lg shadow-lg m-4">
         <div id="messages" class="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch">
             <template x-for="(message, key) in messages">
                 <div>
@@ -82,7 +82,7 @@
             <div x-show="botTyping" style="display: none;">
                 <div class="flex items-end">
                     <div class="flex flex-col space-y-2 text-md leading-tight mx-2 order-2 items-start">
-                        <div><img src="/loading.gif" alt="..." class="w-16 ml-6"></div>
+                        <div><img src="/loading.gif" alt="..." class="w-16 ml-6"></div> <!-- replace with something like https://codepen.io/bilalck/pen/jdGGNW -->
                     </div>
                 </div>
             </div>
@@ -97,10 +97,10 @@
                 </div>
             </div>
         </div>
-        <div class="absolute right-4 top-7">
+        <div class="absolute right-3 top-3 sm:right-5 sm:top-5">
           <button @click="chatbotOpen = false" type="button"
-            class="-mr-1 flex rounded-md p-2 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-white">
-            <span class="sr-only"> Dismiss </span>
+            class="flex rounded-md p-2 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-white">
+            <span class="sr-only"> Chatbot schließen </span>
             <svg class="h-6 w-6 text-darkBlue" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
               role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
               <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19
