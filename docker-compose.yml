@@ -39,7 +39,7 @@ services:
       - variables.reverse-proxy.env
 
   cms:
-    image: ghcr.io/bemayr/young-carers-austria.chatbot:latest
+    image: ghcr.io/bemayr/young-carers-austria.cms:latest
     container_name: cms
     restart: unless-stopped
     depends_on:
@@ -75,7 +75,7 @@ services:
       - cms
 
   chatbot:
-    image: bemayr/young-carers-austria-chatbot:1.0.5
+    image: ghcr.io/bemayr/young-carers-austria.chatbot:latest
     container_name: chatbot
     restart: always
     labels:
