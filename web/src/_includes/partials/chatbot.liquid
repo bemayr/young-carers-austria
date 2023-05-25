@@ -90,7 +90,7 @@
         <div class="border-t-2 border-gray-200 px-4 pt-4 mb-2 sm:mb-0">
             <div class="relative flex">
                 <input type="text" placeholder="Womit kann ich dir helfen?" autocomplete="off" autofocus="true" @keydown.enter="await fetchAnswer($event.target)" class="text-md w-full focus:outline-none focus:placeholder-gray-400 text-gray-600 placeholder-gray-600 pl-5 pr-16 bg-gray-100 border-2 border-gray-200 focus:border-red rounded-full py-2" x-ref="input" />
-                <div class="absolute right-2 items-center inset-y-0 hidden sm:flex">
+                <div class="absolute right-2 items-center inset-y-0 flex">
                     <button type="button" class="inline-flex items-center justify-center rounded-full h-8 w-8 transition duration-200 ease-in-out text-white bg-red hover:bg-red focus:outline-none" @click.prevent="await fetchAnswer($refs.input)">
                         <span>-></span>
                     </button>
@@ -117,7 +117,7 @@
 </div>
 
 <script type="text/javascript">
-const CHATBOT_BASE_URL = "http://localhost:5257";
+const CHATBOT_BASE_URL = "https://chatbot.young-carers-austria.at/";
 
 function readJson (url) {
    return fetch(url)
@@ -155,7 +155,6 @@ function chatBot() {
 
             // fetch the messages
             const response = await fetch(`${CHATBOT_BASE_URL}/answer?message=${encodeURIComponent(input)}`).then(res => res.json());
-            console.log(response.messages)
 
             // wait between 1s and 5.251s
             await new Promise(res => setTimeout(res, Math.random() * (5251 - 1000) + 1000))
