@@ -16,17 +16,21 @@ app.get('/', (_, res) => {
   res.redirect('/admin');
 });
 
-// Initialize Payload
-payload.init({
-  secret: process.env.PAYLOAD_SECRET,
-  mongoURL: process.env.MONGODB_URI,
-  express: app,
-  onInit: () => {
-    payload.logger.info(`Payload Admin URL: ${payload.getAdminURL()}`)
-  },
-})
+const start = async () => {
+  // Initialize Payload
+  await payload.init({
+    secret: process.env.PAYLOAD_SECRET,
+    mongoURL: process.env.MONGODB_URI,
+    express: app,
+    onInit: async () => {
+      payload.logger.info(`Payload Admin URL: ${payload.getAdminURL()}`)
+    },
+  })
 
-// Add your own express routes here
-app.get("/opengraph/parse", opengraph.parse)
+  // Add your own express routes here
+  app.get("/opengraph/parse", opengraph.parse)
 
-app.listen(3000);
+  app.listen(3000);
+}
+
+start();

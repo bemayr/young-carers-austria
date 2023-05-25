@@ -9,6 +9,9 @@ const References: CollectionConfig = {
     singular: "Referenz",
     plural: "Referenzen"
   },
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Inhalte",
     useAsTitle: 'title',
@@ -21,7 +24,6 @@ const References: CollectionConfig = {
   },
   versions: {
     maxPerDoc: 5,
-    retainDeleted: true,
     drafts: 
     {
       autosave: false
@@ -39,6 +41,9 @@ const References: CollectionConfig = {
           required: true,
           admin: {
             width: "90%",
+          },
+          hooks: {
+            beforeValidate: [(args) => (args.value as string).trim()]
           }
         },
         {

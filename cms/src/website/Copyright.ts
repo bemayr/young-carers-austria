@@ -4,6 +4,9 @@ import { notifyGitHub } from '../util/hooks';
 const Copyright: GlobalConfig = {
   slug: 'website-copyright',
   label: "Copyright",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Webseite",
   },

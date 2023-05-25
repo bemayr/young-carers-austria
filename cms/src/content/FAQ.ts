@@ -1,9 +1,14 @@
 import { GlobalConfig } from 'payload/types';
 import { notifyGitHub } from '../util/hooks';
+import { virtualPlainRichtextField } from '../util/fields';
+import { markdownify } from '../api/markdown';
 
 const FAQ: GlobalConfig = {
   slug: 'faq',
   label: "FAQ",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Inhalte",
   },
@@ -43,6 +48,27 @@ const FAQ: GlobalConfig = {
             elements: ["link", "ol", "ul"],
             leaves: ["bold"]
           }
+        },
+        virtualPlainRichtextField("answer"),
+        {
+          name: "answerMarkdown",
+          type: "text",
+          admin: {
+            hidden: true, // hides the field from the admin panel
+          },
+          hooks: {
+            beforeChange: [
+              ({ siblingData }) => {
+                // ensures data is not stored in DB
+                delete siblingData["answerMarkdown"];
+              },
+            ],
+            afterRead: [
+              ({ siblingData }) => {
+                return markdownify(siblingData.answer).trim();
+              },
+            ],
+          },
         },
         {
           name: "showOnLandingPage",

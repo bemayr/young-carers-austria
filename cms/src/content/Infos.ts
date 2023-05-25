@@ -4,6 +4,9 @@ import { notifyGitHub } from '../util/hooks';
 const Infos: GlobalConfig = {
   slug: 'infos',
   label: "Infos",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Inhalte",
   },

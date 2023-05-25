@@ -4,6 +4,9 @@ import { notifyGitHub } from '../util/hooks';
 const WelcomeMessage: GlobalConfig = {
   slug: 'app-welcome',
   label: "Willkommensnachricht",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "App",
   },

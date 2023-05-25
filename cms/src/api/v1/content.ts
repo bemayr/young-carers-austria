@@ -1,19 +1,19 @@
 import { Payload } from "payload";
 import { transformExtendedRichText, ExtendedRichText } from "../richtext";
-import {
-  Alltagssituation,
-  FAQ,
-  Hilfe,
-  ImNotfall,
-  Infos,
-  Kategorie,
-  Quelle,
-  Referenz,
-} from "../../payload-types";
 import { slateToMarkdown, markdownify } from "../markdown";
+import {
+  Category,
+  Emergency,
+  Faq,
+  Help,
+  Info,
+  Reference,
+  Situation,
+  Source,
+} from "payload/generated-types";
 
 const faq = {
-  transform: function (entry: FAQ["entries"][number]) {
+  transform: function (entry: Faq["entries"][number]) {
     return {
       question: entry.question,
       answer: slateToMarkdown(entry.answer),
@@ -22,63 +22,63 @@ const faq = {
   },
   get: async (payload: Payload) =>
     await payload
-      .findGlobal<FAQ>({ slug: "faq" })
+      .findGlobal({ slug: "faq" })
       .then((result) => result.entries.map(faq.transform)),
 };
 
 const emergency = {
-  transform: function (entry: ImNotfall) {
+  transform: function (entry: Emergency) {
     return {
       title: entry.title,
       description: slateToMarkdown(entry.description)?.trim(),
       numbers: {
         entries: entry.numbers.map(({ label, number }) => ({ label, number })),
-        infoText: "Mehr Info zu den Notrufnummern findest du auf www.oesterreich.gv.at.",
-        infoUrl: "https://www.oesterreich.gv.at/themen/gesundheit_und_notfaelle/notrufnummern.html"
+        infoText:
+          "Mehr Info zu den Notrufnummern findest du auf www.oesterreich.gv.at.",
+        infoUrl:
+          "https://www.oesterreich.gv.at/themen/gesundheit_und_notfaelle/notrufnummern.html",
       },
       content: transformExtendedRichText(entry.content as ExtendedRichText[]),
     };
   },
   get: async (payload: Payload) =>
     await payload
-      .findGlobal<ImNotfall>({ slug: "emergency" })
+      .findGlobal({ slug: "emergency" })
       .then((entry) => emergency.transform(entry)),
 };
 
 const help = {
-  transform: function (entry: Hilfe) {
+  transform: function (entry: Help) {
     return {
       title: entry.title,
       description: markdownify(entry.description),
     };
   },
   get: async (payload: Payload) =>
-    await payload.findGlobal<Hilfe>({ slug: "help" }).then(help.transform),
+    await payload.findGlobal({ slug: "help" }).then(help.transform),
 };
 
 const infos = {
-  transform: function (entry: Infos) {
+  transform: function (entry: Info) {
     return {
       title: entry.title,
       description: markdownify(entry.description),
     };
   },
   get: async (payload: Payload) =>
-    await payload.findGlobal<Infos>({ slug: "infos" }).then(infos.transform),
+    await payload.findGlobal({ slug: "infos" }).then(infos.transform),
 };
 
 const situations = {
-  transform: function (
-    entry: Alltagssituation  ) {
+  transform: function (entry: Situation) {
     return {
       question: entry.name,
-      content: transformExtendedRichText(
-        entry.content as ExtendedRichText[]),
+      content: transformExtendedRichText(entry.content as ExtendedRichText[]),
     };
   },
   get: async (payload: Payload) =>
     await payload
-      .find<Alltagssituation>({
+      .find({
         collection: "situations",
         depth: 1,
         limit: 1000,
@@ -90,13 +90,11 @@ const situations = {
         },
       })
       .then((result) => result.docs)
-      .then((entries) =>
-        entries.map(situations.transform)
-      ),
+      .then((entries) => entries.map(situations.transform)),
 };
 
 const categories = {
-  transform: function (entry: Kategorie) {
+  transform: function (entry: Category) {
     return {
       id: entry.id,
       name: entry.name,
@@ -107,7 +105,7 @@ const categories = {
   },
   get: async (payload: Payload) =>
     await payload
-      .find<Kategorie>({
+      .find({
         collection: "categories",
         depth: 1,
         limit: 1000,
@@ -123,7 +121,7 @@ const categories = {
 };
 
 const sources = {
-  transform: function (entry: Quelle) {
+  transform: function (entry: Source) {
     return {
       id: entry.id,
       ownerName: entry.name,
@@ -132,7 +130,7 @@ const sources = {
   },
   get: async (payload: Payload) =>
     await payload
-      .find<Quelle>({
+      .find({
         collection: "sources",
         depth: 0,
         limit: 1000,
@@ -142,7 +140,7 @@ const sources = {
 };
 
 const references = {
-  transform: function (entry: Referenz) {
+  transform: function (entry: Reference) {
     return {
       id: entry.id,
       url: entry.address,
@@ -155,7 +153,7 @@ const references = {
   },
   get: async (payload: Payload) =>
     await payload
-      .find<Referenz>({
+      .find({
         collection: "references",
         depth: 1,
         limit: 2000,
@@ -176,5 +174,5 @@ export const getContent = async (payload: Payload) => ({
   infos: await infos.get(payload),
   insights: await situations.get(payload),
   categories: await categories.get(payload),
-  references: await references.get(payload)
+  references: await references.get(payload),
 });

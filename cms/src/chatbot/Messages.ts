@@ -4,6 +4,9 @@ import { notifyChatbot } from '../util/hooks';
 const Messages: GlobalConfig = {
   slug: 'chatbot-messages',
   label: "Nachrichten",
+  access: {
+    read: () => true
+  },
   admin: {
     group: "Chatbot",
   },
@@ -134,6 +137,48 @@ const Messages: GlobalConfig = {
                   required: true,
                   admin: {
                     elements: ["ol", "ul"],
+                    leaves: ["bold"]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: "feedback",
+      type: "group",
+      label: "Feedbacknachricht nach den Ergebnissen",
+      admin: {
+        description: "Diese Nachrichten werden nach den Ergebnissen angezeigt und sind dazu gedacht nach Feedback zu fragen."
+      },
+      fields: [
+        {
+          name: "choices",
+          type: "array",
+          labels: {
+            singular: "Möglichkeit",
+            plural: "Möglichkeiten"
+          },
+          minRows: 1,
+          fields: [
+            {
+              name: "messages",
+              type: "array",
+              labels: {
+                singular: "Nachricht",
+                plural: "Nachrichten"
+              },
+              minRows: 1,
+              fields: [
+                {
+                  name: "message",
+                  type: "richText",
+                  label: "Nachricht",
+                  required: true,
+                  admin: {
+                    elements: ["ol", "ul", "link"],
                     leaves: ["bold"]
                   }
                 }

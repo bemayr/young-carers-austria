@@ -35,8 +35,7 @@ import LandingPage from './website/LandingPage';
 import { contentV1 } from "./api/content.v2";
 import api_v1 from "./api/v1";
 
-const createGitHubActionsNotificationPath = path.resolve(__dirname, 'util/github-actions.js');
-const mockModulePath = path.resolve(__dirname, 'mocks/emptyObject.js');
+const mockModulePath = path.resolve(__dirname, 'mocks/hooks.js')
 
 export default buildConfig({
   admin: {
@@ -47,10 +46,13 @@ export default buildConfig({
           ...config.resolve,
           alias: {
               ...config.resolve?.alias,
-              [createGitHubActionsNotificationPath]: mockModulePath,
+              [path.resolve(__dirname, './util/hooks')]: mockModulePath,
           }
       }
     })
+  },
+  i18n: {
+    lng: "de-AT"
   },
   collections: [
     // content

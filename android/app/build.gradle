@@ -7,7 +7,8 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    namespace 'at.sozialministerium.youngcarers'
+    compileSdk 33
 
     defaultConfig {
         applicationId "at.sozialministerium.youngcarers"
@@ -49,6 +50,9 @@ android {
     task wrapper(type: Wrapper){
         gradleVersion = '7.2'
     }
+    task prepareKotlinBuildScriptModel { }
+
+
 }
 
 dependencies {
