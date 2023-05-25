@@ -39,7 +39,7 @@ services:
       - variables.reverse-proxy.env
 
   cms:
-    image: bemayr/young-carers-austria-cms:1.0.8
+    image: ghcr.io/bemayr/young-carers-austria.chatbot:latest
     container_name: cms
     restart: unless-stopped
     depends_on:
@@ -105,6 +105,19 @@ services:
       APPFORWARD_IOSURL=https://apps.apple.com/us/app/young-carers-austria/id1594317016
       APPFORWARD_ANDROIDURL=https://play.google.com/store/apps/details?id=at.sozialministerium.youngcarers
       APPFORWARD_FALLBACKURL=https://www.young-carers-austria.at/app/
+
+  web-staging:
+    image: ghcr.io/bemayr/young-carers-austria.website:staging
+    container_name: web-staging
+    restart: always
+    labels:
+      - traefik.http.routers.app-forward.rule=Host(`testing.young-carers-austria.at`)
+      - traefik.http.routers.app-forward.tls=true
+      - traefik.http.routers.app-forward.tls.certresolver=lets-encrypt
+      - traefik.port=80
+    networks:
+      - internal
+      - web
 
   insights:
     image: matomo
