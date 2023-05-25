@@ -5,8 +5,33 @@ using System.Web;
 using UAParser;
 using YoungCarersAustria.Chatbot.Data.App;
 using YoungCarersAustria.Chatbot.Data.Web;
+using static Microsoft.AspNetCore.Http.Results;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(options =>
+{
+    static bool IsOriginAllowed(string origin)
+    {
+        var uri = new Uri(origin);
+        var env = System.Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "n/a";
+
+        var isAllowed = uri.Host.Equals("young-carers-austria.at", StringComparison.OrdinalIgnoreCase);
+        if (!isAllowed && env.Contains("DEV", StringComparison.OrdinalIgnoreCase))
+            isAllowed = uri.Host.Equals("localhost", StringComparison.OrdinalIgnoreCase);
+
+        return isAllowed;
+    }
+
+    options.AddDefaultPolicy(
+        builder =>
+        {
+            builder
+                .SetIsOriginAllowed(IsOriginAllowed)
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials();
+        });
+});
 var app = builder.Build();
 
 Configuration configuration = null!;
@@ -26,6 +51,8 @@ async Task RefreshContent()
 }
 
 await RefreshContent();
+
+app.MapGet("/", () => Redirect("https://www.young-carers-austria.at/?chatbot=active", permanent: true));
 
 app.MapPost("/index/rebuild", async () => await RefreshContent());
 
@@ -112,6 +139,8 @@ async Task<object> GetAnswer(string message, HttpContext context) {
             throw new Exception("Invalid Platform");
     }
 }
+
+app.UseCors();
 
 app.Run();
 
