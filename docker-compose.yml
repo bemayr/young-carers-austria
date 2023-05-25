@@ -14,7 +14,7 @@ services:
   # reverse proxy for service lookup
   traefik:
     restart: always
-    image: traefik:v2.9
+    image: traefik:v2.10
     command:
       - --api.dashboard=true
       - --providers.docker=true
@@ -33,10 +33,8 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ./letsencrypt:/letsencrypt
+      - ./data/letsencrypt:/letsencrypt
       - /var/run/docker.sock:/var/run/docker.sock:ro
-    env_file:
-      - variables.reverse-proxy.env
 
   cms:
     image: ghcr.io/bemayr/young-carers-austria.cms:latest
@@ -102,9 +100,9 @@ services:
       - internal
       - web
     environment:
-      APPFORWARD_IOSURL=https://apps.apple.com/us/app/young-carers-austria/id1594317016
-      APPFORWARD_ANDROIDURL=https://play.google.com/store/apps/details?id=at.sozialministerium.youngcarers
-      APPFORWARD_FALLBACKURL=https://www.young-carers-austria.at/app/
+      - APPFORWARD_IOSURL=https://apps.apple.com/us/app/young-carers-austria/id1594317016
+      - APPFORWARD_ANDROIDURL=https://play.google.com/store/apps/details?id=at.sozialministerium.youngcarers
+      - APPFORWARD_FALLBACKURL=https://www.young-carers-austria.at/app/
 
   web-staging:
     image: ghcr.io/bemayr/young-carers-austria.website:staging
