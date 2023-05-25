@@ -1,10 +1,5 @@
 FROM node:20-alpine AS builder
 
-# enable pnpm
-
-RUN apk update && apk add --no-cache libc6-compat
-RUN corepack enable && corepack prepare pnpm@8.5.1 --activate 
-
 # Create app directory
 WORKDIR /app
 
@@ -12,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 # Install app dependencies
-RUN pnpm install && pnpm run build
+RUN npm ci && npm run build
 
 FROM node:20-alpine
 
@@ -21,9 +16,9 @@ WORKDIR /app
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/build ./build
 COPY --from=builder /app/package.json ./
-COPY --from=builder /app/pnpm-lock.yaml ./
+COPY --from=builder /app/package-lock.json ./
 
-RUN pnpm install --production
+RUN npm install --production
 
 ENV PAYLOAD_CONFIG_PATH="/app/dist/payload.config.js"
 ENV NODE_ENV="production"
