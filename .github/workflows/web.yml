@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: bemayr/young-carers-austria.web
+  IMAGE_NAME: bemayr/young-carers-austria.website
 
 jobs:
   build-and-push-image:

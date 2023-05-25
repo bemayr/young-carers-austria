@@ -2,7 +2,7 @@ import { Payload } from "payload";
 import { PayloadHandler } from "payload/dist/config/types";
 import { groupBy } from "../util/array";
 import { slateToMarkdown } from "./markdown";
-import { AppWelcome, Category, Emergency, Help, Info, Reference, Situation, Source } from "payload/generated-types";
+import { AppWelcome, Category, Emergency, Faq, Help, Info, Reference, Situation, Source } from "payload/generated-types";
 
 const makeLookup = (array: Array<{ id: unknown }>) =>
   Object.fromEntries(array.map((item) => [item.id, item]));
@@ -52,7 +52,7 @@ const transformExtendedRichText = (
 };
 
 const faq = {
-  transform: function (entry: FAQ["entries"][number]) {
+  transform: function (entry: Faq["entries"][number]) {
     return {
       question: entry.question,
       answer: slateToMarkdown(entry.answer),
@@ -61,7 +61,7 @@ const faq = {
   },
   get: async (payload: Payload) =>
     await payload
-      .findGlobal<FAQ>({ slug: "faq" })
+      .findGlobal({ slug: "faq" })
       .then((result) => result.entries.map(faq.transform)),
 };
 

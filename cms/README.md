@@ -2,7 +2,7 @@
 
 ## Package Manager
 
-This project `pnpm` for managing the dependencies.
+This project `npm` for managing the dependencies.
 
 ## Ideas
 

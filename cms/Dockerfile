@@ -1,4 +1,4 @@
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 
 # Create app directory
 WORKDIR /app
@@ -7,9 +7,9 @@ WORKDIR /app
 COPY . .
 
 # Install app dependencies
-RUN pnpm install && pnpm run build
+RUN npm ci && npm run build
 
-FROM node:18-alpine
+FROM node:20-alpine
 
 WORKDIR /app
 
