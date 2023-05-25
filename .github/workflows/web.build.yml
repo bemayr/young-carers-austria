@@ -1,4 +1,4 @@
-name: (web) Build and Deploy Website
+name: (web) Publish Website to GitHub Pages
 
 on:
   repository_dispatch:

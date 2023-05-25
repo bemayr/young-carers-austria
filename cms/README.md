@@ -1,3 +1,9 @@
+# Young Carers Austria CMS
+
+## Package Manager
+
+This project `pnpm` for managing the dependencies.
+
 ## Ideas
 
 - [ ] adapt the serverURL for production use
