@@ -27,8 +27,7 @@ export async function getOpenGraphData(
           result.ogImageURL ??
           result.ogImageSecureURL ??
           (result.ogImage as { url: string } | undefined)?.url,
-        imageAlt:
-          (result.ogImage as { alt: string } | undefined)?.alt,
+        imageAlt: result.twitterImageAlt,
         favicon: result.favicon,
       };
   } catch (error) {

@@ -1,4 +1,9 @@
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
+
+# enable pnpm
+
+RUN apk update && apk add --no-cache libc6-compat
+RUN corepack enable && corepack prepare pnpm@8.5.1 --activate 
 
 # Create app directory
 WORKDIR /app
@@ -9,7 +14,7 @@ COPY . .
 # Install app dependencies
 RUN pnpm install && pnpm run build
 
-FROM node:18-alpine
+FROM node:20-alpine
 
 WORKDIR /app
 
