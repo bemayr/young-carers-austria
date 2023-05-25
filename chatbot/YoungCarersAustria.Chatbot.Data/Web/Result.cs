@@ -8,6 +8,6 @@ public abstract record Result(
 {
     public record Category(Web.Category category) : Result("category", category.Id);
     public record Reference(Web.Reference reference) : Result("reference", reference.Id);
-    public record Situation(Web.Situation situation) : Result("insight", situation.Id);
+    public record Situation(Web.Situation situation) : Result("situation", situation.Id);
     public record FAQ(Web.FAQ.Entry faq) : Result("faq", faq.Id);
 }
