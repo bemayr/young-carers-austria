@@ -86,6 +86,8 @@ services:
     networks:
       - internal
       - web
+    env_file:
+      - variables.chatbot.env
 
   app-forward:
     image: bemayr/app-forward:1.0.1
