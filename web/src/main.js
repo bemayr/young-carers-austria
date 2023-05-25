@@ -1,10 +1,26 @@
 import './styles/main.css';
 
 import Alpine from 'alpinejs';
+import { marked } from 'marked';
+import slugify from '@sindresorhus/slugify';
 
 window.Alpine = Alpine;
+window.slugify = slugify;
 
 Alpine.start();
+
+Alpine.directive(
+  "markdown",
+  (el, { expression }, { effect, evaluateLater }) => {
+    let getHTML = evaluateLater(expression);
+
+    effect(() => {
+      getHTML((input) => {
+        el.innerHTML = marked(input, { mangle: false, headerIds: false });
+      });
+    });
+  }
+);
 
 const env = document.querySelector('body').dataset.env;
 

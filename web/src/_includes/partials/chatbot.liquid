@@ -1,49 +1,106 @@
-<div x-show="chatbotOpen" x-description="Banner, show/hide based on modal state."
-  x-data="await chatBot()"
+<div x-show="chatbotOpen" x-description="Chatbot, kann auf- und eingeklappt werden."
+  x-data="chatBot()"
+  x-init="initializeChatbot()"
   x-transition:enter="ease-out duration-300"
   x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
   x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200"
   x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
   x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-  class="fixed inset-x-0 bottom-0" style="display: none">
+  class="fixed right-0 bottom-0" style="display: none">
 
-    <div class="flex-1 p:2 sm:p-6 justify-between flex flex-col h-screen bg-slate-200 rounded-lg shadow-lg m-4 w-7/12">
+    <div class="flex-1 p-1 sm:p-6 justify-between flex flex-col max-h-[90vh] lg:max-h-[65vh] bg-gray-200 rounded-lg shadow-lg m-4">
         <div id="messages" class="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch">
             <template x-for="(message, key) in messages">
                 <div>
                     <div class="flex items-end" :class="message.from=='bot'?'':'justify-end'">
                         <div class="flex flex-col space-y-2 text-md leading-tight max-w-lg mx-2" :class="message.from=='bot'?'order-2 items-start':'order-1 items-end'">
                             <div>
-                                <span class="px-4 py-3 rounded-xl inline-block" :class="message.from=='bot'?'rounded-bl-none bg-gray-100 text-gray-600':'rounded-br-none bg-blue-500 text-white'" x-html="message.text"></span>
+                                <template x-if="message.from==='user'">
+                                    <span class="px-4 py-3 rounded-xl inline-block rounded-br-none bg-red text-white" x-html="message.text"></span>
+                                </template>
+                                <template x-if="message.type === 'text'">
+                                    <span class="px-4 py-3 rounded-xl inline-block prose rounded-bl-none bg-white text-gray-600 leading-tight" x-markdown="message.text"></span>
+                                </template>
+                                <template x-if="message.type === 'category'">
+                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
+                                        <a class="no-underline" target="_blank" :href="'infos/' + window.slugify(message.category.name)">
+                                            <div class="p-5">
+                                                <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.category.name">
+                                                </h3>
+                                                <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent" x-html="message.category.descriptionPlain.split(/\s+/).slice(0, 55).join(' ') + '…'">
+                                                </p>
+                                                <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">Kategorie</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </template>
+                                <template x-if="message.type === 'reference'">
+                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
+                                        <a class="no-underline" target="_blank" :href="message.reference.address">
+                                        <img class="p-0 m-0 rounded-t-lg" :src="message.reference.image" alt="" />
+                                        <div class="p-5">
+                                            <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.reference.title">
+                                            </h3>
+                                            <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent" x-html="message.reference.description">
+                                            </p>
+                                            <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">Beitrag</p>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </template>
+                                <template x-if="message.type === 'situation'">
+                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
+                                        <a class="no-underline" target="_blank" :href="'alltagssituationen/#' + window.slugify(message.situation.name)">
+                                            <div class="p-5">
+                                                <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.situation.name">
+                                                </h3>
+                                                <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent" x-html="message.situation.contentPlain.split(/\s+/).slice(0, 55).join(' ') + '…'">
+                                                </p>
+                                                <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">Alltagssituation</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </template>
+                                <template x-if="message.type === 'faq'">
+                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
+                                        <div class="p-5">
+                                            <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.faq.question">
+                                            </h3>
+                                            <div class="font-normal prose my-0 mt-2 py-0 text-gray-700 leading-tight decoration-transparent" x-markdown="message.faq.answerMarkdown">
+                                            </div>
+                                            <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">FAQ</p>
+                                        </div>
+                                    </div>
+                                </template>
                             </div>
                         </div>
-                        <img :src="message.from=='bot'?'https://i.pravatar.cc/100?img=3':'https://i.pravatar.cc/100?img=7'" alt="" class="w-6 h-6 rounded-full" :class="message.from=='bot'?'order-1':'order-2'">
+                        <div x-html="message.from=='bot'?character.emoji:'👤'" alt="" class="text-2xl" :class="message.from=='bot'?'order-1':'order-2'"></div>
                     </div>
                 </div>
             </template>
-            <span x-html="prompts"></span>
+            <!--<span x-html="prompts"></span>-->
             <div x-show="botTyping" style="display: none;">
                 <div class="flex items-end">
                     <div class="flex flex-col space-y-2 text-md leading-tight mx-2 order-2 items-start">
-                        <div><img src="https://support.signal.org/hc/article_attachments/360016877511/typing-animation-3x.gif" alt="..." class="w-16 ml-6"></div>
+                        <div><img src="/loading.gif" alt="..." class="w-16 ml-6"></div> <!-- replace with something like https://codepen.io/bilalck/pen/jdGGNW -->
                     </div>
                 </div>
             </div>
         </div>
         <div class="border-t-2 border-gray-200 px-4 pt-4 mb-2 sm:mb-0">
             <div class="relative flex">
-                <input type="text" placeholder="Say something..." autocomplete="off" autofocus="true" @keydown.enter="updateChat($event.target)" class="text-md w-full focus:outline-none focus:placeholder-gray-400 text-gray-600 placeholder-gray-600 pl-5 pr-16 bg-gray-100 border-2 border-gray-200 focus:border-blue-500 rounded-full py-2" x-ref="input" />
-                <div class="absolute right-2 items-center inset-y-0 hidden sm:flex">
-                    <button type="button" class="inline-flex items-center justify-center rounded-full h-8 w-8 transition duration-200 ease-in-out text-white bg-blue-500 hover:bg-blue-600 focus:outline-none" @click.prevent="updateChat($refs.input)">
+                <input type="text" placeholder="Womit kann ich dir helfen?" autocomplete="off" autofocus="true" @keydown.enter="await fetchAnswer($event.target)" class="text-md w-full focus:outline-none focus:placeholder-gray-400 text-gray-600 placeholder-gray-600 pl-5 pr-16 bg-gray-100 border-2 border-gray-200 focus:border-red rounded-full py-2" x-ref="input" />
+                <div class="absolute right-2 items-center inset-y-0 flex">
+                    <button type="button" class="inline-flex items-center justify-center rounded-full h-8 w-8 transition duration-200 ease-in-out text-white bg-red hover:bg-red focus:outline-none" @click.prevent="await fetchAnswer($refs.input)">
                         <span>-></span>
                     </button>
                 </div>
             </div>
         </div>
-        <div class="absolute right-4 top-7">
+        <div class="absolute right-3 top-3 sm:right-5 sm:top-5">
           <button @click="chatbotOpen = false" type="button"
-            class="-mr-1 flex rounded-md p-2 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-white">
-            <span class="sr-only"> Dismiss </span>
+            class="flex rounded-md p-2 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-white">
+            <span class="sr-only"> Chatbot schließen </span>
             <svg class="h-6 w-6 text-darkBlue" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
               role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
               <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19
@@ -57,54 +114,10 @@
           </button>
         </div>
     </div>
-
-  {%- comment -%} <div class="mx-auto max-w-2xl px-2 sm:px-6 lg:px-8">
-    <div class="rounded-lg bg-gray-600 p-2 shadow-lg sm:p-3">
-      <div class="flex flex-wrap items-center justify-between">
-        <div class="flex w-0 flex-1 items-center">
-          <span class="flex rounded-lg bg-gray-800 p-2">
-            <svg class="h-6 text-white" aria-hidden="true" focusable="false" role="img"
-              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-              <path fill="currentColor" d="M576 240c0-23.63-12.95-44.04-32-55.12V32.01C544 23.26 537.02
-                0 512 0c-7.12 0-14.19 2.38-19.98 7.02l-85.03 68.03C364.28 109.19
-                310.66 128 256 128H64c-35.35 0-64 28.65-64 64v96c0 35.35 28.65
-                64 64 64h33.7c-1.39 10.48-2.18 21.14-2.18 32 0 39.77 9.26 77.35
-                25.56 110.94 5.19 10.69 16.52 17.06 28.4 17.06h74.28c26.05 0
-                41.69-29.84 25.9-50.56-16.4-21.52-26.15-48.36-26.15-77.44
-                0-11.11 1.62-21.79 4.41-32H256c54.66 0 108.28 18.81 150.98
-                52.95l85.03 68.03a32.023 32.023 0 0 0 19.98 7.02c24.92 0
-                32-22.78 32-32V295.13C563.05 284.04 576 263.63 576 240zm-96
-                141.42l-33.05-26.44C392.95 311.78 325.12 288 256 288v-96c69.12 0
-                136.95-23.78 190.95-66.98L480 98.58v282.84z" />
-            </svg>
-          </span>
-          <p class="ml-3 truncate font-medium text-white">
-            Alpine.js is up and running!
-          </p>
-        </div>
-        <div class="order-2 flex-shrink-0 sm:order-3 sm:ml-2">
-          <button @click="chatbotOpen = false" type="button"
-            class="-mr-1 flex rounded-md p-2 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-white">
-            <span class="sr-only"> Dismiss </span>
-            <svg class="h-6 w-6 text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
-              <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19
-                0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28
-                75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28
-                12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28
-                12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28
-                44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48
-                0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div> {%- endcomment -%}
 </div>
 
 <script type="text/javascript">
-console.log("test")
+const CHATBOT_BASE_URL = "https://chatbot.young-carers-austria.at/";
 
 function readJson (url) {
    return fetch(url)
@@ -117,174 +130,46 @@ function readJson (url) {
    })
 }
 
-async function chatBot() {
+function onMessage(target) {
+    console.log(target)
+    if (target.value.trim()) {
+        this.output(target.value.trim());
+        target.value = '';
+    }
+}
 
-  const character = await readJson("http://localhost:49153/character")
-  console.log({character});
-
-    return Promise.resolve({
-        prompts: [
-            ["hi", "hey", "hello", "good morning", "good afternoon"],
-            ["how are you", "how is life", "how are things"],
-            ["what are you doing", "what is going on", "what is up"],
-            ["how old are you"],
-            ["who are you", "are you human", "are you bot", "are you human or bot"],
-            ["who created you", "who made you"],
-            ["your name please", "your name", "may i know your name", "what is your name", "what call yourself"],
-            ["i love you"],
-            ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
-            ["bad", "bored", "tired"],
-            ["help me", "tell me story", "tell me joke"],
-            ["ah", "yes", "ok", "okay", "nice"],
-            ["bye", "good bye", "goodbye", "see you later"],
-            ["what should i eat today"],
-            ["bro"],
-            ["what", "why", "how", "where", "when"],
-            ["no", "not sure", "maybe", "no thanks"],
-            [""],
-            ["haha", "ha", "lol", "hehe", "funny", "joke"],
-            ["flip a coin", "heads or tails", "tails or heads", "head or tails", "head or tail", "tail or heads", "tail or head"],
-            ["beer","buy me a beer","want a beer"]
-        ],
-        replies: [
-            ["Hello!", "Hi!", "Hey!", "Hi there!", "Howdy"],
-            ["Fine... how are you?", "Pretty well, how are you?", "Fantastic, how are you?"],
-            ["Nothing much", "About to go to sleep", "Can you guess?", "I don't know actually"],
-            ["I am infinite"],
-            ["I am just a bot", "I am a bot. What are you?"],
-            ["The one true God, JavaScript"],
-            ["I am nameless", "I don't have a name"],
-            ["I love you too", "Me too"],
-            ["Have you ever felt bad?", "Glad to hear it"],
-            ["Why?", "Why? You shouldn't!", "Try watching TV"],
-            ["What about?", "Once upon a time..."],
-            ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
-            ["Bye", "Goodbye", "See you later"],
-            ["Sushi", "Pizza"],
-            ["Bro!"],
-            ["Great question"],
-            ["That's ok", "I understand", "What do you want to talk about?"],
-            ["Please say something :("],
-            ["Haha!", "Good one!"],
-            ["Heads", "Tails"],
-            ["You can buy me a beer at: <a href=\"https://www.buymeacoffee.com/scottwindon\" target=\"_blank\" style=\"text-decoration:underline;\">https://www.buymeacoffee.com/scottwindon</a>"]
-        ],
-        alternative: ["Same", "Go on...", "Bro...", "Try again", "I'm listening...", "I don't understand :/"],
-        coronavirus: ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"],
+function chatBot() {
+    let test = ({
         botTyping: false,
-        messages: [{
-            from: 'bot',
-            text: 'Hello world!'
-        }],
-        output: function(input) {
-            let product;
+        character: undefined,
+        messages: [],
+        output: async function(input) {
+            // add the user's message
+            this.messages.push({
+                from: 'user',
+                text: input
+            })
 
-            // Regex remove non word/space chars
-            // Trim trailing whitespce
-            // Remove digits - not sure if this is best
-            // But solves problem of entering something like 'hi1'
+            this.scrollChat();
+            this.botTyping = true;
 
-            let text = input.toLowerCase().replace(/[^\w\s]/gi, "").replace(/[\d]/gi, "").trim();
-            text = text
-                .replace(/ a /g, " ") // 'tell me a story' -> 'tell me story'
-                .replace(/i feel /g, "")
-                .replace(/whats/g, "what is")
-                .replace(/please /g, "")
-                .replace(/ please/g, "")
-                .replace(/r u/g, "are you");
+            // fetch the messages
+            const response = await fetch(`${CHATBOT_BASE_URL}/answer?message=${encodeURIComponent(input)}`).then(res => res.json());
 
-            if (this.compare(this.prompts, this.replies, text)) {
-                // Search for exact match in `prompts`
-                product = this.compare(this.prompts, this.replies, text);
-            } else if (text.match(/thank/gi)) {
-                product = "You're welcome!"
-            } else if (text.match(/(corona|covid|virus)/gi)) {
-                // If no match, check if message contains `coronavirus`
-                product = this.coronavirus[Math.floor(Math.random() * this.coronavirus.length)];
-            } else {
-                // If all else fails: random this.alternative
-                product = this.alternative[Math.floor(Math.random() * this.alternative.length)];
-            }
+            // wait between 1s and 5.251s
+            await new Promise(res => setTimeout(res, Math.random() * (5251 - 1000) + 1000))
 
-            // Update DOM
-            this.addChat(input, product);
+            this.botTyping = false;
+
+            for(const message of response.messages)
+                this.messages.push({
+                    from: 'bot',
+                    ...message
+                });
+
+            //this.scrollChat();
         },
-        compare: function(promptsArray, repliesArray, string) {
-            let reply;
-            let replyFound = false;
-            for (let x = 0; x < promptsArray.length; x++) {
-                for (let y = 0; y < promptsArray[x].length; y++) {
-                    if (promptsArray[x][y] === string) {
-                        let replies = repliesArray[x];
-                        reply = replies[Math.floor(Math.random() * replies.length)];
-                        replyFound = true;
-                        // Stop inner loop when input value matches this.prompts
-                        break;
-                    }
-                }
-                if (replyFound) {
-                    // Stop outer loop when reply is found instead of interating through the entire array
-                    break;
-                }
-            }
-            if (!reply) {
-                for (let x = 0; x < promptsArray.length; x++) {
-                    for (let y = 0; y < promptsArray[x].length; y++) {
-                        if (this.levenshtein(promptsArray[x][y], string) >= 0.75) {
-                            let replies = repliesArray[x];
-                            reply = replies[Math.floor(Math.random() * replies.length)];
-                            replyFound = true;
-                            // Stop inner loop when input value matches this.prompts
-                            break;
-                        }
-                    }
-                    if (replyFound) {
-                        // Stop outer loop when reply is found instead of interating through the entire array
-                        break;
-                    }
-                }
-            }
-            return reply;
-        },
-        levenshtein: function(s1, s2) {
-            var longer = s1;
-            var shorter = s2;
-            if (s1.length < s2.length) {
-                longer = s2;
-                shorter = s1;
-            }
-            var longerLength = longer.length;
-            if (longerLength == 0) {
-                return 1.0;
-            }
-            return (longerLength - this.editDistance(longer, shorter)) / parseFloat(longerLength);
-        },
-        editDistance: function(s1, s2) {
-            s1 = s1.toLowerCase();
-            s2 = s2.toLowerCase();
-
-            var costs = new Array();
-            for (var i = 0; i <= s1.length; i++) {
-                var lastValue = i;
-                for (var j = 0; j <= s2.length; j++) {
-                    if (i == 0)
-                        costs[j] = j;
-                    else {
-                        if (j > 0) {
-                            var newValue = costs[j - 1];
-                            if (s1.charAt(i - 1) != s2.charAt(j - 1))
-                                newValue = Math.min(Math.min(newValue, lastValue),
-                                    costs[j]) + 1;
-                            costs[j - 1] = lastValue;
-                            lastValue = newValue;
-                        }
-                    }
-                }
-                if (i > 0)
-                    costs[s2.length] = lastValue;
-            }
-            return costs[s2.length];
-        },
+        // TODO: remove this
         addChat: function(input, product) {
 
             // Add user message
@@ -320,12 +205,26 @@ async function chatBot() {
                 messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;
             }, 100);
         },
-        updateChat: function(target) {
+        fetchAnswer: async function(target) {
             if (target.value.trim()) {
-                this.output(target.value.trim());
+                await this.output(target.value.trim());
                 target.value = '';
             }
+        },
+        initializeChatbot: async function() {
+            // handle the character
+            this.character = await fetch(`${CHATBOT_BASE_URL}/character`).then(res => res.json())
+
+            // handle the welcome messages
+            const messages = await fetch(`${CHATBOT_BASE_URL}/welcome`).then(res => res.json())
+            for(const message of messages)
+                this.messages.push({
+                    from: 'bot',
+                    ...message
+                });
         }
-    })
+    });
+
+    return test
 }
 </script>
