@@ -1,6 +1,7 @@
 import { GlobalConfig } from 'payload/types';
 import { notifyGitHub } from '../util/hooks';
 import { virtualPlainRichtextField } from '../util/fields';
+import { markdownify } from '../api/markdown';
 
 const FAQ: GlobalConfig = {
   slug: 'faq',
@@ -49,6 +50,26 @@ const FAQ: GlobalConfig = {
           }
         },
         virtualPlainRichtextField("answer"),
+        {
+          name: "answerMarkdown",
+          type: "text",
+          admin: {
+            hidden: true, // hides the field from the admin panel
+          },
+          hooks: {
+            beforeChange: [
+              ({ siblingData }) => {
+                // ensures data is not stored in DB
+                delete siblingData["answerMarkdown"];
+              },
+            ],
+            afterRead: [
+              ({ siblingData }) => {
+                return markdownify(siblingData.answer).trim();
+              },
+            ],
+          },
+        },
         {
           name: "showOnLandingPage",
           type: "checkbox",
