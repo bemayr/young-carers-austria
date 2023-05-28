@@ -12,6 +12,6 @@ jobs:
       - name: Check Links 🖇️
         uses: fjogeleit/http-request-action@v1
         with:
-          url: 'https://redaktion.young-carers-austria.at/links/validate'
-          method: 'POST'
-          timeout: 60000
+          url: 'https://linkchecker.young-carers-austria.at/check-content'
+          method: 'GET'
+          timeout: 120000
