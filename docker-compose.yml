@@ -15,19 +15,29 @@ services:
   traefik:
     restart: always
     image: traefik:v2.10
+    networks:
+      - internal
+      - web
     command:
       - --api.dashboard=true
+      - --log.level=DEBUG
       - --providers.docker=true
+      - --providers.docker.watch=true
+      - --providers.docker.network=web
       - --providers.docker.exposedbydefault=false
+      - --entrypoints.web.address=:80
+      - --entrypoints.web.http.redirections.entryPoint.to=websecure
+      - --entrypoints.web.http.redirections.entryPoint.scheme=https
       - --entrypoints.websecure.address=:443
       - --certificatesresolvers.lets-encrypt.acme.tlschallenge=true
       - --certificatesresolvers.lets-encrypt.acme.email=${POSTMASTER}
       - --certificatesresolvers.lets-encrypt.acme.storage=/letsencrypt/acme.json
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.dashboard.rule=Host(`monitor.young-carers-austria.local`) && (PathPrefix(`/api`) || PathPrefix(`/dashboard`))"
+      - "traefik.http.routers.dashboard.rule=Host(`monitor.young-carers-austria.at`)"
       - "traefik.http.routers.dashboard.service=api@internal"
       - "traefik.http.routers.dashboard.middlewares=auth"
+      - "traefik.http.routers.dashboard.tls.certresolver=lets-encrypt"
       - "traefik.http.middlewares.auth.digestauth.users=${TRAEFIK_USER}:traefik:${TRAEFIK_PASSWORD}"
     ports:
       - 80:80
@@ -38,11 +48,11 @@ services:
 
   cms:
     image: ghcr.io/bemayr/young-carers-austria.cms:latest
-    container_name: cms
     restart: unless-stopped
     depends_on:
       - cms-database
     labels:
+      - traefik.enable=true
       - traefik.http.routers.cms.rule=Host(`redaktion.young-carers-austria.at`)
       - traefik.http.routers.cms.tls=true
       - traefik.http.routers.cms.tls.certresolver=lets-encrypt
@@ -56,7 +66,6 @@ services:
 
   cms-database:
     image: mongo:6.0.2
-    container_name: cms-database
     restart: unless-stopped
     networks:
       - cms
@@ -74,9 +83,11 @@ services:
 
   chatbot:
     image: ghcr.io/bemayr/young-carers-austria.chatbot:latest
-    container_name: chatbot
     restart: always
+    depends_on:
+      - cms
     labels:
+      - traefik.enable=true
       - traefik.http.routers.chatbot.rule=Host(`chatbot.young-carers-austria.at`)
       - traefik.http.routers.chatbot.tls=true
       - traefik.http.routers.chatbot.tls.certresolver=lets-encrypt
@@ -84,14 +95,16 @@ services:
     networks:
       - internal
       - web
-    env_file:
-      - variables.chatbot.env
+    environment:
+      - CMS_URL=${CMS_URL}
+      - INSIGHTS_URL=${INSIGHTS_URL}
+      - INSIGHTS_PAGE_ID=${CHATBOT_INSIGHTS_PAGE_ID}
 
   app-forward:
     image: bemayr/app-forward:1.0.1
-    container_name: app-forward
     restart: always
     labels:
+      - traefik.enable=true
       - traefik.http.routers.app-forward.rule=Host(`app.young-carers-austria.at`)
       - traefik.http.routers.app-forward.tls=true
       - traefik.http.routers.app-forward.tls.certresolver=lets-encrypt
@@ -106,12 +119,12 @@ services:
 
   web-staging:
     image: ghcr.io/bemayr/young-carers-austria.website:staging
-    container_name: web-staging
     restart: always
     labels:
-      - traefik.http.routers.app-forward.rule=Host(`testing.young-carers-austria.at`)
-      - traefik.http.routers.app-forward.tls=true
-      - traefik.http.routers.app-forward.tls.certresolver=lets-encrypt
+      - traefik.enable=true
+      - traefik.http.routers.web-staging.rule=Host(`testing.young-carers-austria.at`)
+      - traefik.http.routers.web-staging.tls=true
+      - traefik.http.routers.web-staging.tls.certresolver=lets-encrypt
       - traefik.port=80
     networks:
       - internal
@@ -119,11 +132,11 @@ services:
 
   insights:
     image: matomo
-    container_name: insights
     restart: always
     depends_on:
       - insights-database
     labels:
+      - traefik.enable=true
       - traefik.http.routers.insights.rule=Host(`insights.young-carers-austria.at`)
       - traefik.http.routers.insights.tls=true
       - traefik.http.routers.insights.tls.certresolver=lets-encrypt
@@ -141,11 +154,10 @@ services:
 
   insights-database:
     image: mariadb
-    container_name: insights-database
     command: --max-allowed-packet=64MB
     restart: unless-stopped
     volumes:
-      - ./data/insights-database/db:/data/db:rw
+      - ./data/insights-database/db:/var/lib/mysql:rw
     networks:
       - matomo
     env_file:
