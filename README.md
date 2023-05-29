@@ -1,6 +1,6 @@
 # [Young Carers Austria](https://www.sozialministerium.at/youngcarers)
 
-Young Carers Austria App on behalf of the Austrian Social Ministry
+Young Carers Austria App and Website on behalf of the Austrian Social Ministry
 
 ## Services
 
@@ -8,10 +8,10 @@ Young Carers Austria App on behalf of the Austrian Social Ministry
 ---|---|---
 🌐 | [(www.)young-carers-austria.at](https://www.young-carers-austria.at) | [Website](#website)
 📦 | [redaktion.young-carers-austria.at](https://redaktion.young-carers-austria.at) | [Content Management System](#content-management-system)
+🧪 | [testing.young-carers-austria.at](https://testing.young-carers-austria.at) | [Website Staging](#website-staging)
 📱 | [app.young-carers-austria.at](https://app.young-carers-austria.at) | [App Forwarding](#app-forwarding)
 💬 | [chatbot.young-carers-austria.at](https://chatbot.young-carers-austria.at) | [Chatbot API](#chatbot)
 🔍 | [insights.young-carers-austria.at](https://insights.young-carers-austria.at) | [Insights](#insights)
-🖥️ | [monitor.young-carers-austria.at](https://monitor.young-carers-austria.at) | [Service Monitoring System](#service-monitoring-system)
 
 ## Project Progress
 
@@ -28,30 +28,38 @@ The tasks we are currently working on look like this:
 
 ## Platform Architecture
 
-![Young Carers Austria Architecture Diagram](./assets/yc%20app%20architecture.png)
+The following architecture diagram shows an overview of the project's components.
+
+![Young Carers Austria Architecture Diagram](./assets/yc%20app%20architecture.svg)
 
 ### Website
 
-`// TODO`
+The current version of the website can be reached at [www.young-carers-austria.at](https://www.young-carers-austria.at) and is deployed via GitHub Pages.
+If anything changes on the `main`-branch in the `/web`-directory or `cms_content_changed` is triggered by any content change in the content management system, the website is re-deployed on GitHub Pages.
 
 ### Content Management System
 
-`// TODO`
+The content management system is used internally in the [Austrian Social Ministry](https://www.sozialministerium.at/).
+It is built upon Payload CMS and re-deployed upon changes on `main` if the `/cms` directory contains any new changes.
+
+### Website (Staging)
+
+The staging website can be reached at [testing.young-carers-austria.at](https://testing.young-carers-austria.at).
+If the `/web`-directory changes on the `staging`-branch, then a new version of the website is built and pushed to [ghcr.io/bemayr/young-carers-austria.website:staging](https://github.com/bemayr/young-carers-austria/pkgs/container/young-carers-austria.website).
 
 ### App Forwarding
 
-<img src="./assets/app-qr.svg" alt="https://app.young-carers-austria.at" title="Young Carers Austria App QR Code" style="width: 250px;">
+The App Forwarding service is a really small endpoint written in Go, that simply forwards the user to the appropriate platform based on the User-Agent.
+This was mainly developed to enable a tracking-free, custom-domain solution for forwarding users via a QR Code.
 
-`// TODO`
+<img src="./assets/app-qr.svg" alt="https://app.young-carers-austria.at" title="Young Carers Austria App QR Code" style="width: 250px;">
 
 ### Chatbot
 
-`// TODO`
+The chatbot is built upon Lucene.NET and combines custom messages provided in the content management system with the content (references, categories, FAQ entries, situations).
+Matching the content is based upon lemmatization and stemming, results are prioritized regarding their importance.
+If you think the results could be improved we are happily accepting PRs or improvement ideas via [yc-support@sozialministerium.at](mailto:yc-support@sozialministerium.at).
 
 ### Insights
 
-`// TODO`
-
-### Service Monitoring System
-
-`// TODO`
+Insights are gathered using cookie-free anonymized tracking handled by Matomo.
