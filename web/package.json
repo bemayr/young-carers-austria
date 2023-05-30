@@ -24,6 +24,8 @@
     "clean": "del-cli _site .cache",
     "start": "cross-env NODE_ENV=development npx @11ty/eleventy --serve --incremental --quiet",
     "build": "cross-env NODE_ENV=production npx @11ty/eleventy",
+    "build:staging": "cross-env NODE_ENV=staging npx @11ty/eleventy",
+    "build:production": "cross-env NODE_ENV=production npx @11ty/eleventy",
     "build:debug": "cross-env NODE_ENV=development;DEBUG=Eleventy* npx @11ty/eleventy",
     "preview": "npx @11ty/eleventy-dev-server --input=_site",
     "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
