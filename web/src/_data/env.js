@@ -15,9 +15,10 @@ const buildTime = new Intl.DateTimeFormat('de-AT', {
   timeZone,
 }).format(now);
 
-const latestGitCommitHash = execSync('git rev-parse --short HEAD')
-  .toString()
-  .trim();
+// TODO: fix later
+// const latestGitCommitHash = execSync('git rev-parse --short HEAD')
+//   .toString()
+//   .trim();
 
 module.exports = {
   environment,
@@ -27,5 +28,4 @@ module.exports = {
     raw: now.toISOString(),
     formatted: `${buildTime}`,
   },
-  hash: latestGitCommitHash,
 };
