@@ -74,7 +74,7 @@ namespace YoungCarersAustria.Chatbot.Search
                 query.Add(new TermQuery(new Term("name", token)), Occur.SHOULD);
                 query.Add(new TermQuery(new Term("title", token)), Occur.SHOULD);
                 query.Add(new TermQuery(new Term("description", token)), Occur.SHOULD);
-                query.Add(new FuzzyQuery(new Term("keyword", token), maxEdits: 1), Occur.SHOULD);
+                query.Add(new FuzzyQuery(new Term("keywords", token), maxEdits: 1), Occur.SHOULD);
             }
 
             var results = await Task.Run(() => searcher.Search(query, n: 5));
