@@ -14,6 +14,11 @@ concurrency:
   group: '${{ github.workflow }} @ ${{ github.head_ref || github.ref }}'
   cancel-in-progress: true
 
+env:
+  CHATBOT_BASE_URL: https://chatbot.young-carers-austria.at
+  INSIGHTS_BASE_URL: //insights.young-carers-austria.at/
+  INSIGHTS_IDSITE: 1
+
 permissions: 
   contents: write
 

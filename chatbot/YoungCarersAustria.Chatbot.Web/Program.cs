@@ -1,10 +1,9 @@
-﻿using YoungCarersAustria.Chatbot.Web.Extensions;
-using YoungCarersAustria.Chatbot.Data;
-using YoungCarersAustria.Chatbot.Search;
-using System.Web;
+﻿using System.Web;
 using UAParser;
-using YoungCarersAustria.Chatbot.Data.App;
+using YoungCarersAustria.Chatbot.Data;
 using YoungCarersAustria.Chatbot.Data.Web;
+using YoungCarersAustria.Chatbot.Search;
+using YoungCarersAustria.Chatbot.Web.Extensions;
 using static Microsoft.AspNetCore.Http.Results;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -69,8 +68,9 @@ object GetWelcomeMessage(HttpContext context) => GetPlatform(context) switch
     _ => throw new NotImplementedException(),
 };
 
-async Task<object> GetAnswer(string message, HttpContext context) {
-    async Task Trace(Platform platform, string message, int resultCount)
+async Task<object> GetAnswer(int? idsite, string message, HttpContext context)
+{
+    async Task Trace(Platform platform, int resultCount)
     {
         var platformString = platform switch
         {
@@ -81,7 +81,7 @@ async Task<object> GetAnswer(string message, HttpContext context) {
         };
 
         var query = HttpUtility.ParseQueryString("rec=1");
-        query["idsite"] = Environment.GetEnvironmentVariable("INSIGHTS_PAGE_ID") ?? throw new Exception("INSIGHTS_PAGE_ID not defined");
+        query["idsite"] = idsite?.ToString() ?? Environment.GetEnvironmentVariable("INSIGHTS_PAGE_ID") ?? throw new Exception("INSIGHTS_PAGE_ID not defined");
         query["search"] = message;
         query["search_cat"] = $"chatbot-{platformString}";
         query["search_count"] = resultCount.ToString();
@@ -96,7 +96,7 @@ async Task<object> GetAnswer(string message, HttpContext context) {
         case Platform.iOS:
         case Platform.Android:
             var appResults = await appSearcher.Find(message).ToListAsync();
-            _ = Trace(platform, message, appResults.Count);
+            _ = Trace(platform, appResults.Count);
 
             return appResults.Any()
                 ? new YoungCarersAustria.Chatbot.Data.App.Answer.Found(
@@ -107,7 +107,7 @@ async Task<object> GetAnswer(string message, HttpContext context) {
 
         case Platform.Web:
             var webResults = await webSearcher.Find(message).ToListAsync();
-            _ = Trace(platform, message, webResults.Count);
+            _ = Trace(platform, webResults.Count);
 
             IEnumerable<IMessage> ResultsFound()
             {
