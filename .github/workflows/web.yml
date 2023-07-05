@@ -3,7 +3,6 @@ name: (web) Build and Deploy Website
 on:
   push:
     branches:
-      - main
       - staging
     paths:
       - "web/**"
@@ -11,6 +10,9 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: bemayr/young-carers-austria.website
+  CHATBOT_BASE_URL: https://chatbot.young-carers-austria.at
+  INSIGHTS_BASE_URL: //insights.young-carers-austria.at/
+  INSIGHTS_IDSITE: 2
 
 jobs:
   build-and-push-image:
@@ -48,3 +50,7 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            "CHATBOT_BASE_URL=${{ env.CHATBOT_BASE_URL }}"
+            "INSIGHTS_BASE_URL=${{ env.INSIGHTS_BASE_URL }}"
+            "INSIGHTS_IDSITE=${{ env.INSIGHTS_IDSITE }}"

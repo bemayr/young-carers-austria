@@ -1,11 +1,14 @@
 const execSync = require('child_process').execSync;
 
 const environment = process.env.NODE_ENV;
+const CHATBOT_BASE_URL = process.env.CHATBOT_BASE_URL;
+const INSIGHTS_BASE_URL = process.env.INSIGHTS_BASE_URL;
+const INSIGHTS_IDSITE = process.env.INSIGHTS_IDSITE;
 const isProduction = environment === 'production';
-const baseUrl =
-  environment === isProduction
-    ? 'https://www.young-carers-austria.at'
-    : 'http://localhost:8080';
+
+if(!CHATBOT_BASE_URL) throw new Error("CHATBOT_BASE_URL not set");
+if(!INSIGHTS_BASE_URL) throw new Error("INSIGHTS_BASE_URL not set");
+if(!INSIGHTS_IDSITE) throw new Error("INSIGHTS_IDSITE not set");
 
 const now = new Date();
 const timeZone = 'UTC';
@@ -15,15 +18,12 @@ const buildTime = new Intl.DateTimeFormat('de-AT', {
   timeZone,
 }).format(now);
 
-// TODO: fix later
-// const latestGitCommitHash = execSync('git rev-parse --short HEAD')
-//   .toString()
-//   .trim();
-
 module.exports = {
   environment,
   isProduction,
-  baseUrl,
+  CHATBOT_BASE_URL,
+  INSIGHTS_BASE_URL,
+  INSIGHTS_IDSITE,
   time: {
     raw: now.toISOString(),
     formatted: `${buildTime}`,

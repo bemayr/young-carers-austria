@@ -22,7 +22,7 @@
   "homepage": "https://www.young-carers-austria.at",
   "scripts": {
     "clean": "del-cli _site .cache",
-    "start": "cross-env NODE_ENV=development npx @11ty/eleventy --serve --incremental --quiet",
+    "start": "cross-env NODE_ENV=development CHATBOT_BASE_URL=https://chatbot.young-carers-austria.at INSIGHTS_BASE_URL=//insights.young-carers-austria.local/ INSIGHTS_IDSITE=0 npx @11ty/eleventy --serve --incremental --quiet",
     "build": "cross-env NODE_ENV=production npx @11ty/eleventy",
     "build:staging": "cross-env NODE_ENV=staging npx @11ty/eleventy",
     "build:production": "cross-env NODE_ENV=production npx @11ty/eleventy",
