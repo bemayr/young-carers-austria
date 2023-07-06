@@ -1,5 +1,10 @@
 FROM node:20-alpine AS builder
 
+# Build Arguments
+ARG CHATBOT_BASE_URL
+ARG INSIGHTS_BASE_URL
+ARG INSIGHTS_IDSITE
+
 # Create app directory
 WORKDIR /usr/src/app
 
