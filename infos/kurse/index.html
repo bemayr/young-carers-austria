@@ -743,7 +743,7 @@ function chatBot() {
             this.botTyping = true;
 
             // fetch the messages
-            const response = await fetch(`${CHATBOT_BASE_URL}/answer?idsite=&message=${encodeURIComponent(input)}`).then(res => res.json());
+            const response = await fetch(`${CHATBOT_BASE_URL}/answer?idsite=1&message=${encodeURIComponent(input)}`).then(res => res.json());
 
             // wait between 1s and 5.251s
             await new Promise(res => setTimeout(res, Math.random() * (5251 - 1000) + 1000))
