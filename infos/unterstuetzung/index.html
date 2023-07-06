@@ -73,12 +73,14 @@ onload="this.media='all'; this.onload=null;" />
 <!-- End Matomo Code -->
 
 
-  <script type="module" crossorigin src="/assets/main.fe3f1502.js"></script>
-  <link rel="stylesheet" href="/assets/main.c8614a40.css">
+  <script type="module" crossorigin src="/assets/main.2685bbd3.js"></script>
+  <link rel="stylesheet" href="/assets/main.498f1d2e.css">
 </head>
 
-<body class="min-h-screen bg-gray-50" data-env="production" x-data="{ chatbotOpen: false }"
-  x-init="() => { setTimeout(() => { chatbotOpen = false }, 1500); }">
+<body
+  class="min-h-screen bg-gray-50"
+  data-env="production"
+  x-data="{ chatbotOpen: false }">
   <header x-data="{ menuOpen: false }">
   <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex h-24 items-center justify-between">
@@ -679,13 +681,246 @@ onload="this.media='all'; this.onload=null;" />
     </div>
   </div>
 </main>
-</div><footer class="bg-darkBlue text-white p-10 dark:prose-invert">
+</div><div x-show="chatbotOpen" x-description="Chatbot, kann auf- und eingeklappt werden."
+  x-data="chatBot()"
+  x-init="initializeChatbot()"
+  x-transition:enter="ease-out duration-300"
+  x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+  x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200"
+  x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+  x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+  class="fixed right-0 bottom-0" style="display: none">
+
+    <div class="flex-1 p-1 sm:p-6 justify-between flex flex-col max-h-[90vh] lg:max-h-[65vh] bg-gray-200 rounded-lg shadow-lg m-4">
+        <div id="messages" class="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch">
+            <template x-for="(message, key) in messages">
+                <div>
+                    <div class="flex items-end" :class="message.from=='bot'?'':'justify-end'">
+                        <div class="flex flex-col space-y-2 text-md leading-tight max-w-lg mx-2" :class="message.from=='bot'?'order-2 items-start':'order-1 items-end'">
+                            <div>
+                                <template x-if="message.from==='user'">
+                                    <span class="px-4 py-3 rounded-xl inline-block rounded-br-none bg-red text-white" x-html="message.text"></span>
+                                </template>
+                                <template x-if="message.type === 'text'">
+                                    <span class="px-4 py-3 rounded-xl inline-block prose rounded-bl-none bg-white text-gray-600 leading-tight" x-markdown="message.text"></span>
+                                </template>
+                                <template x-if="message.type === 'category'">
+                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
+                                        <a class="no-underline" target="_blank" :href="'infos/' + window.slugify(message.category.name)">
+                                            <div class="p-5">
+                                                <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.category.name">
+                                                </h3>
+                                                <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent" x-html="message.category.descriptionPlain.split(/\s+/).slice(0, 55).join(' ') + '…'">
+                                                </p>
+                                                <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">Kategorie</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </template>
+                                <template x-if="message.type === 'reference'">
+                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
+                                        <a class="no-underline" target="_blank" :href="message.reference.address">
+                                        <img class="p-0 m-0 rounded-t-lg" :src="message.reference.image" alt="" />
+                                        <div class="p-5">
+                                            <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.reference.title">
+                                            </h3>
+                                            <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent" x-html="message.reference.description">
+                                            </p>
+                                            <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">Beitrag</p>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </template>
+                                <template x-if="message.type === 'situation'">
+                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
+                                        <a class="no-underline" target="_blank" :href="'alltagssituationen/#' + window.slugify(message.situation.name)">
+                                            <div class="p-5">
+                                                <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.situation.name">
+                                                </h3>
+                                                <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent" x-html="message.situation.contentPlain.split(/\s+/).slice(0, 55).join(' ') + '…'">
+                                                </p>
+                                                <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">Alltagssituation</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </template>
+                                <template x-if="message.type === 'faq'">
+                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
+                                        <div class="p-5">
+                                            <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.faq.question">
+                                            </h3>
+                                            <div class="font-normal prose my-0 mt-2 py-0 text-gray-700 leading-tight decoration-transparent" x-markdown="message.faq.answerMarkdown">
+                                            </div>
+                                            <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">FAQ</p>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                        <div x-html="message.from=='bot'?character.emoji:'👤'" alt="" class="text-2xl" :class="message.from=='bot'?'order-1':'order-2'"></div>
+                    </div>
+                </div>
+            </template>
+            <!--<span x-html="prompts"></span>-->
+            <div x-show="botTyping" style="display: none;">
+                <div class="flex items-end">
+                    <div class="flex flex-col space-y-2 text-md leading-tight mx-2 order-2 items-start">
+                        <div><img src="/loading.gif" alt="..." class="w-16 ml-6"></div> <!-- replace with something like https://codepen.io/bilalck/pen/jdGGNW -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t-2 border-gray-200 px-4 pt-4 mb-2 sm:mb-0">
+            <div class="relative flex">
+                <input type="text" placeholder="Womit kann ich dir helfen?" autocomplete="off" autofocus="true" @keydown.enter="await fetchAnswer($event.target)" class="text-md w-full focus:outline-none focus:placeholder-gray-400 text-gray-600 placeholder-gray-600 pl-5 pr-16 bg-gray-100 border-2 border-gray-200 focus:border-red rounded-full py-2" x-ref="input" />
+                <div class="absolute right-2 items-center inset-y-0 flex">
+                    <button type="button" class="inline-flex items-center justify-center rounded-full h-8 w-8 transition duration-200 ease-in-out text-white bg-red hover:bg-red focus:outline-none" @click.prevent="await fetchAnswer($refs.input)">
+                        <span>-></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="absolute right-3 top-3 sm:right-5 sm:top-5">
+          <button @click="chatbotOpen = false" type="button"
+            class="flex rounded-md p-2 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-white">
+            <span class="sr-only"> Chatbot schließen </span>
+            <svg class="h-6 w-6 text-darkBlue" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
+              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+              <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19
+                0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28
+                75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28
+                12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28
+                12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28
+                44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48
+                0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+            </svg>
+          </button>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+const CHATBOT_BASE_URL = "https://chatbot.young-carers-austria.at";
+
+function readJson (url) {
+   return fetch(url)
+   .then(response => {
+    console.log(response)
+       if (!response.ok) {
+           throw new Error("HTTP error " + response.status);
+       }
+       return response.json();
+   })
+}
+
+function onMessage(target) {
+    console.log(target)
+    if (target.value.trim()) {
+        this.output(target.value.trim());
+        target.value = '';
+    }
+}
+
+function chatBot() {
+    let test = ({
+        botTyping: false,
+        character: undefined,
+        messages: [],
+        output: async function(input) {
+            // add the user's message
+            this.messages.push({
+                from: 'user',
+                text: input
+            })
+
+            this.scrollChat();
+            this.botTyping = true;
+
+            // fetch the messages
+            const response = await fetch(`${CHATBOT_BASE_URL}/answer?idsite=&message=${encodeURIComponent(input)}`).then(res => res.json());
+
+            // wait between 1s and 5.251s
+            await new Promise(res => setTimeout(res, Math.random() * (5251 - 1000) + 1000))
+
+            this.botTyping = false;
+
+            for(const message of response.messages)
+                this.messages.push({
+                    from: 'bot',
+                    ...message
+                });
+
+            //this.scrollChat();
+        },
+        // TODO: remove this
+        addChat: function(input, product) {
+
+            // Add user message
+            this.messages.push({
+                from: 'user',
+                text: input
+            });
+
+            // Keep messages at most recent
+            this.scrollChat();
+
+            // Fake delay to seem "real"
+            setTimeout(() => {
+                this.botTyping = true;
+                this.scrollChat();
+            }, 1000)
+
+            // add bit message with Fake delay to seem "real"
+            setTimeout(() => {
+                this.botTyping = false;
+                this.messages.push({
+                    from: 'bot',
+                    text: product
+                });
+                this.scrollChat();
+            }, ((product.length / 10) * 1000) + (Math.floor(Math.random() * 2000) + 1500))
+
+        },
+        scrollChat: function() {
+            const messagesContainer = document.getElementById("messages");
+            messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;
+            setTimeout(() => {
+                messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;
+            }, 100);
+        },
+        fetchAnswer: async function(target) {
+            if (target.value.trim()) {
+                await this.output(target.value.trim());
+                target.value = '';
+            }
+        },
+        initializeChatbot: async function() {
+            // handle the character
+            this.character = await fetch(`${CHATBOT_BASE_URL}/character`).then(res => res.json())
+
+            // handle the welcome messages
+            const messages = await fetch(`${CHATBOT_BASE_URL}/welcome`).then(res => res.json())
+            for(const message of messages)
+                this.messages.push({
+                    from: 'bot',
+                    ...message
+                });
+        }
+    });
+
+    return test
+}
+</script>
+
+
+  <footer class="bg-darkBlue text-white p-10 dark:prose-invert">
   <div class="flex flex-col-reverse md:flex-row justify-between">
     <a href="https://www.sozialministerium.at/">
       <img class="w-96" src="/assets/BMSGPK_Logo_weiss.986fa647.svg" alt="Logo des österreichischen Sozialministeriums">
     </a>
 
-    <nav class="flex flex-wrap justify-center flex-row md:space-x-0 md:flex-col mb-8 md:mb-0 gap-x-3 gap-y-2 md:gap-0 text-right self-center font-light md:gap-y-1">
+    <nav
+      class="flex flex-wrap justify-center flex-row md:space-x-0 md:flex-col mb-8 md:mb-0 gap-x-3 gap-y-2 md:gap-0 text-right self-center font-light md:gap-y-1">
       <a href="/impressum/">Impressum</a>
       <a href="/datenschutzerklärung/">Datenschutzerklärung</a>
       <a href="/barrierefreiheitserklärung/">Barrierefreiheitserklärung</a>
