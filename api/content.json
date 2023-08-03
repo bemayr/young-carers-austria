@@ -1,7 +1,7 @@
 {
   "faqs": [
     {
-      "question": "Bin ich ein Young Carer?",
+      "question": "Könnte es sein, dass du ein Young Carer bist?",
       "answer": "Pflegende Kinder und Jugendliche **helfen regelmäßig und häufiger** im Familienumfeld als ihre Altersgenossen ohne Pflegeverantwortung. Sie unterstützen im Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen Verantwortung. 23 Prozent der Kinder helfen in allen drei Bereichen überdurchschnittlich viel.\n\nYoung Carers verstehen sich selbst nicht als Pflegende und sprechen selten über ihre familiäre Situation. Daher werden sie auch in ihrem sozialen Umfeld und in der Öffentlichkeit kaum als pflegende Kinder wahrgenommen und sind oft mit ihren Sorgen und Ängsten allein.\n\n",
       "showOnLandingPage": false
     },
@@ -26,7 +26,7 @@
       "showOnLandingPage": false
     },
     {
-      "question": "Wie wirkt sich die Übernahme der Betreuung auf pflegende Kinder, also Young Carers, aus?",
+      "question": "Wie wirkt sich die Übernahme der Betreuung auf junge Pflegende aus?",
       "answer": "\nYoung Carer zu sein hat Auswirkungen in vielen Bereichen. Pflegende Kinder geben deutlich öfter an, unter Müdigkeit, Schlafproblemen sowie Rücken- und Kopfschmerzen zu leiden.\n\nGroße Unterschiede zeigen sich auch in Bezug auf die psychische Verfassung der Kinder. Den Aussagen „Ich mache mir oft Sorgen“ und „Ich bin oft traurig“ stimmen pflegende Kinder deutlich öfter zu als nicht pflegende Kinder.\n\nAllerdings fühlen sich pflegende Kinder gegenüber nicht pflegenden Kindern erwachsener und wissen auch, dass sie wertvolle Unterstützung leisten. Das macht deutlich, dass die Erfahrungen nicht ausschließlich negativ bewertet werden können.\n\n",
       "showOnLandingPage": false
     },
@@ -46,7 +46,7 @@
       "showOnLandingPage": true
     },
     {
-      "question": "Was können Erwachsene (Eltern, Pädagoginnen/Pädagogen, sowie zum Thema Interessierte) bei der Begegnung/im Umgang mit Young Carers tun?",
+      "question": "Was können Erwachsene (z.B. Eltern, Pädagoginnen/Pädagogen) bei der Begegnung bzw. im Umgang mit Young Carers tun?",
       "answer": "* Begegnung auf Augenhöhe und mit Wertschätzung – besonders wegen der Pflegetätigkeit  \n* Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote aufmerksam machen  \n* Regelmäßige Nachfrage wie es dem betroffenen Young Carer geht  \n* Austausch mit Expert:innen, z.B. [superhands, ](https://www.superhands.at)[IG Pflegende Angehörige](https://www.ig-pflege.at/), [147 Rat auf Draht](https://www.superhands.at), u.a.m\n\n",
       "showOnLandingPage": true
     },
@@ -503,7 +503,7 @@
           "id": "63685043638c16809e4d0d1d",
           "name": "Notfall(nummern)",
           "title": "Welche Nummer wähle ich im Notfall?",
-          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Ärztebereitschaftsdienst**: [141](tel:141)  \n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+          "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Gehörlosen-Notruf:** Fax oder SMS an [0800 133 133](https://www.bmi.gv.at/Notrufnummern/notruf_gehoerlose.aspx)[](tel:144)  \n* **Ärztenotdienst**: [141](tel:141)  \n* **Vergiftungsinformation**: [01 406 43 43](tel:014064343)  \n* **Telefonseelsorge**: [142](https://www.telefonseelsorge.at/)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
           "entries": [
             {
               "ownerName": "austria4kids",
@@ -758,6 +758,37 @@
                 ]
               },
               {
+                "ownerName": "Jugendrotkreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://wissen.roteskreuz.at/pluginfile.php/37955/mod_resource/content/7/content/content/index.html#/",
+                    "title": "Psychische Erkrankungen",
+                    "description": "In diesem eLearning kannst du Informationen zu einzelnen psychischen Erkrankungen finden und dich interaktiv damit beschäftigen, ganz nach dem Motto: Look-Listen-Link. Das eLearning ist nicht dazu geeignet, selbst Diagnosen oder Aussagen über eine vorhandene psychische Erkrankung zu treffen. Vielmehr soll für psychische Leidenszustände sensibilisiert und das Tabu ein wenig gelüftet werden. ",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_86237190_XS.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2023-07-28T13:03:35.591Z",
+                    "keywords": [
+                      "Gesundheit",
+                      "Krankheit",
+                      "psychisch",
+                      "Hilfe",
+                      "Information",
+                      "Info",
+                      "Depression",
+                      "Angst",
+                      "Störung",
+                      "Zwang",
+                      "Sucht",
+                      "Essstörung",
+                      "ADHS",
+                      "Trauma",
+                      "Schizophrenie"
+                    ]
+                  }
+                ]
+              },
+              {
                 "ownerName": "SUPRO - Gesundheitsförderung und Prävention",
                 "ownerUrl": "",
                 "references": [
@@ -844,6 +875,37 @@
                       "Rat",
                       "Unterstützung",
                       "Wien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Jugendrotkreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://wissen.roteskreuz.at/pluginfile.php/37955/mod_resource/content/7/content/content/index.html#/",
+                    "title": "Psychische Erkrankungen",
+                    "description": "In diesem eLearning kannst du Informationen zu einzelnen psychischen Erkrankungen finden und dich interaktiv damit beschäftigen, ganz nach dem Motto: Look-Listen-Link. Das eLearning ist nicht dazu geeignet, selbst Diagnosen oder Aussagen über eine vorhandene psychische Erkrankung zu treffen. Vielmehr soll für psychische Leidenszustände sensibilisiert und das Tabu ein wenig gelüftet werden. ",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_86237190_XS.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2023-07-28T13:03:35.591Z",
+                    "keywords": [
+                      "Gesundheit",
+                      "Krankheit",
+                      "psychisch",
+                      "Hilfe",
+                      "Information",
+                      "Info",
+                      "Depression",
+                      "Angst",
+                      "Störung",
+                      "Zwang",
+                      "Sucht",
+                      "Essstörung",
+                      "ADHS",
+                      "Trauma",
+                      "Schizophrenie"
                     ]
                   }
                 ]
@@ -966,7 +1028,7 @@
             "id": "63685043638c16809e4d0d1d",
             "name": "Notfall(nummern)",
             "title": "Welche Nummer wähle ich im Notfall?",
-            "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Ärztebereitschaftsdienst**: [141](tel:141)  \n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+            "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Gehörlosen-Notruf:** Fax oder SMS an [0800 133 133](https://www.bmi.gv.at/Notrufnummern/notruf_gehoerlose.aspx)[](tel:144)  \n* **Ärztenotdienst**: [141](tel:141)  \n* **Vergiftungsinformation**: [01 406 43 43](tel:014064343)  \n* **Telefonseelsorge**: [142](https://www.telefonseelsorge.at/)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
             "entries": [
               {
                 "ownerName": "austria4kids",
@@ -1106,7 +1168,7 @@
             "id": "63684cde638c16809e4d0b95",
             "name": "Angehörigengespräch",
             "title": "Bei psychischer Belastung hilft das Angehörigengespräch",
-            "information": "Als pflegende Angehörige bzw. als pflegender Angehöriger ist man oft einer großen psychischen Belastung ausgesetzt und muss einem großen Druck standhalten. Um auch Young Carers zu unterstützen gibt es österreichweit das **Angehörigengespräch**. Das Gespräch wird von Psychologinnen und Psychologen geführt und ist **vertraulich**. Es kann zu Hause, an einem anderen Ort, telefonisch oder online erfolgen. Bis zu fünf Termine können vereinbart werden.\n\nAuf Wunsch kann man das Angehörigengespräch unter [0508082087](tel:0508082087) **kostenlos** anfordern.",
+            "information": "Als pflegende Angehörige bzw. als pflegender Angehöriger ist man oft einer großen psychischen Belastung ausgesetzt und muss einem großen Druck standhalten. Um auch Young Carers zu unterstützen gibt es österreichweit das **Angehörigengespräch**. Das Gespräch wird von Psychologinnen und Psychologen geführt und ist **vertraulich**. Es kann zu Hause, an einem anderen Ort, telefonisch oder online erfolgen. Bis zu zehn Termine können vereinbart werden.\n\nAuf Wunsch kann man das Angehörigengespräch unter [0508082087](tel:0508082087) **kostenlos** anfordern.",
             "entries": [
               {
                 "ownerName": "Broschürenservice",
@@ -2765,7 +2827,7 @@
       ]
     },
     {
-      "question": "Zeit für Hobbies und Freizeit",
+      "question": "Zu wenig Zeit für Hobbies und Freizeit",
       "content": [
         {
           "type": "text",
@@ -2899,6 +2961,28 @@
                       "Jugendinfo",
                       "Sport",
                       "Urlaub"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Bundesweites Netzwerk Offene Jugendarbeit",
+                "ownerUrl": "https://www.boja.at/",
+                "references": [
+                  {
+                    "url": "https://www.boja.at/",
+                    "title": "boJa - bundesweites Netzwerk Offene Jugendarbeit",
+                    "description": "bOJA vertritt im Auftrag des jeweiligen Jugendministeriums die Offene Jugendarbeit in Österreich und versteht sich als bundesweites Kompetenzzentrum, sowie als Service- und  Vernetzungsstelle ",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-österreich.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2023-07-27T13:54:09.174Z",
+                    "keywords": [
+                      "Jugend",
+                      "Beratung",
+                      "Info",
+                      "Information",
+                      "Veranstaltung",
+                      "Lobby"
                     ]
                   }
                 ]
@@ -3779,6 +3863,54 @@
                       "Krankheit",
                       "Sport",
                       "Freizeit"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Jugendrotkreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://wissen.roteskreuz.at/pluginfile.php/37955/mod_resource/content/7/content/content/index.html#/",
+                    "title": "Psychische Erkrankungen",
+                    "description": "In diesem eLearning kannst du Informationen zu einzelnen psychischen Erkrankungen finden und dich interaktiv damit beschäftigen, ganz nach dem Motto: Look-Listen-Link. Das eLearning ist nicht dazu geeignet, selbst Diagnosen oder Aussagen über eine vorhandene psychische Erkrankung zu treffen. Vielmehr soll für psychische Leidenszustände sensibilisiert und das Tabu ein wenig gelüftet werden. ",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_86237190_XS.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2023-07-28T13:03:35.591Z",
+                    "keywords": [
+                      "Gesundheit",
+                      "Krankheit",
+                      "psychisch",
+                      "Hilfe",
+                      "Information",
+                      "Info",
+                      "Depression",
+                      "Angst",
+                      "Störung",
+                      "Zwang",
+                      "Sucht",
+                      "Essstörung",
+                      "ADHS",
+                      "Trauma",
+                      "Schizophrenie"
+                    ]
+                  },
+                  {
+                    "url": "https://wissen.roteskreuz.at/pluginfile.php/54268/mod_resource/content/1/content/index.html#/",
+                    "title": "Stress lass nach",
+                    "description": "In diesem eLearning findest du vielfältige Informationen zum Thema Stress, Erholung und Entspannung, sowie zum Thema Schlaf.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock_000009024892XLarge.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2023-07-28T13:03:09.342Z",
+                    "keywords": [
+                      "Stress",
+                      "Info",
+                      "Information",
+                      "Kurs",
+                      "Jugendrotkreuz",
+                      "Erholung",
+                      "Entspannung"
                     ]
                   }
                 ]
@@ -5426,7 +5558,7 @@
       ]
     },
     {
-      "question": "Den Haushalt schmeißen",
+      "question": "Den Haushalt schupfen",
       "content": [
         {
           "type": "text",
@@ -6507,7 +6639,7 @@
             "id": "636851c5638c16809e4d0dfc",
             "name": "Stress",
             "title": "Wird es dir manchmal  zu viel?",
-            "information": "Stress ist ein Bestandteil des Lebens und nicht immer nur negativ. Er fordert uns. Unter seinem Einfluss können wir auch sehr gute Leistungen vollbringen. Zu viel davon macht uns aber krank. Vieles im Leben kann Stress erzeugen. Stressverursacher nennt man **Stressoren**, dazu zählen z.B. einschneidende Ereignisse, private und/oder schulische Probleme oder auch Umwelteinflüsse. Stress bedeutet für jede bzw. für jeden etwas Anderes. Einen entscheidenden Einfluss hat auch das **Coping** (die Art der Bewältigung von Stress) sowie die sogenannte **Resilienz** (seelische Widerstandskraft).\n\n**Erholung und Entspannung** wirken dem Stress entgegen. Negative Auswirkungen von Stressfaktoren können somit rückgängig gemacht oder gemildert werden. Ist der Mensch erholt, fühlt er sich wohl und ist auch leistungsfähig. Es gibt hilfreiche Möglichkeiten, mit anspruchsvollen Situationen umzugehen. Informiere dich!",
+            "information": "Stress ist ein Bestandteil des Lebens und nicht immer nur negativ. Er fordert uns. Unter seinem Einfluss können wir auch sehr gute Leistungen vollbringen. Oft dient Stress als effizienter Motivator und fördert unsere Konzentration oder pusht uns Aufgaben (endlich) anzugehen. Doch auf die Dauer macht uns konstanter Stress krank und erschöpft. \n\nVieles im Leben kann Stress erzeugen. Stressverursacher nennt man **Stressoren**, dazu zählen z.B. einschneidende Ereignisse, private und/oder schulische Probleme oder auch Umwelteinflüsse. Jeder Mensch nimmt Stress anders wahr und geht damit folglich auch anders um. So hat unser **Coping** (die Art der Bewältigung von Stress) sowie die sogenannte **Resilienz** (seelische Widerstandskraft) einen entscheidenden Einfluss.\n\n**Erholung und Entspannung** wirken dem Stress entgegen. Negative Auswirkungen von Stressfaktoren können somit rückgängig gemacht oder gemildert werden. Ist der Mensch erholt, fühlt er sich wohl und ist auch leistungsfähig. Es gibt hilfreiche Möglichkeiten, mit anspruchsvollen Situationen umzugehen. Informiere dich!",
             "entries": [
               {
                 "ownerName": "BÖP",
@@ -6525,6 +6657,29 @@
                       "Hilfe",
                       "Hilfe für pflegende Kinder",
                       "Unterstützung"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Jugendrotkreuz",
+                "ownerUrl": "",
+                "references": [
+                  {
+                    "url": "https://wissen.roteskreuz.at/pluginfile.php/54268/mod_resource/content/1/content/index.html#/",
+                    "title": "Stress lass nach",
+                    "description": "In diesem eLearning findest du vielfältige Informationen zum Thema Stress, Erholung und Entspannung, sowie zum Thema Schlaf.",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock_000009024892XLarge.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2023-07-28T13:03:09.342Z",
+                    "keywords": [
+                      "Stress",
+                      "Info",
+                      "Information",
+                      "Kurs",
+                      "Jugendrotkreuz",
+                      "Erholung",
+                      "Entspannung"
                     ]
                   }
                 ]
@@ -6607,7 +6762,7 @@
       ]
     },
     {
-      "question": "Gehörst du zu den Young Carers?",
+      "question": "Könntest  auch du ein Young Carer sein?",
       "content": [
         {
           "type": "text",
@@ -7303,7 +7458,7 @@
       "id": "63684cae638c16809e4d0b84",
       "name": "Allgemeines",
       "title": "Wer bzw. was ist ein Young Carer?",
-      "information": "Young Carers sind Kinder und Jugendliche **unter 18 Jahren**. Sie pflegen regelmäßig ein anderes Familienmitglied (z. B. Eltern, Großeltern oder Geschwister) die eine körperliche oder psychische Erkrankung haben. Young Carers leisten sehr viel Arbeit. Sie kochen, putzen, helfen ihren (gesunden) Geschwistern oft bis zu fünf Stunden täglich. Manchmal arbeiten sie auch in der direkten Pflege der Angehörigen mit. Eine Unterstützung von außen, z.B. durch Freunde oder eine Pflegeperson, haben sie  nur selten.\n\nLaut einer österreichischen Studie aus 2012 gibt es rund **42.700** pflegende Kinder und Jugendliche im Alter bis 18 Jahren. Im Durchschnitt sind Young Carers **12,5 Jahre** alt und **70% sind Mädchen**. Als Kind oder Jugendlicher so eine pflegerische Verantwortung zu übernehmen ist eine sehr große Herausforderung!",
+      "information": "Young Carers sind Kinder und Jugendliche **unter 18 Jahren**. Sie pflegen regelmäßig ein anderes Familienmitglied (z. B. Eltern, Großeltern oder Geschwister) die eine körperliche oder psychische Erkrankung haben. Oftmals leisten sie noch zusätzliche Arbeit. Sie kochen, putzen, helfen ihren (gesunden) Geschwistern oft bis zu fünf Stunden täglich. Manchmal helfen sie auch in der direkten Pflege der Angehörigen mit. Eine Unterstützung von außen, z.B. durch eine Pflegeperson, haben sie  nur selten.\n\nLaut einer österreichischen Studie aus 2012 gibt es rund **42.700** pflegende Kinder und Jugendliche im Alter bis 18 Jahren. Im Durchschnitt sind Young Carers **12,5 Jahre** alt und **70% sind Mädchen**. Als Kind oder Jugendlicher so eine pflegerische Verantwortung zu übernehmen ist eine sehr große Herausforderung!",
       "entries": [
         {
           "ownerName": "Broschürenservice des Sozialministeriums",
@@ -7690,7 +7845,7 @@
       "id": "63684cde638c16809e4d0b95",
       "name": "Angehörigengespräch",
       "title": "Bei psychischer Belastung hilft das Angehörigengespräch",
-      "information": "Als pflegende Angehörige bzw. als pflegender Angehöriger ist man oft einer großen psychischen Belastung ausgesetzt und muss einem großen Druck standhalten. Um auch Young Carers zu unterstützen gibt es österreichweit das **Angehörigengespräch**. Das Gespräch wird von Psychologinnen und Psychologen geführt und ist **vertraulich**. Es kann zu Hause, an einem anderen Ort, telefonisch oder online erfolgen. Bis zu fünf Termine können vereinbart werden.\n\nAuf Wunsch kann man das Angehörigengespräch unter [0508082087](tel:0508082087) **kostenlos** anfordern.",
+      "information": "Als pflegende Angehörige bzw. als pflegender Angehöriger ist man oft einer großen psychischen Belastung ausgesetzt und muss einem großen Druck standhalten. Um auch Young Carers zu unterstützen gibt es österreichweit das **Angehörigengespräch**. Das Gespräch wird von Psychologinnen und Psychologen geführt und ist **vertraulich**. Es kann zu Hause, an einem anderen Ort, telefonisch oder online erfolgen. Bis zu zehn Termine können vereinbart werden.\n\nAuf Wunsch kann man das Angehörigengespräch unter [0508082087](tel:0508082087) **kostenlos** anfordern.",
       "entries": [
         {
           "ownerName": "Broschürenservice",
@@ -9540,6 +9695,29 @@
       "information": "**Ausreichend Entspannung** und Erholung ist wesentlich für Körper, Geist und Seele, um sich zu regenerieren. Jeder Mensch hat da seine eigenen Methoden um sich auszuruhen und Kraft zu tanken. Finde heraus was dir gut tut und baue kleine Zeitfenster in deinen Alltag ein, um wieder **neue Energie** zu tanken. Ein Nickerchen, Spaziergänge, Musik hören, den Gedanken freien Lauf zu lassen und einfach nur die Seele baumeln lassen, sind gute Möglichkeiten sich auszuruhen.",
       "entries": [
         {
+          "ownerName": "Jugendrotkreuz",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://wissen.roteskreuz.at/pluginfile.php/54268/mod_resource/content/1/content/index.html#/",
+              "title": "Stress lass nach",
+              "description": "In diesem eLearning findest du vielfältige Informationen zum Thema Stress, Erholung und Entspannung, sowie zum Thema Schlaf.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock_000009024892XLarge.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-07-28T13:03:09.342Z",
+              "keywords": [
+                "Stress",
+                "Info",
+                "Information",
+                "Kurs",
+                "Jugendrotkreuz",
+                "Erholung",
+                "Entspannung"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Sozialministerium",
           "ownerUrl": "",
           "references": [
@@ -10460,7 +10638,7 @@
       "id": "63684ea4638c16809e4d0c3f",
       "name": "Finanzielles",
       "title": "Finanzielle Hilfen bei Pflege und Betreuung zu Hause",
-      "information": "Für betreuende Angehörige sowie für pflegebedürftige Personen gibt es **verschiedene Hilfeleistungen.** Zum Beispiel kann man Dinge/Dienstleistungen billiger oder gratis bekommen. Es gibt viele unterschiedliche Angebote von Hilfen.Finanzielle Unterstützung zu den **Kosten für die Ersatzpflege** soll dabei helfen wenn nahe Angehörigen während ihrer Abwesenheit (z.B. Urlaub oder Krankenstand) eine geeignete Ersatzpflege organisieren und bezahlen müssen. Eine **Förderung der 24-Stunden-Betreuung** kann man **ab Pflegestufe 3** bekommen, egal wieviel Vermögen man hat.\n\nDamit Job und Pflege gleichzeitig funktionieren gibt es die Pflegekarenz, die Pflegeteilzeit und die Familienhospizkarenz. Damit man während dieser Zeit trotzdem ein Einkommen hat, gibt es das **Pflegekarenzgeld**.\n\nPflegende Angehörige, welche wegen der Pflege weniger oder gar nicht arbeiten können oder wollen, haben die Möglichkeit, eine **kostenlose Weiter- oder Selbstversicherung in der Pensionsversicherung** in Anspruch zu nehmen. In der **Krankenversicherung** gibt es die Möglichkeit der Mitversicherung und der kostenlosen Selbstversicherung bei sozialer Schutzbedürftigkeit.",
+      "information": "Für betreuende Angehörige sowie für pflegebedürftige Personen gibt es **verschiedene finanzielle Angebote und Hilfen.** Zum Beispiel kann man Produkte und Dienstleistungen vergünstigt oder gar kostenlos bekommen. Es gibt viele unterschiedliche Angebote von Hilfen. Finanzielle Unterstützung zu den **Kosten für die Ersatzpflege** soll dabei helfen wenn nahe Angehörigen während ihrer Abwesenheit (z.B. Urlaub oder Krankenstand) eine passende Ersatzpflege organisieren und bezahlen müssen. Eine **Förderung der 24-Stunden-Betreuung** kann man **ab Pflegestufe 3** bekommen, egal wieviel Vermögen man hat.\n\nDamit Job und Pflege gleichzeitig funktionieren gibt es die Pflegekarenz, die Pflegeteilzeit und die Familienhospizkarenz. Damit man während dieser Zeit trotzdem ein Einkommen hat, gibt es das **Pflegekarenzgeld**.\n\nPflegende Angehörige, welche wegen der Pflege weniger oder gar nicht arbeiten können oder wollen, haben die Möglichkeit, eine **kostenlose Weiter- oder Selbstversicherung in der Pensionsversicherung** in Anspruch zu nehmen. In der **Krankenversicherung** gibt es die Möglichkeit der Mitversicherung und der kostenlosen Selbstversicherung bei sozialer Schutzbedürftigkeit.",
       "entries": [
         {
           "ownerName": "Broschürenservice",
@@ -11198,6 +11376,28 @@
           ]
         },
         {
+          "ownerName": "Bundesweites Netzwerk Offene Jugendarbeit",
+          "ownerUrl": "https://www.boja.at/",
+          "references": [
+            {
+              "url": "https://www.boja.at/",
+              "title": "boJa - bundesweites Netzwerk Offene Jugendarbeit",
+              "description": "bOJA vertritt im Auftrag des jeweiligen Jugendministeriums die Offene Jugendarbeit in Österreich und versteht sich als bundesweites Kompetenzzentrum, sowie als Service- und  Vernetzungsstelle ",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-österreich.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-07-27T13:54:09.174Z",
+              "keywords": [
+                "Jugend",
+                "Beratung",
+                "Info",
+                "Information",
+                "Veranstaltung",
+                "Lobby"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Burgenland",
           "ownerUrl": "",
           "references": [
@@ -11441,6 +11641,37 @@
                 "Rat",
                 "Unterstützung",
                 "Wien"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Jugendrotkreuz",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://wissen.roteskreuz.at/pluginfile.php/37955/mod_resource/content/7/content/content/index.html#/",
+              "title": "Psychische Erkrankungen",
+              "description": "In diesem eLearning kannst du Informationen zu einzelnen psychischen Erkrankungen finden und dich interaktiv damit beschäftigen, ganz nach dem Motto: Look-Listen-Link. Das eLearning ist nicht dazu geeignet, selbst Diagnosen oder Aussagen über eine vorhandene psychische Erkrankung zu treffen. Vielmehr soll für psychische Leidenszustände sensibilisiert und das Tabu ein wenig gelüftet werden. ",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_86237190_XS.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-07-28T13:03:35.591Z",
+              "keywords": [
+                "Gesundheit",
+                "Krankheit",
+                "psychisch",
+                "Hilfe",
+                "Information",
+                "Info",
+                "Depression",
+                "Angst",
+                "Störung",
+                "Zwang",
+                "Sucht",
+                "Essstörung",
+                "ADHS",
+                "Trauma",
+                "Schizophrenie"
               ]
             }
           ]
@@ -11948,7 +12179,7 @@
       "id": "63685043638c16809e4d0d1d",
       "name": "Notfall(nummern)",
       "title": "Welche Nummer wähle ich im Notfall?",
-      "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Ärztebereitschaftsdienst**: [141](tel:141)  \n* **Vergiftungsinformationszentrale**: [01 406 43 43](tel:014064343)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+      "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Gehörlosen-Notruf:** Fax oder SMS an [0800 133 133](https://www.bmi.gv.at/Notrufnummern/notruf_gehoerlose.aspx)[](tel:144)  \n* **Ärztenotdienst**: [141](tel:141)  \n* **Vergiftungsinformation**: [01 406 43 43](tel:014064343)  \n* **Telefonseelsorge**: [142](https://www.telefonseelsorge.at/)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
       "entries": [
         {
           "ownerName": "austria4kids",
@@ -12759,6 +12990,37 @@
           ]
         },
         {
+          "ownerName": "Jugendrotkreuz",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://wissen.roteskreuz.at/pluginfile.php/37955/mod_resource/content/7/content/content/index.html#/",
+              "title": "Psychische Erkrankungen",
+              "description": "In diesem eLearning kannst du Informationen zu einzelnen psychischen Erkrankungen finden und dich interaktiv damit beschäftigen, ganz nach dem Motto: Look-Listen-Link. Das eLearning ist nicht dazu geeignet, selbst Diagnosen oder Aussagen über eine vorhandene psychische Erkrankung zu treffen. Vielmehr soll für psychische Leidenszustände sensibilisiert und das Tabu ein wenig gelüftet werden. ",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_86237190_XS.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-07-28T13:03:35.591Z",
+              "keywords": [
+                "Gesundheit",
+                "Krankheit",
+                "psychisch",
+                "Hilfe",
+                "Information",
+                "Info",
+                "Depression",
+                "Angst",
+                "Störung",
+                "Zwang",
+                "Sucht",
+                "Essstörung",
+                "ADHS",
+                "Trauma",
+                "Schizophrenie"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "SUPRO - Gesundheitsförderung und Prävention",
           "ownerUrl": "",
           "references": [
@@ -13281,6 +13543,54 @@
           ]
         },
         {
+          "ownerName": "Jugendrotkreuz",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://wissen.roteskreuz.at/pluginfile.php/37955/mod_resource/content/7/content/content/index.html#/",
+              "title": "Psychische Erkrankungen",
+              "description": "In diesem eLearning kannst du Informationen zu einzelnen psychischen Erkrankungen finden und dich interaktiv damit beschäftigen, ganz nach dem Motto: Look-Listen-Link. Das eLearning ist nicht dazu geeignet, selbst Diagnosen oder Aussagen über eine vorhandene psychische Erkrankung zu treffen. Vielmehr soll für psychische Leidenszustände sensibilisiert und das Tabu ein wenig gelüftet werden. ",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/Fotolia_86237190_XS.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-07-28T13:03:35.591Z",
+              "keywords": [
+                "Gesundheit",
+                "Krankheit",
+                "psychisch",
+                "Hilfe",
+                "Information",
+                "Info",
+                "Depression",
+                "Angst",
+                "Störung",
+                "Zwang",
+                "Sucht",
+                "Essstörung",
+                "ADHS",
+                "Trauma",
+                "Schizophrenie"
+              ]
+            },
+            {
+              "url": "https://wissen.roteskreuz.at/pluginfile.php/54268/mod_resource/content/1/content/index.html#/",
+              "title": "Stress lass nach",
+              "description": "In diesem eLearning findest du vielfältige Informationen zum Thema Stress, Erholung und Entspannung, sowie zum Thema Schlaf.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock_000009024892XLarge.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-07-28T13:03:09.342Z",
+              "keywords": [
+                "Stress",
+                "Info",
+                "Information",
+                "Kurs",
+                "Jugendrotkreuz",
+                "Erholung",
+                "Entspannung"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "superhands",
           "ownerUrl": "",
           "references": [
@@ -13603,7 +13913,7 @@
       "id": "636851c5638c16809e4d0dfc",
       "name": "Stress",
       "title": "Wird es dir manchmal  zu viel?",
-      "information": "Stress ist ein Bestandteil des Lebens und nicht immer nur negativ. Er fordert uns. Unter seinem Einfluss können wir auch sehr gute Leistungen vollbringen. Zu viel davon macht uns aber krank. Vieles im Leben kann Stress erzeugen. Stressverursacher nennt man **Stressoren**, dazu zählen z.B. einschneidende Ereignisse, private und/oder schulische Probleme oder auch Umwelteinflüsse. Stress bedeutet für jede bzw. für jeden etwas Anderes. Einen entscheidenden Einfluss hat auch das **Coping** (die Art der Bewältigung von Stress) sowie die sogenannte **Resilienz** (seelische Widerstandskraft).\n\n**Erholung und Entspannung** wirken dem Stress entgegen. Negative Auswirkungen von Stressfaktoren können somit rückgängig gemacht oder gemildert werden. Ist der Mensch erholt, fühlt er sich wohl und ist auch leistungsfähig. Es gibt hilfreiche Möglichkeiten, mit anspruchsvollen Situationen umzugehen. Informiere dich!",
+      "information": "Stress ist ein Bestandteil des Lebens und nicht immer nur negativ. Er fordert uns. Unter seinem Einfluss können wir auch sehr gute Leistungen vollbringen. Oft dient Stress als effizienter Motivator und fördert unsere Konzentration oder pusht uns Aufgaben (endlich) anzugehen. Doch auf die Dauer macht uns konstanter Stress krank und erschöpft. \n\nVieles im Leben kann Stress erzeugen. Stressverursacher nennt man **Stressoren**, dazu zählen z.B. einschneidende Ereignisse, private und/oder schulische Probleme oder auch Umwelteinflüsse. Jeder Mensch nimmt Stress anders wahr und geht damit folglich auch anders um. So hat unser **Coping** (die Art der Bewältigung von Stress) sowie die sogenannte **Resilienz** (seelische Widerstandskraft) einen entscheidenden Einfluss.\n\n**Erholung und Entspannung** wirken dem Stress entgegen. Negative Auswirkungen von Stressfaktoren können somit rückgängig gemacht oder gemildert werden. Ist der Mensch erholt, fühlt er sich wohl und ist auch leistungsfähig. Es gibt hilfreiche Möglichkeiten, mit anspruchsvollen Situationen umzugehen. Informiere dich!",
       "entries": [
         {
           "ownerName": "BÖP",
@@ -13621,6 +13931,29 @@
                 "Hilfe",
                 "Hilfe für pflegende Kinder",
                 "Unterstützung"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Jugendrotkreuz",
+          "ownerUrl": "",
+          "references": [
+            {
+              "url": "https://wissen.roteskreuz.at/pluginfile.php/54268/mod_resource/content/1/content/index.html#/",
+              "title": "Stress lass nach",
+              "description": "In diesem eLearning findest du vielfältige Informationen zum Thema Stress, Erholung und Entspannung, sowie zum Thema Schlaf.",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock_000009024892XLarge.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-07-28T13:03:09.342Z",
+              "keywords": [
+                "Stress",
+                "Info",
+                "Information",
+                "Kurs",
+                "Jugendrotkreuz",
+                "Erholung",
+                "Entspannung"
               ]
             }
           ]
@@ -14551,6 +14884,34 @@
                 "Sozialministerium",
                 "Jugendrotkreuz",
                 "Information"
+              ]
+            }
+          ]
+        },
+        {
+          "ownerName": "Kammer für Arbeiter und Angestellte für Oberösterreich",
+          "ownerUrl": "https://ooe.arbeiterkammer.at/youngcarers",
+          "references": [
+            {
+              "url": "https://ooe.arbeiterkammer.at/youngcarers",
+              "title": "Young Adult Carers gesucht",
+              "description": "Die Arbeiterkammer Oberösterreich hat ein Forschungsprojekt gestartet, in dem sie mit jungen Menschen und auch ehemaligen jungen Menschen mit Pflegeverantwortung in der Familie über ihre Erfahrungen sprechen möchte. Betroffene sind eingeladen, bei dem Projekt mitzumachen! Die Studie soll  Basis für eine Verbesserung der Lebens- und Arbeitssituation von Jugendlichen und jungen Erwachsenen mit Pflegeaufgaben – Young (Adult) Carers - schaffen.",
+              "previewImageUrl": "https://ooe.arbeiterkammer.at/ueberuns/akausbildungsoffensive/youngcarers/KOM_2023_YoungAdultCarers_by_africa-studiocom.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2023-07-31T13:03:47.357Z",
+              "keywords": [
+                "Arbeiterkammer",
+                "Kammer",
+                "Oberösterreich",
+                "OÖ",
+                "Studie",
+                "Young Adult Carers",
+                "Pflege",
+                "Familie",
+                "Forschung",
+                "Projekt",
+                "Arbeit",
+                "Wissen"
               ]
             }
           ]
@@ -15497,5 +15858,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-07-06T09:03:58.003Z"
+  "timestamp": "2023-08-03T07:31:23.391Z"
 }
