@@ -3303,12 +3303,12 @@
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.get-social.at/time4friends",
+                    "url": "https://www.get-social.at/time4friends/",
                     "title": "time4friends",
                     "description": "Bei time4friends beraten Jugendliche (Peers)  andere Jugendliche auf WhatsApp.",
                     "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
                     "isPaidContent": false,
-                    "lastUpdated": "2023-01-25T07:40:17.758Z",
+                    "lastUpdated": "2023-08-10T14:21:21.444Z",
                     "keywords": [
                       "Chat",
                       "chatten",
@@ -9218,12 +9218,12 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.get-social.at/time4friends",
+              "url": "https://www.get-social.at/time4friends/",
               "title": "time4friends",
               "description": "Bei time4friends beraten Jugendliche (Peers)  andere Jugendliche auf WhatsApp.",
               "previewImageUrl": "https://www.get-social.at/typo3conf/ext/o5_thm_helpstars/Resources/Public/inmeimgs/logo_main_getsocial.png",
               "isPaidContent": false,
-              "lastUpdated": "2023-01-25T07:40:17.758Z",
+              "lastUpdated": "2023-08-10T14:21:21.444Z",
               "keywords": [
                 "Chat",
                 "chatten",
@@ -15858,5 +15858,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-08-10T14:16:29.029Z"
+  "timestamp": "2023-08-10T14:22:05.119Z"
 }
