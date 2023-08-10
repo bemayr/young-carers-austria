@@ -217,12 +217,12 @@
               "ownerUrl": "",
               "references": [
                 {
-                  "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/erste-hilfe/erste-hilfe-online/",
+                  "url": "https://www.get-social.at/erste-hilfe-daham/",
                   "title": "Videoreihe \"Erste Hilfe daham\"",
                   "description": "Um Erste Hilfe anschaulich zu vermitteln, bietet das Jugendrotkreuz die Videoreihe \"Erste Hilfe daham\".",
-                  "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+                  "previewImageUrl": "https://www.jugendrotkreuz.at/typo3conf/ext/oerk_core/Resources/Public/Images/Defaults/default.jpg",
                   "isPaidContent": false,
-                  "lastUpdated": "2022-11-11T11:26:57.277Z",
+                  "lastUpdated": "2023-08-10T14:23:11.335Z",
                   "keywords": [
                     "Beratung",
                     "Hilfe",
@@ -10254,12 +10254,12 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/erste-hilfe/erste-hilfe-online/",
+              "url": "https://www.get-social.at/erste-hilfe-daham/",
               "title": "Videoreihe \"Erste Hilfe daham\"",
               "description": "Um Erste Hilfe anschaulich zu vermitteln, bietet das Jugendrotkreuz die Videoreihe \"Erste Hilfe daham\".",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1290886278.jpg",
+              "previewImageUrl": "https://www.jugendrotkreuz.at/typo3conf/ext/oerk_core/Resources/Public/Images/Defaults/default.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-11T11:26:57.277Z",
+              "lastUpdated": "2023-08-10T14:23:11.335Z",
               "keywords": [
                 "Beratung",
                 "Hilfe",
@@ -15858,5 +15858,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-08-10T14:22:05.119Z"
+  "timestamp": "2023-08-10T14:23:45.055Z"
 }
