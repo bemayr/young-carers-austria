@@ -2590,10 +2590,10 @@
       },
       {
         "id": "6368a53bedafca3f7d633f76",
-        "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/sommercamps/",
+        "url": "https://www.jugendrotkreuz.at/freizeit-jugendarbeit/sommercamps",
         "title": "Sommercamps",
         "description": "Das Jugendrotkreuz veranstaltet auch verschiedene Sommercamps für kids mit speziellen Bedürfnissen.",
-        "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-527271693.jpg",
+        "previewImageUrl": "https://www.jugendrotkreuz.at/typo3conf/ext/oerk_core/Resources/Public/Images/Defaults/default.jpg",
         "containsPaidContent": false,
         "keywords": [
           "Auszeit",
@@ -4126,10 +4126,10 @@
       },
       {
         "id": "63689b50edafca3f7d632e8c",
-        "url": "https://www.jugendrotkreuz.at/oesterreich/angebote/sommercamps/juniorcamp/",
+        "url": "https://www.jugendrotkreuz.at/freizeit-jugendarbeit/juniorcamp",
         "title": "Juniorcamps",
         "description": "Wir alle brauchen regelmäßig eine Auszeit. Das Juniorcamp des Jugendrotkreuzes bietet einen Erholungsaufenthalt für Kinder von Eltern mit schwerer Erkrankung. Durch den Austausch mit Gleichaltrigen lernen die Jugendlichen, ihre Situation zu verstehen und besser damit umzugehen.",
-        "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1088753448.jpg",
+        "previewImageUrl": "https://www.jugendrotkreuz.at/fileadmin/user_upload/JRK/Images/Freizeit_Jugendarbeit/Camps/OERK-Jugendcamp_21.07.2022_0102_Website.jpg",
         "containsPaidContent": false,
         "keywords": [
           "Auszeit",
