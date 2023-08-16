@@ -641,7 +641,7 @@
     "description": "Hier bist du auf der Startseite der Young Carers Austria App gelandet. Vielleicht hast du ja eine der folgenden Fragen oder du erlebst auch gerade einer dieser Situationen?"
   },
   "infos": {
-    "title": "Lies mich",
+    "title": "good2know",
     "description": "Hier haben wir alle Informationen für dich gesammelt und alphabetisch sortiert. Schau einfach mal ein bisschen durch oder frag den Chatbot wenn du Infos zu einem speziellen Thema haben möchtest."
   },
   "insights": [
@@ -15896,5 +15896,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-08-11T08:38:55.962Z"
+  "timestamp": "2023-08-16T11:13:34.126Z"
 }
