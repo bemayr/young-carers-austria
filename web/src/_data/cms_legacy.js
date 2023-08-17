@@ -17,5 +17,25 @@ module.exports = async function () {
   response.metadata[2].title = "Barrierefreiheitserklärung"
   response.metadata[3].title = "Datenschutzerklärung"
 
+  function startsWithDigit(v) {
+    const ch = v[0];
+    return ch >= "0" && ch <= "9";
+  }
+
+  response.abc.sort((a, b) => {
+    a = String(a.name);
+    b = String(b.name);
+    adigit = startsWithDigit(a);
+    bdigit = startsWithDigit(b);
+    if (adigit == bdigit) {
+        return a.localeCompare(b);
+    } else if (adigit) {
+      console.log({digit: a})
+        return 1;
+    } else {
+        return -1;
+    }
+  });
+  
   return response;
 };
