@@ -5286,12 +5286,12 @@
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste-in-tirol/",
+                    "url": "https://www.tirol.gv.at/gesundheit-vorsorge/pflege/mobile-dienste/mobile-dienste/",
                     "title": "Pflege Tirol",
                     "description": "Hier werden Informationen zu Mobilen Diensten in Tirol angeboten.",
                     "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T09:53:19.173Z",
+                    "lastUpdated": "2023-09-29T15:23:11.315Z",
                     "keywords": [
                       "Behinderung",
                       "Betreuung",
@@ -6129,12 +6129,12 @@
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste-in-tirol/",
+                    "url": "https://www.tirol.gv.at/gesundheit-vorsorge/pflege/mobile-dienste/mobile-dienste/",
                     "title": "Pflege Tirol",
                     "description": "Hier werden Informationen zu Mobilen Diensten in Tirol angeboten.",
                     "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T09:53:19.173Z",
+                    "lastUpdated": "2023-09-29T15:23:11.315Z",
                     "keywords": [
                       "Behinderung",
                       "Betreuung",
@@ -12020,12 +12020,12 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste-in-tirol/",
+              "url": "https://www.tirol.gv.at/gesundheit-vorsorge/pflege/mobile-dienste/mobile-dienste/",
               "title": "Pflege Tirol",
               "description": "Hier werden Informationen zu Mobilen Diensten in Tirol angeboten.",
               "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-14T09:53:19.173Z",
+              "lastUpdated": "2023-09-29T15:23:11.315Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -15897,5 +15897,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-09-29T15:08:54.341Z"
+  "timestamp": "2023-09-29T15:23:46.144Z"
 }
