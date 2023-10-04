@@ -2764,12 +2764,12 @@
                 "ownerUrl": "",
                 "references": [
                   {
-                    "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste/",
+                    "url": "https://www.tirol.gv.at/gesundheit-vorsorge/pflege/",
                     "title": "Pflegende Angehörige Tirol",
                     "description": "Mobile Dienste in Tirol können hier abgefragt werden.",
-                    "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
+                    "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
                     "isPaidContent": false,
-                    "lastUpdated": "2022-11-14T09:47:06.513Z",
+                    "lastUpdated": "2023-10-04T13:22:56.836Z",
                     "keywords": [
                       "Behinderung",
                       "Betreuung",
@@ -14626,12 +14626,12 @@
           "ownerUrl": "",
           "references": [
             {
-              "url": "https://www.tirol.gv.at/gesellschaft-soziales/soziales/mobile-dienste/",
+              "url": "https://www.tirol.gv.at/gesundheit-vorsorge/pflege/",
               "title": "Pflegende Angehörige Tirol",
               "description": "Mobile Dienste in Tirol können hier abgefragt werden.",
-              "previewImageUrl": "https://www.young-carers-austria.at/images/sujets/yc-sujet-tirol.jpg",
+              "previewImageUrl": "https://www.young-carers-austria.at/images/preview/iStock-1136296173_bearbeitet.jpg",
               "isPaidContent": false,
-              "lastUpdated": "2022-11-14T09:47:06.513Z",
+              "lastUpdated": "2023-10-04T13:22:56.836Z",
               "keywords": [
                 "Behinderung",
                 "Betreuung",
@@ -16107,5 +16107,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-10-04T13:18:52.789Z"
+  "timestamp": "2023-10-04T13:23:28.964Z"
 }
