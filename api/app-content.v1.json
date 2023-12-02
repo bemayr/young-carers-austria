@@ -11,6 +11,11 @@
   "content": {
     "faqs": [
       {
+        "question": "Wohin können sich Young Carers wenden um Hilfe zu erhalten?",
+        "answer": "Betroffene Kinder und Jugendliche können sich u.a. an folgende Stellen wenden:\n\n* Angehörigengespräch [Betreuende und pflegende Angehörige (sozialministerium.at)](https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html)  \n* Superhands – Information und Beratung für Kinder und Jugendliche mit   \nPflegeverantwortung sowie deren Angehörige und MultiplikatorInnen [Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.](https://www.superhands.at/)  \n* [Österreichisches Jugendrotkreuz](https://www.jugendrotkreuz.at/)  \n* [147 Rat auf Draht - Notrufnummer & Beratung](https://www.rataufdraht.at/)  \n* [Interessengemeinschaft pflegender Angehöriger](https://www.ig-pflege.at/)[](https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html)\n\n",
+        "showOnLandingPage": false
+      },
+      {
         "question": "Könnte es sein, dass du ein Young Carer bist?",
         "answer": "Pflegende Kinder und Jugendliche **helfen regelmäßig und häufiger** im Familienumfeld als ihre Altersgenossen ohne Pflegeverantwortung. Sie unterstützen im Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen Verantwortung. 23 Prozent der Kinder helfen in allen drei Bereichen überdurchschnittlich viel.\n\nYoung Carers verstehen sich selbst nicht als Pflegende und sprechen selten über ihre familiäre Situation. Daher werden sie auch in ihrem sozialen Umfeld und in der Öffentlichkeit kaum als pflegende Kinder wahrgenommen und sind oft mit ihren Sorgen und Ängsten allein.\n\n",
         "showOnLandingPage": false
@@ -44,11 +49,6 @@
         "question": "Warum sind Young Carers schwer zu erreichen?",
         "answer": "Viele Familien sind der Meinung, dass man zusammenhalten und die Krankheit und damit einhergehende Herausforderungen und Krisen selbst lösen muss. Das Helfen innerhalb der Familien wird – auch von den pflegenden Kindern – als selbstverständlich betrachtet. Young Carers nehmen sich selbst daher oft nicht als pflegende Kinder wahr.\n\n",
         "showOnLandingPage": true
-      },
-      {
-        "question": "Wohin können sich Young Carers wenden um Hilfe zu erhalten?",
-        "answer": "Betroffene Kinder und Jugendliche können sich u.a. an folgende Stellen wenden:\n\n* Superhands – Information und Beratung für Kinder und Jugendliche mit   \nPflegeverantwortung sowie deren Angehörige und MultiplikatorInnen [Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.](https://www.superhands.at/)  \n* [Österreichisches Jugendrotkreuz](https://www.jugendrotkreuz.at/)  \n* [147 Rat auf Draht - Notrufnummer & Beratung](https://www.rataufdraht.at/)  \n* [Interessengemeinschaft pflegender Angehöriger](https://www.ig-pflege.at/)  \n* Angehörigengespräch [Betreuende und pflegende Angehörige (sozialministerium.at)](https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html)\n\n",
-        "showOnLandingPage": false
       },
       {
         "question": "Warum ist es wichtig sich als Young Carer Hilfe zu holen?",
@@ -454,7 +454,7 @@
         "id": "63685043638c16809e4d0d1d",
         "name": "Notfall(nummern)",
         "title": "Welche Nummer wähle ich im Notfall?",
-        "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Gehörlosen-Notruf:** Fax oder SMS an [0800 133 133](https://www.bmi.gv.at/Notrufnummern/notruf_gehoerlose.aspx)[](tel:144)  \n* **Ärztenotdienst**: [141](tel:141)  \n* **Vergiftungsinformation**: [01 406 43 43](tel:014064343)  \n* **Telefonseelsorge**: [142](https://www.telefonseelsorge.at/)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
+        "information": "Für den Ernstfall:\n\n* **Feuerwehr**: [122](tel:122)  \n* **Polizei**: [133](tel:133)  \n* **Rettung**: [144](tel:144)  \n* **Gehörlosen-Notruf:** Fax oder SMS an [0800 133 133](tel:0800133133)[](tel:144)  \n* **Ärztenotdienst**: [141](tel:141)  \n* **Vergiftungsinformation**: [01 406 43 43](tel:014064343)  \n* **Telefonseelsorge**: [142](tel:142)\n\nNotrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.\n\nDer Euro-Notruf [112](tel:112) kann auch bei gesperrten Mobiltelefonen (ohne Pin-Code) verwendet werden.",
         "entries": []
       },
       {
