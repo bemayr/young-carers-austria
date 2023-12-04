@@ -3,7 +3,7 @@
     {
       "question": "Wohin können sich Young Carers wenden um Hilfe zu erhalten?",
       "answer": "Betroffene Kinder und Jugendliche können sich u.a. an folgende Stellen wenden:\n\n* Angehörigengespräch [Betreuende und pflegende Angehörige (sozialministerium.at)](https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html)  \n* Superhands – Information und Beratung für Kinder und Jugendliche mit   \nPflegeverantwortung sowie deren Angehörige und MultiplikatorInnen [Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.](https://www.superhands.at/)  \n* [Österreichisches Jugendrotkreuz](https://www.jugendrotkreuz.at/)  \n* [147 Rat auf Draht - Notrufnummer & Beratung](https://www.rataufdraht.at/)  \n* [Interessengemeinschaft pflegender Angehöriger](https://www.ig-pflege.at/)[](https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html)\n\n",
-      "showOnLandingPage": false
+      "showOnLandingPage": true
     },
     {
       "question": "Könnte es sein, dass du ein Young Carer bist?",
@@ -16167,5 +16167,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2023-12-04T10:25:20.776Z"
+  "timestamp": "2023-12-04T10:26:26.860Z"
 }
