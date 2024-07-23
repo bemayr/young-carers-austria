@@ -1,6 +1,7 @@
 name: (web) Publish Website to GitHub Pages
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [cms_content_changed]
   push:
