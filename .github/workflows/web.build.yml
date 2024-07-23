@@ -11,15 +11,15 @@ on:
 
 # This allows a subsequently queued workflow run to interrupt previous runs
 concurrency:
-  group: '${{ github.workflow }} @ ${{ github.head_ref || github.ref }}'
+  group: "${{ github.workflow }} @ ${{ github.head_ref || github.ref }}"
   cancel-in-progress: true
 
 env:
   CHATBOT_BASE_URL: https://chatbot.young-carers-austria.at
-  INSIGHTS_BASE_URL: //insights.young-carers-austria.at/
+  INSIGHTS_BASE_URL: https://youngcarersaustria.matomo.cloud/
   INSIGHTS_IDSITE: 1
 
-permissions: 
+permissions:
   contents: write
 
 jobs:
