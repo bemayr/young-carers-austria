@@ -532,6 +532,31 @@
               ]
             },
             {
+              "ownerName": "Bundesministerium für Justiz",
+              "ownerUrl": "https://www.bmj.gv.at/",
+              "references": [
+                {
+                  "url": "https://neinzugewalt.at/kinder-und-jugendliche",
+                  "title": "Nein zu Gewalt",
+                  "description": "Kinder und Jugendliche erleben täglich Gewalt – oft im Stillen. Doch Gewalt hinterlässt Spuren. Nimm’s ernst. Hör zu! Schau hin.",
+                  "previewImageUrl": "https://neinzugewalt.at/media/site/37e22667fd-1711715441/bmsgpk_nzg_allgemein_website-header_1440x800px.jpg",
+                  "isPaidContent": false,
+                  "lastUpdated": "2024-04-08T13:44:54.195Z",
+                  "keywords": [
+                    "Familie",
+                    "Gewalt",
+                    "Hilfe",
+                    "Erwachsene",
+                    "Unterstützung",
+                    "Rat",
+                    "Kind",
+                    "Kinder",
+                    "Jugendliche"
+                  ]
+                }
+              ]
+            },
+            {
               "ownerName": "Kindernotruf",
               "ownerUrl": "",
               "references": [
@@ -1052,6 +1077,31 @@
                       "Tipps",
                       "Unterstützung",
                       "austria4kids"
+                    ]
+                  }
+                ]
+              },
+              {
+                "ownerName": "Bundesministerium für Justiz",
+                "ownerUrl": "https://www.bmj.gv.at/",
+                "references": [
+                  {
+                    "url": "https://neinzugewalt.at/kinder-und-jugendliche",
+                    "title": "Nein zu Gewalt",
+                    "description": "Kinder und Jugendliche erleben täglich Gewalt – oft im Stillen. Doch Gewalt hinterlässt Spuren. Nimm’s ernst. Hör zu! Schau hin.",
+                    "previewImageUrl": "https://neinzugewalt.at/media/site/37e22667fd-1711715441/bmsgpk_nzg_allgemein_website-header_1440x800px.jpg",
+                    "isPaidContent": false,
+                    "lastUpdated": "2024-04-08T13:44:54.195Z",
+                    "keywords": [
+                      "Familie",
+                      "Gewalt",
+                      "Hilfe",
+                      "Erwachsene",
+                      "Unterstützung",
+                      "Rat",
+                      "Kind",
+                      "Kinder",
+                      "Jugendliche"
                     ]
                   }
                 ]
@@ -7494,6 +7544,31 @@
       "information": "Hier findest du die neuesten Informationen bzw. Themen zu Pflege, Betreuung und Gesundheit.",
       "entries": [
         {
+          "ownerName": "Bundesministerium für Justiz",
+          "ownerUrl": "https://www.bmj.gv.at/",
+          "references": [
+            {
+              "url": "https://neinzugewalt.at/kinder-und-jugendliche",
+              "title": "Nein zu Gewalt",
+              "description": "Kinder und Jugendliche erleben täglich Gewalt – oft im Stillen. Doch Gewalt hinterlässt Spuren. Nimm’s ernst. Hör zu! Schau hin.",
+              "previewImageUrl": "https://neinzugewalt.at/media/site/37e22667fd-1711715441/bmsgpk_nzg_allgemein_website-header_1440x800px.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2024-04-08T13:44:54.195Z",
+              "keywords": [
+                "Familie",
+                "Gewalt",
+                "Hilfe",
+                "Erwachsene",
+                "Unterstützung",
+                "Rat",
+                "Kind",
+                "Kinder",
+                "Jugendliche"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Sozialministerium",
           "ownerUrl": "",
           "references": [
@@ -12396,6 +12471,31 @@
           ]
         },
         {
+          "ownerName": "Bundesministerium für Justiz",
+          "ownerUrl": "https://www.bmj.gv.at/",
+          "references": [
+            {
+              "url": "https://neinzugewalt.at/kinder-und-jugendliche",
+              "title": "Nein zu Gewalt",
+              "description": "Kinder und Jugendliche erleben täglich Gewalt – oft im Stillen. Doch Gewalt hinterlässt Spuren. Nimm’s ernst. Hör zu! Schau hin.",
+              "previewImageUrl": "https://neinzugewalt.at/media/site/37e22667fd-1711715441/bmsgpk_nzg_allgemein_website-header_1440x800px.jpg",
+              "isPaidContent": false,
+              "lastUpdated": "2024-04-08T13:44:54.195Z",
+              "keywords": [
+                "Familie",
+                "Gewalt",
+                "Hilfe",
+                "Erwachsene",
+                "Unterstützung",
+                "Rat",
+                "Kind",
+                "Kinder",
+                "Jugendliche"
+              ]
+            }
+          ]
+        },
+        {
           "ownerName": "Kindernotruf",
           "ownerUrl": "",
           "references": [
@@ -16195,5 +16295,5 @@
       "content": "Wenn dir Informationen oder andere Inhalte fehlen, zögere nicht und kontaktiere uns per [E-Mail](mailto:yc-support@sozialministerium.at), damit wir diese ergänzen können.\n\nWir freuen uns!"
     }
   ],
-  "timestamp": "2024-02-29T14:27:09.423Z"
+  "timestamp": "2024-07-23T06:30:13.945Z"
 }

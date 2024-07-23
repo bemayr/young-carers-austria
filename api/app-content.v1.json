@@ -607,6 +607,25 @@
     ],
     "references": [
       {
+        "id": "6613f4d6d0770ea3973b9bc9",
+        "url": "https://neinzugewalt.at/kinder-und-jugendliche",
+        "title": "Nein zu Gewalt",
+        "description": "Kinder und Jugendliche erleben täglich Gewalt – oft im Stillen. Doch Gewalt hinterlässt Spuren. Nimm’s ernst. Hör zu! Schau hin.",
+        "previewImageUrl": "https://neinzugewalt.at/media/site/37e22667fd-1711715441/bmsgpk_nzg_allgemein_website-header_1440x800px.jpg",
+        "containsPaidContent": false,
+        "keywords": [
+          "Familie",
+          "Gewalt",
+          "Hilfe",
+          "Erwachsene",
+          "Unterstützung",
+          "Rat",
+          "Kind",
+          "Kinder",
+          "Jugendliche"
+        ]
+      },
+      {
         "id": "65df361cd0770ea3973b9899",
         "url": "https://andererseits.org/themen/neben-dir-was-bedeutet-es-geschwister-von-jemandem-mit-behinderung-zu-sein/",
         "title": "Neben dir ",
