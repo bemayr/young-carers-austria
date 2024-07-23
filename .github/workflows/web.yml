@@ -11,7 +11,7 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: bemayr/young-carers-austria.website
   CHATBOT_BASE_URL: https://chatbot.young-carers-austria.at
-  INSIGHTS_BASE_URL: //insights.young-carers-austria.at/
+  INSIGHTS_BASE_URL: https://youngcarersaustria.matomo.cloud/
   INSIGHTS_IDSITE: 2
 
 jobs:
