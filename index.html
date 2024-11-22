@@ -1,603 +1,1046 @@
 <!DOCTYPE html>
 <html class="leading-tight text-gray-900 antialiased" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="generator" content="Eleventy v1.0.2" />
 
-<head>
-  
+    <title>Young Carers Austria</title>
 
-  
+    <link rel="canonical" href="https://www.young-carers-austria.at/" />
 
+    <meta property="og:site_name" content="Young Carers Austria" />
+    <meta property="og:title" content="Young Carers Austria" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.young-carers-austria.at/" />
 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="og:image"
+      content="https://www.young-carers-austria.at/images/social-share.jpg"
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.young-carers-austria.at/images/social-share.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Page image for Young Carers Austria"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Page image for Young Carers Austria"
+    />
 
+    <meta
+      name="description"
+      content="In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Hier findest du Informationen dazu, egal ob du betroffen bist oder dich über das Thema informieren möchtest."
+    />
+    <meta
+      name="twitter:description"
+      content="In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Hier findest du Informationen dazu, egal ob du betroffen bist oder dich über das Thema informieren möchtest."
+    />
+    <meta
+      property="og:description"
+      content="In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Hier findest du Informationen dazu, egal ob du betroffen bist oder dich über das Thema informieren möchtest."
+    />
+    <link
+      rel="alternate icon"
+      href="/favicon.ico"
+      type="image/png"
+      sizes="48x48"
+    />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="192x192" />
+    <meta name="theme-color" content="#9d132e" />
 
+    <!-- Apple Smart App Banner (https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners) -->
+    <meta name="apple-itunes-app" content="app-id=1594317016" />
 
-  
+    <!-- Preconnect to the font file origin -->
+    <link rel="preconnect" href="https://rsms.me" crossorigin />
 
+    <!-- Preload the font stylesheet asynchronously with low priority -->
+    <link rel="preload" href="https://rsms.me/inter/inter.css" as="style" />
 
+    <!-- https://www.filamentgroup.com/lab/load-css-simpler/ -->
+    <link
+      crossorigin="anonymous"
+      rel="stylesheet"
+      href="https://rsms.me/inter/inter.css"
+      media="print"
+      onload="this.media='all'; this.onload=null;"
+    />
 
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<meta name="generator" content="Eleventy v1.0.2">
+    <!-- Add the Matomo Tracking Code if we are in Production -->
 
-<title>Young Carers Austria</title>
+    <!-- Matomo -->
+    <script>
+      var _paq = (window._paq = window._paq || []);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["disableCookies"]);
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "https://youngcarersaustria.matomo.cloud/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.async = true;
+        g.src = u + "matomo.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
 
-<link rel="canonical" href="https://www.young-carers-austria.at/" />
+    <script type="module" crossorigin src="/assets/main.2685bbd3.js"></script>
+    <link rel="stylesheet" href="/assets/main.498f1d2e.css" />
+  </head>
 
-<meta property="og:site_name" content="Young Carers Austria" />
-<meta property="og:title" content="Young Carers Austria" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.young-carers-austria.at/" />
+  <body
+    class="min-h-screen bg-gray-50"
+    data-env="production"
+    x-data="{ chatbotOpen: false }"
+  >
+    <header x-data="{ menuOpen: false }">
+      <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex h-24 items-center justify-between">
+          <a href="/" aria-label="Young Carers Austria Startseite">
+            <figure
+              class="flex flex-shrink-0 items-center space-x-1 mr-16 sm:mr-0"
+            >
+              <img
+                alt="Young Carers Logo"
+                class="max-h-16 w-auto"
+                src="/assets/logo.4f0eb610.png"
+              />
+            </figure>
+          </a>
 
+          <ul class="hidden md:flex space-x-4 list-none">
+            <li class="text-darkBlue no-underline hover:underline">
+              <a href="/alltagssituationen/">Alltagssituationen</a>
+            </li>
+            <li class="text-darkBlue no-underline hover:underline">
+              <a href="/infos/aktuelles/">good2know</a>
+            </li>
+            <li class="text-darkBlue no-underline hover:underline">
+              <a href="/im-notfall/">Im Notfall</a>
+            </li>
+            <li class="text-darkBlue no-underline hover:underline">
+              <a href="/app/">App</a>
+            </li>
+            <li class="text-darkBlue no-underline hover:underline">
+              <a href="/faq/">FAQ</a>
+            </li>
+          </ul>
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="og:image" content="https://www.young-carers-austria.at/images/social-share.jpg" />
-<meta name="twitter:image" content="https://www.young-carers-austria.at/images/social-share.jpg" />
-<meta property="og:image:alt" content="Page image for Young Carers Austria" />
-<meta name="twitter:image:alt" content="Page image for Young Carers Austria" />
+          <div
+            id="nav-list"
+            x-show="menuOpen"
+            class="absolute right-0 w-auto mt-64 mr-4 bg-gray-100 rounded-xl shadow-xl"
+          >
+            <ul class="flex flex-col space-y-3 list-none p-6 py-8">
+              <li class="text-darkBlue no-underline hover:underline">
+                <a href="/alltagssituationen/">Alltagssituationen</a>
+              </li>
+              <li class="text-darkBlue no-underline hover:underline">
+                <a href="/infos/aktuelles/">good2know</a>
+              </li>
+              <li class="text-darkBlue no-underline hover:underline">
+                <a href="/im-notfall/">Im Notfall</a>
+              </li>
+              <li class="text-darkBlue no-underline hover:underline">
+                <a href="/app/">App</a>
+              </li>
+              <li class="text-darkBlue no-underline hover:underline">
+                <a href="/faq/">FAQ</a>
+              </li>
+            </ul>
+          </div>
 
-
-<meta name="description" content="In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Hier findest du Informationen dazu, egal ob du betroffen bist oder dich über das Thema informieren möchtest." />
-<meta name="twitter:description" content="In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Hier findest du Informationen dazu, egal ob du betroffen bist oder dich über das Thema informieren möchtest." />
-<meta property="og:description" content="In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Hier findest du Informationen dazu, egal ob du betroffen bist oder dich über das Thema informieren möchtest." />
-<link rel="alternate icon" href="/favicon.ico" type="image/png" sizes="48x48" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="192x192" /><meta name="theme-color" content="#9d132e" />
-
-<!-- Apple Smart App Banner (https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners) -->
-<meta name="apple-itunes-app" content="app-id=1594317016" />
-
-<!-- Preconnect to the font file origin -->
-<link rel="preconnect" href="https://rsms.me" crossorigin />
-
-<!-- Preload the font stylesheet asynchronously with low priority -->
-<link rel="preload" href="https://rsms.me/inter/inter.css" as="style" />
-
-<!-- https://www.filamentgroup.com/lab/load-css-simpler/ -->
-<link crossorigin="anonymous" rel="stylesheet" href="https://rsms.me/inter/inter.css" media="print"
-onload="this.media='all'; this.onload=null;" />
-
-<!-- Add the Matomo Tracking Code if we are in Production -->
-
-<!-- Matomo -->
-<script>
-    var _paq = window._paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(["disableCookies"]);
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u="https://youngcarersaustria.matomo.cloud/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-    })();
-</script>
-<!-- End Matomo Code -->
-
-
-  <script type="module" crossorigin src="/assets/main.2685bbd3.js"></script>
-  <link rel="stylesheet" href="/assets/main.498f1d2e.css">
-</head>
-
-<body
-  class="min-h-screen bg-gray-50"
-  data-env="production"
-  x-data="{ chatbotOpen: false }">
-  <header x-data="{ menuOpen: false }">
-  <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex h-24 items-center justify-between">
-      <a href="/" aria-label="Young Carers Austria Startseite">
-        <figure class="flex flex-shrink-0 items-center space-x-1 mr-16 sm:mr-0">
-          <img alt="Young Carers Logo" class="max-h-16 w-auto" src="/assets/logo.4f0eb610.png" />
-        </figure>
-      </a>
-
-      
-      <ul class="hidden md:flex space-x-4 list-none">
-        <li class="text-darkBlue no-underline hover:underline ">
-          <a href="/alltagssituationen/">Alltagssituationen</a>
-        </li>
-        <li class="text-darkBlue no-underline hover:underline ">
-          <a href="/infos/aktuelles/">good2know</a>
-        </li>
-        <li class="text-darkBlue no-underline hover:underline ">
-          <a href="/im-notfall/">Im Notfall</a>
-        </li>
-        <li class="text-darkBlue no-underline hover:underline ">
-          <a href="/app/">App</a>
-        </li>
-        <li class="text-darkBlue no-underline hover:underline ">
-          <a href="/faq/">FAQ</a>
-        </li>
-      </ul>
-
-      <div id="nav-list" x-show="menuOpen" class="absolute right-0 w-auto mt-64 mr-4 bg-gray-100 rounded-xl shadow-xl">
-        <ul class="flex flex-col space-y-3 list-none p-6 py-8">
-          <li class="text-darkBlue no-underline hover:underline ">
-            <a href="/alltagssituationen/">Alltagssituationen</a>
-          </li>
-          <li class="text-darkBlue no-underline hover:underline ">
-            <a href="/infos/aktuelles/">good2know</a>
-          </li>
-          <li class="text-darkBlue no-underline hover:underline ">
-            <a href="/im-notfall/">Im Notfall</a>
-          </li>
-          <li class="text-darkBlue no-underline hover:underline ">
-            <a href="/app/">App</a>
-          </li>
-          <li class="text-darkBlue no-underline hover:underline ">
-            <a href="/faq/">FAQ</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="flex items-center md:hidden">
-          <button
+          <div class="flex items-center md:hidden">
+            <button
               class="text-darkBlue text-3xl font-bold opacity-70 hover:opacity-100 duration-300"
               @click="menuOpen = !menuOpen"
-              aria-controls="nav-list">
+              aria-controls="nav-list"
+            >
               &#9776;
-          </button>
-      </div>
-
-    </div>
-  </nav>
-</header>
-
-
-  <div class="py-10">
-<main id="main-content" tabindex="-1">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="prose prose-headings:text-darkBlue prose-strong:text-darkBlue prose-a:text-darkBlue prose-lg prose-gray max-w-none text-gray-500">
-      <div class="mx-auto max-w-4xl flex flex-col sm:flex-row">
-  <h1
-    class=" text-center text-5xl text-darkBlue basis-2/5 sm:text-right sm:text-7xl justify-center self-center mb-0 sm:mr-12 -mt-4 md:-mt-12">
-    Young Carers
-    Austria
-  </h1>
-  <div class="basis-3/5">
-    <p class="prose prose-lg prose-gray text-gray-500">
-      In Österreich gibt es über 42.000 pflegende Kinder und Jugendliche, sogenannte Young Carers. Sie unterstützen im
-      Haushalt, kümmern sich um jüngere Geschwister, übernehmen Pflegetätigkeiten und tragen viel Verantwortung. Das ist
-      eine große Herausforderung, der sich andere Gleichaltrige nicht stellen müssen. Es ist nicht schlimm, wenn man
-      sich
-      Hilfe holt.
-      <b class="text-red">Ganz im Gegenteil – Hilfe holen, heißt Stärke zeigen!</b>
-    </p>
-    <p> Bist auch du ein Young Carer? Hol dir hier Informationen und Unterstützung.</p>
-  </div>
-</div>
-
-<div class="flex flex-row flex-wrap py-12 justify-center items-center">
-  <a href="/alltagssituationen/"
-    class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-98 -rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
-    <div class="flex flex-row px-6 py-5">
-      <div class="border-r border-transparent my-auto text-4xl pr-2">
-          📆
-      </div>
-      <div class="flex flex-col pl-3 font-normal">
-        <h2 class="my-0 pb-1 text-darkBlue">
-          Alltagssituationen
-        </h2>
-        <p class="mb-0 text-gray-500">
-          Vielleicht kennst auch du eine dieser Situationen und kannst von den Erlebnissen anderer profitieren.
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <a href="/infos/aktuelles/"
-    class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-95 rotate-6 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
-    <div class="flex flex-row px-6 py-5">
-      <div class="border-r border-transparent my-auto text-4xl pr-2">
-          ℹ️
-      </div>
-      <div class="flex flex-col pl-3 font-normal">
-        <h2 class="my-0 pb-1 text-darkBlue">
-          Infos
-        </h2>
-        <p class="mb-0 text-gray-500">
-          In den Infos haben wir die wichtigsten Informationen für dich gesammelt und sortiert, damit du sie bestmöglich findest.
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <a href="/im-notfall/"
-    class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-97 -rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
-    <div class="flex flex-row px-6 py-5">
-      <div class="border-r border-transparent my-auto text-4xl pr-2">
-        🚑
-      </div>
-      <div class="flex flex-col pl-3 font-normal">
-        <h2 class="my-0 pb-1 text-darkBlue">
-          Im Notfall
-        </h2>
-        <p class="mb-0 text-gray-500">
-          Vorbereitung ist alles - besonders in einer Notfallsituation, finde hier die wichtigsten Infos die du dafür brauchst.
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <button @click="chatbotOpen = true" type="button"
-    class="drop-shadow-2xl rounded-3xl text-left sm:w-96 bg-white rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
-    <div class="flex flex-row px-6 py-5">
-      <div class="border-r border-transparent my-auto text-4xl pr-2">
-        🤖
-      </div>
-      <div class="flex flex-col pl-3 font-normal">
-        <h2 class="my-0 pb-1 text-darkBlue">
-          Chatbot
-        </h2>
-        <p class="mb-0 text-gray-500">
-          Du suchst nach etwas ganz Bestimmtem? Dann frag doch einfach unseren Chatbot, er versucht dir bestmöglich zu helfen!
-        </p>
-      </div>
-    </div>
-  </button>
-
-  <a href="/app/"
-    class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline">
-    <div class="flex flex-row px-6 py-5">
-      <div class="border-r border-transparent my-auto text-4xl pr-2">
-        📱
-      </div>
-      <div class="flex flex-col pl-3 font-normal">
-        <h2 class="my-0 pb-1 text-darkBlue">
-          App
-        </h2>
-        <p class="mb-0 text-gray-500">
-          Du möchtest die Infos lieber als App haben, dann wechsle hier zur Young Carers Austria App.
-        </p>
-      </div>
-    </div>
-  </a>
-</div>
-
-<section class="max-w-5xl mx-auto my-12">
-  <h2 class="text-center text-darkBlue">Häufig gestellte Fragen</h2>
-   
-  <div class="md:hidden">
-    
-    <details>
-      <summary class="cursor-pointer">Wohin können sich Young Carers wenden um Hilfe zu erhalten?</summary>
-      <div>
-        <p>Betroffene Kinder und Jugendliche können sich u.a. an folgende Stellen wenden:</p>
-<ul>
-<li>Angehörigengespräch <a href="https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html">Betreuende und pflegende Angehörige (sozialministerium.at)</a></li>
-<li>Superhands – Informationen und Beratung für Kinder und Jugendliche mit<br>
-Pflegeverantwortung sowie deren Angehörige und Multiplikator:innen <a href="https://www.superhands.at/">Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.</a></li>
-<li><a href="https://www.jugendrotkreuz.at/">Österreichisches Jugendrotkreuz</a></li>
-<li><a href="https://www.rataufdraht.at/">147 Rat auf Draht - Notrufnummer &amp; Beratung</a></li>
-<li><a href="https://www.ig-pflege.at/">Interessengemeinschaft pflegender Angehöriger</a><a href="https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html"></a></li>
-</ul>
-
-      </div>
-    </details>
-    
-    <details>
-      <summary class="cursor-pointer">Warum sind Young Carers schwer zu erreichen?</summary>
-      <div>
-        <p>Viele Familien sind der Meinung, dass man zusammenhalten und die Krankheit und damit einhergehende Herausforderungen und Krisen selbst lösen muss. Das Helfen innerhalb der Familien wird – auch von den pflegenden Kindern – als selbstverständlich betrachtet. Young Carers nehmen sich selbst daher oft nicht als pflegende Kinder wahr.</p>
-
-      </div>
-    </details>
-    
-    <details>
-      <summary class="cursor-pointer">Warum ist es wichtig sich als Young Carer Hilfe zu holen?</summary>
-      <div>
-        <p>Typischerweise kümmern sich Young Carers über einen längeren Zeitraum regelmäßig um ein erkranktes oder hilfebedürftiges Familienmitglied. Das ist eine große Herausforderung, der sich die meisten Kinder und Jugendlichen nicht stellen müssen. Es ist keine Schande nicht alles alleine zu schaffen! Achtet darauf und holt euch rechtzeitig Informationen und Unterstützung.</p>
-
-      </div>
-    </details>
-    
-    <details>
-      <summary class="cursor-pointer">Was können Erwachsene (z.B. Eltern, Pädagoginnen/Pädagogen) bei der Begegnung bzw. im Umgang mit Young Carers tun?</summary>
-      <div>
-        <ul>
-<li>Begegnung auf Augenhöhe und mit Wertschätzung – besonders wegen der Pflegetätigkeit</li>
-<li>Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote aufmerksam machen</li>
-<li>Regelmäßige Nachfrage wie es dem betroffenen Young Carer geht</li>
-<li>Austausch mit Expert:innen, z.B. <a href="https://www.superhands.at">superhands, </a><a href="https://www.ig-pflege.at/">IG Pflegende Angehörige</a>, <a href="https://www.superhands.at">147 Rat auf Draht</a>, u.a.m</li>
-</ul>
-
-      </div>
-    </details>
-    
-  </div>
-  <div class="hidden md:block relative">
-    <ul class="list-none relative">
-      
-      <li><input class="hidden peer" type="radio" id="wohin-koennen-sich-young-carers-wenden-um-hilfe-zu-erhalten" name="faq-questions" checked>
-        <label
-          for="wohin-koennen-sich-young-carers-wenden-um-hilfe-zu-erhalten"
-          class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block">Wohin können sich Young Carers wenden um Hilfe zu erhalten?</label>
-        <div class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5">
-          <p>Betroffene Kinder und Jugendliche können sich u.a. an folgende Stellen wenden:</p>
-<ul>
-<li>Angehörigengespräch <a href="https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html">Betreuende und pflegende Angehörige (sozialministerium.at)</a></li>
-<li>Superhands – Informationen und Beratung für Kinder und Jugendliche mit<br>
-Pflegeverantwortung sowie deren Angehörige und Multiplikator:innen <a href="https://www.superhands.at/">Superhands: Hilfe und Rat für Teenager, die Angehörige pflegen. Kostenlos und anonym.</a></li>
-<li><a href="https://www.jugendrotkreuz.at/">Österreichisches Jugendrotkreuz</a></li>
-<li><a href="https://www.rataufdraht.at/">147 Rat auf Draht - Notrufnummer &amp; Beratung</a></li>
-<li><a href="https://www.ig-pflege.at/">Interessengemeinschaft pflegender Angehöriger</a><a href="https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html"></a></li>
-</ul>
-
+            </button>
+          </div>
         </div>
-      </li>
-      
-      <li><input class="hidden peer" type="radio" id="warum-sind-young-carers-schwer-zu-erreichen" name="faq-questions" >
-        <label
-          for="warum-sind-young-carers-schwer-zu-erreichen"
-          class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block">Warum sind Young Carers schwer zu erreichen?</label>
-        <div class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5">
-          <p>Viele Familien sind der Meinung, dass man zusammenhalten und die Krankheit und damit einhergehende Herausforderungen und Krisen selbst lösen muss. Das Helfen innerhalb der Familien wird – auch von den pflegenden Kindern – als selbstverständlich betrachtet. Young Carers nehmen sich selbst daher oft nicht als pflegende Kinder wahr.</p>
+      </nav>
+    </header>
 
-        </div>
-      </li>
-      
-      <li><input class="hidden peer" type="radio" id="warum-ist-es-wichtig-sich-als-young-carer-hilfe-zu-holen" name="faq-questions" >
-        <label
-          for="warum-ist-es-wichtig-sich-als-young-carer-hilfe-zu-holen"
-          class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block">Warum ist es wichtig sich als Young Carer Hilfe zu holen?</label>
-        <div class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5">
-          <p>Typischerweise kümmern sich Young Carers über einen längeren Zeitraum regelmäßig um ein erkranktes oder hilfebedürftiges Familienmitglied. Das ist eine große Herausforderung, der sich die meisten Kinder und Jugendlichen nicht stellen müssen. Es ist keine Schande nicht alles alleine zu schaffen! Achtet darauf und holt euch rechtzeitig Informationen und Unterstützung.</p>
-
-        </div>
-      </li>
-      
-      <li><input class="hidden peer" type="radio" id="was-koennen-erwachsene-z-b-eltern-paedagoginnen-paedagogen-bei-der-begegnung-bzw-im-umgang-mit-young-carers-tun" name="faq-questions" >
-        <label
-          for="was-koennen-erwachsene-z-b-eltern-paedagoginnen-paedagogen-bei-der-begegnung-bzw-im-umgang-mit-young-carers-tun"
-          class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block">Was können Erwachsene (z.B. Eltern, Pädagoginnen/Pädagogen) bei der Begegnung bzw. im Umgang mit Young Carers tun?</label>
-        <div class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5">
-          <ul>
-<li>Begegnung auf Augenhöhe und mit Wertschätzung – besonders wegen der Pflegetätigkeit</li>
-<li>Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote aufmerksam machen</li>
-<li>Regelmäßige Nachfrage wie es dem betroffenen Young Carer geht</li>
-<li>Austausch mit Expert:innen, z.B. <a href="https://www.superhands.at">superhands, </a><a href="https://www.ig-pflege.at/">IG Pflegende Angehörige</a>, <a href="https://www.superhands.at">147 Rat auf Draht</a>, u.a.m</li>
-</ul>
-
-        </div>
-      </li>
-      
-    </ul>
-  </div>
-  <p class="text-center md:mt-8">
-    <a href="/faq">Hier gibts noch weitere Fragen</a>
-  </p>
-</section>
-
-
-<section class="max-w-5xl mx-auto">
-  <h2 class="text-center text-darkBlue">Die Young Carers Austria App</h2>
-  <div class="flex flex-col md:flex-row items-center">
-    <div class="md:w-2/5 h-auto -rotate-2 mx-[15%] md:mx-0">
-      <img src="/assets/yc-app.ios.21aa154c.png" alt="Young Carers Austria App">
-    </div>
-    <div class="md:w-3/5 md:pl-10 flex flex-col items-center">
-
-      
-      <div class="bg-white rounded-xl shadow-2xl relative w-5/6 md:w-4/5 p-5 mb-12">
-        <div class="absolute font-extrabold text-6xl sm:text-8xl text-darkBlue italic font-serif">"</div>
-        <p class="ml-10 mt-6 mb-2 sm:ml-16 sm:mt-8 sm:mb-4">
-          Eine wirklich gelungene und ansprechende App für Kinder, Jugendliche, aber auch für Eltern, Großeltern.
-        </p>
-      </div>
-      
-      <div class="bg-white rounded-xl shadow-2xl relative w-5/6 md:w-4/5 p-5 mb-12">
-        <div class="absolute font-extrabold text-6xl sm:text-8xl text-darkBlue italic font-serif">"</div>
-        <p class="ml-10 mt-6 mb-2 sm:ml-16 sm:mt-8 sm:mb-4">
-          Die App ist übersichtlich gestaltet und Informationen für zB Notfallsituationen sind schnell und einfach abrufbar.
-        </p>
-      </div>
-      
-      <div class="not-prose mt-2">
-        <a class="rounded-full bg-red text-white py-3 px-7 no-underline" href="/app/">Zur App</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<section class="max-w-5xl mx-auto">
-  <h2 class="text-center text-darkBlue">Über Young Carers Austria</h2>
-  <div class="flex flex-col-reverse md:flex-row">
-    <div class="md:w-3/5 pr-10">
-      <p>Mit der neuen App &quot;YoungCarers Austria&quot; gibt es eine Informationsquelle die Betroffenen und deren Familien einen Überblick zu bestehenden (Hilfs-)Angeboten bietet. Aber auch Eltern, Lehrpersonen oder sonstige Wegbegleiter:innen können sich auf der Plattform informieren.</p>
-<p>Für die Vollständigkeit der Inhalte kann nicht garantiert werden. Ergänzende Hinweise, Tipps oder Anregungen gerne an <a href="mailto:yc-support@sozialministerium.at">yc-support@sozialministerium.at</a> senden.</p>
-<p>Für die Umsetzung der App ist die Fachhochschule Oberösterreich/Campus Hagenberg verantwortlich. Betroffene Jugendliche waren von Beginn an eingebunden. Die App ist <strong>kostenlos und barrierefrei</strong>.</p>
-
-    </div>
-    <div class="md:w-2/5 h-auto">
-      <img src="/images/sujets/yc-sujet-österreich.jpg" alt="/images/sujets/yc-sujet-österreich.jpg">
-    </div>
-  </div>
-</section>
-
-    </div>
-  </div>
-</main>
-</div><div x-show="chatbotOpen" x-description="Chatbot, kann auf- und eingeklappt werden."
-  x-data="chatBot()"
-  x-init="initializeChatbot()"
-  x-transition:enter="ease-out duration-300"
-  x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-  x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200"
-  x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
-  x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-  class="fixed right-0 bottom-0" style="display: none">
-
-    <div class="flex-1 p-1 sm:p-6 justify-between flex flex-col max-h-[90vh] lg:max-h-[65vh] bg-gray-200 rounded-lg shadow-lg m-4">
-        <div id="messages" class="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch">
-            <template x-for="(message, key) in messages">
-                <div>
-                    <div class="flex items-end" :class="message.from=='bot'?'':'justify-end'">
-                        <div class="flex flex-col space-y-2 text-md leading-tight max-w-lg mx-2" :class="message.from=='bot'?'order-2 items-start':'order-1 items-end'">
-                            <div>
-                                <template x-if="message.from==='user'">
-                                    <span class="px-4 py-3 rounded-xl inline-block rounded-br-none bg-red text-white" x-html="message.text"></span>
-                                </template>
-                                <template x-if="message.type === 'text'">
-                                    <span class="px-4 py-3 rounded-xl inline-block prose rounded-bl-none bg-white text-gray-600 leading-tight" x-markdown="message.text"></span>
-                                </template>
-                                <template x-if="message.type === 'category'">
-                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
-                                        <a class="no-underline" target="_blank" :href="'infos/' + window.slugify(message.category.name)">
-                                            <div class="p-5">
-                                                <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.category.name">
-                                                </h3>
-                                                <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent" x-html="message.category.descriptionPlain.split(/\s+/).slice(0, 55).join(' ') + '…'">
-                                                </p>
-                                                <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">Kategorie</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </template>
-                                <template x-if="message.type === 'reference'">
-                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
-                                        <a class="no-underline" target="_blank" :href="message.reference.address">
-                                        <img class="p-0 m-0 rounded-t-lg" :src="message.reference.image" alt="" />
-                                        <div class="p-5">
-                                            <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.reference.title">
-                                            </h3>
-                                            <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent" x-html="message.reference.description">
-                                            </p>
-                                            <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">Beitrag</p>
-                                        </div>
-                                        </a>
-                                    </div>
-                                </template>
-                                <template x-if="message.type === 'situation'">
-                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
-                                        <a class="no-underline" target="_blank" :href="'alltagssituationen/#' + window.slugify(message.situation.name)">
-                                            <div class="p-5">
-                                                <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.situation.name">
-                                                </h3>
-                                                <p class="font-normal my-0 py-0 text-gray-700 decoration-transparent" x-html="message.situation.contentPlain.split(/\s+/).slice(0, 55).join(' ') + '…'">
-                                                </p>
-                                                <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">Alltagssituation</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </template>
-                                <template x-if="message.type === 'faq'">
-                                    <div class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none">
-                                        <div class="p-5">
-                                            <h3 class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2" x-html="message.faq.question">
-                                            </h3>
-                                            <div class="font-normal prose my-0 mt-2 py-0 text-gray-700 leading-tight decoration-transparent" x-markdown="message.faq.answerMarkdown">
-                                            </div>
-                                            <p class="font-normal uppercase text-right text-xs mt-4 text-gray-400">FAQ</p>
-                                        </div>
-                                    </div>
-                                </template>
-                            </div>
-                        </div>
-                        <div x-html="message.from=='bot'?character.emoji:'👤'" alt="" class="text-2xl" :class="message.from=='bot'?'order-1':'order-2'"></div>
-                    </div>
-                </div>
-            </template>
-            <!--<span x-html="prompts"></span>-->
-            <div x-show="botTyping" style="display: none;">
-                <div class="flex items-end">
-                    <div class="flex flex-col space-y-2 text-md leading-tight mx-2 order-2 items-start">
-                        <div><img src="/loading.gif" alt="..." class="w-16 ml-6"></div> <!-- replace with something like https://codepen.io/bilalck/pen/jdGGNW -->
-                    </div>
-                </div>
+    <div class="py-10">
+      <main id="main-content" tabindex="-1">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="prose prose-headings:text-darkBlue prose-strong:text-darkBlue prose-a:text-darkBlue prose-lg prose-gray max-w-none text-gray-500"
+          >
+            <div class="mx-auto max-w-4xl flex flex-col sm:flex-row">
+              <h1
+                class="text-center text-5xl text-darkBlue basis-2/5 sm:text-right sm:text-7xl justify-center self-center mb-0 sm:mr-12 -mt-4 md:-mt-12"
+              >
+                Young Carers Austria
+              </h1>
+              <div class="basis-3/5">
+                <p class="prose prose-lg prose-gray text-gray-500">
+                  In Österreich gibt es über 42.000 pflegende Kinder und
+                  Jugendliche, sogenannte Young Carers. Sie unterstützen im
+                  Haushalt, kümmern sich um jüngere Geschwister, übernehmen
+                  Pflegetätigkeiten und tragen viel Verantwortung. Das ist eine
+                  große Herausforderung, der sich andere Gleichaltrige nicht
+                  stellen müssen. Es ist nicht schlimm, wenn man sich Hilfe
+                  holt.
+                  <b class="text-red"
+                    >Ganz im Gegenteil – Hilfe holen, heißt Stärke zeigen!</b
+                  >
+                </p>
+                <p>
+                  Bist auch du ein Young Carer? Hol dir hier Informationen und
+                  Unterstützung.
+                </p>
+              </div>
             </div>
+
+            <div
+              class="flex flex-row flex-wrap py-12 justify-center items-center"
+            >
+              <a
+                href="/alltagssituationen/"
+                class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-98 -rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline"
+              >
+                <div class="flex flex-row px-6 py-5">
+                  <div
+                    class="border-r border-transparent my-auto text-4xl pr-2"
+                  >
+                    📆
+                  </div>
+                  <div class="flex flex-col pl-3 font-normal">
+                    <h2 class="my-0 pb-1 text-darkBlue">Alltagssituationen</h2>
+                    <p class="mb-0 text-gray-500">
+                      Vielleicht kennst auch du eine dieser Situationen und
+                      kannst von den Erlebnissen anderer profitieren.
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="/infos/aktuelles/"
+                class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-95 rotate-6 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline"
+              >
+                <div class="flex flex-row px-6 py-5">
+                  <div
+                    class="border-r border-transparent my-auto text-4xl pr-2"
+                  >
+                    ℹ️
+                  </div>
+                  <div class="flex flex-col pl-3 font-normal">
+                    <h2 class="my-0 pb-1 text-darkBlue">Infos</h2>
+                    <p class="mb-0 text-gray-500">
+                      In den Infos haben wir die wichtigsten Informationen für
+                      dich gesammelt und sortiert, damit du sie bestmöglich
+                      findest.
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="/im-notfall/"
+                class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white scale-97 -rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline"
+              >
+                <div class="flex flex-row px-6 py-5">
+                  <div
+                    class="border-r border-transparent my-auto text-4xl pr-2"
+                  >
+                    🚑
+                  </div>
+                  <div class="flex flex-col pl-3 font-normal">
+                    <h2 class="my-0 pb-1 text-darkBlue">Im Notfall</h2>
+                    <p class="mb-0 text-gray-500">
+                      Vorbereitung ist alles - besonders in einer
+                      Notfallsituation, finde hier die wichtigsten Infos die du
+                      dafür brauchst.
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <button
+                @click="chatbotOpen = true"
+                type="button"
+                class="drop-shadow-2xl rounded-3xl text-left sm:w-96 bg-white rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline"
+              >
+                <div class="flex flex-row px-6 py-5">
+                  <div
+                    class="border-r border-transparent my-auto text-4xl pr-2"
+                  >
+                    🤖
+                  </div>
+                  <div class="flex flex-col pl-3 font-normal">
+                    <h2 class="my-0 pb-1 text-darkBlue">Chatbot</h2>
+                    <p class="mb-0 text-gray-500">
+                      Du suchst nach etwas ganz Bestimmtem? Dann frag doch
+                      einfach unseren Chatbot, er versucht dir bestmöglich zu
+                      helfen!
+                    </p>
+                  </div>
+                </div>
+              </button>
+
+              <a
+                href="/app/"
+                class="drop-shadow-2xl sm:w-96 rounded-3xl bg-white rotate-3 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline"
+              >
+                <div class="flex flex-row px-6 py-5">
+                  <div
+                    class="border-r border-transparent my-auto text-4xl pr-2"
+                  >
+                    📱
+                  </div>
+                  <div class="flex flex-col pl-3 font-normal">
+                    <h2 class="my-0 pb-1 text-darkBlue">App</h2>
+                    <p class="mb-0 text-gray-500">
+                      Du möchtest die Infos lieber als App haben, dann wechsle
+                      hier zur Young Carers Austria App.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div
+              class="flex flex-row flex-wrap py-12 justify-center items-center relative"
+            >
+              <img
+                class="rounded-3xl"
+                src="/images/preview/Fotolia_70381304_XXL.jpg"
+              />
+              <a
+                href="/infos/demenz"
+                style="bottom: 1rem; right: 1rem"
+                class="absolute bottom-1 right-1 hidden md:block drop-shadow-2xl sm:relative sm:w-96 rounded-3xl bg-white scale-98 rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline"
+              >
+                <div class="flex flex-row px-6 py-5">
+                  <div
+                    class="border-r border-transparent my-auto text-4xl pr-2"
+                  >
+                    🧠
+                  </div>
+                  <div class="flex flex-col pl-3 font-normal">
+                    <h2 class="my-0 pb-1 text-darkBlue">Aktuelles</h2>
+                    <p class="mb-0 text-gray-500">
+                      Der heurige Nationale Aktionstag für pflegende Kinder und
+                      Jugendliche ist dem Thema
+                      <b>Demenz in der Familie</b> gewidmet. Hier kannst du mehr
+                      zu diesem Thema erfahren.
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="/infos/demenz"
+                style="margin-top: -4rem"
+                class="md:hidden drop-shadow-2xl sm:relative sm:w-96 rounded-3xl bg-white scale-98 rotate-2 m-5 transition-all delay-200 duration-500 hover:rotate-0 hover:scale-105 hover:delay-75 hover:duration-150 no-underline"
+              >
+                <div class="flex flex-row px-6 py-5">
+                  <div
+                    class="border-r border-transparent my-auto text-4xl pr-2"
+                  >
+                    🧠
+                  </div>
+                  <div class="flex flex-col pl-3 font-normal">
+                    <h2 class="my-0 pb-1 text-darkBlue">Aktuelles</h2>
+                    <p class="mb-0 text-gray-500">
+                      Der heurige Nationale Aktionstag für pflegende Kinder und
+                      Jugendliche ist dem Thema
+                      <b>Demenz in der Familie</b> gewidmet. Hier kannst du mehr
+                      zu diesem Thema erfahren.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <section class="max-w-5xl mx-auto my-12">
+              <h2 class="text-center text-darkBlue">Häufig gestellte Fragen</h2>
+
+              <div class="md:hidden">
+                <details>
+                  <summary class="cursor-pointer">
+                    Wohin können sich Young Carers wenden um Hilfe zu erhalten?
+                  </summary>
+                  <div>
+                    <p>
+                      Betroffene Kinder und Jugendliche können sich u.a. an
+                      folgende Stellen wenden:
+                    </p>
+                    <ul>
+                      <li>
+                        Angehörigengespräch
+                        <a
+                          href="https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html"
+                          >Betreuende und pflegende Angehörige
+                          (sozialministerium.at)</a
+                        >
+                      </li>
+                      <li>
+                        Superhands – Informationen und Beratung für Kinder und
+                        Jugendliche mit<br />
+                        Pflegeverantwortung sowie deren Angehörige und
+                        Multiplikator:innen
+                        <a href="https://www.superhands.at/"
+                          >Superhands: Hilfe und Rat für Teenager, die
+                          Angehörige pflegen. Kostenlos und anonym.</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.jugendrotkreuz.at/"
+                          >Österreichisches Jugendrotkreuz</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.rataufdraht.at/"
+                          >147 Rat auf Draht - Notrufnummer &amp; Beratung</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.ig-pflege.at/"
+                          >Interessengemeinschaft pflegender Angehöriger</a
+                        ><a
+                          href="https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html"
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </details>
+
+                <details>
+                  <summary class="cursor-pointer">
+                    Warum sind Young Carers schwer zu erreichen?
+                  </summary>
+                  <div>
+                    <p>
+                      Viele Familien sind der Meinung, dass man zusammenhalten
+                      und die Krankheit und damit einhergehende
+                      Herausforderungen und Krisen selbst lösen muss. Das Helfen
+                      innerhalb der Familien wird – auch von den pflegenden
+                      Kindern – als selbstverständlich betrachtet. Young Carers
+                      nehmen sich selbst daher oft nicht als pflegende Kinder
+                      wahr.
+                    </p>
+                  </div>
+                </details>
+
+                <details>
+                  <summary class="cursor-pointer">
+                    Warum ist es wichtig sich als Young Carer Hilfe zu holen?
+                  </summary>
+                  <div>
+                    <p>
+                      Typischerweise kümmern sich Young Carers über einen
+                      längeren Zeitraum regelmäßig um ein erkranktes oder
+                      hilfebedürftiges Familienmitglied. Das ist eine große
+                      Herausforderung, der sich die meisten Kinder und
+                      Jugendlichen nicht stellen müssen. Es ist keine Schande
+                      nicht alles alleine zu schaffen! Achtet darauf und holt
+                      euch rechtzeitig Informationen und Unterstützung.
+                    </p>
+                  </div>
+                </details>
+
+                <details>
+                  <summary class="cursor-pointer">
+                    Was können Erwachsene (z.B. Eltern, Pädagoginnen/Pädagogen)
+                    bei der Begegnung bzw. im Umgang mit Young Carers tun?
+                  </summary>
+                  <div>
+                    <ul>
+                      <li>
+                        Begegnung auf Augenhöhe und mit Wertschätzung –
+                        besonders wegen der Pflegetätigkeit
+                      </li>
+                      <li>
+                        Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote
+                        aufmerksam machen
+                      </li>
+                      <li>
+                        Regelmäßige Nachfrage wie es dem betroffenen Young Carer
+                        geht
+                      </li>
+                      <li>
+                        Austausch mit Expert:innen, z.B.
+                        <a href="https://www.superhands.at">superhands, </a
+                        ><a href="https://www.ig-pflege.at/"
+                          >IG Pflegende Angehörige</a
+                        >,
+                        <a href="https://www.superhands.at">147 Rat auf Draht</a
+                        >, u.a.m
+                      </li>
+                    </ul>
+                  </div>
+                </details>
+              </div>
+              <div class="hidden md:block relative">
+                <ul class="list-none relative">
+                  <li>
+                    <input
+                      class="hidden peer"
+                      type="radio"
+                      id="wohin-koennen-sich-young-carers-wenden-um-hilfe-zu-erhalten"
+                      name="faq-questions"
+                      checked
+                    />
+                    <label
+                      for="wohin-koennen-sich-young-carers-wenden-um-hilfe-zu-erhalten"
+                      class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block"
+                      >Wohin können sich Young Carers wenden um Hilfe zu
+                      erhalten?</label
+                    >
+                    <div
+                      class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5"
+                    >
+                      <p>
+                        Betroffene Kinder und Jugendliche können sich u.a. an
+                        folgende Stellen wenden:
+                      </p>
+                      <ul>
+                        <li>
+                          Angehörigengespräch
+                          <a
+                            href="https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html"
+                            >Betreuende und pflegende Angehörige
+                            (sozialministerium.at)</a
+                          >
+                        </li>
+                        <li>
+                          Superhands – Informationen und Beratung für Kinder und
+                          Jugendliche mit<br />
+                          Pflegeverantwortung sowie deren Angehörige und
+                          Multiplikator:innen
+                          <a href="https://www.superhands.at/"
+                            >Superhands: Hilfe und Rat für Teenager, die
+                            Angehörige pflegen. Kostenlos und anonym.</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://www.jugendrotkreuz.at/"
+                            >Österreichisches Jugendrotkreuz</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://www.rataufdraht.at/"
+                            >147 Rat auf Draht - Notrufnummer &amp; Beratung</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://www.ig-pflege.at/"
+                            >Interessengemeinschaft pflegender Angehöriger</a
+                          ><a
+                            href="https://www.sozialministerium.at/Themen/Pflege/Betreuende-und-Pflegende-Angehoerige.html"
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <input
+                      class="hidden peer"
+                      type="radio"
+                      id="warum-sind-young-carers-schwer-zu-erreichen"
+                      name="faq-questions"
+                    />
+                    <label
+                      for="warum-sind-young-carers-schwer-zu-erreichen"
+                      class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block"
+                      >Warum sind Young Carers schwer zu erreichen?</label
+                    >
+                    <div
+                      class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5"
+                    >
+                      <p>
+                        Viele Familien sind der Meinung, dass man zusammenhalten
+                        und die Krankheit und damit einhergehende
+                        Herausforderungen und Krisen selbst lösen muss. Das
+                        Helfen innerhalb der Familien wird – auch von den
+                        pflegenden Kindern – als selbstverständlich betrachtet.
+                        Young Carers nehmen sich selbst daher oft nicht als
+                        pflegende Kinder wahr.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <input
+                      class="hidden peer"
+                      type="radio"
+                      id="warum-ist-es-wichtig-sich-als-young-carer-hilfe-zu-holen"
+                      name="faq-questions"
+                    />
+                    <label
+                      for="warum-ist-es-wichtig-sich-als-young-carer-hilfe-zu-holen"
+                      class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block"
+                      >Warum ist es wichtig sich als Young Carer Hilfe zu
+                      holen?</label
+                    >
+                    <div
+                      class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5"
+                    >
+                      <p>
+                        Typischerweise kümmern sich Young Carers über einen
+                        längeren Zeitraum regelmäßig um ein erkranktes oder
+                        hilfebedürftiges Familienmitglied. Das ist eine große
+                        Herausforderung, der sich die meisten Kinder und
+                        Jugendlichen nicht stellen müssen. Es ist keine Schande
+                        nicht alles alleine zu schaffen! Achtet darauf und holt
+                        euch rechtzeitig Informationen und Unterstützung.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <input
+                      class="hidden peer"
+                      type="radio"
+                      id="was-koennen-erwachsene-z-b-eltern-paedagoginnen-paedagogen-bei-der-begegnung-bzw-im-umgang-mit-young-carers-tun"
+                      name="faq-questions"
+                    />
+                    <label
+                      for="was-koennen-erwachsene-z-b-eltern-paedagoginnen-paedagogen-bei-der-begegnung-bzw-im-umgang-mit-young-carers-tun"
+                      class="w-2/5 px-5 py-2 rounded-lg shadow-md border border-transparent border-r-8 peer-checked:border-r-red cursor-pointer block"
+                      >Was können Erwachsene (z.B. Eltern,
+                      Pädagoginnen/Pädagogen) bei der Begegnung bzw. im Umgang
+                      mit Young Carers tun?</label
+                    >
+                    <div
+                      class="hidden w-[55%] peer-checked:block peer-checked:absolute top-0 right-0 first-child:text-red -mt-5"
+                    >
+                      <ul>
+                        <li>
+                          Begegnung auf Augenhöhe und mit Wertschätzung –
+                          besonders wegen der Pflegetätigkeit
+                        </li>
+                        <li>
+                          Gespräch suchen, Vertrauen aufbauen, auf Hilfsangebote
+                          aufmerksam machen
+                        </li>
+                        <li>
+                          Regelmäßige Nachfrage wie es dem betroffenen Young
+                          Carer geht
+                        </li>
+                        <li>
+                          Austausch mit Expert:innen, z.B.
+                          <a href="https://www.superhands.at">superhands, </a
+                          ><a href="https://www.ig-pflege.at/"
+                            >IG Pflegende Angehörige</a
+                          >,
+                          <a href="https://www.superhands.at"
+                            >147 Rat auf Draht</a
+                          >, u.a.m
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <p class="text-center md:mt-8">
+                <a href="/faq">Hier gibts noch weitere Fragen</a>
+              </p>
+            </section>
+
+            <section class="max-w-5xl mx-auto">
+              <h2 class="text-center text-darkBlue">
+                Die Young Carers Austria App
+              </h2>
+              <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-2/5 h-auto -rotate-2 mx-[15%] md:mx-0">
+                  <img
+                    src="/assets/yc-app.ios.21aa154c.png"
+                    alt="Young Carers Austria App"
+                  />
+                </div>
+                <div class="md:w-3/5 md:pl-10 flex flex-col items-center">
+                  <div
+                    class="bg-white rounded-xl shadow-2xl relative w-5/6 md:w-4/5 p-5 mb-12"
+                  >
+                    <div
+                      class="absolute font-extrabold text-6xl sm:text-8xl text-darkBlue italic font-serif"
+                    >
+                      "
+                    </div>
+                    <p class="ml-10 mt-6 mb-2 sm:ml-16 sm:mt-8 sm:mb-4">
+                      Eine wirklich gelungene und ansprechende App für Kinder,
+                      Jugendliche, aber auch für Eltern, Großeltern.
+                    </p>
+                  </div>
+
+                  <div
+                    class="bg-white rounded-xl shadow-2xl relative w-5/6 md:w-4/5 p-5 mb-12"
+                  >
+                    <div
+                      class="absolute font-extrabold text-6xl sm:text-8xl text-darkBlue italic font-serif"
+                    >
+                      "
+                    </div>
+                    <p class="ml-10 mt-6 mb-2 sm:ml-16 sm:mt-8 sm:mb-4">
+                      Die App ist übersichtlich gestaltet und Informationen für
+                      zB Notfallsituationen sind schnell und einfach abrufbar.
+                    </p>
+                  </div>
+
+                  <div class="not-prose mt-2">
+                    <a
+                      class="rounded-full bg-red text-white py-3 px-7 no-underline"
+                      href="/app/"
+                      >Zur App</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="max-w-5xl mx-auto">
+              <h2 class="text-center text-darkBlue">
+                Über Young Carers Austria
+              </h2>
+              <div class="flex flex-col-reverse md:flex-row">
+                <div class="md:w-3/5 pr-10">
+                  <p>
+                    Mit der neuen App &quot;YoungCarers Austria&quot; gibt es
+                    eine Informationsquelle die Betroffenen und deren Familien
+                    einen Überblick zu bestehenden (Hilfs-)Angeboten bietet.
+                    Aber auch Eltern, Lehrpersonen oder sonstige
+                    Wegbegleiter:innen können sich auf der Plattform
+                    informieren.
+                  </p>
+                  <p>
+                    Für die Vollständigkeit der Inhalte kann nicht garantiert
+                    werden. Ergänzende Hinweise, Tipps oder Anregungen gerne an
+                    <a href="mailto:yc-support@sozialministerium.at"
+                      >yc-support@sozialministerium.at</a
+                    >
+                    senden.
+                  </p>
+                  <p>
+                    Für die Umsetzung der App ist die Fachhochschule
+                    Oberösterreich/Campus Hagenberg verantwortlich. Betroffene
+                    Jugendliche waren von Beginn an eingebunden. Die App ist
+                    <strong>kostenlos und barrierefrei</strong>.
+                  </p>
+                </div>
+                <div class="md:w-2/5 h-auto">
+                  <img
+                    src="/images/sujets/yc-sujet-österreich.jpg"
+                    alt="/images/sujets/yc-sujet-österreich.jpg"
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div
+      x-show="chatbotOpen"
+      x-description="Chatbot, kann auf- und eingeklappt werden."
+      x-data="chatBot()"
+      x-init="initializeChatbot()"
+      x-transition:enter="ease-out duration-300"
+      x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+      x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+      x-transition:leave="ease-in duration-200"
+      x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+      x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+      class="fixed right-0 bottom-0"
+      style="display: none"
+    >
+      <div
+        class="flex-1 p-1 sm:p-6 justify-between flex flex-col max-h-[90vh] lg:max-h-[65vh] bg-gray-200 rounded-lg shadow-lg m-4"
+      >
+        <div
+          id="messages"
+          class="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch"
+        >
+          <template x-for="(message, key) in messages">
+            <div>
+              <div
+                class="flex items-end"
+                :class="message.from=='bot'?'':'justify-end'"
+              >
+                <div
+                  class="flex flex-col space-y-2 text-md leading-tight max-w-lg mx-2"
+                  :class="message.from=='bot'?'order-2 items-start':'order-1 items-end'"
+                >
+                  <div>
+                    <template x-if="message.from==='user'">
+                      <span
+                        class="px-4 py-3 rounded-xl inline-block rounded-br-none bg-red text-white"
+                        x-html="message.text"
+                      ></span>
+                    </template>
+                    <template x-if="message.type === 'text'">
+                      <span
+                        class="px-4 py-3 rounded-xl inline-block prose rounded-bl-none bg-white text-gray-600 leading-tight"
+                        x-markdown="message.text"
+                      ></span>
+                    </template>
+                    <template x-if="message.type === 'category'">
+                      <div
+                        class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none"
+                      >
+                        <a
+                          class="no-underline"
+                          target="_blank"
+                          :href="'infos/' + window.slugify(message.category.name)"
+                        >
+                          <div class="p-5">
+                            <h3
+                              class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2"
+                              x-html="message.category.name"
+                            ></h3>
+                            <p
+                              class="font-normal my-0 py-0 text-gray-700 decoration-transparent"
+                              x-html="message.category.descriptionPlain.split(/\s+/).slice(0, 55).join(' ') + '…'"
+                            ></p>
+                            <p
+                              class="font-normal uppercase text-right text-xs mt-4 text-gray-400"
+                            >
+                              Kategorie
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </template>
+                    <template x-if="message.type === 'reference'">
+                      <div
+                        class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none"
+                      >
+                        <a
+                          class="no-underline"
+                          target="_blank"
+                          :href="message.reference.address"
+                        >
+                          <img
+                            class="p-0 m-0 rounded-t-lg"
+                            :src="message.reference.image"
+                            alt=""
+                          />
+                          <div class="p-5">
+                            <h3
+                              class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2"
+                              x-html="message.reference.title"
+                            ></h3>
+                            <p
+                              class="font-normal my-0 py-0 text-gray-700 decoration-transparent"
+                              x-html="message.reference.description"
+                            ></p>
+                            <p
+                              class="font-normal uppercase text-right text-xs mt-4 text-gray-400"
+                            >
+                              Beitrag
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </template>
+                    <template x-if="message.type === 'situation'">
+                      <div
+                        class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none"
+                      >
+                        <a
+                          class="no-underline"
+                          target="_blank"
+                          :href="'alltagssituationen/#' + window.slugify(message.situation.name)"
+                        >
+                          <div class="p-5">
+                            <h3
+                              class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2"
+                              x-html="message.situation.name"
+                            ></h3>
+                            <p
+                              class="font-normal my-0 py-0 text-gray-700 decoration-transparent"
+                              x-html="message.situation.contentPlain.split(/\s+/).slice(0, 55).join(' ') + '…'"
+                            ></p>
+                            <p
+                              class="font-normal uppercase text-right text-xs mt-4 text-gray-400"
+                            >
+                              Alltagssituation
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </template>
+                    <template x-if="message.type === 'faq'">
+                      <div
+                        class="bg-white rounded-xl max-w-sm p-0 m-0 rounded-bl-none"
+                      >
+                        <div class="p-5">
+                          <h3
+                            class="my-0 py-0 text-gray-900 font-bold text-2xl tracking-tight mb-2"
+                            x-html="message.faq.question"
+                          ></h3>
+                          <div
+                            class="font-normal prose my-0 mt-2 py-0 text-gray-700 leading-tight decoration-transparent"
+                            x-markdown="message.faq.answerMarkdown"
+                          ></div>
+                          <p
+                            class="font-normal uppercase text-right text-xs mt-4 text-gray-400"
+                          >
+                            FAQ
+                          </p>
+                        </div>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+                <div
+                  x-html="message.from=='bot'?character.emoji:'👤'"
+                  alt=""
+                  class="text-2xl"
+                  :class="message.from=='bot'?'order-1':'order-2'"
+                ></div>
+              </div>
+            </div>
+          </template>
+          <!--<span x-html="prompts"></span>-->
+          <div x-show="botTyping" style="display: none">
+            <div class="flex items-end">
+              <div
+                class="flex flex-col space-y-2 text-md leading-tight mx-2 order-2 items-start"
+              >
+                <div>
+                  <img src="/loading.gif" alt="..." class="w-16 ml-6" />
+                </div>
+                <!-- replace with something like https://codepen.io/bilalck/pen/jdGGNW -->
+              </div>
+            </div>
+          </div>
         </div>
         <div class="border-t-2 border-gray-200 px-4 pt-4 mb-2 sm:mb-0">
-            <div class="relative flex">
-                <input type="text" placeholder="Womit kann ich dir helfen?" autocomplete="off" autofocus="true" @keydown.enter="await fetchAnswer($event.target)" class="text-md w-full focus:outline-none focus:placeholder-gray-400 text-gray-600 placeholder-gray-600 pl-5 pr-16 bg-gray-100 border-2 border-gray-200 focus:border-red rounded-full py-2" x-ref="input" />
-                <div class="absolute right-2 items-center inset-y-0 flex">
-                    <button type="button" class="inline-flex items-center justify-center rounded-full h-8 w-8 transition duration-200 ease-in-out text-white bg-red hover:bg-red focus:outline-none" @click.prevent="await fetchAnswer($refs.input)">
-                        <span>-></span>
-                    </button>
-                </div>
+          <div class="relative flex">
+            <input
+              type="text"
+              placeholder="Womit kann ich dir helfen?"
+              autocomplete="off"
+              autofocus="true"
+              @keydown.enter="await fetchAnswer($event.target)"
+              class="text-md w-full focus:outline-none focus:placeholder-gray-400 text-gray-600 placeholder-gray-600 pl-5 pr-16 bg-gray-100 border-2 border-gray-200 focus:border-red rounded-full py-2"
+              x-ref="input"
+            />
+            <div class="absolute right-2 items-center inset-y-0 flex">
+              <button
+                type="button"
+                class="inline-flex items-center justify-center rounded-full h-8 w-8 transition duration-200 ease-in-out text-white bg-red hover:bg-red focus:outline-none"
+                @click.prevent="await fetchAnswer($refs.input)"
+              >
+                <span>-></span>
+              </button>
             </div>
+          </div>
         </div>
         <div class="absolute right-3 top-3 sm:right-5 sm:top-5">
-          <button @click="chatbotOpen = false" type="button"
-            class="flex rounded-md p-2 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-white">
+          <button
+            @click="chatbotOpen = false"
+            type="button"
+            class="flex rounded-md p-2 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
+          >
             <span class="sr-only"> Chatbot schließen </span>
-            <svg class="h-6 w-6 text-darkBlue" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
-              <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19
+            <svg
+              class="h-6 w-6 text-darkBlue"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="times"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 352 512"
+            >
+              <path
+                fill="currentColor"
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19
                 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28
                 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28
                 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28
                 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28
                 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48
-                0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+                0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              />
             </svg>
           </button>
         </div>
+      </div>
     </div>
-</div>
 
-<script type="text/javascript">
-const CHATBOT_BASE_URL = "https://chatbot.young-carers-austria.at";
+    <script type="text/javascript">
+      const CHATBOT_BASE_URL = "https://chatbot.young-carers-austria.at";
 
-function readJson (url) {
-   return fetch(url)
-   .then(response => {
-    console.log(response)
-       if (!response.ok) {
-           throw new Error("HTTP error " + response.status);
-       }
-       return response.json();
-   })
-}
+      function readJson(url) {
+        return fetch(url).then((response) => {
+          console.log(response);
+          if (!response.ok) {
+            throw new Error("HTTP error " + response.status);
+          }
+          return response.json();
+        });
+      }
 
-function onMessage(target) {
-    console.log(target)
-    if (target.value.trim()) {
-        this.output(target.value.trim());
-        target.value = '';
-    }
-}
+      function onMessage(target) {
+        console.log(target);
+        if (target.value.trim()) {
+          this.output(target.value.trim());
+          target.value = "";
+        }
+      }
 
-function chatBot() {
-    let test = ({
-        botTyping: false,
-        character: undefined,
-        messages: [],
-        output: async function(input) {
+      function chatBot() {
+        let test = {
+          botTyping: false,
+          character: undefined,
+          messages: [],
+          output: async function (input) {
             // add the user's message
             this.messages.push({
-                from: 'user',
-                text: input
-            })
+              from: "user",
+              text: input,
+            });
 
             this.scrollChat();
             this.botTyping = true;
 
             // fetch the messages
-            const response = await fetch(`${CHATBOT_BASE_URL}/answer?idsite=1&message=${encodeURIComponent(input)}`).then(res => res.json());
+            const response = await fetch(
+              `${CHATBOT_BASE_URL}/answer?idsite=1&message=${encodeURIComponent(
+                input
+              )}`
+            ).then((res) => res.json());
 
             // wait between 1s and 5.251s
-            await new Promise(res => setTimeout(res, Math.random() * (5251 - 1000) + 1000))
+            await new Promise((res) =>
+              setTimeout(res, Math.random() * (5251 - 1000) + 1000)
+            );
 
             this.botTyping = false;
 
-            for(const message of response.messages)
-                this.messages.push({
-                    from: 'bot',
-                    ...message
-                });
+            for (const message of response.messages)
+              this.messages.push({
+                from: "bot",
+                ...message,
+              });
 
             //this.scrollChat();
-        },
-        // TODO: remove this
-        addChat: function(input, product) {
-
+          },
+          // TODO: remove this
+          addChat: function (input, product) {
             // Add user message
             this.messages.push({
-                from: 'user',
-                text: input
+              from: "user",
+              text: input,
             });
 
             // Keep messages at most recent
@@ -605,70 +1048,76 @@ function chatBot() {
 
             // Fake delay to seem "real"
             setTimeout(() => {
-                this.botTyping = true;
-                this.scrollChat();
-            }, 1000)
+              this.botTyping = true;
+              this.scrollChat();
+            }, 1000);
 
             // add bit message with Fake delay to seem "real"
             setTimeout(() => {
-                this.botTyping = false;
-                this.messages.push({
-                    from: 'bot',
-                    text: product
-                });
-                this.scrollChat();
-            }, ((product.length / 10) * 1000) + (Math.floor(Math.random() * 2000) + 1500))
-
-        },
-        scrollChat: function() {
+              this.botTyping = false;
+              this.messages.push({
+                from: "bot",
+                text: product,
+              });
+              this.scrollChat();
+            }, (product.length / 10) * 1000 + (Math.floor(Math.random() * 2000) + 1500));
+          },
+          scrollChat: function () {
             const messagesContainer = document.getElementById("messages");
-            messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;
+            messagesContainer.scrollTop =
+              messagesContainer.scrollHeight - messagesContainer.clientHeight;
             setTimeout(() => {
-                messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;
+              messagesContainer.scrollTop =
+                messagesContainer.scrollHeight - messagesContainer.clientHeight;
             }, 100);
-        },
-        fetchAnswer: async function(target) {
+          },
+          fetchAnswer: async function (target) {
             if (target.value.trim()) {
-                await this.output(target.value.trim());
-                target.value = '';
+              await this.output(target.value.trim());
+              target.value = "";
             }
-        },
-        initializeChatbot: async function() {
+          },
+          initializeChatbot: async function () {
             // handle the character
-            this.character = await fetch(`${CHATBOT_BASE_URL}/character`).then(res => res.json())
+            this.character = await fetch(`${CHATBOT_BASE_URL}/character`).then(
+              (res) => res.json()
+            );
 
             // handle the welcome messages
-            const messages = await fetch(`${CHATBOT_BASE_URL}/welcome`).then(res => res.json())
-            for(const message of messages)
-                this.messages.push({
-                    from: 'bot',
-                    ...message
-                });
-        }
-    });
+            const messages = await fetch(`${CHATBOT_BASE_URL}/welcome`).then(
+              (res) => res.json()
+            );
+            for (const message of messages)
+              this.messages.push({
+                from: "bot",
+                ...message,
+              });
+          },
+        };
 
-    return test
-}
-</script>
+        return test;
+      }
+    </script>
 
+    <footer class="bg-darkBlue text-white p-10 dark:prose-invert">
+      <div class="flex flex-col-reverse md:flex-row justify-between">
+        <a href="https://www.sozialministerium.at/">
+          <img
+            class="w-96"
+            src="/assets/BMSGPK_Logo_weiss.986fa647.svg"
+            alt="Logo des österreichischen Sozialministeriums"
+          />
+        </a>
 
-  <footer class="bg-darkBlue text-white p-10 dark:prose-invert">
-  <div class="flex flex-col-reverse md:flex-row justify-between">
-    <a href="https://www.sozialministerium.at/">
-      <img class="w-96" src="/assets/BMSGPK_Logo_weiss.986fa647.svg" alt="Logo des österreichischen Sozialministeriums">
-    </a>
-
-    <nav
-      class="flex flex-wrap justify-center flex-row md:space-x-0 md:flex-col mb-8 md:mb-0 gap-x-3 gap-y-2 md:gap-0 text-right self-center font-light md:gap-y-1">
-      <a href="/impressum/">Impressum</a>
-      <a href="/datenschutzerklärung/">Datenschutzerklärung</a>
-      <a href="/barrierefreiheitserklärung/">Barrierefreiheitserklärung</a>
-      <a href="/copyright/">Copyright</a>
-    </nav>
-  </div>
-</footer>
-
-  
-</body>
-
+        <nav
+          class="flex flex-wrap justify-center flex-row md:space-x-0 md:flex-col mb-8 md:mb-0 gap-x-3 gap-y-2 md:gap-0 text-right self-center font-light md:gap-y-1"
+        >
+          <a href="/impressum/">Impressum</a>
+          <a href="/datenschutzerklärung/">Datenschutzerklärung</a>
+          <a href="/barrierefreiheitserklärung/">Barrierefreiheitserklärung</a>
+          <a href="/copyright/">Copyright</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
